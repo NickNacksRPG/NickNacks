@@ -1,12 +1,5 @@
 #!/usr/bin/env bash
-#
-# update-html-files.sh
-# --------------------
-# • Copies helper scripts (hover-preview, mb-lite, add-expressions)
-# • Injects <link>/<script> tags into every exported *.html
-# • Appends sidebar-toggle code to webpage.js once
-# ------------------------------------------------------------------
-
+# Idempotent helper-injection script for Obsidian export
 set -euo pipefail
 
 ### 0 · Paths -------------------------------------------------------
@@ -17,53 +10,55 @@ JS_DIR="$SCRIPT_DIR/../lib/scripts"
 mkdir -p "$CSS_DIR" "$JS_DIR"
 
 ### 1 · Copy helper assets -----------------------------------------
-cp "$SCRIPT_DIR/hover-preview.css"  "$CSS_DIR/hover-preview.css"
-cp "$SCRIPT_DIR/hover-preview.js"   "$JS_DIR/hover-preview.js"
-cp "$SCRIPT_DIR/mb-lite.js"         "$JS_DIR/mb-lite.js"
-cp "$SCRIPT_DIR/add-expressions.js" "$JS_DIR/add-expressions.js"
+cp -f "$SCRIPT_DIR"/hover-preview.css              "$CSS_DIR/"
+cp -f "$SCRIPT_DIR"/hover-preview.js               "$JS_DIR/"
+cp -f "$SCRIPT_DIR"/mb-lite.js                     "$JS_DIR/"
+cp -f "$SCRIPT_DIR"/add-expressions.js             "$JS_DIR/"
 
-echo "✔ Helper assets copied."
-
-### 2 · Choose sed flavour (GNU vs BSD) ----------------------------
+### 2 · Configure sed (GNU vs BSD) -------------------------------
 if sed --version &>/dev/null; then SED=(sed -i)
 else                               SED=(sed -i '')
 fi
 
-### 3 · Patch every HTML file --------------------------------------
+### 3 · Build helper blocks ----------------------------------------
+read -r -d '' CSS_BLOCK <<'CSS'
+<!-- helper-css-start -->
+<link rel="stylesheet" href="lib/styles/hover-preview.css">
+<!-- helper-css-end -->
+CSS
+
+read -r -d '' JS_BLOCK <<'JS'
+<!-- helper-js-start -->
+<script src="https://cdn.jsdelivr.net/npm/mathjs@11/lib/browser/math.js"></script>
+<script src="lib/scripts/add-expressions.js"></script>
+<script src="lib/scripts/mb-lite.js"></script>
+<script src="lib/scripts/hover-preview.js"></script>
+<!-- helper-js-end -->
+JS
+
+### 4 · Patch every HTML file --------------------------------------
 find "$SCRIPT_DIR/.." -type f -name '*.html' | while read -r file; do
-  echo "• Patching ${file#$SCRIPT_DIR/../}"
+  echo "· Patching ${file#$SCRIPT_DIR/../}"
 
-  # 3a · Remove stale injections from earlier runs
-  "${SED[@]}" '/hover-preview\.css/d;/hover-preview\.js/d;/mb-lite\.js/d;/add-expressions\.js/d;/mathjs@/d' "$file"
+  # 4a · Remove old helper blocks, if present
+  "${SED[@]}" '/<!-- helper-css-start -->/,/<!-- helper-css-end -->/d' "$file"
+  "${SED[@]}" '/<!-- helper-js-start -->/,/<!-- helper-js-end -->/d'   "$file"
 
-  # 3b · Inject CSS just before </head>
-  "${SED[@]}" "s#</head>#<link rel=\"stylesheet\" href=\"lib/styles/hover-preview.css\">\
-</head>#g" "$file"
-
-  # 3c · Inject JS (mathjs → add-expr → mb-lite → hover-preview) before </body>
-  "${SED[@]}" "s#</body>#<script src=\"https://cdn.jsdelivr.net/npm/mathjs@11/lib/browser/math.js\"></script>\
-<script src=\"lib/scripts/add-expressions.js\"></script>\
-<script src=\"lib/scripts/mb-lite.js\"></script>\
-<script src=\"lib/scripts/hover-preview.js\"></script>\
-</body>#g" "$file"
+  # 4b · Inject fresh blocks
+  "${SED[@]}" "0,</head>{s#</head>#$CSS_BLOCK\n</head>#}" "$file"
+  "${SED[@]}" "0,</body>{s#</body>#$JS_BLOCK\n</body>#}"  "$file"
 done
 
-### 4 · Append sidebar-toggle code to webpage.js (only once) -------
-JS_WEB="$JS_DIR/webpage.js"
-echo "▶ Waiting for $JS_WEB …"
+### 5 · Sidebar-toggle once ----------------------------------------
+JS_WEB="$JS_DIR/webpage.js"; MARK='/* custom sidebar toggle  v1 */'
 until [[ -f $JS_WEB ]]; do sleep 0.5; done
 
-MARK='/* custom sidebar toggle  v1 */'
 if ! grep -qF "$MARK" "$JS_WEB"; then
-  echo "• Appending sidebar toggle to webpage.js"
   {
-    echo -e "\n$MARK"
-    echo "(function(){"
+    echo; echo "$MARK"; echo "(function(){"
     sed 's/^/  /' "$SCRIPT_DIR/webpage.js"
     echo "})();"
   } >> "$JS_WEB"
-else
-  echo "• Sidebar code already present — skipping"
 fi
 
-echo "✅  All HTML files and webpage.js updated."
+echo "✅  Update complete."
