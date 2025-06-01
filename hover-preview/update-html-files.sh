@@ -2,7 +2,7 @@
 # update-html-files.sh  –  very-verbose debug build
 set -euo pipefail
 trap 'echo "❌  ERROR line $LINENO : command [$BASH_COMMAND]"' ERR
-set -x   # echo every command
+
 
 ### 0 · Paths -------------------------------------------------------
 SCRIPT_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
@@ -47,7 +47,6 @@ find "$SCRIPT_DIR/.." -type f -name '*.html' | while read -r file; do
 
   # inject CSS once
   if ! grep -qF "$CSS_LINE" "$file"; then
-    echo "  · adding CSS line"
     sed -i.bak "/<\/head>/i\\
 $CSS_LINE" "$file"
     rm -f "${file}.bak"
@@ -57,7 +56,6 @@ $CSS_LINE" "$file"
 
   # inject JS block once
   if ! grep -qF 'lib/scripts/hover-preview.js' "$file"; then
-    echo "  · adding JS block"
     sed -i.bak "/<\/body>/i\\
 $JS_ESCAPED" "$file"
     rm -f "${file}.bak"
