@@ -1,0 +1,248 @@
+/* Hover Preview Styles */
+
+.hover-preview {
+  position: absolute;
+  z-index: 9999;
+  width: 500px;
+  max-width: 90vw;
+  background-color: var(--background-primary);
+  border: 1px solid var(--background-modifier-border);
+  border-radius: var(--radius-m);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  padding: 15px;
+  max-height: 60vh;
+  overflow-y: auto;
+  font-size: 0.9em;
+  line-height: 1.5;
+  opacity: 0;
+  transform: translateY(5px);
+  transition: opacity 0.15s ease, transform 0.15s ease;
+  pointer-events: auto !important;
+  box-sizing: border-box;
+}
+
+/* Nested preview styles */
+.hover-preview.nested-preview {
+  z-index: 10000; /* Higher z-index to appear above other previews */
+  width: 450px; /* Slightly smaller width */
+  max-height: 50vh; /* Slightly smaller height */
+  border-color: var(--text-accent); /* Highlight color border */
+  box-shadow: 0 4px 25px rgba(0, 0, 0, 0.4); /* More pronounced shadow */
+}
+
+.hover-preview.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Preview title */
+.preview-title {
+  margin-top: 0;
+  margin-bottom: 0.8em;
+  font-size: 1.2em;
+  padding-bottom: 0.5em;
+  border-bottom: 1px solid var(--background-modifier-border);
+}
+
+/* Special styling for nested preview titles */
+.nested-preview .preview-title {
+  font-size: 1.1em;
+  margin-bottom: 0.6em;
+  padding-bottom: 0.4em;
+  color: var(--text-accent);
+}
+
+/* Arrow pointing down (when preview is above link) */
+.hover-preview.points-up::after {
+  content: "";
+  position: absolute;
+  bottom: -8px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: 8px solid var(--background-primary);
+  z-index: 1;
+}
+
+/* Arrow pointing up (when preview is below link) */
+.hover-preview.points-down::after {
+  content: "";
+  position: absolute;
+  top: -8px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 8px solid var(--background-primary);
+  z-index: 1;
+}
+
+/* Special arrow styling for nested previews */
+.nested-preview.points-up::after {
+  border-top-color: var(--text-accent);
+}
+
+.nested-preview.points-down::after {
+  border-bottom-color: var(--text-accent);
+}
+
+/* Loading animation */
+.hover-preview-loading {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 40px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.hover-preview-loading div {
+  display: inline-block;
+  position: absolute;
+  top: 15px;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background: var(--interactive-accent);
+  animation-timing-function: cubic-bezier(0, 1, 1, 0);
+}
+
+.hover-preview-loading div:nth-child(1) {
+  left: 8px;
+  animation: hover-preview-loading1 0.6s infinite;
+}
+
+.hover-preview-loading div:nth-child(2) {
+  left: 8px;
+  animation: hover-preview-loading2 0.6s infinite;
+}
+
+.hover-preview-loading div:nth-child(3) {
+  left: 32px;
+  animation: hover-preview-loading2 0.6s infinite;
+}
+
+.hover-preview-loading div:nth-child(4) {
+  left: 56px;
+  animation: hover-preview-loading3 0.6s infinite;
+}
+
+@keyframes hover-preview-loading1 {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes hover-preview-loading3 {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0);
+  }
+}
+
+@keyframes hover-preview-loading2 {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(24px, 0);
+  }
+}
+
+/* Content styles */
+.hover-preview-content {
+  position: relative;
+}
+
+.hover-preview-content img {
+  max-width: 100%;
+  height: auto;
+}
+
+.hover-preview-content * {
+  max-width: 100%;
+}
+
+/* Handle headings */
+.hover-preview-content h1,
+.hover-preview-content h2,
+.hover-preview-content h3,
+.hover-preview-content h4,
+.hover-preview-content h5,
+.hover-preview-content h6 {
+  margin-top: 0.5em;
+  margin-bottom: 0.3em;
+}
+
+/* Handle code blocks */
+.hover-preview-content pre,
+.hover-preview-content code {
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
+}
+
+/* Handle tables */
+.hover-preview-content table {
+  width: 100%;
+  display: block;
+  overflow-x: auto;
+}
+
+.hover-preview .preview-error {
+  color: var(--text-error);
+  text-align: center;
+  padding: 15px;
+  font-style: italic;
+}
+
+.hover-preview .preview-message {
+  color: var(--text-normal);
+  text-align: center;
+  padding: 15px;
+  font-style: italic;
+}
+
+.hover-preview .preview-content {
+  padding: 5px;
+}
+
+/* Bracket link styling */
+.internal-link.bracket-link {
+  color: var(--text-accent);
+  text-decoration: none;
+  border-bottom: 1px dotted var(--text-accent);
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+}
+
+.internal-link.bracket-link:hover {
+  color: var(--text-accent-hover);
+  border-bottom-color: var(--text-accent-hover);
+}
+
+/* Override any global styles that might interfere */
+.internal-link {
+  position: relative;
+}
+
+/* Fix theme-specific compatibility issues */
+body.theme-dark .hover-preview {
+  background-color: var(--background-primary, #2d3032);
+  color: var(--text-normal, #dcddde);
+}
+
+body.theme-light .hover-preview {
+  background-color: var(--background-primary, #ffffff);
+  color: var(--text-normal, #2e3338);
+} 
