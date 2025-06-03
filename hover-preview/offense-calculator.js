@@ -29,12 +29,12 @@ document.addEventListener('DOMContentLoaded', () => {
   const [hitEl, atkEl, defEl, ttkEl] = views;
 
   /* ----- maths -------------------------------------------------- */
-  const hitChance  = () => Math.round((Math.pow(14 / 15, AC() - ACC() - 1) * 100) * 100) / 100;
+  const hitChance  = () => Math.round((Math.pow(14 / 15, ACv() - ACCv() - 1) * 100) * 100) / 100;
   const attackPwr  = () => Math.round((
-      Math.pow(1.07, ACC()) * (DMG() + STR() * STRmult()) * AS()
-    + (CR() * CD() * AS())
+      Math.pow(1.07, ACCv()) * (DMGv() + STRv() * STRm()) * ASv()
+    + (CRv() * CDv() * ASv())
   ) * 10) / 10;
-  const defensePwr = () => Math.round(HP() * Math.pow(1.07, AC()) * 10) / 10;
+  const defensePwr = () => Math.round(HPv() * Math.pow(1.07, ACv()) * 10) / 10;
   const ttk        = () => Math.round((defensePwr() / attackPwr()) * 100) / 100;
 
   /* helpers to coerce NaN → 0 */
