@@ -1,20 +1,56 @@
+name: Deploy to GitHub Pages
+
+# ——————————————————————————————————————————————————————
+# Run automatically on every push to the default branch
+# and manually via the “Run workflow” button.
+# ——————————————————————————————————————————————————————
+on:
+  push:
+    branches: [ "main" ]          # ← change if your default branch is different
+  workflow_dispatch:
+
+# Required permissions for Pages OIDC
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
 jobs:
+  # -----------------------------------------------------------------
+  # Build the site in-place, run your fix-up script, upload artifact
+  # -----------------------------------------------------------------
   pages-build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-      - name: Run hover-preview update script   # <<<
+      - name: Run hover-preview update script
         run: |
           chmod +x hover-preview/update-html-files.sh
           hover-preview/update-html-files.sh
 
-      - uses: actions/upload-pages-artifact@v3
+      # If your exported site lives in a sub-folder, change `path: .`
+      # to that folder (e.g. path: ./site)
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          path: .          # keep whatever path the template used
+          path: .
+
+  # -----------------------------------------------------------------
+  # Publish the artifact to GitHub Pages
+  # -----------------------------------------------------------------
   deploy:
     needs: pages-build
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
     steps:
-      - uses: actions/deploy-pages@v4
-
+      - name: Deploy to GitHub Pages
+        id: deploy
+        uses: actions/deploy-pages@v4
