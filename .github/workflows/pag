@@ -1,0 +1,20 @@
+jobs:
+  pages-build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Run hover-preview update script   # <<<
+        run: |
+          chmod +x hover-preview/update-html-files.sh
+          hover-preview/update-html-files.sh
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: .          # keep whatever path the template used
+  deploy:
+    needs: pages-build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/deploy-pages@v4
+
