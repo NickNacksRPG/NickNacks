@@ -8,44 +8,47 @@ CSS_DIR="$SCRIPT_DIR/../lib/styles"
 JS_DIR="$SCRIPT_DIR/../lib/scripts"
 mkdir -p "$CSS_DIR" "$JS_DIR"
 
-echo "Setting paths..."
+echo "Setting paths …"
 
 ### 1 ·  Copy helper assets ----------------------------------------
-cp -f "$SCRIPT_DIR"/hover-preview.css          "$CSS_DIR/"
-cp -f "$SCRIPT_DIR"/hover-preview.js           "$JS_DIR/"
-cp -f "$SCRIPT_DIR"/offense-calculator.js      "$JS_DIR/"
+cp -f "$SCRIPT_DIR"/hover-preview.css      "$CSS_DIR/"
+cp -f "$SCRIPT_DIR"/styles.css             "$CSS_DIR/meta-bind.css"   # ← NEW
+cp -f "$SCRIPT_DIR"/hover-preview.js       "$JS_DIR/"
+cp -f "$SCRIPT_DIR"/offense-calculator.js  "$JS_DIR/"
 
-echo "Copied assets..."
+echo "Copied assets …"
 
 ### 2 ·  Blocks to inject ------------------------------------------
-
-echo "Setting blocks to inject..."
-
-CSS_LINE='<link rel="stylesheet" href="lib/styles/hover-preview.css">'
+CSS_LINE1='<link rel="stylesheet" href="lib/styles/hover-preview.css">'
+CSS_LINE2='<link rel="stylesheet" href="lib/styles/meta-bind.css">'    # ← NEW
 
 JS_BLOCK=$(cat <<'EOF'
 <script src="lib/scripts/offense-calculator.js"></script>
 <script src="lib/scripts/hover-preview.js"></script>
 EOF
 )
-# Escape new-lines for BSD-sed “\” continuation
+# Escape new-lines for BSD-sed continuation “\”
 JS_ESCAPED=$(printf '%s\n' "$JS_BLOCK" | sed '$!s/$/\\/' )
 
-echo "Patching HTML files..."
+echo "Patching HTML files …"
 
 ### 3 ·  Patch every HTML file -------------------------------------
 find "$SCRIPT_DIR/.." -type f -name '*.html' | while read -r f; do
   # 3a · scrub any previous helper lines
   sed -i.bak \
-      '/hover-preview\.css/d;/hover-preview\.js/d;/offense-calculator\.js/d;/mb-lite\.js/d;/add-expressions\.js/d;/mathjs@/d' \
+      '/hover-preview\.css/d;/meta-bind\.css/d;/hover-preview\.js/d;/offense-calculator\.js/d;/mb-lite\.js/d;/add-expressions\.js/d;/mathjs@/d' \
       "$f" && rm -f "$f.bak"
 
-  # 3b · inject CSS once
-  grep -qF "$CSS_LINE" "$f" || \
+  # 3b · inject CSS (two lines) once each
+  grep -qF "$CSS_LINE1" "$f" || \
     sed -i.bak "/<\/head>/i\\
-$CSS_LINE" "$f" && rm -f "$f.bak"
+$CSS_LINE1" "$f" && rm -f "$f.bak"
 
-  # 3c · inject JS once
+  grep -qF "$CSS_LINE2" "$f" || \
+    sed -i.bak "/<\/head>/i\\
+$CSS_LINE2" "$f" && rm -f "$f.bak"
+
+  # 3c · inject JS block once
   grep -qF 'lib/scripts/offense-calculator.js' "$f" || \
     sed -i.bak "/<\/body>/i\\
 $JS_ESCAPED" "$f" && rm -f "$f.bak"
