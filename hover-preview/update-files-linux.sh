@@ -41,14 +41,20 @@ find "$SCRIPT_DIR/.." -type f -name '*.html' | while read -r f; do
 
   # 3b · inject CSS (two lines) once each
   grep -qF "$CSS_LINE1" "$f" || \
-    sed -i "/<\/head>/i $CSS_LINE1" "$f"
+    sed -i "/<\/head>/i\\
+$CSS_LINE1
+" "$f"
 
   grep -qF "$CSS_LINE2" "$f" || \
-    sed -i "/<\/head>/i $CSS_LINE2" "$f"
+    sed -i "/<\/head>/i\\
+$CSS_LINE2
+" "$f"
 
   # 3c · inject JS block once
   grep -qF 'lib/scripts/offense-calculator.js' "$f" || \
-    sed -i "/<\/body>/i $JS_BLOCK" "$f"
+    sed -i "/<\/body>/i\\
+$JS_BLOCK
+" "$f"
 done
 echo "✔ HTML patched."
 
