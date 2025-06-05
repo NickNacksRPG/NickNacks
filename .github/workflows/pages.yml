@@ -2,7 +2,7 @@ name: Deploy to GitHub Pages
 
 # ——————————————————————————————————————————————————————
 # Run automatically on every push to the default branch
-# and manually via the “Run workflow” button.
+# and manually via the "Run workflow" button.
 # ——————————————————————————————————————————————————————
 on:
   push:
@@ -29,10 +29,10 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Run hover-preview update script
+      - name: Run automated-scripts update script
         run: |
-          chmod +x hover-preview/update-files-linux.sh
-          hover-preview/update-files-linux.sh
+          chmod +x automated-scripts/update-files-linux.sh
+          automated-scripts/update-files-linux.sh
 
       # If your exported site lives in a sub-folder, change `path: .`
       # to that folder (e.g. path: ./site)

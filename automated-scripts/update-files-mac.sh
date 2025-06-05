@@ -15,19 +15,22 @@ cp -f "$SCRIPT_DIR"/hover-preview.css      "$CSS_DIR/"
 cp -f "$SCRIPT_DIR"/styles.css             "$CSS_DIR/meta-bind.css"   # ← NEW
 cp -f "$SCRIPT_DIR"/hover-preview.js       "$JS_DIR/"
 cp -f "$SCRIPT_DIR"/offense-calculator.js  "$JS_DIR/"
+cp -f "$SCRIPT_DIR"/automated-scripts.css      "$CSS_DIR/"
+cp -f "$SCRIPT_DIR"/automated-scripts.js       "$JS_DIR/"
 
 echo "Copied assets …"
 
 ### 2 ·  Blocks to inject ------------------------------------------
-CSS_LINE1='<link rel="stylesheet" href="lib/styles/hover-preview.css">'
+CSS_LINE1='<link rel="stylesheet" href="lib/styles/automated-scripts.css">'
 CSS_LINE2='<link rel="stylesheet" href="lib/styles/meta-bind.css">'    # ← NEW
 
 JS_BLOCK=$(cat <<'EOF'
 <script src="lib/scripts/offense-calculator.js"></script>
 <script src="lib/scripts/hover-preview.js"></script>
+<script src="lib/scripts/automated-scripts.js"></script>
 EOF
 )
-# Escape new-lines for BSD-sed continuation “\”
+# Escape new-lines for BSD-sed continuation "
 JS_ESCAPED=$(printf '%s\n' "$JS_BLOCK" | sed '$!s/$/\\/' )
 
 echo "Patching HTML files …"
@@ -36,7 +39,7 @@ echo "Patching HTML files …"
 find "$SCRIPT_DIR/.." -type f -name '*.html' | while read -r f; do
   # 3a · scrub any previous helper lines
   sed -i.bak \
-      '/hover-preview\.css/d;/meta-bind\.css/d;/hover-preview\.js/d;/offense-calculator\.js/d;/mb-lite\.js/d;/add-expressions\.js/d;/mathjs@/d' \
+      '/hover-preview\.css/d;/meta-bind\.css/d;/hover-preview\.js/d;/offense-calculator\.js/d;/mb-lite\.js/d;/add-expressions\.js/d;/mathjs@/d;/automated-scripts\.css/d;/automated-scripts\.js/d' \
       "$f" && rm -f "$f.bak"
 
   # 3b · inject CSS (two lines) once each
