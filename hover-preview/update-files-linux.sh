@@ -33,10 +33,14 @@ for asset in "${required_assets[@]}"; do
 done
 
 log "Copying helper assets …"
-cp -fv "$SCRIPT_DIR"/hover-preview.css      "$CSS_DIR/" | DBG
-cp -fv "$SCRIPT_DIR"/styles.css             "$CSS_DIR/meta-bind.css" | DBG   # ← NEW
-cp -fv "$SCRIPT_DIR"/hover-preview.js       "$JS_DIR/" | DBG
-cp -fv "$SCRIPT_DIR"/offense-calculator.js  "$JS_DIR/" | DBG
+cp -fv "$SCRIPT_DIR"/hover-preview.css      "$CSS_DIR/"
+DBG "Copied hover-preview.css"
+cp -fv "$SCRIPT_DIR"/styles.css             "$CSS_DIR/meta-bind.css"   # ← NEW
+DBG "Copied styles.css as meta-bind.css"
+cp -fv "$SCRIPT_DIR"/hover-preview.js       "$JS_DIR/"
+DBG "Copied hover-preview.js"
+cp -fv "$SCRIPT_DIR"/offense-calculator.js  "$JS_DIR/"
+DBG "Copied offense-calculator.js"
 log "Assets copied."
 
 #############################################
