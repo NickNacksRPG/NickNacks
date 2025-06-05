@@ -1,17 +1,15 @@
 #!/usr/bin/env bash
-# update-html-files.sh – Linux-only, idempotent, CI-safe, and verbose-debug capable
-#   · Space-/newline-safe iteration
-#   · Asset & timeout guards
-#   · Optional DEBUG=1 for per-file chatter, or always-on high-level logs
+# update-html-files.sh – Linux-only, idempotent, CI‑safe, with optional DEBUG chatter.
+# v1.2  — Fixed pipeline‑exit bug that surfaced on GitHub Actions.
 
 set -euo pipefail
 
 #############################################
 # 0 · Utilities & configuration
 #############################################
-# Log helper – always prints; if DEBUG=1 also echoes to stderr with `set -x` style detail.
 log() { printf '[%(%F %T)T] %s\n' -1 "$*"; }
-DBG() { [[ -n ${DEBUG:-} ]] && log "DEBUG: $*"; }
+# DBG now **always** returns 0 so that piping into it never breaks set -e -o pipefail
+DBG() { [[ -n ${DEBUG:-} ]] && log "DEBUG: $*"; return 0; }
 
 TIMEOUT_SEC=30           # seconds to wait for $WEB_JS to appear
 POLL_INTERVAL=0.5        # seconds between checks
@@ -55,68 +53,40 @@ EOF
 log "Injection blocks prepared."
 
 #############################################
-# 3 · Patch every HTML file (space-safe)
+# 3 · Patch every HTML file (space‑safe)
 #############################################
 log "Scanning for HTML files …"
 count_html=0
-# Create a temporary directory for our work
 TMP_DIR=$(mktemp -d)
 trap 'rm -rf "$TMP_DIR"' EXIT
 
-# First, let's verify we can find HTML files
 if ! find "$SCRIPT_DIR/.." -type f -name '*.html' -print0 | grep -q .; then
-    log "❌ No HTML files found in $SCRIPT_DIR/.."
-    exit 1
+    log "❌ No HTML files found in $SCRIPT_DIR/.."; exit 1
 fi
 
-log "Found HTML files, beginning patch process..."
+log "Found HTML files, beginning patch process …"
 find "$SCRIPT_DIR/.." -type f -name '*.html' -print0 |
 while IFS= read -r -d '' f; do
     ((count_html++)) || true
     DBG "Processing file $count_html: $f"
-    
-    # Create a unique temp file for this iteration
+
     tmp_file="$TMP_DIR/$(basename "$f").tmp"
-    
+
     # 3a · purge old helper lines
-    if ! sed '/hover-preview\.css\|meta-bind\.css\|hover-preview\.js\|offense-calculator\.js\|mb-lite\.js\|add-expressions\.js\|mathjs@/d' "$f" > "$tmp_file"; then
-        log "❌ Failed to purge old helper lines from $f"
-        continue
-    fi
+    sed '/hover-preview\.css\|meta-bind\.css\|hover-preview\.js\|offense-calculator\.js\|mb-lite\.js\|add-expressions\.js\|mathjs@/d' "$f" > "$tmp_file"
 
     # 3b · Inject CSS once each
-    if ! grep -qF "$CSS_LINE1" "$tmp_file"; then
-        if ! awk -v css="$CSS_LINE1" '/<\/head>/ {print css} {print}' "$tmp_file" > "$f.tmp"; then
-            log "❌ Failed to inject first CSS line into $f"
-            continue
-        fi
-        mv "$f.tmp" "$f"
-    fi
-
-    if ! grep -qF "$CSS_LINE2" "$f"; then
-        if ! awk -v css="$CSS_LINE2" '/<\/head>/ {print css} {print}' "$f" > "$f.tmp"; then
-            log "❌ Failed to inject second CSS line into $f"
-            continue
-        fi
-        mv "$f.tmp" "$f"
-    fi
+    grep -qF "$CSS_LINE1" "$tmp_file" || awk -v css="$CSS_LINE1" '/<\/head>/ {print css} {print}' "$tmp_file" > "$f.tmp" && mv "$f.tmp" "$f" && cp "$f" "$tmp_file"
+    grep -qF "$CSS_LINE2" "$tmp_file" || awk -v css="$CSS_LINE2" '/<\/head>/ {print css} {print}' "$tmp_file" > "$f.tmp" && mv "$f.tmp" "$f" && cp "$f" "$tmp_file"
 
     # 3c · Inject JS block once
-    if ! grep -qF 'lib/scripts/offense-calculator.js' "$f"; then
-        if ! awk -v js="$JS_BLOCK" '/<\/body>/ {print js} {print}' "$f" > "$f.tmp"; then
-            log "❌ Failed to inject JS block into $f"
-            continue
-        fi
-        mv "$f.tmp" "$f"
-    fi
-    
+    grep -qF 'lib/scripts/offense-calculator.js' "$tmp_file" || awk -v js="$JS_BLOCK" '/<\/body>/ {print js} {print}' "$tmp_file" > "$f.tmp" && mv "$f.tmp" "$f"
+
     DBG "Successfully processed $f"
 done
 
-# Check if we processed any files
 if [ "$count_html" -eq 0 ]; then
-    log "❌ No HTML files were processed"
-    exit 1
+    log "❌ No HTML files were processed"; exit 1
 fi
 
 log "✔ Patched $count_html HTML file(s)."
