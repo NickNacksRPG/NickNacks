@@ -59,20 +59,66 @@ log "Injection blocks prepared."
 #############################################
 log "Scanning for HTML files …"
 count_html=0
+# Create a temporary directory for our work
+TMP_DIR=$(mktemp -d)
+trap 'rm -rf "$TMP_DIR"' EXIT
+
+# First, let's verify we can find HTML files
+if ! find "$SCRIPT_DIR/.." -type f -name '*.html' -print0 | grep -q .; then
+    log "❌ No HTML files found in $SCRIPT_DIR/.."
+    exit 1
+fi
+
+log "Found HTML files, beginning patch process..."
 find "$SCRIPT_DIR/.." -type f -name '*.html' -print0 |
 while IFS= read -r -d '' f; do
-  ((count_html++)) || true
-  DBG "Patching: $f"
-  # 3a · purge old helper lines
-  sed -i '/hover-preview\.css\|meta-bind\.css\|hover-preview\.js\|offense-calculator\.js\|mb-lite\.js\|add-expressions\.js\|mathjs@/d' "$f"
+    ((count_html++)) || true
+    DBG "Processing file $count_html: $f"
+    
+    # Create a unique temp file for this iteration
+    tmp_file="$TMP_DIR/$(basename "$f").tmp"
+    
+    # 3a · purge old helper lines
+    if ! sed '/hover-preview\.css\|meta-bind\.css\|hover-preview\.js\|offense-calculator\.js\|mb-lite\.js\|add-expressions\.js\|mathjs@/d' "$f" > "$tmp_file"; then
+        log "❌ Failed to purge old helper lines from $f"
+        continue
+    fi
 
-  # 3b · Inject CSS once each
-  grep -qF "$CSS_LINE1" "$f" || awk -v css="$CSS_LINE1" '/<\/head>/ {print css} {print}' "$f" >"$f.tmp" && mv "$f.tmp" "$f"
-  grep -qF "$CSS_LINE2" "$f" || awk -v css="$CSS_LINE2" '/<\/head>/ {print css} {print}' "$f" >"$f.tmp" && mv "$f.tmp" "$f"
+    # 3b · Inject CSS once each
+    if ! grep -qF "$CSS_LINE1" "$tmp_file"; then
+        if ! awk -v css="$CSS_LINE1" '/<\/head>/ {print css} {print}' "$tmp_file" > "$f.tmp"; then
+            log "❌ Failed to inject first CSS line into $f"
+            continue
+        fi
+        mv "$f.tmp" "$f"
+    fi
 
-  # 3c · Inject JS block once
-  grep -qF 'lib/scripts/offense-calculator.js' "$f" || awk -v js="$JS_BLOCK" '/<\/body>/ {print js} {print}' "$f" >"$f.tmp" && mv "$f.tmp" "$f"
- done
+    if ! grep -qF "$CSS_LINE2" "$f"; then
+        if ! awk -v css="$CSS_LINE2" '/<\/head>/ {print css} {print}' "$f" > "$f.tmp"; then
+            log "❌ Failed to inject second CSS line into $f"
+            continue
+        fi
+        mv "$f.tmp" "$f"
+    fi
+
+    # 3c · Inject JS block once
+    if ! grep -qF 'lib/scripts/offense-calculator.js' "$f"; then
+        if ! awk -v js="$JS_BLOCK" '/<\/body>/ {print js} {print}' "$f" > "$f.tmp"; then
+            log "❌ Failed to inject JS block into $f"
+            continue
+        fi
+        mv "$f.tmp" "$f"
+    fi
+    
+    DBG "Successfully processed $f"
+done
+
+# Check if we processed any files
+if [ "$count_html" -eq 0 ]; then
+    log "❌ No HTML files were processed"
+    exit 1
+fi
+
 log "✔ Patched $count_html HTML file(s)."
 
 #############################################
