@@ -1,66 +1,100 @@
 #!/usr/bin/env bash
-# update-html-files.sh  –  Linux, idempotent
+# update-html-files.sh – Linux-only, idempotent, CI-safe, and verbose-debug capable
+#   · Space-/newline-safe iteration
+#   · Asset & timeout guards
+#   · Optional DEBUG=1 for per-file chatter, or always-on high-level logs
+
 set -euo pipefail
 
-### 0 ·  Paths ------------------------------------------------------
+#############################################
+# 0 · Utilities & configuration
+#############################################
+# Log helper – always prints; if DEBUG=1 also echoes to stderr with `set -x` style detail.
+log() { printf '[%(%F %T)T] %s\n' -1 "$*"; }
+DBG() { [[ -n ${DEBUG:-} ]] && log "DEBUG: $*"; }
+
+TIMEOUT_SEC=30           # seconds to wait for $WEB_JS to appear
+POLL_INTERVAL=0.5        # seconds between checks
+
 SCRIPT_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
 CSS_DIR="$SCRIPT_DIR/../lib/styles"
 JS_DIR="$SCRIPT_DIR/../lib/scripts"
 mkdir -p "$CSS_DIR" "$JS_DIR"
 
-echo "Setting paths …"
+log "Paths set: SCRIPT_DIR=$SCRIPT_DIR, CSS_DIR=$CSS_DIR, JS_DIR=$JS_DIR"
 
-### 1 ·  Copy helper assets ----------------------------------------
-cp -f "$SCRIPT_DIR"/hover-preview.css      "$CSS_DIR/"
-cp -f "$SCRIPT_DIR"/styles.css             "$CSS_DIR/meta-bind.css"   # ← NEW
-cp -f "$SCRIPT_DIR"/hover-preview.js       "$JS_DIR/"
-cp -f "$SCRIPT_DIR"/offense-calculator.js  "$JS_DIR/"
+#############################################
+# 1 · Copy helper assets
+#############################################
+required_assets=(hover-preview.css styles.css hover-preview.js offense-calculator.js)
+for asset in "${required_assets[@]}"; do
+  src="$SCRIPT_DIR/$asset"
+  [[ -f $src ]] || { log "❌ Missing asset: $src"; exit 1; }
+done
 
-echo "Copied assets …"
+log "Copying helper assets …"
+cp -fv "$SCRIPT_DIR"/hover-preview.css      "$CSS_DIR/" | DBG
+cp -fv "$SCRIPT_DIR"/styles.css             "$CSS_DIR/meta-bind.css" | DBG   # ← NEW
+cp -fv "$SCRIPT_DIR"/hover-preview.js       "$JS_DIR/" | DBG
+cp -fv "$SCRIPT_DIR"/offense-calculator.js  "$JS_DIR/" | DBG
+log "Assets copied."
 
-### 2 ·  Blocks to inject ------------------------------------------
+#############################################
+# 2 · Blocks to inject
+#############################################
 CSS_LINE1='<link rel="stylesheet" href="lib/styles/hover-preview.css">'
-CSS_LINE2='<link rel="stylesheet" href="lib/styles/meta-bind.css">'    # ← NEW
-
-JS_BLOCK=$(cat <<'EOF'
+CSS_LINE2='<link rel="stylesheet" href="lib/styles/meta-bind.css">'
+read -r -d '' JS_BLOCK <<'EOF'
 <script src="lib/scripts/offense-calculator.js"></script>
 <script src="lib/scripts/hover-preview.js"></script>
 EOF
-)
-# Escape new-lines for GNU sed continuation "\n"
-JS_ESCAPED=$(printf '%s\n' "$JS_BLOCK")
+log "Injection blocks prepared."
 
-echo "Patching HTML files …"
+#############################################
+# 3 · Patch every HTML file (space-safe)
+#############################################
+log "Scanning for HTML files …"
+count_html=0
+find "$SCRIPT_DIR/.." -type f -name '*.html' -print0 |
+while IFS= read -r -d '' f; do
+  ((count_html++)) || true
+  DBG "Patching: $f"
+  # 3a · purge old helper lines
+  sed -i '/hover-preview\.css\|meta-bind\.css\|hover-preview\.js\|offense-calculator\.js\|mb-lite\.js\|add-expressions\.js\|mathjs@/d' "$f"
 
-### 3 ·  Patch every HTML file -------------------------------------
-find "$SCRIPT_DIR/.." -type f -name '*.html' | while read -r f; do
-  # 3a · scrub any previous helper lines
-  sed -i \
-      '/hover-preview\.css/d;/meta-bind\.css/d;/hover-preview\.js/d;/offense-calculator\.js/d;/mb-lite\.js/d;/add-expressions\.js/d;/mathjs@/d' \
-      "$f"
+  # 3b · Inject CSS once each
+  grep -qF "$CSS_LINE1" "$f" || awk -v css="$CSS_LINE1" '/<\/head>/ {print css} {print}' "$f" >"$f.tmp" && mv "$f.tmp" "$f"
+  grep -qF "$CSS_LINE2" "$f" || awk -v css="$CSS_LINE2" '/<\/head>/ {print css} {print}' "$f" >"$f.tmp" && mv "$f.tmp" "$f"
 
-  # 3b · inject CSS (two lines) once each
-  grep -qF "$CSS_LINE1" "$f" || \
-    awk -v css="$CSS_LINE1" '/<\/head>/ { print css; } { print }' "$f" > "$f.tmp" && mv "$f.tmp" "$f"
+  # 3c · Inject JS block once
+  grep -qF 'lib/scripts/offense-calculator.js' "$f" || awk -v js="$JS_BLOCK" '/<\/body>/ {print js} {print}' "$f" >"$f.tmp" && mv "$f.tmp" "$f"
+ done
+log "✔ Patched $count_html HTML file(s)."
 
-  grep -qF "$CSS_LINE2" "$f" || \
-    awk -v css="$CSS_LINE2" '/<\/head>/ { print css; } { print }' "$f" > "$f.tmp" && mv "$f.tmp" "$f"
-
-  # 3c · inject JS block once
-  grep -qF 'lib/scripts/offense-calculator.js' "$f" || \
-    awk -v js="$JS_BLOCK" '/<\/body>/ { print js; } { print }' "$f" > "$f.tmp" && mv "$f.tmp" "$f"
-done
-echo "✔ HTML patched."
-
-### 4 ·  Sidebar-toggle once ---------------------------------------
+#############################################
+# 4 · Sidebar toggle once (guarded wait)
+#############################################
 MARK='/* custom sidebar toggle  v1 */'
 WEB_JS="$JS_DIR/webpage.js"
-until [[ -f $WEB_JS ]]; do sleep 0.5; done
-grep -qF "$MARK" "$WEB_JS" || {
+SOURCE_WEB_JS="$SCRIPT_DIR/webpage.js"
+[[ -f $SOURCE_WEB_JS ]] || { log "❌ Missing source: $SOURCE_WEB_JS"; exit 1; }
+
+log "Ensuring sidebar toggle in $WEB_JS (timeout ${TIMEOUT_SEC}s) …"
+elapsed=0
+while [[ ! -f $WEB_JS && $(printf '%.0f' "$elapsed") -lt $TIMEOUT_SEC ]]; do
+  sleep "$POLL_INTERVAL"
+  elapsed=$(awk "BEGIN{print $elapsed+$POLL_INTERVAL}")
+  DBG "Waiting for $WEB_JS … ${elapsed}s elapsed"
+ done
+[[ -f $WEB_JS ]] || { log "❌ Timeout waiting for $WEB_JS"; exit 1; }
+
+grep -qF "$MARK" "$WEB_JS" && log "Sidebar toggle already present." || {
+  log "Injecting sidebar toggle …"
   {
     printf '\n%s\n(function(){\n' "$MARK"
-    sed 's/^/  /' "$SCRIPT_DIR/webpage.js"
+    sed 's/^/  /' "$SOURCE_WEB_JS"
     echo '})();'
   } >> "$WEB_JS"
 }
-echo "✅  All done."
+
+log "✅ Script finished successfully."
