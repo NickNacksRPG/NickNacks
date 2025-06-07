@@ -16,6 +16,7 @@ POLL_INTERVAL=0.5   # seconds between checks
 SCRIPT_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
 CSS_DIR="$SCRIPT_DIR/../lib/styles"
 JS_DIR="$SCRIPT_DIR/../lib/scripts"
+ICONS_DIR="$SCRIPT_DIR/../lib/media"
 mkdir -p "$CSS_DIR" "$JS_DIR"
 
 log "Paths set: SCRIPT_DIR=$SCRIPT_DIR, CSS_DIR=$CSS_DIR, JS_DIR=$JS_DIR"
@@ -33,6 +34,7 @@ cp -fv "$SCRIPT_DIR/hover-preview.css"      "$CSS_DIR/" && DBG "Copied hover-pre
 cp -fv "$SCRIPT_DIR/styles.css"             "$CSS_DIR/meta-bind.css" && DBG "Copied styles.css → meta-bind.css"
 cp -fv "$SCRIPT_DIR/hover-preview.js"       "$JS_DIR/" && DBG "Copied hover-preview.js"
 cp -fv "$SCRIPT_DIR/offense-calculator.js"  "$JS_DIR/" && DBG "Copied offense-calculator.js"
+cp -fv "$SCRIPT_DIR/favicon.png"            "$ICONS_DIR/favicon.png" && DBG "Copied favicon.png"
 log "Assets copied."
 
 #############################################
