@@ -1,6 +1,6 @@
 {
   "vaultName": "Malon's Marvelous Misadventures",
-  "lastExport": 1748748860120,
+  "lastExport": 1749118957271,
   "pluginVersion": "1.8.01",
   "validBodyClasses": "publish css-settings-manager theme-dark show-inline-title show-ribbon",
   "useCustomHeadContent": false,
@@ -26,6 +26,7 @@
     "Core Rules, How to Play/Abbreviations and Terminology/ACC.md",
     "Core Rules, How to Play/Abbreviations and Terminology/AoE.md",
     "Core Rules, How to Play/Abbreviations and Terminology/CC.md",
+    "Core Rules, How to Play/Abbreviations and Terminology/Circumstance.md",
     "Core Rules, How to Play/Abbreviations and Terminology/DC.md",
     "Core Rules, How to Play/Abbreviations and Terminology/DM.md",
     "Core Rules, How to Play/Abbreviations and Terminology/Initiative.md",
@@ -33,7 +34,9 @@
     "Core Rules, How to Play/Abbreviations and Terminology/Natural.md",
     "Core Rules, How to Play/Abbreviations and Terminology/NPC.md",
     "Core Rules, How to Play/Abbreviations and Terminology/PC.md",
+    "Core Rules, How to Play/Abbreviations and Terminology/Potency.md",
     "Core Rules, How to Play/Abbreviations and Terminology/Roll.md",
+    "Core Rules, How to Play/Abbreviations and Terminology/SP.md",
     "Core Rules, How to Play/Abbreviations and Terminology/Threaten.md",
     "Core Rules, How to Play/Ability Scores/Ability Scores.md",
     "Core Rules, How to Play/Ability Scores/Carry Weight.md",
@@ -146,6 +149,7 @@
     "Core Rules, How to Play/Status Effects/Grounded.md",
     "Core Rules, How to Play/Status Effects/Held Down.md",
     "Core Rules, How to Play/Status Effects/Invincible.md",
+    "Core Rules, How to Play/Status Effects/Invisible.md",
     "Core Rules, How to Play/Status Effects/Knocked Down.md",
     "Core Rules, How to Play/Status Effects/Mindless.md",
     "Core Rules, How to Play/Status Effects/Necrosed.md",
@@ -205,6 +209,7 @@
     "Core Rules, How to Play/Tags/Teleportation.md",
     "Core Rules, How to Play/Tags/Water.md",
     "Core Rules, How to Play/Rolling Dice and Statistics.md",
+    "Game Design Rambling/Difficulty and Integrity.md",
     "Game Design Rambling/Math and Worldbuilding.md",
     "Images/nice.png",
     "Skills/Acrobatics/Acrobatics.md",
@@ -268,6 +273,8 @@
     "Skills/Medicine/Prevent Recovery.md",
     "Skills/Medicine/Provide First Aid.md",
     "Skills/Persuasion/Coax.md",
+    "Skills/Persuasion/Example DCs.md",
+    "Skills/Persuasion/Gather Information.md",
     "Skills/Persuasion/Persuasion.md",
     "Skills/Group Checks.md",
     "Skills/Proficiency.md",
@@ -343,169 +350,169 @@
   ],
   "fileInfo": {
     "lib/scripts/graph-wasm.wasm": {
-      "modifiedTime": 1748748860120,
+      "modifiedTime": 1749118957271,
       "sourceSize": 23377,
       "exportedPath": "lib/scripts/graph-wasm.wasm",
       "dependencies": []
     },
     "lib/fonts/94f2f163d4b698242fef.otf": {
-      "modifiedTime": 1748748860120,
+      "modifiedTime": 1749118957271,
       "sourceSize": 66800,
       "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
       "dependencies": []
     },
     "lib/fonts/72505e6a122c6acd5471.woff2": {
-      "modifiedTime": 1748748860120,
+      "modifiedTime": 1749118957271,
       "sourceSize": 104232,
       "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
       "dependencies": []
     },
     "lib/fonts/2d5198822ab091ce4305.woff2": {
-      "modifiedTime": 1748748860120,
+      "modifiedTime": 1749118957271,
       "sourceSize": 104332,
       "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
       "dependencies": []
     },
     "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
-      "modifiedTime": 1748748860120,
+      "modifiedTime": 1749118957271,
       "sourceSize": 98868,
       "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
       "dependencies": []
     },
     "lib/fonts/cb10ffd7684cd9836a05.woff2": {
-      "modifiedTime": 1748748860120,
+      "modifiedTime": 1749118957271,
       "sourceSize": 106876,
       "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
       "dependencies": []
     },
     "lib/fonts/b5f0f109bc88052d4000.woff2": {
-      "modifiedTime": 1748748860120,
+      "modifiedTime": 1749118957271,
       "sourceSize": 105804,
       "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
       "dependencies": []
     },
     "lib/fonts/cbe0ae49c52c920fd563.woff2": {
-      "modifiedTime": 1748748860120,
+      "modifiedTime": 1749118957271,
       "sourceSize": 106108,
       "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
       "dependencies": []
     },
     "lib/fonts/535a6cf662596b3bd6a6.woff2": {
-      "modifiedTime": 1748748860120,
+      "modifiedTime": 1749118957271,
       "sourceSize": 111708,
       "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
       "dependencies": []
     },
     "lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1748748860120,
+      "modifiedTime": 1749118957271,
       "sourceSize": 192740,
       "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
       "dependencies": []
     },
     "lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1748748860120,
+      "modifiedTime": 1749118957271,
       "sourceSize": 161376,
       "exportedPath": "lib/fonts/454577c22304619db035.ttf",
       "dependencies": []
     },
     "lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1748748860120,
+      "modifiedTime": 1749118957271,
       "sourceSize": 191568,
       "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
       "dependencies": []
     },
     "lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1748748860120,
+      "modifiedTime": 1749118957271,
       "sourceSize": 155288,
       "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
       "dependencies": []
     },
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1748748860120,
+      "modifiedTime": 1749118957271,
       "sourceSize": 7876,
       "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
       "dependencies": []
     },
     "lib/media/6155340132a851f6089e.svg": {
-      "modifiedTime": 1748748860120,
+      "modifiedTime": 1749118957271,
       "sourceSize": 315,
       "exportedPath": "lib/media/6155340132a851f6089e.svg",
       "dependencies": []
     },
     "lib/html/file-tree.html": {
-      "modifiedTime": 1748748860120,
-      "sourceSize": 254278,
+      "modifiedTime": 1749118957271,
+      "sourceSize": 259448,
       "exportedPath": "lib/html/file-tree.html",
       "dependencies": []
     },
     "lib/scripts/webpage.js": {
-      "modifiedTime": 1748748860120,
+      "modifiedTime": 1749118957271,
       "sourceSize": 47290,
       "exportedPath": "lib/scripts/webpage.js",
       "dependencies": []
     },
     "lib/scripts/graph-view.js": {
-      "modifiedTime": 1748748860120,
+      "modifiedTime": 1749118957271,
       "sourceSize": 15519,
       "exportedPath": "lib/scripts/graph-view.js",
       "dependencies": []
     },
     "lib/scripts/graph-wasm.js": {
-      "modifiedTime": 1748748860120,
+      "modifiedTime": 1749118957271,
       "sourceSize": 14021,
       "exportedPath": "lib/scripts/graph-wasm.js",
       "dependencies": []
     },
     "lib/scripts/graph-render-worker.js": {
-      "modifiedTime": 1748748860120,
+      "modifiedTime": 1749118957271,
       "sourceSize": 5179,
       "exportedPath": "lib/scripts/graph-render-worker.js",
       "dependencies": []
     },
     "lib/scripts/tinycolor.js": {
-      "modifiedTime": 1748748860120,
+      "modifiedTime": 1749118957271,
       "sourceSize": 29832,
       "exportedPath": "lib/scripts/tinycolor.js",
       "dependencies": []
     },
     "lib/scripts/pixi.js": {
-      "modifiedTime": 1748748860120,
+      "modifiedTime": 1749118957271,
       "sourceSize": 449509,
       "exportedPath": "lib/scripts/pixi.js",
       "dependencies": []
     },
     "lib/scripts/minisearch.js": {
-      "modifiedTime": 1748748860120,
+      "modifiedTime": 1749118957271,
       "sourceSize": 29422,
       "exportedPath": "lib/scripts/minisearch.js",
       "dependencies": []
     },
     "lib/media/favicon.png": {
-      "modifiedTime": 1748748860120,
+      "modifiedTime": 1749118957271,
       "sourceSize": 1105,
       "exportedPath": "lib/media/favicon.png",
       "dependencies": []
     },
     "lib/scripts/graph-data.js": {
-      "modifiedTime": 1748748860120,
-      "sourceSize": 27841,
+      "modifiedTime": 1749118957271,
+      "sourceSize": 27028,
       "exportedPath": "lib/scripts/graph-data.js",
       "dependencies": []
     },
     "lib/styles/obsidian.css": {
-      "modifiedTime": 1748748860120,
+      "modifiedTime": 1749118957271,
       "sourceSize": 138258,
       "exportedPath": "lib/styles/obsidian.css",
       "dependencies": []
     },
     "lib/styles/theme.css": {
-      "modifiedTime": 1748748860120,
+      "modifiedTime": 1749118957271,
       "sourceSize": 11610,
       "exportedPath": "lib/styles/theme.css",
       "dependencies": []
     },
     "lib/styles/global-variable-styles.css": {
-      "modifiedTime": 1748748860120,
+      "modifiedTime": 1749118957271,
       "sourceSize": 262,
       "exportedPath": "lib/styles/global-variable-styles.css",
       "dependencies": []
@@ -517,7 +524,7 @@
       "dependencies": []
     },
     "lib/styles/main-styles.css": {
-      "modifiedTime": 1748748860120,
+      "modifiedTime": 1749118957271,
       "sourceSize": 23130,
       "exportedPath": "lib/styles/main-styles.css",
       "dependencies": []
@@ -679,20 +686,20 @@
       "dependencies": []
     },
     "Core Rules, How to Play/Ability Scores/CHA.md": {
-      "modifiedTime": 1746932112652,
-      "sourceSize": 360,
+      "modifiedTime": 1749118957271,
+      "sourceSize": 492,
       "exportedPath": "core-rules,-how-to-play/ability-scores/cha.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Ability Scores/DEX.md": {
-      "modifiedTime": 1746932112652,
-      "sourceSize": 339,
+      "modifiedTime": 1749118957271,
+      "sourceSize": 344,
       "exportedPath": "core-rules,-how-to-play/ability-scores/dex.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Ability Scores/INT.md": {
-      "modifiedTime": 1746932112652,
-      "sourceSize": 427,
+      "modifiedTime": 1749118957271,
+      "sourceSize": 457,
       "exportedPath": "core-rules,-how-to-play/ability-scores/int.html",
       "dependencies": []
     },
@@ -703,14 +710,14 @@
       "dependencies": []
     },
     "Core Rules, How to Play/Ability Scores/LUK.md": {
-      "modifiedTime": 1746932112652,
-      "sourceSize": 395,
+      "modifiedTime": 1749118957271,
+      "sourceSize": 416,
       "exportedPath": "core-rules,-how-to-play/ability-scores/luk.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Ability Scores/STR.md": {
-      "modifiedTime": 1746932112652,
-      "sourceSize": 483,
+      "modifiedTime": 1749118957271,
+      "sourceSize": 519,
       "exportedPath": "core-rules,-how-to-play/ability-scores/str.html",
       "dependencies": []
     },
@@ -817,8 +824,8 @@
       "dependencies": []
     },
     "Core Rules, How to Play/Actions/Common Actions/Standard Actions/Total Defense.md": {
-      "modifiedTime": 1747950840248,
-      "sourceSize": 148,
+      "modifiedTime": 1749118957271,
+      "sourceSize": 161,
       "exportedPath": "core-rules,-how-to-play/actions/common-actions/standard-actions/total-defense.html",
       "dependencies": []
     },
@@ -1123,14 +1130,14 @@
       "dependencies": []
     },
     "Core Rules, How to Play/Abbreviations and Terminology/Cover/Concealment.md": {
-      "modifiedTime": 1747950840248,
-      "sourceSize": 741,
+      "modifiedTime": 1749118957271,
+      "sourceSize": 751,
       "exportedPath": "core-rules,-how-to-play/abbreviations-and-terminology/cover/concealment.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Abbreviations and Terminology/Cover/Cover.md": {
-      "modifiedTime": 1747950840248,
-      "sourceSize": 492,
+      "modifiedTime": 1749118957271,
+      "sourceSize": 484,
       "exportedPath": "core-rules,-how-to-play/abbreviations-and-terminology/cover/cover.html",
       "dependencies": []
     },
@@ -1147,8 +1154,8 @@
       "dependencies": []
     },
     "Core Rules, How to Play/Abbreviations and Terminology/Cover/Total Concealment.md": {
-      "modifiedTime": 1747950840248,
-      "sourceSize": 257,
+      "modifiedTime": 1749118957271,
+      "sourceSize": 259,
       "exportedPath": "core-rules,-how-to-play/abbreviations-and-terminology/cover/total-concealment.html",
       "dependencies": []
     },
@@ -1231,8 +1238,8 @@
       "dependencies": []
     },
     "Core Rules, How to Play/Ability Scores/WIS.md": {
-      "modifiedTime": 1747950840248,
-      "sourceSize": 320,
+      "modifiedTime": 1749118957271,
+      "sourceSize": 351,
       "exportedPath": "core-rules,-how-to-play/ability-scores/wis.html",
       "dependencies": []
     },
@@ -1711,8 +1718,8 @@
       "dependencies": []
     },
     "Core Rules, How to Play/Status Effects/Status.md": {
-      "modifiedTime": 1747950840248,
-      "sourceSize": 767,
+      "modifiedTime": 1749118957271,
+      "sourceSize": 781,
       "exportedPath": "core-rules,-how-to-play/status-effects/status.html",
       "dependencies": []
     },
@@ -1867,8 +1874,8 @@
       "dependencies": []
     },
     "Core Rules, How to Play/Tags/Damage.md": {
-      "modifiedTime": 1747950840248,
-      "sourceSize": 632,
+      "modifiedTime": 1749118957271,
+      "sourceSize": 623,
       "exportedPath": "core-rules,-how-to-play/tags/damage.html",
       "dependencies": []
     },
@@ -2209,7 +2216,7 @@
       "dependencies": []
     },
     "Skills/Skill.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749118957271,
       "sourceSize": 2715,
       "exportedPath": "skills/skill.html",
       "dependencies": []
@@ -2349,8 +2356,8 @@
       "dependencies": []
     },
     "Core Rules, How to Play/Attacking/Offense Calculator.md": {
-      "modifiedTime": 1748748860120,
-      "sourceSize": 1356,
+      "modifiedTime": 1749118957271,
+      "sourceSize": 1371,
       "exportedPath": "core-rules,-how-to-play/attacking/offense-calculator.html",
       "dependencies": []
     },
@@ -2430,6 +2437,48 @@
       "modifiedTime": 1748748860120,
       "sourceSize": 71,
       "exportedPath": "skills/persuasion/persuasion.html",
+      "dependencies": []
+    },
+    "Core Rules, How to Play/Abbreviations and Terminology/Circumstance.md": {
+      "modifiedTime": 1749118957271,
+      "sourceSize": 602,
+      "exportedPath": "core-rules,-how-to-play/abbreviations-and-terminology/circumstance.html",
+      "dependencies": []
+    },
+    "Core Rules, How to Play/Abbreviations and Terminology/Potency.md": {
+      "modifiedTime": 1749118957271,
+      "sourceSize": 121,
+      "exportedPath": "core-rules,-how-to-play/abbreviations-and-terminology/potency.html",
+      "dependencies": []
+    },
+    "Core Rules, How to Play/Abbreviations and Terminology/SP.md": {
+      "modifiedTime": 1749118957271,
+      "sourceSize": 204,
+      "exportedPath": "core-rules,-how-to-play/abbreviations-and-terminology/sp.html",
+      "dependencies": []
+    },
+    "Core Rules, How to Play/Status Effects/Invisible.md": {
+      "modifiedTime": 1749118957271,
+      "sourceSize": 273,
+      "exportedPath": "core-rules,-how-to-play/status-effects/invisible.html",
+      "dependencies": []
+    },
+    "Game Design Rambling/Difficulty and Integrity.md": {
+      "modifiedTime": 1749118957271,
+      "sourceSize": 22885,
+      "exportedPath": "game-design-rambling/difficulty-and-integrity.html",
+      "dependencies": []
+    },
+    "Skills/Persuasion/Example DCs.md": {
+      "modifiedTime": 1749118957271,
+      "sourceSize": 2475,
+      "exportedPath": "skills/persuasion/example-dcs.html",
+      "dependencies": []
+    },
+    "Skills/Persuasion/Gather Information.md": {
+      "modifiedTime": 1749118957271,
+      "sourceSize": 392,
+      "exportedPath": "skills/persuasion/gather-information.html",
       "dependencies": []
     }
   }
