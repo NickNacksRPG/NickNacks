@@ -1,6 +1,6 @@
 {
   "vaultName": "Malon's Marvelous Misadventures",
-  "lastExport": 1749529283203,
+  "lastExport": 1749635433146,
   "pluginVersion": "1.8.01",
   "validBodyClasses": "publish css-settings-manager theme-dark show-inline-title show-ribbon",
   "useCustomHeadContent": false,
@@ -210,10 +210,20 @@
     "Core Rules, How to Play/Rolling Dice and Statistics.md",
     "Equipment/Armor and Shield Rules/Armor.md",
     "Equipment/Armor and Shield Rules/Shield.md",
+    "Equipment/Backgrounds/Background.md",
+    "Equipment/Backgrounds/Family Man.md",
+    "Equipment/Backgrounds/Noble.md",
+    "Equipment/Backgrounds/Tradesman.md",
+    "Equipment/Backgrounds/Wanderer.md",
     "Equipment/Economics/Common Prices.md",
     "Equipment/Economics/Economics.md",
     "Equipment/Economics/The Cost of Living.md",
     "Equipment/Economics/The Value of Gold.md",
+    "Equipment/Food/Food.md",
+    "Equipment/Mundane Items/Mundane Item.md",
+    "Equipment/Mundane Items/Property.md",
+    "Equipment/Mundane Items/Tools.md",
+    "Equipment/Mundane Items/Torch.md",
     "Equipment/Weapon Rules/Weapon Types and Basic Weapons/Subtypes/Ammunition.md",
     "Equipment/Weapon Rules/Weapon Types and Basic Weapons/Subtypes/Natural Weapon.md",
     "Equipment/Weapon Rules/Weapon Types and Basic Weapons/Subtypes/Staff.md",
@@ -237,6 +247,9 @@
     "Equipment/Equipment Slot.md",
     "Game Design Rambling/Difficulty and Integrity.md",
     "Game Design Rambling/Math and Worldbuilding.md",
+    "Races/Half-Link Races/Half-Link.md",
+    "Races/Dwarf.md",
+    "Races/Race.md",
     "Skills/Acrobatics/Acrobatics.md",
     "Skills/Acrobatics/Balance.md",
     "Skills/Acrobatics/Tumble.md",
@@ -323,10 +336,14 @@
     "Skills/Group Checks.md",
     "Skills/Proficiency.md",
     "Skills/Skill.md",
-    "Skills/SKILLS DATABASE.md",
     "Skills/Take 10.md",
     "Skills/Take 30.md",
     "Skills/Tie.md",
+    "Techniques/Spellcasting/Spell Components.md",
+    "Techniques/Spellcasting/Spells.md",
+    "Techniques/Innate Techniques.md",
+    "Techniques/Preparing Techniques.md",
+    "Techniques/Technique.md",
     "Templates/Template, Class.md",
     "Templates/Template, Race.md",
     "🍔 Mission Statement.md",
@@ -359,8 +376,7 @@
     "lib/styles/obsidian.css",
     "lib/styles/theme.css",
     "lib/styles/global-variable-styles.css",
-    "lib/styles/main-styles.css",
-    "lib/media/nice.png"
+    "lib/styles/main-styles.css"
   ],
   "mainDependencies": [
     "lib/scripts/graph-wasm.wasm",
@@ -394,2406 +410,2230 @@
     "lib/styles/main-styles.css"
   ],
   "fileInfo": {
-    "lib/scripts/graph-wasm.wasm": {
-      "modifiedTime": 1749529283203,
-      "sourceSize": 23377,
-      "exportedPath": "lib/scripts/graph-wasm.wasm",
-      "dependencies": []
-    },
-    "lib/fonts/94f2f163d4b698242fef.otf": {
-      "modifiedTime": 1749529283203,
-      "sourceSize": 66800,
-      "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
-      "dependencies": []
-    },
-    "lib/fonts/72505e6a122c6acd5471.woff2": {
-      "modifiedTime": 1749529283203,
-      "sourceSize": 104232,
-      "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
-      "dependencies": []
-    },
-    "lib/fonts/2d5198822ab091ce4305.woff2": {
-      "modifiedTime": 1749529283203,
-      "sourceSize": 104332,
-      "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
-      "dependencies": []
-    },
-    "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
-      "modifiedTime": 1749529283203,
-      "sourceSize": 98868,
-      "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
-      "dependencies": []
-    },
-    "lib/fonts/cb10ffd7684cd9836a05.woff2": {
-      "modifiedTime": 1749529283203,
-      "sourceSize": 106876,
-      "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
-      "dependencies": []
-    },
-    "lib/fonts/b5f0f109bc88052d4000.woff2": {
-      "modifiedTime": 1749529283203,
-      "sourceSize": 105804,
-      "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
-      "dependencies": []
-    },
-    "lib/fonts/cbe0ae49c52c920fd563.woff2": {
-      "modifiedTime": 1749529283203,
-      "sourceSize": 106108,
-      "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
-      "dependencies": []
-    },
-    "lib/fonts/535a6cf662596b3bd6a6.woff2": {
-      "modifiedTime": 1749529283203,
-      "sourceSize": 111708,
-      "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
-      "dependencies": []
-    },
-    "lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1749529283203,
-      "sourceSize": 192740,
-      "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
-      "dependencies": []
-    },
-    "lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1749529283203,
-      "sourceSize": 161376,
-      "exportedPath": "lib/fonts/454577c22304619db035.ttf",
-      "dependencies": []
-    },
-    "lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1749529283203,
-      "sourceSize": 191568,
-      "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
-      "dependencies": []
-    },
-    "lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1749529283203,
-      "sourceSize": 155288,
-      "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
-      "dependencies": []
-    },
-    "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1749529283203,
-      "sourceSize": 7876,
-      "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
-      "dependencies": []
-    },
-    "lib/media/6155340132a851f6089e.svg": {
-      "modifiedTime": 1749529283203,
-      "sourceSize": 315,
-      "exportedPath": "lib/media/6155340132a851f6089e.svg",
-      "dependencies": []
-    },
-    "lib/html/file-tree.html": {
-      "modifiedTime": 1749529283203,
-      "sourceSize": 314949,
-      "exportedPath": "lib/html/file-tree.html",
-      "dependencies": []
-    },
-    "lib/scripts/webpage.js": {
-      "modifiedTime": 1749529283203,
-      "sourceSize": 47290,
-      "exportedPath": "lib/scripts/webpage.js",
-      "dependencies": []
-    },
-    "lib/scripts/graph-view.js": {
-      "modifiedTime": 1749529283203,
-      "sourceSize": 15519,
-      "exportedPath": "lib/scripts/graph-view.js",
-      "dependencies": []
-    },
-    "lib/scripts/graph-wasm.js": {
-      "modifiedTime": 1749529283203,
-      "sourceSize": 14021,
-      "exportedPath": "lib/scripts/graph-wasm.js",
-      "dependencies": []
-    },
-    "lib/scripts/graph-render-worker.js": {
-      "modifiedTime": 1749529283203,
-      "sourceSize": 5179,
-      "exportedPath": "lib/scripts/graph-render-worker.js",
-      "dependencies": []
-    },
-    "lib/scripts/tinycolor.js": {
-      "modifiedTime": 1749529283203,
-      "sourceSize": 29832,
-      "exportedPath": "lib/scripts/tinycolor.js",
-      "dependencies": []
-    },
-    "lib/scripts/pixi.js": {
-      "modifiedTime": 1749529283203,
-      "sourceSize": 449509,
-      "exportedPath": "lib/scripts/pixi.js",
-      "dependencies": []
-    },
-    "lib/scripts/minisearch.js": {
-      "modifiedTime": 1749529283203,
-      "sourceSize": 29422,
-      "exportedPath": "lib/scripts/minisearch.js",
-      "dependencies": []
-    },
-    "lib/media/favicon.png": {
-      "modifiedTime": 1749529283203,
-      "sourceSize": 1105,
-      "exportedPath": "lib/media/favicon.png",
-      "dependencies": []
-    },
-    "lib/scripts/graph-data.js": {
-      "modifiedTime": 1749529283203,
-      "sourceSize": 31904,
-      "exportedPath": "lib/scripts/graph-data.js",
-      "dependencies": []
-    },
-    "lib/styles/obsidian.css": {
-      "modifiedTime": 1749529283203,
-      "sourceSize": 138258,
-      "exportedPath": "lib/styles/obsidian.css",
-      "dependencies": []
-    },
-    "lib/styles/theme.css": {
-      "modifiedTime": 1749529283203,
-      "sourceSize": 11610,
-      "exportedPath": "lib/styles/theme.css",
-      "dependencies": []
-    },
-    "lib/styles/global-variable-styles.css": {
-      "modifiedTime": 1749529283203,
-      "sourceSize": 262,
-      "exportedPath": "lib/styles/global-variable-styles.css",
-      "dependencies": []
-    },
-    "lib/styles/supported-plugins.css": {
-      "modifiedTime": 1746932112652,
-      "sourceSize": 6629,
-      "exportedPath": "lib/styles/supported-plugins.css",
-      "dependencies": []
-    },
-    "lib/styles/main-styles.css": {
-      "modifiedTime": 1749529283203,
-      "sourceSize": 23130,
-      "exportedPath": "lib/styles/main-styles.css",
-      "dependencies": []
-    },
-    "lib/fonts/MathJax_Zero.woff": {
-      "modifiedTime": 1746931925657,
-      "sourceSize": 1368,
-      "exportedPath": "lib/fonts/MathJax_Zero.woff",
-      "dependencies": []
-    },
-    "lib/fonts/MathJax_Main-Regular.woff": {
-      "modifiedTime": 1746931925657,
-      "sourceSize": 34160,
-      "exportedPath": "lib/fonts/MathJax_Main-Regular.woff",
-      "dependencies": []
-    },
-    "lib/fonts/MathJax_Main-Bold.woff": {
-      "modifiedTime": 1746931925657,
-      "sourceSize": 34464,
-      "exportedPath": "lib/fonts/MathJax_Main-Bold.woff",
-      "dependencies": []
-    },
-    "lib/fonts/MathJax_Math-Italic.woff": {
-      "modifiedTime": 1746931925657,
-      "sourceSize": 19360,
-      "exportedPath": "lib/fonts/MathJax_Math-Italic.woff",
-      "dependencies": []
-    },
-    "lib/fonts/MathJax_Main-Italic.woff": {
-      "modifiedTime": 1746931925657,
-      "sourceSize": 20832,
-      "exportedPath": "lib/fonts/MathJax_Main-Italic.woff",
-      "dependencies": []
-    },
-    "lib/fonts/MathJax_Math-BoldItalic.woff": {
-      "modifiedTime": 1746931925657,
-      "sourceSize": 19776,
-      "exportedPath": "lib/fonts/MathJax_Math-BoldItalic.woff",
-      "dependencies": []
-    },
-    "lib/fonts/MathJax_Size1-Regular.woff": {
-      "modifiedTime": 1746931925657,
-      "sourceSize": 5792,
-      "exportedPath": "lib/fonts/MathJax_Size1-Regular.woff",
-      "dependencies": []
-    },
-    "lib/fonts/MathJax_Size2-Regular.woff": {
-      "modifiedTime": 1746931925657,
-      "sourceSize": 5464,
-      "exportedPath": "lib/fonts/MathJax_Size2-Regular.woff",
-      "dependencies": []
-    },
-    "lib/fonts/MathJax_Size3-Regular.woff": {
-      "modifiedTime": 1746931925657,
-      "sourceSize": 3244,
-      "exportedPath": "lib/fonts/MathJax_Size3-Regular.woff",
-      "dependencies": []
-    },
-    "lib/fonts/MathJax_Size4-Regular.woff": {
-      "modifiedTime": 1746931925657,
-      "sourceSize": 5148,
-      "exportedPath": "lib/fonts/MathJax_Size4-Regular.woff",
-      "dependencies": []
-    },
-    "lib/fonts/MathJax_AMS-Regular.woff": {
-      "modifiedTime": 1746931925657,
-      "sourceSize": 40808,
-      "exportedPath": "lib/fonts/MathJax_AMS-Regular.woff",
-      "dependencies": []
-    },
-    "lib/fonts/MathJax_Calligraphic-Regular.woff": {
-      "modifiedTime": 1746931925657,
-      "sourceSize": 9600,
-      "exportedPath": "lib/fonts/MathJax_Calligraphic-Regular.woff",
-      "dependencies": []
-    },
-    "lib/fonts/MathJax_Calligraphic-Bold.woff": {
-      "modifiedTime": 1746931925657,
-      "sourceSize": 9908,
-      "exportedPath": "lib/fonts/MathJax_Calligraphic-Bold.woff",
-      "dependencies": []
-    },
-    "lib/fonts/MathJax_Fraktur-Regular.woff": {
-      "modifiedTime": 1746931925657,
-      "sourceSize": 21480,
-      "exportedPath": "lib/fonts/MathJax_Fraktur-Regular.woff",
-      "dependencies": []
-    },
-    "lib/fonts/MathJax_Fraktur-Bold.woff": {
-      "modifiedTime": 1746931925657,
-      "sourceSize": 22340,
-      "exportedPath": "lib/fonts/MathJax_Fraktur-Bold.woff",
-      "dependencies": []
-    },
-    "lib/fonts/MathJax_SansSerif-Regular.woff": {
-      "modifiedTime": 1746931925657,
-      "sourceSize": 12660,
-      "exportedPath": "lib/fonts/MathJax_SansSerif-Regular.woff",
-      "dependencies": []
-    },
-    "lib/fonts/MathJax_SansSerif-Bold.woff": {
-      "modifiedTime": 1746931925657,
-      "sourceSize": 15944,
-      "exportedPath": "lib/fonts/MathJax_SansSerif-Bold.woff",
-      "dependencies": []
-    },
-    "lib/fonts/MathJax_SansSerif-Italic.woff": {
-      "modifiedTime": 1746931925657,
-      "sourceSize": 14628,
-      "exportedPath": "lib/fonts/MathJax_SansSerif-Italic.woff",
-      "dependencies": []
-    },
-    "lib/fonts/MathJax_Script-Regular.woff": {
-      "modifiedTime": 1746931925657,
-      "sourceSize": 11852,
-      "exportedPath": "lib/fonts/MathJax_Script-Regular.woff",
-      "dependencies": []
-    },
-    "lib/fonts/MathJax_Typewriter-Regular.woff": {
-      "modifiedTime": 1746931925657,
-      "sourceSize": 17604,
-      "exportedPath": "lib/fonts/MathJax_Typewriter-Regular.woff",
-      "dependencies": []
-    },
-    "lib/fonts/MathJax_Vector-Regular.woff": {
-      "modifiedTime": 1746931925657,
-      "sourceSize": 1136,
-      "exportedPath": "lib/fonts/MathJax_Vector-Regular.woff",
-      "dependencies": []
-    },
-    "lib/fonts/MathJax_Vector-Bold.woff": {
-      "modifiedTime": 1746931925657,
-      "sourceSize": 1116,
-      "exportedPath": "lib/fonts/MathJax_Vector-Bold.woff",
-      "dependencies": []
-    },
-    "Core Rules, How to Play/Abbreviations and Terminology/Abbreviations.md": {
-      "modifiedTime": 1747950840248,
-      "sourceSize": 520,
-      "exportedPath": "core-rules,-how-to-play/abbreviations-and-terminology/abbreviations.html",
-      "dependencies": []
-    },
-    "Core Rules, How to Play/Abbreviations and Terminology/Natural.md": {
-      "modifiedTime": 1746932112652,
-      "sourceSize": 78,
-      "exportedPath": "core-rules,-how-to-play/abbreviations-and-terminology/natural.html",
-      "dependencies": []
-    },
-    "Core Rules, How to Play/Abbreviations and Terminology/Roll.md": {
-      "modifiedTime": 1746932112652,
-      "sourceSize": 371,
-      "exportedPath": "core-rules,-how-to-play/abbreviations-and-terminology/roll.html",
-      "dependencies": []
-    },
-    "Core Rules, How to Play/Ability Scores/Carry Weight.md": {
-      "modifiedTime": 1747950840248,
-      "sourceSize": 944,
-      "exportedPath": "core-rules,-how-to-play/ability-scores/carry-weight.html",
-      "dependencies": []
-    },
-    "Core Rules, How to Play/Ability Scores/CHA.md": {
-      "modifiedTime": 1749118957271,
-      "sourceSize": 492,
-      "exportedPath": "core-rules,-how-to-play/ability-scores/cha.html",
-      "dependencies": []
-    },
-    "Core Rules, How to Play/Ability Scores/DEX.md": {
-      "modifiedTime": 1749118957271,
-      "sourceSize": 344,
-      "exportedPath": "core-rules,-how-to-play/ability-scores/dex.html",
-      "dependencies": []
-    },
-    "Core Rules, How to Play/Ability Scores/INT.md": {
-      "modifiedTime": 1749118957271,
-      "sourceSize": 457,
-      "exportedPath": "core-rules,-how-to-play/ability-scores/int.html",
-      "dependencies": []
-    },
-    "Core Rules, How to Play/Ability Scores/Luck Check.md": {
-      "modifiedTime": 1746932112652,
-      "sourceSize": 196,
-      "exportedPath": "core-rules,-how-to-play/ability-scores/luck-check.html",
-      "dependencies": []
-    },
-    "Core Rules, How to Play/Ability Scores/LUK.md": {
-      "modifiedTime": 1749118957271,
-      "sourceSize": 416,
-      "exportedPath": "core-rules,-how-to-play/ability-scores/luk.html",
-      "dependencies": []
-    },
-    "Core Rules, How to Play/Ability Scores/STR.md": {
-      "modifiedTime": 1749118957271,
-      "sourceSize": 519,
-      "exportedPath": "core-rules,-how-to-play/ability-scores/str.html",
-      "dependencies": []
-    },
-    "Core Rules, How to Play/Actions/Action System/Action System.md": {
-      "modifiedTime": 1747950840248,
-      "sourceSize": 1974,
-      "exportedPath": "core-rules,-how-to-play/actions/action-system/action-system.html",
-      "dependencies": []
-    },
-    "Core Rules, How to Play/Actions/Action System/Free Action.md": {
-      "modifiedTime": 1747950840248,
-      "sourceSize": 190,
-      "exportedPath": "core-rules,-how-to-play/actions/action-system/free-action.html",
-      "dependencies": []
-    },
-    "Core Rules, How to Play/Actions/Action System/Full-Round Action.md": {
-      "modifiedTime": 1746932112652,
-      "sourceSize": 200,
-      "exportedPath": "core-rules,-how-to-play/actions/action-system/full-round-action.html",
-      "dependencies": []
-    },
-    "Core Rules, How to Play/Actions/Action System/Immediate Action.md": {
-      "modifiedTime": 1746932112652,
-      "sourceSize": 162,
-      "exportedPath": "core-rules,-how-to-play/actions/action-system/immediate-action.html",
-      "dependencies": []
-    },
-    "Core Rules, How to Play/Actions/Action System/Instant Action.md": {
-      "modifiedTime": 1747950840248,
-      "sourceSize": 142,
-      "exportedPath": "core-rules,-how-to-play/actions/action-system/instant-action.html",
-      "dependencies": []
-    },
-    "Core Rules, How to Play/Actions/Action System/Standard Action.md": {
-      "modifiedTime": 1747950840248,
-      "sourceSize": 425,
-      "exportedPath": "core-rules,-how-to-play/actions/action-system/standard-action.html",
-      "dependencies": []
-    },
-    "Core Rules, How to Play/Actions/Action System/Swift Action.md": {
-      "modifiedTime": 1747950840248,
-      "sourceSize": 164,
-      "exportedPath": "core-rules,-how-to-play/actions/action-system/swift-action.html",
-      "dependencies": []
-    },
-    "Core Rules, How to Play/Actions/Common Actions/Free Actions/Delay.md": {
-      "modifiedTime": 1746932112652,
-      "sourceSize": 198,
-      "exportedPath": "core-rules,-how-to-play/actions/common-actions/free-actions/delay.html",
-      "dependencies": []
-    },
-    "Core Rules, How to Play/Actions/Common Actions/Free Actions/Swap Item.md": {
-      "modifiedTime": 1746932112652,
-      "sourceSize": 335,
-      "exportedPath": "core-rules,-how-to-play/actions/common-actions/free-actions/swap-item.html",
-      "dependencies": []
-    },
-    "Core Rules, How to Play/Actions/Common Actions/Standard Actions/Administer Potion.md": {
-      "modifiedTime": 1746932112652,
-      "sourceSize": 172,
-      "exportedPath": "core-rules,-how-to-play/actions/common-actions/standard-actions/administer-potion.html",
-      "dependencies": []
-    },
-    "Core Rules, How to Play/Actions/Common Actions/Standard Actions/Aid.md": {
-      "modifiedTime": 1746932112652,
-      "sourceSize": 423,
-      "exportedPath": "core-rules,-how-to-play/actions/common-actions/standard-actions/aid.html",
-      "dependencies": []
-    },
-    "Core Rules, How to Play/Actions/Common Actions/Standard Actions/Attack Action.md": {
-      "modifiedTime": 1747950840248,
-      "sourceSize": 522,
-      "exportedPath": "core-rules,-how-to-play/actions/common-actions/standard-actions/attack-action.html",
-      "dependencies": []
-    },
-    "Core Rules, How to Play/Actions/Common Actions/Standard Actions/Carry.md": {
-      "modifiedTime": 1746932112652,
-      "sourceSize": 296,
-      "exportedPath": "core-rules,-how-to-play/actions/common-actions/standard-actions/carry.html",
-      "dependencies": []
-    },
-    "Core Rules, How to Play/Actions/Common Actions/Standard Actions/Charge.md": {
-      "modifiedTime": 1746932112652,
-      "sourceSize": 66,
-      "exportedPath": "core-rules,-how-to-play/actions/common-actions/standard-actions/charge.html",
-      "dependencies": []
-    },
-    "Core Rules, How to Play/Actions/Common Actions/Standard Actions/Dash.md": {
-      "modifiedTime": 1746932112652,
-      "sourceSize": 29,
-      "exportedPath": "core-rules,-how-to-play/actions/common-actions/standard-actions/dash.html",
-      "dependencies": []
-    },
-    "Core Rules, How to Play/Actions/Common Actions/Standard Actions/Disengage.md": {
-      "modifiedTime": 1746932112652,
-      "sourceSize": 39,
-      "exportedPath": "core-rules,-how-to-play/actions/common-actions/standard-actions/disengage.html",
-      "dependencies": []
-    },
-    "Core Rules, How to Play/Actions/Common Actions/Standard Actions/Prepare.md": {
-      "modifiedTime": 1746932112652,
-      "sourceSize": 407,
-      "exportedPath": "core-rules,-how-to-play/actions/common-actions/standard-actions/prepare.html",
-      "dependencies": []
-    },
-    "Core Rules, How to Play/Actions/Common Actions/Standard Actions/Total Defense.md": {
-      "modifiedTime": 1749118957271,
-      "sourceSize": 161,
-      "exportedPath": "core-rules,-how-to-play/actions/common-actions/standard-actions/total-defense.html",
-      "dependencies": []
-    },
-    "Core Rules, How to Play/Actions/Common Actions/Swift Actions/Jump.md": {
-      "modifiedTime": 1748011640561,
-      "sourceSize": 679,
-      "exportedPath": "core-rules,-how-to-play/actions/common-actions/swift-actions/jump.html",
-      "dependencies": []
-    },
-    "Core Rules, How to Play/Actions/Common Actions/Swift Actions/Potion.md": {
-      "modifiedTime": 1746932112652,
-      "sourceSize": 28,
-      "exportedPath": "core-rules,-how-to-play/actions/common-actions/swift-actions/potion.html",
-      "dependencies": []
-    },
-    "Core Rules, How to Play/Attacking/Combat Maneuvers/Combat Maneuver.md": {
-      "modifiedTime": 1747950840248,
-      "sourceSize": 498,
-      "exportedPath": "core-rules,-how-to-play/attacking/combat-maneuvers/combat-maneuver.html",
-      "dependencies": []
-    },
-    "Core Rules, How to Play/Attacking/Combat Maneuvers/Dirty Trick.md": {
-      "modifiedTime": 1746932112652,
-      "sourceSize": 122,
-      "exportedPath": "core-rules,-how-to-play/attacking/combat-maneuvers/dirty-trick.html",
-      "dependencies": []
-    },
-    "Core Rules, How to Play/Attacking/Combat Maneuvers/Disarm.md": {
-      "modifiedTime": 1747950840248,
-      "sourceSize": 183,
-      "exportedPath": "core-rules,-how-to-play/attacking/combat-maneuvers/disarm.html",
-      "dependencies": []
-    },
-    "Core Rules, How to Play/Attacking/Combat Maneuvers/Drag.md": {
-      "modifiedTime": 1746932112652,
-      "sourceSize": 343,
-      "exportedPath": "core-rules,-how-to-play/attacking/combat-maneuvers/drag.html",
-      "dependencies": []
-    },
-    "Core Rules, How to Play/Attacking/Combat Maneuvers/Fell.md": {
-      "modifiedTime": 1747950840248,
-      "sourceSize": 25,
-      "exportedPath": "core-rules,-how-to-play/attacking/combat-maneuvers/fell.html",
-      "dependencies": []
-    },
-    "Core Rules, How to Play/Attacking/Combat Maneuvers/Grab.md": {
-      "modifiedTime": 1746932112652,
-      "sourceSize": 860,
-      "exportedPath": "core-rules,-how-to-play/attacking/combat-maneuvers/grab.html",
-      "dependencies": []
-    },
-    "Core Rules, How to Play/Attacking/Combat Maneuvers/Shove.md": {
-      "modifiedTime": 1746932112652,
-      "sourceSize": 35,
-      "exportedPath": "core-rules,-how-to-play/attacking/combat-maneuvers/shove.html",
-      "dependencies": []
-    },
-    "Core Rules, How to Play/Attacking/Attack.md": {
-      "modifiedTime": 1748011640561,
-      "sourceSize": 616,
-      "exportedPath": "core-rules,-how-to-play/attacking/attack.html",
-      "dependencies": []
-    },
-    "Core Rules, How to Play/Attacking/Crit.md": {
-      "modifiedTime": 1748011640561,
-      "sourceSize": 258,
-      "exportedPath": "core-rules,-how-to-play/attacking/crit.html",
-      "dependencies": []
-    },
-    "Core Rules, How to Play/Attacking/Critical Damage.md": {
-      "modifiedTime": 1746932112652,
-      "sourceSize": 272,
-      "exportedPath": "core-rules,-how-to-play/attacking/critical-damage.html",
-      "dependencies": []
-    },
-    "Core Rules, How to Play/Attacking/Dual Wielding.md": {
-      "modifiedTime": 1748011640561,
-      "sourceSize": 499,
-      "exportedPath": "core-rules,-how-to-play/attacking/dual-wielding.html",
-      "dependencies": []
-    },
-    "Core Rules, How to Play/Attacking/Switching Weapons.md": {
-      "modifiedTime": 1747950840248,
-      "sourceSize": 677,
-      "exportedPath": "core-rules,-how-to-play/attacking/switching-weapons.html",
-      "dependencies": []
-    },
-    "Core Rules, How to Play/Rolling Dice and Statistics.md": {
-      "modifiedTime": 1747950840248,
-      "sourceSize": 1240,
-      "exportedPath": "core-rules,-how-to-play/rolling-dice-and-statistics.html",
-      "dependencies": []
-    },
-    "Templates/Template, Race.md": {
-      "modifiedTime": 1746932112652,
-      "sourceSize": 118,
-      "exportedPath": "templates/template,-race.html",
-      "dependencies": []
-    },
-    "🍔 Mission Statement.md": {
-      "modifiedTime": 1746932112652,
-      "sourceSize": 733,
-      "exportedPath": "🍔-mission-statement.html",
-      "dependencies": []
-    },
-    "Index.md": {
-      "modifiedTime": 1747950840248,
-      "sourceSize": 184,
-      "exportedPath": "index.html",
-      "dependencies": []
-    },
-    "lib/fonts/mathjax_zero.woff": {
-      "modifiedTime": 1748146478876,
-      "sourceSize": 1368,
-      "exportedPath": "lib/fonts/mathjax_zero.woff",
-      "dependencies": []
-    },
-    "lib/fonts/mathjax_main-regular.woff": {
-      "modifiedTime": 1748146478876,
-      "sourceSize": 34160,
-      "exportedPath": "lib/fonts/mathjax_main-regular.woff",
-      "dependencies": []
-    },
-    "lib/fonts/mathjax_main-bold.woff": {
-      "modifiedTime": 1748146478876,
-      "sourceSize": 34464,
-      "exportedPath": "lib/fonts/mathjax_main-bold.woff",
-      "dependencies": []
-    },
-    "lib/fonts/mathjax_math-italic.woff": {
-      "modifiedTime": 1748146478876,
-      "sourceSize": 19360,
-      "exportedPath": "lib/fonts/mathjax_math-italic.woff",
-      "dependencies": []
-    },
-    "lib/fonts/mathjax_main-italic.woff": {
-      "modifiedTime": 1748146478876,
-      "sourceSize": 20832,
-      "exportedPath": "lib/fonts/mathjax_main-italic.woff",
-      "dependencies": []
-    },
-    "lib/fonts/mathjax_math-bolditalic.woff": {
-      "modifiedTime": 1748146478876,
-      "sourceSize": 19776,
-      "exportedPath": "lib/fonts/mathjax_math-bolditalic.woff",
-      "dependencies": []
-    },
-    "lib/fonts/mathjax_size1-regular.woff": {
-      "modifiedTime": 1748146478876,
-      "sourceSize": 5792,
-      "exportedPath": "lib/fonts/mathjax_size1-regular.woff",
-      "dependencies": []
-    },
-    "lib/fonts/mathjax_size2-regular.woff": {
-      "modifiedTime": 1748146478876,
-      "sourceSize": 5464,
-      "exportedPath": "lib/fonts/mathjax_size2-regular.woff",
-      "dependencies": []
-    },
-    "lib/fonts/mathjax_size3-regular.woff": {
-      "modifiedTime": 1748146478876,
-      "sourceSize": 3244,
-      "exportedPath": "lib/fonts/mathjax_size3-regular.woff",
-      "dependencies": []
-    },
-    "lib/fonts/mathjax_size4-regular.woff": {
-      "modifiedTime": 1748146478876,
-      "sourceSize": 5148,
-      "exportedPath": "lib/fonts/mathjax_size4-regular.woff",
-      "dependencies": []
-    },
-    "lib/fonts/mathjax_ams-regular.woff": {
-      "modifiedTime": 1748146478876,
-      "sourceSize": 40808,
-      "exportedPath": "lib/fonts/mathjax_ams-regular.woff",
-      "dependencies": []
-    },
-    "lib/fonts/mathjax_calligraphic-regular.woff": {
-      "modifiedTime": 1748146478876,
-      "sourceSize": 9600,
-      "exportedPath": "lib/fonts/mathjax_calligraphic-regular.woff",
-      "dependencies": []
-    },
-    "lib/fonts/mathjax_calligraphic-bold.woff": {
-      "modifiedTime": 1748146478876,
-      "sourceSize": 9908,
-      "exportedPath": "lib/fonts/mathjax_calligraphic-bold.woff",
-      "dependencies": []
-    },
-    "lib/fonts/mathjax_fraktur-regular.woff": {
-      "modifiedTime": 1748146478876,
-      "sourceSize": 21480,
-      "exportedPath": "lib/fonts/mathjax_fraktur-regular.woff",
-      "dependencies": []
-    },
-    "lib/fonts/mathjax_fraktur-bold.woff": {
-      "modifiedTime": 1748146478876,
-      "sourceSize": 22340,
-      "exportedPath": "lib/fonts/mathjax_fraktur-bold.woff",
-      "dependencies": []
-    },
-    "lib/fonts/mathjax_sansserif-regular.woff": {
-      "modifiedTime": 1748146478876,
-      "sourceSize": 12660,
-      "exportedPath": "lib/fonts/mathjax_sansserif-regular.woff",
-      "dependencies": []
-    },
-    "lib/fonts/mathjax_sansserif-bold.woff": {
-      "modifiedTime": 1748146478876,
-      "sourceSize": 15944,
-      "exportedPath": "lib/fonts/mathjax_sansserif-bold.woff",
-      "dependencies": []
-    },
-    "lib/fonts/mathjax_sansserif-italic.woff": {
-      "modifiedTime": 1748146478876,
-      "sourceSize": 14628,
-      "exportedPath": "lib/fonts/mathjax_sansserif-italic.woff",
-      "dependencies": []
-    },
-    "lib/fonts/mathjax_script-regular.woff": {
-      "modifiedTime": 1748146478876,
-      "sourceSize": 11852,
-      "exportedPath": "lib/fonts/mathjax_script-regular.woff",
-      "dependencies": []
-    },
-    "lib/fonts/mathjax_typewriter-regular.woff": {
-      "modifiedTime": 1748146478876,
-      "sourceSize": 17604,
-      "exportedPath": "lib/fonts/mathjax_typewriter-regular.woff",
-      "dependencies": []
-    },
-    "lib/fonts/mathjax_vector-regular.woff": {
-      "modifiedTime": 1748146478876,
-      "sourceSize": 1136,
-      "exportedPath": "lib/fonts/mathjax_vector-regular.woff",
-      "dependencies": []
-    },
-    "lib/fonts/mathjax_vector-bold.woff": {
-      "modifiedTime": 1748146478876,
-      "sourceSize": 1116,
-      "exportedPath": "lib/fonts/mathjax_vector-bold.woff",
-      "dependencies": []
-    },
     "Classes/Class/Achievements/Achievement.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 208,
       "exportedPath": "classes/class/achievements/achievement.html",
       "dependencies": []
     },
     "Classes/Class/Achievements/Backstabber.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 494,
       "exportedPath": "classes/class/achievements/backstabber.html",
       "dependencies": []
     },
     "Classes/Class/Achievements/Battle Scars.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 495,
       "exportedPath": "classes/class/achievements/battle-scars.html",
       "dependencies": []
     },
     "Classes/Class/Achievements/Critical Pet.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 578,
       "exportedPath": "classes/class/achievements/critical-pet.html",
       "dependencies": []
     },
     "Classes/Class/Character Creation.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 6811,
       "exportedPath": "classes/class/character-creation.html",
       "dependencies": []
     },
     "Classes/Class/Class.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 1012,
       "exportedPath": "classes/class/class.html",
       "dependencies": []
     },
     "Classes/Class/Progression Outside of Class.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 396,
       "exportedPath": "classes/class/progression-outside-of-class.html",
       "dependencies": []
     },
     "Classes/Rogue/Rogue.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 2857,
       "exportedPath": "classes/rogue/rogue.html",
       "dependencies": []
     },
     "Classes/Rogue/Rogue - Bandit.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 2482,
       "exportedPath": "classes/rogue/rogue-bandit.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Abbreviations and Terminology/Cover/Concealment.md": {
-      "modifiedTime": 1749118957271,
+      "modifiedTime": 1749635433146,
       "sourceSize": 751,
       "exportedPath": "core-rules,-how-to-play/abbreviations-and-terminology/cover/concealment.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Abbreviations and Terminology/Cover/Cover.md": {
-      "modifiedTime": 1749118957271,
+      "modifiedTime": 1749635433146,
       "sourceSize": 484,
       "exportedPath": "core-rules,-how-to-play/abbreviations-and-terminology/cover/cover.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Abbreviations and Terminology/Cover/Improved Cover.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 522,
       "exportedPath": "core-rules,-how-to-play/abbreviations-and-terminology/cover/improved-cover.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Abbreviations and Terminology/Cover/Partial Concealment.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 295,
       "exportedPath": "core-rules,-how-to-play/abbreviations-and-terminology/cover/partial-concealment.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Abbreviations and Terminology/Cover/Total Concealment.md": {
-      "modifiedTime": 1749118957271,
+      "modifiedTime": 1749635433146,
       "sourceSize": 259,
       "exportedPath": "core-rules,-how-to-play/abbreviations-and-terminology/cover/total-concealment.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Abbreviations and Terminology/Cover/Total Cover.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 384,
       "exportedPath": "core-rules,-how-to-play/abbreviations-and-terminology/cover/total-cover.html",
       "dependencies": []
     },
+    "Core Rules, How to Play/Abbreviations and Terminology/Abbreviations.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 520,
+      "exportedPath": "core-rules,-how-to-play/abbreviations-and-terminology/abbreviations.html",
+      "dependencies": []
+    },
     "Core Rules, How to Play/Abbreviations and Terminology/AC.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 388,
       "exportedPath": "core-rules,-how-to-play/abbreviations-and-terminology/ac.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Abbreviations and Terminology/ACC.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 218,
       "exportedPath": "core-rules,-how-to-play/abbreviations-and-terminology/acc.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Abbreviations and Terminology/AoE.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 465,
       "exportedPath": "core-rules,-how-to-play/abbreviations-and-terminology/aoe.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Abbreviations and Terminology/CC.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 138,
       "exportedPath": "core-rules,-how-to-play/abbreviations-and-terminology/cc.html",
       "dependencies": []
     },
+    "Core Rules, How to Play/Abbreviations and Terminology/Circumstance.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 602,
+      "exportedPath": "core-rules,-how-to-play/abbreviations-and-terminology/circumstance.html",
+      "dependencies": []
+    },
     "Core Rules, How to Play/Abbreviations and Terminology/DC.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 154,
       "exportedPath": "core-rules,-how-to-play/abbreviations-and-terminology/dc.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Abbreviations and Terminology/DM.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 204,
       "exportedPath": "core-rules,-how-to-play/abbreviations-and-terminology/dm.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Abbreviations and Terminology/Initiative.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 1083,
       "exportedPath": "core-rules,-how-to-play/abbreviations-and-terminology/initiative.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Abbreviations and Terminology/Lv.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 236,
       "exportedPath": "core-rules,-how-to-play/abbreviations-and-terminology/lv.html",
       "dependencies": []
     },
+    "Core Rules, How to Play/Abbreviations and Terminology/Natural.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 78,
+      "exportedPath": "core-rules,-how-to-play/abbreviations-and-terminology/natural.html",
+      "dependencies": []
+    },
     "Core Rules, How to Play/Abbreviations and Terminology/NPC.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 147,
       "exportedPath": "core-rules,-how-to-play/abbreviations-and-terminology/npc.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Abbreviations and Terminology/PC.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 416,
       "exportedPath": "core-rules,-how-to-play/abbreviations-and-terminology/pc.html",
       "dependencies": []
     },
+    "Core Rules, How to Play/Abbreviations and Terminology/Potency.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 121,
+      "exportedPath": "core-rules,-how-to-play/abbreviations-and-terminology/potency.html",
+      "dependencies": []
+    },
+    "Core Rules, How to Play/Abbreviations and Terminology/Roll.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 371,
+      "exportedPath": "core-rules,-how-to-play/abbreviations-and-terminology/roll.html",
+      "dependencies": []
+    },
+    "Core Rules, How to Play/Abbreviations and Terminology/SP.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 204,
+      "exportedPath": "core-rules,-how-to-play/abbreviations-and-terminology/sp.html",
+      "dependencies": []
+    },
     "Core Rules, How to Play/Abbreviations and Terminology/Threaten.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 230,
       "exportedPath": "core-rules,-how-to-play/abbreviations-and-terminology/threaten.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Ability Scores/Ability Scores.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 554,
       "exportedPath": "core-rules,-how-to-play/ability-scores/ability-scores.html",
       "dependencies": []
     },
+    "Core Rules, How to Play/Ability Scores/Carry Weight.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 944,
+      "exportedPath": "core-rules,-how-to-play/ability-scores/carry-weight.html",
+      "dependencies": []
+    },
+    "Core Rules, How to Play/Ability Scores/CHA.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 492,
+      "exportedPath": "core-rules,-how-to-play/ability-scores/cha.html",
+      "dependencies": []
+    },
+    "Core Rules, How to Play/Ability Scores/DEX.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 344,
+      "exportedPath": "core-rules,-how-to-play/ability-scores/dex.html",
+      "dependencies": []
+    },
+    "Core Rules, How to Play/Ability Scores/INT.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 457,
+      "exportedPath": "core-rules,-how-to-play/ability-scores/int.html",
+      "dependencies": []
+    },
+    "Core Rules, How to Play/Ability Scores/Luck Check.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 196,
+      "exportedPath": "core-rules,-how-to-play/ability-scores/luck-check.html",
+      "dependencies": []
+    },
+    "Core Rules, How to Play/Ability Scores/LUK.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 416,
+      "exportedPath": "core-rules,-how-to-play/ability-scores/luk.html",
+      "dependencies": []
+    },
+    "Core Rules, How to Play/Ability Scores/STR.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 519,
+      "exportedPath": "core-rules,-how-to-play/ability-scores/str.html",
+      "dependencies": []
+    },
     "Core Rules, How to Play/Ability Scores/WIS.md": {
-      "modifiedTime": 1749118957271,
+      "modifiedTime": 1749635433146,
       "sourceSize": 351,
       "exportedPath": "core-rules,-how-to-play/ability-scores/wis.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Actions/Action System/Movement/Fly.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 419,
       "exportedPath": "core-rules,-how-to-play/actions/action-system/movement/fly.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Actions/Action System/Movement/Movement.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 267,
       "exportedPath": "core-rules,-how-to-play/actions/action-system/movement/movement.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Actions/Action System/Movement/Speed.md": {
-      "modifiedTime": 1748011640561,
+      "modifiedTime": 1749635433146,
       "sourceSize": 476,
       "exportedPath": "core-rules,-how-to-play/actions/action-system/movement/speed.html",
       "dependencies": []
     },
+    "Core Rules, How to Play/Actions/Action System/Action System.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 1974,
+      "exportedPath": "core-rules,-how-to-play/actions/action-system/action-system.html",
+      "dependencies": []
+    },
     "Core Rules, How to Play/Actions/Action System/AoO.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 324,
       "exportedPath": "core-rules,-how-to-play/actions/action-system/aoo.html",
       "dependencies": []
     },
+    "Core Rules, How to Play/Actions/Action System/Free Action.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 190,
+      "exportedPath": "core-rules,-how-to-play/actions/action-system/free-action.html",
+      "dependencies": []
+    },
+    "Core Rules, How to Play/Actions/Action System/Full-Round Action.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 200,
+      "exportedPath": "core-rules,-how-to-play/actions/action-system/full-round-action.html",
+      "dependencies": []
+    },
+    "Core Rules, How to Play/Actions/Action System/Immediate Action.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 162,
+      "exportedPath": "core-rules,-how-to-play/actions/action-system/immediate-action.html",
+      "dependencies": []
+    },
+    "Core Rules, How to Play/Actions/Action System/Instant Action.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 142,
+      "exportedPath": "core-rules,-how-to-play/actions/action-system/instant-action.html",
+      "dependencies": []
+    },
+    "Core Rules, How to Play/Actions/Action System/Standard Action.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 425,
+      "exportedPath": "core-rules,-how-to-play/actions/action-system/standard-action.html",
+      "dependencies": []
+    },
+    "Core Rules, How to Play/Actions/Action System/Swift Action.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 164,
+      "exportedPath": "core-rules,-how-to-play/actions/action-system/swift-action.html",
+      "dependencies": []
+    },
+    "Core Rules, How to Play/Actions/Common Actions/Free Actions/Delay.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 198,
+      "exportedPath": "core-rules,-how-to-play/actions/common-actions/free-actions/delay.html",
+      "dependencies": []
+    },
+    "Core Rules, How to Play/Actions/Common Actions/Free Actions/Swap Item.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 335,
+      "exportedPath": "core-rules,-how-to-play/actions/common-actions/free-actions/swap-item.html",
+      "dependencies": []
+    },
+    "Core Rules, How to Play/Actions/Common Actions/Standard Actions/Administer Potion.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 172,
+      "exportedPath": "core-rules,-how-to-play/actions/common-actions/standard-actions/administer-potion.html",
+      "dependencies": []
+    },
+    "Core Rules, How to Play/Actions/Common Actions/Standard Actions/Aid.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 423,
+      "exportedPath": "core-rules,-how-to-play/actions/common-actions/standard-actions/aid.html",
+      "dependencies": []
+    },
+    "Core Rules, How to Play/Actions/Common Actions/Standard Actions/Attack Action.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 522,
+      "exportedPath": "core-rules,-how-to-play/actions/common-actions/standard-actions/attack-action.html",
+      "dependencies": []
+    },
+    "Core Rules, How to Play/Actions/Common Actions/Standard Actions/Carry.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 296,
+      "exportedPath": "core-rules,-how-to-play/actions/common-actions/standard-actions/carry.html",
+      "dependencies": []
+    },
+    "Core Rules, How to Play/Actions/Common Actions/Standard Actions/Charge.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 66,
+      "exportedPath": "core-rules,-how-to-play/actions/common-actions/standard-actions/charge.html",
+      "dependencies": []
+    },
+    "Core Rules, How to Play/Actions/Common Actions/Standard Actions/Dash.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 29,
+      "exportedPath": "core-rules,-how-to-play/actions/common-actions/standard-actions/dash.html",
+      "dependencies": []
+    },
+    "Core Rules, How to Play/Actions/Common Actions/Standard Actions/Disengage.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 39,
+      "exportedPath": "core-rules,-how-to-play/actions/common-actions/standard-actions/disengage.html",
+      "dependencies": []
+    },
+    "Core Rules, How to Play/Actions/Common Actions/Standard Actions/Prepare.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 407,
+      "exportedPath": "core-rules,-how-to-play/actions/common-actions/standard-actions/prepare.html",
+      "dependencies": []
+    },
+    "Core Rules, How to Play/Actions/Common Actions/Standard Actions/Total Defense.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 161,
+      "exportedPath": "core-rules,-how-to-play/actions/common-actions/standard-actions/total-defense.html",
+      "dependencies": []
+    },
+    "Core Rules, How to Play/Actions/Common Actions/Swift Actions/Jump.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 679,
+      "exportedPath": "core-rules,-how-to-play/actions/common-actions/swift-actions/jump.html",
+      "dependencies": []
+    },
+    "Core Rules, How to Play/Actions/Common Actions/Swift Actions/Potion.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 28,
+      "exportedPath": "core-rules,-how-to-play/actions/common-actions/swift-actions/potion.html",
+      "dependencies": []
+    },
     "Core Rules, How to Play/Actions/Common Actions/Swift Actions/Recharge Abilities.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 114,
       "exportedPath": "core-rules,-how-to-play/actions/common-actions/swift-actions/recharge-abilities.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Alternative Win Conditions/Alternative Win Conditions.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 230,
       "exportedPath": "core-rules,-how-to-play/alternative-win-conditions/alternative-win-conditions.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Alternative Win Conditions/Restraint.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 2932,
       "exportedPath": "core-rules,-how-to-play/alternative-win-conditions/restraint.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Alternative Win Conditions/Surrender and Morale.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 1251,
       "exportedPath": "core-rules,-how-to-play/alternative-win-conditions/surrender-and-morale.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Alternative Win Conditions/Truce.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 740,
       "exportedPath": "core-rules,-how-to-play/alternative-win-conditions/truce.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Attacking/Combat Maneuvers/Action-Attack.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 140,
       "exportedPath": "core-rules,-how-to-play/attacking/combat-maneuvers/action-attack.html",
       "dependencies": []
     },
+    "Core Rules, How to Play/Attacking/Combat Maneuvers/Combat Maneuver.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 498,
+      "exportedPath": "core-rules,-how-to-play/attacking/combat-maneuvers/combat-maneuver.html",
+      "dependencies": []
+    },
+    "Core Rules, How to Play/Attacking/Combat Maneuvers/Dirty Trick.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 122,
+      "exportedPath": "core-rules,-how-to-play/attacking/combat-maneuvers/dirty-trick.html",
+      "dependencies": []
+    },
+    "Core Rules, How to Play/Attacking/Combat Maneuvers/Disarm.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 183,
+      "exportedPath": "core-rules,-how-to-play/attacking/combat-maneuvers/disarm.html",
+      "dependencies": []
+    },
+    "Core Rules, How to Play/Attacking/Combat Maneuvers/Drag.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 343,
+      "exportedPath": "core-rules,-how-to-play/attacking/combat-maneuvers/drag.html",
+      "dependencies": []
+    },
     "Core Rules, How to Play/Attacking/Combat Maneuvers/Feint.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 263,
       "exportedPath": "core-rules,-how-to-play/attacking/combat-maneuvers/feint.html",
       "dependencies": []
     },
+    "Core Rules, How to Play/Attacking/Combat Maneuvers/Fell.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 25,
+      "exportedPath": "core-rules,-how-to-play/attacking/combat-maneuvers/fell.html",
+      "dependencies": []
+    },
+    "Core Rules, How to Play/Attacking/Combat Maneuvers/Grab.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 860,
+      "exportedPath": "core-rules,-how-to-play/attacking/combat-maneuvers/grab.html",
+      "dependencies": []
+    },
+    "Core Rules, How to Play/Attacking/Combat Maneuvers/Shove.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 35,
+      "exportedPath": "core-rules,-how-to-play/attacking/combat-maneuvers/shove.html",
+      "dependencies": []
+    },
     "Core Rules, How to Play/Attacking/Combat Maneuvers/Steal.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 228,
       "exportedPath": "core-rules,-how-to-play/attacking/combat-maneuvers/steal.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Attacking/AS.md": {
-      "modifiedTime": 1748011640561,
+      "modifiedTime": 1749635433146,
       "sourceSize": 1246,
       "exportedPath": "core-rules,-how-to-play/attacking/as.html",
       "dependencies": []
     },
+    "Core Rules, How to Play/Attacking/Attack.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 616,
+      "exportedPath": "core-rules,-how-to-play/attacking/attack.html",
+      "dependencies": []
+    },
+    "Core Rules, How to Play/Attacking/Crit.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 258,
+      "exportedPath": "core-rules,-how-to-play/attacking/crit.html",
+      "dependencies": []
+    },
+    "Core Rules, How to Play/Attacking/Critical Damage.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 272,
+      "exportedPath": "core-rules,-how-to-play/attacking/critical-damage.html",
+      "dependencies": []
+    },
+    "Core Rules, How to Play/Attacking/Dual Wielding.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 499,
+      "exportedPath": "core-rules,-how-to-play/attacking/dual-wielding.html",
+      "dependencies": []
+    },
     "Core Rules, How to Play/Attacking/Line of Effect.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 249,
       "exportedPath": "core-rules,-how-to-play/attacking/line-of-effect.html",
       "dependencies": []
     },
+    "Core Rules, How to Play/Attacking/Offense Calculator.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 1371,
+      "exportedPath": "core-rules,-how-to-play/attacking/offense-calculator.html",
+      "dependencies": []
+    },
     "Core Rules, How to Play/Attacking/Ranged Attack.md": {
-      "modifiedTime": 1748011640561,
+      "modifiedTime": 1749635433146,
       "sourceSize": 520,
       "exportedPath": "core-rules,-how-to-play/attacking/ranged-attack.html",
       "dependencies": []
     },
+    "Core Rules, How to Play/Attacking/Switching Weapons.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 677,
+      "exportedPath": "core-rules,-how-to-play/attacking/switching-weapons.html",
+      "dependencies": []
+    },
     "Core Rules, How to Play/Attacking/Targeted.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 420,
       "exportedPath": "core-rules,-how-to-play/attacking/targeted.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Death and Resurrection/Ashen One.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 877,
       "exportedPath": "core-rules,-how-to-play/death-and-resurrection/ashen-one.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Death and Resurrection/Cloning Device.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 472,
       "exportedPath": "core-rules,-how-to-play/death-and-resurrection/cloning-device.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Death and Resurrection/Death and Resurrection.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 823,
       "exportedPath": "core-rules,-how-to-play/death-and-resurrection/death-and-resurrection.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Death and Resurrection/Limited Resurrection.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 567,
       "exportedPath": "core-rules,-how-to-play/death-and-resurrection/limited-resurrection.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Death and Resurrection/Tombstone.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 815,
       "exportedPath": "core-rules,-how-to-play/death-and-resurrection/tombstone.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Death and Resurrection/Withers.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 630,
       "exportedPath": "core-rules,-how-to-play/death-and-resurrection/withers.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Hitpoints/Defeat.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 791,
       "exportedPath": "core-rules,-how-to-play/hitpoints/defeat.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Hitpoints/Healing.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 139,
       "exportedPath": "core-rules,-how-to-play/hitpoints/healing.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Hitpoints/HP.md": {
-      "modifiedTime": 1748011640561,
+      "modifiedTime": 1749635433146,
       "sourceSize": 507,
       "exportedPath": "core-rules,-how-to-play/hitpoints/hp.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Hitpoints/Long Rest.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 529,
       "exportedPath": "core-rules,-how-to-play/hitpoints/long-rest.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Hitpoints/Natural Healing.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 814,
       "exportedPath": "core-rules,-how-to-play/hitpoints/natural-healing.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Hitpoints/Recovering from Defeat.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 420,
       "exportedPath": "core-rules,-how-to-play/hitpoints/recovering-from-defeat.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Hitpoints/Rest.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 39,
       "exportedPath": "core-rules,-how-to-play/hitpoints/rest.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Hitpoints/Short Rest.md": {
-      "modifiedTime": 1747950840248,
-      "sourceSize": 197,
+      "modifiedTime": 1749635433146,
+      "sourceSize": 214,
       "exportedPath": "core-rules,-how-to-play/hitpoints/short-rest.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Hitpoints/Temp HP.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 220,
       "exportedPath": "core-rules,-how-to-play/hitpoints/temp-hp.html",
       "dependencies": []
     },
     "Core Rules, How to Play/More Rules/Fall Damage.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 261,
       "exportedPath": "core-rules,-how-to-play/more-rules/fall-damage.html",
       "dependencies": []
     },
     "Core Rules, How to Play/More Rules/Light Level.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 812,
       "exportedPath": "core-rules,-how-to-play/more-rules/light-level.html",
       "dependencies": []
     },
     "Core Rules, How to Play/More Rules/Rounding Numbers.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 38,
       "exportedPath": "core-rules,-how-to-play/more-rules/rounding-numbers.html",
       "dependencies": []
     },
     "Core Rules, How to Play/More Rules/Size and Reach.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 1490,
       "exportedPath": "core-rules,-how-to-play/more-rules/size-and-reach.html",
       "dependencies": []
     },
     "Core Rules, How to Play/More Rules/Stacking Damage and Defense.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 258,
       "exportedPath": "core-rules,-how-to-play/more-rules/stacking-damage-and-defense.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Recharging Abilities/At-Will.md": {
-      "modifiedTime": 1749529283203,
+      "modifiedTime": 1749635433146,
       "sourceSize": 144,
       "exportedPath": "core-rules,-how-to-play/recharging-abilities/at-will.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Recharging Abilities/Limited.md": {
-      "modifiedTime": 1749529283203,
+      "modifiedTime": 1749635433146,
       "sourceSize": 252,
       "exportedPath": "core-rules,-how-to-play/recharging-abilities/limited.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Recharging Abilities/Mana.md": {
-      "modifiedTime": 1749529283203,
+      "modifiedTime": 1749635433146,
       "sourceSize": 1166,
       "exportedPath": "core-rules,-how-to-play/recharging-abilities/mana.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Recharging Abilities/Recharge.md": {
-      "modifiedTime": 1749529283203,
+      "modifiedTime": 1749635433146,
       "sourceSize": 147,
       "exportedPath": "core-rules,-how-to-play/recharging-abilities/recharge.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Saving Throws/Fortitude.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 321,
       "exportedPath": "core-rules,-how-to-play/saving-throws/fortitude.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Saving Throws/Reflex.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 320,
       "exportedPath": "core-rules,-how-to-play/saving-throws/reflex.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Saving Throws/Saving Throw.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 586,
       "exportedPath": "core-rules,-how-to-play/saving-throws/saving-throw.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Saving Throws/Will.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 322,
       "exportedPath": "core-rules,-how-to-play/saving-throws/will.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Status Effects/Ablaze.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 349,
       "exportedPath": "core-rules,-how-to-play/status-effects/ablaze.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Status Effects/Affliction.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 269,
       "exportedPath": "core-rules,-how-to-play/status-effects/affliction.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Status Effects/Anchored.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 101,
       "exportedPath": "core-rules,-how-to-play/status-effects/anchored.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Status Effects/Asleep.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 373,
       "exportedPath": "core-rules,-how-to-play/status-effects/asleep.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Status Effects/Bleeding.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 301,
       "exportedPath": "core-rules,-how-to-play/status-effects/bleeding.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Status Effects/Blinded.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 197,
       "exportedPath": "core-rules,-how-to-play/status-effects/blinded.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Status Effects/Blurred Vision.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 122,
       "exportedPath": "core-rules,-how-to-play/status-effects/blurred-vision.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Status Effects/Charmed.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 258,
       "exportedPath": "core-rules,-how-to-play/status-effects/charmed.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Status Effects/Chilled.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 161,
       "exportedPath": "core-rules,-how-to-play/status-effects/chilled.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Status Effects/Clumsy.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 249,
       "exportedPath": "core-rules,-how-to-play/status-effects/clumsy.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Status Effects/Confused.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 821,
       "exportedPath": "core-rules,-how-to-play/status-effects/confused.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Status Effects/Cursed.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 330,
       "exportedPath": "core-rules,-how-to-play/status-effects/cursed.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Status Effects/Dazed.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 123,
       "exportedPath": "core-rules,-how-to-play/status-effects/dazed.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Status Effects/Defeated.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 284,
       "exportedPath": "core-rules,-how-to-play/status-effects/defeated.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Status Effects/Dominated.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 205,
       "exportedPath": "core-rules,-how-to-play/status-effects/dominated.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Status Effects/Drained.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 170,
       "exportedPath": "core-rules,-how-to-play/status-effects/drained.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Status Effects/Entangled.md": {
-      "modifiedTime": 1748139680843,
+      "modifiedTime": 1749635433146,
       "sourceSize": 240,
       "exportedPath": "core-rules,-how-to-play/status-effects/entangled.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Status Effects/Entombed.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 194,
       "exportedPath": "core-rules,-how-to-play/status-effects/entombed.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Status Effects/Fascinated.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 539,
       "exportedPath": "core-rules,-how-to-play/status-effects/fascinated.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Status Effects/Fatigued.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 118,
       "exportedPath": "core-rules,-how-to-play/status-effects/fatigued.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Status Effects/Frightened.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 130,
       "exportedPath": "core-rules,-how-to-play/status-effects/frightened.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Status Effects/Grounded.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 257,
       "exportedPath": "core-rules,-how-to-play/status-effects/grounded.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Status Effects/Held Down.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 38,
       "exportedPath": "core-rules,-how-to-play/status-effects/held-down.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Status Effects/Invincible.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 36,
       "exportedPath": "core-rules,-how-to-play/status-effects/invincible.html",
       "dependencies": []
     },
+    "Core Rules, How to Play/Status Effects/Invisible.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 273,
+      "exportedPath": "core-rules,-how-to-play/status-effects/invisible.html",
+      "dependencies": []
+    },
     "Core Rules, How to Play/Status Effects/Knocked Down.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 254,
       "exportedPath": "core-rules,-how-to-play/status-effects/knocked-down.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Status Effects/Mindless.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 173,
       "exportedPath": "core-rules,-how-to-play/status-effects/mindless.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Status Effects/Necrosed.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 103,
       "exportedPath": "core-rules,-how-to-play/status-effects/necrosed.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Status Effects/Pacified.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 160,
       "exportedPath": "core-rules,-how-to-play/status-effects/pacified.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Status Effects/Prone.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 168,
       "exportedPath": "core-rules,-how-to-play/status-effects/prone.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Status Effects/Shaken.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 222,
       "exportedPath": "core-rules,-how-to-play/status-effects/shaken.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Status Effects/Sickened.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 177,
       "exportedPath": "core-rules,-how-to-play/status-effects/sickened.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Status Effects/Silenced.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 111,
       "exportedPath": "core-rules,-how-to-play/status-effects/silenced.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Status Effects/Siphoned.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 210,
       "exportedPath": "core-rules,-how-to-play/status-effects/siphoned.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Status Effects/Staggered.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 100,
       "exportedPath": "core-rules,-how-to-play/status-effects/staggered.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Status Effects/Stasis.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 206,
       "exportedPath": "core-rules,-how-to-play/status-effects/stasis.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Status Effects/Status.md": {
-      "modifiedTime": 1749118957271,
+      "modifiedTime": 1749635433146,
       "sourceSize": 781,
       "exportedPath": "core-rules,-how-to-play/status-effects/status.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Status Effects/Stunned.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 112,
       "exportedPath": "core-rules,-how-to-play/status-effects/stunned.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Status Effects/Submerged.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 99,
       "exportedPath": "core-rules,-how-to-play/status-effects/submerged.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Status Effects/Surprised.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 512,
       "exportedPath": "core-rules,-how-to-play/status-effects/surprised.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Status Effects/Taunted.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 473,
       "exportedPath": "core-rules,-how-to-play/status-effects/taunted.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Status Effects/Time Out.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 687,
       "exportedPath": "core-rules,-how-to-play/status-effects/time-out.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Status Effects/Unassailable.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 75,
       "exportedPath": "core-rules,-how-to-play/status-effects/unassailable.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Status Effects/Unstoppable.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 99,
       "exportedPath": "core-rules,-how-to-play/status-effects/unstoppable.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Status Effects/Untargetable.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 28,
       "exportedPath": "core-rules,-how-to-play/status-effects/untargetable.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Status Effects/Wet.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 337,
       "exportedPath": "core-rules,-how-to-play/status-effects/wet.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Tags/School Tags/Abnegation.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 53,
       "exportedPath": "core-rules,-how-to-play/tags/school-tags/abnegation.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Tags/School Tags/Conjuration.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 71,
       "exportedPath": "core-rules,-how-to-play/tags/school-tags/conjuration.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Tags/School Tags/Divination.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 81,
       "exportedPath": "core-rules,-how-to-play/tags/school-tags/divination.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Tags/School Tags/Evocation.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 89,
       "exportedPath": "core-rules,-how-to-play/tags/school-tags/evocation.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Tags/School Tags/Illusion.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 156,
       "exportedPath": "core-rules,-how-to-play/tags/school-tags/illusion.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Tags/School Tags/Transmutation.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 56,
       "exportedPath": "core-rules,-how-to-play/tags/school-tags/transmutation.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Tags/Air.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 86,
       "exportedPath": "core-rules,-how-to-play/tags/air.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Tags/Bond.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 174,
       "exportedPath": "core-rules,-how-to-play/tags/bond.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Tags/Buff.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 174,
       "exportedPath": "core-rules,-how-to-play/tags/buff.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Tags/Caloric.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 74,
       "exportedPath": "core-rules,-how-to-play/tags/caloric.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Tags/Charm.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 138,
       "exportedPath": "core-rules,-how-to-play/tags/charm.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Tags/Companion.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 898,
       "exportedPath": "core-rules,-how-to-play/tags/companion.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Tags/Concentration.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 669,
       "exportedPath": "core-rules,-how-to-play/tags/concentration.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Tags/Contingent.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 353,
       "exportedPath": "core-rules,-how-to-play/tags/contingent.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Tags/Curse.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 328,
       "exportedPath": "core-rules,-how-to-play/tags/curse.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Tags/D.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 186,
       "exportedPath": "core-rules,-how-to-play/tags/d.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Tags/Damage.md": {
-      "modifiedTime": 1749118957271,
+      "modifiedTime": 1749635433146,
       "sourceSize": 623,
       "exportedPath": "core-rules,-how-to-play/tags/damage.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Tags/Darkness.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 71,
       "exportedPath": "core-rules,-how-to-play/tags/darkness.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Tags/Earth.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 87,
       "exportedPath": "core-rules,-how-to-play/tags/earth.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Tags/Elusive.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 52,
       "exportedPath": "core-rules,-how-to-play/tags/elusive.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Tags/Fear.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 92,
       "exportedPath": "core-rules,-how-to-play/tags/fear.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Tags/Figment.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 742,
       "exportedPath": "core-rules,-how-to-play/tags/figment.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Tags/Glamer.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 138,
       "exportedPath": "core-rules,-how-to-play/tags/glamer.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Tags/Language.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 160,
       "exportedPath": "core-rules,-how-to-play/tags/language.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Tags/Light.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 68,
       "exportedPath": "core-rules,-how-to-play/tags/light.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Tags/Martial.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 300,
       "exportedPath": "core-rules,-how-to-play/tags/martial.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Tags/Mind-Affecting.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 194,
       "exportedPath": "core-rules,-how-to-play/tags/mind-affecting.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Tags/Multi-Strike.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 144,
       "exportedPath": "core-rules,-how-to-play/tags/multi-strike.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Tags/Pattern.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 267,
       "exportedPath": "core-rules,-how-to-play/tags/pattern.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Tags/Persistent.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 244,
       "exportedPath": "core-rules,-how-to-play/tags/persistent.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Tags/Polymorph.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 1132,
       "exportedPath": "core-rules,-how-to-play/tags/polymorph.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Tags/Scrying.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 434,
       "exportedPath": "core-rules,-how-to-play/tags/scrying.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Tags/Sigil.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 419,
       "exportedPath": "core-rules,-how-to-play/tags/sigil.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Tags/Subtle.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 186,
       "exportedPath": "core-rules,-how-to-play/tags/subtle.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Tags/Tags.md": {
-      "modifiedTime": 1748748860120,
+      "modifiedTime": 1749635433146,
       "sourceSize": 745,
       "exportedPath": "core-rules,-how-to-play/tags/tags.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Tags/Teleportation.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 327,
       "exportedPath": "core-rules,-how-to-play/tags/teleportation.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Tags/Water.md": {
-      "modifiedTime": 1747950840248,
+      "modifiedTime": 1749635433146,
       "sourceSize": 88,
       "exportedPath": "core-rules,-how-to-play/tags/water.html",
       "dependencies": []
     },
-    "Game Design Rambling/Math and Worldbuilding.md": {
-      "modifiedTime": 1748139680843,
-      "sourceSize": 15710,
-      "exportedPath": "game-design-rambling/math-and-worldbuilding.html",
-      "dependencies": []
-    },
-    "Skills/Acrobatics/Acrobatics.md": {
-      "modifiedTime": 1749529283203,
-      "sourceSize": 121,
-      "exportedPath": "skills/acrobatics/acrobatics.html",
-      "dependencies": []
-    },
-    "Skills/Acrobatics/Balance.md": {
-      "modifiedTime": 1749529283203,
-      "sourceSize": 315,
-      "exportedPath": "skills/acrobatics/balance.html",
-      "dependencies": []
-    },
-    "Skills/Acrobatics/Tumble.md": {
-      "modifiedTime": 1749529283203,
-      "sourceSize": 347,
-      "exportedPath": "skills/acrobatics/tumble.html",
-      "dependencies": []
-    },
-    "Skills/Acrobatics/Wall Kick.md": {
-      "modifiedTime": 1749529283203,
-      "sourceSize": 377,
-      "exportedPath": "skills/acrobatics/wall-kick.html",
-      "dependencies": []
-    },
-    "Skills/Athletics/Aquatic Combat.md": {
-      "modifiedTime": 1749529283203,
-      "sourceSize": 225,
-      "exportedPath": "skills/athletics/aquatic-combat.html",
-      "dependencies": []
-    },
-    "Skills/Athletics/Athletics.md": {
-      "modifiedTime": 1749529283203,
-      "sourceSize": 198,
-      "exportedPath": "skills/athletics/athletics.html",
-      "dependencies": []
-    },
-    "Skills/Athletics/Brute Force.md": {
-      "modifiedTime": 1749529283203,
-      "sourceSize": 417,
-      "exportedPath": "skills/athletics/brute-force.html",
-      "dependencies": []
-    },
-    "Skills/Athletics/Catch Fall.md": {
-      "modifiedTime": 1749529283203,
-      "sourceSize": 328,
-      "exportedPath": "skills/athletics/catch-fall.html",
-      "dependencies": []
-    },
-    "Skills/Athletics/Climb.md": {
-      "modifiedTime": 1749529283203,
-      "sourceSize": 270,
-      "exportedPath": "skills/athletics/climb.html",
-      "dependencies": []
-    },
-    "Skills/Athletics/Swim.md": {
-      "modifiedTime": 1749529283203,
-      "sourceSize": 273,
-      "exportedPath": "skills/athletics/swim.html",
-      "dependencies": []
-    },
-    "Skills/Deception/Create a Distraction.md": {
-      "modifiedTime": 1747950840248,
-      "sourceSize": 366,
-      "exportedPath": "skills/deception/create-a-distraction.html",
-      "dependencies": []
-    },
-    "Skills/Deception/Deception.md": {
-      "modifiedTime": 1749529283203,
-      "sourceSize": 221,
-      "exportedPath": "skills/deception/deception.html",
-      "dependencies": []
-    },
-    "Skills/Deception/Disguise.md": {
-      "modifiedTime": 1747950840248,
-      "sourceSize": 790,
-      "exportedPath": "skills/deception/disguise.html",
-      "dependencies": []
-    },
-    "Skills/Deception/Lie.md": {
-      "modifiedTime": 1747950840248,
-      "sourceSize": 618,
-      "exportedPath": "skills/deception/lie.html",
-      "dependencies": []
-    },
-    "Skills/Deception/Subtle Message.md": {
-      "modifiedTime": 1747950840248,
-      "sourceSize": 457,
-      "exportedPath": "skills/deception/subtle-message.html",
-      "dependencies": []
-    },
-    "Skills/Deception/Sucker Punch.md": {
-      "modifiedTime": 1747950840248,
-      "sourceSize": 664,
-      "exportedPath": "skills/deception/sucker-punch.html",
-      "dependencies": []
-    },
-    "Skills/Insight/Detect Compulsion.md": {
-      "modifiedTime": 1747950840248,
-      "sourceSize": 419,
-      "exportedPath": "skills/insight/detect-compulsion.html",
-      "dependencies": []
-    },
-    "Skills/Insight/Detect Dishonesty.md": {
-      "modifiedTime": 1747950840248,
-      "sourceSize": 842,
-      "exportedPath": "skills/insight/detect-dishonesty.html",
-      "dependencies": []
-    },
-    "Skills/Insight/Insight.md": {
-      "modifiedTime": 1749529283203,
-      "sourceSize": 197,
-      "exportedPath": "skills/insight/insight.html",
-      "dependencies": []
-    },
-    "Skills/Insight/Intuition.md": {
-      "modifiedTime": 1747950840248,
-      "sourceSize": 933,
-      "exportedPath": "skills/insight/intuition.html",
-      "dependencies": []
-    },
-    "Skills/Intimidation/Coercion.md": {
-      "modifiedTime": 1747950840248,
-      "sourceSize": 885,
-      "exportedPath": "skills/intimidation/coercion.html",
-      "dependencies": []
-    },
-    "Skills/Intimidation/Demoralize.md": {
-      "modifiedTime": 1747950840248,
-      "sourceSize": 605,
-      "exportedPath": "skills/intimidation/demoralize.html",
-      "dependencies": []
-    },
-    "Skills/Intimidation/Intimidation.md": {
-      "modifiedTime": 1749529283203,
-      "sourceSize": 169,
-      "exportedPath": "skills/intimidation/intimidation.html",
-      "dependencies": []
-    },
-    "Skills/Knowledge/Alchemy/Alchemy.md": {
-      "modifiedTime": 1749529283203,
-      "sourceSize": 253,
-      "exportedPath": "skills/knowledge/alchemy/alchemy.html",
-      "dependencies": []
-    },
-    "Skills/Knowledge/Alchemy/Identify Composition.md": {
-      "modifiedTime": 1747950840248,
-      "sourceSize": 146,
-      "exportedPath": "skills/knowledge/alchemy/identify-composition.html",
-      "dependencies": []
-    },
-    "Skills/Knowledge/Alchemy/Identify Potion.md": {
-      "modifiedTime": 1747950840248,
-      "sourceSize": 121,
-      "exportedPath": "skills/knowledge/alchemy/identify-potion.html",
-      "dependencies": []
-    },
-    "Skills/Knowledge/Arcana/Arcana.md": {
-      "modifiedTime": 1749529283203,
-      "sourceSize": 227,
-      "exportedPath": "skills/knowledge/arcana/arcana.html",
-      "dependencies": []
-    },
-    "Skills/Knowledge/Arcana/Identify Magic Item.md": {
-      "modifiedTime": 1747950840248,
-      "sourceSize": 203,
-      "exportedPath": "skills/knowledge/arcana/identify-magic-item.html",
-      "dependencies": []
-    },
-    "Skills/Knowledge/Arcana/Identify Spell.md": {
-      "modifiedTime": 1748011640561,
-      "sourceSize": 477,
-      "exportedPath": "skills/knowledge/arcana/identify-spell.html",
-      "dependencies": []
-    },
-    "Skills/Knowledge/Astronomy/Astronomy.md": {
-      "modifiedTime": 1749529283203,
-      "sourceSize": 253,
-      "exportedPath": "skills/knowledge/astronomy/astronomy.html",
-      "dependencies": []
-    },
-    "Skills/Knowledge/Knowledge.md": {
-      "modifiedTime": 1749529283203,
-      "sourceSize": 1250,
-      "exportedPath": "skills/knowledge/knowledge.html",
-      "dependencies": []
-    },
-    "Skills/Knowledge/Monster Lore.md": {
-      "modifiedTime": 1749381317145,
-      "sourceSize": 2193,
-      "exportedPath": "skills/knowledge/monster-lore.html",
-      "dependencies": []
-    },
-    "Skills/Group Checks.md": {
-      "modifiedTime": 1747950840248,
-      "sourceSize": 303,
-      "exportedPath": "skills/group-checks.html",
-      "dependencies": []
-    },
-    "Skills/Proficiency.md": {
-      "modifiedTime": 1747950840248,
-      "sourceSize": 164,
-      "exportedPath": "skills/proficiency.html",
-      "dependencies": []
-    },
-    "Skills/Skill.md": {
-      "modifiedTime": 1749118957271,
-      "sourceSize": 2715,
-      "exportedPath": "skills/skill.html",
-      "dependencies": []
-    },
-    "Skills/Take 10.md": {
-      "modifiedTime": 1747950840248,
-      "sourceSize": 198,
-      "exportedPath": "skills/take-10.html",
-      "dependencies": []
-    },
-    "Skills/Take 30.md": {
-      "modifiedTime": 1748139680843,
-      "sourceSize": 260,
-      "exportedPath": "skills/take-30.html",
-      "dependencies": []
-    },
-    "Skills/Tie.md": {
-      "modifiedTime": 1747950840248,
-      "sourceSize": 58,
-      "exportedPath": "skills/tie.html",
-      "dependencies": []
-    },
-    "Templates/Template, Class.md": {
-      "modifiedTime": 1747950840248,
-      "sourceSize": 382,
-      "exportedPath": "templates/template,-class.html",
-      "dependencies": [
-        "lib/media/nice.png"
-      ]
-    },
-    "lib/media/nice.png": {
-      "modifiedTime": 1747950840248,
-      "sourceSize": 23410,
-      "exportedPath": "lib/media/nice.png",
-      "dependencies": []
-    },
-    "Skills/Knowledge/Astronomy/Identify Cosmic Phenomenon.md": {
-      "modifiedTime": 1748011640561,
-      "sourceSize": 458,
-      "exportedPath": "skills/knowledge/astronomy/identify-cosmic-phenomenon.html",
-      "dependencies": []
-    },
-    "Skills/Knowledge/Astronomy/Navigation.md": {
-      "modifiedTime": 1748011640561,
-      "sourceSize": 246,
-      "exportedPath": "skills/knowledge/astronomy/navigation.html",
-      "dependencies": []
-    },
-    "Skills/Knowledge/Engineering/Engineering.md": {
-      "modifiedTime": 1749529283203,
-      "sourceSize": 247,
-      "exportedPath": "skills/knowledge/engineering/engineering.html",
-      "dependencies": []
-    },
-    "Skills/Knowledge/Engineering/Hack.md": {
-      "modifiedTime": 1748011640561,
-      "sourceSize": 180,
-      "exportedPath": "skills/knowledge/engineering/hack.html",
-      "dependencies": []
-    },
-    "Skills/Knowledge/Engineering/Identify Function.md": {
-      "modifiedTime": 1748011640561,
-      "sourceSize": 243,
-      "exportedPath": "skills/knowledge/engineering/identify-function.html",
-      "dependencies": []
-    },
-    "Skills/Knowledge/Engineering/Identify Structural Quirk.md": {
-      "modifiedTime": 1748011640561,
-      "sourceSize": 368,
-      "exportedPath": "skills/knowledge/engineering/identify-structural-quirk.html",
-      "dependencies": []
-    },
-    "Skills/Knowledge/Nature/Identify Natural Phenomenon.md": {
-      "modifiedTime": 1748011640561,
-      "sourceSize": 524,
-      "exportedPath": "skills/knowledge/nature/identify-natural-phenomenon.html",
-      "dependencies": []
-    },
-    "Skills/Knowledge/Nature/Nature.md": {
-      "modifiedTime": 1749529283203,
-      "sourceSize": 256,
-      "exportedPath": "skills/knowledge/nature/nature.html",
-      "dependencies": []
-    },
-    "Skills/Knowledge/Planes/Detect Portal.md": {
-      "modifiedTime": 1748011640561,
-      "sourceSize": 1032,
-      "exportedPath": "skills/knowledge/planes/detect-portal.html",
-      "dependencies": []
-    },
-    "Skills/Knowledge/Planes/Planes.md": {
-      "modifiedTime": 1749529283203,
-      "sourceSize": 230,
-      "exportedPath": "skills/knowledge/planes/planes.html",
-      "dependencies": []
-    },
-    "Skills/Knowledge/Religion/Divine Lore.md": {
-      "modifiedTime": 1748011640561,
-      "sourceSize": 327,
-      "exportedPath": "skills/knowledge/religion/divine-lore.html",
-      "dependencies": []
-    },
-    "Skills/Knowledge/Religion/Religion.md": {
-      "modifiedTime": 1749529283203,
-      "sourceSize": 193,
-      "exportedPath": "skills/knowledge/religion/religion.html",
-      "dependencies": []
-    },
-    "Skills/Knowledge/History.md": {
-      "modifiedTime": 1748011640561,
-      "sourceSize": 2221,
-      "exportedPath": "skills/knowledge/history.html",
-      "dependencies": []
-    },
-    "Core Rules, How to Play/Attacking/Offense Calculator.md": {
-      "modifiedTime": 1749118957271,
-      "sourceSize": 1371,
-      "exportedPath": "core-rules,-how-to-play/attacking/offense-calculator.html",
-      "dependencies": []
-    },
-    "Skills/Linguistics/Encode or Decode Documents.md": {
-      "modifiedTime": 1748139680843,
-      "sourceSize": 521,
-      "exportedPath": "skills/linguistics/encode-or-decode-documents.html",
-      "dependencies": []
-    },
-    "Skills/Linguistics/Interpret Text.md": {
-      "modifiedTime": 1748139680843,
-      "sourceSize": 373,
-      "exportedPath": "skills/linguistics/interpret-text.html",
-      "dependencies": []
-    },
-    "Skills/Linguistics/Linguistics.md": {
-      "modifiedTime": 1749529283203,
-      "sourceSize": 282,
-      "exportedPath": "skills/linguistics/linguistics.html",
-      "dependencies": []
-    },
-    "Skills/Linguistics/Write or Forge Documents.md": {
-      "modifiedTime": 1748139680843,
-      "sourceSize": 188,
-      "exportedPath": "skills/linguistics/write-or-forge-documents.html",
-      "dependencies": []
-    },
-    "Skills/Linguistics/Language.md": {
-      "modifiedTime": 1748748860120,
-      "sourceSize": 5171,
-      "exportedPath": "skills/linguistics/language.html",
-      "dependencies": []
-    },
-    "Skills/Medicine/Assess Vitality.md": {
-      "modifiedTime": 1748748860120,
-      "sourceSize": 455,
-      "exportedPath": "skills/medicine/assess-vitality.html",
-      "dependencies": []
-    },
-    "Skills/Medicine/Identify Affliction or Curse.md": {
-      "modifiedTime": 1748748860120,
-      "sourceSize": 257,
-      "exportedPath": "skills/medicine/identify-affliction-or-curse.html",
-      "dependencies": []
-    },
-    "Skills/Medicine/Long Term Care.md": {
-      "modifiedTime": 1748748860120,
-      "sourceSize": 200,
-      "exportedPath": "skills/medicine/long-term-care.html",
-      "dependencies": []
-    },
-    "Skills/Medicine/Medicine.md": {
-      "modifiedTime": 1749529283203,
-      "sourceSize": 224,
-      "exportedPath": "skills/medicine/medicine.html",
-      "dependencies": []
-    },
-    "Skills/Medicine/Prevent Recovery.md": {
-      "modifiedTime": 1748748860120,
-      "sourceSize": 148,
-      "exportedPath": "skills/medicine/prevent-recovery.html",
-      "dependencies": []
-    },
-    "Skills/Medicine/Provide First Aid.md": {
-      "modifiedTime": 1748748860120,
-      "sourceSize": 284,
-      "exportedPath": "skills/medicine/provide-first-aid.html",
-      "dependencies": []
-    },
-    "Skills/Persuasion/Coax.md": {
-      "modifiedTime": 1749529283203,
-      "sourceSize": 886,
-      "exportedPath": "skills/persuasion/coax.html",
-      "dependencies": []
-    },
-    "Skills/Persuasion/Persuasion.md": {
-      "modifiedTime": 1749529283203,
-      "sourceSize": 101,
-      "exportedPath": "skills/persuasion/persuasion.html",
-      "dependencies": []
-    },
-    "Core Rules, How to Play/Abbreviations and Terminology/Circumstance.md": {
-      "modifiedTime": 1749118957271,
-      "sourceSize": 602,
-      "exportedPath": "core-rules,-how-to-play/abbreviations-and-terminology/circumstance.html",
-      "dependencies": []
-    },
-    "Core Rules, How to Play/Abbreviations and Terminology/Potency.md": {
-      "modifiedTime": 1749118957271,
-      "sourceSize": 121,
-      "exportedPath": "core-rules,-how-to-play/abbreviations-and-terminology/potency.html",
-      "dependencies": []
-    },
-    "Core Rules, How to Play/Abbreviations and Terminology/SP.md": {
-      "modifiedTime": 1749118957271,
-      "sourceSize": 204,
-      "exportedPath": "core-rules,-how-to-play/abbreviations-and-terminology/sp.html",
-      "dependencies": []
-    },
-    "Core Rules, How to Play/Status Effects/Invisible.md": {
-      "modifiedTime": 1749118957271,
-      "sourceSize": 273,
-      "exportedPath": "core-rules,-how-to-play/status-effects/invisible.html",
-      "dependencies": []
-    },
-    "Game Design Rambling/Difficulty and Integrity.md": {
-      "modifiedTime": 1749381317145,
-      "sourceSize": 22887,
-      "exportedPath": "game-design-rambling/difficulty-and-integrity.html",
-      "dependencies": []
-    },
-    "Skills/Persuasion/Example DCs.md": {
-      "modifiedTime": 1749118957271,
-      "sourceSize": 2475,
-      "exportedPath": "skills/persuasion/example-dcs.html",
-      "dependencies": []
-    },
-    "Skills/Persuasion/Gather Information.md": {
-      "modifiedTime": 1749118957271,
-      "sourceSize": 392,
-      "exportedPath": "skills/persuasion/gather-information.html",
+    "Core Rules, How to Play/Rolling Dice and Statistics.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 1240,
+      "exportedPath": "core-rules,-how-to-play/rolling-dice-and-statistics.html",
       "dependencies": []
     },
     "Equipment/Armor and Shield Rules/Armor.md": {
-      "modifiedTime": 1749381317145,
+      "modifiedTime": 1749635433146,
       "sourceSize": 822,
       "exportedPath": "equipment/armor-and-shield-rules/armor.html",
       "dependencies": []
     },
     "Equipment/Armor and Shield Rules/Shield.md": {
-      "modifiedTime": 1749529283203,
+      "modifiedTime": 1749635433146,
       "sourceSize": 2023,
       "exportedPath": "equipment/armor-and-shield-rules/shield.html",
       "dependencies": []
     },
-    "Equipment/Weapon Rules/Weapon Types and Basic Weapons/Subtypes/Ammunition.md": {
-      "modifiedTime": 1749381317145,
-      "sourceSize": 993,
-      "exportedPath": "equipment/weapon-rules/weapon-types-and-basic-weapons/subtypes/ammunition.html",
+    "Equipment/Backgrounds/Background.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 242,
+      "exportedPath": "equipment/backgrounds/background.html",
       "dependencies": []
     },
-    "Equipment/Weapon Rules/Weapon Types and Basic Weapons/Subtypes/Natural Weapon.md": {
-      "modifiedTime": 1749381317145,
-      "sourceSize": 408,
-      "exportedPath": "equipment/weapon-rules/weapon-types-and-basic-weapons/subtypes/natural-weapon.html",
+    "Equipment/Backgrounds/Family Man.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 482,
+      "exportedPath": "equipment/backgrounds/family-man.html",
       "dependencies": []
     },
-    "Equipment/Weapon Rules/Weapon Types and Basic Weapons/Subtypes/Staff.md": {
-      "modifiedTime": 1749381317145,
-      "sourceSize": 202,
-      "exportedPath": "equipment/weapon-rules/weapon-types-and-basic-weapons/subtypes/staff.html",
+    "Equipment/Backgrounds/Noble.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 568,
+      "exportedPath": "equipment/backgrounds/noble.html",
       "dependencies": []
     },
-    "Equipment/Weapon Rules/Weapon Types and Basic Weapons/Axe.md": {
-      "modifiedTime": 1749381317145,
-      "sourceSize": 751,
-      "exportedPath": "equipment/weapon-rules/weapon-types-and-basic-weapons/axe.html",
+    "Equipment/Backgrounds/Tradesman.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 1043,
+      "exportedPath": "equipment/backgrounds/tradesman.html",
       "dependencies": []
     },
-    "Equipment/Weapon Rules/Weapon Types and Basic Weapons/Blade.md": {
-      "modifiedTime": 1749381317145,
-      "sourceSize": 653,
-      "exportedPath": "equipment/weapon-rules/weapon-types-and-basic-weapons/blade.html",
-      "dependencies": []
-    },
-    "Equipment/Weapon Rules/Weapon Types and Basic Weapons/Bludgeon.md": {
-      "modifiedTime": 1749381317145,
-      "sourceSize": 601,
-      "exportedPath": "equipment/weapon-rules/weapon-types-and-basic-weapons/bludgeon.html",
-      "dependencies": []
-    },
-    "Equipment/Weapon Rules/Weapon Types and Basic Weapons/Bow.md": {
-      "modifiedTime": 1749381317145,
-      "sourceSize": 754,
-      "exportedPath": "equipment/weapon-rules/weapon-types-and-basic-weapons/bow.html",
-      "dependencies": []
-    },
-    "Equipment/Weapon Rules/Weapon Types and Basic Weapons/Close.md": {
-      "modifiedTime": 1749381317145,
-      "sourceSize": 1807,
-      "exportedPath": "equipment/weapon-rules/weapon-types-and-basic-weapons/close.html",
-      "dependencies": []
-    },
-    "Equipment/Weapon Rules/Weapon Types and Basic Weapons/Dagger.md": {
-      "modifiedTime": 1749381317145,
-      "sourceSize": 679,
-      "exportedPath": "equipment/weapon-rules/weapon-types-and-basic-weapons/dagger.html",
-      "dependencies": []
-    },
-    "Equipment/Weapon Rules/Weapon Types and Basic Weapons/Polearm.md": {
-      "modifiedTime": 1749381317145,
-      "sourceSize": 768,
-      "exportedPath": "equipment/weapon-rules/weapon-types-and-basic-weapons/polearm.html",
-      "dependencies": []
-    },
-    "Equipment/Weapon Rules/Weapon Types and Basic Weapons/Thrown.md": {
-      "modifiedTime": 1749381317145,
-      "sourceSize": 2244,
-      "exportedPath": "equipment/weapon-rules/weapon-types-and-basic-weapons/thrown.html",
-      "dependencies": []
-    },
-    "Equipment/Weapon Rules/Weapon Types and Basic Weapons/Thrust.md": {
-      "modifiedTime": 1749381317145,
-      "sourceSize": 1369,
-      "exportedPath": "equipment/weapon-rules/weapon-types-and-basic-weapons/thrust.html",
-      "dependencies": []
-    },
-    "Equipment/Weapon Rules/Weapon Types and Basic Weapons/Trigger.md": {
-      "modifiedTime": 1749381317145,
-      "sourceSize": 660,
-      "exportedPath": "equipment/weapon-rules/weapon-types-and-basic-weapons/trigger.html",
-      "dependencies": []
-    },
-    "Equipment/Weapon Rules/Basic Weapon.md": {
-      "modifiedTime": 1749381317145,
-      "sourceSize": 239,
-      "exportedPath": "equipment/weapon-rules/basic-weapon.html",
-      "dependencies": []
-    },
-    "Equipment/Weapon Rules/Exotic Weapon.md": {
-      "modifiedTime": 1749381317145,
-      "sourceSize": 157,
-      "exportedPath": "equipment/weapon-rules/exotic-weapon.html",
-      "dependencies": []
-    },
-    "Equipment/Weapon Rules/Range.md": {
-      "modifiedTime": 1749381317145,
-      "sourceSize": 330,
-      "exportedPath": "equipment/weapon-rules/range.html",
-      "dependencies": []
-    },
-    "Equipment/Weapon Rules/Special Attack.md": {
-      "modifiedTime": 1749381317145,
-      "sourceSize": 630,
-      "exportedPath": "equipment/weapon-rules/special-attack.html",
-      "dependencies": []
-    },
-    "Equipment/Weapon Rules/Weapon.md": {
-      "modifiedTime": 1749381317145,
-      "sourceSize": 10296,
-      "exportedPath": "equipment/weapon-rules/weapon.html",
-      "dependencies": []
-    },
-    "Equipment/Weapon Rules/Weapon Group.md": {
-      "modifiedTime": 1749381317145,
-      "sourceSize": 716,
-      "exportedPath": "equipment/weapon-rules/weapon-group.html",
-      "dependencies": []
-    },
-    "Equipment/Weapon Rules/Weapon Qualities.md": {
-      "modifiedTime": 1749381317145,
-      "sourceSize": 3202,
-      "exportedPath": "equipment/weapon-rules/weapon-qualities.html",
-      "dependencies": []
-    },
-    "Equipment/Equipment Slot.md": {
-      "modifiedTime": 1749381317145,
-      "sourceSize": 1985,
-      "exportedPath": "equipment/equipment-slot.html",
-      "dependencies": []
-    },
-    "Skills/Hands/Conceal Item.md": {
-      "modifiedTime": 1749381317145,
-      "sourceSize": 674,
-      "exportedPath": "skills/hands/conceal-item.html",
-      "dependencies": []
-    },
-    "Skills/Hands/Disable Device.md": {
-      "modifiedTime": 1749381317145,
-      "sourceSize": 304,
-      "exportedPath": "skills/hands/disable-device.html",
-      "dependencies": []
-    },
-    "Skills/Hands/Hands.md": {
-      "modifiedTime": 1749529283203,
-      "sourceSize": 145,
-      "exportedPath": "skills/hands/hands.html",
-      "dependencies": []
-    },
-    "Skills/Hands/Pick Lock.md": {
-      "modifiedTime": 1749381317145,
-      "sourceSize": 196,
-      "exportedPath": "skills/hands/pick-lock.html",
-      "dependencies": []
-    },
-    "Skills/Hands/Pickpocket.md": {
-      "modifiedTime": 1749381317145,
-      "sourceSize": 479,
-      "exportedPath": "skills/hands/pickpocket.html",
-      "dependencies": []
-    },
-    "Skills/Knowledge/Humanities/Humanities.md": {
-      "modifiedTime": 1749529283203,
-      "sourceSize": 258,
-      "exportedPath": "skills/knowledge/humanities/humanities.html",
-      "dependencies": []
-    },
-    "Skills/Knowledge/Humanities/Recall Customs.md": {
-      "modifiedTime": 1749381317145,
-      "sourceSize": 261,
-      "exportedPath": "skills/knowledge/humanities/recall-customs.html",
-      "dependencies": []
-    },
-    "Skills/Knowledge/Humanities/Recall Locale.md": {
-      "modifiedTime": 1749381317145,
-      "sourceSize": 321,
-      "exportedPath": "skills/knowledge/humanities/recall-locale.html",
-      "dependencies": []
-    },
-    "Skills/Knowledge/Humanities/Recognize Figure.md": {
-      "modifiedTime": 1749381317145,
-      "sourceSize": 276,
-      "exportedPath": "skills/knowledge/humanities/recognize-figure.html",
-      "dependencies": []
-    },
-    "Skills/Perception/Detect Hidden Presence.md": {
-      "modifiedTime": 1749381317145,
-      "sourceSize": 341,
-      "exportedPath": "skills/perception/detect-hidden-presence.html",
-      "dependencies": []
-    },
-    "Skills/Perception/Perception.md": {
-      "modifiedTime": 1749529283203,
-      "sourceSize": 281,
-      "exportedPath": "skills/perception/perception.html",
-      "dependencies": []
-    },
-    "Skills/Perform/Perform.md": {
-      "modifiedTime": 1749529283203,
-      "sourceSize": 424,
-      "exportedPath": "skills/perform/perform.html",
-      "dependencies": []
-    },
-    "Skills/Perform/Performance.md": {
-      "modifiedTime": 1749381317145,
-      "sourceSize": 315,
-      "exportedPath": "skills/perform/performance.html",
-      "dependencies": []
-    },
-    "Skills/Profession/Profession.md": {
-      "modifiedTime": 1749529283203,
-      "sourceSize": 485,
-      "exportedPath": "skills/profession/profession.html",
-      "dependencies": []
-    },
-    "Skills/Profession/Quiz.md": {
-      "modifiedTime": 1749381317145,
-      "sourceSize": 250,
-      "exportedPath": "skills/profession/quiz.html",
-      "dependencies": []
-    },
-    "Skills/Stealth/Hide.md": {
-      "modifiedTime": 1749381317145,
-      "sourceSize": 561,
-      "exportedPath": "skills/stealth/hide.html",
-      "dependencies": []
-    },
-    "Skills/Stealth/Hide Trail.md": {
-      "modifiedTime": 1749381317145,
-      "sourceSize": 161,
-      "exportedPath": "skills/stealth/hide-trail.html",
-      "dependencies": []
-    },
-    "Skills/Stealth/Stealth.md": {
-      "modifiedTime": 1749529283203,
-      "sourceSize": 107,
-      "exportedPath": "skills/stealth/stealth.html",
-      "dependencies": []
-    },
-    "Skills/Survival/Butcher.md": {
-      "modifiedTime": 1749381317145,
-      "sourceSize": 831,
-      "exportedPath": "skills/survival/butcher.html",
-      "dependencies": []
-    },
-    "Skills/Survival/Live off Land.md": {
-      "modifiedTime": 1749381317145,
-      "sourceSize": 312,
-      "exportedPath": "skills/survival/live-off-land.html",
-      "dependencies": []
-    },
-    "Skills/Survival/Navigate.md": {
-      "modifiedTime": 1749381317145,
-      "sourceSize": 298,
-      "exportedPath": "skills/survival/navigate.html",
-      "dependencies": []
-    },
-    "Skills/Survival/Survival.md": {
-      "modifiedTime": 1749529283203,
-      "sourceSize": 135,
-      "exportedPath": "skills/survival/survival.html",
-      "dependencies": []
-    },
-    "Skills/Survival/Track.md": {
-      "modifiedTime": 1749381317145,
-      "sourceSize": 241,
-      "exportedPath": "skills/survival/track.html",
+    "Equipment/Backgrounds/Wanderer.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 419,
+      "exportedPath": "equipment/backgrounds/wanderer.html",
       "dependencies": []
     },
     "Equipment/Economics/Common Prices.md": {
-      "modifiedTime": 1749529283203,
+      "modifiedTime": 1749635433146,
       "sourceSize": 1299,
       "exportedPath": "equipment/economics/common-prices.html",
       "dependencies": []
     },
     "Equipment/Economics/Economics.md": {
-      "modifiedTime": 1749529283203,
+      "modifiedTime": 1749635433146,
       "sourceSize": 2915,
       "exportedPath": "equipment/economics/economics.html",
       "dependencies": []
     },
     "Equipment/Economics/The Cost of Living.md": {
-      "modifiedTime": 1749529283203,
+      "modifiedTime": 1749635433146,
       "sourceSize": 820,
       "exportedPath": "equipment/economics/the-cost-of-living.html",
       "dependencies": []
     },
     "Equipment/Economics/The Value of Gold.md": {
-      "modifiedTime": 1749529283203,
+      "modifiedTime": 1749635433146,
       "sourceSize": 4585,
       "exportedPath": "equipment/economics/the-value-of-gold.html",
       "dependencies": []
     },
-    "Skills/SKILLS DATABASE.md": {
-      "modifiedTime": 1749529283203,
-      "sourceSize": 2278,
-      "exportedPath": "skills/skills-database.html",
+    "Equipment/Food/Food.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 3276,
+      "exportedPath": "equipment/food/food.html",
+      "dependencies": []
+    },
+    "Equipment/Mundane Items/Mundane Item.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 134,
+      "exportedPath": "equipment/mundane-items/mundane-item.html",
+      "dependencies": []
+    },
+    "Equipment/Mundane Items/Property.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 285,
+      "exportedPath": "equipment/mundane-items/property.html",
+      "dependencies": []
+    },
+    "Equipment/Mundane Items/Tools.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 885,
+      "exportedPath": "equipment/mundane-items/tools.html",
+      "dependencies": []
+    },
+    "Equipment/Mundane Items/Torch.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 406,
+      "exportedPath": "equipment/mundane-items/torch.html",
+      "dependencies": []
+    },
+    "Equipment/Weapon Rules/Weapon Types and Basic Weapons/Subtypes/Ammunition.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 993,
+      "exportedPath": "equipment/weapon-rules/weapon-types-and-basic-weapons/subtypes/ammunition.html",
+      "dependencies": []
+    },
+    "Equipment/Weapon Rules/Weapon Types and Basic Weapons/Subtypes/Natural Weapon.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 408,
+      "exportedPath": "equipment/weapon-rules/weapon-types-and-basic-weapons/subtypes/natural-weapon.html",
+      "dependencies": []
+    },
+    "Equipment/Weapon Rules/Weapon Types and Basic Weapons/Subtypes/Staff.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 202,
+      "exportedPath": "equipment/weapon-rules/weapon-types-and-basic-weapons/subtypes/staff.html",
+      "dependencies": []
+    },
+    "Equipment/Weapon Rules/Weapon Types and Basic Weapons/Axe.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 751,
+      "exportedPath": "equipment/weapon-rules/weapon-types-and-basic-weapons/axe.html",
+      "dependencies": []
+    },
+    "Equipment/Weapon Rules/Weapon Types and Basic Weapons/Blade.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 653,
+      "exportedPath": "equipment/weapon-rules/weapon-types-and-basic-weapons/blade.html",
+      "dependencies": []
+    },
+    "Equipment/Weapon Rules/Weapon Types and Basic Weapons/Bludgeon.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 601,
+      "exportedPath": "equipment/weapon-rules/weapon-types-and-basic-weapons/bludgeon.html",
+      "dependencies": []
+    },
+    "Equipment/Weapon Rules/Weapon Types and Basic Weapons/Bow.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 754,
+      "exportedPath": "equipment/weapon-rules/weapon-types-and-basic-weapons/bow.html",
+      "dependencies": []
+    },
+    "Equipment/Weapon Rules/Weapon Types and Basic Weapons/Close.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 1807,
+      "exportedPath": "equipment/weapon-rules/weapon-types-and-basic-weapons/close.html",
+      "dependencies": []
+    },
+    "Equipment/Weapon Rules/Weapon Types and Basic Weapons/Dagger.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 679,
+      "exportedPath": "equipment/weapon-rules/weapon-types-and-basic-weapons/dagger.html",
+      "dependencies": []
+    },
+    "Equipment/Weapon Rules/Weapon Types and Basic Weapons/Polearm.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 768,
+      "exportedPath": "equipment/weapon-rules/weapon-types-and-basic-weapons/polearm.html",
+      "dependencies": []
+    },
+    "Equipment/Weapon Rules/Weapon Types and Basic Weapons/Thrown.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 2244,
+      "exportedPath": "equipment/weapon-rules/weapon-types-and-basic-weapons/thrown.html",
+      "dependencies": []
+    },
+    "Equipment/Weapon Rules/Weapon Types and Basic Weapons/Thrust.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 1369,
+      "exportedPath": "equipment/weapon-rules/weapon-types-and-basic-weapons/thrust.html",
+      "dependencies": []
+    },
+    "Equipment/Weapon Rules/Weapon Types and Basic Weapons/Trigger.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 660,
+      "exportedPath": "equipment/weapon-rules/weapon-types-and-basic-weapons/trigger.html",
+      "dependencies": []
+    },
+    "Equipment/Weapon Rules/Basic Weapon.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 239,
+      "exportedPath": "equipment/weapon-rules/basic-weapon.html",
+      "dependencies": []
+    },
+    "Equipment/Weapon Rules/Exotic Weapon.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 157,
+      "exportedPath": "equipment/weapon-rules/exotic-weapon.html",
+      "dependencies": []
+    },
+    "Equipment/Weapon Rules/Range.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 330,
+      "exportedPath": "equipment/weapon-rules/range.html",
+      "dependencies": []
+    },
+    "Equipment/Weapon Rules/Special Attack.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 630,
+      "exportedPath": "equipment/weapon-rules/special-attack.html",
+      "dependencies": []
+    },
+    "Equipment/Weapon Rules/Weapon.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 10296,
+      "exportedPath": "equipment/weapon-rules/weapon.html",
+      "dependencies": []
+    },
+    "Equipment/Weapon Rules/Weapon Group.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 716,
+      "exportedPath": "equipment/weapon-rules/weapon-group.html",
+      "dependencies": []
+    },
+    "Equipment/Weapon Rules/Weapon Qualities.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 3202,
+      "exportedPath": "equipment/weapon-rules/weapon-qualities.html",
+      "dependencies": []
+    },
+    "Equipment/Equipment Slot.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 1985,
+      "exportedPath": "equipment/equipment-slot.html",
+      "dependencies": []
+    },
+    "Game Design Rambling/Difficulty and Integrity.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 22887,
+      "exportedPath": "game-design-rambling/difficulty-and-integrity.html",
+      "dependencies": []
+    },
+    "Game Design Rambling/Math and Worldbuilding.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 15710,
+      "exportedPath": "game-design-rambling/math-and-worldbuilding.html",
+      "dependencies": []
+    },
+    "Races/Half-Link Races/Half-Link.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 20677,
+      "exportedPath": "races/half-link-races/half-link.html",
+      "dependencies": []
+    },
+    "Races/Dwarf.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 16925,
+      "exportedPath": "races/dwarf.html",
+      "dependencies": []
+    },
+    "Races/Race.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 2901,
+      "exportedPath": "races/race.html",
+      "dependencies": []
+    },
+    "Skills/Acrobatics/Acrobatics.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 121,
+      "exportedPath": "skills/acrobatics/acrobatics.html",
+      "dependencies": []
+    },
+    "Skills/Acrobatics/Balance.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 315,
+      "exportedPath": "skills/acrobatics/balance.html",
+      "dependencies": []
+    },
+    "Skills/Acrobatics/Tumble.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 347,
+      "exportedPath": "skills/acrobatics/tumble.html",
+      "dependencies": []
+    },
+    "Skills/Acrobatics/Wall Kick.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 377,
+      "exportedPath": "skills/acrobatics/wall-kick.html",
+      "dependencies": []
+    },
+    "Skills/Athletics/Aquatic Combat.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 225,
+      "exportedPath": "skills/athletics/aquatic-combat.html",
+      "dependencies": []
+    },
+    "Skills/Athletics/Athletics.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 198,
+      "exportedPath": "skills/athletics/athletics.html",
+      "dependencies": []
+    },
+    "Skills/Athletics/Brute Force.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 417,
+      "exportedPath": "skills/athletics/brute-force.html",
+      "dependencies": []
+    },
+    "Skills/Athletics/Catch Fall.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 328,
+      "exportedPath": "skills/athletics/catch-fall.html",
+      "dependencies": []
+    },
+    "Skills/Athletics/Climb.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 270,
+      "exportedPath": "skills/athletics/climb.html",
+      "dependencies": []
+    },
+    "Skills/Athletics/Swim.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 273,
+      "exportedPath": "skills/athletics/swim.html",
+      "dependencies": []
+    },
+    "Skills/Deception/Create a Distraction.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 366,
+      "exportedPath": "skills/deception/create-a-distraction.html",
+      "dependencies": []
+    },
+    "Skills/Deception/Deception.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 221,
+      "exportedPath": "skills/deception/deception.html",
+      "dependencies": []
+    },
+    "Skills/Deception/Disguise.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 790,
+      "exportedPath": "skills/deception/disguise.html",
+      "dependencies": []
+    },
+    "Skills/Deception/Lie.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 618,
+      "exportedPath": "skills/deception/lie.html",
+      "dependencies": []
+    },
+    "Skills/Deception/Subtle Message.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 457,
+      "exportedPath": "skills/deception/subtle-message.html",
+      "dependencies": []
+    },
+    "Skills/Deception/Sucker Punch.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 664,
+      "exportedPath": "skills/deception/sucker-punch.html",
+      "dependencies": []
+    },
+    "Skills/Hands/Conceal Item.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 674,
+      "exportedPath": "skills/hands/conceal-item.html",
+      "dependencies": []
+    },
+    "Skills/Hands/Disable Device.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 304,
+      "exportedPath": "skills/hands/disable-device.html",
+      "dependencies": []
+    },
+    "Skills/Hands/Hands.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 145,
+      "exportedPath": "skills/hands/hands.html",
+      "dependencies": []
+    },
+    "Skills/Hands/Pick Lock.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 196,
+      "exportedPath": "skills/hands/pick-lock.html",
+      "dependencies": []
+    },
+    "Skills/Hands/Pickpocket.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 479,
+      "exportedPath": "skills/hands/pickpocket.html",
+      "dependencies": []
+    },
+    "Skills/Insight/Detect Compulsion.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 419,
+      "exportedPath": "skills/insight/detect-compulsion.html",
+      "dependencies": []
+    },
+    "Skills/Insight/Detect Dishonesty.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 842,
+      "exportedPath": "skills/insight/detect-dishonesty.html",
+      "dependencies": []
+    },
+    "Skills/Insight/Insight.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 197,
+      "exportedPath": "skills/insight/insight.html",
+      "dependencies": []
+    },
+    "Skills/Insight/Intuition.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 933,
+      "exportedPath": "skills/insight/intuition.html",
+      "dependencies": []
+    },
+    "Skills/Intimidation/Coercion.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 885,
+      "exportedPath": "skills/intimidation/coercion.html",
+      "dependencies": []
+    },
+    "Skills/Intimidation/Demoralize.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 605,
+      "exportedPath": "skills/intimidation/demoralize.html",
+      "dependencies": []
+    },
+    "Skills/Intimidation/Intimidation.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 169,
+      "exportedPath": "skills/intimidation/intimidation.html",
+      "dependencies": []
+    },
+    "Skills/Knowledge/Alchemy/Alchemy.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 253,
+      "exportedPath": "skills/knowledge/alchemy/alchemy.html",
+      "dependencies": []
+    },
+    "Skills/Knowledge/Alchemy/Identify Composition.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 146,
+      "exportedPath": "skills/knowledge/alchemy/identify-composition.html",
+      "dependencies": []
+    },
+    "Skills/Knowledge/Alchemy/Identify Potion.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 121,
+      "exportedPath": "skills/knowledge/alchemy/identify-potion.html",
+      "dependencies": []
+    },
+    "Skills/Knowledge/Arcana/Arcana.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 227,
+      "exportedPath": "skills/knowledge/arcana/arcana.html",
+      "dependencies": []
+    },
+    "Skills/Knowledge/Arcana/Identify Magic Item.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 203,
+      "exportedPath": "skills/knowledge/arcana/identify-magic-item.html",
+      "dependencies": []
+    },
+    "Skills/Knowledge/Arcana/Identify Spell.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 477,
+      "exportedPath": "skills/knowledge/arcana/identify-spell.html",
+      "dependencies": []
+    },
+    "Skills/Knowledge/Astronomy/Astronomy.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 253,
+      "exportedPath": "skills/knowledge/astronomy/astronomy.html",
+      "dependencies": []
+    },
+    "Skills/Knowledge/Astronomy/Identify Cosmic Phenomenon.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 458,
+      "exportedPath": "skills/knowledge/astronomy/identify-cosmic-phenomenon.html",
+      "dependencies": []
+    },
+    "Skills/Knowledge/Astronomy/Navigation.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 246,
+      "exportedPath": "skills/knowledge/astronomy/navigation.html",
+      "dependencies": []
+    },
+    "Skills/Knowledge/Engineering/Engineering.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 247,
+      "exportedPath": "skills/knowledge/engineering/engineering.html",
+      "dependencies": []
+    },
+    "Skills/Knowledge/Engineering/Hack.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 180,
+      "exportedPath": "skills/knowledge/engineering/hack.html",
+      "dependencies": []
+    },
+    "Skills/Knowledge/Engineering/Identify Function.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 243,
+      "exportedPath": "skills/knowledge/engineering/identify-function.html",
+      "dependencies": []
+    },
+    "Skills/Knowledge/Engineering/Identify Structural Quirk.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 368,
+      "exportedPath": "skills/knowledge/engineering/identify-structural-quirk.html",
+      "dependencies": []
+    },
+    "Skills/Knowledge/Humanities/Humanities.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 258,
+      "exportedPath": "skills/knowledge/humanities/humanities.html",
+      "dependencies": []
+    },
+    "Skills/Knowledge/Humanities/Recall Customs.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 261,
+      "exportedPath": "skills/knowledge/humanities/recall-customs.html",
+      "dependencies": []
+    },
+    "Skills/Knowledge/Humanities/Recall Locale.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 321,
+      "exportedPath": "skills/knowledge/humanities/recall-locale.html",
+      "dependencies": []
+    },
+    "Skills/Knowledge/Humanities/Recognize Figure.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 276,
+      "exportedPath": "skills/knowledge/humanities/recognize-figure.html",
+      "dependencies": []
+    },
+    "Skills/Knowledge/Nature/Identify Natural Phenomenon.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 524,
+      "exportedPath": "skills/knowledge/nature/identify-natural-phenomenon.html",
+      "dependencies": []
+    },
+    "Skills/Knowledge/Nature/Nature.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 256,
+      "exportedPath": "skills/knowledge/nature/nature.html",
+      "dependencies": []
+    },
+    "Skills/Knowledge/Planes/Detect Portal.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 1032,
+      "exportedPath": "skills/knowledge/planes/detect-portal.html",
+      "dependencies": []
+    },
+    "Skills/Knowledge/Planes/Planes.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 230,
+      "exportedPath": "skills/knowledge/planes/planes.html",
+      "dependencies": []
+    },
+    "Skills/Knowledge/Religion/Divine Lore.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 327,
+      "exportedPath": "skills/knowledge/religion/divine-lore.html",
+      "dependencies": []
+    },
+    "Skills/Knowledge/Religion/Religion.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 193,
+      "exportedPath": "skills/knowledge/religion/religion.html",
+      "dependencies": []
+    },
+    "Skills/Knowledge/History.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 2221,
+      "exportedPath": "skills/knowledge/history.html",
+      "dependencies": []
+    },
+    "Skills/Knowledge/Knowledge.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 1250,
+      "exportedPath": "skills/knowledge/knowledge.html",
+      "dependencies": []
+    },
+    "Skills/Knowledge/Monster Lore.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 2193,
+      "exportedPath": "skills/knowledge/monster-lore.html",
+      "dependencies": []
+    },
+    "Skills/Linguistics/Encode or Decode Documents.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 521,
+      "exportedPath": "skills/linguistics/encode-or-decode-documents.html",
+      "dependencies": []
+    },
+    "Skills/Linguistics/Interpret Text.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 373,
+      "exportedPath": "skills/linguistics/interpret-text.html",
+      "dependencies": []
+    },
+    "Skills/Linguistics/Language.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 5171,
+      "exportedPath": "skills/linguistics/language.html",
+      "dependencies": []
+    },
+    "Skills/Linguistics/Linguistics.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 282,
+      "exportedPath": "skills/linguistics/linguistics.html",
+      "dependencies": []
+    },
+    "Skills/Linguistics/Write or Forge Documents.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 188,
+      "exportedPath": "skills/linguistics/write-or-forge-documents.html",
+      "dependencies": []
+    },
+    "Skills/Medicine/Assess Vitality.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 455,
+      "exportedPath": "skills/medicine/assess-vitality.html",
+      "dependencies": []
+    },
+    "Skills/Medicine/Identify Affliction or Curse.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 257,
+      "exportedPath": "skills/medicine/identify-affliction-or-curse.html",
+      "dependencies": []
+    },
+    "Skills/Medicine/Long Term Care.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 200,
+      "exportedPath": "skills/medicine/long-term-care.html",
+      "dependencies": []
+    },
+    "Skills/Medicine/Medicine.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 224,
+      "exportedPath": "skills/medicine/medicine.html",
+      "dependencies": []
+    },
+    "Skills/Medicine/Prevent Recovery.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 148,
+      "exportedPath": "skills/medicine/prevent-recovery.html",
+      "dependencies": []
+    },
+    "Skills/Medicine/Provide First Aid.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 284,
+      "exportedPath": "skills/medicine/provide-first-aid.html",
+      "dependencies": []
+    },
+    "Skills/Perception/Detect Hidden Presence.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 341,
+      "exportedPath": "skills/perception/detect-hidden-presence.html",
+      "dependencies": []
+    },
+    "Skills/Perception/Perception.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 281,
+      "exportedPath": "skills/perception/perception.html",
+      "dependencies": []
+    },
+    "Skills/Perform/Perform.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 424,
+      "exportedPath": "skills/perform/perform.html",
+      "dependencies": []
+    },
+    "Skills/Perform/Performance.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 315,
+      "exportedPath": "skills/perform/performance.html",
+      "dependencies": []
+    },
+    "Skills/Persuasion/Coax.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 886,
+      "exportedPath": "skills/persuasion/coax.html",
+      "dependencies": []
+    },
+    "Skills/Persuasion/Example DCs.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 2475,
+      "exportedPath": "skills/persuasion/example-dcs.html",
+      "dependencies": []
+    },
+    "Skills/Persuasion/Gather Information.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 392,
+      "exportedPath": "skills/persuasion/gather-information.html",
+      "dependencies": []
+    },
+    "Skills/Persuasion/Persuasion.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 101,
+      "exportedPath": "skills/persuasion/persuasion.html",
+      "dependencies": []
+    },
+    "Skills/Profession/Profession.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 485,
+      "exportedPath": "skills/profession/profession.html",
+      "dependencies": []
+    },
+    "Skills/Profession/Quiz.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 250,
+      "exportedPath": "skills/profession/quiz.html",
+      "dependencies": []
+    },
+    "Skills/Stealth/Hide.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 561,
+      "exportedPath": "skills/stealth/hide.html",
+      "dependencies": []
+    },
+    "Skills/Stealth/Hide Trail.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 161,
+      "exportedPath": "skills/stealth/hide-trail.html",
+      "dependencies": []
+    },
+    "Skills/Stealth/Stealth.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 121,
+      "exportedPath": "skills/stealth/stealth.html",
+      "dependencies": []
+    },
+    "Skills/Survival/Butcher.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 831,
+      "exportedPath": "skills/survival/butcher.html",
+      "dependencies": []
+    },
+    "Skills/Survival/Live off Land.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 312,
+      "exportedPath": "skills/survival/live-off-land.html",
+      "dependencies": []
+    },
+    "Skills/Survival/Navigate.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 298,
+      "exportedPath": "skills/survival/navigate.html",
+      "dependencies": []
+    },
+    "Skills/Survival/Survival.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 135,
+      "exportedPath": "skills/survival/survival.html",
+      "dependencies": []
+    },
+    "Skills/Survival/Track.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 241,
+      "exportedPath": "skills/survival/track.html",
+      "dependencies": []
+    },
+    "Skills/Group Checks.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 303,
+      "exportedPath": "skills/group-checks.html",
+      "dependencies": []
+    },
+    "Skills/Proficiency.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 164,
+      "exportedPath": "skills/proficiency.html",
+      "dependencies": []
+    },
+    "Skills/Skill.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 2715,
+      "exportedPath": "skills/skill.html",
+      "dependencies": []
+    },
+    "Skills/Take 10.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 198,
+      "exportedPath": "skills/take-10.html",
+      "dependencies": []
+    },
+    "Skills/Take 30.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 260,
+      "exportedPath": "skills/take-30.html",
+      "dependencies": []
+    },
+    "Skills/Tie.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 58,
+      "exportedPath": "skills/tie.html",
+      "dependencies": []
+    },
+    "Techniques/Spellcasting/Spell Components.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 2170,
+      "exportedPath": "techniques/spellcasting/spell-components.html",
+      "dependencies": []
+    },
+    "Techniques/Spellcasting/Spells.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 612,
+      "exportedPath": "techniques/spellcasting/spells.html",
+      "dependencies": []
+    },
+    "Techniques/Innate Techniques.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 832,
+      "exportedPath": "techniques/innate-techniques.html",
+      "dependencies": []
+    },
+    "Techniques/Preparing Techniques.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 460,
+      "exportedPath": "techniques/preparing-techniques.html",
+      "dependencies": []
+    },
+    "Techniques/Technique.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 1105,
+      "exportedPath": "techniques/technique.html",
+      "dependencies": []
+    },
+    "Templates/Template, Class.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 382,
+      "exportedPath": "templates/template,-class.html",
+      "dependencies": []
+    },
+    "Templates/Template, Race.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 528,
+      "exportedPath": "templates/template,-race.html",
+      "dependencies": []
+    },
+    "🍔 Mission Statement.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 733,
+      "exportedPath": "🍔-mission-statement.html",
+      "dependencies": []
+    },
+    "Index.md": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 184,
+      "exportedPath": "index.html",
+      "dependencies": []
+    },
+    "lib/scripts/graph-wasm.wasm": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 23377,
+      "exportedPath": "lib/scripts/graph-wasm.wasm",
+      "dependencies": []
+    },
+    "lib/fonts/94f2f163d4b698242fef.otf": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 66800,
+      "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
+      "dependencies": []
+    },
+    "lib/fonts/72505e6a122c6acd5471.woff2": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 104232,
+      "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/2d5198822ab091ce4305.woff2": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 104332,
+      "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 98868,
+      "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/cb10ffd7684cd9836a05.woff2": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 106876,
+      "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/b5f0f109bc88052d4000.woff2": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 105804,
+      "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/cbe0ae49c52c920fd563.woff2": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 106108,
+      "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/535a6cf662596b3bd6a6.woff2": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 111708,
+      "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/70cc7ff27245e82ad414.ttf": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 192740,
+      "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
+      "dependencies": []
+    },
+    "lib/fonts/454577c22304619db035.ttf": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 161376,
+      "exportedPath": "lib/fonts/454577c22304619db035.ttf",
+      "dependencies": []
+    },
+    "lib/fonts/52ac8f3034507f1d9e53.ttf": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 191568,
+      "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
+      "dependencies": []
+    },
+    "lib/fonts/05b618077343fbbd92b7.ttf": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 155288,
+      "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
+      "dependencies": []
+    },
+    "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 7876,
+      "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
+      "dependencies": []
+    },
+    "lib/media/6155340132a851f6089e.svg": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 315,
+      "exportedPath": "lib/media/6155340132a851f6089e.svg",
+      "dependencies": []
+    },
+    "lib/html/file-tree.html": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 334405,
+      "exportedPath": "lib/html/file-tree.html",
+      "dependencies": []
+    },
+    "lib/scripts/webpage.js": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 47290,
+      "exportedPath": "lib/scripts/webpage.js",
+      "dependencies": []
+    },
+    "lib/scripts/graph-view.js": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 15519,
+      "exportedPath": "lib/scripts/graph-view.js",
+      "dependencies": []
+    },
+    "lib/scripts/graph-wasm.js": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 14021,
+      "exportedPath": "lib/scripts/graph-wasm.js",
+      "dependencies": []
+    },
+    "lib/scripts/graph-render-worker.js": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 5179,
+      "exportedPath": "lib/scripts/graph-render-worker.js",
+      "dependencies": []
+    },
+    "lib/scripts/tinycolor.js": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 29832,
+      "exportedPath": "lib/scripts/tinycolor.js",
+      "dependencies": []
+    },
+    "lib/scripts/pixi.js": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 449509,
+      "exportedPath": "lib/scripts/pixi.js",
+      "dependencies": []
+    },
+    "lib/scripts/minisearch.js": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 29422,
+      "exportedPath": "lib/scripts/minisearch.js",
+      "dependencies": []
+    },
+    "lib/media/favicon.png": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 1105,
+      "exportedPath": "lib/media/favicon.png",
+      "dependencies": []
+    },
+    "lib/scripts/graph-data.js": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 33545,
+      "exportedPath": "lib/scripts/graph-data.js",
+      "dependencies": []
+    },
+    "lib/styles/obsidian.css": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 138258,
+      "exportedPath": "lib/styles/obsidian.css",
+      "dependencies": []
+    },
+    "lib/styles/theme.css": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 11610,
+      "exportedPath": "lib/styles/theme.css",
+      "dependencies": []
+    },
+    "lib/styles/global-variable-styles.css": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 262,
+      "exportedPath": "lib/styles/global-variable-styles.css",
+      "dependencies": []
+    },
+    "lib/styles/main-styles.css": {
+      "modifiedTime": 1749635433146,
+      "sourceSize": 23130,
+      "exportedPath": "lib/styles/main-styles.css",
       "dependencies": []
     }
   }
