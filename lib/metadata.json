@@ -1,6 +1,6 @@
 {
   "vaultName": "Malon's Marvelous Misadventures",
-  "lastExport": 1749635433146,
+  "lastExport": 1749766676532,
   "pluginVersion": "1.8.01",
   "validBodyClasses": "publish css-settings-manager theme-dark show-inline-title show-ribbon",
   "useCustomHeadContent": false,
@@ -70,8 +70,8 @@
     "Core Rules, How to Play/Actions/Common Actions/Standard Actions/Prepare.md",
     "Core Rules, How to Play/Actions/Common Actions/Standard Actions/Total Defense.md",
     "Core Rules, How to Play/Actions/Common Actions/Swift Actions/Jump.md",
-    "Core Rules, How to Play/Actions/Common Actions/Swift Actions/Potion.md",
     "Core Rules, How to Play/Actions/Common Actions/Swift Actions/Recharge Abilities.md",
+    "Core Rules, How to Play/Actions/Common Actions/Swift Actions/Use Potion.md",
     "Core Rules, How to Play/Alternative Win Conditions/Alternative Win Conditions.md",
     "Core Rules, How to Play/Alternative Win Conditions/Restraint.md",
     "Core Rules, How to Play/Alternative Win Conditions/Surrender and Morale.md",
@@ -315,7 +315,7 @@
     "Skills/Medicine/Medicine.md",
     "Skills/Medicine/Prevent Recovery.md",
     "Skills/Medicine/Provide First Aid.md",
-    "Skills/Perception/Detect Hidden Presence.md",
+    "Skills/Perception/Detect.md",
     "Skills/Perception/Perception.md",
     "Skills/Perform/Perform.md",
     "Skills/Perform/Performance.md",
@@ -339,15 +339,26 @@
     "Skills/Take 10.md",
     "Skills/Take 30.md",
     "Skills/Tie.md",
+    "Techniques/Martial Techniques/Warfare/Warfare 1/Lunge.md",
+    "Techniques/Martial Techniques/Warfare/Warfare.md",
+    "Techniques/Spellcasting/CL.md",
+    "Techniques/Spellcasting/M.md",
+    "Techniques/Spellcasting/S.md",
+    "Techniques/Spellcasting/Spell.md",
     "Techniques/Spellcasting/Spell Components.md",
-    "Techniques/Spellcasting/Spells.md",
+    "Techniques/Spellcasting/Untitled.md",
+    "Techniques/Spellcasting/V.md",
+    "Techniques/Spellcasting/Weather and Terrain vs Spells.md",
     "Techniques/Innate Techniques.md",
     "Techniques/Preparing Techniques.md",
     "Techniques/Technique.md",
+    "Techniques/Upcast.md",
     "Templates/Template, Class.md",
     "Templates/Template, Race.md",
+    "Templates/Template, Technique.md",
     "🍔 Mission Statement.md",
     "Index.md",
+    "TEST.md",
     "lib/scripts/graph-wasm.wasm",
     "lib/fonts/94f2f163d4b698242fef.otf",
     "lib/fonts/72505e6a122c6acd5471.woff2",
@@ -453,14 +464,14 @@
       "dependencies": []
     },
     "Classes/Rogue/Rogue.md": {
-      "modifiedTime": 1749635433146,
-      "sourceSize": 2857,
+      "modifiedTime": 1749766676532,
+      "sourceSize": 3093,
       "exportedPath": "classes/rogue/rogue.html",
       "dependencies": []
     },
     "Classes/Rogue/Rogue - Bandit.md": {
-      "modifiedTime": 1749635433146,
-      "sourceSize": 2482,
+      "modifiedTime": 1749766676532,
+      "sourceSize": 2581,
       "exportedPath": "classes/rogue/rogue-bandit.html",
       "dependencies": []
     },
@@ -591,8 +602,8 @@
       "dependencies": []
     },
     "Core Rules, How to Play/Abbreviations and Terminology/SP.md": {
-      "modifiedTime": 1749635433146,
-      "sourceSize": 204,
+      "modifiedTime": 1749766676532,
+      "sourceSize": 317,
       "exportedPath": "core-rules,-how-to-play/abbreviations-and-terminology/sp.html",
       "dependencies": []
     },
@@ -717,8 +728,8 @@
       "dependencies": []
     },
     "Core Rules, How to Play/Actions/Action System/Swift Action.md": {
-      "modifiedTime": 1749635433146,
-      "sourceSize": 164,
+      "modifiedTime": 1749766676532,
+      "sourceSize": 168,
       "exportedPath": "core-rules,-how-to-play/actions/action-system/swift-action.html",
       "dependencies": []
     },
@@ -792,12 +803,6 @@
       "modifiedTime": 1749635433146,
       "sourceSize": 679,
       "exportedPath": "core-rules,-how-to-play/actions/common-actions/swift-actions/jump.html",
-      "dependencies": []
-    },
-    "Core Rules, How to Play/Actions/Common Actions/Swift Actions/Potion.md": {
-      "modifiedTime": 1749635433146,
-      "sourceSize": 28,
-      "exportedPath": "core-rules,-how-to-play/actions/common-actions/swift-actions/potion.html",
       "dependencies": []
     },
     "Core Rules, How to Play/Actions/Common Actions/Swift Actions/Recharge Abilities.md": {
@@ -909,8 +914,8 @@
       "dependencies": []
     },
     "Core Rules, How to Play/Attacking/Critical Damage.md": {
-      "modifiedTime": 1749635433146,
-      "sourceSize": 272,
+      "modifiedTime": 1749766676532,
+      "sourceSize": 306,
       "exportedPath": "core-rules,-how-to-play/attacking/critical-damage.html",
       "dependencies": []
     },
@@ -1059,8 +1064,8 @@
       "dependencies": []
     },
     "Core Rules, How to Play/More Rules/Size and Reach.md": {
-      "modifiedTime": 1749635433146,
-      "sourceSize": 1490,
+      "modifiedTime": 1749766676532,
+      "sourceSize": 1500,
       "exportedPath": "core-rules,-how-to-play/more-rules/size-and-reach.html",
       "dependencies": []
     },
@@ -1083,8 +1088,8 @@
       "dependencies": []
     },
     "Core Rules, How to Play/Recharging Abilities/Mana.md": {
-      "modifiedTime": 1749635433146,
-      "sourceSize": 1166,
+      "modifiedTime": 1749766676532,
+      "sourceSize": 1165,
       "exportedPath": "core-rules,-how-to-play/recharging-abilities/mana.html",
       "dependencies": []
     },
@@ -1311,8 +1316,8 @@
       "dependencies": []
     },
     "Core Rules, How to Play/Status Effects/Silenced.md": {
-      "modifiedTime": 1749635433146,
-      "sourceSize": 111,
+      "modifiedTime": 1749766676532,
+      "sourceSize": 110,
       "exportedPath": "core-rules,-how-to-play/status-effects/silenced.html",
       "dependencies": []
     },
@@ -1353,8 +1358,8 @@
       "dependencies": []
     },
     "Core Rules, How to Play/Status Effects/Surprised.md": {
-      "modifiedTime": 1749635433146,
-      "sourceSize": 512,
+      "modifiedTime": 1749766676532,
+      "sourceSize": 528,
       "exportedPath": "core-rules,-how-to-play/status-effects/surprised.html",
       "dependencies": []
     },
@@ -1491,8 +1496,8 @@
       "dependencies": []
     },
     "Core Rules, How to Play/Tags/Damage.md": {
-      "modifiedTime": 1749635433146,
-      "sourceSize": 623,
+      "modifiedTime": 1749766676532,
+      "sourceSize": 622,
       "exportedPath": "core-rules,-how-to-play/tags/damage.html",
       "dependencies": []
     },
@@ -1731,8 +1736,8 @@
       "dependencies": []
     },
     "Equipment/Weapon Rules/Weapon Types and Basic Weapons/Subtypes/Staff.md": {
-      "modifiedTime": 1749635433146,
-      "sourceSize": 202,
+      "modifiedTime": 1749766676532,
+      "sourceSize": 138,
       "exportedPath": "equipment/weapon-rules/weapon-types-and-basic-weapons/subtypes/staff.html",
       "dependencies": []
     },
@@ -2055,8 +2060,8 @@
       "dependencies": []
     },
     "Skills/Knowledge/Alchemy/Identify Potion.md": {
-      "modifiedTime": 1749635433146,
-      "sourceSize": 121,
+      "modifiedTime": 1749766676532,
+      "sourceSize": 125,
       "exportedPath": "skills/knowledge/alchemy/identify-potion.html",
       "dependencies": []
     },
@@ -2264,15 +2269,9 @@
       "exportedPath": "skills/medicine/provide-first-aid.html",
       "dependencies": []
     },
-    "Skills/Perception/Detect Hidden Presence.md": {
-      "modifiedTime": 1749635433146,
-      "sourceSize": 341,
-      "exportedPath": "skills/perception/detect-hidden-presence.html",
-      "dependencies": []
-    },
     "Skills/Perception/Perception.md": {
-      "modifiedTime": 1749635433146,
-      "sourceSize": 281,
+      "modifiedTime": 1749766676532,
+      "sourceSize": 265,
       "exportedPath": "skills/perception/perception.html",
       "dependencies": []
     },
@@ -2409,15 +2408,9 @@
       "dependencies": []
     },
     "Techniques/Spellcasting/Spell Components.md": {
-      "modifiedTime": 1749635433146,
-      "sourceSize": 2170,
+      "modifiedTime": 1749766676532,
+      "sourceSize": 252,
       "exportedPath": "techniques/spellcasting/spell-components.html",
-      "dependencies": []
-    },
-    "Techniques/Spellcasting/Spells.md": {
-      "modifiedTime": 1749635433146,
-      "sourceSize": 612,
-      "exportedPath": "techniques/spellcasting/spells.html",
       "dependencies": []
     },
     "Techniques/Innate Techniques.md": {
@@ -2463,177 +2456,261 @@
       "dependencies": []
     },
     "lib/scripts/graph-wasm.wasm": {
-      "modifiedTime": 1749635433146,
+      "modifiedTime": 1749766676532,
       "sourceSize": 23377,
       "exportedPath": "lib/scripts/graph-wasm.wasm",
       "dependencies": []
     },
     "lib/fonts/94f2f163d4b698242fef.otf": {
-      "modifiedTime": 1749635433146,
+      "modifiedTime": 1749766676532,
       "sourceSize": 66800,
       "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
       "dependencies": []
     },
     "lib/fonts/72505e6a122c6acd5471.woff2": {
-      "modifiedTime": 1749635433146,
+      "modifiedTime": 1749766676532,
       "sourceSize": 104232,
       "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
       "dependencies": []
     },
     "lib/fonts/2d5198822ab091ce4305.woff2": {
-      "modifiedTime": 1749635433146,
+      "modifiedTime": 1749766676532,
       "sourceSize": 104332,
       "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
       "dependencies": []
     },
     "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
-      "modifiedTime": 1749635433146,
+      "modifiedTime": 1749766676532,
       "sourceSize": 98868,
       "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
       "dependencies": []
     },
     "lib/fonts/cb10ffd7684cd9836a05.woff2": {
-      "modifiedTime": 1749635433146,
+      "modifiedTime": 1749766676532,
       "sourceSize": 106876,
       "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
       "dependencies": []
     },
     "lib/fonts/b5f0f109bc88052d4000.woff2": {
-      "modifiedTime": 1749635433146,
+      "modifiedTime": 1749766676532,
       "sourceSize": 105804,
       "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
       "dependencies": []
     },
     "lib/fonts/cbe0ae49c52c920fd563.woff2": {
-      "modifiedTime": 1749635433146,
+      "modifiedTime": 1749766676532,
       "sourceSize": 106108,
       "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
       "dependencies": []
     },
     "lib/fonts/535a6cf662596b3bd6a6.woff2": {
-      "modifiedTime": 1749635433146,
+      "modifiedTime": 1749766676532,
       "sourceSize": 111708,
       "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
       "dependencies": []
     },
     "lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1749635433146,
+      "modifiedTime": 1749766676532,
       "sourceSize": 192740,
       "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
       "dependencies": []
     },
     "lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1749635433146,
+      "modifiedTime": 1749766676532,
       "sourceSize": 161376,
       "exportedPath": "lib/fonts/454577c22304619db035.ttf",
       "dependencies": []
     },
     "lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1749635433146,
+      "modifiedTime": 1749766676532,
       "sourceSize": 191568,
       "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
       "dependencies": []
     },
     "lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1749635433146,
+      "modifiedTime": 1749766676532,
       "sourceSize": 155288,
       "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
       "dependencies": []
     },
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1749635433146,
+      "modifiedTime": 1749766676532,
       "sourceSize": 7876,
       "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
       "dependencies": []
     },
     "lib/media/6155340132a851f6089e.svg": {
-      "modifiedTime": 1749635433146,
+      "modifiedTime": 1749766676532,
       "sourceSize": 315,
       "exportedPath": "lib/media/6155340132a851f6089e.svg",
       "dependencies": []
     },
     "lib/html/file-tree.html": {
-      "modifiedTime": 1749635433146,
-      "sourceSize": 334405,
+      "modifiedTime": 1749766676532,
+      "sourceSize": 347297,
       "exportedPath": "lib/html/file-tree.html",
       "dependencies": []
     },
     "lib/scripts/webpage.js": {
-      "modifiedTime": 1749635433146,
+      "modifiedTime": 1749766676532,
       "sourceSize": 47290,
       "exportedPath": "lib/scripts/webpage.js",
       "dependencies": []
     },
     "lib/scripts/graph-view.js": {
-      "modifiedTime": 1749635433146,
+      "modifiedTime": 1749766676532,
       "sourceSize": 15519,
       "exportedPath": "lib/scripts/graph-view.js",
       "dependencies": []
     },
     "lib/scripts/graph-wasm.js": {
-      "modifiedTime": 1749635433146,
+      "modifiedTime": 1749766676532,
       "sourceSize": 14021,
       "exportedPath": "lib/scripts/graph-wasm.js",
       "dependencies": []
     },
     "lib/scripts/graph-render-worker.js": {
-      "modifiedTime": 1749635433146,
+      "modifiedTime": 1749766676532,
       "sourceSize": 5179,
       "exportedPath": "lib/scripts/graph-render-worker.js",
       "dependencies": []
     },
     "lib/scripts/tinycolor.js": {
-      "modifiedTime": 1749635433146,
+      "modifiedTime": 1749766676532,
       "sourceSize": 29832,
       "exportedPath": "lib/scripts/tinycolor.js",
       "dependencies": []
     },
     "lib/scripts/pixi.js": {
-      "modifiedTime": 1749635433146,
+      "modifiedTime": 1749766676532,
       "sourceSize": 449509,
       "exportedPath": "lib/scripts/pixi.js",
       "dependencies": []
     },
     "lib/scripts/minisearch.js": {
-      "modifiedTime": 1749635433146,
+      "modifiedTime": 1749766676532,
       "sourceSize": 29422,
       "exportedPath": "lib/scripts/minisearch.js",
       "dependencies": []
     },
     "lib/media/favicon.png": {
-      "modifiedTime": 1749635433146,
+      "modifiedTime": 1749766676532,
       "sourceSize": 1105,
       "exportedPath": "lib/media/favicon.png",
       "dependencies": []
     },
     "lib/scripts/graph-data.js": {
-      "modifiedTime": 1749635433146,
-      "sourceSize": 33545,
+      "modifiedTime": 1749766676532,
+      "sourceSize": 34665,
       "exportedPath": "lib/scripts/graph-data.js",
       "dependencies": []
     },
     "lib/styles/obsidian.css": {
-      "modifiedTime": 1749635433146,
+      "modifiedTime": 1749766676532,
       "sourceSize": 138258,
       "exportedPath": "lib/styles/obsidian.css",
       "dependencies": []
     },
     "lib/styles/theme.css": {
-      "modifiedTime": 1749635433146,
+      "modifiedTime": 1749766676532,
       "sourceSize": 11610,
       "exportedPath": "lib/styles/theme.css",
       "dependencies": []
     },
     "lib/styles/global-variable-styles.css": {
-      "modifiedTime": 1749635433146,
+      "modifiedTime": 1749766676532,
       "sourceSize": 262,
       "exportedPath": "lib/styles/global-variable-styles.css",
       "dependencies": []
     },
     "lib/styles/main-styles.css": {
-      "modifiedTime": 1749635433146,
+      "modifiedTime": 1749766676532,
       "sourceSize": 23130,
       "exportedPath": "lib/styles/main-styles.css",
+      "dependencies": []
+    },
+    "Core Rules, How to Play/Actions/Common Actions/Swift Actions/Use Potion.md": {
+      "modifiedTime": 1749766676532,
+      "sourceSize": 28,
+      "exportedPath": "core-rules,-how-to-play/actions/common-actions/swift-actions/use-potion.html",
+      "dependencies": []
+    },
+    "Skills/Perception/Detect.md": {
+      "modifiedTime": 1749766676532,
+      "sourceSize": 341,
+      "exportedPath": "skills/perception/detect.html",
+      "dependencies": []
+    },
+    "Techniques/Martial Techniques/Warfare/Warfare 1/Lunge.md": {
+      "modifiedTime": 1749766676532,
+      "sourceSize": 312,
+      "exportedPath": "techniques/martial-techniques/warfare/warfare-1/lunge.html",
+      "dependencies": []
+    },
+    "Techniques/Martial Techniques/Warfare/Warfare.md": {
+      "modifiedTime": 1749766676532,
+      "sourceSize": 593,
+      "exportedPath": "techniques/martial-techniques/warfare/warfare.html",
+      "dependencies": []
+    },
+    "Techniques/Spellcasting/CL.md": {
+      "modifiedTime": 1749766676532,
+      "sourceSize": 563,
+      "exportedPath": "techniques/spellcasting/cl.html",
+      "dependencies": []
+    },
+    "Techniques/Spellcasting/M.md": {
+      "modifiedTime": 1749766676532,
+      "sourceSize": 452,
+      "exportedPath": "techniques/spellcasting/m.html",
+      "dependencies": []
+    },
+    "Techniques/Spellcasting/S.md": {
+      "modifiedTime": 1749766676532,
+      "sourceSize": 1257,
+      "exportedPath": "techniques/spellcasting/s.html",
+      "dependencies": []
+    },
+    "Techniques/Spellcasting/Spell.md": {
+      "modifiedTime": 1749766676532,
+      "sourceSize": 874,
+      "exportedPath": "techniques/spellcasting/spell.html",
+      "dependencies": []
+    },
+    "Techniques/Spellcasting/Untitled.md": {
+      "modifiedTime": 1749766676532,
+      "sourceSize": 7,
+      "exportedPath": "techniques/spellcasting/untitled.html",
+      "dependencies": []
+    },
+    "Techniques/Spellcasting/V.md": {
+      "modifiedTime": 1749766676532,
+      "sourceSize": 468,
+      "exportedPath": "techniques/spellcasting/v.html",
+      "dependencies": []
+    },
+    "Techniques/Spellcasting/Weather and Terrain vs Spells.md": {
+      "modifiedTime": 1749766676532,
+      "sourceSize": 602,
+      "exportedPath": "techniques/spellcasting/weather-and-terrain-vs-spells.html",
+      "dependencies": []
+    },
+    "Techniques/Upcast.md": {
+      "modifiedTime": 1749766676532,
+      "sourceSize": 536,
+      "exportedPath": "techniques/upcast.html",
+      "dependencies": []
+    },
+    "Templates/Template, Technique.md": {
+      "modifiedTime": 1749766676532,
+      "sourceSize": 349,
+      "exportedPath": "templates/template,-technique.html",
+      "dependencies": []
+    },
+    "TEST.md": {
+      "modifiedTime": 1749766676532,
+      "sourceSize": 48,
+      "exportedPath": "test.html",
       "dependencies": []
     }
   }
