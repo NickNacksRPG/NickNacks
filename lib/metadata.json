@@ -1,6 +1,6 @@
 {
   "vaultName": "Malon's Marvelous Misadventures",
-  "lastExport": 1751693509890,
+  "lastExport": 1752055334215,
   "pluginVersion": "1.8.01",
   "validBodyClasses": "publish css-settings-manager theme-dark show-inline-title show-ribbon",
   "useCustomHeadContent": false,
@@ -8,6 +8,7 @@
   "files": [
     "Bestiary/Creature Types/Creature Subtypes/Extraplanar.md",
     "Bestiary/Creature Types/Creature Subtypes/Yokai.md",
+    "Bestiary/Creature Types/Elemental/Level 3 Elementals/Ifrit.md",
     "Bestiary/Creature Types/Abomination.md",
     "Bestiary/Creature Types/Beast.md",
     "Bestiary/Creature Types/Celestial.md",
@@ -181,6 +182,7 @@
     "Core Rules, How to Play/Status Effects/Fascinated.md",
     "Core Rules, How to Play/Status Effects/Fatigued.md",
     "Core Rules, How to Play/Status Effects/Frightened.md",
+    "Core Rules, How to Play/Status Effects/Glowing.md",
     "Core Rules, How to Play/Status Effects/Grounded.md",
     "Core Rules, How to Play/Status Effects/Held Down.md",
     "Core Rules, How to Play/Status Effects/Invincible.md",
@@ -456,22 +458,44 @@
     "Techniques/Spell Techniques/Enthrallment/Enthrallment 1/Charming Gaze.md",
     "Techniques/Spell Techniques/Enthrallment/Enthrallment 1/Command.md",
     "Techniques/Spell Techniques/Enthrallment/Enthrallment 1/Darting Duplicate.md",
+    "Techniques/Spell Techniques/Enthrallment/Enthrallment 1/Double Speak.md",
     "Techniques/Spell Techniques/Enthrallment/Enthrallment 1/Rapid Wardrobe.md",
     "Techniques/Spell Techniques/Enthrallment/Enthrallment 1/Tongues.md",
+    "Techniques/Spell Techniques/Enthrallment/Enthrallment 1/Verboden Taal.md",
+    "Techniques/Spell Techniques/Enthrallment/Enthrallment 2/Confide.md",
     "Techniques/Spell Techniques/Enthrallment/Enthrallment 2/Stage Fright.md",
     "Techniques/Spell Techniques/Enthrallment/Enthrallment 2/Stunt Double.md",
     "Techniques/Spell Techniques/Enthrallment/Enthrallment 2/Tongue Twister.md",
     "Techniques/Spell Techniques/Enthrallment/Enthrallment 2/Unfiltered.md",
+    "Techniques/Spell Techniques/Enthrallment/Enthrallment 3/Dominate.md",
+    "Techniques/Spell Techniques/Enthrallment/Enthrallment 3/Order 66.md",
+    "Techniques/Spell Techniques/Enthrallment/Enthrallment 3/The Hand that Feeds.md",
+    "Techniques/Spell Techniques/Enthrallment/Enthrallment 4/Seduce.md",
+    "Techniques/Spell Techniques/Enthrallment/Enthrallment 5/Thrall.md",
     "Techniques/Spell Techniques/Enthrallment/Enthrallment.md",
-    "Techniques/Spell Techniques/Prismancy/Prismancy 1/Blazing Palm.md",
+    "Techniques/Spell Techniques/Prismancy/Prismancy 1/Brilliant Barrage.md",
+    "Techniques/Spell Techniques/Prismancy/Prismancy 1/Illumination.md",
     "Techniques/Spell Techniques/Prismancy/Prismancy 1/Lady of Light.md",
-    "Techniques/Spell Techniques/Prismancy/Prismancy 2/Blazing Beam.md",
+    "Techniques/Spell Techniques/Prismancy/Prismancy 2/Prismatic Barrier.md",
+    "Techniques/Spell Techniques/Prismancy/Prismancy 2/Ricochet Reflection.md",
+    "Techniques/Spell Techniques/Prismancy/Prismancy 2/Shimmering Ray.md",
+    "Techniques/Spell Techniques/Prismancy/Prismancy 2/Solar Flash.md",
+    "Techniques/Spell Techniques/Prismancy/Prismancy 4/Rainbow Beam.md",
     "Techniques/Spell Techniques/Prismancy/Prismancy 4/Sabre of Light.md",
+    "Techniques/Spell Techniques/Prismancy/Prismancy 5/Zonnestraal.md",
     "Techniques/Spell Techniques/Prismancy/Prismancy.md",
+    "Techniques/Spell Techniques/Pyromancy/Pyromancy 1/Blazing Palm.md",
+    "Techniques/Spell Techniques/Pyromancy/Pyromancy 1/Flame Blade.md",
     "Techniques/Spell Techniques/Pyromancy/Pyromancy 1/Flame Foil.md",
+    "Techniques/Spell Techniques/Pyromancy/Pyromancy 1/Flame Pillar.md",
     "Techniques/Spell Techniques/Pyromancy/Pyromancy 1/Flame Surge.md",
     "Techniques/Spell Techniques/Pyromancy/Pyromancy 1/Self-Immolation.md",
+    "Techniques/Spell Techniques/Pyromancy/Pyromancy 2/Burning Hands.md",
+    "Techniques/Spell Techniques/Pyromancy/Pyromancy 2/Detonate.md",
+    "Techniques/Spell Techniques/Pyromancy/Pyromancy 2/Flame Tempest.md",
     "Techniques/Spell Techniques/Pyromancy/Pyromancy 3/Fire Blast.md",
+    "Techniques/Spell Techniques/Pyromancy/Pyromancy 4/Ifrit Milicien.md",
+    "Techniques/Spell Techniques/Pyromancy/Pyromancy 5/Meteor Swarm.md",
     "Techniques/Spell Techniques/Pyromancy/Pyromancy.md",
     "Techniques/Spellcasting Rules/CL.md",
     "Techniques/Spellcasting Rules/M.md",
@@ -481,6 +505,7 @@
     "Techniques/Spellcasting Rules/Untitled.md",
     "Techniques/Spellcasting Rules/V.md",
     "Techniques/Spellcasting Rules/Weather and Terrain vs Spells.md",
+    "Techniques/Uncategorized Techniques/Final Hour.md",
     "Techniques/Innate Techniques.md",
     "Techniques/Preparing Techniques.md",
     "Techniques/Technique.md",
@@ -593,8 +618,8 @@
       "dependencies": []
     },
     "Bestiary/Creature Types/Elemental.md": {
-      "modifiedTime": 1751693509890,
-      "sourceSize": 684,
+      "modifiedTime": 1752055334215,
+      "sourceSize": 818,
       "exportedPath": "bestiary/creature-types/elemental.html",
       "dependencies": []
     },
@@ -647,7 +672,7 @@
       "dependencies": []
     },
     "Bestiary/Undead/Level 0 Undead/Skeleton, Garden.md": {
-      "modifiedTime": 1751693509890,
+      "modifiedTime": 1752055334215,
       "sourceSize": 2663,
       "exportedPath": "bestiary/undead/level-0-undead/skeleton,-garden.html",
       "dependencies": []
@@ -713,8 +738,8 @@
       "dependencies": []
     },
     "Classes/Fighter/Archetypes/Aran.md": {
-      "modifiedTime": 1751693509890,
-      "sourceSize": 1906,
+      "modifiedTime": 1752055334215,
+      "sourceSize": 1872,
       "exportedPath": "classes/fighter/archetypes/aran.html",
       "dependencies": []
     },
@@ -1073,8 +1098,8 @@
       "dependencies": []
     },
     "Core Rules, How to Play/Actions/Common Actions/Standard Actions/Aid.md": {
-      "modifiedTime": 1751693509890,
-      "sourceSize": 423,
+      "modifiedTime": 1752055334215,
+      "sourceSize": 426,
       "exportedPath": "core-rules,-how-to-play/actions/common-actions/standard-actions/aid.html",
       "dependencies": []
     },
@@ -1205,8 +1230,8 @@
       "dependencies": []
     },
     "Core Rules, How to Play/Attacking/Combat Maneuvers/Grab.md": {
-      "modifiedTime": 1751693509890,
-      "sourceSize": 860,
+      "modifiedTime": 1752055334215,
+      "sourceSize": 917,
       "exportedPath": "core-rules,-how-to-play/attacking/combat-maneuvers/grab.html",
       "dependencies": []
     },
@@ -1679,8 +1704,8 @@
       "dependencies": []
     },
     "Core Rules, How to Play/Status Effects/Siphoned.md": {
-      "modifiedTime": 1751693509890,
-      "sourceSize": 210,
+      "modifiedTime": 1752055334215,
+      "sourceSize": 237,
       "exportedPath": "core-rules,-how-to-play/status-effects/siphoned.html",
       "dependencies": []
     },
@@ -1697,8 +1722,8 @@
       "dependencies": []
     },
     "Core Rules, How to Play/Status Effects/Status.md": {
-      "modifiedTime": 1751693509890,
-      "sourceSize": 781,
+      "modifiedTime": 1752055334215,
+      "sourceSize": 793,
       "exportedPath": "core-rules,-how-to-play/status-effects/status.html",
       "dependencies": []
     },
@@ -1733,7 +1758,7 @@
       "dependencies": []
     },
     "Core Rules, How to Play/Status Effects/Unassailable.md": {
-      "modifiedTime": 1751693509890,
+      "modifiedTime": 1752055334215,
       "sourceSize": 75,
       "exportedPath": "core-rules,-how-to-play/status-effects/unassailable.html",
       "dependencies": []
@@ -1925,8 +1950,8 @@
       "dependencies": []
     },
     "Core Rules, How to Play/Tags/Light.md": {
-      "modifiedTime": 1751693509890,
-      "sourceSize": 68,
+      "modifiedTime": 1752055334215,
+      "sourceSize": 208,
       "exportedPath": "core-rules,-how-to-play/tags/light.html",
       "dependencies": []
     },
@@ -2015,8 +2040,8 @@
       "dependencies": []
     },
     "Core Rules, How to Play/Tags/Subtle.md": {
-      "modifiedTime": 1751693509890,
-      "sourceSize": 186,
+      "modifiedTime": 1752055334215,
+      "sourceSize": 383,
       "exportedPath": "core-rules,-how-to-play/tags/subtle.html",
       "dependencies": []
     },
@@ -2699,8 +2724,8 @@
       "dependencies": []
     },
     "Skills/Knowledge/Arcana/Identify Spell.md": {
-      "modifiedTime": 1751693509890,
-      "sourceSize": 477,
+      "modifiedTime": 1752055334215,
+      "sourceSize": 492,
       "exportedPath": "skills/knowledge/arcana/identify-spell.html",
       "dependencies": []
     },
@@ -3227,8 +3252,8 @@
       "dependencies": []
     },
     "Techniques/Spell Techniques/Academy/Academy 2/Dispel.md": {
-      "modifiedTime": 1751693509890,
-      "sourceSize": 878,
+      "modifiedTime": 1752055334215,
+      "sourceSize": 1133,
       "exportedPath": "techniques/spell-techniques/academy/academy-2/dispel.html",
       "dependencies": []
     },
@@ -3298,22 +3323,10 @@
       "exportedPath": "techniques/spell-techniques/enthrallment/enthrallment.html",
       "dependencies": []
     },
-    "Techniques/Spell Techniques/Prismancy/Prismancy 1/Blazing Palm.md": {
-      "modifiedTime": 1751693509890,
-      "sourceSize": 485,
-      "exportedPath": "techniques/spell-techniques/prismancy/prismancy-1/blazing-palm.html",
-      "dependencies": []
-    },
     "Techniques/Spell Techniques/Prismancy/Prismancy 1/Lady of Light.md": {
-      "modifiedTime": 1751693509890,
-      "sourceSize": 709,
+      "modifiedTime": 1752055334215,
+      "sourceSize": 743,
       "exportedPath": "techniques/spell-techniques/prismancy/prismancy-1/lady-of-light.html",
-      "dependencies": []
-    },
-    "Techniques/Spell Techniques/Prismancy/Prismancy 2/Blazing Beam.md": {
-      "modifiedTime": 1751693509890,
-      "sourceSize": 817,
-      "exportedPath": "techniques/spell-techniques/prismancy/prismancy-2/blazing-beam.html",
       "dependencies": []
     },
     "Techniques/Spell Techniques/Prismancy/Prismancy 4/Sabre of Light.md": {
@@ -3323,7 +3336,7 @@
       "dependencies": []
     },
     "Techniques/Spell Techniques/Prismancy/Prismancy.md": {
-      "modifiedTime": 1751693509890,
+      "modifiedTime": 1752055334215,
       "sourceSize": 886,
       "exportedPath": "techniques/spell-techniques/prismancy/prismancy.html",
       "dependencies": []
@@ -3347,8 +3360,8 @@
       "dependencies": []
     },
     "Techniques/Spell Techniques/Pyromancy/Pyromancy 3/Fire Blast.md": {
-      "modifiedTime": 1751693509890,
-      "sourceSize": 970,
+      "modifiedTime": 1752055334215,
+      "sourceSize": 969,
       "exportedPath": "techniques/spell-techniques/pyromancy/pyromancy-3/fire-blast.html",
       "dependencies": []
     },
@@ -3407,8 +3420,8 @@
       "dependencies": []
     },
     "Techniques/Innate Techniques.md": {
-      "modifiedTime": 1751693509890,
-      "sourceSize": 832,
+      "modifiedTime": 1752055334215,
+      "sourceSize": 1133,
       "exportedPath": "techniques/innate-techniques.html",
       "dependencies": []
     },
@@ -3431,7 +3444,7 @@
       "dependencies": []
     },
     "Templates/Template, Bestiary Entry.md": {
-      "modifiedTime": 1751693509890,
+      "modifiedTime": 1752055334215,
       "sourceSize": 1870,
       "exportedPath": "templates/template,-bestiary-entry.html",
       "dependencies": []
@@ -3485,177 +3498,339 @@
       "dependencies": []
     },
     "lib/scripts/graph-wasm.wasm": {
-      "modifiedTime": 1751693509890,
+      "modifiedTime": 1752055334215,
       "sourceSize": 23377,
       "exportedPath": "lib/scripts/graph-wasm.wasm",
       "dependencies": []
     },
     "lib/fonts/94f2f163d4b698242fef.otf": {
-      "modifiedTime": 1751693509890,
+      "modifiedTime": 1752055334215,
       "sourceSize": 66800,
       "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
       "dependencies": []
     },
     "lib/fonts/72505e6a122c6acd5471.woff2": {
-      "modifiedTime": 1751693509890,
+      "modifiedTime": 1752055334215,
       "sourceSize": 104232,
       "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
       "dependencies": []
     },
     "lib/fonts/2d5198822ab091ce4305.woff2": {
-      "modifiedTime": 1751693509890,
+      "modifiedTime": 1752055334215,
       "sourceSize": 104332,
       "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
       "dependencies": []
     },
     "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
-      "modifiedTime": 1751693509890,
+      "modifiedTime": 1752055334215,
       "sourceSize": 98868,
       "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
       "dependencies": []
     },
     "lib/fonts/cb10ffd7684cd9836a05.woff2": {
-      "modifiedTime": 1751693509890,
+      "modifiedTime": 1752055334215,
       "sourceSize": 106876,
       "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
       "dependencies": []
     },
     "lib/fonts/b5f0f109bc88052d4000.woff2": {
-      "modifiedTime": 1751693509890,
+      "modifiedTime": 1752055334215,
       "sourceSize": 105804,
       "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
       "dependencies": []
     },
     "lib/fonts/cbe0ae49c52c920fd563.woff2": {
-      "modifiedTime": 1751693509890,
+      "modifiedTime": 1752055334215,
       "sourceSize": 106108,
       "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
       "dependencies": []
     },
     "lib/fonts/535a6cf662596b3bd6a6.woff2": {
-      "modifiedTime": 1751693509890,
+      "modifiedTime": 1752055334215,
       "sourceSize": 111708,
       "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
       "dependencies": []
     },
     "lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1751693509890,
+      "modifiedTime": 1752055334215,
       "sourceSize": 192740,
       "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
       "dependencies": []
     },
     "lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1751693509890,
+      "modifiedTime": 1752055334215,
       "sourceSize": 161376,
       "exportedPath": "lib/fonts/454577c22304619db035.ttf",
       "dependencies": []
     },
     "lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1751693509890,
+      "modifiedTime": 1752055334215,
       "sourceSize": 191568,
       "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
       "dependencies": []
     },
     "lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1751693509890,
+      "modifiedTime": 1752055334215,
       "sourceSize": 155288,
       "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
       "dependencies": []
     },
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1751693509890,
+      "modifiedTime": 1752055334215,
       "sourceSize": 7876,
       "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
       "dependencies": []
     },
     "lib/media/6155340132a851f6089e.svg": {
-      "modifiedTime": 1751693509890,
+      "modifiedTime": 1752055334215,
       "sourceSize": 315,
       "exportedPath": "lib/media/6155340132a851f6089e.svg",
       "dependencies": []
     },
     "lib/html/file-tree.html": {
-      "modifiedTime": 1751693509890,
-      "sourceSize": 479719,
+      "modifiedTime": 1752055334215,
+      "sourceSize": 508977,
       "exportedPath": "lib/html/file-tree.html",
       "dependencies": []
     },
     "lib/scripts/webpage.js": {
-      "modifiedTime": 1751693509890,
+      "modifiedTime": 1752055334215,
       "sourceSize": 47290,
       "exportedPath": "lib/scripts/webpage.js",
       "dependencies": []
     },
     "lib/scripts/graph-view.js": {
-      "modifiedTime": 1751693509890,
+      "modifiedTime": 1752055334215,
       "sourceSize": 15519,
       "exportedPath": "lib/scripts/graph-view.js",
       "dependencies": []
     },
     "lib/scripts/graph-wasm.js": {
-      "modifiedTime": 1751693509890,
+      "modifiedTime": 1752055334215,
       "sourceSize": 14021,
       "exportedPath": "lib/scripts/graph-wasm.js",
       "dependencies": []
     },
     "lib/scripts/graph-render-worker.js": {
-      "modifiedTime": 1751693509890,
+      "modifiedTime": 1752055334215,
       "sourceSize": 5179,
       "exportedPath": "lib/scripts/graph-render-worker.js",
       "dependencies": []
     },
     "lib/scripts/tinycolor.js": {
-      "modifiedTime": 1751693509890,
+      "modifiedTime": 1752055334215,
       "sourceSize": 29832,
       "exportedPath": "lib/scripts/tinycolor.js",
       "dependencies": []
     },
     "lib/scripts/pixi.js": {
-      "modifiedTime": 1751693509890,
+      "modifiedTime": 1752055334215,
       "sourceSize": 449509,
       "exportedPath": "lib/scripts/pixi.js",
       "dependencies": []
     },
     "lib/scripts/minisearch.js": {
-      "modifiedTime": 1751693509890,
+      "modifiedTime": 1752055334215,
       "sourceSize": 29422,
       "exportedPath": "lib/scripts/minisearch.js",
       "dependencies": []
     },
     "lib/media/favicon.png": {
-      "modifiedTime": 1751693509890,
+      "modifiedTime": 1752055334215,
       "sourceSize": 1105,
       "exportedPath": "lib/media/favicon.png",
       "dependencies": []
     },
     "lib/scripts/graph-data.js": {
-      "modifiedTime": 1751693509890,
-      "sourceSize": 55732,
+      "modifiedTime": 1752055334215,
+      "sourceSize": 60325,
       "exportedPath": "lib/scripts/graph-data.js",
       "dependencies": []
     },
     "lib/styles/obsidian.css": {
-      "modifiedTime": 1751693509890,
+      "modifiedTime": 1752055334215,
       "sourceSize": 138258,
       "exportedPath": "lib/styles/obsidian.css",
       "dependencies": []
     },
     "lib/styles/theme.css": {
-      "modifiedTime": 1751693509890,
+      "modifiedTime": 1752055334215,
       "sourceSize": 11610,
       "exportedPath": "lib/styles/theme.css",
       "dependencies": []
     },
     "lib/styles/global-variable-styles.css": {
-      "modifiedTime": 1751693509890,
+      "modifiedTime": 1752055334215,
       "sourceSize": 262,
       "exportedPath": "lib/styles/global-variable-styles.css",
       "dependencies": []
     },
     "lib/styles/main-styles.css": {
-      "modifiedTime": 1751693509890,
+      "modifiedTime": 1752055334215,
       "sourceSize": 23130,
       "exportedPath": "lib/styles/main-styles.css",
+      "dependencies": []
+    },
+    "Bestiary/Creature Types/Elemental/Level 3 Elementals/Ifrit.md": {
+      "modifiedTime": 1752055334215,
+      "sourceSize": 2281,
+      "exportedPath": "bestiary/creature-types/elemental/level-3-elementals/ifrit.html",
+      "dependencies": []
+    },
+    "Core Rules, How to Play/Status Effects/Glowing.md": {
+      "modifiedTime": 1752055334215,
+      "sourceSize": 162,
+      "exportedPath": "core-rules,-how-to-play/status-effects/glowing.html",
+      "dependencies": []
+    },
+    "Techniques/Spell Techniques/Enthrallment/Enthrallment 1/Double Speak.md": {
+      "modifiedTime": 1752055334215,
+      "sourceSize": 594,
+      "exportedPath": "techniques/spell-techniques/enthrallment/enthrallment-1/double-speak.html",
+      "dependencies": []
+    },
+    "Techniques/Spell Techniques/Enthrallment/Enthrallment 1/Verboden Taal.md": {
+      "modifiedTime": 1752055334215,
+      "sourceSize": 497,
+      "exportedPath": "techniques/spell-techniques/enthrallment/enthrallment-1/verboden-taal.html",
+      "dependencies": []
+    },
+    "Techniques/Spell Techniques/Enthrallment/Enthrallment 2/Confide.md": {
+      "modifiedTime": 1752055334215,
+      "sourceSize": 1169,
+      "exportedPath": "techniques/spell-techniques/enthrallment/enthrallment-2/confide.html",
+      "dependencies": []
+    },
+    "Techniques/Spell Techniques/Enthrallment/Enthrallment 3/Dominate.md": {
+      "modifiedTime": 1752055334215,
+      "sourceSize": 952,
+      "exportedPath": "techniques/spell-techniques/enthrallment/enthrallment-3/dominate.html",
+      "dependencies": []
+    },
+    "Techniques/Spell Techniques/Enthrallment/Enthrallment 3/Order 66.md": {
+      "modifiedTime": 1752055334215,
+      "sourceSize": 1214,
+      "exportedPath": "techniques/spell-techniques/enthrallment/enthrallment-3/order-66.html",
+      "dependencies": []
+    },
+    "Techniques/Spell Techniques/Enthrallment/Enthrallment 3/The Hand that Feeds.md": {
+      "modifiedTime": 1752055334215,
+      "sourceSize": 682,
+      "exportedPath": "techniques/spell-techniques/enthrallment/enthrallment-3/the-hand-that-feeds.html",
+      "dependencies": []
+    },
+    "Techniques/Spell Techniques/Enthrallment/Enthrallment 4/Seduce.md": {
+      "modifiedTime": 1752055334215,
+      "sourceSize": 443,
+      "exportedPath": "techniques/spell-techniques/enthrallment/enthrallment-4/seduce.html",
+      "dependencies": []
+    },
+    "Techniques/Spell Techniques/Enthrallment/Enthrallment 5/Thrall.md": {
+      "modifiedTime": 1752055334215,
+      "sourceSize": 977,
+      "exportedPath": "techniques/spell-techniques/enthrallment/enthrallment-5/thrall.html",
+      "dependencies": []
+    },
+    "Techniques/Spell Techniques/Prismancy/Prismancy 1/Brilliant Barrage.md": {
+      "modifiedTime": 1752055334215,
+      "sourceSize": 503,
+      "exportedPath": "techniques/spell-techniques/prismancy/prismancy-1/brilliant-barrage.html",
+      "dependencies": []
+    },
+    "Techniques/Spell Techniques/Prismancy/Prismancy 1/Illumination.md": {
+      "modifiedTime": 1752055334215,
+      "sourceSize": 618,
+      "exportedPath": "techniques/spell-techniques/prismancy/prismancy-1/illumination.html",
+      "dependencies": []
+    },
+    "Techniques/Spell Techniques/Prismancy/Prismancy 2/Prismatic Barrier.md": {
+      "modifiedTime": 1752055334215,
+      "sourceSize": 354,
+      "exportedPath": "techniques/spell-techniques/prismancy/prismancy-2/prismatic-barrier.html",
+      "dependencies": []
+    },
+    "Techniques/Spell Techniques/Prismancy/Prismancy 2/Ricochet Reflection.md": {
+      "modifiedTime": 1752055334215,
+      "sourceSize": 609,
+      "exportedPath": "techniques/spell-techniques/prismancy/prismancy-2/ricochet-reflection.html",
+      "dependencies": []
+    },
+    "Techniques/Spell Techniques/Prismancy/Prismancy 2/Shimmering Ray.md": {
+      "modifiedTime": 1752055334215,
+      "sourceSize": 593,
+      "exportedPath": "techniques/spell-techniques/prismancy/prismancy-2/shimmering-ray.html",
+      "dependencies": []
+    },
+    "Techniques/Spell Techniques/Prismancy/Prismancy 2/Solar Flash.md": {
+      "modifiedTime": 1752055334215,
+      "sourceSize": 449,
+      "exportedPath": "techniques/spell-techniques/prismancy/prismancy-2/solar-flash.html",
+      "dependencies": []
+    },
+    "Techniques/Spell Techniques/Prismancy/Prismancy 4/Rainbow Beam.md": {
+      "modifiedTime": 1752055334215,
+      "sourceSize": 661,
+      "exportedPath": "techniques/spell-techniques/prismancy/prismancy-4/rainbow-beam.html",
+      "dependencies": []
+    },
+    "Techniques/Spell Techniques/Prismancy/Prismancy 5/Zonnestraal.md": {
+      "modifiedTime": 1752055334215,
+      "sourceSize": 1469,
+      "exportedPath": "techniques/spell-techniques/prismancy/prismancy-5/zonnestraal.html",
+      "dependencies": []
+    },
+    "Techniques/Spell Techniques/Pyromancy/Pyromancy 1/Blazing Palm.md": {
+      "modifiedTime": 1752055334215,
+      "sourceSize": 407,
+      "exportedPath": "techniques/spell-techniques/pyromancy/pyromancy-1/blazing-palm.html",
+      "dependencies": []
+    },
+    "Techniques/Spell Techniques/Pyromancy/Pyromancy 1/Flame Blade.md": {
+      "modifiedTime": 1752055334215,
+      "sourceSize": 376,
+      "exportedPath": "techniques/spell-techniques/pyromancy/pyromancy-1/flame-blade.html",
+      "dependencies": []
+    },
+    "Techniques/Spell Techniques/Pyromancy/Pyromancy 1/Flame Pillar.md": {
+      "modifiedTime": 1752055334215,
+      "sourceSize": 712,
+      "exportedPath": "techniques/spell-techniques/pyromancy/pyromancy-1/flame-pillar.html",
+      "dependencies": []
+    },
+    "Techniques/Spell Techniques/Pyromancy/Pyromancy 2/Burning Hands.md": {
+      "modifiedTime": 1752055334215,
+      "sourceSize": 374,
+      "exportedPath": "techniques/spell-techniques/pyromancy/pyromancy-2/burning-hands.html",
+      "dependencies": []
+    },
+    "Techniques/Spell Techniques/Pyromancy/Pyromancy 2/Detonate.md": {
+      "modifiedTime": 1752055334215,
+      "sourceSize": 693,
+      "exportedPath": "techniques/spell-techniques/pyromancy/pyromancy-2/detonate.html",
+      "dependencies": []
+    },
+    "Techniques/Spell Techniques/Pyromancy/Pyromancy 2/Flame Tempest.md": {
+      "modifiedTime": 1752055334215,
+      "sourceSize": 450,
+      "exportedPath": "techniques/spell-techniques/pyromancy/pyromancy-2/flame-tempest.html",
+      "dependencies": []
+    },
+    "Techniques/Spell Techniques/Pyromancy/Pyromancy 4/Ifrit Milicien.md": {
+      "modifiedTime": 1752055334215,
+      "sourceSize": 502,
+      "exportedPath": "techniques/spell-techniques/pyromancy/pyromancy-4/ifrit-milicien.html",
+      "dependencies": []
+    },
+    "Techniques/Spell Techniques/Pyromancy/Pyromancy 5/Meteor Swarm.md": {
+      "modifiedTime": 1752055334215,
+      "sourceSize": 609,
+      "exportedPath": "techniques/spell-techniques/pyromancy/pyromancy-5/meteor-swarm.html",
+      "dependencies": []
+    },
+    "Techniques/Uncategorized Techniques/Final Hour.md": {
+      "modifiedTime": 1752055334215,
+      "sourceSize": 0,
+      "exportedPath": "techniques/uncategorized-techniques/final-hour.html",
       "dependencies": []
     }
   }
