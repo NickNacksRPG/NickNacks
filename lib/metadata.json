@@ -1,6 +1,6 @@
 {
   "vaultName": "Malon's Marvelous Misadventures",
-  "lastExport": 1752055334215,
+  "lastExport": 1752584444031,
   "pluginVersion": "1.8.01",
   "validBodyClasses": "publish css-settings-manager theme-dark show-inline-title show-ribbon",
   "useCustomHeadContent": false,
@@ -36,6 +36,7 @@
     "Classes/Fighter/Archetypes/Aran.md",
     "Classes/Fighter/Archetypes/Dark Knight.md",
     "Classes/Fighter/Fighter.md",
+    "Classes/Healer/Healer.md",
     "Classes/Martial Artist/Martial Artist.md",
     "Classes/Rogue/Archetypes/Bandit.md",
     "Classes/Rogue/Rogue.md",
@@ -421,9 +422,17 @@
     "Skills/Take 10.md",
     "Skills/Take 30.md",
     "Skills/Tie.md",
+    "Techniques/Bestial/Bestial.md",
+    "Techniques/Class and Weapon Abilities/Fighter/Hyper Body.md",
+    "Techniques/Class and Weapon Abilities/Martial Abilities/Endure.md",
+    "Techniques/Class and Weapon Abilities/Martial Abilities/Fury.md",
+    "Techniques/Class and Weapon Abilities/Rogue/Dark Sight.md",
+    "Techniques/Class and Weapon Abilities/Rogue/Haste.md",
+    "Techniques/Class and Weapon Abilities/Weapon Abilities/Common/Cleave.md",
+    "Techniques/Class and Weapon Abilities/Class and Weapon Abilities.md",
     "Techniques/Martial Techniques/Deceit/Deceit 1/Blindspot.md",
-    "Techniques/Martial Techniques/Deceit/Deceit 1/Cull.md",
     "Techniques/Martial Techniques/Deceit/Deceit 1/Dodge Roll.md",
+    "Techniques/Martial Techniques/Deceit/Deceit 1/Finisher.md",
     "Techniques/Martial Techniques/Deceit/Deceit 1/Heartseeker.md",
     "Techniques/Martial Techniques/Deceit/Deceit 1/Kidnap.md",
     "Techniques/Martial Techniques/Deceit/Deceit 1/Pocket Sand.md",
@@ -473,6 +482,22 @@
     "Techniques/Spell Techniques/Enthrallment/Enthrallment 4/Seduce.md",
     "Techniques/Spell Techniques/Enthrallment/Enthrallment 5/Thrall.md",
     "Techniques/Spell Techniques/Enthrallment/Enthrallment.md",
+    "Techniques/Spell Techniques/Lunar/Lunar 1/Astrology.md",
+    "Techniques/Spell Techniques/Lunar/Lunar 1/Enchant Sapphire.md",
+    "Techniques/Spell Techniques/Lunar/Lunar 1/Natural Geomancy.md",
+    "Techniques/Spell Techniques/Lunar/Lunar 1/Provider's Station.md",
+    "Techniques/Spell Techniques/Lunar/Lunar 1/Star Sight.md",
+    "Techniques/Spell Techniques/Lunar/Lunar 2/Lunar Dream.md",
+    "Techniques/Spell Techniques/Lunar/Lunar 2/Unseen Blade.md",
+    "Techniques/Spell Techniques/Lunar/Lunar 2/Unseen Form.md",
+    "Techniques/Spell Techniques/Lunar/Lunar 3/Astral Alignment.md",
+    "Techniques/Spell Techniques/Lunar/Lunar 3/Sacrificial Heal.md",
+    "Techniques/Spell Techniques/Lunar/Lunar 3/Vengeance.md",
+    "Techniques/Spell Techniques/Lunar/Lunar 4/Energy Transfer.md",
+    "Techniques/Spell Techniques/Lunar/Lunar 4/Vengeance Other.md",
+    "Techniques/Spell Techniques/Lunar/Lunar 5/Magic Imbue.md",
+    "Techniques/Spell Techniques/Lunar/Lunar.md",
+    "Techniques/Spell Techniques/Marine/Marine.md",
     "Techniques/Spell Techniques/Prismancy/Prismancy 1/Brilliant Barrage.md",
     "Techniques/Spell Techniques/Prismancy/Prismancy 1/Illumination.md",
     "Techniques/Spell Techniques/Prismancy/Prismancy 1/Lady of Light.md",
@@ -497,6 +522,12 @@
     "Techniques/Spell Techniques/Pyromancy/Pyromancy 4/Ifrit Milicien.md",
     "Techniques/Spell Techniques/Pyromancy/Pyromancy 5/Meteor Swarm.md",
     "Techniques/Spell Techniques/Pyromancy/Pyromancy.md",
+    "Techniques/Spell Techniques/Vitalism/Vitalism 1/Bless.md",
+    "Techniques/Spell Techniques/Vitalism/Vitalism 1/Caloric Healing.md",
+    "Techniques/Spell Techniques/Vitalism/Vitalism 1/Heal.md",
+    "Techniques/Spell Techniques/Vitalism/Vitalism 1/Invigorate.md",
+    "Techniques/Spell Techniques/Vitalism/Vitalism 1/Spare Life.md",
+    "Techniques/Spell Techniques/Vitalism/Vitalism.md",
     "Techniques/Spellcasting Rules/CL.md",
     "Techniques/Spellcasting Rules/M.md",
     "Techniques/Spellcasting Rules/S.md",
@@ -505,17 +536,18 @@
     "Techniques/Spellcasting Rules/Untitled.md",
     "Techniques/Spellcasting Rules/V.md",
     "Techniques/Spellcasting Rules/Weather and Terrain vs Spells.md",
-    "Techniques/Uncategorized Techniques/Final Hour.md",
-    "Techniques/Innate Techniques.md",
+    "Techniques/Uncategorized Techniques/Nebula.md",
+    "Techniques/Innate Technique.md",
     "Techniques/Preparing Techniques.md",
     "Techniques/Technique.md",
     "Techniques/Upcast.md",
     "Templates/Template, Bestiary Entry.md",
     "Templates/Template, Class.md",
+    "Templates/Template, Innate Technique.md",
     "Templates/Template, Race.md",
     "Templates/Template, Spell.md",
     "Templates/Template, Technique.md",
-    "🍔 Mission Statement.md",
+    "Templates/Template, Weapon Technique.md",
     "Index.md",
     "Placeholder.md",
     "TEST.md",
@@ -744,14 +776,14 @@
       "dependencies": []
     },
     "Classes/Fighter/Archetypes/Dark Knight.md": {
-      "modifiedTime": 1751693509890,
-      "sourceSize": 2324,
+      "modifiedTime": 1752584444031,
+      "sourceSize": 2328,
       "exportedPath": "classes/fighter/archetypes/dark-knight.html",
       "dependencies": []
     },
     "Classes/Fighter/Fighter.md": {
-      "modifiedTime": 1751693509890,
-      "sourceSize": 2577,
+      "modifiedTime": 1752584444031,
+      "sourceSize": 2543,
       "exportedPath": "classes/fighter/fighter.html",
       "dependencies": []
     },
@@ -762,14 +794,14 @@
       "dependencies": []
     },
     "Classes/Rogue/Archetypes/Bandit.md": {
-      "modifiedTime": 1751693509890,
-      "sourceSize": 2690,
+      "modifiedTime": 1752584444031,
+      "sourceSize": 2698,
       "exportedPath": "classes/rogue/archetypes/bandit.html",
       "dependencies": []
     },
     "Classes/Rogue/Rogue.md": {
-      "modifiedTime": 1751693509890,
-      "sourceSize": 3093,
+      "modifiedTime": 1752584444031,
+      "sourceSize": 3111,
       "exportedPath": "classes/rogue/rogue.html",
       "dependencies": []
     },
@@ -1272,7 +1304,7 @@
       "dependencies": []
     },
     "Core Rules, How to Play/Attacking/Damage.md": {
-      "modifiedTime": 1751693509890,
+      "modifiedTime": 1752584444031,
       "sourceSize": 928,
       "exportedPath": "core-rules,-how-to-play/attacking/damage.html",
       "dependencies": []
@@ -1362,8 +1394,8 @@
       "dependencies": []
     },
     "Core Rules, How to Play/Hitpoints/HP.md": {
-      "modifiedTime": 1751693509890,
-      "sourceSize": 507,
+      "modifiedTime": 1752584444031,
+      "sourceSize": 515,
       "exportedPath": "core-rules,-how-to-play/hitpoints/hp.html",
       "dependencies": []
     },
@@ -1380,8 +1412,8 @@
       "dependencies": []
     },
     "Core Rules, How to Play/Hitpoints/Natural Healing.md": {
-      "modifiedTime": 1751693509890,
-      "sourceSize": 814,
+      "modifiedTime": 1752584444031,
+      "sourceSize": 876,
       "exportedPath": "core-rules,-how-to-play/hitpoints/natural-healing.html",
       "dependencies": []
     },
@@ -1404,8 +1436,8 @@
       "dependencies": []
     },
     "Core Rules, How to Play/Hitpoints/Short Rest.md": {
-      "modifiedTime": 1751693509890,
-      "sourceSize": 214,
+      "modifiedTime": 1752584444031,
+      "sourceSize": 288,
       "exportedPath": "core-rules,-how-to-play/hitpoints/short-rest.html",
       "dependencies": []
     },
@@ -2148,8 +2180,8 @@
       "dependencies": []
     },
     "Equipment/Food/Food.md": {
-      "modifiedTime": 1751693509890,
-      "sourceSize": 3276,
+      "modifiedTime": 1752584444031,
+      "sourceSize": 3278,
       "exportedPath": "equipment/food/food.html",
       "dependencies": []
     },
@@ -2220,7 +2252,7 @@
       "dependencies": []
     },
     "Equipment/Weapon Rules/Weapon Types and Basic Weapons/Close.md": {
-      "modifiedTime": 1751693509890,
+      "modifiedTime": 1752584444031,
       "sourceSize": 1807,
       "exportedPath": "equipment/weapon-rules/weapon-types-and-basic-weapons/close.html",
       "dependencies": []
@@ -2274,8 +2306,8 @@
       "dependencies": []
     },
     "Equipment/Weapon Rules/Special Attack.md": {
-      "modifiedTime": 1751693509890,
-      "sourceSize": 630,
+      "modifiedTime": 1752584444031,
+      "sourceSize": 690,
       "exportedPath": "equipment/weapon-rules/special-attack.html",
       "dependencies": []
     },
@@ -2292,8 +2324,8 @@
       "dependencies": []
     },
     "Equipment/Weapon Rules/Weapon Qualities.md": {
-      "modifiedTime": 1751693509890,
-      "sourceSize": 3202,
+      "modifiedTime": 1752584444031,
+      "sourceSize": 3869,
       "exportedPath": "equipment/weapon-rules/weapon-qualities.html",
       "dependencies": []
     },
@@ -3065,12 +3097,6 @@
       "exportedPath": "techniques/martial-techniques/deceit/deceit-1/blindspot.html",
       "dependencies": []
     },
-    "Techniques/Martial Techniques/Deceit/Deceit 1/Cull.md": {
-      "modifiedTime": 1751693509890,
-      "sourceSize": 508,
-      "exportedPath": "techniques/martial-techniques/deceit/deceit-1/cull.html",
-      "dependencies": []
-    },
     "Techniques/Martial Techniques/Deceit/Deceit 1/Dodge Roll.md": {
       "modifiedTime": 1751693509890,
       "sourceSize": 319,
@@ -3144,8 +3170,8 @@
       "dependencies": []
     },
     "Techniques/Martial Techniques/Savagery/Savagery 2/Seismic Stomp.md": {
-      "modifiedTime": 1751693509890,
-      "sourceSize": 611,
+      "modifiedTime": 1752584444031,
+      "sourceSize": 624,
       "exportedPath": "techniques/martial-techniques/savagery/savagery-2/seismic-stomp.html",
       "dependencies": []
     },
@@ -3390,14 +3416,14 @@
       "dependencies": []
     },
     "Techniques/Spellcasting Rules/Spell.md": {
-      "modifiedTime": 1751693509890,
-      "sourceSize": 874,
+      "modifiedTime": 1752584444031,
+      "sourceSize": 873,
       "exportedPath": "techniques/spellcasting-rules/spell.html",
       "dependencies": []
     },
     "Techniques/Spellcasting Rules/Spell Components.md": {
-      "modifiedTime": 1751693509890,
-      "sourceSize": 252,
+      "modifiedTime": 1752584444031,
+      "sourceSize": 251,
       "exportedPath": "techniques/spellcasting-rules/spell-components.html",
       "dependencies": []
     },
@@ -3419,15 +3445,9 @@
       "exportedPath": "techniques/spellcasting-rules/weather-and-terrain-vs-spells.html",
       "dependencies": []
     },
-    "Techniques/Innate Techniques.md": {
-      "modifiedTime": 1752055334215,
-      "sourceSize": 1133,
-      "exportedPath": "techniques/innate-techniques.html",
-      "dependencies": []
-    },
     "Techniques/Preparing Techniques.md": {
-      "modifiedTime": 1751693509890,
-      "sourceSize": 460,
+      "modifiedTime": 1752584444031,
+      "sourceSize": 459,
       "exportedPath": "techniques/preparing-techniques.html",
       "dependencies": []
     },
@@ -3473,15 +3493,9 @@
       "exportedPath": "templates/template,-technique.html",
       "dependencies": []
     },
-    "🍔 Mission Statement.md": {
-      "modifiedTime": 1751693509890,
-      "sourceSize": 733,
-      "exportedPath": "🍔-mission-statement.html",
-      "dependencies": []
-    },
     "Index.md": {
-      "modifiedTime": 1751693509890,
-      "sourceSize": 184,
+      "modifiedTime": 1752584444031,
+      "sourceSize": 803,
       "exportedPath": "index.html",
       "dependencies": []
     },
@@ -3498,181 +3512,181 @@
       "dependencies": []
     },
     "lib/scripts/graph-wasm.wasm": {
-      "modifiedTime": 1752055334215,
+      "modifiedTime": 1752584444031,
       "sourceSize": 23377,
       "exportedPath": "lib/scripts/graph-wasm.wasm",
       "dependencies": []
     },
     "lib/fonts/94f2f163d4b698242fef.otf": {
-      "modifiedTime": 1752055334215,
+      "modifiedTime": 1752584444031,
       "sourceSize": 66800,
       "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
       "dependencies": []
     },
     "lib/fonts/72505e6a122c6acd5471.woff2": {
-      "modifiedTime": 1752055334215,
+      "modifiedTime": 1752584444031,
       "sourceSize": 104232,
       "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
       "dependencies": []
     },
     "lib/fonts/2d5198822ab091ce4305.woff2": {
-      "modifiedTime": 1752055334215,
+      "modifiedTime": 1752584444031,
       "sourceSize": 104332,
       "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
       "dependencies": []
     },
     "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
-      "modifiedTime": 1752055334215,
+      "modifiedTime": 1752584444031,
       "sourceSize": 98868,
       "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
       "dependencies": []
     },
     "lib/fonts/cb10ffd7684cd9836a05.woff2": {
-      "modifiedTime": 1752055334215,
+      "modifiedTime": 1752584444031,
       "sourceSize": 106876,
       "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
       "dependencies": []
     },
     "lib/fonts/b5f0f109bc88052d4000.woff2": {
-      "modifiedTime": 1752055334215,
+      "modifiedTime": 1752584444031,
       "sourceSize": 105804,
       "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
       "dependencies": []
     },
     "lib/fonts/cbe0ae49c52c920fd563.woff2": {
-      "modifiedTime": 1752055334215,
+      "modifiedTime": 1752584444031,
       "sourceSize": 106108,
       "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
       "dependencies": []
     },
     "lib/fonts/535a6cf662596b3bd6a6.woff2": {
-      "modifiedTime": 1752055334215,
+      "modifiedTime": 1752584444031,
       "sourceSize": 111708,
       "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
       "dependencies": []
     },
     "lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1752055334215,
+      "modifiedTime": 1752584444031,
       "sourceSize": 192740,
       "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
       "dependencies": []
     },
     "lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1752055334215,
+      "modifiedTime": 1752584444031,
       "sourceSize": 161376,
       "exportedPath": "lib/fonts/454577c22304619db035.ttf",
       "dependencies": []
     },
     "lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1752055334215,
+      "modifiedTime": 1752584444031,
       "sourceSize": 191568,
       "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
       "dependencies": []
     },
     "lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1752055334215,
+      "modifiedTime": 1752584444031,
       "sourceSize": 155288,
       "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
       "dependencies": []
     },
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1752055334215,
+      "modifiedTime": 1752584444031,
       "sourceSize": 7876,
       "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
       "dependencies": []
     },
     "lib/media/6155340132a851f6089e.svg": {
-      "modifiedTime": 1752055334215,
+      "modifiedTime": 1752584444031,
       "sourceSize": 315,
       "exportedPath": "lib/media/6155340132a851f6089e.svg",
       "dependencies": []
     },
     "lib/html/file-tree.html": {
-      "modifiedTime": 1752055334215,
-      "sourceSize": 508977,
+      "modifiedTime": 1752584444031,
+      "sourceSize": 550631,
       "exportedPath": "lib/html/file-tree.html",
       "dependencies": []
     },
     "lib/scripts/webpage.js": {
-      "modifiedTime": 1752055334215,
+      "modifiedTime": 1752584444031,
       "sourceSize": 47290,
       "exportedPath": "lib/scripts/webpage.js",
       "dependencies": []
     },
     "lib/scripts/graph-view.js": {
-      "modifiedTime": 1752055334215,
+      "modifiedTime": 1752584444031,
       "sourceSize": 15519,
       "exportedPath": "lib/scripts/graph-view.js",
       "dependencies": []
     },
     "lib/scripts/graph-wasm.js": {
-      "modifiedTime": 1752055334215,
+      "modifiedTime": 1752584444031,
       "sourceSize": 14021,
       "exportedPath": "lib/scripts/graph-wasm.js",
       "dependencies": []
     },
     "lib/scripts/graph-render-worker.js": {
-      "modifiedTime": 1752055334215,
+      "modifiedTime": 1752584444031,
       "sourceSize": 5179,
       "exportedPath": "lib/scripts/graph-render-worker.js",
       "dependencies": []
     },
     "lib/scripts/tinycolor.js": {
-      "modifiedTime": 1752055334215,
+      "modifiedTime": 1752584444031,
       "sourceSize": 29832,
       "exportedPath": "lib/scripts/tinycolor.js",
       "dependencies": []
     },
     "lib/scripts/pixi.js": {
-      "modifiedTime": 1752055334215,
+      "modifiedTime": 1752584444031,
       "sourceSize": 449509,
       "exportedPath": "lib/scripts/pixi.js",
       "dependencies": []
     },
     "lib/scripts/minisearch.js": {
-      "modifiedTime": 1752055334215,
+      "modifiedTime": 1752584444031,
       "sourceSize": 29422,
       "exportedPath": "lib/scripts/minisearch.js",
       "dependencies": []
     },
     "lib/media/favicon.png": {
-      "modifiedTime": 1752055334215,
+      "modifiedTime": 1752584444031,
       "sourceSize": 1105,
       "exportedPath": "lib/media/favicon.png",
       "dependencies": []
     },
     "lib/scripts/graph-data.js": {
-      "modifiedTime": 1752055334215,
-      "sourceSize": 60325,
+      "modifiedTime": 1752584444031,
+      "sourceSize": 65487,
       "exportedPath": "lib/scripts/graph-data.js",
       "dependencies": []
     },
     "lib/styles/obsidian.css": {
-      "modifiedTime": 1752055334215,
+      "modifiedTime": 1752584444031,
       "sourceSize": 138258,
       "exportedPath": "lib/styles/obsidian.css",
       "dependencies": []
     },
     "lib/styles/theme.css": {
-      "modifiedTime": 1752055334215,
+      "modifiedTime": 1752584444031,
       "sourceSize": 11610,
       "exportedPath": "lib/styles/theme.css",
       "dependencies": []
     },
     "lib/styles/global-variable-styles.css": {
-      "modifiedTime": 1752055334215,
+      "modifiedTime": 1752584444031,
       "sourceSize": 262,
       "exportedPath": "lib/styles/global-variable-styles.css",
       "dependencies": []
     },
     "lib/styles/main-styles.css": {
-      "modifiedTime": 1752055334215,
+      "modifiedTime": 1752584444031,
       "sourceSize": 23130,
       "exportedPath": "lib/styles/main-styles.css",
       "dependencies": []
     },
     "Bestiary/Creature Types/Elemental/Level 3 Elementals/Ifrit.md": {
-      "modifiedTime": 1752055334215,
+      "modifiedTime": 1752584444031,
       "sourceSize": 2281,
       "exportedPath": "bestiary/creature-types/elemental/level-3-elementals/ifrit.html",
       "dependencies": []
@@ -3762,8 +3776,8 @@
       "dependencies": []
     },
     "Techniques/Spell Techniques/Prismancy/Prismancy 2/Solar Flash.md": {
-      "modifiedTime": 1752055334215,
-      "sourceSize": 449,
+      "modifiedTime": 1752584444031,
+      "sourceSize": 648,
       "exportedPath": "techniques/spell-techniques/prismancy/prismancy-2/solar-flash.html",
       "dependencies": []
     },
@@ -3827,10 +3841,220 @@
       "exportedPath": "techniques/spell-techniques/pyromancy/pyromancy-5/meteor-swarm.html",
       "dependencies": []
     },
-    "Techniques/Uncategorized Techniques/Final Hour.md": {
-      "modifiedTime": 1752055334215,
-      "sourceSize": 0,
-      "exportedPath": "techniques/uncategorized-techniques/final-hour.html",
+    "Classes/Healer/Healer.md": {
+      "modifiedTime": 1752584444031,
+      "sourceSize": 520,
+      "exportedPath": "classes/healer/healer.html",
+      "dependencies": []
+    },
+    "Techniques/Bestial/Bestial.md": {
+      "modifiedTime": 1752584444031,
+      "sourceSize": 344,
+      "exportedPath": "techniques/bestial/bestial.html",
+      "dependencies": []
+    },
+    "Techniques/Class and Weapon Abilities/Fighter/Hyper Body.md": {
+      "modifiedTime": 1752584444031,
+      "sourceSize": 602,
+      "exportedPath": "techniques/class-and-weapon-abilities/fighter/hyper-body.html",
+      "dependencies": []
+    },
+    "Techniques/Class and Weapon Abilities/Martial Abilities/Endure.md": {
+      "modifiedTime": 1752584444031,
+      "sourceSize": 335,
+      "exportedPath": "techniques/class-and-weapon-abilities/martial-abilities/endure.html",
+      "dependencies": []
+    },
+    "Techniques/Class and Weapon Abilities/Martial Abilities/Fury.md": {
+      "modifiedTime": 1752584444031,
+      "sourceSize": 290,
+      "exportedPath": "techniques/class-and-weapon-abilities/martial-abilities/fury.html",
+      "dependencies": []
+    },
+    "Techniques/Class and Weapon Abilities/Rogue/Dark Sight.md": {
+      "modifiedTime": 1752584444031,
+      "sourceSize": 554,
+      "exportedPath": "techniques/class-and-weapon-abilities/rogue/dark-sight.html",
+      "dependencies": []
+    },
+    "Techniques/Class and Weapon Abilities/Rogue/Haste.md": {
+      "modifiedTime": 1752584444031,
+      "sourceSize": 413,
+      "exportedPath": "techniques/class-and-weapon-abilities/rogue/haste.html",
+      "dependencies": []
+    },
+    "Techniques/Class and Weapon Abilities/Weapon Abilities/Common/Cleave.md": {
+      "modifiedTime": 1752584444031,
+      "sourceSize": 640,
+      "exportedPath": "techniques/class-and-weapon-abilities/weapon-abilities/common/cleave.html",
+      "dependencies": []
+    },
+    "Techniques/Class and Weapon Abilities/Class and Weapon Abilities.md": {
+      "modifiedTime": 1752584444031,
+      "sourceSize": 745,
+      "exportedPath": "techniques/class-and-weapon-abilities/class-and-weapon-abilities.html",
+      "dependencies": []
+    },
+    "Techniques/Martial Techniques/Deceit/Deceit 1/Finisher.md": {
+      "modifiedTime": 1752584444031,
+      "sourceSize": 541,
+      "exportedPath": "techniques/martial-techniques/deceit/deceit-1/finisher.html",
+      "dependencies": []
+    },
+    "Techniques/Spell Techniques/Lunar/Lunar 1/Astrology.md": {
+      "modifiedTime": 1752584444031,
+      "sourceSize": 833,
+      "exportedPath": "techniques/spell-techniques/lunar/lunar-1/astrology.html",
+      "dependencies": []
+    },
+    "Techniques/Spell Techniques/Lunar/Lunar 1/Enchant Sapphire.md": {
+      "modifiedTime": 1752584444031,
+      "sourceSize": 3688,
+      "exportedPath": "techniques/spell-techniques/lunar/lunar-1/enchant-sapphire.html",
+      "dependencies": []
+    },
+    "Techniques/Spell Techniques/Lunar/Lunar 1/Natural Geomancy.md": {
+      "modifiedTime": 1752584444031,
+      "sourceSize": 1001,
+      "exportedPath": "techniques/spell-techniques/lunar/lunar-1/natural-geomancy.html",
+      "dependencies": []
+    },
+    "Techniques/Spell Techniques/Lunar/Lunar 1/Provider's Station.md": {
+      "modifiedTime": 1752584444031,
+      "sourceSize": 907,
+      "exportedPath": "techniques/spell-techniques/lunar/lunar-1/provider's-station.html",
+      "dependencies": []
+    },
+    "Techniques/Spell Techniques/Lunar/Lunar 1/Star Sight.md": {
+      "modifiedTime": 1752584444031,
+      "sourceSize": 481,
+      "exportedPath": "techniques/spell-techniques/lunar/lunar-1/star-sight.html",
+      "dependencies": []
+    },
+    "Techniques/Spell Techniques/Lunar/Lunar 2/Lunar Dream.md": {
+      "modifiedTime": 1752584444031,
+      "sourceSize": 769,
+      "exportedPath": "techniques/spell-techniques/lunar/lunar-2/lunar-dream.html",
+      "dependencies": []
+    },
+    "Techniques/Spell Techniques/Lunar/Lunar 2/Unseen Blade.md": {
+      "modifiedTime": 1752584444031,
+      "sourceSize": 460,
+      "exportedPath": "techniques/spell-techniques/lunar/lunar-2/unseen-blade.html",
+      "dependencies": []
+    },
+    "Techniques/Spell Techniques/Lunar/Lunar 2/Unseen Form.md": {
+      "modifiedTime": 1752584444031,
+      "sourceSize": 551,
+      "exportedPath": "techniques/spell-techniques/lunar/lunar-2/unseen-form.html",
+      "dependencies": []
+    },
+    "Techniques/Spell Techniques/Lunar/Lunar 3/Astral Alignment.md": {
+      "modifiedTime": 1752584444031,
+      "sourceSize": 336,
+      "exportedPath": "techniques/spell-techniques/lunar/lunar-3/astral-alignment.html",
+      "dependencies": []
+    },
+    "Techniques/Spell Techniques/Lunar/Lunar 3/Sacrificial Heal.md": {
+      "modifiedTime": 1752584444031,
+      "sourceSize": 353,
+      "exportedPath": "techniques/spell-techniques/lunar/lunar-3/sacrificial-heal.html",
+      "dependencies": []
+    },
+    "Techniques/Spell Techniques/Lunar/Lunar 3/Vengeance.md": {
+      "modifiedTime": 1752584444031,
+      "sourceSize": 808,
+      "exportedPath": "techniques/spell-techniques/lunar/lunar-3/vengeance.html",
+      "dependencies": []
+    },
+    "Techniques/Spell Techniques/Lunar/Lunar 4/Energy Transfer.md": {
+      "modifiedTime": 1752584444031,
+      "sourceSize": 419,
+      "exportedPath": "techniques/spell-techniques/lunar/lunar-4/energy-transfer.html",
+      "dependencies": []
+    },
+    "Techniques/Spell Techniques/Lunar/Lunar 4/Vengeance Other.md": {
+      "modifiedTime": 1752584444031,
+      "sourceSize": 643,
+      "exportedPath": "techniques/spell-techniques/lunar/lunar-4/vengeance-other.html",
+      "dependencies": []
+    },
+    "Techniques/Spell Techniques/Lunar/Lunar 5/Magic Imbue.md": {
+      "modifiedTime": 1752584444031,
+      "sourceSize": 497,
+      "exportedPath": "techniques/spell-techniques/lunar/lunar-5/magic-imbue.html",
+      "dependencies": []
+    },
+    "Techniques/Spell Techniques/Lunar/Lunar.md": {
+      "modifiedTime": 1752584444031,
+      "sourceSize": 1071,
+      "exportedPath": "techniques/spell-techniques/lunar/lunar.html",
+      "dependencies": []
+    },
+    "Techniques/Spell Techniques/Marine/Marine.md": {
+      "modifiedTime": 1752584444031,
+      "sourceSize": 179,
+      "exportedPath": "techniques/spell-techniques/marine/marine.html",
+      "dependencies": []
+    },
+    "Techniques/Spell Techniques/Vitalism/Vitalism 1/Bless.md": {
+      "modifiedTime": 1752584444031,
+      "sourceSize": 410,
+      "exportedPath": "techniques/spell-techniques/vitalism/vitalism-1/bless.html",
+      "dependencies": []
+    },
+    "Techniques/Spell Techniques/Vitalism/Vitalism 1/Caloric Healing.md": {
+      "modifiedTime": 1752584444031,
+      "sourceSize": 454,
+      "exportedPath": "techniques/spell-techniques/vitalism/vitalism-1/caloric-healing.html",
+      "dependencies": []
+    },
+    "Techniques/Spell Techniques/Vitalism/Vitalism 1/Heal.md": {
+      "modifiedTime": 1752584444031,
+      "sourceSize": 509,
+      "exportedPath": "techniques/spell-techniques/vitalism/vitalism-1/heal.html",
+      "dependencies": []
+    },
+    "Techniques/Spell Techniques/Vitalism/Vitalism 1/Invigorate.md": {
+      "modifiedTime": 1752584444031,
+      "sourceSize": 438,
+      "exportedPath": "techniques/spell-techniques/vitalism/vitalism-1/invigorate.html",
+      "dependencies": []
+    },
+    "Techniques/Spell Techniques/Vitalism/Vitalism 1/Spare Life.md": {
+      "modifiedTime": 1752584444031,
+      "sourceSize": 849,
+      "exportedPath": "techniques/spell-techniques/vitalism/vitalism-1/spare-life.html",
+      "dependencies": []
+    },
+    "Techniques/Spell Techniques/Vitalism/Vitalism.md": {
+      "modifiedTime": 1752584444031,
+      "sourceSize": 314,
+      "exportedPath": "techniques/spell-techniques/vitalism/vitalism.html",
+      "dependencies": []
+    },
+    "Techniques/Uncategorized Techniques/Nebula.md": {
+      "modifiedTime": 1752584444031,
+      "sourceSize": 646,
+      "exportedPath": "techniques/uncategorized-techniques/nebula.html",
+      "dependencies": []
+    },
+    "Techniques/Innate Technique.md": {
+      "modifiedTime": 1752584444031,
+      "sourceSize": 1133,
+      "exportedPath": "techniques/innate-technique.html",
+      "dependencies": []
+    },
+    "Templates/Template, Innate Technique.md": {
+      "modifiedTime": 1752584444031,
+      "sourceSize": 330,
+      "exportedPath": "templates/template,-innate-technique.html",
+      "dependencies": []
+    },
+    "Templates/Template, Weapon Technique.md": {
+      "modifiedTime": 1752584444031,
+      "sourceSize": 493,
+      "exportedPath": "templates/template,-weapon-technique.html",
       "dependencies": []
     }
   }
