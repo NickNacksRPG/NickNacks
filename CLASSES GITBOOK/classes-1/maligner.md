@@ -1,7 +1,3 @@
----
-hidden: true
----
-
 # 🎭 Maligner
 
 Maligners are master manipulators that worm their way into positions of power through deceit and cunning. They use enchantments to force cooperation, illusions to misdirect, lies to spread rumors, and polymorphs to imitate. While there are Maligners that start off benevolent, they most often find themselves engaging in morally abhorrent behavior while impersonating enemies just to keep their stories straight.

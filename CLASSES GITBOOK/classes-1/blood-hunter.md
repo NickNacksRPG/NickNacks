@@ -1,7 +1,3 @@
----
-hidden: true
----
-
 # 🩸 Blood Hunter
 
 The first Blood Hunters were unique types of gunmen who, much like vampires, were obsessed with blood. Their research has led them down a divergent path where their unique affinity for manipulating life forces is well-suited for combat. If it bleeds, they can kill it.

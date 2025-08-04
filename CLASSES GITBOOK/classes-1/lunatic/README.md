@@ -1,7 +1,3 @@
----
-hidden: true
----
-
 # 🐸 Lunatic
 
 Trust in the power of Frogg-Saran. He's playing multi-dimensional 4D chess on a cosmic scale the likes of which you cannot comprehend. You need only to enact his will and you will be rewarded accordingly. To the moon!

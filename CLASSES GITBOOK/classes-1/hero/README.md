@@ -1,7 +1,3 @@
----
-hidden: true
----
-
 # 🪵 Hero
 
 The Hero is someone who is born for adventure. They have an incredibly diverse skill set to accomplish their goals. The quests of the world seem to gravitate towards them, making sure they are never idle.&#x20;

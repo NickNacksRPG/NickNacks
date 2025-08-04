@@ -1,7 +1,3 @@
----
-hidden: true
----
-
 # 🤡 Jester
 
 Jesters are masters of misdirection. Their methodology varies, but the goal is always the same: Confound and deceive. Some choose to do so with prestidigitation, drawing the eyes of creatures where they want, and more importantly, away from where they don't. Others use their voices and costumes to have a 3 way conversation with only themselves and their poor victim. One should always keep their eyes on a jester and their goals, for the moment they don't, they might just disappear.

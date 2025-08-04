@@ -1,7 +1,3 @@
----
-hidden: true
----
-
 # 🌍 Druid
 
 Druids focus on the supernatural side of nature: with the ability to commune with it as though it were a person. They choose a specific aspect of nature to focus on, such as plants or animals. The abilities granted to them by Mother Earth allow them to interact and manipulate these things to a sometimes comical degree.
