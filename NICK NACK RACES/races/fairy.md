@@ -1,0 +1,43 @@
+---
+icon: person-dress-fairy
+---
+
+# Fairy
+
+The smol bullyable race.
+
+{% tabs %}
+{% tab title="Art!" %}
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption><p>Moemon</p></figcaption></figure>
+{% endtab %}
+
+{% tab title="Universal Traits" %}
+<table data-header-hidden><thead><tr><th width="128"></th><th></th></tr></thead><tbody><tr><td>Language</td><td>Sylvan</td></tr><tr><td>Size</td><td>Tiny. Tiny creatures have a reach of 0 ft and must move into the space of an enemy to attack them in melee.</td></tr><tr><td>Type</td><td>Fey</td></tr></tbody></table>
+{% endtab %}
+{% endtabs %}
+
+## <mark style="color:green;">Major Features</mark>
+
+<table data-header-hidden><thead><tr><th width="207"></th><th></th></tr></thead><tbody><tr><td>Tiny Wings</td><td>You hover at a speed of 30. During your turn you can use it to fly. Your poise is reduced by 5.</td></tr><tr><td>Fairy Dust (Sp) [recharge]</td><td>You can innately cast fairy dust 3/day. Recharge after 1 minute.</td></tr></tbody></table>
+
+## <mark style="color:green;">Minor Features</mark>
+
+<table data-header-hidden><thead><tr><th width="112"></th><th></th></tr></thead><tbody><tr><td>Sparkly</td><td>You emit light in a 20 ft radius. You can turn this off or on as a free action 1/turn.<br>You create a sparkly substance you can apply to surfaces. You can use this to things like help identify someone or choose to leave an obvious trail of sparkling dust, making it easy to track you. You get advantage on skill checks when you can realistically be helped by such sparklyness (such as using survival to track, or perception to see through a disguise people you've sparkled).</td></tr><tr><td>Goo Goo Eyes</td><td>1/day as an immediate action when you are attacked in melee, you give your foe a pleading gaze. They are unable to complete the attack, lose the action and cannot attack you until the start of their next turn (will negates).</td></tr></tbody></table>
+
+## <mark style="color:green;">Replace Features</mark>
+
+<table data-header-hidden><thead><tr><th width="134"></th><th></th></tr></thead><tbody><tr><td><strong>Major</strong></td><td></td></tr><tr><td>Moth-er</td><td>You share more in common with moths than just your wings. You are constantly under the effect of arcane pocket. Instead of your pocket, it affects your hair.<br>+2 Floofyness</td></tr><tr><td>Antennae: Sensory</td><td>Blindsense (scent, 10 ft)</td></tr><tr><td>Antennae: Emotional</td><td>While in contact with another creature, you experience their emotional state. You can pinpoint the origin of these feelings, giving you greater insight into this creature. Advantage on insight and persuasion against creatures you are in contact with.</td></tr><tr><td>Lock-On [elusive]</td><td>As a swift action, you can tether yourself to a creature within reach, matching their movement as long as they do not teleport, you lose line of sight or move more than 100 ft in a turn.</td></tr></tbody></table>
+
+***
+
+| **Minor**                      |                                                                                                                                                                                                                                                                                       |
+| ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Greater Fairy (Su) \[recharge] | As a swift action you can increase to large size for 10 minutes.                                                                                                                                                                                                                      |
+| Antennae: Expressive           | <p>You emit light in a 20 ft radius. You can turn this off or on as a free action 1/turn.<br>You can cause your antennae to light up in specific patterns, allowing you to communicate in a way only other fairies can interpret. These lights can be seen a great distance away.</p> |
+
+***
+
+## <mark style="color:green;">Lore</mark>
+
+<table data-header-hidden data-full-width="true"><thead><tr><th width="138"></th><th></th></tr></thead><tbody><tr><td>Numbers</td><td>Fairies are around 1 ft tall and weigh around 4 lbs<br>Fairies reach adulthood by 15 and tend to live to be around 60</td></tr><tr><td>Appearance and Biology</td><td><p>Fairies are thin, sparkly and usually have a pair of gossamer wings. They can grow small plants on their bodies such as flowers and vines. Some even have leafy hair.</p><p>They have colors that match the natural world around them. If fairies stay in a new location for several months, their colors change to better blend in. This means that fairies that live in cold environments will likely have lighter tones with more blue, while forest-dwelling fairies will likely favor green and brown. Fairies will naturally change with the seasons as well, causing their leafy hair to be a vibrant green in the spring/summer, and brown or red in the fall.<br>Fairies naturally create a powder commonly referred to as "fairy dust" that has a wide variety of applications depending on what the fairy is adapted to. It can help with tracking, decoration and even combat. Used as fuel, it can produce fairy fire, which burns until put out and comes in a wide variety of colors.</p></td></tr><tr><td>We do a lil' Trolling</td><td><p>Fey creatures are well known for being mischievous, and fairies are no exception. Their flight, small size and propensity for pranks make them prototypical as far as the trickster fey archetype is concerned. They will snatch things from windowsills, use their fairy dust to mess up paintings or paint jobs and use their small size and huge eyes to appear innocent and get out of trouble.<br>Most fairies don't stray too far from mischievous. Even their evil plots are usually centered around something minor and silly like ruining someones vegetables with their guerrilla gardening. As such, its usually difficult to take a fairy seriously, even if they are causing serious harm. On the opposite side, their good deeds also tend to not be anything spectacular, like helping a tipped over turtle or battling against a beehive. </p><p>Fairies tend to be unconcerned with the world at large and its problems, or the long term consequences of their actions. They may end up the saviors of the world joining along some adventuring party, but they were just in it because they like giving the party's beast companion treats and the bard was cute. They may also end up as lackeys in some grandiose plot to take over the world because they were convinced it was gonna be some super awesome prank.</p></td></tr><tr><td>Great Fairies</td><td><p>In general, fairies don't live in settlements with other humanoids. They live in the wilderness amongst animals, plants and other fey in little alcoves and clearings protected by a great fairy. Great fairies are massive in size and serve as the guardians to portals to the realm of the fey: the feywilds. These portals are usually decorated pools of shimmering water water decorated with all manner of colorful plants, toadstools and rocks. Great fairies typically reside directly inside this portal, partially submerged so they can interact with creatures in a manner that's at least a little closer to face to face. They can handily deactivate the portal, making interacting with the great fairy a necessary part of using the portal. They usually serve to protect any who wish to travel to and fro between the realms. They also serve as something of a border patrol, keeping the worst from both sides away from the portal. </p><p>Great fairies are powerful magical creatures that few are willing to attack all on their own. Such plans are made all the more difficult by the entourage of allies they usually gather. Great fairies will naturally accrue a lot of followers and may even be inclined to create organizations around finding and protecting these portals. Because these locations are well protected and serve as a natural gathering spot for travelers, these are where the fairy population is its most dense. Many don't directly serve the great fairy, but are willing to perform menial tasks like sending messages and guiding people through the wilds. Sometimes begrudgingly, sometimes happily, seeing it as an opportunity to mess with humanoids less familiar with the poisonous mushrooms and dangerous sleepy monsters of the natural world.</p></td></tr></tbody></table>
+
