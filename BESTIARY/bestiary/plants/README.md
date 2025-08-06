@@ -1,0 +1,6 @@
+---
+icon: pagelines
+---
+
+# Plants
+
