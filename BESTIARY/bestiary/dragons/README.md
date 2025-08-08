@@ -1,6 +1,0 @@
----
-icon: dragon
----
-
-# Dragons
-

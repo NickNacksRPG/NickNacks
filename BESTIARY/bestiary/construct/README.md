@@ -1,6 +1,0 @@
----
-icon: robot
----
-
-# Construct
-

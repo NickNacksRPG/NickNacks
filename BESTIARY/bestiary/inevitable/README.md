@@ -1,6 +1,0 @@
----
-icon: scythe
----
-
-# Inevitable
-
