@@ -1,6 +1,0 @@
----
-icon: splotch
----
-
-# Oozes
-

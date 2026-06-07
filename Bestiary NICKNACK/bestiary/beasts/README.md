@@ -1,6 +1,0 @@
----
-icon: rabbit-running
----
-
-# Beasts
-

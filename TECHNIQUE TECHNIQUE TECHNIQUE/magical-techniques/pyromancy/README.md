@@ -1,7 +1,0 @@
----
-icon: fire
----
-
-# Pyromancy
-
-The magic-y magic that has no real life analogue. Primarily focused around dealing force damage using projectiles and conjured weapons.
