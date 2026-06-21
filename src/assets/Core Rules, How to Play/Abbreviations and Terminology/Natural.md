@@ -1,0 +1,1 @@
+A Natural result on a [[Roll]] is the result without any bonuses or penalties.

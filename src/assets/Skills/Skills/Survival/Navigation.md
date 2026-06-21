@@ -1,0 +1,1 @@
+You can attempt to not travel in circles when moving through unfamiliar territory. Failure indicates that a lesser amount of progress is made towards reaching your destination, or arriving at an unintended destination.

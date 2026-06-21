@@ -1,0 +1,81 @@
+<div class="app-container">
+  <!-- Header Component - HIDDEN -->
+  <!-- <app-header
+    [title]="title"
+    [leftSidebarOpen]="leftSidebarOpen()"
+    [rightSidebarOpen]="rightSidebarOpen()"
+    [isDarkMode]="isDarkMode()"
+    (toggleLeftSidebar)="toggleLeftSidebar()"
+    (toggleRightSidebar)="toggleRightSidebar()"
+    (toggleTheme)="toggleTheme()"
+  /> -->
+
+  <!-- Left Sidebar Component -->
+  <app-sidebar-left 
+    [isOpen]="leftSidebarOpen()"
+    [isDarkMode]="isDarkMode()"
+    (toggleSidebar)="toggleLeftSidebar()"
+    (toggleTheme)="toggleTheme()"
+  />
+
+  <!-- Right Sidebar Component -->
+  <app-sidebar-right
+    [isOpen]="rightSidebarOpen()"
+    [currentNoteId]="currentNoteId()"
+    (toggleSidebar)="toggleRightSidebar()"
+  />
+
+  <!-- Main Content Area -->
+  <main
+    class="app-main"
+    [class.left-sidebar-open]="leftSidebarOpen()"
+    [class.right-sidebar-open]="rightSidebarOpen()"
+  >
+    <div class="main-content">
+      <router-outlet />
+    </div>
+  </main>
+
+  <!-- Footer Component -->
+  <app-footer
+    [appName]="title"
+    [leftSidebarOpen]="leftSidebarOpen()"
+    [rightSidebarOpen]="rightSidebarOpen()"
+  />
+
+  <!-- Floating toggle buttons when sidebars are closed -->
+  @if (!leftSidebarOpen()) {
+  <button
+    class="floating-toggle left-floating-toggle"
+    mat-icon-button
+    (click)="toggleLeftSidebar()"
+    matTooltip="Open navigation"
+    aria-label="Open left sidebar"
+  >
+    <mat-icon>menu</mat-icon>
+  </button>
+  }
+  
+  @if (!rightSidebarOpen()) {
+  <button
+    class="floating-toggle right-floating-toggle"
+    mat-icon-button
+    (click)="toggleRightSidebar()"
+    matTooltip="Open page links"
+    aria-label="Open right sidebar"
+  >
+    <mat-icon>account_tree</mat-icon>
+  </button>
+  }
+
+  <!-- Overlay for mobile when sidebars are open -->
+  @if (leftSidebarOpen() || rightSidebarOpen()) {
+  <div
+    class="sidebar-overlay"
+    (click)="
+      leftSidebarOpen() && toggleLeftSidebar();
+      rightSidebarOpen() && toggleRightSidebar()
+    "
+  ></div>
+  }
+</div>

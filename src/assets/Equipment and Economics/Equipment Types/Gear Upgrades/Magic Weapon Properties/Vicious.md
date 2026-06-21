@@ -1,0 +1,1 @@
++2 dmg. [[On-hit]] the wielder takes 2 [[True Damage]].

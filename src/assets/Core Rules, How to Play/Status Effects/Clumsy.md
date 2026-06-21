@@ -1,0 +1,1 @@
+Creature takes a stacking penalty to [[Reflex]] and [[AC]] equal to the Clumsy value. This otherwise functions like [[Shaken]]. A Clumsy creature cannot ascend using [[Fly|Flight]], or things that function similarly to flight, such as a [[Hover]] Speed.

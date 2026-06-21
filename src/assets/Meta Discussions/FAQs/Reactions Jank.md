@@ -1,0 +1,5 @@
+In NN, there are a wide variety of abilities that allow you to react to your opponents actions, like [[+Shield Actions]], but sometimes those abilities allow retaliation. This usually works just fine since you get attacked in melee, you parry and then riposte as a [[Swashbuckler]] for instance. 
+
+But what happens when the origin of the attack is somehow technically coming from a creature but at the same time it isn't? Take for example the [[Arboreal Army]] spell. It allows you to take control of vegetation and slap your enemies with it using your stats. What's a swashbuckler to do, riposte a tree?
+
+In such cases, when a creature is making attacks, casting spells etc. through some kind of proxy, it is still considered to be coming from the original attacker. This means that if your swashbuckler is [[Threaten|threatening]] the druid while they smack you with a tree, you can parry the tree, then riposte against the attacker.

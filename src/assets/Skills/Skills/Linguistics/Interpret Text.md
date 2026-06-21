@@ -1,0 +1,1 @@
+You peruse a book, contract or other written work to quickly summarize what it says in one minute. The DC for most works is 10, but it changes based on the size and complexity of the work at hand. Failure indicates more time is necessary to understand what the text contains. Finding oddities in a contract requires an opposed linguistics check.

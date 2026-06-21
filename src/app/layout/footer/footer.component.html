@@ -1,0 +1,15 @@
+<footer
+  class="app-footer"
+  [class.left-sidebar-open]="leftSidebarOpen()"
+  [class.right-sidebar-open]="rightSidebarOpen()"
+>
+  <div class="footer-content">
+    <p>&copy; {{ currentYear }} {{ appName() }}. All rights reserved.</p>
+    <div class="footer-links">
+      <a href="#">Privacy</a>
+      <a href="#">Terms</a>
+      <a href="#">Contact</a>
+    </div>
+  </div>
+</footer>
+

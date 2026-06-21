@@ -1,0 +1,80 @@
+{
+  "name": "mmm",
+  "version": "0.0.0",
+  "scripts": {
+    "ng": "ng",
+    "start": "npm run process:html && npm run generate:data && ng serve",
+    "build": "npm run process:html && npm run generate:data && npm run generate:sitemap && ng build",
+    "build:gh-pages": "node scripts/build-gh-pages.js",
+    "watch": "ng build --watch --configuration development",
+    "test": "ng test",
+    "serve:ssr:MMM": "node dist/MMM/server/server.mjs",
+    "generate:data": "node scripts/generate-data-files.js",
+    "generate:manifest": "node scripts/generate-data-files.js",
+    "generate:sitemap": "node scripts/generate-sitemap.js",
+    "process:html": "node scripts/process-html-templates.js",
+    "validate:icons": "node scripts/validate-icons.js",
+    "prebuild": "npm run process:html && npm run generate:data"
+  },
+  "prettier": {
+    "overrides": [
+      {
+        "files": "*.html",
+        "options": {
+          "parser": "angular"
+        }
+      }
+    ]
+  },
+  "private": true,
+  "overrides": {
+    "rimraf": "^4.0.0",
+    "glob": "^10.0.0"
+  },
+  "dependencies": {
+    "@angular/cdk": "^20.2.10",
+    "@angular/common": "^20.0.0",
+    "@angular/compiler": "^20.0.0",
+    "@angular/core": "^20.0.0",
+    "@angular/forms": "^20.0.0",
+    "@angular/material": "^20.2.10",
+    "@angular/platform-browser": "^20.0.0",
+    "@angular/platform-server": "^20.0.0",
+    "@angular/router": "^20.0.0",
+    "@angular/ssr": "^20.0.6",
+    "@fortawesome/fontawesome-free": "^7.1.0",
+    "@iconify/iconify": "^3.1.1",
+    "@ng-icons/bootstrap-icons": "^32.2.0",
+    "@ng-icons/core": "^32.2.0",
+    "@ng-icons/font-awesome": "^32.2.0",
+    "@ng-icons/game-icons": "^32.2.0",
+    "@ng-icons/heroicons": "^32.2.0",
+    "@ng-icons/lucide": "^32.2.0",
+    "@ng-icons/radix-icons": "^32.2.0",
+    "@ng-icons/tabler-icons": "^32.2.0",
+    "express": "^5.1.0",
+    "fuse.js": "^7.1.0",
+    "iconify-icon": "^3.0.2",
+    "marked": "^16.4.1",
+    "ngx-markdown": "^20.1.0",
+    "prismjs": "^1.30.0",
+    "rxjs": "~7.8.0",
+    "tslib": "^2.3.0",
+    "zone.js": "~0.15.0"
+  },
+  "devDependencies": {
+    "@angular/build": "^20.0.6",
+    "@angular/cli": "^20.0.6",
+    "@angular/compiler-cli": "^20.0.0",
+    "@types/express": "^5.0.1",
+    "@types/jasmine": "~5.1.0",
+    "@types/node": "^20.17.19",
+    "jasmine-core": "~5.7.0",
+    "karma": "~6.4.0",
+    "karma-chrome-launcher": "~3.2.0",
+    "karma-coverage": "~2.2.0",
+    "karma-jasmine": "~5.1.0",
+    "karma-jasmine-html-reporter": "~2.1.0",
+    "typescript": "~5.8.2"
+  }
+}

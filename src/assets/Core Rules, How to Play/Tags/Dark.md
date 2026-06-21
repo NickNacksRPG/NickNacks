@@ -1,0 +1,1 @@
+Effect either creates [[Light Level|Darkness]], or has special interactions when in it.

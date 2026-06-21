@@ -1,0 +1,3 @@
+In certain circumstances, creatures may want to work together perform the same task. If it is something that can tangibly benefit from group effort (pushing over a large boulder, creating a spell etc.), use the bonus of the creature with the highest modifier, then get +1 for each assisting creature and +2 for each assistant creature that is proficient in the task at hand.
+
+In other circumstances, you may want to use skills as a group when you need to, even if it less than optimal, such as group stealth with a clumsy heavy armor user. In such scenarios, you use the bonus of the weakest link as though everybody were assisting them.

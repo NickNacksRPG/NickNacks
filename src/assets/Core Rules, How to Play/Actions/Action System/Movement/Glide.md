@@ -1,0 +1,1 @@
+While not movement impaired, take no fall damage. When falling, move horizontally 5 feet per 1 foot fallen at a speed of 60.

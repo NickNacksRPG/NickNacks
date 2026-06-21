@@ -1,0 +1,103 @@
+<div class="calculator-widget">
+  @if (config.description) {
+    <p class="calculator-description">{{ config.description }}</p>
+  }
+
+  <div class="calculator-content">
+    <!-- Inputs Section -->
+    <div class="calculator-inputs">
+      <div class="formula-display">
+        <strong>Formula:</strong> <code>{{ config.formula }}</code>
+      </div>
+
+      @for (input of config.inputs; track input.name) {
+        <div class="input-group">
+          <label [for]="'calc-input-' + input.name">
+            {{ input.label }}:
+            <span class="input-value">{{ inputValues()[input.name] }}</span>
+          </label>
+          <input
+            [id]="'calc-input-' + input.name"
+            type="range"
+            [min]="input.min ?? 0"
+            [max]="input.max ?? 100"
+            [step]="input.step ?? 1"
+            [value]="inputValues()[input.name]"
+            (input)="updateValue(input.name, +$any($event.target).value)"
+            class="slider"
+          />
+          <input
+            type="number"
+            [min]="input.min ?? 0"
+            [max]="input.max ?? 100"
+            [step]="input.step ?? 1"
+            [value]="inputValues()[input.name]"
+            (input)="updateValue(input.name, +$any($event.target).value)"
+            class="number-input"
+          />
+        </div>
+      }
+
+      <!-- Result Display -->
+      <div class="result-display">
+        <strong>Result:</strong>
+        <span class="result-value">{{ result() }}</span>
+      </div>
+    </div>
+
+    <!-- Graph Section -->
+    @if (config.graph && graphData()) {
+      <div class="calculator-graph">
+        <h4>Visualization</h4>
+        <svg viewBox="0 0 400 200" class="graph-svg">
+          <!-- Grid lines -->
+          <g class="grid">
+            @for (yLine of getYGridLines(); track yLine) {
+              <line
+                [attr.x1]="0"
+                [attr.y1]="toSvgY(yLine, 200)"
+                [attr.x2]="400"
+                [attr.y2]="toSvgY(yLine, 200)"
+                class="grid-line"
+              />
+              <text
+                [attr.x]="5"
+                [attr.y]="toSvgY(yLine, 200) - 3"
+                class="grid-label"
+              >
+                {{ yLine.toFixed(1) }}
+              </text>
+            }
+          </g>
+
+          <!-- Graph line -->
+          <path
+            [attr.d]="getGraphPath()"
+            class="graph-line"
+            fill="none"
+            stroke="var(--accent-color, #4a9eff)"
+            stroke-width="2"
+          />
+
+          <!-- Current point indicator -->
+          @if (config.inputs && config.inputs.length > 0 && typeof result() === 'number') {
+            <circle
+              [attr.cx]="toSvgX(inputValues()[config.inputs[0].name], 400)"
+              [attr.cy]="toSvgY(getNumericResult(), 200)"
+              r="4"
+              fill="var(--accent-color, #4a9eff)"
+              class="current-point"
+            />
+          }
+        </svg>
+
+        @if (config.inputs && config.inputs.length > 0) {
+          <div class="graph-label">
+            {{ config.inputs[0].label }} →
+          </div>
+        }
+      </div>
+    }
+  </div>
+</div>
+

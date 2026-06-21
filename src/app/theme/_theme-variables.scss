@@ -1,0 +1,180 @@
+// ============================================================
+// Theme Variables — CSS custom properties for light & dark modes
+// ============================================================
+// Edit this file to change the entire site's color scheme.
+// All component styles reference these variables via var(--xxx).
+// ============================================================
+
+// ============================================================
+// Dark Theme (default) — dark gray with blue-purple accents
+// ============================================================
+:root {
+  // Background colors — cool dark grays
+  --content-bg: #1e1e1e;
+  --surface-color: #262626;
+  --header-bg: #1e1e1e;
+  --sidebar-bg: #262626;
+  --bg-color: #1e1e1e;
+
+  // Text colors — clean whites, higher contrast
+  --text-primary: #e8e8e8;
+  --text-secondary: #a8a8a8;
+
+  // Blue-purple accent colors for links, titles, highlights
+  --primary-color: #7b9aff;
+  --primary-hover: #96afff;
+  --primary-dark: #5f7de0;
+  --primary-darker: #4a63c0;
+  --link-color: #7b9aff;
+  --wiki-link-color: #7b9aff;
+  --accent-color: #7b9aff;
+
+  // Border and separator colors
+  --border-color: #444;
+  --tree-guide-color: rgba(123, 154, 255, 0.25);
+
+  // Interactive states
+  --hover-bg: rgba(123, 154, 255, 0.1);
+  --active-bg: rgba(123, 154, 255, 0.16);
+
+  // Code blocks
+  --code-bg: #2d2d2d;
+
+  // Table styling
+  --table-header-bg: #2d2d2d;
+
+  // Scrollbar
+  --scrollbar-thumb: #7b9aff;
+  --scrollbar-thumb-hover: #96afff;
+
+  // Error color
+  --error-color: #ff5252;
+
+  // Footer
+  --footer-bg: #181818;
+
+  // Shadows
+  --shadow-2: 0 4px 8px rgba(0, 0, 0, 0.3);
+  --shadow-3: 0 8px 16px rgba(0, 0, 0, 0.4);
+
+  // SVG icons: invert black icons to white on dark backgrounds
+  img.svg-icon, img.wiki-link-icon {
+    filter: brightness(0) invert(1);
+  }
+}
+
+// ============================================================
+// Light Theme — clean light gray with blue-purple accents
+// ============================================================
+html[data-theme="light"] {
+  // Background colors — light grays with white surfaces
+  --content-bg: #f5f5f5;
+  --surface-color: #ffffff;
+  --header-bg: #ffffff;
+  --sidebar-bg: #ffffff;
+  --bg-color: #f5f5f5;
+
+  // Text colors — near black, good contrast
+  --text-primary: #1e1e1e;
+  --text-secondary: #666666;
+
+  // Blue-purple accent colors — darker for light background contrast
+  --primary-color: #5b6abf;
+  --primary-hover: #4a59a8;
+  --primary-dark: #4a59a8;
+  --primary-darker: #3a4888;
+  --link-color: #5b6abf;
+  --wiki-link-color: #5b6abf;
+  --accent-color: #5b6abf;
+
+  // Border and separator colors — cool grays
+  --border-color: #d0d0d0;
+  --tree-guide-color: rgba(91, 106, 191, 0.2);
+
+  // Interactive states
+  --hover-bg: rgba(91, 106, 191, 0.06);
+  --active-bg: rgba(91, 106, 191, 0.1);
+
+  // Code blocks
+  --code-bg: #f0f0f0;
+
+  // Table styling
+  --table-header-bg: #f0f0f0;
+
+  // Scrollbar
+  --scrollbar-thumb: #5b6abf;
+  --scrollbar-thumb-hover: #4a59a8;
+
+  // Error color
+  --error-color: #d32f2f;
+
+  // Footer
+  --footer-bg: #ffffff;
+
+  // Shadows — subtle gray
+  --shadow-2: 0 4px 8px rgba(0, 0, 0, 0.08);
+  --shadow-3: 0 8px 16px rgba(0, 0, 0, 0.12);
+
+  // SVG icons: show original colors on light background
+  img.svg-icon, img.wiki-link-icon {
+    filter: none;
+  }
+}
+
+// ============================================================
+// Dark Theme — explicit override (mirrors :root)
+// ============================================================
+html[data-theme="dark"] {
+  // Background colors — cool dark grays
+  --content-bg: #1e1e1e;
+  --surface-color: #262626;
+  --header-bg: #1e1e1e;
+  --sidebar-bg: #262626;
+  --bg-color: #1e1e1e;
+
+  // Text colors — clean whites, higher contrast
+  --text-primary: #e8e8e8;
+  --text-secondary: #a8a8a8;
+
+  // Blue-purple accent colors for links, titles, highlights
+  --primary-color: #7b9aff;
+  --primary-hover: #96afff;
+  --primary-dark: #5f7de0;
+  --primary-darker: #4a63c0;
+  --link-color: #7b9aff;
+  --wiki-link-color: #7b9aff;
+  --accent-color: #7b9aff;
+
+  // Border and separator colors
+  --border-color: #444;
+  --tree-guide-color: rgba(123, 154, 255, 0.25);
+
+  // Interactive states
+  --hover-bg: rgba(123, 154, 255, 0.1);
+  --active-bg: rgba(123, 154, 255, 0.16);
+
+  // Code blocks
+  --code-bg: #2d2d2d;
+
+  // Table styling
+  --table-header-bg: #2d2d2d;
+
+  // Scrollbar
+  --scrollbar-thumb: #7b9aff;
+  --scrollbar-thumb-hover: #96afff;
+
+  // Error color
+  --error-color: #ff5252;
+
+  // Footer
+  --footer-bg: #181818;
+
+  // Shadows
+  --shadow-2: 0 4px 8px rgba(0, 0, 0, 0.3);
+  --shadow-3: 0 8px 16px rgba(0, 0, 0, 0.4);
+
+  // SVG icons: invert black icons to white on dark backgrounds
+  img.svg-icon, img.wiki-link-icon {
+    filter: brightness(0) invert(1);
+  }
+}

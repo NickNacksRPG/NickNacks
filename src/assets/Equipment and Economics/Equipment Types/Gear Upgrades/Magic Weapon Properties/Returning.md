@@ -1,0 +1,2 @@
+As a free action, you can call your weapon back to your hand. If it is within 60 feet of you it returns instantly. Anything beyond requires 3 rounds. If there are any physical barriers preventing its return, this does not work.
+If a creature possesses the weapon (reflex negates).

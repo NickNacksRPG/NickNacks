@@ -1,0 +1,13 @@
+When the chase first starts you need to determine advantage. Whoever has more advantages gets to decide their strategy in the first round of the chase. The party with advantage also gets a flat bonus to their saves, skill checks etc equal to the number of advantages they have over their opponent.
+
+Advantage can only be given to one party, so instead of applying to both, it applies to neither. Common forms of advantage include…
+
+| Name        | Description                                                                                                                                                                                                                  |
+| ----------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Adaptation  | You are better suited for the environment. This could mean that you are aquatic and your opponent isn't when you are escaping a prison ship, or it can mean it is night and you can see in the dark and your opponent can't. |
+| Numbers     | Very simple, you have a significant numbers advantage. Typical for town guards, high profile nobles mansions being raided, guilds etc.                                                                                       |
+| Home Field  | You know the terrain better than your opponent. You grew up in this town, you constructed this building etc.                                                                                                                 |
+| Speed       | Determined by the weakest link. Whichever party has the faster slowest member gets an edge.                                                                                                                                  |
+| Preparation | You knew this was going to happen ahead of time and planned accordingly, or you have plenty of traps set up in your house.                                                                                                   |
+<span style="color:rgb(192, 0, 0)">Note: </span>
+Each round typically lasts long enough where these circumstances could realistically change. The guards might be familiar with the city, but what about the sewers underneath or the forest outside? Numbers can dwindle as one side gains the upper hand. Etc

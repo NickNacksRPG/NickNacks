@@ -1,0 +1,11 @@
+# robots.txt for Nick Nacks
+# Allow all search engines to crawl the entire site
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://kfilanowski.github.io/Pages-TestV2/sitemap.xml
+
+# Crawl delay (optional, helps prevent server overload)
+Crawl-delay: 1

@@ -1,0 +1,1 @@
+[[Healing]] effects that restore [[+HP]] or grant [[Temp HP]] are half as effective (minimum 1 healing).

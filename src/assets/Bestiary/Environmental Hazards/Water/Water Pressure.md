@@ -1,0 +1,3 @@
+Roughly every 30 ft you descend into water, you double the amount of pressure your body experiences. Going past 150 ft is usually impossible without being an aquatic creature, or using special equipment/magic. If you do not have such aid, then going deeper than 60 ft is usually a bad idea. In combat you don't have the luxury of slowly ascending to avoid _the bends._
+
+If you ascend more than 5 feet a round after diving to this depth you become [[drained]] 4 and [[dazed]] (fort reduces to drained 2). The DC is 20+every additional 5 feet you moved (10 feet DC 21, 20 ft DC 23 etc).

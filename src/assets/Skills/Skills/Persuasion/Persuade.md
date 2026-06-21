@@ -1,0 +1,3 @@
+When you ask something of someone, such as information or aid, they may be on the fence about whether or not they should answer and persuasion gets them to your side. The difficulty of the check is based on how well you know the person, how difficult the request is and what the consequences of telling you might be.
+
+Even if you do persuade someone to do something, it may come with caveats such as favors or payment.

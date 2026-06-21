@@ -1,0 +1,2 @@
+Creatures that aren't [[Dual Wielding]] have only 1 attack by default. When you use your standard action to make multiple attacks, it's called a [[Multiattack]]. You can distribute the attacks to creatures as you see fit, move in between them, before and after them (for certain [[AoE]] attacks like cleave, you usually need to stand still). By default a standard attack is considered a [[simple attack]]. 
+

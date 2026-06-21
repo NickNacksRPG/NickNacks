@@ -1,0 +1,1 @@
+Frost is a [[Damage]] type [[Tag]], representing the disruption of movement and natural processes through reduction in temperature and application of cold beams, wind and snow.

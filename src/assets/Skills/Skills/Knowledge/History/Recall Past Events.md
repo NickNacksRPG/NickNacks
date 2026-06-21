@@ -1,0 +1,1 @@
+Major battles, great tragedies and turning points in civilization are all of interest to a historian. With some kind of prompting, you can recall information related to these events dating back tens, hundreds or even thousands of years.

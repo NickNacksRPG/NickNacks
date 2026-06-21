@@ -1,0 +1,2 @@
+**Total** [[Cover]] is an environmental [[Circumstance]] that makes you [[Untargetable]].
+Total Cover is received against [[Ranged Attack]]s, [[AoE]]s, and [[Core Rules, How to Play/Attacking/Target]] Abilities that target you while there are obstacles between you and the source of the attack that leave no way to reach you, and that cannot be pierced by the attack (in the case of Ranged Attacks and Area Effects.)

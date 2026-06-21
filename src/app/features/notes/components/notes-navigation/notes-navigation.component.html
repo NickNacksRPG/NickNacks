@@ -1,0 +1,108 @@
+<div class="notes-navigation">
+  <div class="navigation-header">
+    <div class="header-row">
+      <h3>{{ projectName }}</h3>
+      <div class="header-actions">
+        <button class="icon-button" (click)="collapseAllFolders()" title="Collapse all folders">
+          <mat-icon>unfold_less</mat-icon>
+        </button>
+        <button class="icon-button" (click)="toggleTheme.emit()" [title]="isDarkMode() ? 'Light mode' : 'Dark mode'">
+          <mat-icon>{{ isDarkMode() ? "light_mode" : "dark_mode" }}</mat-icon>
+        </button>
+        <button class="icon-button" (click)="toggleSidebar.emit()" title="Close sidebar">
+          <mat-icon>close</mat-icon>
+        </button>
+      </div>
+    </div>
+    <div class="search-container">
+      <input
+        type="text"
+        class="search-input"
+        placeholder="Search..."
+        [(ngModel)]="searchQuery"
+        (ngModelChange)="onSearchChange($event)"
+      />
+      @if (searchQuery()) {
+      <button class="clear-button" (click)="clearSearch()" title="Clear search">
+        <mat-icon>close</mat-icon>
+      </button>
+      }
+      <mat-icon class="search-icon">search</mat-icon>
+    </div>
+  </div>
+
+  <div class="tree-container">
+    @if (treeNodes().length === 0) {
+    <div class="empty-state">
+      <p>No notes found</p>
+      <small>Add your notes to assets/</small>
+    </div>
+    } @else {
+    <ul class="tree-root">
+      @for (node of treeNodes(); track trackNode($index, node)) {
+      <li>
+        <ng-container
+          *ngTemplateOutlet="
+            treeNodeTemplate;
+            context: { $implicit: node, depth: 0 }
+          "
+        ></ng-container>
+      </li>
+      }
+    </ul>
+    }
+  </div>
+</div>
+
+<!-- Recursive template for tree nodes -->
+<ng-template #treeNodeTemplate let-node let-depth="depth">
+  @if (isFolder(node)) {
+  <div class="folder-item" (click)="toggleFolder(node)" [style.color]="node.color">
+    @if (node.iconSvg) {
+    <app-iconify-icon [icon]="node.iconSvg" [size]="20" class="folder-icon" />
+    } @else {
+    <mat-icon class="folder-icon">
+      {{ node.expanded ? "folder_open" : "folder" }}
+    </mat-icon>
+    }
+    <span class="folder-name">{{ node.name }}</span>
+  </div>
+
+  <ul class="tree-children" [class.expanded]="node.expanded" [attr.data-depth]="depth + 1">
+    @for (child of node.children; track trackNode($index, child)) {
+    <li>
+      <ng-container
+        *ngTemplateOutlet="
+          treeNodeTemplate;
+          context: { $implicit: child, depth: depth + 1 }
+        "
+      ></ng-container>
+    </li>
+    }
+  </ul>
+  } @else if (isNote(node)) {
+  <a
+    [routerLink]="['/' + projectSlug, node.id]"
+    routerLinkActive="active"
+    class="note-item"
+    [style.color]="node.color"
+  >
+    @if (node.iconSvg || node.icon) {
+    <app-iconify-icon
+      [icon]="node.iconSvg || node.icon"
+      [size]="20"
+      class="note-icon"
+    />
+    }
+    <div class="note-content">
+      <span class="note-name">{{ node.title }}</span>
+      @if (searchQuery() && getSearchResult(node.id)?.matchedText) {
+      <small
+        class="match-snippet"
+        [innerHTML]="getSearchResult(node.id)?.matchedText | highlightMatch"
+      ></small>
+      }
+    </div>
+  </a>
+  }
+</ng-template>

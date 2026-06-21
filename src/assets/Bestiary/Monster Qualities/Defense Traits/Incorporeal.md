@@ -1,0 +1,3 @@
+Incorporeal creatures have [[resistance]] to crush, slash and pierce damage. They cannot be targeted with a [[+Combat Maneuver|combat maneuver]] without special equipment or [[Technique Rules|techniques]]. Incorporeal creatures universally have [[hover]] speeds.
+
+Incorporeal creatures can pass through physical objects, but cannot end their turn inside of one. This allows them to ignore cover bonuses and more easily hide.

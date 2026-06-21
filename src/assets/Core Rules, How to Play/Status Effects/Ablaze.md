@@ -1,0 +1,3 @@
+When a creature is set Ablaze, it takes 2d8 Fire [[Damage]] at the start of each turn. Attacking creatures get a +2 bonus to [[Attack]]. On every turn after the first, it gets a [[Reflex]] save before it takes damage to end the effect. A creature can choose to inflict [[Knocked Down|Knockdown]] on itself for a +4 bonus to this save.
+
+Being submerged in water, getting [[entombed]] or taking cold damage also removes this condition. Other things that snuff out flames can reasonably remove ablaze.

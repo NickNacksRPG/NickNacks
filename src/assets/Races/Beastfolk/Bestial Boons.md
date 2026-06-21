@@ -1,0 +1,24 @@
+---
+aliases:
+  - bestial boon
+---
+# <span style="color:rgb(103, 254, 120)">Major</span>
+
+| Beast Type        | Boon                                                                                                                                                                                                                                                                                                                                                        |
+| ----------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Rabbit            | [[Jump]]ing is [[elusive]]                                                                                                                                                                                                                                                                                                                                  |
+| Frog              | Your long tongue is prehensile. Your effective [[reach]] is +10 during your turn for anything other than any [[Weapon Attack]]/[[natural attack]].                                                                                                                                                                                                          |
+| Cow               | [[Powerful charge]] and ignore [[difficult terrain]] when charging. <br>Milkyness +2                                                                                                                                                                                                                                                                        |
+| Parrot            | You can use [[memory]] slots to memorize single sentences spoken by others. When you hear something, you can choose to immediately memorize it, losing access to something else if you have no spare slots. You can repeat that sentence in the creatures voice with perfect accuracy.                                                                      |
+| Squid<br>([[Su]]) | Pick a color. You can hide by melding into a surface of this color as a free action 1/turn. You can even hide in this way while being directly observed. This color is visible to others based on the color of your hair. You can dye your hair a different color, permanently changing its colors.                                                         |
+| Fox ([[Sp]])      | Gain a technique point in the [[Moogen, The Murderer]], [[Corruption]] or [[Shira]] tree. For every technique point you have in one of these trees, gain an additional tail, up to 9.                                                                                                                                                                                     |
+| Goat              | You have pointed or ram-like horns and a skull that's harder than most. You gain a [[natural attack]] with d10 (crush or pierce) base damage. <br>You can make a [[simple attack]] with these horns as a swift action, but its damage decreases to d4 and you become [[clumsy]] 1 [[On-hit]] from how disorienting it is to swing your head into creatures. |
+| Sheep             | You are constantly under the effect of [[arcane pocket]]. Instead of your pocket, it affects your hair. <br>+2 Floofyness                                                                                                                                                                                                                                   |
+# <span style="color:rgb(103, 254, 120)">Minor</span>
+
+| Beast Type | Boon                                                                                                                                                |
+| ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Cat        | Reduce fall damage to 1 per 10 feet. You can never be knocked down or be drained from falling.                                                      |
+| Rat        | Gain [[Compression]]                                                                                                                                |
+| Goat       | You automatically succeed on all checks to [[Balance]]. You can use your [[Land Speed]] to climb any surface with an angle greater than 90 degrees. |
+|            |                                                                                                                                                     |

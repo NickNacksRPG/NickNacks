@@ -1,0 +1,1 @@
+The creature gets a +2 bonus to [[Attack]] during any turn they make a [[Core Rules, How to Play/Actions/Common Actions/Full Round Actions/Charge]].

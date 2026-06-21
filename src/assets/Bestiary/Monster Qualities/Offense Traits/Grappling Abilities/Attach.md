@@ -1,0 +1,1 @@
+When the creature [[Grapple|grapples]] another creature it instead of the target becomes [[Entangled]], typically due to its smaller size. Creatures with the attached property typically have special abilities that can only be used while attached.

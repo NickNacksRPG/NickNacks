@@ -1,0 +1,1 @@
+At the start of your turn, you can decide what's in your hands from your [[inventory]]. You can draw and put away any weapons without penalty. This is a free action as long as it's done at the start of your turn. If you decide to change what you're wielding at another point in your turn, it becomes a swift action - and you can't do both.

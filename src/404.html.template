@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>{{PROJECT_NAME}}</title>
+  <base href="{{PROJECT_BASE_PATH}}">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/png" href="favicon.png">
+  
+  <!-- Preconnect to external resources for faster loading -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://api.iconify.design" crossorigin>
+  <link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
+  
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  
+  <!-- Iconify: 200,000+ icons from 150+ libraries -->
+  <!-- Load synchronously in head to ensure web component is defined before Angular bootstraps -->
+  <script src="https://cdn.jsdelivr.net/npm/iconify-icon@2.1.0/dist/iconify-icon.min.js" crossorigin="anonymous"></script>
+  <script>
+    // Configure Iconify for better reliability and performance
+    (function() {
+      if (typeof window !== 'undefined' && window.Iconify) {
+        // Set longer timeout for icon loading (helps with slow connections)
+        window.Iconify.setConfig({
+          timeout: 10000,  // 10 seconds instead of default 5
+        });
+      }
+    })();
+  </script>
+  <script>
+    // Set dark mode immediately to prevent flash of light mode
+    (function() {
+      const stored = localStorage.getItem('mmm-theme-preference');
+      const theme = stored === 'light' ? 'light' : 'dark';
+      document.documentElement.style.colorScheme = theme;
+      document.documentElement.setAttribute('data-theme', theme);
+    })();
+  </script>
+  <!-- GitHub Pages SPA redirect: capture the requested path and redirect to index.html -->
+  <script>
+    (function() {
+      // Always redirect to index.html with the original path preserved
+      // This file is only served when GitHub Pages can't find a static file
+      var dest = location.protocol + '//' + location.host + '{{PROJECT_BASE_PATH}}?redirect=' + encodeURIComponent(location.href);
+      if (location.search.indexOf('redirect=') === -1) {
+        location.replace(dest);
+      }
+    })();
+  </script>
+</head>
+<body>
+  <app-root></app-root>
+</body>
+</html>

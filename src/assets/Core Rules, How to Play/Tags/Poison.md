@@ -1,0 +1,1 @@
+Poison is a [[Damage]] type [[Tag]], representing an toxic or caustic substance that melts away the body as well as objects.

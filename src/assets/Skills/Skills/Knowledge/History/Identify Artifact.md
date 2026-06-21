@@ -1,0 +1,1 @@
+Certain items may be tied to creatures or entities from the past. By identifying the craftsmanship and symbols on items, you can determine their origin/purpose.

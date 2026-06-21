@@ -1,0 +1,1 @@
+Amphibious creatures can exist comfortably on land or underwater, including the ability to breathe underwater or the ability to hold their breath for long periods of time.

@@ -1,0 +1,3 @@
+Creatures from the stars often have very strange interests in the mortal world. If you succeed on a [[+Monster Lore]] check against such a creature, you also learn about its interests in the world, such as requiring humanoids to reproduce or a keen interest in bovines.
+
+You can also glean this information from witnessing the phenomenon itself. Using the same DC as monster lore, you can witness cattle kidnapping or host infections and glean what type of creature is doing it

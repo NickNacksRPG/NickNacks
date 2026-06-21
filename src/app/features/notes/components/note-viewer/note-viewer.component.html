@@ -1,0 +1,23 @@
+<div class="note-viewer">
+  @if (error()) {
+  <div class="error-state">
+    <h2>Error Loading Note</h2>
+    <p>{{ error() }}</p>
+    <button (click)="retry()">Retry</button>
+  </div>
+  } @else {
+  <div class="note-container" [style.opacity]="contentVisible() ? 1 : 0">
+    <h1 class="note-title">
+      @if (noteIcon()) {
+      <app-iconify-icon class="note-icon" [icon]="noteIcon()!" [size]="32" />
+      }
+      <span class="title-text">{{ noteTitle() }}</span>
+    </h1>
+    <article
+      class="note-content"
+      [innerHTML]="noteContent()"
+      appWikiLink
+    ></article>
+  </div>
+  }
+</div>

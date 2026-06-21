@@ -1,0 +1,3 @@
+Creature has the ability to [[hide]] from creatures while standing perfectly still by pretending to be an inanimate object or changing colors. If the creature is already being observed, or enemies have already been surprised by the creature using this ability recently, then it does not function.
+
+Typically creatures do not get a [[+Perception]] check to see a creature that is hiding in plain sight until they go out of their way to inspect the nearby area, or the hiding creature acts.

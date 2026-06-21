@@ -1,0 +1,2 @@
+**Partial** [[Concealment]] is a [[Circumstance]] that decreases attacker's [[Attack|ACC]] by 2.
+When you have Partial Concealment, a creature can still see you, but in a limited capacity. Either they can only see your shadow, they're trying to avert your gaze, or there are poor environmental conditions/magic at play.

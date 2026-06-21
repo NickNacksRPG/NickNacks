@@ -1,0 +1,1 @@
+Once a round, by spending 15ft of movement, or a swift action, you can make a perception check to find hidden creatures/objects, or their general direction if they have total cover.

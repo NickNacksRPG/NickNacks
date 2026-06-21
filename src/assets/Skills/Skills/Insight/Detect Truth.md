@@ -1,0 +1,3 @@
+Whenever a creature makes a statement, you can roll insight (opposed by [[+Deception]]) to see if what they say aligns with what they think. If you succeed, you determine that something is fishy. Prying further about the deception may cause the creature to reveal the truth or become hostile depending on context.
+
+If you roll this too often, your GM can silence you.  No using insight multiple times on the same thing. Don’t be silly.

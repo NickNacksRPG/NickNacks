@@ -1,0 +1,71 @@
+/**
+ * Footer Component Styles
+ *
+ * Fixed footer bar with gradient background and responsive positioning.
+ */
+
+.app-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: var(--footer-height, 60px);
+  background: var(--footer-bg);
+  color: var(--text-primary);
+  box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.15);
+  z-index: 800;
+  transition: left 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+              right 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+
+  &.left-sidebar-open {
+    left: var(--sidebar-width);
+  }
+
+  &.right-sidebar-open {
+    right: var(--sidebar-width);
+  }
+
+  .footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    padding: 0 24px;
+
+    p {
+      margin: 0;
+      font-size: 0.875rem;
+      color: var(--text-secondary);
+    }
+
+    .footer-links {
+      display: flex;
+      gap: 24px;
+
+      a {
+        color: var(--text-secondary);
+        text-decoration: none;
+        font-size: 0.875rem;
+        transition: color 0.2s ease;
+
+        &:hover {
+          color: var(--text-primary);
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
+
+// Mobile responsive adjustments
+@media (max-width: 767px) {
+  .app-footer .footer-content {
+    flex-direction: column;
+    gap: 8px;
+    padding: 8px 16px;
+
+    .footer-links {
+      gap: 16px;
+    }
+  }
+}

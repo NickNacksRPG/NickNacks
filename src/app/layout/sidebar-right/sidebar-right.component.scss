@@ -1,0 +1,230 @@
+/**
+ * Right Sidebar Component Styles
+ *
+ * Information sidebar with statistics and widgets.
+ */
+
+.app-sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: var(--sidebar-width, 280px);
+  background-color: var(--sidebar-bg, #ffffff);
+  box-shadow: var(--shadow-3, 0 8px 16px rgba(0, 0, 0, 0.2));
+  z-index: 900; // Above footer (800) and content
+  overflow-y: auto;
+  overflow-x: hidden;
+  transition: var(
+    --sidebar-transition,
+    transform 0.3s cubic-bezier(0.4, 0, 0.2, 1)
+  );
+
+  // Sidebar Header
+  .sidebar-header {
+    position: sticky;
+    top: 0;
+    background-color: var(--sidebar-bg-color, var(--sidebar-bg, #ffffff));
+    border-bottom: 1px solid var(--border-color, #e0e0e0);
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 10;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+
+    .sidebar-title {
+      margin: 0;
+      font-size: 1.25rem;
+      font-weight: 500;
+      color: var(--text-color, var(--text-primary, #212121));
+    }
+
+    .close-toggle {
+      color: var(--text-color, var(--text-primary, #212121));
+      transition: transform 0.2s ease;
+
+      &:hover {
+        transform: scale(1.1);
+      }
+
+      &:active {
+        transform: scale(0.95);
+      }
+    }
+  }
+
+  // Custom scrollbar styling
+  &::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: var(--surface-color, #f4ede3);
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: var(--scrollbar-thumb, #c17a53);
+    border-radius: 4px;
+
+    &:hover {
+      background: var(--scrollbar-thumb-hover, #a86a43);
+    }
+  }
+
+  .sidebar-content {
+    padding: 24px;
+  }
+}
+
+// Right sidebar positioning
+.right-sidebar {
+  right: 0;
+  transform: translateX(100%);
+
+  &.open {
+    transform: translateX(0);
+  }
+
+  .info-content {
+    color: var(--text-primary, #212121);
+    opacity: 0;
+    animation: fadeIn 0.5s ease-in forwards;
+
+    p {
+      line-height: 1.6;
+      color: var(--text-secondary, #757575);
+    }
+  }
+
+  // Fade-in animation keyframes
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  .info-section {
+    margin-top: 24px;
+    padding: 16px;
+    background-color: var(--bg-color, #fafafa);
+    border-radius: 8px;
+    border-left: 4px solid var(--accent-color, #ff4081);
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+
+    &.fade-in {
+      opacity: 1;
+    }
+
+    h3 {
+      margin: 0 0 12px 0;
+      font-size: 1.1rem;
+      font-weight: 500;
+      color: var(--text-primary, #212121);
+    }
+
+    .section-description {
+      font-size: 0.875rem;
+      color: var(--text-secondary, #757575);
+      margin-bottom: 8px;
+      font-style: italic;
+    }
+
+    .empty-state {
+      color: var(--text-secondary, #9e9e9e);
+      font-size: 0.875rem;
+      font-style: italic;
+      margin: 8px 0;
+    }
+
+    .links-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+
+      li {
+        padding: 6px 0;
+        border-bottom: 1px solid var(--border-color, #e0e0e0);
+
+        &:last-child {
+          border-bottom: none;
+        }
+
+        .note-link {
+          display: flex;
+          align-items: center;
+          gap: 8px;
+          color: var(--primary-color, #1976d2);
+          text-decoration: none;
+          padding: 4px 0;
+          transition: all 0.2s ease;
+          font-size: 0.875rem;
+
+          .note-icon {
+            font-size: 1rem;
+            flex-shrink: 0;
+            color: var(--icon-color, #757575);
+            transition: color 0.2s ease;
+          }
+
+          .note-title {
+            flex: 1;
+            min-width: 0;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+          }
+
+          &:hover {
+            color: var(--primary-dark, #1565c0);
+            padding-left: 4px;
+            font-weight: 500;
+
+            .note-icon {
+              color: var(--primary-dark, #1565c0);
+            }
+          }
+
+          &:active {
+            color: var(--primary-darker, #0d47a1);
+
+            .note-icon {
+              color: var(--primary-darker, #0d47a1);
+            }
+          }
+        }
+      }
+    }
+
+    // Coming Soon section — dimmed accent
+    &.coming-soon-section {
+      border-left-color: var(--text-secondary, #757575);
+
+      .coming-soon-link {
+        color: var(--text-secondary) !important;
+        opacity: 0.55;
+        font-style: italic;
+
+        &:hover {
+          opacity: 0.85;
+          padding-left: 4px;
+          font-weight: 500;
+        }
+      }
+    }
+  }
+}
+
+// Desktop/Tablet - push content (no overlay)
+@media (min-width: 768px) {
+  .right-sidebar {
+    border-left: 1px solid var(--border-color, #e0e0e0);
+
+    &.open {
+      box-shadow: none;
+    }
+  }
+}

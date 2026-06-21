@@ -1,0 +1,1 @@
+An effect happens when the creature is defeated or dies (but not both), requiring no action. This typically involves exploding or releasing toxic gases.

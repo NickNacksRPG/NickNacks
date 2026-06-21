@@ -1,0 +1,3 @@
+Forced movement refers to any movement that does not happen willingly. This could mean you getting affected by a spell, the stairs you're climbing suddenly turning into a steep incline from a trap etc.
+
+By default, forced movement does not provoke [[AoO]]s. Many exceptions are made on a case by case basis, such as when a flying creatures is [[Grounded]] and falls from the sky, or when you [[shove]] a creature with the [[Maneuver Master]] feat.

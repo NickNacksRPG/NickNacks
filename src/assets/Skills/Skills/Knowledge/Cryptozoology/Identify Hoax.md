@@ -1,0 +1,1 @@
+You can use cryptozoology in place of [[+Insight]] to glean if a creature is deceiving you or exaggerating details about the description of a creature they have encountered or heard about through word of mouth.

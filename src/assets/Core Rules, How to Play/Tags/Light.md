@@ -1,0 +1,2 @@
+Effect either creates light, or has special interactions when in it.
+If unspecified, it creates [[Light Level|Bright Light]] in its area of effect for one round, or on the spaces where something was targeted.

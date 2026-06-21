@@ -1,0 +1,6 @@
+---
+icon: 🤖
+aliases:
+  - construct
+---
+

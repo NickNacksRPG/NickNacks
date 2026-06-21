@@ -1,0 +1,1 @@
+A special type of [[jump]] action. Roll acrobatics to determine your jump distance/height to see if you can jump farther than your default jump distance. The distance you jump is equal to your acrobatics roll in feet, or half that in height. This still requires a swift action to perform.

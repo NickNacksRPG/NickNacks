@@ -1,0 +1,1 @@
+For when there are no lockpicks or beasts of burden, you have elbow grease. The DC to break an object, such as a cage or door, is based on its material and reinforcements. You can also use athletics to represent bursts of adrenaline that allow you to surpass your normal carry weight to push over statues and punch boulders into lava.

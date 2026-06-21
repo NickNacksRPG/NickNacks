@@ -1,0 +1,1 @@
+Characters with martiaa specialization get points in the [[Warfare]] technique tree equal to how many [[Technique Point|technique points]] they have in another magical technique tree.

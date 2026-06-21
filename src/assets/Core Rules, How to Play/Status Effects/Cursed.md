@@ -1,0 +1,1 @@
+A **Cursed** creature is suffering from a permanent debilitating condition. Curses cannot be dispelled, but they all have some way to get rid of them. This usually requires some convoluted action most people wouldn't do unless prompted. Can be identified using the "identify curse or affliction" feature in the [[+Medicine]] skill.

@@ -1,0 +1,1 @@
+You fall gracefully, taking 1 damage per 10 ft you fall. You cannot be [[drained]] from falling.

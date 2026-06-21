@@ -1,0 +1,3 @@
+Charm effects allow the creature inflicting it to exert some degree of control over others. All charm effects are also [[Mind-Affecting]]. The [[charmed]] condition is a common one, but some charm effects are more or less extreme.
+
+Charm effects cause the creature to interpret what the creature that charmed them is doing in the most positive light: Punches and sword swings are massages and surgeries. Charmed creatures are often willing to do things asked of them provided they don't put the creature in danger or clash with their ethos. After the charm ends, acts are seen for what they truly are.

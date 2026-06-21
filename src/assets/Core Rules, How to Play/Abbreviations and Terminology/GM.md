@@ -1,0 +1,1 @@
+Game Master. The person running the game. This person is the arbiter of the rules, tasked with creating the world, playing most (if not all) [[NPC]]s, and ensuring a fun and fair experience for the players.

@@ -1,0 +1,1 @@
+You can attach a name to a face, or vice versa. You generally understand aspects of this creatures reputation, their affiliations, their general capabilities etc. Exceptionally high rolls might even land you some secrets or gossip related to this creature.

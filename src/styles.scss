@@ -1,0 +1,134 @@
+// Include theming for Angular Material with `mat.theme()`.
+// This Sass mixin will define CSS variables that are used for styling Angular Material
+// components according to the Material 3 design spec.
+// Learn more about theming and how to use it for your application's
+// custom components at https://material.angular.dev/guide/theming
+@use "@angular/material" as mat;
+
+// Central theme variables — light and dark mode CSS custom properties
+@use "./app/theme/theme-variables" as *;
+
+// Import Font Awesome for icon support in markdown
+@import "@fortawesome/fontawesome-free/css/all.min.css";
+
+// Dark theme configuration for Angular Material components (default)
+html {
+  @include mat.theme(
+    (
+      color: (
+        theme-type: dark,
+        primary: mat.$rose-palette,
+        tertiary: mat.$red-palette,
+      ),
+      typography: Roboto,
+      density: 0,
+    )
+  );
+}
+
+// Light theme configuration for Angular Material components
+html[data-theme="light"] {
+  @include mat.theme(
+    (
+      color: (
+        primary: mat.$rose-palette,
+        tertiary: mat.$red-palette,
+      ),
+      typography: Roboto,
+      density: 0,
+    )
+  );
+}
+
+body {
+  // Color scheme is set dynamically by ThemeService via theme.service.ts
+  // Default to dark, but will be overridden when light mode is active
+  color-scheme: dark;
+
+  // Use our custom CSS variables for consistent theming
+  background-color: var(--bg-color);
+  color: var(--text-primary);
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+
+  // Reset the user agent margin.
+  margin: 0;
+}
+/* Global Styles */
+
+/**
+ * Global reset and base styles
+ * Ensures consistent rendering across browsers
+ */
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+}
+
+// Improve text rendering
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+p {
+  line-height: 1.6;
+}
+
+// Remove default link styling for better control
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+// Smooth scrolling for better UX
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+// Custom scrollbar styling for modern browsers
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--scrollbar-thumb) var(--bg-color);
+}
+
+// Webkit scrollbar styling (Chrome, Safari, Edge)
+*::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+*::-webkit-scrollbar-track {
+  background: var(--bg-color);
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: var(--scrollbar-thumb);
+  border-radius: 4px;
+
+  &:hover {
+    background-color: var(--scrollbar-thumb-hover);
+  }
+}
+
+// Theme variables imported from ./app/theme/_theme-variables.scss

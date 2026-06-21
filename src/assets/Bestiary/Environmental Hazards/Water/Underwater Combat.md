@@ -1,0 +1,3 @@
+Fighting underwater can make many fighting styles completely useless. Projectile weapons like [[Gun|guns]] can't fire at all. [[Thrown]] weapons don't function at all either. Bows and such have their range reduced to 10/20 ft. Melee combatants take a -4 penalty to [[Attack]] unless they use a piercing weapon.
+
+Many of these things have workarounds. Certain types of weapons can be specifically designed for underwater use. Aquatic creatures, [[amphibious]] creatures and creatures trained in [[+Athletics]] figure out methods to ignore the melee attacking penalty.

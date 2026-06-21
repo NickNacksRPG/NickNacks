@@ -1,0 +1,1 @@
+You are able to move through spaces designed for creatures 1 size smaller than you without treating it as [[difficult terrain]]. You are able to move through spaces designed for creatures 2 sizes smaller than you by treating it as difficult terrain

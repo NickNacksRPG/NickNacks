@@ -1,0 +1,1 @@
+Ancient people often like to communicate without using the written word. You can interpret the meaning or significance in paintings, carvings, murals, statues and the like.

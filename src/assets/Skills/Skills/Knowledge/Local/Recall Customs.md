@@ -1,0 +1,1 @@
+When dealing with foreign cultures, you can recall information about how to conduct yourself. This can be particularly useful when trying to gain someone's favor, such as royalty. You can also recall information about holidays, festivals and ceremonies.

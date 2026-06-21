@@ -1,0 +1,1 @@
+A damage type centered around being incredibly loud.

@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Nick Nacks - Tabletop RPG System</title>
+  <base href="/Pages-TestV2/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/png" href="favicon.png">
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Nick Nacks is my very own fantasy tabletop role-playing game (TTRPG).">
+  <meta name="keywords" content="tabletop RPG, role playing game, RPG rules, character classes, bestiary, TTRPG, game system, combat rules, character creation, RPG equipment, skills, techniques, feats, interactive calculators">
+  <meta name="author" content="Nick Nacks">
+  <meta name="robots" content="index, follow">
+  <meta name="language" content="English">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://kfilanowski.github.io/Pages-TestV2/">
+  <meta property="og:title" content="Nick Nacks - Tabletop RPG System">
+  <meta property="og:description" content="Nick Nacks is my very own fantasy tabletop role-playing game (TTRPG).">
+  <meta property="og:site_name" content="Nick Nacks">
+  
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://kfilanowski.github.io/Pages-TestV2/">
+  <meta name="twitter:title" content="Nick Nacks - Tabletop RPG System">
+  <meta name="twitter:description" content="Nick Nacks is my very own fantasy tabletop role-playing game (TTRPG).">
+  
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://kfilanowski.github.io/Pages-TestV2/">
+  
+  <!-- Preconnect to external resources for faster loading -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://api.iconify.design" crossorigin>
+  <link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
+  
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  
+  <!-- Iconify: 200,000+ icons from 150+ libraries -->
+  <!-- Load synchronously in head to ensure web component is defined before Angular bootstraps -->
+  <script src="https://cdn.jsdelivr.net/npm/iconify-icon@2.1.0/dist/iconify-icon.min.js" crossorigin="anonymous"></script>
+  <script>
+    // Configure Iconify for better reliability and performance
+    (function() {
+      if (typeof window !== 'undefined' && window.Iconify) {
+        // Set longer timeout for icon loading (helps with slow connections)
+        window.Iconify.setConfig({
+          timeout: 10000,  // 10 seconds instead of default 5
+        });
+      }
+    })();
+  </script>
+  <script>
+    // Set dark mode immediately to prevent flash of light mode
+    (function() {
+      const stored = localStorage.getItem('mmm-theme-preference');
+      const theme = stored === 'light' ? 'light' : 'dark';
+      document.documentElement.style.colorScheme = theme;
+      document.documentElement.setAttribute('data-theme', theme);
+    })();
+
+    // GitHub Pages SPA redirect: restore original URL from ?redirect= param
+    // (placed here so it survives Angular's build optimizer alongside the theme script)
+    (function() {
+      var params = new URLSearchParams(window.location.search);
+      var redirect = params.get('redirect');
+      if (redirect) {
+        history.replaceState(null, '', decodeURIComponent(redirect));
+      }
+    })();
+  </script>
+  
+  <!-- Structured Data (Schema.org) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Nick Nacks",
+    "alternateName": "NN TTRPG System",
+    "url": "https://kfilanowski.github.io/Pages-TestV2/",
+    "description": "Nick Nacks is my very own fantasy tabletop role-playing game (TTRPG).",
+    "inLanguage": "en-US",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://kfilanowski.github.io/Pages-TestV2/?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    },
+    "mainEntity": {
+      "@type": "Game",
+      "name": "Nick Nacks",
+      "gameItem": ["Character Classes", "Bestiary", "Equipment", "Skills", "Techniques", "Feats"],
+      "genre": "Tabletop Role-Playing Game"
+    }
+  }
+  </script>
+</head>
+<body>
+  <app-root></app-root>
+</body>
+</html>

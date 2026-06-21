@@ -1,0 +1,1 @@
+A straight line between two places with no [[Total Cover]] or impassable obstacles for a given effect grants Line of Effect. This is different from sight, as you may be able to see someone and not [[Core Rules, How to Play/Attacking/Target|Target]] them (such as through a window).

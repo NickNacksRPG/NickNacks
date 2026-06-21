@@ -1,0 +1,2 @@
+<span style="color:rgb(103, 254, 120)">Creation DC+5</span>
+You can take an unfamiliar substance and learn what it's made out of with the intention of creating it again in the future. A success indicates that you managed to write down the necessary ingredients and processes to create the item in the future.

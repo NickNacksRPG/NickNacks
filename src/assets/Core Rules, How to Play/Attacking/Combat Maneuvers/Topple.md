@@ -1,0 +1,1 @@
+Inflict [[Knocked Down]]. Deal damage as thought you had [[Graze]]d your opponent.

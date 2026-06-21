@@ -1,0 +1,1 @@
+You know about natural processes like photosynthesis, the reproduction of creatures, and tectonic activity. You can do things like figuring out if a volcano is about to erupt, what could be causing plants to die or how long until an egg hatches.

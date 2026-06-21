@@ -1,0 +1,1 @@
+Mini games are used in order to portray non-combat scenarios where it's usually just contests of strength or skill. Some spells/abilities might have restrictions that are mostly based around combat (like rage) that should be allowed to persist through the contest.

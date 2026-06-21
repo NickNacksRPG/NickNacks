@@ -1,0 +1,1 @@
+[[DR]] 10 vs ALL [[disarm]], not just against the enchanted item

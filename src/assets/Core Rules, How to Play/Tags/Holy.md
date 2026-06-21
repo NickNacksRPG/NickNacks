@@ -1,0 +1,1 @@
+Holy is a [[Damage]] type [[Tag]], representing attacks against the soul or convictions, or divinely-sourced retribution. Usually particularly effective against [[Undead]] and [[Fiend|Fiends]].

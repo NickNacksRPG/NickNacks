@@ -1,0 +1,235 @@
+/**
+ * Home Component Styles
+ * 
+ * Layout for the landing page with hero section and feature cards.
+ * Uses CSS Grid and Flexbox for responsive layouts.
+ */
+
+.home-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+// ===========================
+// Hero Section
+// ===========================
+.hero-section {
+  text-align: center;
+  padding: 48px 24px;
+  margin-bottom: 48px;
+
+  .hero-title {
+    font-size: 3rem;
+    font-weight: 500;
+    margin: 0 0 16px 0;
+    background: linear-gradient(135deg, var(--primary-color, #d84315) 0%, var(--accent-color, #ff6f00) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .hero-subtitle {
+    font-size: 1.25rem;
+    color: var(--text-secondary, #6d4c41);
+    max-width: 700px;
+    margin: 0 auto 32px;
+    line-height: 1.6;
+  }
+
+  .hero-actions {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    button {
+      min-width: 140px;
+      height: 48px;
+      font-size: 1rem;
+
+      mat-icon {
+        margin-right: 8px;
+      }
+    }
+  }
+}
+
+// ===========================
+// Features Section
+// ===========================
+.features-section {
+  margin-bottom: 48px;
+
+  .section-title {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+    margin: 0 0 32px 0;
+    color: var(--primary-color, #d84315);
+  }
+
+  .features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 24px;
+
+    .feature-card {
+      transition: all 0.3s ease;
+
+      &:hover {
+        transform: translateY(-8px);
+        box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+      }
+
+      mat-card-header {
+        display: flex;
+        justify-content: center;
+        padding: 24px 24px 16px;
+
+        .card-icon {
+          width: 64px;
+          height: 64px;
+          border-radius: 50%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          mat-icon {
+            color: white;
+            font-size: 32px;
+            width: 32px;
+            height: 32px;
+          }
+        }
+      }
+
+      mat-card-content {
+        text-align: center;
+        padding: 16px 24px;
+
+        h3 {
+          margin: 0 0 8px 0;
+          font-size: 1.25rem;
+          font-weight: 500;
+          color: var(--primary-color, #d84315);
+        }
+
+        p {
+          margin: 0;
+          color: var(--text-secondary, #6d4c41);
+          line-height: 1.5;
+        }
+      }
+
+      mat-card-actions {
+        display: flex;
+        justify-content: center;
+        padding: 8px 24px 16px;
+
+        button {
+          mat-icon {
+            margin-left: 4px;
+            font-size: 18px;
+            width: 18px;
+            height: 18px;
+          }
+        }
+      }
+    }
+  }
+}
+
+// ===========================
+// Info Section
+// ===========================
+.info-section {
+  margin-bottom: 32px;
+
+  .info-card {
+    padding: 16px;
+
+    mat-card-content {
+      h2 {
+        text-align: center;
+        font-size: 1.75rem;
+        font-weight: 500;
+        margin: 0 0 32px 0;
+        color: var(--primary-color, #d84315);
+      }
+
+      .info-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 32px;
+
+        .info-item {
+          display: flex;
+          gap: 16px;
+          align-items: flex-start;
+
+          mat-icon {
+            color: var(--primary-color, #d84315);
+            font-size: 32px;
+            width: 32px;
+            height: 32px;
+            flex-shrink: 0;
+          }
+
+          div {
+            h4 {
+              margin: 0 0 8px 0;
+              font-size: 1.1rem;
+              font-weight: 500;
+              color: var(--primary-color, #d84315);
+            }
+
+            p {
+              margin: 0;
+              color: var(--text-secondary, #6d4c41);
+              line-height: 1.5;
+              font-size: 0.95rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// ===========================
+// Responsive Design
+// ===========================
+@media (max-width: 768px) {
+  .hero-section {
+    padding: 32px 16px;
+
+    .hero-title {
+      font-size: 2rem;
+    }
+
+    .hero-subtitle {
+      font-size: 1rem;
+    }
+  }
+
+  .features-section {
+    .features-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .info-section {
+    .info-card mat-card-content .info-grid {
+      grid-template-columns: 1fr;
+      gap: 24px;
+    }
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .features-section {
+    .features-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+}

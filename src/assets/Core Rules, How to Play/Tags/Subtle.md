@@ -1,0 +1,3 @@
+The effect has a chance for nobody to notice it. If the target creature fails its save, then the effect goes unnoticed. The [[DC]] to [[Identify Spell Being Cast]] with the subtle tag increases by 5.
+
+If someone is watching you and suspects you are using a subtle spell in their presence, they can use [[Detect Hidden Presence]] to get a [[+Perception]] check at -10 against the Identify Spell DC of the effect. They must still identify the spell if they want to know its effects, but usually knowing someone is trying to cast spells on you without you knowing is evidence enough of foul play.

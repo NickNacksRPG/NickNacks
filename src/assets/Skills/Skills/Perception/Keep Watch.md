@@ -1,0 +1,3 @@
+This is a downtime activity most commonly performed by people to protect areas, such as guards to a palace or a adventurer at camp. A creature who is keeping watch can do little more than eat snacks, wonder around and make idle chatter while they keep watch.
+
+A creature who is adequately keeping watch (AKA isn't sleeping on the job or indulging in other activities), automatically gets a perception check to notice would-be intruders and adversaries. Guards also often get checks to see through the disguises of criminals, or finding concealed items if they are frisking people.

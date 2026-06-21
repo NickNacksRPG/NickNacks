@@ -1,0 +1,2 @@
+Creature emits [[Light Level|Bright Light]] with a 5 ft radius, causing it to suffer -10 [[+Stealth]]. Creatures attacking a glowing creature get a +2 bonus to [[Attack]].
+The attack boost does not stack with [[Ablaze]].

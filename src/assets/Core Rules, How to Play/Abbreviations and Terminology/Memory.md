@@ -1,0 +1,1 @@
+Memory determines how many [[Technique]]s you can have at your disposal at once. At the start of each day, you can prepare a number of techniques equal to your memory, chosen from any technique trees you have technique points invested into.

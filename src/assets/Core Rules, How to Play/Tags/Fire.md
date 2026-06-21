@@ -1,0 +1,1 @@
+Fire is a [[Damage]] type [[Tag]], representing destruction through heat melting metal or cooking flesh.

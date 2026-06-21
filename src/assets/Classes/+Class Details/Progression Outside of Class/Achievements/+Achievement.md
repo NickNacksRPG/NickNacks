@@ -1,0 +1,4 @@
+---
+icon: 🏆
+---
+Achievements are archetypal tasks that provide some kind of tangible benefit after completion. You do not need to opt into an achievement, instead they can be claimed retroactively after accomplishing a task.

@@ -1,0 +1,1 @@
+Creature is frozen in time, or some other particularly powerful effect. They are [[Untargetable]], [[Unassailable]], [[Unstoppable]] and [[Invincible]]. They cannot take any actions unless otherwise stated.

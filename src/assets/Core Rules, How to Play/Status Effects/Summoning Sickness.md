@@ -1,0 +1,1 @@
+Creature is [[drained]] 10 and cannot be called from [[Summoning Contract]] again until they are no longer drained.

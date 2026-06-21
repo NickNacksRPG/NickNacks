@@ -1,0 +1,311 @@
+.notes-navigation {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--surface-color, #f5f5f5);
+  overflow: hidden;
+}
+
+.navigation-header {
+  padding: 1rem;
+  border-bottom: 1px solid var(--border-color, #ddd);
+  background-color: var(--header-bg, #fff);
+  flex-shrink: 0;
+}
+
+.navigation-header h3 {
+  margin: 0 0 0.75rem 0;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--text-primary, #333);
+}
+
+.header-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.75rem;
+
+  h3 {
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--text-primary, #333);
+  }
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.icon-button {
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: none;
+  border: none;
+  cursor: pointer;
+  border-radius: 50%;
+  color: var(--text-secondary, #666);
+  transition: background-color 0.2s ease, color 0.2s ease;
+
+  mat-icon {
+    font-size: 1rem;
+    width: 1rem;
+    height: 1rem;
+  }
+
+  &:hover {
+    background-color: var(--hover-bg, rgba(0, 0, 0, 0.05));
+    color: var(--text-primary, #333);
+  }
+}
+
+.search-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.search-input {
+  width: 100%;
+  padding: 0.5rem 2.5rem 0.5rem 2.25rem;
+  border: 1px solid var(--border-color, #ddd);
+  border-radius: 20px;
+  font-size: 0.875rem;
+  outline: none;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+  background-color: var(--surface-color, #f5f5f5);
+  color: var(--text-primary);
+
+  &:focus {
+    border-color: var(--primary-color, #2196f3);
+    box-shadow: 0 0 0 2px var(--hover-bg);
+  }
+
+  &::placeholder {
+    color: var(--text-secondary, #999);
+  }
+}
+
+.search-icon {
+  position: absolute;
+  left: 0.5rem;
+  color: var(--text-secondary, #666);
+  font-size: 1.25rem;
+  width: 1.25rem;
+  height: 1.25rem;
+  pointer-events: none;
+}
+
+.clear-button {
+  position: absolute;
+  right: 0.25rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: background-color 0.2s ease;
+
+  mat-icon {
+    font-size: 1.125rem;
+    width: 1.125rem;
+    height: 1.125rem;
+    color: var(--text-secondary, #666);
+  }
+
+  &:hover {
+    background-color: var(--hover-bg);
+  }
+}
+
+.tree-container {
+  flex: 1;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 0.5rem 0;
+}
+
+.tree-root,
+.tree-children {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.tree-children {
+  --tree-indent: 0.875rem;
+  --tree-guide-width: 1.5px;
+  margin-left: 0.75rem;
+  padding-left: var(--tree-indent);
+  border-left: var(--tree-guide-width) solid transparent;
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transform: translateY(-4px);
+  transition: opacity 0.2s ease, transform 0.2s ease;
+
+  &.expanded {
+    max-height: 9999px;
+    overflow: visible;
+    opacity: 1;
+    transform: translateY(0);
+    border-color: var(--tree-guide-color, rgba(109, 76, 65, 0.22));
+  }
+
+  > li {
+    position: relative;
+
+    // Horizontal branch from the vertical guide to each item
+    &::before {
+      content: '';
+      position: absolute;
+      left: calc(-1 * var(--tree-indent));
+      top: calc(0.3rem + 0.5em);
+      width: var(--tree-indent);
+      height: var(--tree-guide-width);
+      background-color: var(--tree-guide-color, rgba(109, 76, 65, 0.22));
+      pointer-events: none;
+    }
+
+    // Stop the vertical guide below the last sibling in a group
+    // Width is kept narrow to only mask the vertical border, not the horizontal branch line
+    &:last-child::after {
+      content: '';
+      position: absolute;
+      left: calc(-1 * var(--tree-indent) - var(--tree-guide-width));
+      top: calc(0.3rem + 0.5em);
+      bottom: 0;
+      width: calc(var(--tree-guide-width) + 1px);
+      background-color: var(--surface-color, #f5f5f5);
+      pointer-events: none;
+    }
+  }
+}
+
+.folder-item,
+.note-item {
+  display: flex;
+  align-items: center;
+  padding: 0.3rem 1rem 0.3rem 0.625rem;
+  cursor: pointer;
+  user-select: none;
+  transition: background-color 0.2s ease;
+  color: var(--text-primary, #333);
+  text-decoration: none;
+  gap: 0.5rem;
+  font-size: 0.875rem;
+}
+
+.folder-item:hover,
+.note-item:hover {
+  background-color: var(--hover-bg, rgba(0, 0, 0, 0.05));
+}
+
+.note-item {
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.note-item.active {
+  background-color: var(--active-bg, rgba(33, 150, 243, 0.1));
+  box-shadow: inset 3px 0 0 var(--primary-color, #2196f3);
+  font-weight: 500;
+}
+
+.note-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  min-width: 0;
+}
+
+.folder-icon {
+  font-size: 1rem;
+  width: 1rem;
+  height: 1rem;
+  flex-shrink: 0;
+  color: var(--accent-color, #ff6f00);
+  transition: color 0.2s ease;
+}
+
+.folder-name {
+  font-weight: 500;
+}
+
+.note-icon {
+  font-size: 1rem;
+  width: 1rem;
+  height: 1rem;
+  flex-shrink: 0;
+  color: var(--text-secondary, #6d4c41);
+}
+
+.note-name {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.match-snippet {
+  font-size: 0.7rem;
+  color: var(--text-secondary, #666);
+  line-height: 1.3;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  font-style: italic;
+  opacity: 0.85;
+  word-break: break-word;
+
+  ::ng-deep strong {
+    font-weight: 700;
+    color: var(--primary-color, #2196f3);
+    font-style: normal;
+  }
+}
+
+.empty-state {
+  padding: 2rem 1rem;
+  text-align: center;
+  color: var(--text-secondary, #666);
+}
+
+.empty-state p {
+  margin: 0 0 0.5rem 0;
+  font-size: 1rem;
+}
+
+.empty-state small {
+  font-size: 0.875rem;
+  opacity: 0.7;
+}
+
+/* Custom scrollbar styling */
+.tree-container::-webkit-scrollbar {
+  width: 8px;
+}
+
+.tree-container::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.tree-container::-webkit-scrollbar-thumb {
+  background: var(--scrollbar-thumb, #ccc);
+  border-radius: 4px;
+}
+
+.tree-container::-webkit-scrollbar-thumb:hover {
+  background: var(--scrollbar-thumb-hover, #aaa);
+}

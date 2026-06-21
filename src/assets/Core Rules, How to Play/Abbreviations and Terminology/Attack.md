@@ -1,0 +1,2 @@
+What you add to your [[Attack Roll]]s to beat a target's [[AC]].
+By default, you add your [[LvL|LV]], [[DEX|DEX]] or [[STR|STR]] depending on your weapon type, and bonuses from your [[+Class]] to your accuracy. [[Circumstance]] can also change acc.

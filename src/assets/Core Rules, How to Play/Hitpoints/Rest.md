@@ -1,0 +1,5 @@
+Eight consecutive hours of sleep. If you sleep in undesirable conditions, or if your rest is interrupted, you do not gain the benefits of rest, and you are [[exhausted]] the following day. You can sleep in an extra two hours to negate any interruptions.
+
+In order to rest, you must be in some type of sanctuary. A sanctuary is typically something where you and your friends are not the only allies around. It must be comfortable and reasonably quiet. It also does not have enemies lurking just around the corner. Typical sanctuaries include civilization, a camp site nestled in a cave or a region well-defended by allies, such as those protected by a [[great fairy]]. 
+
+When you rest, you restore your HP and [[Mana Burn]]. You recover 1 stack of [[Drained|drain]]. You also can use abilities with limited uses per day, such as [[recharge]] abilities.

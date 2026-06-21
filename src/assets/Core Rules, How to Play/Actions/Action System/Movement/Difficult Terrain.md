@@ -1,0 +1,1 @@
+Difficult Terrain is a [[Circumstance]] that represents reduced [[movement]] due to physical blockage. This can be because of wading through knee-deep mud, [[fly|flying]] through dense brush, or burrowing through particularly rocky turf.

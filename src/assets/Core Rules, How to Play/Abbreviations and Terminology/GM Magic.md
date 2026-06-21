@@ -1,0 +1,3 @@
+Sometimes I will refer to things by this term. It's a vague term meant to apply to any rules your GM makes up that aren't part of the original rules. This could mean a special type of ritual to solve a very particular problem, release [[Fiends]] into the [[Mortal Realm]] or perform some other kind of incredible feat. Or it can be some type of special ability your GM gave you as a quest reward.
+
+Basically, anything your GM makes up that can have major gameplay implications.

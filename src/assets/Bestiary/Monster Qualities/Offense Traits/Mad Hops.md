@@ -1,0 +1,1 @@
+Creature can [[Jump]] as high and as far as it can move automatically.

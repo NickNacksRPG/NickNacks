@@ -1,0 +1,1 @@
+Creature can move around through other creatures spaces. As a [[FRA]] a creature can move its speed+15, or double its speed in a straight line. It harms all creatures along its path, dealing damage and inflicting [[Knocked Down|Knockdown]]. Creatures can choose to either [[AoO]] or make a reflex save for half damage and negate the knockdown.

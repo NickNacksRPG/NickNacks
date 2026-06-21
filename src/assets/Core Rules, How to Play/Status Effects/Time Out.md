@@ -1,0 +1,3 @@
+A creature in Time Out has lost the will to fight, and has surrendered to you. They cannot inflict harmful effects on anybody or anything. They also cannot cast spells without your permission. They meekly follow your commands (ex. follow me), but won’t do anything against their ethos (kick that puppy) or that is dangerous (jump off that cliff) without extreme circumstances. If you or your allies attack the creature or cast a harmful spell on it, the condition ends.
+
+Treat it like a slightly more convenient form of unconsciousness if you want to interact with the creature after the combat. Many minion type creatures will acquire this status effect when their leader is defeated.

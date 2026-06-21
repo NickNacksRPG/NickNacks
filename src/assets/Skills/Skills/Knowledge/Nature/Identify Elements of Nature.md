@@ -1,0 +1,1 @@
+If it doesn't have a stat block and it isn't man-made or magic, then it probably falls under natural element. Nature allows you to identify animal behavior. It also lets you identify types of plants and minerals and their uses/dangers. It also allows you to tell if something is unnatural.

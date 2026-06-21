@@ -1,0 +1,365 @@
+.note-viewer {
+  position: relative;
+  height: 100%;
+  overflow-y: auto;
+  background-color: var(--content-bg, #ffffff);
+  padding: 38px 2rem 2rem 2rem;
+}
+
+.error-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  color: var(--text-secondary, #666);
+}
+
+.error-state h2 {
+  color: var(--error-color, #f44336);
+  margin-bottom: 1rem;
+}
+
+.error-state button {
+  margin-top: 1rem;
+  padding: 0.5rem 1.5rem;
+  background-color: var(--primary-color, #2196f3);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.error-state button:hover {
+  background-color: var(--primary-hover, #1976d2);
+}
+
+// Container for note title and content with fade transition
+.note-container {
+  max-width: 700px;
+  margin: 0 auto;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+}
+
+// Title styling
+.note-title {
+  display: flex;
+  align-items: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+  font-size: 2.5em;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin: 0 0 1rem 0;
+  padding-bottom: 0.5rem;
+  border-bottom: 3px solid var(--border-color, #d7ccc8);
+  line-height: 1.2;
+
+  .note-icon {
+    font-size: 1.2em;
+    width: 1.2em;
+    height: 1.2em;
+    flex-shrink: 0;
+    color: var(--text-primary);
+  }
+
+  .title-text {
+    flex: 1;
+  }
+}
+
+// Content styling
+.note-content {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--text-primary, #333);
+}
+
+/* Responsive images */
+.note-content ::ng-deep img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Figure/figcaption for images with credit captions */
+.note-content ::ng-deep figure {
+  margin: 1em 0;
+  text-align: center;
+}
+
+.note-content ::ng-deep figure figcaption {
+  margin-top: 0.4em;
+  font-size: 0.85rem;
+  color: var(--text-secondary, #999);
+  line-height: 1.3;
+}
+
+.note-content ::ng-deep figure figcaption a {
+  color: var(--primary-color, #7b9aff);
+}
+
+/* External links: small arrow indicator */
+.note-content ::ng-deep a[href^="http"]::after {
+  content: " ↗";
+  font-size: 0.75em;
+  opacity: 0.6;
+  text-decoration: none;
+}
+
+.note-content ::ng-deep a[href^="http"] {
+  text-decoration: underline dotted;
+  text-underline-offset: 2px;
+}
+
+/* Markdown content styling */
+.note-content ::ng-deep h1,
+.note-content ::ng-deep h2,
+.note-content ::ng-deep h3,
+.note-content ::ng-deep h4,
+.note-content ::ng-deep h5,
+.note-content ::ng-deep h6 {
+  margin-top: 0.75em;
+  margin-bottom: 0.5em;
+  font-weight: 600;
+  line-height: 1.3;
+  color: var(--primary-color) !important;
+}
+
+.note-content ::ng-deep h1 {
+  font-size: 1.802em;
+  border-bottom: 2px solid var(--border-color, #eee);
+  padding-bottom: 0.3em;
+  margin-top: 0.25em;
+}
+
+.note-content ::ng-deep h2 {
+  font-size: 1.602em;
+  border-bottom: 1px solid var(--border-color, #eee);
+  padding-bottom: 0.3em;
+}
+
+.note-content ::ng-deep h3 {
+  font-size: 1.424em;
+}
+.note-content ::ng-deep h4 {
+  font-size: 1.266em;
+}
+.note-content ::ng-deep h5 {
+  font-size: 1.125em;
+}
+.note-content ::ng-deep h6 {
+  font-size: 1em;
+}
+
+.note-content ::ng-deep p {
+  margin-bottom: 1em;
+}
+
+.note-content ::ng-deep a {
+  color: var(--link-color) !important;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.2s ease;
+}
+
+.note-content ::ng-deep a:hover {
+  border-bottom-color: var(--link-color);
+}
+
+.note-content ::ng-deep .wiki-link {
+  color: var(--wiki-link-color) !important;
+  font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+  vertical-align: top;
+}
+
+.note-content ::ng-deep .wiki-link:hover {
+  border-bottom-color: var(--wiki-link-color);
+  background-color: var(--hover-bg);
+}
+
+.note-content ::ng-deep .wiki-link.coming-soon {
+  color: var(--text-secondary) !important;
+  opacity: 0.55;
+  font-style: italic;
+  border-bottom-style: dashed;
+}
+
+.note-content ::ng-deep .wiki-link-icon {
+  font-size: 0.9em;
+  width: 0.9em;
+  height: 0.9em;
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: inherit;
+}
+
+.note-content ::ng-deep code {
+  background-color: var(--code-bg, #f5f5f5);
+  color: var(--text-primary);
+  padding: 0.2em 0.4em;
+  border-radius: 3px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 0.9em;
+}
+
+.note-content ::ng-deep pre {
+  background-color: var(--code-bg, #f5f5f5);
+  color: var(--text-primary);
+  padding: 1em;
+  border-radius: 5px;
+  overflow-x: auto;
+  border-left: 3px solid var(--primary-color);
+}
+
+.note-content ::ng-deep pre code {
+  background-color: transparent;
+  color: inherit;
+  padding: 0;
+}
+
+.note-content ::ng-deep blockquote {
+  margin: 1em 0;
+  padding-left: 1em;
+  border-left: 4px solid var(--border-color, #ddd);
+  color: var(--text-secondary, #666);
+  font-style: italic;
+}
+
+.note-content ::ng-deep ul,
+.note-content ::ng-deep ol {
+  margin-bottom: 1em;
+  padding-left: 2em;
+}
+
+.note-content ::ng-deep li {
+  margin-bottom: 0.25em;
+}
+
+.note-content ::ng-deep strong {
+  font-weight: 600;
+  color: var(--primary-color) !important;
+}
+
+.note-content ::ng-deep em {
+  font-style: italic;
+}
+
+.note-content ::ng-deep hr {
+  border: none;
+  border-top: 2px solid var(--border-color, #eee);
+  margin: 2em 0;
+}
+
+.note-content ::ng-deep table {
+  border-collapse: collapse;
+  margin-top: 1em;
+  margin-bottom: 1.5em;
+  max-width: 100%;
+}
+
+.note-content ::ng-deep th,
+.note-content ::ng-deep td {
+  border: 1px solid var(--border-color, #ddd);
+  padding: 0.5em;
+  text-align: left;
+  color: var(--text-primary);
+}
+
+.note-content ::ng-deep th {
+  background-color: var(--table-header-bg, #f5f5f5);
+  font-weight: 600;
+  color: var(--primary-color) !important;
+}
+
+/* Custom scrollbar */
+.note-viewer::-webkit-scrollbar {
+  width: 10px;
+}
+
+.note-viewer::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.note-viewer::-webkit-scrollbar-thumb {
+  background: var(--scrollbar-thumb, #ccc);
+  border-radius: 5px;
+}
+
+.note-viewer::-webkit-scrollbar-thumb:hover {
+  background: var(--scrollbar-thumb-hover, #aaa);
+}
+
+// Search highlighting - yellow works on both light and dark backgrounds
+::ng-deep mark.search-highlight {
+  background-color: #ffeb3b;
+  color: #000;
+  padding: 0.1em 0.2em;
+  border-radius: 2px;
+  font-weight: 600;
+  animation: highlight-pulse 0.5s ease;
+}
+
+@keyframes highlight-pulse {
+  0% {
+    background-color: #ffd54f;
+  }
+  50% {
+    background-color: #ffeb3b;
+  }
+  100% {
+    background-color: #ffeb3b;
+  }
+}
+
+// Video embed styling - responsive with 16:9 aspect ratio
+.note-content ::ng-deep .video-embed {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  height: 0;
+  margin: 1.5em 0;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.note-content ::ng-deep .video-embed iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 8px;
+}
+
+// Custom color syntax support - uses data attribute for flexibility
+// The parent span has inline style="color: X" which sets the color
+// All children inherit that color, overriding wiki-links, strong, etc.
+.note-content ::ng-deep [data-text-color] *,
+.note-content ::ng-deep [data-text-color] a,
+.note-content ::ng-deep [data-text-color] .wiki-link,
+.note-content ::ng-deep [data-text-color] strong,
+.note-content ::ng-deep [data-text-color] em,
+.note-content ::ng-deep [data-text-color] code {
+  color: inherit !important;
+}
+
+// Calculator error styling
+.note-content ::ng-deep .calculator-error {
+  background-color: #ffebee;
+  color: #c62828;
+  padding: 1rem;
+  border-left: 4px solid #f44336;
+  border-radius: 4px;
+  margin: 1rem 0;
+  font-weight: 500;
+}

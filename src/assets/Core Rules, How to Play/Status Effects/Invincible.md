@@ -1,0 +1,1 @@
+Creature's [[+HP]] cannot be reduced.

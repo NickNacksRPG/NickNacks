@@ -1,0 +1,1 @@
+This effect bypasses AC, poise and saving throws to (almost) automatically deal damage.

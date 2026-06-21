@@ -1,0 +1,11 @@
+# robots.txt for {{PROJECT_NAME}}
+# Allow all search engines to crawl the entire site
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: {{PROJECT_URL}}/sitemap.xml
+
+# Crawl delay (optional, helps prevent server overload)
+Crawl-delay: 1

@@ -1,0 +1,1 @@
+Creature ignores penalties that result from [[Circumstance]] or [[Status]], like the [[+Perception]] penalty from being [[Blinded|blind]].

@@ -1,0 +1,96 @@
+<aside class="app-sidebar right-sidebar" [class.open]="isOpen()">
+  <!-- Sidebar Header -->
+  <div class="sidebar-header">
+    <h2 class="sidebar-title">Page Links</h2>
+    <button
+      mat-icon-button
+      class="close-toggle"
+      (click)="onToggleSidebar()"
+      aria-label="Close sidebar"
+      matTooltip="Close sidebar"
+    >
+      <mat-icon>close</mat-icon>
+    </button>
+  </div>
+
+  <div class="sidebar-content">
+
+    @if (currentNoteId()) {
+    <!-- Outgoing Links Section -->
+    <div class="info-section" [class.fade-in]="true">
+      <h3>Referenced Pages</h3>
+      @if (outgoingLinks().length > 0) {
+      <p class="section-description">Pages referenced by this page:</p>
+      <ul class="links-list">
+        @for (note of outgoingLinks(); track note.id) {
+        <li>
+          <a
+            [routerLink]="['/' + projectSlug, note.id]"
+            class="note-link"
+          >
+            @if (note.iconSvg || note.icon) {
+            <app-iconify-icon class="note-icon" [icon]="note.iconSvg || note.icon" [size]="16" />
+            }
+            <span class="note-title">{{ note.title }}</span>
+          </a>
+        </li>
+        }
+      </ul>
+      } @else {
+      <p class="empty-state">No outgoing links</p>
+      }
+    </div>
+
+    <!-- Incoming Links (Backlinks) Section -->
+    <div class="info-section" [class.fade-in]="referenceGraphReady()">
+      <h3>Referencing Pages</h3>
+      @if (referenceGraphReady()) { @if (incomingLinks().length > 0) {
+      <p class="section-description">Pages that reference this page:</p>
+      <ul class="links-list">
+        @for (note of incomingLinks(); track note.id) {
+        <li>
+          <a
+            [routerLink]="['/' + projectSlug, note.id]"
+            class="note-link"
+          >
+            @if (note.iconSvg || note.icon) {
+            <app-iconify-icon class="note-icon" [icon]="note.iconSvg || note.icon" [size]="16" />
+            }
+            <span class="note-title">{{ note.title }}</span>
+          </a>
+        </li>
+        }
+      </ul>
+      } @else {
+      <p class="empty-state">No backlinks</p>
+      } }
+    </div>
+
+    <!-- Coming Soon Section -->
+    <div class="info-section coming-soon-section" [class.fade-in]="unresolvedLinks().length > 0">
+      <h3>Coming Soon</h3>
+      @if (unresolvedLinks().length > 0) {
+      <p class="section-description">Pages referenced but not yet created:</p>
+      <ul class="links-list">
+        @for (linkId of unresolvedLinks(); track linkId) {
+        <li>
+          <a
+            [routerLink]="['/' + projectSlug, linkId]"
+            class="note-link coming-soon-link"
+          >
+            <span class="note-title">{{ linkId }}</span>
+          </a>
+        </li>
+        }
+      </ul>
+      } @else {
+      <p class="empty-state">All linked pages exist</p>
+      }
+    </div>
+    } @else {
+    <div class="info-content fade-in">
+      <p class="empty-state">Select a note to view its links</p>
+    </div>
+    }
+  </div>
+</aside>

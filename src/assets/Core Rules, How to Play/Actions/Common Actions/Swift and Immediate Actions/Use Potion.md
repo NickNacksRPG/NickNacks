@@ -1,0 +1,1 @@
+Retrieve and drink a potion. Provokes [[AoO]]s.

@@ -1,0 +1,3 @@
+You can skin creatures, extract organs/fluids and other resources from recently killed creatures. This usually takes 1 minute. You get an amount of value equal to (10+the creature's [[LvL]]). Each one requires 1 [[Inventory|inventory slot]].
+
+Particularly dangerous or delicate operations require proficiency and a survival check (usually 10+creature's level), with higher value multipliers. A failed attempt represents the resources being destroyed.

@@ -1,0 +1,1 @@
+A shimmering barrier forms around a creature. They are immune to [[Poise]] damage and cannot be [[Graze]]d while it persists. The next instance of hitpoint damage they suffer is negated in its entirety, also preventing any additional effects that damage would inflict (such as [[On-hit]] effects).

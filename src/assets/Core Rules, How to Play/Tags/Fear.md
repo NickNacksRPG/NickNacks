@@ -1,0 +1,1 @@
+Usually inflicts [[Shaken]] or [[Frightened]]. All fear effects are also [[Mind-Affecting]].

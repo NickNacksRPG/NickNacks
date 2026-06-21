@@ -1,0 +1,2 @@
+If a target is unaware of you or otherwise distracted, you can attempt to steal items loosely attached to their person or in their pockets. Rolled versus the [[+Perception]] of the individual. Anybody else vigilantly standing guard also gets a check with a penalty based on circumstance. You can also pilfer unattended objects, with anybody nearby or standing watch getting a check to notice your misdeeds.
+Objects that are in some way affixed to a creature, such as a sword in its hilt, take a -5 penalty to [[+Sleight of Hand|SoH]] when you try to steal them.

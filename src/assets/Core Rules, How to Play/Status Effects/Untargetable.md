@@ -1,0 +1,1 @@
+Creature cannot be targeted, such as if it has [[Total Concealment]].

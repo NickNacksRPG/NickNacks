@@ -1,0 +1,1 @@
+There are some names that withstand the test of time due to their accomplishments, inventions and atrocities. With some kind of prompting, you can recall details about specific people, creatures or cultures. This can include things such as their names, species, class, nicknames, organizations etc.

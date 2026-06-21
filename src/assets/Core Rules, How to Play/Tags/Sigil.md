@@ -1,0 +1,3 @@
+The effect puts magical text on a surface with some kind of delayed effect, usually triggering when a creature walks within a certain radius of the sigil. A sigil must be clearly visible in order to function. If it is obscured, then it is deactivated until it is unobscured. Most sigils have the ability to apply a passphrase that, when spoken aloud, allows a user to move through the area without triggering the sigil.
+
+Once triggered, a sigil usually disappears. Any status effects inflicted remain for the usual duration.

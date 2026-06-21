@@ -1,0 +1,1 @@
+An Emotion effect is a [[Mind-Affecting]] effect that relies on manipulating the target's emotions.

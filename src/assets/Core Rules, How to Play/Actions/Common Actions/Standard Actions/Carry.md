@@ -1,0 +1,1 @@
+Carrying an ally allows you to move them with your movement. You must be able to lift the ally. If you can't, you drag them, treating all terrain as [[difficult terrain]]. You must use this action every turn you carry an ally. The creature you carry becomes [[clumsy]] 2 unless they are defeated or you aren't in combat.

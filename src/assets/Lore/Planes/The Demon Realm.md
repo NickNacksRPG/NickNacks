@@ -1,0 +1,14 @@
+---
+icon: RaHorns
+---
+You can read more about demons and how they came to be in the bestiary section for [[Fiends]]
+
+<span style="color:rgb(103, 254, 120)">In short, certain negative events can cause creatures to transform</span> into entirely different hostile creatures with new outlooks, powers and appearances known as fiends, or more colloquially, demons, devils, daemons etc. Fiends, generally speaking, don't care for much other than to consume, enslave, seek vengeance and destroy what other creatures hold beloved. As such, they are near universally reviled by all. Only the most sinister creatures who seek to direct fiendish hatred towards their enemies and [[Brazzeria]] think otherwise.
+
+<span style="color:rgb(103, 254, 120)">Demons can generally be expected to cooperate with each other,</span> or evildoers who align with their interest. Such alliances are generally shaky however, and often result in backstabbing and betrayal, with the terms being renegotiated whenever the demons see an opportunity. Particularly monstrous fiends are virtually impossible to tame.
+
+<span style="color:rgb(103, 254, 120)">The realm of the demons was created by ancient demon lords</span> looking to escape their would-be hunters in the mortal realm. It was purposefully created to be as hostile to mortals as possible, with complex tunnels, oceans of blood and seemingly endless freezing desserts. The worst of the mortal realm is the norm in the demon realm. The creation of this realm was a double edged sword however. A group of mortals that later became known as the [[Light Guardians]] figured out how to forcefully send demons to this world, effectively turning it into a prison. Banishment, while not a permanent solution, is often the easier one when fiends pour into unprepared villages in droves.
+
+<span style="color:rgb(103, 254, 120)">Getting to and from the demon realm can be a bit of a chore without the correct magic.</span> This is by design. The demon lords don't want mortals to freely move in to hunt their forces down. The mortals don't want hoards of demons destroying their countryside. Only through mortals that betray their kin, or the direct intervention of a demon lord can portals between the realms be opened permanently. Temporary means such as [[Plane Shift]], or for Brazzerians seeking to purify demons, [[Hell and Back]], also exist as methods to go to and escape the demon realm, but demons are almost never capable of using such magic.
+
+<span style="color:rgb(103, 254, 120)">The demon lords themselves vary between the ages</span>, but they tend to fall into 3 distinct categories: Destruction and strength, stealth and slaughter, subversion and subjugation. You can read more about the current demon lords in the [[Deific Boons]] section. Each of them has their own domain (large swathes of land thousands of miles wide) where they and their minions reside.

@@ -1,0 +1,1 @@
+This [[Healing]] effect can heal past your maximum hp. Any excess healing is converted into [[Temp HP]]

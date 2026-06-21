@@ -1,0 +1,80 @@
+/**
+ * Header Component Styles
+ *
+ * Fixed header bar with gradient background and toggle buttons.
+ */
+
+.app-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: var(--header-height, 64px);
+  background: linear-gradient(
+    135deg,
+    var(--primary-color, rgb(231, 138, 78)) 0%,
+    var(--primary-darker, rgb(183, 98, 38)) 100%
+  );
+  color: white;
+  box-shadow: var(--shadow-2, 0 4px 8px rgba(0, 0, 0, 0.15));
+  z-index: 1000;
+
+  .header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    padding: 0 16px;
+    max-width: 100%;
+  }
+
+  .app-title {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    flex-grow: 1;
+    text-align: center;
+  }
+
+  .header-actions {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .sidebar-toggle,
+  .theme-toggle {
+    color: white;
+    transition: transform 0.2s ease;
+
+    &:hover {
+      transform: scale(1.1);
+    }
+
+    &:active {
+      transform: scale(0.95);
+    }
+  }
+
+  .theme-toggle {
+    // Smooth icon rotation animation
+    mat-icon {
+      transition: transform 0.3s ease;
+    }
+
+    &:hover mat-icon {
+      transform: rotate(20deg);
+    }
+  }
+}
+
+// Responsive adjustments
+@media (max-width: 767px) {
+  .app-header {
+    .app-title {
+      font-size: 1.25rem;
+    }
+  }
+}
+

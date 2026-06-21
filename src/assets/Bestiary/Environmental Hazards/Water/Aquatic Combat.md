@@ -1,0 +1,3 @@
+This refers to combat that happens in and around water, but typically not completely submerged. As far as visibility is concerned, most of the time you can see to the bottom of lakes and rivers unless they are particularly murky. Oceans, seas and particularly wide lakes or rivers are the exception to this, where they can be deep enough that even in ideal conditions you can't see all the way down.
+
+When a creature not in water attacks another creature that is at least waist deep in water, they have [[Cover]]. Creatures not in water cannot attack creatures that are completely submerged if they are more than 5 feet deep.

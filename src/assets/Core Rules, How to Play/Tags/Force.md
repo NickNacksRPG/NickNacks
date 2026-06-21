@@ -1,0 +1,1 @@
+Magic is a [[Damage]] type [[Tag]], which represents damage that is supernatural in origin, forces rending and unmaking through means that cannot be described by physical processes.

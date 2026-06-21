@@ -1,0 +1,44 @@
+<header class="app-header">
+  <div class="header-content">
+    <button
+      mat-icon-button
+      class="sidebar-toggle left-toggle"
+      (click)="onToggleLeftSidebar()"
+      [attr.aria-label]="
+        leftSidebarOpen() ? 'Close left sidebar' : 'Open left sidebar'
+      "
+      matTooltip="{{ leftSidebarOpen() ? 'Close sidebar' : 'Open sidebar' }}"
+    >
+      <mat-icon>{{ leftSidebarOpen() ? "menu_open" : "menu" }}</mat-icon>
+    </button>
+
+    <h1 class="app-title">{{ title() }}</h1>
+
+    <div class="header-actions">
+      <button
+        mat-icon-button
+        class="theme-toggle"
+        (click)="onToggleTheme()"
+        [attr.aria-label]="
+          isDarkMode() ? 'Switch to light mode' : 'Switch to dark mode'
+        "
+        matTooltip="{{ isDarkMode() ? 'Light mode' : 'Dark mode' }}"
+      >
+        <mat-icon>{{ isDarkMode() ? "light_mode" : "dark_mode" }}</mat-icon>
+      </button>
+
+      <button
+        mat-icon-button
+        class="sidebar-toggle right-toggle"
+        (click)="onToggleRightSidebar()"
+        [attr.aria-label]="
+          rightSidebarOpen() ? 'Close reference links sidebar' : 'Open reference links sidebar'
+        "
+        matTooltip="{{ rightSidebarOpen() ? 'Close links' : 'Open links' }}"
+      >
+        <mat-icon>{{ rightSidebarOpen() ? "close" : "account_tree" }}</mat-icon>
+      </button>
+    </div>
+  </div>
+</header>
+

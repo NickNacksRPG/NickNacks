@@ -1,0 +1,1 @@
+Characters with magical specialization start play with 6 [[+Cantrips]]. They also get points in the [[Academy]] technique tree equal to how many [[Technique Point|technique points]] they have in their highest tier magical technique tree.

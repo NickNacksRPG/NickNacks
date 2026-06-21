@@ -1,0 +1,11 @@
+
+<span style="color:rgb(103, 254, 120)">Dawn of a New Age</span>
+The turn of the age to the Underground was marked by the 3 dark elven queens, [[Shi'Sulm]], [[Shi'Zen]] and [[Shi'Zara]] leading a coordinated attack on major population centers around the world, both for dragons and man. This coincided with a betrayal of one of [[The Dragon Aspects]], [[T'zarborn]], and his corruption by the hands of the [[Dark Iron Dwarves]]. One clan in particular, [[The Blackwing Clan]], did not hunt down dragons as many of the neighboring clans did, instead opting to accept the aid and companionship of T'zarborn. A sinister plot was in the making to pull T'zarborn away from his fellow dragon aspects and fill his head with grandiose ambitions. 
+
+This was a plan that would take time though, and the Blackwing Clan was extremely patient. They offered him aid in any way they could, such as to take care of his children. This service became more and more important in providing them with a safe haven in a world that was becoming increasingly hostile to dragon-kind over the centuries. One child in particular, [[T'zarzenite]], was held in regard high above the rest for her peculiar talent in producing quantities of offspring expected from dozens of her kind. For this she was given the title "Broodmother." She was practically worshipped as much as her father was by the Blackwings.
+
+As the [[The Age of Dragons]] entered its 5th century, the Blackwing Clan's plan entered its final stage. Previous alliances crumbled one by one, and T'zarborn had little else to turn to that his still loyal friends in the Blackwings. It was now they finally decided to remind him of his importance in defeating [[Drakthar, the World Ender]], and how he was the mightiest of the dragon aspects. The old ways were failing, and it was time to usher in a new age. One with him at the top. They were able to manipulate him into forcing T'zarzenite to bear an army practically all on her own so that way he could take control of the world.
+
+T'zarborn and the Blackwings first started with [[ulu]]
+
+<span style="color:rgb(103, 254, 120)">The fallout of this war was felt for many decades to come.</span> 

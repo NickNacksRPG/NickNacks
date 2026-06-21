@@ -1,0 +1,1 @@
+Creature is covered in ice. Creature has [[Resistance]] to Fire [[Damage]] and -15 [[Land Speed]]. Attacks against a frosty creature get +2 [[Attack]]. This status ends when they take physical or fire damage.

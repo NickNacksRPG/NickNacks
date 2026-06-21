@@ -1,0 +1,1 @@
+Deal poise damage to a creature that cannot reduce them below 1 poise, with the intention to combo or setup an ally. Bully uses the highest bonus you have to a specific combat maneuver. So if you have a +4 bonus to attack to shove and +8 to grapple, bully is rolled at +8.

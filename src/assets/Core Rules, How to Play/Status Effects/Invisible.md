@@ -1,0 +1,1 @@
+You cannot be detected by sight. This grants you [[Total Concealment]] against any creature that primarily uses sight. You must still use [[+Stealth]] to hide your presence and specific location, or else creatures will still be able to attack your space to try and hit you.

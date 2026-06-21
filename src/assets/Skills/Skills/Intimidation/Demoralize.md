@@ -1,0 +1,2 @@
+Tags: [[Fear]]
+As a standard action (or a swift action with proficiency), inflict [[shaken]] 1 on an enemy that can see or hear you within 30 feet. Must have line of sight. They roll a [[will]] save vs (10+your intimidation bonus). They are shaken as long as you are nearby, and for 1 minute after. You can demoralize a creature repeatedly to increase the penalty. If they pass their save, their shaken value decreases by 1.

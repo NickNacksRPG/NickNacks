@@ -1,0 +1,3 @@
+Spend 10 minutes perfecting your makeup, outfit and wig to appear as someone you're not. Disguise checks are usually unnecessary unless you fall under scrutiny, the person knows you/what you're pretending to be or you're trying to enter an exclusive club. Creatures get bonuses to their perception if they know you or what you're disguised as particularly well.
+
+You take a  -2 penalty to disguise checks when you try to change your [[+Races|race]] and when you change your apparent gender. When you initiate a disguise, you tell your DM your bonus, they apply any appropriate modifiers and roll it in secret.

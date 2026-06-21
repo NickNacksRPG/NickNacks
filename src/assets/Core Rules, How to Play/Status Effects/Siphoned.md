@@ -1,0 +1,1 @@
+The creature is severed from its magic. It is not capable of casting [[Spell|Spells]], [[Concentration]], or using its activating [[Su]] abilities. Constant effects, effects from items, or effects that were already cast remain in effect.
