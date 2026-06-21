@@ -27,7 +27,7 @@ If multiple spelling bees are present, they give one the floor and don't interru
 ## <span style="color:rgb(247, 138, 255)">Weaknesses/Deep Lore</span>
 
 <span style="color:rgb(247, 138, 255)">Student Becomes Master</span> - When quizzed, creatures trained in [[+Linguistics]] can make an opposed roll as an immediate action to trip up the spelling bee and have her own swarm sting her. She is immune to the poison however.
-<span style="color:rgb(247, 138, 255)">Mix and Match</span> - Spelling bees love to combine bees with other creatures. By bringing a creature back to their hive, they can transform them to get a new yellow and black coat of paint. For bestiary creatures, this can result in interesting fusions like the [Bee Rex](bee-rex.md).
+<span style="color:rgb(247, 138, 255)">Mix and Match</span> - Spelling bees love to combine bees with other creatures. By bringing a creature back to their hive, they can transform them to get a new yellow and black coat of paint. For bestiary creatures, this can result in interesting fusions like the [[Bee Rex]].
 
 If a player offers to be part of the bee's experiments, they can choose to undergo a 1 week transformation. Over this week they transform to more closely resemble a bee with additional limbs, black and yellow fuzzyness and antennae. They also get one of the following boons and banes....
 <span style="color:rgb(212, 56, 255)">Boons</span> - 

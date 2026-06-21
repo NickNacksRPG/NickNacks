@@ -1,8 +1,6 @@
 ---
 icon: 🤺
 ---
-[[Fighter]] [[Archetype]].
-
 Swashbuckler are the best duelists around, with their signature parry and riposte ability giving them an edge over virtually all martial combatants, especially in melee. Their swift action is incredibly valuable, and can be spent in a number of ways that are powerful in their own ways.
 ## <span style="color:rgb(103, 254, 120)">1 - Parry and Riposte</span>
 With a light weapon in your main hand and a [[buckler]] in your offhand, you can [[Buckler|parry]] at any time. If you choose to use an [[Unarmed Attack|unarmed strike]] or [[natural attack]], you need a buckler in your off hand and a completely free main hand. Parry functions in 2 different ways.
@@ -16,10 +14,10 @@ If your foe attacked with a ranged attack, or with a weapon that has the reach p
 ## <span style="color:rgb(103, 254, 120)">1 - Heavy Mettle</span>
 When wearing light or no armor, and wielding a single light weapon, get the following benefits.
 - +13+[[LvL]] [[AC]]
-- (4+½ [[LvL]]) bonus damage with light weapons
+- +5 bonus damage with light weapons
 ## <span style="color:rgb(103, 254, 120)">1 - Practiced Duelist</span>
 You gain [[+Deception]] as a skill. You get a +4 bonus on deception checks to [[feint]], and an equal bonus on [[+Insight]] checks to resist feint.
-You can increase the duration of feint to last until the start of your next turn by spending 1 mana.
+You increase the duration of feint to last until the start of your next turn by spending 1 mana.
 
 You gain [[It's Time to Duel!]] as an [[innate technique]].
 ## <span style="color:rgb(103, 254, 120)">1 - Book 'o' Piracy</span>
@@ -32,21 +30,21 @@ When you are hit or [[Graze|grazed]] by an attack, spend 1 mana as an immediate 
 ## <span style="color:rgb(103, 254, 120)">4 - Superior Feint</span>
 As a standard action, automatically [[feint]] a creature. It is feinted for all allies as well until the end of your next turn.
 A creature you use superior feint against becomes immune to it for 1 minute.
-## <span style="color:rgb(103, 254, 120)">6 - Focus</span>
+## <span style="color:rgb(103, 254, 120)">8 - Focus</span>
 You can take the [[focus]] action as a swift action. While you focus, you also get a +4 bonus to... 
 - [[AoO]]s made against this creature
 - Reflex saves against the creature's [[+Acrobatics]] to [[Avoid AoO (P)|avoid AoO]]
 - [[+Perception]] against this creature
-## <span style="color:rgb(103, 254, 120)">8 - Special Attack: Targeted Strike</span>
+## <span style="color:rgb(103, 254, 120)">10 - Special Attack: Targeted Strike</span>
 By spending 2 mana, choose a specific body part to target to gain a bonus effect [[On-hit]] (fort negates).
-Special: This special attack can be used more than once a combat by spending more mana.
+<span style="color:rgb(192, 0, 0)">Special:</span> This special attack can be used more than once a combat.
 
 | Body Part | Effect                                             |
 | --------- | -------------------------------------------------- |
 | Head      | The target is [[Confused]] for 1 round             |
 | Legs      | The target is [[Knocked Down]]                     |
 | Wings     | The target is [[grounded]] for 1 round             |
-| Neck      | The target [[Bleeding\|bleed]]s for 2d8 (9) damage |
+| Neck      | The target [[Bleeding\|bleeds]] for 2d8 (9) damage |
 | Torso     | The target is [[Staggered]] for 1 round            |
 ## <span style="color:rgb(103, 254, 120)">11 - Child's Play</span>
-Reactive parry requires no mana. When you riposte after a reactive parry, it is an instant action instead of an immediate action.
+Reactive Parry requires no mana. When you riposte after a reactive parry, it is an instant action instead of an immediate action.

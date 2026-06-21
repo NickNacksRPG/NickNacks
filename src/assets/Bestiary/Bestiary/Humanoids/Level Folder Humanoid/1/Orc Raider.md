@@ -27,7 +27,7 @@ Level 1 medium [[Orc]]
 1/day - [[Put Me In!]], [[Head On]]
 
 <span style="color:rgb(192, 0, 0)">Special Attacks:</span> [[Unique Special Attacks|all in]], [[Unique Special Attacks|execution]]
-<span style="color:rgb(192, 0, 0)">Toss Up</span> - Orc raiders are blessed by [[Caldera, the Cataclysm|The Cataclysm]] with ludicrous strength. They can work together to life objects that are 10s of thousands of pounds. If at least 3 orcs work together to throw an object weighing at least a few tons, their thrown attack counts as a [[+Siege Weapon]], increases to 3d12+3 (21) and they can throw it [[Short]] range.
+<span style="color:rgb(192, 0, 0)">Toss Up</span> - Orc raiders are blessed by [[Caldera, the Cataclysm|The Cataclysm]] with ludicrous strength. They can work together to lift objects that are 10s of thousands of pounds. If at least 3 orcs work together to throw an object weighing at least a few tons, their thrown attack counts as a [[+Siege Weapon]], increases to 3d12+3 (21) and they can throw it [[Short]] range.
 ## <span style="color:rgb(247, 138, 255)">Weaknesses/Deep Lore</span>
 
 <span style="color:rgb(247, 138, 255)">Greener Pastures</span> - Orc raiders are often interested in wealth, good meat and glory in battle. By rolling a DC 14 [[+Persuasion]] or [[+Deception]] check in a neutral situation, you can convince them that an even bigger haul is on the way.

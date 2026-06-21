@@ -1,1 +1,1 @@
-- **Full-Round Action**: This action requires the use of your standard action and all of your movement. You may still move if you have an ability that allows extra movement as a different action.
+Full-Round Action: This action requires the use of your standard action and all of your movement. You may still move if you have an ability that allows extra movement as a different action.

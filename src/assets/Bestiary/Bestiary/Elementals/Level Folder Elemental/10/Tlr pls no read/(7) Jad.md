@@ -31,7 +31,7 @@ Level 10 Massive Elemental [[boss]] [[Unique]]
 <span style="color:rgb(192, 0, 0)">Jad's Assault</span>
 <span style="color:rgb(255, 192, 0)">Volcanic Surge</span> - The lava surrounding the battlefield closes in, covering the outer 10 ft of the battlefield. Pick a [[random direction]]. A 30 ft line in the ground extending from this outer edge cracks and fills with lava under the nearest creature, hitting them with partial submersion in [[lava]] (reflex negates).
 <span style="color:rgb(255, 192, 0)">Crush</span> [[earth]] - Jad slams the ground and causes a stalactite to crack on the ceiling above each enemy, leaving a bunch of rocks on the ground beneath as an indicator for what is to come. At the end of the creature's next turn, a huge (size category, as if it were a huge creature) falls down upon them, dealing 2d20 crush damage. Creatures within 20 ft of the impact zone (except Jad) take 2d20 poise damage, [[Knocked Down|knocking down]] any that are poise broken.
-This effect also leaves behind a stalactite that alters the terrain, providing [[cover]] and a place to get [[high ground]], and a place to escape the lava if it rises high enough.
+This effect also leaves behind a stalactite that alters the terrain, providing [[Partial Cover]] and a place to get [[high ground]], and a place to escape the lava if it rises high enough.
 <span style="color:rgb(255, 192, 0)">Time's Ticking (fire)</span> - Jad spits a fire blast that slowly moves towards the nearest creature. At the end of the creatures next turn, it homes in on their location and explodes in their space, dealing 2d20 fire damage in a 20 ft AoE (reflex halves).
 If the creature somehow becomes [[untargetable]], the next closest enemy is chosen instead.
 <span style="color:rgb(255, 192, 0)">Earthquake</span> - All enemies take 2d20 poise damage. Poise broken creatures are [[Knocked Down]].
@@ -39,7 +39,7 @@ If the creature somehow becomes [[untargetable]], the next closest enemy is chos
 
 <span style="color:rgb(247, 138, 255)">Wet Weakness</span> - Takes a -4 penalty on saves against effects with the [[water]] tag. Any attacks with the water tag have [[advantage]] against this creature.
 <span style="color:rgb(247, 138, 255)">Clumsy Titan</span> - Jad cannot make [[AoO]]s against creatures of medium size or smaller.
-<span style="color:rgb(247, 138, 255)">Focus</span> - Jad will prefer targeting creatures without a form of [[cover]] with his attacks.
+<span style="color:rgb(247, 138, 255)">Focus</span> - Jad will prefer targeting creatures without a form of [[Partial Cover]] with his attacks.
 ## <span style="color:rgb(103, 254, 120)">Other Traits</span>
 
 <span style="color:rgb(103, 254, 120)">Ability Scores</span> - [[STR|STR]] +6, [[DEX]] +0, [[LUK]] +0, [[INT]] -2, [[WIS]] +0, [[CHA]] +2

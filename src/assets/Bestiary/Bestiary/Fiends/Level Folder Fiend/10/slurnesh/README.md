@@ -1,7 +1,4 @@
----
-hidden: true
----
-
+## [[Crust]]
 # Slur'Nesh
 
 **Level 10 Medium Fiend \[unique] \[boss] \[mastermind]**

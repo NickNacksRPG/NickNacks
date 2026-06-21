@@ -15,7 +15,7 @@ Level 5 Large Construct/Undead
 | ----------------------------------------------------- | ---------- | -------------------- |
 |                                                       | 2d6+3 (10) |                      |
 <span style="color:rgb(192, 0, 0)">Innate Techniques (CL 7)</span> - [[Icicle]], [[Sky Uppercut]] (U3), [[Life Drinker]], [[Never Lucky]] (U3), [[Chill Metal]], [[Sanctuary]], [[Barrier]], [[Mud Buddy]]
-1/day - [[Earth Shatter]], [[Haunted]], [[Fake Out]], [[Foe Toss]]
+1/day - [[Earth Shatter]], [[Haunted]], [[Foe Toss]]
 
 <span style="color:rgb(192, 0, 0)">Possess Object</span> [[Su]] [[Subtle]] [[Recharge]] - While hiding in plain sight, a haunted golem can covertly [[Possessed|possess]] an item within 30 ft, giving the item a [[Hover]] speed of 30 and the ability to communicate [[Telepathy|telepathically]]. As a standard action, the golem can make a [[Melee Attack]] with the object, dealing either the weapon damage or its unarmed damage, whichever is higher. It can use the weapons [[Special Attack|special attacks]], but otherwise no other types of special attacks.
 

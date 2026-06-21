@@ -1,1 +1,1 @@
-Sound based. A creature that takes sonic damage has their echolocation disabled for one round.
+Sound based. A creature that takes [[sonic]] damage has their echolocation disabled for one round.

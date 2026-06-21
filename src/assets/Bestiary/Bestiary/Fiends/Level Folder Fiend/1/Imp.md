@@ -1,6 +1,6 @@
 This ornery fiend is quick to change its mood, always looking for guidance from one of its superiors. Once they give the signal, they ready their claws and light themselves ablaze.
 
-Level 1 Small Fiend (minion)
+Level 1 Small Fiend <span style="color:rgb(192, 0, 0)">(minion)</span>
 ## <span style="color:rgb(0, 176, 240)">Defense Traits</span>
 
 | <span style="color:rgb(0, 176, 240)">AC</span>    | 16                        |                                  |
@@ -17,8 +17,8 @@ Level 1 Small Fiend (minion)
 |                                                    | 2d6+2 (9) |                     |
 [[Multiattack]] - Make a [[shove]] attack against an ally with a +20 bonus. Make a claw attack or cast [[Blazing Palm]] (if ablaze).
 
-<span style="color:rgb(192, 0, 0)">Blaze It</span> [[fire]] - While ablaze, an imp gets a +2 bonus to attack rolls and the DCs of its offense traits. They can also innately cast [[Blazing Palm]]. They can ignite themselves or douse the fire on themselves as a swift action.
-<span style="color:rgb(192, 0, 0)">Ride and/or Die</span> - An imp can [[mount]] a willing ally as a swift action. While mounted, the ally also automatically "benefits" from its Blaze It feature and gets a +10 bonus to its speed. An imp can also mount an enemy by [[poise]] breaking them. If the imp is ablaze, so to becomes its new mount.
+<span style="color:rgb(192, 0, 0)">Blaze It</span> [[fire]] - While ablaze, an imp gets a +2 bonus to attack rolls and the DCs of its offense traits. They can also innately cast [[Blazing Palm]]. They can ignite themselves or douse the fire on themselves as a swift action. 
+<span style="color:rgb(192, 0, 0)">Ride and/or Die</span> - An imp can [[mount]] a willing ally, they can perform this action as the same time as Blaze It. While mounted, the ally also automatically "benefits" from its Blaze It feature and gets a +10 bonus to its speed. An imp can also mount an enemy by [[poise]] breaking them. If the imp is ablaze, so to becomes its new mount.
 <span style="color:rgb(192, 0, 0)">¿Quires?</span> [[poison]] [[recharge]] - While under the effects of Blaze It, an imp can expel a large quantity of toxic gas at a creature adjacent to it, dealing 3d6 (10) poison damage and applying [[sickened]] 1 (fort halves damage and negates sicken).
 [[Camouflage]]
 ## <span style="color:rgb(247, 138, 255)">Weaknesses/Deep Lore</span>

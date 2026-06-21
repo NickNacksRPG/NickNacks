@@ -23,7 +23,7 @@
 ## <span style="color:rgb(103, 254, 120)">Monkey Style</span>
 - You gain a [[Climb]] speed and a "crawl" speed equal to your [[Land Speed]]. 
 - You can remove the [[Knocked Down|Knockdown]] condition as a free action.
-- <span style="color:rgb(103, 254, 120)">Monkey Madness </span>- [[On-hit]] with an unarmed strike or after you break a creature's [[Poise]], you can start riding them as an instant action. You follow their movement automatically until you are knocked off by poise breaking or otherwise. You have [[Cover]] while riding. If an attack [[Graze|grazes]] you, it instead targets your ride at full effectiveness, as though it had hit them.
+- <span style="color:rgb(103, 254, 120)">Monkey Madness </span>- [[On-hit]] with an unarmed strike or after you break a creature's [[Poise]], you can start riding them as an instant action. You follow their movement automatically until you are knocked off by poise breaking or otherwise. You have [[Partial Cover]] while riding. If an attack [[Graze|grazes]] you, it instead targets your ride at full effectiveness, as though it had hit them.
   You cannot ride creatures smaller than you (unless you have [[Unconventional Mount]]).
 
 

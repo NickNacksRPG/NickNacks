@@ -18,7 +18,7 @@ Level 7 Huge Construct [[Boss]]
 |                                                      | 2d8+3 (12) |                                                              |
 [[Multiattack]] - Make 2 [[Melee Attack|melee attacks]]
 
-<span style="color:rgb(192, 0, 0)">Innate Techniques</span> - [[Sonic Boom]] (U4), [[Earth Shatter]] (U4), [[Lightning Strike]] (U3)
+<span style="color:rgb(192, 0, 0)">Innate Techniques</span> - [[Sonic Boom]] (U4), [[Earth Shatter]] (U4)
 1/day - [[Crater]] (U4), [[Fore!]] (U4)
 Constant - [[Shockwave]]
 

@@ -1,8 +1,8 @@
 The art of purification involves turning a fiend into mortal form, purging them of their inherently sinful natures. To do this requires a lot of time and effort to be successful. The bare minimum required in order to conduct the ritual is...
 
 * Mana. 100\*(creature's lvl)^2. (1=100, 2=400, 3=900...12=14,400)
-* Proficiency in planes.
-* The creature's name before it transformed.
+* Proficiency in planes (or an assistant with proficiency)
+* The creature's name before it transformed
 
 With all of the above ingredients, you can draw the magic circles required, power it, and initiate the ritual. The person in charge of performing the ritual rolls a DC 17 [[luck check]] to guess the creature's <span style="color:rgb(192, 0, 0)">true name</span>: A word in an ancient tongue meant to represent who a person is at the core of their soul. If successful, then it transforms into a [[hellion]]. If it fails, it is evaporated, leaving only a silhouette and any of its gear/clothing behind.
 

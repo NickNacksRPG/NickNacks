@@ -25,7 +25,7 @@ If the beetles are defeated in time, the bog creeper still reforms, but it is [[
 |                                                    | 2d8+3 (12) |     |
 [[Multiattack]] - Make 2 [[Melee Attack|melee attacks]]
 
-<span style="color:rgb(192, 0, 0)">Innate Techniques</span>  - [[Blight]] (U4), [[Bone Cage]], [[Unholy Frenzy]], [[Corpse Transposition]], [[Fake Out]]
+<span style="color:rgb(192, 0, 0)">Innate Techniques</span>  - [[Blight]] (U4), [[Bone Cage]], [[Unholy Frenzy]], [[Corpse Transposition]]
 1/day - [[Corpse Explosion]], [[Gloom Bolt]] (U6), [[Warcry]], [[Pulverize]]
 
 <span style="color:rgb(192, 0, 0)">Breath Weapon</span> [[Recharge]] [[poison]] - Unleash a wave of putrid and caustic liquid. 60 ft cone, 10d6 (35) poison damage and applying [[sickened]] 1 (reflex halves dmg and negates sickened). In its wake, it leaves behind hazardous waste that deals 2d6 (7) poison damage to any creatures that end their turn in the area.

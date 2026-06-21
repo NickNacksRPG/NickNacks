@@ -1,7 +1,7 @@
 Level 2 [[Mother Earth]]
 Tags: [[Mind-Affecting]], [[Concentration]]
 Action: Standard
-[[Spell Focus]]: 1 Stick, Ball or Similar Object
+[[Staff Component|Spell Focus]]: 1 Stick, Ball or Similar Object
 
 | Range          | 30 ft      |
 | -------------- | ---------- |

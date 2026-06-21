@@ -1,16 +1,16 @@
 Stands for "Area of Effect." It is used as shorthand to describe an attack that affects a wide area, such as an explosion, or a line of fire from a dragon's breath.
 
-Area attacks have a point of origin. When the origin is a creature, such as with a breath weapon, determine [[Cover]] from one specific point adjacent to it. If the origin is a targeted point in space, such as with an explosion radiating outward, that point should be used to determine cover.
+Area attacks have a point of origin. When the origin is a creature, such as with a breath weapon, determine [[Partial Cover]] from one specific point adjacent to it. If the origin is a targeted point in space, such as with an explosion radiating outward, that point should be used to determine cover.
 
 Some of the most common forms of AoE are radius, cone and line. Here are some diagrams and descriptions to help you understand these common examples.
-
 ## <span style="color:rgb(103, 254, 120)">Radius</span>
-Radius effects have you choose a point, often specifying if they can target a spot in midair or on the ground. The point determines the center of the radius, which then extends outwards in every direction x number of feet (usually 5-20). The initial space you targeted is also subject to this effect. A classic example of this is [[Fire Blast]]. Fire blast requires you to target a creature and has a 10 ft radius, so blasting a skeleton will look something like this, with the orange being the point you target.
+Radius effects have you choose a point, often specifying if they can target a spot in midair, on the ground or emanating from you. The point determines the center of the radius, which then extends outwards in every direction x number of feet (usually 5-20). The initial space you targeted is also subject to this effect. A classic example of this is [[Fire Blast]]. Fire blast requires you to target a creature and has a 10 ft radius, so blasting a skeleton will look something like this, with the orange being the point you target.
 ![[{06FF7A7B-EF4D-48B4-9826-EF0A949D6958}.png|601]]
 Many radius effects have the user as the starting point of the radius. Most of these harmful effects are not intended to also effect the user. Some effects, like the [[Healer]]'s Channel feature specifically mention that it only target's allies.
 ## <span style="color:rgb(103, 254, 120)">Cone</span>
-Cones also require you choose a point, almost always one adjacent to you, then the effect spreads out as it gets farther away from you. This can be easily figured out on a hex grid by just counting the number of hexes branching in three different directions (the solid lines) and then connecting the most distant points (the dotted lines). Cones can be relatively small, like with [[Frost Breath]]'s 15 ft cone, or enormous, like with the [[Wildfire Wyrm]]'s 60 ft cone breath weapon.
-![[{EF0F4894-4857-445B-B907-960494D4C3E2}.png|632]]
+Cones also require you choose a point, almost always one adjacent to you, then the effect spreads out as it gets farther away from you. This can be easily figured out on a hex grid by just counting the number of hexes branching in 2 different directions (the solid lines) and then connecting the most distant points (the dotted lines). Cones can be relatively small, like with [[Frost Breath]]'s 15 ft cone, or enormous, like with the [[Wildfire Wyrm]]'s 60 ft cone breath weapon.
+tl;dr - Draw 2 lines with a distance equal to the cones range. Each line must originate from the same point. Connect them at the end. The resulting triangle is the [[AoE]]
+![[{6E89731B-468A-4F90-A0AD-213CA34E1D6C}.png]]
 ## <span style="color:rgb(103, 254, 120)">Line</span>
 Line effects are a bit more complex. They also tend to originate from the caster, with some notable exceptions being some persistent effects like [[Wall of Fire]], or ones that move around like [[Temperamental Tempest]]. In any case, lines all follow the same targeting logic. They can be very versatile, allowing you to precisely target creatures in a chaotic battlefield of friend and foe. The general idea is to have a general pattern you want to adhere to. A simple pattern is easily recognizable as a line. Lets say you have a 40 ft line attack.
 ![[{F23B9B96-0481-4D2E-BC1E-A4C2AD65B1EC}.png|410]]

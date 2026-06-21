@@ -1,3 +1,4 @@
+*Throw a foe into a rage with insults or by goading them into attacking you.*
 
 <span style="color:rgb(103, 254, 120)">Requirements</span> - 
 

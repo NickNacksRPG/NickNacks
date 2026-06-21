@@ -1,8 +1,6 @@
 ---
 icon: FasBreadSlice
 ---
-[[Fighter]] [[Archetype]].
-
 For when you really don't want to think about complicated class features.
 ## <span style="color:rgb(103, 254, 120)">1 - Superior Stats</span>
 You gain a bonus feat every level. Every time you gain a technique point, you can choose to instead turn it into a feat.

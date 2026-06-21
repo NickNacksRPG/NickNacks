@@ -15,10 +15,10 @@ Level 6 Huge Beast
 |                                                       | 2d8+4 (13) | +[[Venom]]                                                        |
 | <span style="color:rgb(192, 0, 0)">Bite (C)</span>    | +10        | +4 [[Grapple]], +4 [[Maneuver Versatility\|MV]]                   |
 |                                                       | 3d8+4 (17) | +Grapple [[On-hit]]                                               |
-[[Multiattack]] - Whenever a bee rex is flanked, it gains access to this multiattack. It will purposefully attempt to position itself to get into such a position if it can, hopefully provoking [[AoO]]s for Blood for Blood procs.
+[[Multiattack]] - Whenever a bee rex is flanked, it gains access to this multiattack. It will purposefully attempt to position itself to get into such a position if it can, hopefully provoking [[AoO]]s for Head On procs.
 Make a bite attack and a stinger attack, but not against the same creature.
 
-<span style="color:rgb(192, 0, 0)">Innate Techniques</span>  - [[Blood for Blood]]
+<span style="color:rgb(192, 0, 0)">Innate Techniques</span>  - [[Head On]]
 1/day - [[Carnage]]
 
 <span style="color:rgb(192, 0, 0)">King of the Jungle</span> [[Poison]] - As a FRA the Bee Rex can unleash a mighty roar. Creatures within 60 ft are [[frightened]] for 2 rounds (will reduces to [[shaken]] 1). Creatures [[Threaten|threatened]] by the t-rex also take 6d6 (21) sonic damage.

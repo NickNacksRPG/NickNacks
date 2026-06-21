@@ -6,7 +6,7 @@ To remove the curse, the cursed creature must eat a meal with some of this commo
 <span style="color:rgb(192, 0, 0)">Note - </span>
 The reason why the spell specifies common animals is so that way you don't choose something really specific and basically extinct like "Florida Panther." It doesn't need to be common to the region you're in necessarily, but it does need to be a general category of animal.
 
-<span style="color:rgb(103, 254, 120)">Fleshwarp</span> [[glamer]] - You curse a creature to appear as a grotesque monster to all but themselves (will negates). You maintain roughly the same shape as before, but you have crimson veins running down fleshy growths all of your body. You always appear to be slick with body fluids. Your facial features are misplaced on your body and misshapen. Your voice sounds like your throat is thick with phlegm, with an odd pitch to it, etc. 
+<span style="color:rgb(103, 254, 120)">Fleshwarp</span> [[glamer]] - You curse a creature to appear as a grotesque monster to all but themselves (will negates). While afflicted with this curse, you maintain roughly the same shape as before, but you have crimson veins running down fleshy growths all of your body. You always appear to be slick with body fluids. Your facial features are misplaced on your body and misshapen. Your voice sounds like your throat is thick with phlegm, with an odd pitch to it, etc. 
 Creatures in your presence are grossed out, only getting more extreme when they speak to you or physically interact with you. Nearly all will consider you some type of weird monster, ostracizing you from most civilizations.
 
 In order to remove this curse, you must have consensual intercourse.

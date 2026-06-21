@@ -9,3 +9,6 @@ Focus: 1 [[Weapon Attack]], [[Natural Attack]] or [[Unarmed Attack|unarmed strik
 | Duration       | -          |
 | Save           | -          |
 Make a [[Melee Attack|melee]]  [[spell attack]] that is enhanced with a layer of magical force, dealing CL force damage.
+
+<span style="color:rgb(192, 0, 0)">Note - </span>
+For clarity, this attack does not add to whatever attack is used as part of the focus. It replaces it.

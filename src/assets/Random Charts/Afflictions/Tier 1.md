@@ -15,7 +15,7 @@ Grievous Wounds
 
 | #   | Name            | Effect                                                                                                                          | Cure                                                                   |
 | --- | --------------- | ------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
-| 1   | Sore Muscles    | You are [[Fatigued]]                                                                                                            | General                                                                |
+| 1   | Sore Muscles    | You are [[exhausted]]                                                                                                           | General                                                                |
 | 2   | Sprained Ankle  | Your [[Land Speed]] is reduced by 5                                                                                             | Only move around as though your [[Land Speed]] was 15 lower for 2 days |
 | 3   | Twisted Wrist   | Any turn you use equipment with damaged hand you take 3 [[True Damage]]                                                         | Do not take true damage from this affliction for 2 days                |
 | 4   | Dry Eyes        | Frequent poking, debris or wind causes you to have [[Advantage\|Disadvantage]] on perception.                                   | General                                                                |

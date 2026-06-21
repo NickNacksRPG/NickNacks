@@ -1,6 +1,6 @@
 This androgynous fiend wraps itself around an ally before worming its tongue into their mouth and locking lips. You see two more emerge from a pool of blood and crawl towards you, licking their lips.
 
-Level 2 Medium Fiend (lewd, monster)
+Level 2 Medium Fiend <span style="color:rgb(192, 0, 0)">(lewd, monster)</span>
 ## <span style="color:rgb(0, 176, 240)">Defense Traits</span>
 
 | <span style="color:rgb(0, 176, 240)">AC</span>    | 16                        | +2 [[Tangled]]                       |

@@ -1,0 +1,113 @@
+{
+  "cascadeColors": true,
+  "colorBackground": false,
+  "palette": [
+    {
+      "id": "KVjY5bYcmMkWYicOuFwQE",
+      "name": "r",
+      "value": "#cb2525"
+    },
+    {
+      "id": "rcISOFbfWopY_GY9uoQIn",
+      "name": "o",
+      "value": "#d5770b"
+    },
+    {
+      "id": "Ph56P3cSDNDfMlnoUOCZ6",
+      "name": "y",
+      "value": "#ccc500"
+    },
+    {
+      "id": "W1k6N_4-wcoIp98lXVFhq",
+      "name": "g",
+      "value": "#03bf45"
+    },
+    {
+      "id": "dJBubfb_hL5aG9t81BiC-",
+      "name": "b",
+      "value": "#0084ff"
+    },
+    {
+      "id": "6fZMUrwdGlDjwtzL7sk02",
+      "name": "i",
+      "value": "#3e3bf7"
+    },
+    {
+      "id": "tY1hxeWH2W22JBOQILz0m",
+      "name": "v",
+      "value": "#ee00ff"
+    },
+    {
+      "id": "y-GapRTQbsc6ll59-gjpO",
+      "name": "gobbo",
+      "value": "#63fd82"
+    },
+    {
+      "id": "zRPjphu2JHDLjJSKO5t0a",
+      "name": "pink",
+      "value": "#ff8ac2"
+    }
+  ],
+  "fileColors": [
+    {
+      "path": "Classes",
+      "color": "KVjY5bYcmMkWYicOuFwQE"
+    },
+    {
+      "path": "Core Rules, How to Play",
+      "color": "rcISOFbfWopY_GY9uoQIn"
+    },
+    {
+      "path": "Equipment and Economics",
+      "color": "Ph56P3cSDNDfMlnoUOCZ6"
+    },
+    {
+      "path": "Bestiary",
+      "color": "zRPjphu2JHDLjJSKO5t0a"
+    },
+    {
+      "path": "Races",
+      "color": "zRPjphu2JHDLjJSKO5t0a"
+    },
+    {
+      "path": "Techniques",
+      "color": "dJBubfb_hL5aG9t81BiC-"
+    },
+    {
+      "path": "Skills",
+      "color": "tY1hxeWH2W22JBOQILz0m"
+    },
+    {
+      "path": "Feats",
+      "color": "y-GapRTQbsc6ll59-gjpO"
+    },
+    {
+      "path": "Bestiary",
+      "color": "zRPjphu2JHDLjJSKO5t0a"
+    },
+    {
+      "path": "Gods/Gods/Demigods/Gralth the Inferno/Gralth the Inferno.md",
+      "color": "KVjY5bYcmMkWYicOuFwQE"
+    },
+    {
+      "path": "Gods/Gods/Demigods/Gralth the Inferno",
+      "color": "KVjY5bYcmMkWYicOuFwQE"
+    },
+    {
+      "path": "Lore",
+      "color": "dJBubfb_hL5aG9t81BiC-"
+    },
+    {
+      "path": "Gods/Gods/Demigods/Ao Shin the Storm Dragon",
+      "color": "dJBubfb_hL5aG9t81BiC-"
+    },
+    {
+      "path": "Gods",
+      "color": "dJBubfb_hL5aG9t81BiC-"
+    },
+    {
+      "path": "Gods/Gods/Demigods/Anime Jesus",
+      "color": "Ph56P3cSDNDfMlnoUOCZ6"
+    }
+  ]
+}

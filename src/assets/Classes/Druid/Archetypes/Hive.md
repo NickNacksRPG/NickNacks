@@ -30,7 +30,7 @@ You can revert back to your original form as a standard action.
 
 You can also choose to host ground borne insects, such as ants. You lose the fly speed and gain a land and [[climb]] speed of 40. Your swarm attack damage increases to 3d6.
 ## <span style="color:rgb(103, 254, 120)">2 - Eye of the Swarm</span>
-Any hive of insects under your control also protects your allies. While within the swarm, you allies are treated as though they have [[Cover]].
+Any hive of insects under your control also protects your allies. While within the swarm, you allies are treated as though they have [[Partial Cover]].
 ## <span style="color:rgb(103, 254, 120)">4 - Bug Bite</span>
 When you attack with hive body, you can attack all creatures within your natural reach.
 Your hive attack applies [[sickened]] 1.

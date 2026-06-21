@@ -15,4 +15,4 @@ When cast on yourself or a willing creature, the duration increases to 1 hour an
 
 Creatures that are [[Helpless]] do not get a save against this spell. When you take damage or if the target moves more than 30 feet away from you, the spell ends. 
 
-Cannot view magically altered memories, such as those created or manipulated by [[Malleable Memory]], or those eliminated by [[the River Styx]].
+Cannot view magically altered memories, such as those created or manipulated by [[Malleable Memory]], [[Tabula Rasa]] or those eliminated by [[the River Styx]].

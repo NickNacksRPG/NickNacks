@@ -7,4 +7,4 @@ Action: -
 | Target/[[AoE]] | 1 creature |
 | Duration       | -          |
 | Save           | -          |
-You enhance your sense of smell, giving you [[blindsense]] ([[Scent]], 10 ft).
+You enhance your sense of smell, giving you [[+Blindsense]] ([[Scent]], 10 ft).

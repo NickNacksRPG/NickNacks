@@ -15,7 +15,7 @@ You form a close bond with a beast companion and mold your fighting style around
 ## <span style="color:rgb(103, 254, 120)">1 - Techniques</span>
 You have [[magical specialization]] and [[martial specialization]].
 You gain 2 [[Technique Point|technique points]] at level 1, then another point every 2 levels after.
-These technique points can be used on the [[Shroomlette]] and [[Techniques/Martial Techniques/Pupper/Pupper]] trees.
+These technique points can be used on the [[Shroomlette]] and [[Pupper]] trees.
 ## <span style="color:rgb(103, 254, 120)">1 - Beast Companion</span> [[companion]]
 You gain the service of a specific animal to aid you on your journey. It grows more powerful as you do. More rules on beast companions in the [[Beast Companion]] section.
 ## <span style="color:rgb(103, 254, 120)">1 - Tandem Strike</span>

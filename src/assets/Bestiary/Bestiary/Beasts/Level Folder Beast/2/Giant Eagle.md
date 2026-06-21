@@ -24,7 +24,7 @@ Level 2 Medium Beast
 1/day - [[Rend Vision]]
 Constant - [[Courage]]
 
-<span style="color:rgb(192, 0, 0)">Distant Predator</span> - An eagle can use [[+Stealth]] without [[Cover]] or [[Concealment]] as long as it is at least 200 ft above its opponent.
+<span style="color:rgb(192, 0, 0)">Distant Predator</span> - An eagle can use [[+Stealth]] without [[Partial Cover]] or [[Concealment]] as long as it is at least 200 ft above its opponent.
 
 <span style="color:rgb(192, 0, 0)">Special Attack: Dive Bomb</span> - Special: The eagle must be at least 60 ft above its target to initiate this attack.
 [[FRA]] move up to 300 ft downwards to strike an opponent. Deals a bonus +d8 dmg and deals the attacks damage as [[poise]] damage. If this poise breaks the creature, it is [[knocked down]]. If the eagle is larger than the creature, it can choose to to instead [[Grapple]] it and carry it 30 ft into the air.

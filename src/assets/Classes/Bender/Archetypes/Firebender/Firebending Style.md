@@ -19,7 +19,6 @@ Your elemental blast causes foes to glow vibrantly and applies a -10 penalty to 
 Your elemental wave feature also applies this effect on a failed save.
 ## <span style="color:rgb(103, 254, 120)">4 - Blistering Feint</span>
 When you successfully [[feint]] a creature, they are set [[ablaze]].
-You permanently memorize the [[Fake Out]] technique.
 ## <span style="color:rgb(103, 254, 120)">4 - Flamethrower (persistent)</span>
 Your elemental wave feature is persistent until the start of your next turn. You cannot change its direction, even if you move during it.
 

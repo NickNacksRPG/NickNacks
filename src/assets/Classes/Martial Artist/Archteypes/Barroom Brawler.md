@@ -11,7 +11,7 @@ Whether you carry it around, sling it onto your back, you have a large source of
 
 Your keg is enough to last you a week before you must return to civilization and craft a refill. With an empty keg, you cannot chug. If you spend 3 days crafting, you can fill your keg with moonshine.
 ## <span style="color:rgb(103, 254, 120)">1 - Chug</span> [[recharge]] [[healing]]
-Take a swig to grant yourself (4+½ lvl) [[temp hp]]. You can take up to 3 drinks in one turn to increase the temp hp you gain by the same amount. You can drink as a standard action, swift action, and by spending 30 ft of movement.
+Take a swig to grant yourself (4+½ lvl) [[temp hp]]. You can take up to 3 drinks in one turn to increase the temp hp you gain by the same amount. You can drink as a standard action, swift action, and by spending 30 ft of movement. [[Charge]]
 
 Any turn you chug, you only have access to one of your hands while the other is used to shotgun your drink from the keg.
 

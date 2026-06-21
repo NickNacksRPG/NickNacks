@@ -36,7 +36,7 @@ Whenever you land a tongue attack, or just lick someone, you learn a tidbit of i
 ## <span style="color:rgb(103, 254, 120)">4 - Destructive Tendencies</span>
 Your claws are considered to be of adamantine toughness for the purposes of [[Breaking Objects]]. You get a +4 bonus to athletics checks to break things.
 ## <span style="color:rgb(103, 254, 120)">4 - Path of Ruin</span>
-Whenever you take the [[Core Rules, How to Play/Actions/Common Actions/Full Round Actions/Charge]] action, you automatically destroy obstacles, [[Cover]] and [[difficult terrain]] that is of solid or lesser toughness. Anything harder you get a free attempt to break it. You can charge directly into the air and are immune to fall damage any round you charge. You have [[resistance]] to all damage when you charge.
+Whenever you take the [[Core Rules, How to Play/Actions/Common Actions/Full Round Actions/Charge]] action, you automatically destroy obstacles, [[Partial Cover]] and [[difficult terrain]] that is of solid or lesser toughness. Anything harder you get a free attempt to break it. You can charge directly into the air and are immune to fall damage any round you charge. You have [[resistance]] to all damage when you charge.
 ## <span style="color:rgb(103, 254, 120)">4 - Devour</span>
 You gain the swallow monster quality. Deals 3d8 (13) poison damage.
 You get [[DR|DRA]] 3 vs swallowed creatures. You can also swallow creatures you successfully drag with your grasping tongue special attack instead of dragging them.

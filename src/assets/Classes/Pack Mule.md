@@ -33,7 +33,7 @@ These effects are also applied to [[Companion|companions]].
 This class also fundamentally changes how many aspects of your character scales defensively.
 - You have [[Regeneration]] equal to your [[LvL]]. When you are defeated, this is disabled for 10 minutes, or until you lose the condition.
 - You gain [[Resistance]] to being [[Drained]] (cutting any drain inflicted upon you in half)
-- You get a +10 bonus to [[Luck Check|luck checks]] to determine the type of affliction you acquire when you are [[defeated]].
+- You get a +10 bonus to [[Luck Check|luck checks]] to determine the type of [[affliction]] you acquire when you are [[defeated]].
 - You have [[Recovery]]
 ## <span style="color:rgb(103, 254, 120)">1 - Maximum Lift</span>
 - Your [[Carry Weight]] is multiplied by itself. Calculate it as normal and then do (carry weight)^2
@@ -47,7 +47,6 @@ This class also fundamentally changes how many aspects of your character scales 
 
 ## <span style="color:rgb(0, 176, 80)">2 - Talents</span>
 Gain one at this level and levels 4, 6, 8 and 10. Numbers next to abilities are level requirements.
-
 
 ## <span style="color:rgb(103, 254, 120)">2 - Secret Compartment</span>
 You get [[+Sleight of Hand]] as a bonus skill with a +4 bonus.

@@ -1,3 +1,4 @@
+*Antagonize people into not attacking you, but instead attacking an ally.*
 
 <span style="color:rgb(103, 254, 120)">Requirements</span> - [[Antagonize]]
 

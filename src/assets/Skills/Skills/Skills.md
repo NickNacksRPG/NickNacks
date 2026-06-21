@@ -1,15 +1,18 @@
 Here's the list
 
 [[STR]] Skills
+--
 [[+Athletics]]
 [[+Intimidation]]
 
 [[DEX]] Skills
+--
 [[+Acrobatics]]
 [[+Stealth]]
 [[+Sleight of Hand]]
 
 [[INT]] Skills
+--
 [[+Linguistics]]
 [[Alchemy]]
 [[Arcana]]
@@ -20,8 +23,10 @@ Here's the list
 [[+Nature]]
 [[+Planes]]
 [[+Religion]]
+[[+Medicine]]
 
 [[WIS]] Skills
+--
 [[+Perception]]
 [[+Medicine]]
 [[+Insight]]
@@ -29,6 +34,7 @@ Here's the list
 [[+Survival]]
 
 [[CHA]] Skills
+--
 [[+Deception]]
 [[+Disguise]]
 [[+Intimidation]]

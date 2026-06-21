@@ -1,0 +1,206 @@
+{
+  "main": {
+    "id": "ae818208e6d05249",
+    "type": "split",
+    "children": [
+      {
+        "id": "11d5dcc3fb3f233a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "04fd7257d8f44a11",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "IMAGES/deadly arsenal.jpg"
+              },
+              "icon": "lucide-image",
+              "title": "deadly arsenal"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "7a21009b576331a7",
+    "type": "split",
+    "children": [
+      {
+        "id": "3b5fa82263d271e8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "baaf2f4a70d04d40",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": true
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "3c8aa5bed69bd674",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "new to tabletop",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "a2aea19f8ff793b7",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 331.5
+  },
+  "right": {
+    "id": "f07af0c8e2968ff5",
+    "type": "split",
+    "children": [
+      {
+        "id": "3f25c5e3d155a58e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "25116768bab431b4",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "9d97861ae48cd3c8",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Feats/Racial Feats/Drakonid/Dragon Breath.md",
+                "followCursor": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Dragon Breath"
+            }
+          },
+          {
+            "id": "ed68e0ead479593b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Techniques/Magical Techniques/+Cantrips/Combat Cantrips/Stubbed Toe.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Stubbed Toe"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:Create new base": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "webpage-html-export:Export as HTML": false
+    }
+  },
+  "active": "04fd7257d8f44a11",
+  "lastOpenFiles": [
+    "IMAGES/dark iron enforcer.jpg",
+    "IMAGES/Chrimbus spit snatcher.png",
+    "IMAGES/Bloody Finger.png",
+    "IMAGES/ankylotortoise.png",
+    "IMAGES/229.229 1.png",
+    "Skills/Skills/Knowledge/Religion/Identify Religious Symbol.md",
+    "Skills/Skills/Knowledge/Religion/Identify Chosen.md",
+    "Skills/Skills/Knowledge/Religion/+Religion.md",
+    "Skills/Skills/Knowledge/+Monster Lore.md",
+    "Bestiary/Bestiary/Undead/Level Folder Undead/4/Nameless Hoard.md",
+    "Skills/Skills/Knowledge/Local/+Local.md",
+    "Equipment and Economics/Equipment Types/Gear Upgrades/Footwear/Pricing/25k - 100k/Ninja Tabi.md",
+    "Skills/Skills/Knowledge/Who are you.md",
+    "Skills/Skills/Knowledge/Local/Recall Customs.md",
+    "Skills/Skills/Knowledge/Local/Classes and Monster Lore.md",
+    "Skills/Skills/Knowledge/+Knowledge.md",
+    "Skills/Skills/Knowledge/Lore Dump (SS).md",
+    "Skills/Skills/Knowledge/Planes/+Planes.md",
+    "Skills/Skills/Knowledge/Nature/+Nature.md",
+    "Skills/Skills/Knowledge/Planes/Disable or Destroy Portal.md",
+    "Skills/Skills/Knowledge/History/+History.md",
+    "Skills/Skills/Knowledge/Engineering/Engineering.md",
+    "Skills/Skills/Knowledge/Cryptozoology/+Cryptozoology.md",
+    "Skills/Skills/Knowledge/Arcana/Arcana.md",
+    "Skills/Skills/Knowledge/Alchemy/Alchemy.md",
+    "Classes/Hex Maniac/Hexes.md",
+    "Classes/Hex Maniac/Cauldron Concoctions.md",
+    "Classes/Hex Maniac/+Hex Maniac.md",
+    "Classes/Druid/Archetypes/Vegetable/Vegetable.md",
+    "Classes/Druid/Archetypes/Vegetable/Veggie Talents.md",
+    "IMAGES/{6E89731B-468A-4F90-A0AD-213CA34E1D6C}.png",
+    "Untitled.base",
+    "Gods/Gods/Demigods/Clairvoyance (G)",
+    "Classes/Druid/Archetypes/Vegetable",
+    "Classes/Hex Maniac",
+    "Feats/Racial Feats/+ALL",
+    "Feats/Racial Feats/Human",
+    "Techniques/Magical Techniques/Cryomancy/level-6",
+    "Equipment and Economics/Equipment Types/Gear Upgrades/Wieldables",
+    "Equipment and Economics/Equipment Types/Gear Upgrades/Wieldables/Pricing/1gp - 2k",
+    "Equipment and Economics/Equipment Types/Gear Upgrades/Wieldables/Pricing/2k - 10k",
+    "IMAGES/G_8Dm_9XEAAUgVC.jpg",
+    "IMAGES/421.309.png",
+    "IMAGES/Santa-NK1_phase_2.gif",
+    "IMAGES/Silverback_Patriarch_full.jpg",
+    "IMAGES/{2B096B05-E656-4B11-8246-A098122460F8}.png"
+  ]
+}

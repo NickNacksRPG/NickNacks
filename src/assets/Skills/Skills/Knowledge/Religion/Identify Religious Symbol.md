@@ -1,2 +1,3 @@
+
 <span style="color:rgb(103, 254, 120)">DC 10</span>
 Followers of gods often wear regalia, use specific types of seals and put their gods symbol on their stuff. Sometimes just by looking at a building or a person you can tell where their religious affiliations lie.

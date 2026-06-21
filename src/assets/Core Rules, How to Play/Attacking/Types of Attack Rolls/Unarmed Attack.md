@@ -9,4 +9,4 @@ An unarmed attack is an [[Attack Roll]] that is made with a part of a creatures 
 
 Unarmed strikes are [[Melee Attack|melee attacks]].
 
-Unarmed attacks are [[light weapons]], allowing them to use [[DEX]] to attack and damage. Without special training you do not [[Threaten]] with unarmed strikes and they only have 1 base damage.
+Unarmed attacks are [[Light Weapon|light weapons]], allowing them to use [[DEX]] to attack and damage. Without special training you do not [[threaten]] with unarmed strikes and they only have 1 base damage.

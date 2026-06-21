@@ -9,4 +9,4 @@ Action: Instant
 | Save           | -      |
 You can move 10 ft closer to an ally. If that puts them within your [[Reach|natural reach]], you can use a [[+Shield Actions|shield action]] on them.
 
-You can also move 10 ft while using [[Tank Up]] to help protect as an immediate action, though you cannot change the direction you are facing.
+You can also move 10 ft while using [[Tank Up]] to help protect as an immediate action. If you change the direction you face, it only grants [[partial cover]] instead of [[total cover]] to yourself.

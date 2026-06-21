@@ -20,5 +20,5 @@ You can use your pantomiming skills to cause creatures to say things they might 
 
 Creatures subject to this ability cannot be subject to it again until you rest.
 ## <span style="color:rgb(103, 254, 120)">4 - Silent Theater</span>
-You gain [[Dead Silent]] and [[silencing strike]] as [[innate techniques]].
+You gain [[Dead Silent]] and [[silencing strike]] as [[Innate Technique|innate techniques]].
 By spending 2 mana, you can cast silence as a swift action on yourself.

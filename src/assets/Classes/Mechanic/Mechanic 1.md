@@ -1,13 +1,13 @@
+## [[Crust]]
 Mechanics are engineers that put their heart and soul into their gadgets and gizmos, preferring one specific creation that they pilot into battle.
 
-| Basic Statistics        |                                       |
-| ----------------------- | ------------------------------------- |
-| [[HP]]                  | +10/[[LV]]                            |
-| [[ACC]]                 | +2                                    |
-| [[Skill\|Skills]]       | 4                                     |
-| [[Saving Throw\|Saves]] | [[Fortitude]]                         |
-| [[Mana]]                | 2+1/LV                                |
-| Other                   | +4 and Proficiency in [[Engineering]] |
+| Basic Statistics         |                                       |
+| ------------------------ | ------------------------------------- |
+| [[+HP]]                  | +10/[[LV]]                            |
+| [[Skills]]               | 4                                     |
+| [[+Saving Throw\|Saves]] | [[Fortitude]]                         |
+| [[Mana]]                 | 2+1/LV                                |
+| Other                    | +4 and Proficiency in [[Engineering]] |
 
 **1 - Techniques**
 You gain 2 Technique Points at level 1, then another point every 2 levels after.

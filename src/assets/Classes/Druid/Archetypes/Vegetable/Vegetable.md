@@ -10,7 +10,7 @@ Gain the following benefits...
 - You have [[advantage]] on [[+Stealth]] in areas with suitable vegetation.
 - When in direct sunlight, you gain [[regeneration]] 1.
 ## <span style="color:rgb(103, 254, 120)">1 - One With Nature</span> [[Su]] [[Polymorph|poly, true]]
-As a swift action, you can copy any inanimate plant you can see within 30 ft. You can speak normally while in plant form. You can also have the face of someone you know appear along the surface of the plant in leaves or bark. This transformation lasts indefinitely, but can be ended as a swift action.
+As a swift action, you can copy any inanimate plant you can see within 30 ft. You cannot move or take any actions while in tree form, but you can speak. You can also have the face of someone you know appear along the surface of the plant in leaves or bark. This transformation lasts indefinitely, but can be ended as a swift action.
 
 While transformed you have [[advantage]] on [[+Stealth]], [[+Perception]], [[+Disguise]] and [[+Deception]]. If a creature saw you transform or is already very familiar with your voice, you lose the advantage on deception, disguise and stealth.
 ## <span style="color:rgb(103, 254, 120)">1 - Talent</span>
@@ -27,9 +27,14 @@ You can use this ability to perform any [[+Combat Maneuver|combat maneuvers]] in
 ## <span style="color:rgb(103, 254, 120)">6 - Sudden Genesis (Su)</span> [[recharge]]
 You can cause a vegetation to grow instantly. You can choose to grow brush or a young tree.
 - <span style="color:rgb(103, 254, 120)">Tree:</span> Choose an unoccupied space within 30 ft. A tree 20 ft tall with a handful of sturdy branches to climb erupts from the ground. Any enemies within 10 ft of the tree take 20 [[Poise]] damage and become [[Clumsy]] 2.
-- <span style="color:rgb(103, 254, 120)">Brush</span>: Choose a space within 30 ft. Thick brush forms in a 20 ft radius burst. The area becomes [[Difficult Terrain]]. Any enemies in the area take 20 poise damage.
+- <span style="color:rgb(103, 254, 120)">Brush</span>: Choose a space within 30 ft. Thick brush forms in a 20 ft radius burst. The area becomes [[Difficult Terrain]]. Any enemies in the area takes 20 poise damage.
 Either choice provides suitable vegetation with which to use Arboreal Army, albeit the brush has limited reach. The type of vegetation that grows is native to the area. If no native plants exist, it withers away in a few minutes.
+## <span style="color:rgb(103, 254, 120)">8 - Haven</span> [[Scrying]]
+Choose an area that is 100x100ft to be your haven. While within this area, you can ignore the [[mana burn]] and [[recharge]] tags of the [[Nourish]] technique. You can [[Scrying|scry]] on this area at-will.
 
+To make a new haven, the old haven must be destroyed, or you must donate 5,000g to the [[Earth Mother]]. In either case, it still takes 1 week of staying in a new location for several hours each day to establish a new haven.
+
+At level 11, this area increases to 1,000x1,000 ft.
 ## <span style="color:rgb(103, 254, 120)">11 - Life and Death (Su)</span>
 You get to decide what lives and dies. With your touch, you can cause inanimate plants to grow rapidly, functioning as the cultivate function of the [[Nourish]] technique, but without the [[Mana Burn]] or [[Recharge]] tags.
 

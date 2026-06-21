@@ -12,9 +12,9 @@ Druids focus on the supernatural side of nature: with the ability to commune wit
 ## <span style="color:rgb(103, 254, 120)">1 - Technique Specialization (Magical)</span>
 You have [[Magical Specialization]]
 You gain 2 technique points at level 1, then another 2 points every 2 levels after.
-These technique points can be used on the [[Mother Earth]], [[Lunar]] or [[Shroomlette]] tree.
+These technique points can be used on the [[Mother Earth]], or [[Goomshroom]] tree.
 ## <span style="color:rgb(103, 254, 120)">1 - Druidic</span>
-You learn the secret language, druidic (see [[Linguistics]]). In text form it can only be seen by other creatures that know druidic. You can essentially write secret messages by touching your finger to any natural object (typically boulders and trees) and writing. Any message written in this way can be erased by a creature that knows druidic with ease.
+You learn the secret language, druidic (see [[Languages]]]). In text form it can only be seen by other creatures that know druidic. You can essentially write secret messages by touching your finger to any natural object (typically boulders and trees) and writing. Any message written in this way can be erased by a creature that knows druidic with ease.
 ## <span style="color:rgb(103, 254, 120)">1 - Nature Tongue</span>
 You can speak with animate [[plants]] and [[Beasts]] as though you share a common language. They are able to much better articulate their feelings as though they possessed the intellect of a simple humanoid, but their instincts, desires and attitude toward you remain largely the same.
 

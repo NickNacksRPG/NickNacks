@@ -14,7 +14,7 @@ Critical hits and successful Poise breaks drop coins around the target. When col
 
 This ability represents taking something away from your opponent with each hit. If you use it while sparring or against allies to "farm" money, they may need that money back to replace the golden tooth they lost, jewelry you pilfered, the kidney you stole etc.
 
-[[DM]] discretion.
+[[GM]] discretion.
 
 **1 - Cunning Action: Steal**
 You can use ~={red}Cunning Action=~ to perform Thievery. You can use Steal to produce ~={red}Blood Money=~ once per creature, in addition to taking something from them.
@@ -24,7 +24,7 @@ As an action, explode ALL of your ~={red}Blood Money=~, dealing your 2d8 (9) Cru
 
 This kills the Blood Money.
 
-**2 - Band of Thieves** [[Companion]] [[Summoning]]
+**2 - Band of Thieves** [[Companion]] 
 You can easily find and hire goons to call upon for aid. These are humanoids with half your [[HP]] (including when summoned), and +1 [[DEX]] and [[LUK]]. They are minions of half your level. They have no other abilities or statistics of their own (no techniques, feats, class features, etc).
 
 You may equip them as you please, and Summon them as a ~={red}Cunning Action=~ as if by a Summoning Contract. They take their turn on your turn - the player controls them.
@@ -35,7 +35,7 @@ The first two goons are free, but additional goons or replacing goons costs 500g
 *You can train specific commoners or intelligent level 0 creatures to be your goons and be summon-ready, with DM discretion - but far more work on the player's part is required to justify anything with class levels, such as investing in real summoning contracts and extensive training.* 
 
 **4 - Grand Larceny**
-When you use the [[Steal]] action, you can [[Steal]] from everything in reach.
+When you use the Steal action, you can Steal from everything in reach.
 
 **6 - Coin Collection**
 Gain ~={green}+20%=~ of your character's current wealth as bonus. The value of your share of all future loot, as well as money earned through Profession, is increased by 20%.

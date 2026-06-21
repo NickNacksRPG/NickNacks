@@ -1,8 +1,6 @@
 ---
 icon: RaHelmet
 ---
-[[Fighter]] [[Archetype]].
-
 Your armor is a second skin to you. Your armor is also your first skin. The iron knuckle has 2 "phases" to their battles. The first is a walking tank with multiple layers of armor, durable and stubborn until you get to the squishy _single layer_ of plate armor underneath. The second is a nimble warrior that gets a boost of adrenaline, feeling light as a feather just after their outer shell is cracked open.
 
 Iron knuckles are practically invincible to being attacked head on while layered up, and must be ganged up on. Mages will find a much easier time breaking the outer layer.
@@ -44,10 +42,6 @@ While <span style="color:rgb(192, 0, 0)">light as a feather</span>, when a creat
 If you are <span style="color:rgb(192, 0, 0)">layered up</span>, when you shove a creature, you can move with them to increase the shove distance by your remaining movement.
 
 While <span style="color:rgb(192, 0, 0)">light as a feather</span>, you gain [[powerful charge]].
-## <span style="color:rgb(103, 254, 120)">6 - Adrenaline</span>
-If you are <span style="color:rgb(192, 0, 0)">layered up</span> then you are [[Immunity|immune]] to [[Fatigued|fatigue]].
-
-You gain the innate technique [[adrenaline burst]] while <span style="color:rgb(192, 0, 0)">light as a feather</span>.
 ## <span style="color:rgb(103, 254, 120)">8 - Invincible</span>
 You are immune to attack rolls made by [[Minion|minions]] while <span style="color:rgb(192, 0, 0)">layered up</span>. Any minion that attacks you is instead set to 1 poise automatically as it bounces off of your metal body. This is treated as a miss.
 

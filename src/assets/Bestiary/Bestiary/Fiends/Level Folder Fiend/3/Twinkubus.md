@@ -1,6 +1,6 @@
 An androgynous creature with tiny horns lies in bed with some brutish looking men. It gives the order to take care of you and they do so with great pleasure, an unnatural fervor to their compliance.
 
-Level 3 Medium Fiend (mastermind, lewd)
+Level 3 Medium Fiend <span style="color:rgb(192, 0, 0)">(mastermind, lewd)</span>
 ## <span style="color:rgb(0, 176, 240)">Defense Traits</span>
 
 | <span style="color:rgb(0, 176, 240)">AC</span>    | 18                        |     |

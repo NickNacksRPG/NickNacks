@@ -2,7 +2,6 @@
 
 Tags: [[Recharge]]
 <span style="color:rgb(103, 254, 120)">Requirements </span>- 
-- You gain +5 [[Inventory|inventory slots]].
 
 By spending 1 hour in a settlement, 1,000 gold and any number of inventory slots, you can prepare nebulous "goods" for later retrieval. As a standard action you can root through your stuff to pull out ANY item that you could fit in the slots within the gold limit.
 

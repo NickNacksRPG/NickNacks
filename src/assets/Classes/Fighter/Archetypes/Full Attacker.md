@@ -1,8 +1,6 @@
 ---
 icon: BoBxRun
 ---
-[[Fighter]] [[Archetype]].
-
 Feeling nostalgic about 3e, 3.5e or PF1e? Well here's me doing my best to recreate that experience in a slightly less heavy handed way than BB fighter. The full attacker is the fightiest guy, all about gaining insane amounts of movement speed and then using that speed to gain more actions. Woe to those who dare to stand in your face.
 ## <span style="color:rgb(103, 254, 120)">1 - Who's Next?</span>
 If you defeat an enemy and don't have enough speed to reach a new enemy, you can move until you threaten the next closest enemy, unless your speed is 0.
@@ -11,7 +9,7 @@ Any turn you spend your standard action to make an attack, can make an additiona
 
 <span style="color:rgb(192, 0, 0)">You cannot use techniques or special attacks after full attacking. If you use a special attack or technique during your turn, you cannot full attack.</span>
 ## <span style="color:rgb(103, 254, 120)">1 - Fervor of Battle</span>
-During combat, your speed increases by 15 this level and another 5 every level after. You must always end your movement with an enemy in reach. If you ever end your turn without an enemy in reach for any reason, you become [[clumsy]] 1.
+During combat, your speed increases by 15 this level and another 5 every level after. You must always end your movement with an enemy in reach. If you ever spend a turn without an enemy in [[reach]] for any reason, you become [[clumsy]] 1.
 ## <span style="color:rgb(103, 254, 120)">2 - Action Surge</span>
 Each one can be used in place of a superior attack and they all share a global cooldown, only able to be used 1/round.
 You cannot sacrifice superior attacks gained from _baby slayer_ to use these abilities.

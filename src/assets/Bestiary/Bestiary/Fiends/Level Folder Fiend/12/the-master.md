@@ -1,7 +1,4 @@
----
-hidden: true
----
-
+[[Crust]]
 # The Master
 
 **Level 12 Medium Fiend \[unique] \[boss] \[mastermind]**

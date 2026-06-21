@@ -14,7 +14,7 @@ You have [[martial specialization]] and [[magical specialization]].
 You gain 2 technique points at level 1, then another point every 2 levels after.
 These technique points can be used on the scoundrel and moogen trees.
 ## <span style="color:rgb(103, 254, 120)">1 - Master of Deception</span>
-You get proficiency in the disguise and deception skills, with a +4 bonus. You also gain the [[Signature Skill]] feat for disguise. You start play with a disguise [[kit]].
+You get proficiency in the [[+Disguise]] and [[+Deception]] skills, with a +4 bonus. You also gain the [[Signature Skill]] feat for disguise. You start play with a disguise [[Tools|kit]].
 ## <span style="color:rgb(103, 254, 120)">1 - Fight Dirty</span>
 As a swift action, you can make a special type of attack against an enemy.
 - <span style="color:rgb(103, 254, 120)">Mockery</span> [[psychic]] - Deal (d4+[[LvL]]) psychic damage to a creature within 30 ft and give them disadvantage on their next attack roll (will halves dmg and negates disadvantage). If you can personalize the insult to an extent the GM determines it digs deep, the DC is 2 higher.

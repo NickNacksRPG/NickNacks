@@ -20,17 +20,21 @@ You can transform a single standard [[Gun|pistol]] into a special weapon just by
 * You get +2 to [[attack]] when you attack using this gun.
 * Bullets fired out of combat do not consume ammo.
 * The 4th shot gets +10 to attack and deals 2x damage on a [[crit]] instead of 1.5x.
-* Reloading always requires a standard action, even it feats, techniques and such say otherwise.
+## <span style="color:rgb(103, 254, 120)">1 - Gunplay</span>
+Whenever you spend your standard action to make an attack with your pistol, you can spend a swift action to cast a [[+Cantrips|cantrip]].
+In any other circumstance, you can perform any one of the following actions as a swift action. Each spends 1 ammunition.
+- <span style="color:rgb(103, 254, 120)">Warning Shot</span> [[fear]] - Fire your pistol at a creature to miss and inflict [[shaken]] 1 (will negates). Does not trigger "on miss" effects.
+- <span style="color:rgb(103, 254, 120)">Dance!</span> - Telegraph a shot at a creatures feet and fire causing 5 ft of [[forced movement]] in a direction of your choosing (reflex changes to targets choosing, if any).
 ## <span style="color:rgb(103, 254, 120)">1 - Climax</span>
-When you [[Crit]], gain +2 [[AC]], +20 [[Land Speed]] and [[Elusive]] movement until the start of your next turn.
+When you [[Crit]], gain +20 [[Land Speed]] and [[Elusive]] movement until the start of your next turn.
 ## <span style="color:rgb(103, 254, 120)">1 - Flowering Trap (Su)</span>
-As a swift action, place a trap in an unoccupied space that quickly camouflages with the surrounding terrain and blends into the terrain (DC 20+[[LvL]] [[+Perception]] to notice). If an enemy steps on a trapped space, it blossoms. Blossomed traps create an area of [[Light Level|Bright Light]] and [[Difficult Terrain]] in a 5 ft radius around its space until the end of the triggering creatures turn. At the end of the turn of the triggering creature, it explodes, dealing (2d6+d6/odd lvl) pierce damage to the area made into difficult terrain.
+As a swift action, place a trap in an unoccupied space that quickly camouflages with the surrounding terrain and blends into the terrain (DC 20+[[LvL]] [[+Perception]] to notice). If an enemy steps on a trapped space, it blossoms. Blossomed traps create an area of [[Light Level|Bright Light]] and [[Difficult Terrain]] in a 5 ft radius around its space until the end of the triggering creatures turn. At the end of the turn of the triggering creature, it explodes, dealing (3d6+lvl) pierce damage to the area made into difficult terrain.
 
 You can have 2 traps out at once at any given time. If you place another while 2 are out, one of your choosing disappears. You are mentally alerted when a trap is triggered, and which one. You gain +4 perception against any creature that has triggered a trap since you last rested.
 
 Whenever you [[defeat]] a creature, you can choose to trigger a flowering trap beneath them that explodes at the start of your next turn. This trap doesn't count against your total.
 ## <span style="color:rgb(103, 254, 120)">1 - Spotlight (Su)</span> [[light]]
-By spending 1 mana as swift action, you can target a creature within 60 ft to have a spotlight focus on for 1 minute. The light around the spotlight artificially dims for dramatic effect (but no mechanical effect). That creature takes a -10 penalty on [[+Stealth]] and is persistently in an area of [[Light Level|Bright Light]]. The creature also has [[Advantage]] on [[+Profession]] checks to "put on a performance".
+By spending 1 mana as swift action, you can target a creature within 60 ft to have a spotlight focus on for 1 minute. The light around the spotlight artificially dims for dramatic effect (but no mechanical effect). That creature takes a -10 penalty on [[+Stealth]] and is persistently in an area of [[Light Level|Bright Light]]. The creature also has [[Advantage]] on [[+Profession]] checks to "put on a performance."
 
 While a spotlight is active, you can increase the volume of your voice to echo over even large crowds.
 ## <span style="color:rgb(103, 254, 120)">1 - Behind the Mask (Su)</span>
@@ -53,7 +57,7 @@ You can cast this as an instant action when you successfully end a combat with f
 ## <span style="color:rgb(103, 254, 120)">2 - Armor Penetration</span>
 Your pistol gets a variety of new benefits.
 - Shots deal [[True Damage]]. 
-- They ignore [[Cover]], and [[Improved Cover]], but not [[Total Cover]].
+- They ignore [[Partial Cover]], and [[Improved Cover]], but not [[Total Cover]].
 - They cannot miss and always [[Graze]], even if they are deflected via something like [[Buckler|parry]] or [[Block]].
 ## <span style="color:rgb(103, 254, 120)">3 - Perfect Execution</span>
 When you kill a creature with your pistol, you can choreograph how their blood splatters. You can cause it to form a pool of a specific shape, with enough precision to write in text, but usually no more than 2 sentences. You can also cause it to make patterns on the deceased's skin.
@@ -61,6 +65,8 @@ When you kill a creature with your pistol, you can choreograph how their blood s
 When you [[defeat]] a creature, you can spend 2 mana as an instant action to cause a pair of curtains to appear and close in between you and your victim directly adjacent to you. These curtains are 20 ft tall and 20 ft wide. It lasts for 1 minute, or until they are opened.
 
 You can open the curtains as a free action from any distance, and an enemy can open the curtains as a standard action if they are adjacent. It is not difficult for any creature to simply move past the curtains by going through or under without opening them.
+
+Creating a new pair of curtains creates any previous ones to disappear.
 ## <span style="color:rgb(103, 254, 120)">5 - Eulogy (Su)</span>
 When you kill someone, you can write a eulogy for them, provided you have the means to physically write one. You can drop this eulogy off on the corpse, the creature's previous home or simply a nearby settlement. This eulogy naturally multiplies, finding itself in newspaper stands, cafes, waiting rooms etc. The less important the creature, the less it spreads. This results in the eulogy being pretty common knowledge for well known people, and the talk of the town for beloved or reviled creatures.
 
