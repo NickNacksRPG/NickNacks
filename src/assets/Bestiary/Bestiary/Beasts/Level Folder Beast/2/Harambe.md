@@ -28,7 +28,7 @@ Constant -
 <span style="color:rgb(192, 0, 0)">Special Attack: Dive Bomb</span> - While in the presence of small and flexible trees, such as bamboo or saplings, a gorilla can bend it and have it slap a creature. The attack deals +d8 bonus crush dmg and makes the creature [[Clumsy]] 2 [[On-hit]].
 ## <span style="color:rgb(247, 138, 255)">Weaknesses/Deep Lore</span>
 
-<span style="color:rgb(247, 138, 255)">Never Forget</span> - Harambe have [[weakness]] 2 to [[Gun]] attacks, and are [[shaken]] 1 on hit by them.
+<span style="color:rgb(247, 138, 255)">Never Forget</span> - Harambe have [[Weakness]] 2 to [[Gun]] attacks, and are [[shaken]] 1 on hit by them.
 <span style="color:rgb(247, 138, 255)">Dominance Established</span> - Harambe are often led by an elder male who calls the shots and protects the rest of the troop. In neutral scenarios where harambe encounter other creatures, they will attempt to intimidate them to assess their foes. By succeeding on an opposed [[+Intimidation]] check, a creature can usually dissuade harambe from engaging.
 ## <span style="color:rgb(103, 254, 120)">Other Traits</span>
 

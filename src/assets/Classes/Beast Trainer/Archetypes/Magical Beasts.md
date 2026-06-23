@@ -4,7 +4,7 @@ icon: RaFairyWand
 [[Beast Trainer]] [[Archetype]].
 
 Magical Beasts use their casting to enhance their beast companions. They are able to combo their spells with their beast.
-<span style="color:rgb(192, 0, 0)"><br>This archetype replaces Tandem Strike</span>
+## <span style="color:rgb(192, 0, 0)">This archetype replaces Tandem Strike</span>
 
 ## <span style="color:rgb(103, 254, 120)">1 - Buffed Up</span>
 Your beast companion benefits from any technique you have prepared with the [[prepared]] tag.

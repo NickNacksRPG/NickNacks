@@ -26,7 +26,7 @@ Armors and shields requires 2 less [[STR]] to use. You ignore the [[+Stealth]] p
 ## <span style="color:rgb(103, 254, 120)">1 - Physical Training</span>
 Gain athletics as a skill with a +4 bonus. You can [[Breakout]] an ally as a swift action, regardless of the action it usually took to breakout.
 ## <span style="color:rgb(103, 254, 120)">2 - Bravery</span>
-You have [[resistance]] to [[fear]] effects.
+You have [[Resistance]] to [[fear]] effects.
 ## <span style="color:rgb(103, 254, 120)">2 - Always Ready</span>
 When combat starts, if you are below your max hp, heal to your max HP.
 ## <span style="color:rgb(103, 254, 120)">2 - Baby Slayer</span>

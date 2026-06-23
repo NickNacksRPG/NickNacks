@@ -2,7 +2,6 @@
 aliases:
   - main character
   - main characters
-icon: 🦸
 ---
 Have you ever wanted to write an epic story for a character you made? How they survived a bloody conflict, went through incredibly rigorous training to become the best and brightest mage, was chosen by god or some other equally astonishing development. Then the game says "you die in one hit to a goblin."
 

@@ -19,7 +19,7 @@ Level 2 Medium Fiend <span style="color:rgb(192, 0, 0)">(lewd, monster)</span>
 Share the Love - Whenever a blessed maintains a grapple or services a creature, they inflict a T3 affliction (will negates).
 
 <span style="color:rgb(255, 192, 0)">The Master's Blessing</span> - Creature experiences the aches and pains of the world much more vividly as their bones grind against each other and each breath too warm, too cold or too wet. They gain 
-[[weakness]] 2 to all damage.
+[[Weakness]] 2 to all damage.
 
 During this time they will be visited in the night by [[The Master]]. Without some form of outside assistance to protect their mind from dream intruders, they must roll a DC 24 will save or be unable to resist the temptations of this silent dream visitor and partake of her flesh. Interacting with The Master temporarily abates the pain, and the debilitating status of this affliction, for 24 hours.
 

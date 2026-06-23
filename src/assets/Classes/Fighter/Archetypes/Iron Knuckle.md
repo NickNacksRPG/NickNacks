@@ -45,7 +45,7 @@ While <span style="color:rgb(192, 0, 0)">light as a feather</span>, you gain [[p
 ## <span style="color:rgb(103, 254, 120)">8 - Invincible</span>
 You are immune to attack rolls made by [[Minion|minions]] while <span style="color:rgb(192, 0, 0)">layered up</span>. Any minion that attacks you is instead set to 1 poise automatically as it bounces off of your metal body. This is treated as a miss.
 
-While <span style="color:rgb(192, 0, 0)">light as a feather</span>, you gain [[resistance]] to damage from failed saving throws (aka you always take half damage, but if you fail, you still suffer any additional effects).
+While <span style="color:rgb(192, 0, 0)">light as a feather</span>, you gain [[Resistance]] to damage from failed saving throws (aka you always take half damage, but if you fail, you still suffer any additional effects).
 ## <span style="color:rgb(103, 254, 120)">10 - Back Massage</span>
 Whenever a creature misses or [[Graze|grazes]] you, they are knocked back 10 ft. If you also poise break them with Power Pose as part of the same attack, you can push them 20 ft.
 ## <span style="color:rgb(103, 254, 120)">11 - Special Attack: Iron Wave</span>

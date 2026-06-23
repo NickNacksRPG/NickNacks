@@ -52,7 +52,7 @@ As an instant action, you can cause all damage you take to be delayed until the 
 
 Recharges after using chug.
 ## <span style="color:rgb(103, 254, 120)">2 - Poison Resistance</span>
-You gain [[resistance]] to poison damage, [[+Toxins|toxins]] and [[Venom]].
+You gain [[Resistance]] to poison damage, [[+Toxins|toxins]] and [[Venom]].
 ## <span style="color:rgb(103, 254, 120)">2 - Stalwart</span>
 You take half damage from fortitude saves. When you pass a fort save, it deals no damage and has no additional effect.
 ## <span style="color:rgb(103, 254, 120)">4 - Improvise, Adapt, Overcome</span>

@@ -23,7 +23,7 @@ By embracing his will you have little need for your own. Instead of taking a pen
 Decrease your wisdom by 1.
 Gain 10 [[Frogg Saran]] [[Deific Boons|GBP]].
 ## <span style="color:rgb(103, 254, 120)">1 - Inner Machinations</span> [[Psychic]]
-You gain [[resistance]] to psychic damage.
+You gain [[Resistance]] to psychic damage.
 
 Whenever a creature attempts to read your thoughts, it fails. When a creature attempts to read your thoughts or deals psychic damage to you, they take 2d6+lvl (7+lvl) psychic damage.
 ## <span style="color:rgb(103, 254, 120)">1 - Suffering From Success</span>

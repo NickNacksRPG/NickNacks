@@ -7,7 +7,7 @@ Action: 1 Standard Action
 | Target/[[AoE]] | 1 creature |
 | Duration       | -          |
 | Save           | Will       |
-You place a curse on a creature whose power can only be used to minorly inconvenience a person. You cannot use this curse to provide any real form of mechanical benefit, like inflicting [[Status]] or [[Damage]].
+You place a curse on a creature whose power can only be used to minorly inconvenience a person. You cannot use this curse to provide any real form of mechanical benefit, like inflicting [[+Status]] or [[Damage]].
 
 Otherwise, the sky is the limit.
 

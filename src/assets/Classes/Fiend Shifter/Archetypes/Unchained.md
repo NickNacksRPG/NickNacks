@@ -36,7 +36,7 @@ You can attack yourself, dealing damage as normal, requiring no attack roll. You
 ## <span style="color:rgb(103, 254, 120)">1 - Battered and Bruised</span>
 While at or below 50% hp, you have +2 AC, +2 to all DCs you inflict and +2 to all saves.
 ## <span style="color:rgb(103, 254, 120)">4 - Sadism</span>
-[[On-hit]] your attacks apply a stacking debuff (similar to shaken/sickened, max 4) called pain. Pain gives a creature [[weakness]] 1 to all damage types. Any healing effect removes all pain stacks.
+[[On-hit]] your attacks apply a stacking debuff (similar to shaken/sickened, max 4) called pain. Pain gives a creature [[Weakness]] 1 to all damage types. Any healing effect removes all pain stacks.
 ## <span style="color:rgb(103, 254, 120)">6 - Sharing is Caring (Sp)</span>
 You can use your _share my pain_ feature on allies. Instead of its usual effect, it causes them to take half damage, redirecting the mitigated damage back to you. You can sever these chains as a free action.
 ## <span style="color:rgb(103, 254, 120)">8 - Shadenfreude (Su) (healing)</span>

@@ -37,6 +37,6 @@ Choose one at this level and another at level 6 and 10,
 - <span style="color:rgb(103, 254, 120)">Quaking Rune</span> - All <span style="color:rgb(192, 0, 0)">ruptured</span> creatures are also [[staggered]].
 - <span style="color:rgb(103, 254, 120)">Vengeful Rune</span> - Your next onslaught against a <span style="color:rgb(192, 0, 0)">ruptured</span> creature costs no energy. If you are within range, you can use onslaught as an instant action.
 - <span style="color:rgb(103, 254, 120)">Celestial Rune</span> - All <span style="color:rgb(192, 0, 0)">ruptured</span> creatures are smited by divine power, taking 2d6+lvl (7+lvl) holy damage.
-- <span style="color:rgb(103, 254, 120)">Cursed Rune</span> - All <span style="color:rgb(192, 0, 0)">ruptured</span> creatures gain [[weakness]] 2 to all damage for 1 minute.
+- <span style="color:rgb(103, 254, 120)">Cursed Rune</span> - All <span style="color:rgb(192, 0, 0)">ruptured</span> creatures gain [[Weakness]] 2 to all damage for 1 minute.
 
 Ligma Rune - All ruptured creatures contract ligma.

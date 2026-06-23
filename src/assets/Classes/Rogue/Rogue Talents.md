@@ -1,5 +1,5 @@
 ## <span style="color:rgb(103, 254, 120)">2 - Never Lucky</span> [[Su]] [[recharge]]
-Using your cunning action, you can cause an unfortunate event to occur against a creature within 30 ft of you. This event is harmful and sudden, such as a lightning strike on a clear day, a large creature falling on them from the sky or a brick falling loose from the wall next to them. They take 2d6+lvl (7+lvl) and are [[clumsy]] 1 (reflex halves dmg and negates clumsy). The damage type depends on the effect, but the damage can never be something that the target has [[resistance]] or [[immunity]] to.
+Using your cunning action, you can cause an unfortunate event to occur against a creature within 30 ft of you. This event is harmful and sudden, such as a lightning strike on a clear day, a large creature falling on them from the sky or a brick falling loose from the wall next to them. They take 2d6+lvl (7+lvl) and are [[clumsy]] 1 (reflex halves dmg and negates clumsy). The damage type depends on the effect, but the damage can never be something that the target has [[Resistance]] or [[Immunity]] to.
 
 The [[DC]] increases by 2 if you use this ability after the target says something like "that would never happen" or "may the gods strike me down if my cause is not righteous" or something to that effect.
 

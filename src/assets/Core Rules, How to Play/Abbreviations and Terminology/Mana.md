@@ -1,7 +1,7 @@
 ---
 icon: 💎
 ---
-If you are interested in the crafting material, see [[crystallized mana]].
+If you are interested in the crafting material, see [[Crystallized Mana]].
 
 Mana is the resource that enables all sorts of things. For the purposes of this explanation, mana is primary used to fuel [[Technique Rules|techniques]]. It also fuels mana class abilities and is a crafting component. Mana itself has value.
 

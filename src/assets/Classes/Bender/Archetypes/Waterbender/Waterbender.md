@@ -20,6 +20,6 @@ You can carry large quantities of water with you using waterbending in order to 
 ## <span style="color:rgb(103, 254, 120)">7 - Elemental Intuition: Water Limbs</span>
 Your [[Reach|natural reach]] increases during your turn by 5 ft this level and every level thereafter (max 30). You can retrieve and hold objects, including wielding weapons.
 ## <span style="color:rgb(103, 254, 120)">9 - Elemental Intuition: Tundra Mastery</span>
-You gain [[resistance]] to [[Frost]] damage. You can "swim" _through_ ice as easily as water.
+You gain [[Resistance]] to [[Frost]] damage. You can "swim" _through_ ice as easily as water.
 ## <span style="color:rgb(103, 254, 120)">11 - Elemental Intuition: Waterbending Master</span>
 You can use water walking on land with access to a 5x5x5 cube of water. Don't let your water dry up!

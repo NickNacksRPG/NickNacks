@@ -9,4 +9,4 @@ Action: Standard
 | Save           | Reflex     |
 A shadow appears beneath the target, and a blanket of snow falls upon them immediately after. The creature takes 2d8+CL (9+CL) crush damage and has to spend 30 ft of movement to dig themselves out of the snow (reflex halves dmg and getting buried).
 
-While buried, the creature has its speed reduced to 0, has [[resistance]] to fire damage and has [[Partial Cover]]. Creatures they attack while buried also have cover.
+While buried, the creature has its speed reduced to 0, has [[Resistance]] to fire damage and has [[Partial Cover]]. Creatures they attack while buried also have cover.

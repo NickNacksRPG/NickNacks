@@ -32,5 +32,5 @@ Special Attack: <span style="color:rgb(103, 254, 120)">Pierce Defense</span> - I
 Special Attack: <span style="color:rgb(103, 254, 120)">Maim</span> - On hit reduce the creature's speed by 15ft for one round (fort negates).
 Special Attack: <span style="color:rgb(103, 254, 120)">Snipe</span> - Ignore -2 penalty to attack for a long ranged shot
 ## All <span style="color:rgb(103, 254, 120)">Shields</span>
-Special Attack: <span style="color:rgb(103, 254, 120)">Endure</span> - Slam a target with your shield and continue to hold it up, focusing on them. Gain [[resistance]] to all damage from this target for 1 round, even if you miss.
+Special Attack: <span style="color:rgb(103, 254, 120)">Endure</span> - Slam a target with your shield and continue to hold it up, focusing on them. Gain [[Resistance]] to all damage from this target for 1 round, even if you miss.
 Special Attack: <span style="color:rgb(103, 254, 120)">Shield Bash</span> - Inflict clumsy 1 on hit.

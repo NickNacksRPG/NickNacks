@@ -7,6 +7,6 @@ Action: Standard
 | Target/[[AoE]] | 1 creature |
 | Duration       | -          |
 | Save           | -          |
-You curse a foe to wander aimlessly and suffer while in forested terrain. They take a -10 penalty to survival checks made to navigate in forest/jungle type terrain. They also lose poison [[resistance]] if they have it.
+You curse a foe to wander aimlessly and suffer while in forested terrain. They take a -10 penalty to survival checks made to navigate in forest/jungle type terrain. They also lose poison [[Resistance]] if they have it.
 
 In order to remove this curse, the creature must plant 3 new trees in 3 different locations.

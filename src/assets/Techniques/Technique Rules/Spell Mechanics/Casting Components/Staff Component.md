@@ -2,8 +2,8 @@
 aliases:
   - spell focus
 ---
-Staves, Seals, Wands etc.
-In general the staff component serves much the same function no matter its shape, but there are some small differences.
+Staves, Seals, Wands etc. You must wield a spell focus in order to cast spells (unless [[Innate Technique|innate casting]]).
+In general the staff component serves much the same function no matter its shape, but there are some small differences. 
 
 <span style="color:rgb(103, 254, 120)">Staves</span> - Staves are usually long and sturdy pieces of wood. Most of the magical components of the staff are attached to the end of it. Staves can universally be used as weapons.
 

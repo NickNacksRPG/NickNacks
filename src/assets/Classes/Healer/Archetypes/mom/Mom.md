@@ -1,7 +1,7 @@
 ---
 icon: RiHeartsFill
 ---
-[[Crust]]
+## [[Crust]]
 Moms exist to support their team outside of battle just as much as they do inside the battle.
 ## <span style="color:rgb(103, 254, 120)">1 - Emotional Support</span> [[healing]]
 Mom can remove any tier 1 affliction with 1 hour of coddling.

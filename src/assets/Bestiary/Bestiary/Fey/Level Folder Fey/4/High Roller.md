@@ -8,7 +8,7 @@ Level 4 Tiny Fey
 | <span style="color:rgb(0, 176, 240)">HP</span>    | 52                        |     |
 | <span style="color:rgb(0, 176, 240)">Poise</span> | 17                        |     |
 | <span style="color:rgb(0, 176, 240)">Saves</span> | Fort +3, Refl +7, Will +5 |     |
-<span style="color:rgb(0, 176, 240)">Blessing of Frogg Saran</span> - High rollers receive a unique blessing from their patron deity. Whenever they take damage type (fire, crush, force), there is a 1 in 6 chance they gain [[resistance]] to that damage type for that day, including the instance of damage they just took. Once they fail to gain resistance to a damage type, they don't roll it again for the rest of that day.
+<span style="color:rgb(0, 176, 240)">Blessing of Frogg Saran</span> - High rollers receive a unique blessing from their patron deity. Whenever they take damage type (fire, crush, force), there is a 1 in 6 chance they gain [[Resistance]] to that damage type for that day, including the instance of damage they just took. Once they fail to gain resistance to a damage type, they don't roll it again for the rest of that day.
 
 Keep on rolling baby.
 ## <span style="color:rgb(192, 0, 0)">Offense Traits (DC 16)</span>

@@ -1,1 +1,1 @@
-Crush is a [[Damage]] type [[Tag]], which represents bludgeoning attacks, shockwaves, and blunt force trauma.
+Crush is a [[Damage]] type [[+Tag]], which represents bludgeoning attacks, shockwaves, and blunt force trauma.

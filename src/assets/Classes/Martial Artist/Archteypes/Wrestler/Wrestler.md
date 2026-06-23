@@ -7,7 +7,7 @@ Gain the [[Maneuver Versatility]] and [[Tangled]] feats. The tangled feat's bonu
 ## <span style="color:rgb(103, 254, 120)">1 - Wrestling Moves</span>
 Wrestlers are defined by their unique moves, centered around [[Grapple|grappling]]. Wrestling moves involve you initiating a grapple, and then immediately ending it in order to gain a bonus effect and deal your [[Unarmed Attack|unarmed strike]] damage, unless otherwise noted. All wrestling moves are special attacks that have a global cooldown, preventing them from being used multiple times in one turn and on subsequent turns (use 1 turn, don’t use next turn).
 
-If the target is [[knocked down]], [[staggered]] or cannot take actions as a result of some other [[Status]], the wrestling move is considered a finisher, increasing its DC by 2.
+If the target is [[knocked down]], [[staggered]] or cannot take actions as a result of some other [[+Status]], the wrestling move is considered a finisher, increasing its DC by 2.
 
 Gain 2, then an additional one at level 4, 6, 8 and 10. See subsection for selection.
 ## <span style="color:rgb(103, 254, 120)">2 - Crowd Favorite</span>

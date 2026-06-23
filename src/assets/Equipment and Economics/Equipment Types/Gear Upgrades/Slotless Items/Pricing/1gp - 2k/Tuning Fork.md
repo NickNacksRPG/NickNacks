@@ -1,6 +1,6 @@
 ## <span style="color:rgb(103, 254, 120)">50g+</span>
 
-A tuning fork is a metal rod that forks at the end with a unique enchantment on it that allows it to attune to a [[Planes|Plane]], which is a prerequisite for much planar travel via magic, namely [[plane shift]]. By default, tuning forks are not attuned to any plane, though most shops with a magical slant will have some forks attuned to whatever plane they are currently on to get their customers back home. 
+A tuning fork is a metal rod that forks at the end with a unique enchantment on it that allows it to attune to a [[-Planes|Plane]], which is a prerequisite for much planar travel via magic, namely [[plane shift]]. By default, tuning forks are not attuned to any plane, though most shops with a magical slant will have some forks attuned to whatever plane they are currently on to get their customers back home. 
 
 You attune a fork to a plane by embedding it into a solid surface within a plane, making attuned forks. A creature proficient in [[+Planes]] can automatically identify what plane a fork is attuned to, or at least a vague categorization like "a [[demiplane]]."
 

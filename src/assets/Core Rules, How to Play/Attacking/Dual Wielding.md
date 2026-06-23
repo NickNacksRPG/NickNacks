@@ -12,3 +12,6 @@ If you make a special attack that involves making multiple attacks, such as the 
 If you gain additional limbs to wield weapons, you do not get more "main hand" or "off hand" attacks by default.
 
 You cannot dual wield with [[Natural Attack|natural attacks]] or [[Unarmed Attack|unarmed strikes]] by default.
+
+<span style="color:rgb(192, 0, 0)">Note - </span>
+Dual wielding refers to using two weapons simultaneously and is its own separate mechanic from simply holding two different weapons and using them separately (such as a [[staff]] bash and a [[gun]] shot in a [[multiattack]], or a sword a shield).

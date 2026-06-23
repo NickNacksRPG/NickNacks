@@ -1,6 +1,6 @@
 Tags: [[Su]], [[Elusive]]
 
-<span style="color:rgb(103, 254, 120)">Requirements</span> - [[Exalted - Fallen]]
+<span style="color:rgb(103, 254, 120)">Requirements</span> - [[Seraphim]]
 
 Whenever you affect an ally with a [[Healing]] effect, they can choose to move 5 ft closer to you.
 

@@ -1,4 +1,4 @@
-## [[Crust]]y content
+## [[Crust]]
 
 Experience is a meta-currency gained through prioritizing primary campaign events that allows players to influence the story/chronological order of things in order to accomplish personal goals quickly and get back into the action faster. As a baseline, 10 XP is the equivalent of one in-game day of events. 
 Experience is rewarded for spending time working towards campaign goals in an active manner. This mainly means exploring dungeons, splitting heads, and overthrowing governments - anything that is both related to the main campaign objectives, and is not part of downtime events (such as recovering from an [[Affliction]] or [[Crafting]]). XP is rewarded based on the time required to complete the mission, with additional bonuses for overcoming particular challenges.

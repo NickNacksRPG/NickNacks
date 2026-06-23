@@ -1,11 +1,11 @@
 ---
 icon: LiAnchor
 ---
-Classes are the fundamental basis from which you obtain abilities.
+Classes are the largest component of your character that decides what unique abilities you gain.
 
 Classes get a set of numerical bonuses to aid them. Every class has listed [[+HP]], [[Skills]], [[Memory]], and at least one [[+Saving Throw|Save]] bonus. Stats can be flat front-loaded amounts, per-[[LvL]] bonuses, or both.
 
-Most characters will get their core abilities front-loaded at level 1. All classes get access to some type of [[Technique Rules|techniques]], which can be martial techniques or spells. Technique points granted through class usually have some form of restriction.
+Most characters will get their core abilities front-loaded at level 1. All classes (almost) get access to some type of [[Technique Rules|techniques]], which can be martial techniques or spells. Technique points granted through class usually have some form of restriction.
 
 Even levels are mostly dedicated to class features that directly increase the classes power. This includes gaining access to new combat abilities, increasing the power of old ones, and getting their own special attacks.
 

@@ -28,7 +28,7 @@ Gain necril as a bonus [[Languages|language]].
 ## <span style="color:rgb(103, 254, 120)">1 - Charnel Soldiers (Su)</span>
 All of your controlled undead share your [[+Teamwork Feats|teamwork feats]].
 ## <span style="color:rgb(103, 254, 120)">2 - Necrosis</span>
-Gain [[resistance]] to necrotic damage.
+Gain [[Resistance]] to necrotic damage.
 ## <span style="color:rgb(103, 254, 120)">6 - Command Undead (Su)</span>
 Temporarily gain control over an undead creature. Functions as the [[Domination]] spell (will negates), but it can only target undead within 10 ft of you, it only lasts 3 rounds max and it does not share the spell's tags. Against minions and mindless undead that are not companions, this has no save.
 ## <span style="color:rgb(103, 254, 120)">8 - Blindsense</span>

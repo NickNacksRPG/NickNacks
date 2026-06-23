@@ -7,7 +7,7 @@ Legally distinct fiendish furry.
 | -------- | ----------------------------------------------------------------------------------------------------- |
 | Size     | Medium                                                                                                |
 | Type     | Humanoid, Beast, Fiend                                                                                |
-| Ignite   | You have [[resistance]] to fire. When you take fire damage, you gain [[Fast Healing]] 2 for 3 rounds. |
+| Ignite   | You have [[Resistance]] to fire. When you take fire damage, you gain [[Fast Healing]] 2 for 3 rounds. |
 
 | <span style="color:rgb(103, 254, 120)">Major Default</span> |                                                                                                                                                                                                                                                                     |
 | ----------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

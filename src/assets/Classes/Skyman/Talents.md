@@ -8,7 +8,7 @@ Abilities that are preceded by a number have a level requirement.
 <span style="color:rgb(103, 254, 120)">Ker-plink</span> - When you take the [[Shields Up]] action against a [[Ranged Attack|Ranged]] [[Weapon Attack]], you (or the target you shield) negate its damage entirely. This only functions for 1 attack with shields up and doesn't work against [[+Siege Weapon|siege weapons]].
 <span style="color:rgb(103, 254, 120)">Bowl 'em Over</span> - You gain the [[Trample]] ability while you wield a shield, dealing 2d6+[[LvL]] crush damage.
 
-<span style="color:rgb(103, 254, 120)">Paralyzed</span> - As an instant action when you would take [[Damage]] or suffer a [[Status|status effect]], you can instead choose to [[Stunned|stun]] yourself until the end of your next turn.
+<span style="color:rgb(103, 254, 120)">Paralyzed</span> - As an instant action when you would take [[Damage]] or suffer a [[+Status|status effect]], you can instead choose to [[Stunned|stun]] yourself until the end of your next turn.
 <span style="color:rgb(103, 254, 120)">Face Tank</span> [[Healing]] - Whenever you provoke an [[AoO]], gain 10 [[Temp HP]].
 
 <span style="color:rgb(103, 254, 120)">Just Your Imagination</span> - Gain the [[Sniper]] feat. If you successfully snipe an enemy to ambush and the enemy fails their [[+Perception]] check, combat does not start.

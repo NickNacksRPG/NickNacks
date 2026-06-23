@@ -66,7 +66,7 @@ Seahorse - Makes for a good underwater mount
 - <span style="color:rgb(0, 176, 240)">(4) Shortcut (Su)</span> - You can squeeze through the tightest of spaces and the smallest of cracks. Even with only a centimeter of space, you can slide through it. You can even comfortably sit in spaces like these indefinitely. You can't effectively navigate while squished in this way, making it only usable to get through very thin gaps, like doors and windows.
 
 <span style="color:rgb(103, 254, 120)">Fire Making  (Profession Arson)</span>
-- <span style="color:rgb(192, 0, 0)">Fireproof</span> - You gain [[resistance]] to fire damage. You take no damage or penalty to AC while [[ablaze]]. You can snap your fingers to spontaneously combust as a free action. The fire is cosmetic and provides light, but no heat.
+- <span style="color:rgb(192, 0, 0)">Fireproof</span> - You gain [[Resistance]] to fire damage. You take no damage or penalty to AC while [[ablaze]]. You can snap your fingers to spontaneously combust as a free action. The fire is cosmetic and provides light, but no heat.
 - <span style="color:rgb(192, 0, 0)">Meltation</span> - You gain the Melt [[Firebending Style]] ability. If you don't have the elemental blast feature, your blast damage is (d6 at level 1, and d6 higher every odd level after).
 - <span style="color:rgb(192, 0, 0)">Pyrotechnics</span> - You gain a technique point in the [[pyromancy]] tree. You can select this boon multiple times.
 - <span style="color:rgb(192, 0, 0)">Dubstep Ignite</span> [[recharge]] - When a creature survives one of your attacks with 5 or less hp, you know. You can spend an instant action to deal 5 [[true damage]] to them. Usable 1/minute.

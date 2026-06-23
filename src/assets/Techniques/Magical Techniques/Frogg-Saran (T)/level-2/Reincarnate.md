@@ -24,7 +24,7 @@ Use the following chart determine what race the spell transforms the creature in
 | 5         | [[Dwarf]]                                             |
 | 6         | [[Eternal]]                                           |
 | 7         | [[Elf]]                                               |
-| 8         | [[Exalted - Fallen\|Exalted]]                         |
+| 8         | [[Seraphim\|Exalted]]                         |
 | 9         | [[Fairy]]                                             |
 | 10        | [[Geniekin]]                                          |
 | 11        | [[Goblin]]                                            |
@@ -35,5 +35,5 @@ Use the following chart determine what race the spell transforms the creature in
 | 16        | [[Polymerization]]                                    |
 | 17        | [[Shroomkin]]                                         |
 | 18        | [[Shades]]                                            |
-| 19        | [[Exalted - Fallen\|Fallen]]                          |
+| 19        | [[Seraphim\|Fallen]]                          |
 | 20        | [[Human]], with primary mixed blood of your next roll |

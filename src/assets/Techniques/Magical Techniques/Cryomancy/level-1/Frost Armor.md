@@ -7,7 +7,7 @@ Action: Swift
 | Target/[[AoE]] | Self    |
 | Duration       | 1 round |
 | Save           | -       |
-You cover yourself in a thin protective ice barrier. You gain [[resistance]] to the next instance of [[+HP]] damage that is not crush, slash or pierce.
+You cover yourself in a thin protective ice barrier. You gain [[Resistance]] to the next instance of [[+HP]] damage that is not crush, slash or pierce.
 
 Once you take damage from any source, minus damage over time effects like [[Bleeding|bleed]] or self inflicted damage, the ice barrier shatters and frost armor ends.
 

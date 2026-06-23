@@ -11,7 +11,7 @@ The short and stocky beard dude race
 
 | <span style="color:rgb(103, 254, 120)">Major Default</span> |                                                               |
 | ----------------------------------------------------------- | ------------------------------------------------------------- |
-| Hardy                                                       | Gain [[resistance]] to [[poison]], [[+Toxins]] and [[Venom]]. |
+| Hardy                                                       | Gain [[Resistance]] to [[poison]], [[+Toxins]] and [[Venom]]. |
 | Slow and Steady                                             | Increase your [[Poise]] by 5 and [[+HP]] by 10                |
 
 | <span style="color:rgb(103, 254, 120)">Minor Default</span> |                                                                                                                                                      |

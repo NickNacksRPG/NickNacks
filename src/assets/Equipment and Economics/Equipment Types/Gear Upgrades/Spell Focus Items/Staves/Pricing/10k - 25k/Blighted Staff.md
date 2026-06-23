@@ -2,7 +2,7 @@
 
 *The Blighted drained the strength of his enemies.*
 
-This 2h battle staff causes any [[Status|status effect]] you inflict with a [[spell]] to cure your own.
+This 2h battle staff causes any [[+Status|status effect]] you inflict with a [[spell]] to cure your own.
 
 The staff can cure any effect you inflict or the following (once per spell)...
 - [[Shaken]] 1

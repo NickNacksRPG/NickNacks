@@ -10,6 +10,6 @@ Polymorph effects transform creatures into other creatures. Many of the features
 
 <span style="color:rgb(103, 254, 120)">True Polymorph</span> - Your form completely changes to the form mentioned in the ability. You completely lose access to all of your equipment. There are only a handful of features recognizable from your previous self, such as eye color.
 
-<span style="color:rgb(103, 254, 120)">Baleful Polymorph</span> - This form of polymorph is inflicted upon you rather than willingly used. It functions very similarly to true polymorph, but provides fewer tangible benefits and often includes debilitating [[Status]]. You lose access to your equipment, cannot speak, cast spells or activate [[Su]] abilities.
+<span style="color:rgb(103, 254, 120)">Baleful Polymorph</span> - This form of polymorph is inflicted upon you rather than willingly used. It functions very similarly to true polymorph, but provides fewer tangible benefits and often includes debilitating [[+Status]]. You lose access to your equipment, cannot speak, cast spells or activate [[Su]] abilities.
 
 <span style="color:rgb(192, 0, 0)">Note:</span> "Losing access to your gear" means you can no longer activate any abilities it has (such as a [[Special Attack]]), or wield any weapons/spell focus items. If a piece of gear gives a passive bonus (such as armor's [[AC]] or a shield's [[poise]]) then you still maintain that while true/baleful polymorphed.

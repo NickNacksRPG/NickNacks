@@ -38,7 +38,7 @@ You recover from all stacks of [[Drained|drain]] every time you rest, regardless
 
 As a standard action, you can touch a creature to absorb ([[LvL]]) stacks of drain from them and you become drained an equal amount. A creature can only be affected by this once each week.
 ## <span style="color:rgb(103, 254, 120)">8 - Elemental Protection (Su)</span>
-Gain [[resistance]] to a non-physical damage type. Allies in your aura also gain this.
+Gain [[Resistance]] to a non-physical damage type. Allies in your aura also gain this.
 
 You can change what you're resistant to by spending 10 minutes adjusting your magic.
 ## <span style="color:rgb(103, 254, 120)">10 - Angel Ray (Su)</span>

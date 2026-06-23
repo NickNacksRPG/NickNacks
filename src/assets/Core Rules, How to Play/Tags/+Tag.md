@@ -1,0 +1,1 @@
+Tags are descriptors that let you apply general rules to similar effects. Tags are not just limited to spells, but spells do commonly use tags. Certain tags may only effect specific parts of an ability. Use discretion when needed.

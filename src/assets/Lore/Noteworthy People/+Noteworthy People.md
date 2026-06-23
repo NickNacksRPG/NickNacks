@@ -1,0 +1,1 @@
+This is a list of people that are the stuff of legend. Great destroyers, creators, powerful warriors and everything in between. Many will reference a point on [[+The Timeline]] where they lived through (Or at least were born/influential in. Some creatures live a long time y'know!).

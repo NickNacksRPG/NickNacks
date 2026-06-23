@@ -40,7 +40,7 @@ Make an attack and a [[+Combat Maneuver|combat maneuver]].
 ## <span style="color:rgb(103, 254, 120)">1 - Speed</span>
 +10 [[land speed]].
 ## <span style="color:rgb(103, 254, 120)">1 - Naked Courage</span>
-You have [[resistance]] to physical damage (ie slash, crush, pierce). You ignore the effects of extreme temperatures and other similar insignificant environmental effects. Only functions when you do not wear armor.
+You have [[Resistance]] to physical damage (ie slash, crush, pierce). You ignore the effects of extreme temperatures and other similar insignificant environmental effects. Only functions when you do not wear armor.
 ## <span style="color:rgb(103, 254, 120)">2 - Rage Powers</span>
 Gain a rage power this level and levels 2, 4, 6, 8 and 10.
 ## <span style="color:rgb(103, 254, 120)">2 - Outnumbered</span>
@@ -51,7 +51,5 @@ You take half damage from fortitude saves. When you pass a fort save, it deals n
 Every time you take hp or poise damage from an enemy, take note of it. The 4th instance of damage you take provokes an [[AoO]] from the creature that dealt it. If you do not threaten the creature, attack a random creature within reach. If no creature is within reach, you can make a [[thrown]] attack if you have a free hand or wield a thrown weapon. If you can do none of these things, increase your speed by 30 next turn.
 
 This counter resets when you roll initiative.
-## <span style="color:rgb(103, 254, 120)">8 - Reckless Abandon</span>
-Break your body against your enemy for increased effectiveness. As a free action, gain +2 attack for 1 round, but every attack roll you make during this round deals 5 true damage to you.
 ## <span style="color:rgb(103, 254, 120)">11 - Always Angry</span>
 Strength granted by rage increases from +1 to +2. You are no longer fatigued after ending rage. You can start or stop raging as a free action once per turn.

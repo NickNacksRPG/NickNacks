@@ -27,7 +27,7 @@ If it remains rooted (aka it doesn't move or isn't forcefully moved). It also re
 1/day - [[Wall of Sheep]], [[Fetch]], [[Ants in your Pants]], [[Power of the Sun]], [[Inheritor's Smite]]
 Constant - [[Courage]]
 
-<span style="color:rgb(192, 0, 0)">New Life</span> [[Companion]] - If a shrubbagazzor casts a [[Mother Earth]] spell on a space where there is vegetation growing, it also causes a [whelp](whelp.md)(agazzor) to grow from it, unless it has already animated 2 of them. Compared to a normal whelp, it has the plant creature type, poison [[resistance]] and the Shrubbagazing ability, but no [[breath weapon]].
+<span style="color:rgb(192, 0, 0)">New Life</span> [[Companion]] - If a shrubbagazzor casts a [[Mother Earth]] spell on a space where there is vegetation growing, it also causes a [whelp](whelp.md)(agazzor) to grow from it, unless it has already animated 2 of them. Compared to a normal whelp, it has the plant creature type, poison [[Resistance]] and the Shrubbagazing ability, but no [[breath weapon]].
 <span style="color:rgb(192, 0, 0)">Breath Weapon</span> [[Recharge]] - Against plant creatures, the rose breath heals 6d6 (21) hp. Against non [[plants]] it [[Fascinated|fascinates]] for 1 round (will negates). Creatures with [[scent]] have [[Advantage|disadvantage]] on this save. 40 ft cone
 To recharge this effect, a shrubbagazzor must restore hp from its Take Root ability.
 <span style="color:rgb(192, 0, 0)">Tail Swipe</span> - As a swift action while grounded, a dragon can make a quick turnaround and swipe at foes it threatens with its tail. Creatures take (10+[[LvL]]) [[poise]] damage (reflex halves). Poise broken creatures are [[knocked down]].

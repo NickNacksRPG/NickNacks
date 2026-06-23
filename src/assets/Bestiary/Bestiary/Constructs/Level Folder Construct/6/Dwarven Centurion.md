@@ -9,7 +9,7 @@ Level 6 Large Construct
 | <span style="color:rgb(0, 176, 240)">Poise</span> | 40                         |                          |
 | <span style="color:rgb(0, 176, 240)">Saves</span> | Fort +10, Refl +8, Will +6 | +4 vs [[Mind-Affecting]] |
 [[Resistance]] - Slash, Pierce, Fire
-<span style="color:rgb(0, 176, 240)">Superheated</span> - Creatures have [[Advantage|disadvantage]] on [[drag]] and [[grapple]] attacks against a centurion that has activated one of its Supercharge attacks unless they have [[resistance]] or [[immunity]] to fire/heat. 
+<span style="color:rgb(0, 176, 240)">Superheated</span> - Creatures have [[Advantage|disadvantage]] on [[drag]] and [[grapple]] attacks against a centurion that has activated one of its Supercharge attacks unless they have [[Resistance]] or [[Immunity]] to fire/heat. 
 ## <span style="color:rgb(192, 0, 0)">Offense Traits (DC 18)</span>
  
 | <span style="color:rgb(192, 0, 0)">Bladed Arm (S)</span>   | +10        |                          |
