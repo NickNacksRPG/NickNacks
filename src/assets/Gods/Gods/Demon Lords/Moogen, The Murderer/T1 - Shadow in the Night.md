@@ -4,4 +4,6 @@ aliases:
 ---
 Tags: [[Su]] 
 
-Uhhh
+Uhhhh
+
+Ligma

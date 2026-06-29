@@ -9,7 +9,7 @@ Alchemist is a hybrid class with the potential to branch in many directions depe
 | [[Poise]]                | +6               |
 | [[Skills]]               | 6                |
 | [[+Saving Throw\|Saves]] | +2 [[Fortitude]] |
-| [[Memory]]               | 3+               |
+| [[Memory]]               | 3+[[LvL]]        |
 ## <span style="color:rgb(103, 254, 120)">1 - Technique</span>
 You have [[Magical Specialization]] and [[Martial Specialization]]
 You gain two technique points at level 1, then another two points every 2 levels after.
