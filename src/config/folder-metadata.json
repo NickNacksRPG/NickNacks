@@ -386,15 +386,15 @@
     "icon": "📆"
   },
   "Meta Discussions": {
-    "color": "#ffffff",
+    "color": "#80fff3",
     "icon": "speech-bubble"
   },
   "Minigames": {
-    "color": "#ffffff",
+    "color": "#e19410",
     "icon": "gamepad"
   },
   "Minigames/Chase": {
-    "color": "#ffffff",
+    "color": "#e19410",
     "icon": "run"
   },
   "Races": {
@@ -406,14 +406,14 @@
     "icon": "flat-paw-print"
   },
   "Random Charts": {
-    "color": "#ffffff",
+    "color": "#8b6a2f",
     "icon": "🎰"
   },
   "Random Charts/Afflictions": {
-    "color": "#ffffff"
+    "color": "#8b6a2f"
   },
   "Random Charts/Character Creation": {
-    "color": "#ffffff"
+    "color": "#8b6a2f"
   },
   "Skills": {
     "color": "#c500ff",
