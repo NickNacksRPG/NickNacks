@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <title>Nick Nacks</title>
-  <base href="/Pages-TestV2/">
+  <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/png" href="favicon.png">
   
@@ -44,7 +44,7 @@
     (function() {
       // Always redirect to index.html with the original path preserved
       // This file is only served when GitHub Pages can't find a static file
-      var dest = location.protocol + '//' + location.host + '/Pages-TestV2/?redirect=' + encodeURIComponent(location.href);
+      var dest = location.protocol + '//' + location.host + '/?redirect=' + encodeURIComponent(location.href);
       if (location.search.indexOf('redirect=') === -1) {
         location.replace(dest);
       }

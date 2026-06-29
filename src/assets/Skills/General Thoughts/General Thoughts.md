@@ -1,4 +1,4 @@
-<span style="color:rgb(192, 0, 0)">All creatures are proficient in perception, unless they are mindless</span>
+## <span style="color:rgb(192, 0, 0)">All creatures are proficient in perception, unless they are mindless</span>
 
 Skill rolls are how players interact with the world without hitting it with their sword. Even if certain actions have a skill associated with them, you don't necessarily need to roll a skill check (no need to roll deception if they already believe you, no need to roll athletics in still water, etc). When one is required, it is prompted by the DM.&#x20;
 

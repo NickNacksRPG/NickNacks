@@ -3,17 +3,24 @@
     <div class="header-row">
       <h3>{{ projectName }}</h3>
       <div class="header-actions">
+        @if (features.isEnabled('collapse_all')) {
         <button class="icon-button" (click)="collapseAllFolders()" title="Collapse all folders">
           <mat-icon>unfold_less</mat-icon>
         </button>
+        }
+        @if (!features.isEnabled('header') && features.isEnabled('theme_toggle')) {
         <button class="icon-button" (click)="toggleTheme.emit()" [title]="isDarkMode() ? 'Light mode' : 'Dark mode'">
           <mat-icon>{{ isDarkMode() ? "light_mode" : "dark_mode" }}</mat-icon>
         </button>
+        }
+        @if (!features.isEnabled('header')) {
         <button class="icon-button" (click)="toggleSidebar.emit()" title="Close sidebar">
           <mat-icon>close</mat-icon>
         </button>
+        }
       </div>
     </div>
+    @if (features.isEnabled('search_bar')) {
     <div class="search-container">
       <input
         type="text"
@@ -29,6 +36,7 @@
       }
       <mat-icon class="search-icon">search</mat-icon>
     </div>
+    }
   </div>
 
   <div class="tree-container">
@@ -57,15 +65,25 @@
 <!-- Recursive template for tree nodes -->
 <ng-template #treeNodeTemplate let-node let-depth="depth">
   @if (isFolder(node)) {
-  <div class="folder-item" (click)="toggleFolder(node)" [style.color]="node.color">
-    @if (node.iconSvg) {
-    <app-iconify-icon [icon]="node.iconSvg" [size]="20" class="folder-icon" />
+  <div class="folder-item" (click)="toggleFolder(node)"
+    [style.color]="features.isEnabled('tree_colors') ? node.color : null"
+    [attr.data-folder-path]="node.path">
+    @if (features.isEnabled('disclosure_chevrons')) {
+    <span class="chevron" [class.expanded]="node.expanded">▶</span>
+    }
+    @if (features.isEnabled('tree_icons')) {
+    @if (node.iconSvg || node.icon) {
+    <app-iconify-icon [icon]="node.iconSvg || node.icon" [size]="20" class="folder-icon" />
     } @else {
     <mat-icon class="folder-icon">
       {{ node.expanded ? "folder_open" : "folder" }}
     </mat-icon>
     }
+    }
     <span class="folder-name">{{ node.name }}</span>
+    @if (features.isEnabled('folder_count_badges') && node.noteCount != null && node.noteCount > 0) {
+    <span class="count-badge">{{ node.noteCount }}</span>
+    }
   </div>
 
   <ul class="tree-children" [class.expanded]="node.expanded" [attr.data-depth]="depth + 1">
@@ -85,14 +103,16 @@
     [routerLink]="['/' + projectSlug, node.id]"
     routerLinkActive="active"
     class="note-item"
-    [style.color]="node.color"
+    [style.color]="features.isEnabled('tree_colors') ? node.color : null"
   >
+    @if (features.isEnabled('tree_icons')) {
     @if (node.iconSvg || node.icon) {
     <app-iconify-icon
       [icon]="node.iconSvg || node.icon"
       [size]="20"
       class="note-icon"
     />
+    }
     }
     <div class="note-content">
       <span class="note-name">{{ node.title }}</span>

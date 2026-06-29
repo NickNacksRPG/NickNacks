@@ -11,4 +11,4 @@ You transform a held weapon such that it appears to be made out of complete dark
 
 If the weapon leaves your hands for longer than 1 round, it reverts back to its original state.
 
-Shadow weapons deal frost damage instead of their standard damage type. When you [[feint]] a creature while wielding them, they take ([[Caster Level|CL]]) frost damage.
+Shadow weapons deal frost damage instead of their standard damage type. When you [[feint]] a creature while wielding them, they take ([[Caster Level|CL]]) frost damage (unless your feint already does damage from another source).

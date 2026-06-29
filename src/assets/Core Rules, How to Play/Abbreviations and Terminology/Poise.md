@@ -1,6 +1,5 @@
 ---
 aliases: []
-icon: TiFall
 ---
 [[+Combat Maneuver]]s are forms of attack that do not directly deal damage and are dependent on a stat called poise. Poise determines how difficult you are to toss around. It functions similarly to hp, but you subtract the attack roll from the target's poise. If this reduces them to 0 poise, they suffer the effects of the maneuver and their poise resets to maximum. This is referred to as "poise breaking." 
 

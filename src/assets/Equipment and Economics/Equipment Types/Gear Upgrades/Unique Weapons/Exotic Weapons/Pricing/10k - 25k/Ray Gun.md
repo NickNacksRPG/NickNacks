@@ -1,6 +1,6 @@
 ## <span style="color:rgb(103, 254, 120)">11,000g</span>
 
-*This pistol looks like a child's toy, made of colorful plastic with superfluous details. Pulling the trigger reveals otherwise.*
+*This pistol looks like a child's toy, made of colorful materials with superfluous details. Pulling the trigger reveals otherwise.*
 
 It blasts rays of pure energy, dealing force damage instead of a pistol's usual damage. It does not need to be reloaded, but it can only fire 5 times per day.
 

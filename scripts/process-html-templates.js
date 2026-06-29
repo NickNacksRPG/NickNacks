@@ -41,8 +41,10 @@ const TEMPLATE_FILES = [
 
 /**
  * Derives the GitHub Pages base path from the project URL (e.g. "/Pages-TestV2/")
+ * When --dev flag is passed, uses "/" for local development.
  */
-function getProjectBasePath(projectUrl) {
+function getProjectBasePath(projectUrl, isDev) {
+  if (isDev) return '/';
   const url = new URL(
     projectUrl.includes('://') ? projectUrl : `https://${projectUrl}`
   );
@@ -53,9 +55,9 @@ function getProjectBasePath(projectUrl) {
 /**
  * Replaces placeholders in content with config values
  */
-function replacePlaceholders(content, config) {
+function replacePlaceholders(content, config, isDev) {
   let result = content;
-  const projectBasePath = getProjectBasePath(config.projectUrl);
+  const projectBasePath = getProjectBasePath(config.projectUrl, isDev);
   
   // Replace all config values
   result = result.replace(/\{\{PROJECT_NAME\}\}/g, config.projectName);
@@ -75,13 +77,13 @@ function replacePlaceholders(content, config) {
 /**
  * Processes a single template file
  */
-function processTemplate(templatePath, outputPath) {
+function processTemplate(templatePath, outputPath, isDev) {
   try {
     // Read template
     const content = fs.readFileSync(templatePath, 'utf-8');
     
     // Replace placeholders
-    const processed = replacePlaceholders(content, projectConfig);
+    const processed = replacePlaceholders(content, projectConfig, isDev);
     
     // Write output
     fs.writeFileSync(outputPath, processed, 'utf-8');
@@ -98,7 +100,8 @@ function processTemplate(templatePath, outputPath) {
  * Main execution
  */
 function main() {
-  console.log('🔧 Processing HTML templates...');
+  const isDev = process.argv.includes('--dev');
+  console.log(`🔧 Processing HTML templates...${isDev ? ' (dev mode)' : ''}`);
   console.log(`📋 Project: ${projectConfig.projectName}\n`);
   
   let successCount = 0;
@@ -113,7 +116,7 @@ function main() {
       continue;
     }
     
-    const success = processTemplate(templatePath, file.output);
+    const success = processTemplate(templatePath, file.output, isDev);
     if (success) {
       successCount++;
     } else {

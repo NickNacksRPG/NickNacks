@@ -34,9 +34,11 @@
 
     .sidebar-title {
       margin: 0;
+      font-family: 'Playfair Display', Georgia, 'Times New Roman', serif;
       font-size: 1.25rem;
-      font-weight: 500;
-      color: var(--text-color, var(--text-primary, #212121));
+      font-weight: 600;
+      color: var(--primary-color);
+      letter-spacing: 0.04em;
     }
 
     .close-toggle {
@@ -107,66 +109,94 @@
   }
 
   .info-section {
-    margin-top: 24px;
-    padding: 16px;
-    background-color: var(--bg-color, #fafafa);
-    border-radius: 8px;
-    border-left: 4px solid var(--accent-color, #ff4081);
+    margin-top: 16px;
+    padding: 0;
+    background: none;
+    border: none;
+    position: relative;
     opacity: 0;
     transition: opacity 0.5s ease-in;
+
+    &:first-of-type {
+      margin-top: 4px;
+    }
+
+    &::before {
+      display: none;
+    }
 
     &.fade-in {
       opacity: 1;
     }
 
     h3 {
-      margin: 0 0 12px 0;
-      font-size: 1.1rem;
-      font-weight: 500;
-      color: var(--text-primary, #212121);
+      margin: 0 0 6px 0;
+      padding-left: 18px;
+      position: relative;
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--primary-color);
+      letter-spacing: 0.04em;
+    }
+
+    h3::before {
+      content: '☙';
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      color: var(--border-color);
+      font-size: 0.8rem;
+    }
+
+    h3::after {
+      content: '';
+      position: absolute;
+      left: 18px;
+      right: 0;
+      bottom: -3px;
+      height: 1px;
+      background: linear-gradient(to right, var(--border-color), transparent);
     }
 
     .section-description {
-      font-size: 0.875rem;
-      color: var(--text-secondary, #757575);
-      margin-bottom: 8px;
-      font-style: italic;
+      display: none;
     }
 
     .empty-state {
-      color: var(--text-secondary, #9e9e9e);
-      font-size: 0.875rem;
+      color: var(--text-secondary);
+      font-size: 0.78rem;
       font-style: italic;
-      margin: 8px 0;
+      margin: 4px 0 0 18px;
     }
 
     .links-list {
       list-style: none;
       padding: 0;
-      margin: 0;
+      margin: 4px 0 0 18px;
 
       li {
-        padding: 6px 0;
-        border-bottom: 1px solid var(--border-color, #e0e0e0);
+        padding: 2px 0;
+        border-bottom: none;
 
-        &:last-child {
-          border-bottom: none;
-        }
+        &:last-child { }
 
         .note-link {
           display: flex;
           align-items: center;
-          gap: 8px;
-          color: var(--primary-color, #1976d2);
+          gap: 6px;
+          color: var(--text-secondary);
           text-decoration: none;
-          padding: 4px 0;
-          transition: all 0.2s ease;
-          font-size: 0.875rem;
+          padding: 4px 8px;
+          border-radius: 4px;
+          transition: background-color 0.15s ease, color 0.15s ease;
+          font-size: 0.78rem;
+          position: relative;
 
           .note-icon {
-            font-size: 1rem;
+            font-size: 0.85rem;
             flex-shrink: 0;
-            color: var(--icon-color, #757575);
+            color: var(--text-secondary);
             transition: color 0.2s ease;
           }
 
@@ -179,21 +209,15 @@
           }
 
           &:hover {
-            color: var(--primary-dark, #1565c0);
-            padding-left: 4px;
-            font-weight: 500;
-
-            .note-icon {
-              color: var(--primary-dark, #1565c0);
-            }
+            background-color: var(--hover-bg);
+            color: var(--primary-color);
           }
 
-          &:active {
-            color: var(--primary-darker, #0d47a1);
-
-            .note-icon {
-              color: var(--primary-darker, #0d47a1);
-            }
+          &.active-link {
+            background-color: var(--active-bg);
+            box-shadow: inset 3px 0 0 var(--primary-color);
+            color: var(--primary-color);
+            font-weight: 500;
           }
         }
       }
@@ -201,17 +225,23 @@
 
     // Coming Soon section — dimmed accent
     &.coming-soon-section {
-      border-left-color: var(--text-secondary, #757575);
+      opacity: 0.6;
 
-      .coming-soon-link {
-        color: var(--text-secondary) !important;
-        opacity: 0.55;
+      h3::before {
+        content: '∘';
+      }
+
+      h3::after {
+        background: linear-gradient(to right, var(--text-secondary), transparent);
+      }
+
+      .links-list li .note-link {
+        color: var(--text-secondary);
         font-style: italic;
 
         &:hover {
+          color: var(--text-secondary);
           opacity: 0.85;
-          padding-left: 4px;
-          font-weight: 500;
         }
       }
     }

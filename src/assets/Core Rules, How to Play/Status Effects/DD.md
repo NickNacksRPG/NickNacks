@@ -5,7 +5,7 @@ aliases:
 icon: ❗
 ---
 "Denied Dodge"
-Creature is unable to respond effectively to attacks due to [[+Stealth]], [[Feint|Feinting]], or some other status or [[Circumstance]]. 
+Creature is unable to respond effectively to attacks due to [[+Stealth]], [[Feint|Feinting]], some other [[+Status|status effect]] or [[Circumstance]]. 
 
 Attacks made against a Surprised creature get a +4 bonus. A DD creature also cannot use immediate or instant action in response to actions (like [[block]] against a sneak attack). Actions reserved for later with the [[prepare]] action can be taken as normal, but occur after an enemy has made themselves known if they are [[invisible]] or attacking from stealth.
 

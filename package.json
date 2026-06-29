@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "npm run process:html && npm run generate:data && ng serve",
+    "start": "npm run process:html:dev && npm run generate:data && ng serve",
     "build": "npm run process:html && npm run generate:data && npm run generate:sitemap && ng build",
     "build:gh-pages": "node scripts/build-gh-pages.js",
     "watch": "ng build --watch --configuration development",
@@ -13,6 +13,7 @@
     "generate:manifest": "node scripts/generate-data-files.js",
     "generate:sitemap": "node scripts/generate-sitemap.js",
     "process:html": "node scripts/process-html-templates.js",
+    "process:html:dev": "node scripts/process-html-templates.js --dev",
     "validate:icons": "node scripts/validate-icons.js",
     "prebuild": "npm run process:html && npm run generate:data"
   },

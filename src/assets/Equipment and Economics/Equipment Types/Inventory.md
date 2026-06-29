@@ -18,7 +18,7 @@ Common pieces of equipment consume the following number of inventory slots...
 | ------------------------------------------------------ | ------------------------------------------------ |
 | Light/1h Weapons                                       | 1                                                |
 | 2h weapons (including most range weapons)              | 2                                                |
-| Light Armor                                            | 1                                                |
+| Light Armor/Other body slot items                      | 1                                                |
 | Med/Heavy Armor                                        | 2                                                |
 | Buckler                                                | 1                                                |
 | Shields                                                | 2                                                |

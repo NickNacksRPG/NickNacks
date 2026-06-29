@@ -13,6 +13,7 @@ This class is a pretty odd fit for this game, mostly because it has basically ze
 | [[+Saving Throw\|Saves]] | Will             |
 | [[Memory]]               | 2+(2\*lvl)       |
 ## <span style="color:rgb(103, 254, 120)">1 - Techniques</span>
+You have [[magical specialization]].
 You gain 3 technique points at level 1, then another 2 points every 2 levels after.
 These technique points can be used on the [[Shira]], [[Moogen]] and one other tree, chosen at character creation.
 ## <span style="color:rgb(103, 254, 120)">1 - Faceless Monster</span> [[Su]] [[Polymorph|poly, true]] [[companion]]

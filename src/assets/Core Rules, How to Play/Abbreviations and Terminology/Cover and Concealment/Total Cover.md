@@ -1,2 +1,5 @@
-Total [[Partial Cover]] is an environmental [[Circumstance]] that makes you [[Untargetable]].
+Total cover is an environmental [[Circumstance]] that makes you [[Untargetable]], including to most attack rolls.
+
 Total Cover is received against [[Ranged Attack]]s, [[AoE]]s, and [[Targeting|Targeting]] Abilities that target you while there are obstacles between you and the source of the attack that leave no way to reach you, and that cannot be pierced by the attack (in the case of Ranged Attacks and Area Effects.)
+
+You can use total cover to [[hide]].

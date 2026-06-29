@@ -1,0 +1,1 @@
+Mana reserves function exactly like your base mana, except they disappear after used, and only regenerate after you rest. Mana reserves are gained through having positive intelligence, are sometimes given to mage classes and through magic items, often with particular restrictions on their use.

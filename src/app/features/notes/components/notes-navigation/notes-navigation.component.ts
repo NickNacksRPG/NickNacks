@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 import { Router, RouterModule, NavigationEnd } from '@angular/router';
 import { FormsModule } from '@angular/forms';
 import { filter, Subject, Subscription, debounceTime } from 'rxjs';
-import { MarkdownService, SearchService, ProjectConfigService } from '../../../../core/services';
+import { MarkdownService, SearchService, ProjectConfigService, FeaturesService } from '../../../../core/services';
 import {
   NoteTreeNode,
   NoteFolder,
@@ -48,6 +48,7 @@ export class NotesNavigationComponent implements OnInit, OnDestroy {
   private readonly searchService = inject(SearchService);
   private readonly router = inject(Router);
   private readonly projectConfig = inject(ProjectConfigService);
+  protected readonly features = inject(FeaturesService);
 
   // Project configuration exposed to template
   protected readonly projectName = this.projectConfig.getProjectName();
@@ -63,9 +64,21 @@ export class NotesNavigationComponent implements OnInit, OnDestroy {
   // Reactive state for tree nodes
   private readonly allTreeNodes = signal<NoteTreeNode[]>([]);
 
+  // Tracks folders the user has explicitly collapsed during an active search
+  // so that auto-expand respects manual collapse on subsequent search keystrokes
+  private readonly manuallyCollapsed = signal<Set<string>>(new Set());
+
+  // Whether the initial auto-expand has been applied for the current search session
+  private hasAutoExpanded = false;
+
+  // Snapshot of folder expand state before search auto-expanded everything,
+  // so we can restore it when search is cleared
+  private savedExpandState: Map<string, boolean> | null = null;
+
   // Search state with debouncing
   private readonly searchInputSubject = new Subject<string>();
   private searchSubscription?: Subscription;
+  private focusSubscription?: Subscription;
   protected readonly searchQuery = signal<string>('');
   protected readonly searchResults = toSignal(
     this.searchService.searchResults$,
@@ -144,18 +157,40 @@ export class NotesNavigationComponent implements OnInit, OnDestroy {
   }
 
   ngOnInit(): void {
-    // Set up debounced search with 200ms delay
+    // Set up debounced search with 300ms delay
     this.searchSubscription = this.searchInputSubject
-      .pipe(debounceTime(200))
+      .pipe(debounceTime(300))
       .subscribe((query) => {
         this.searchService.search(query);
 
-        // Auto-expand all folders when searching
+        // Auto-expand all folders once when search starts and hierarchy mode is on
         if (query.trim()) {
-          this.expandAllFolders(this.allTreeNodes());
-          this.allTreeNodes.set([...this.allTreeNodes()]);
+          if (this.features.isEnabled('show_tree_search_hierarchy') && !this.hasAutoExpanded) {
+            // Save current expand state before auto-expanding
+            this.savedExpandState = this.captureExpandState(this.allTreeNodes());
+            this.expandAllFolders(this.allTreeNodes());
+            this.allTreeNodes.set([...this.allTreeNodes()]);
+            this.hasAutoExpanded = true;
+          }
+          this.manuallyCollapsed.set(new Set());
+        } else {
+          // Restore the tree to its pre-search expand state,
+          // then expand the path to the currently active note
+          if (this.savedExpandState) {
+            this.restoreExpandState(this.allTreeNodes(), this.savedExpandState);
+            this.expandToCurrentNote(this.allTreeNodes());
+            this.allTreeNodes.set([...this.allTreeNodes()]);
+            this.savedExpandState = null;
+          }
+          this.hasAutoExpanded = false;
+          this.manuallyCollapsed.set(new Set());
         }
       });
+
+    // Listen for breadcrumb folder focus events
+    this.focusSubscription = this.markdownService.focusFolder$.subscribe((folderPath) => {
+      this.expandAndScrollToFolder(folderPath);
+    });
 
     // Listen to route changes to expand the tree
     this.router.events
@@ -205,6 +240,17 @@ export class NotesNavigationComponent implements OnInit, OnDestroy {
   protected toggleFolder(folder: NoteTreeNode): void {
     if (isFolder(folder)) {
       folder.expanded = !folder.expanded;
+      // Track manual collapses during search so auto-expand respects them
+      const query = this.searchQuery();
+      if (query.trim()) {
+        const path = folder.path || folder.name;
+        this.manuallyCollapsed.update(s => {
+          const next = new Set(s);
+          if (folder.expanded) next.delete(path);
+          else next.add(path);
+          return next;
+        });
+      }
       // Trigger change detection by creating new array reference
       // Shallow copy is efficient for large trees
       this.allTreeNodes.set([...this.allTreeNodes()]);
@@ -227,6 +273,51 @@ export class NotesNavigationComponent implements OnInit, OnDestroy {
         node.expanded = true;
         this.expandAllFolders(node.children);
       }
+    }
+  }
+
+  /**
+   * Captures the current expand state of all folders into a path→boolean map.
+   * Used to snapshot the tree before search auto-expands everything.
+   */
+  private captureExpandState(nodes: NoteTreeNode[]): Map<string, boolean> {
+    const state = new Map<string, boolean>();
+    const walk = (ns: NoteTreeNode[]) => {
+      for (const n of ns) {
+        if (isFolder(n)) {
+          state.set(n.path || n.name, Boolean(n.expanded));
+          walk(n.children);
+        }
+      }
+    };
+    walk(nodes);
+    return state;
+  }
+
+  /**
+   * Restores a previously captured expand state onto the tree.
+   */
+  private restoreExpandState(nodes: NoteTreeNode[], state: Map<string, boolean>): void {
+    for (const n of nodes) {
+      if (isFolder(n)) {
+        const saved = state.get(n.path || n.name);
+        if (saved !== undefined) n.expanded = saved;
+        this.restoreExpandState(n.children, state);
+      }
+    }
+  }
+
+  /**
+   * Expands the tree path to whatever note the user is currently viewing.
+   * Called after restoring pre-search expand state so the active note is still visible.
+   */
+  private expandToCurrentNote(tree: NoteTreeNode[]): void {
+    const url = this.router.url;
+    const regex = new RegExp(`\\/${this.projectSlug}\\/(.+)`);
+    const match = url.match(regex);
+    if (match) {
+      const noteId = decodeURIComponent(match[1].split('?')[0].split('#')[0]);
+      this.expandPathToNote(tree, noteId);
     }
   }
 
@@ -260,13 +351,16 @@ export class NotesNavigationComponent implements OnInit, OnDestroy {
   }
 
   /**
-   * Builds a filtered tree showing only matched notes and their parent folders
+   * Builds a filtered tree showing only matched notes and their parent folders.
+   * When show_tree_search_hierarchy is OFF, returns a flat list of matched notes.
    */
   private buildFilteredTree(
     nodes: NoteTreeNode[],
     results: SearchResult[]
   ): NoteTreeNode[] {
     const matchedNoteIds = new Set(results.map((r) => r.note.id));
+    const showHierarchy = this.features.isEnabled('show_tree_search_hierarchy');
+    const collapsedPaths = this.manuallyCollapsed();
     const filteredNodes: NoteTreeNode[] = [];
 
     for (const node of nodes) {
@@ -279,13 +373,21 @@ export class NotesNavigationComponent implements OnInit, OnDestroy {
         // Recursively filter children
         const filteredChildren = this.buildFilteredTree(node.children, results);
 
-        // Include folder only if it has matched children
-        if (filteredChildren.length > 0) {
-          filteredNodes.push({
-            ...node,
-            children: filteredChildren,
-            expanded: true, // Auto-expand when filtering
-          });
+        if (showHierarchy) {
+          // Include folder only if it has matched children
+          if (filteredChildren.length > 0) {
+            // Preserve manual collapse state; default to expanded
+            const fullPath = node.path || node.name;
+            const expanded = collapsedPaths.has(fullPath) ? false : true;
+            filteredNodes.push({
+              ...node,
+              children: filteredChildren,
+              expanded,
+            });
+          }
+        } else {
+          // Hierarchy off: include matching notes directly (no folder wrapper)
+          filteredNodes.push(...filteredChildren);
         }
       }
     }
@@ -336,8 +438,20 @@ export class NotesNavigationComponent implements OnInit, OnDestroy {
     return false;
   }
 
+  /**
+   * Called when a breadcrumb folder segment is clicked.
+   * Scrolls the sidebar to that folder without changing expanded state.
+   */
+  private expandAndScrollToFolder(folderPath: string): void {
+    setTimeout(() => {
+      const el = document.querySelector(`[data-folder-path="${folderPath}"]`);
+      el?.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+    }, 200);
+  }
+
   ngOnDestroy(): void {
     // Clean up search subscription to prevent memory leaks
     this.searchSubscription?.unsubscribe();
+    this.focusSubscription?.unsubscribe();
   }
 }

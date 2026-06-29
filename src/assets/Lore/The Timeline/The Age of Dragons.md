@@ -1,0 +1,22 @@
+
+<span style="color:rgb(103, 254, 120)">Dawn of a New Age</span>
+At the turn of this new age, dragons were cursed to be nothing more than giant flying lizards by [[Drakthar, the World Ender]], who consumed their power in order to fuel his own. Only the strongest and smartest of the dragons even remotely resembled what the typical dragon we imagine today looks like. Drakthar's highest generals were given dominion over different regions of the world, and were given powers many of the others were not: 
+- Ueli was bestowed power over life
+- Muranith was bestowed power over magic
+- Druj was bestowed power over time
+- Suirei was bestowed power over the creatures that walked the earth
+- T'zarborn was bestowed power of the primordial forces beneath it
+
+Each of these individuals was forced to rule over their respective domain with impunity, harvesting mana from all living creatures to feed to their master. Chance meetings with one another during times of rebellion caused them to realize tales they had heard about the prosperous lands elsewhere were lies. Disillusioned and dissatisfied, they hatched a plan. They started to slack on their mana donations, consuming it for themselves slowly over time, or allowing close allies to build up their strength. Some elven and dwarven societies proved especially instrumental in strategizing the monumental task before them.
+
+The ultimate battle was a bloody affair, lasting nearly a whole year. Drakthar, once angered, chased his generals around the world, fighting any and all that did not bow their head. This chase would later be called "The Great Shade Offensive" after how dragons would block out the light from the sky wherever the battle took them. The elven mages Muranith trained set traps in his domain that they planned to be the killing blow. Drakthar proved resilient beyond reason, but in their darkest hour, an unexpected ally appeared: A dragon that descended upon the world from the stars that Suirei managed to reach out to in a dream named Memve'Ele. With his assistance, one final push was made, but with a slight change in strategy. They banished Drakthar to [[The Shadow Realm]]; a realm that he could not escape from in his weakened state. 
+
+<span style="color:rgb(103, 254, 120)">Once Drakthar was defeated,</span> his power was restored to its natural place and was once again allowed to suffuse the world. In particular, the band of 5 dragons that defeated him became the first true dragons: the 4 legged quadrupeds with large wings jutting from their back. These progenitors made it their mission to spread the love so to speak, and granted all draconic creatures sentience. They eventually became known as [[The Dragon Aspects]].
+
+Many other dragons had different evolutionary paths, such as the wyverns with winged arms, or serpentine dragons that used magic to fly. One group was bipedal and these were later called Proto-Dragons. They didn't have nearly the same offensive profile as other dragons, tending to be much smaller with some being unable to fly at all.
+
+The dragon aspects did their best to allow the world to heal after 
+
+<span style="color:rgb(103, 254, 120)">Over time, many groups of humanoids hunted down dragons.</span> In particular, subsections of races that were confined to the underground parts of the world for many generations while others of their race were allowed to roam the surface. The deep [[Elf]] and [[Dwarf]] peoples, spearheaded this hunt. Part of it was the hundreds of years of animosity, but part of it was wanting to steal their power. In particular, tribes of elves and dwarves that were once forced to live deep underground used this time in history to become powerful civilizations off the backs of the mana and materials they hunted from dragons.
+
+One such group was the Proto Dragons. Already small in number, many were captured and sealed away using powerful curse magic so their mana could be harvested for generations. For many centuries, humanoid dragons all but disappeared. It would not until [[Gralth the Inferno]] finally reintroduced the species during the [[The Age of Magic]], with the hopes of using the species as a way to improve dragon-humanoid relations. In the decades since, the species has been allowed to flourish, mostly forming tight family groups in [[Land of Earth]].

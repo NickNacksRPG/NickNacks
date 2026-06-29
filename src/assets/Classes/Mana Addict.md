@@ -1,7 +1,6 @@
 ---
 icon: 💎
 ---
-[[Crust]]
 A mana addict is an antimage who is well and truly addicted to the power of mana flowing through them. They get various abilities that function differently depending on how much mana they have.
 
 | [[+HP]] (mixed)          | 20(+8 per level) |

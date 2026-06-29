@@ -1,7 +1,7 @@
 ---
 icon: FasUserNinja
 ---
-Ninjas are a special breed of rogues that heavily focus around using a set of supernatural powers that aid them in espionage and misdirection. Their signature ability, shadow clone, makes them able to exist in many places at once, vastly increasing their ability to gather information.
+Ninjas are a special breed of rogues that heavily focus around using a set of supernatural powers that aid them in espionage and misdirection. Their signature ability, shadow clone, makes them able to exist in 2 places at once, vastly increasing their ability to gather information.
 
 Not historically accurate, but its more fun this way C:
 
@@ -26,7 +26,7 @@ While you stand completely still and take no action on your turn, you are affect
 ## <span style="color:rgb(103, 254, 120)">4 - Bothersome Buddies</span>
 You gain [[Mirror Images]] as an [[Innate Technique]].
 ## <span style="color:rgb(103, 254, 120)">4 - Smoke Bomb (Su)</span>
-By spending 2 mana and your cunning action, you can create a cloud of dense smoke in a 10 ft radius around you and hide. It typically only lasts a 3 rounds, but can last 1 in windy environs or it doesn't work at all during storms. Other types of \[air] effects can cause it to disperse more quickly as well.
+By spending 2 mana and your Cunning Action, you can create a cloud of dense smoke in a 10 ft radius around you and hide. It typically only lasts a 3 rounds, but can last 1 in windy environs or it doesn't work at all during storms. Other types of [[air]] effects can cause it to disperse more quickly as well.
 ## <span style="color:rgb(103, 254, 120)">6 - Substitution (Su) </span>[[recharge]] [[teleportation]]
 By spending 3 mana as an immediate action, you can cause an unattended object within 30 ft of you to be the target of an attack affecting you instead of you, such as a log, furniture etc. You take the place of the object you used and you immediately [[Vanish]] until the end of your next turn.
 ## <span style="color:rgb(103, 254, 120)">11 - Eyes Everywhere</span>

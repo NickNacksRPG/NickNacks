@@ -7,6 +7,7 @@ import {
 } from 'rxjs';
 import Fuse, { FuseResultMatch } from 'fuse.js';
 import { MarkdownService } from './markdown.service';
+import { FeaturesService } from './features.service';
 import { Note, SearchIndexEntry } from '../interfaces';
 
 /**
@@ -42,6 +43,7 @@ interface SearchableEntry extends SearchIndexEntry {
 })
 export class SearchService {
   private readonly markdownService = inject(MarkdownService);
+  private readonly featuresService = inject(FeaturesService);
 
   // Searchable entries from pre-built index
   private searchableEntries: SearchableEntry[] = [];
@@ -125,21 +127,26 @@ export class SearchService {
    * Initializes Fuse.js with the loaded search entries
    */
   private initializeFuse(): void {
+    const searchFullContent = this.featuresService.isEnabled('search_full_content');
+    const keys: any[] = [
+      {
+        name: 'title',
+        weight: 3,
+      },
+      {
+        name: 'aliases',
+        weight: 2,
+      },
+    ];
+    if (searchFullContent) {
+      keys.push({
+        name: 'content',
+        weight: 1,
+      });
+    }
+
     this.fuse = new Fuse(this.searchableEntries, {
-      keys: [
-        {
-          name: 'title',
-          weight: 3, // Title matches are most important
-        },
-        {
-          name: 'aliases',
-          weight: 2, // Alias matches are also important
-        },
-        {
-          name: 'content',
-          weight: 1, // Content matches have lower priority
-        },
-      ],
+      keys,
       includeScore: true,
       includeMatches: true,
       threshold: 0.3, // Moderate fuzzy matching - allows some typos but not too loose

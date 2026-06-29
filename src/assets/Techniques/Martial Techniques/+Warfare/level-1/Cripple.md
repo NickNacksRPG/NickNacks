@@ -1,6 +1,6 @@
 Level 1 [[Warfare]]
 Tags: [[Upcast]]
-Action: Special Attack
+Action: [[Special Attack]]
 
 | Range          | Reach      |
 | -------------- | ---------- |

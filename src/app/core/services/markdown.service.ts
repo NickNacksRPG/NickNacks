@@ -13,6 +13,8 @@ import {
   filter,
   forkJoin,
   firstValueFrom,
+  combineLatest,
+  Subject,
 } from 'rxjs';
 import { marked } from 'marked';
 import {
@@ -26,6 +28,7 @@ import {
   isFolder,
 } from '../interfaces';
 import projectConfig from '../../../../project.config.json';
+import { FeaturesService } from './features.service';
 
 /**
  * Service responsible for loading, parsing, and managing Obsidian markdown notes.
@@ -43,6 +46,7 @@ export class MarkdownService {
   private readonly http = inject(HttpClient);
   private readonly platformId = inject(PLATFORM_ID);
   private readonly isBrowser = isPlatformBrowser(this.platformId);
+  private readonly featuresService = inject(FeaturesService);
 
   // Cache for loaded notes to avoid redundant HTTP requests
   private readonly notesCache = new Map<string, string>();
@@ -73,8 +77,22 @@ export class MarkdownService {
   private readonly referenceGraphReadySubject = new BehaviorSubject<boolean>(
     false
   );
-  public readonly referenceGraphReady$ =
-    this.referenceGraphReadySubject.asObservable();
+
+  /** Emits true when both the manifest and reference graph have loaded */
+  public readonly referenceGraphReady$ = combineLatest([
+    this.manifestLoaded$,
+    this.referenceGraphReadySubject,
+  ]).pipe(
+    map(([manifestReady, graphReady]) => manifestReady && graphReady),
+  );
+
+  // Event bus for focusing a folder in the sidebar tree
+  private readonly focusFolderSubject = new Subject<string>();
+  public readonly focusFolder$ = this.focusFolderSubject.asObservable();
+
+  public focusFolder(folderPath: string): void {
+    this.focusFolderSubject.next(folderPath);
+  }
 
   // Track if search index is loaded
   private readonly searchIndexReadySubject = new BehaviorSubject<boolean>(
@@ -324,6 +342,11 @@ export class MarkdownService {
   }
 
   private renderWikiLink(hrefNoteId: string, displayText: string): string {
+    // When wiki-links are disabled, render as plain text
+    if (!this.featuresService.isEnabled('wiki_links')) {
+      return displayText;
+    }
+
     const projectSlug = projectConfig.projectNameSlug;
     const canonicalId = this.resolveNoteId(hrefNoteId);
     const note = this.notesMap.get(canonicalId);
@@ -434,7 +457,7 @@ export class MarkdownService {
       imageEmbedRegex,
       (_match: string, inner: string) => {
         const parts = inner.split('|');
-        const path = parts[0]?.trim() || '';
+        const path = encodeURI(parts[0]?.trim() || '');
         let alt = '';
         let width = '';
         if (parts.length >= 3) {
@@ -763,6 +786,36 @@ export class MarkdownService {
     }
 
     return unresolved.sort((a, b) => a.localeCompare(b));
+  }
+
+  /**
+   * Finds the first note ID inside a folder by its relative path.
+   * Walks the tree recursively; returns null if the folder is empty or not found.
+   */
+  public getFolderFirstNoteId(folderPath: string): string | null {
+    const tree = this.notesTreeSubject.getValue();
+    return this.findFirstNoteInTree(tree, folderPath);
+  }
+
+  private findFirstNoteInTree(nodes: NoteTreeNode[], targetPath: string): string | null {
+    for (const node of nodes) {
+      if (isFolder(node)) {
+        if (node.path === targetPath) {
+          return this.firstNoteId(node);
+        }
+        const child = this.findFirstNoteInTree(node.children, targetPath);
+        if (child) return child;
+      }
+    }
+    return null;
+  }
+
+  private firstNoteId(folder: NoteFolder): string | null {
+    for (const child of folder.children) {
+      if (isNote(child)) return child.id;
+      if (isFolder(child)) return this.firstNoteId(child);
+    }
+    return null;
   }
 
   /**

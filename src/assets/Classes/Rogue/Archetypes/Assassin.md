@@ -10,7 +10,7 @@ Stratagems are the label given to all of the features that split teams up and ge
 All stratagems require you choose a target. You get bonus effects against the target of your stratagem.
 
 ## <span style="color:rgb(103, 254, 120)">1 - Stratagem: Smokescreen (recharge)</span>
-Create a cloud of dense [[fog]] in a 20 ft radius around a creature within 20 ft of you.
+Create a cloud of dense [[fog]] in a 20 ft radius around a creature within 20 ft of you. 
 
 
 ## <span style="color:rgb(103, 254, 120)">4 - Smoke Bomb (Su)</span>

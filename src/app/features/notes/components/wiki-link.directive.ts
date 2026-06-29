@@ -12,6 +12,7 @@ import { isPlatformBrowser } from '@angular/common';
 import { Router } from '@angular/router';
 import { MarkdownService } from '../../../core/services';
 import { ProjectConfigService } from '../../../core/services/project-config.service';
+import { FeaturesService } from '../../../core/services/features.service';
 
 /**
  * Directive that adds hover preview and click navigation to wiki-links
@@ -33,6 +34,7 @@ export class WikiLinkDirective implements OnInit, AfterViewInit, OnDestroy {
   private readonly router = inject(Router);
   private readonly markdownService = inject(MarkdownService);
   private readonly projectConfig = inject(ProjectConfigService);
+  private readonly featuresService = inject(FeaturesService);
   private readonly platformId = inject(PLATFORM_ID);
   private readonly isBrowser = isPlatformBrowser(this.platformId);
 
@@ -54,6 +56,8 @@ export class WikiLinkDirective implements OnInit, AfterViewInit, OnDestroy {
   private previewListeners: Map<HTMLElement, (() => void)[]> = new Map();
   // Track if mouse is currently inside any preview
   private mouseInsidePreview: HTMLElement | null = null;
+  // Dimmer overlay for when preview is visible
+  private dimmerElement: HTMLElement | null = null;
 
   ngOnInit(): void {
     // Initial setup
@@ -393,6 +397,30 @@ export class WikiLinkDirective implements OnInit, AfterViewInit, OnDestroy {
     this.previewElements.push(preview);
     this.renderer.addClass(preview, 'wiki-link-preview');
 
+    // Add dimmer overlay if feature is enabled (lazy init, keep in DOM, fade in/out)
+    if (this.featuresService.isEnabled('preview_dimmer')) {
+      if (!this.dimmerElement) {
+        this.dimmerElement = this.renderer.createElement('div');
+        this.renderer.setStyle(this.dimmerElement, 'position', 'fixed');
+        this.renderer.setStyle(this.dimmerElement, 'top', '0');
+        this.renderer.setStyle(this.dimmerElement, 'left', '0');
+        this.renderer.setStyle(this.dimmerElement, 'width', '100%');
+        this.renderer.setStyle(this.dimmerElement, 'height', '100%');
+        this.renderer.setStyle(this.dimmerElement, 'background', 'rgba(0, 0, 0, 0.25)');
+        this.renderer.setStyle(this.dimmerElement, 'z-index', '9999');
+        this.renderer.setStyle(this.dimmerElement, 'pointer-events', 'none');
+        this.renderer.setStyle(this.dimmerElement, 'transition', 'opacity 0.2s ease');
+        this.renderer.setStyle(this.dimmerElement, 'opacity', '0');
+        this.renderer.appendChild(document.body, this.dimmerElement);
+      }
+      // Fade in (rAF to ensure the browser registers the initial opacity before transitioning)
+      requestAnimationFrame(() => {
+        if (this.dimmerElement) {
+          this.renderer.setStyle(this.dimmerElement, 'opacity', '1');
+        }
+      });
+    }
+
     // Add loading state
     const loadingText = this.renderer.createText('Loading preview...');
     this.renderer.appendChild(preview, loadingText);
@@ -508,16 +536,14 @@ export class WikiLinkDirective implements OnInit, AfterViewInit, OnDestroy {
           this.renderer.setStyle(titleElement, 'display', 'flex');
           this.renderer.setStyle(titleElement, 'align-items', 'center');
           this.renderer.setStyle(titleElement, 'gap', '0.75rem');
-          this.renderer.setStyle(titleElement, 'font-size', '2em');
+          this.renderer.setStyle(titleElement, 'font-family', "'Playfair Display', Georgia, 'Times New Roman', serif");
+          this.renderer.setStyle(titleElement, 'font-size', '1.6rem');
           this.renderer.setStyle(titleElement, 'font-weight', '700');
           this.renderer.setStyle(titleElement, 'color', primaryColor);
+          this.renderer.setStyle(titleElement, 'letter-spacing', '0.5px');
           this.renderer.setStyle(titleElement, 'margin', '0 0 1rem 0');
-          this.renderer.setStyle(titleElement, 'padding-bottom', '0.5rem');
-          this.renderer.setStyle(
-            titleElement,
-            'border-bottom',
-            `3px solid ${borderColor}`
-          );
+          this.renderer.setStyle(titleElement, 'padding-bottom', '0');
+          this.renderer.setStyle(titleElement, 'border-bottom', 'none');
           this.renderer.setStyle(titleElement, 'line-height', '1.2');
 
           // Add icon if present in frontmatter
@@ -534,6 +560,14 @@ export class WikiLinkDirective implements OnInit, AfterViewInit, OnDestroy {
           const titleText = this.renderer.createText(noteTitle);
           this.renderer.appendChild(titleElement, titleText);
           this.renderer.appendChild(preview, titleElement);
+
+          // Add decorative gradient line under title (matching note-viewer style)
+          const titleLine = this.renderer.createElement('div');
+          this.renderer.setStyle(titleLine, 'width', '100%');
+          this.renderer.setStyle(titleLine, 'height', '1px');
+          this.renderer.setStyle(titleLine, 'margin', '0.5rem 0 0.75rem');
+          this.renderer.setStyle(titleLine, 'background', `linear-gradient(to right, ${borderColor} 20%, transparent 90%)`);
+          this.renderer.appendChild(preview, titleLine);
 
           // Add preview content with HTML formatting
           const contentElement = this.renderer.createElement('div');
@@ -599,6 +633,8 @@ export class WikiLinkDirective implements OnInit, AfterViewInit, OnDestroy {
       'rgb(231, 138, 78)';
     const textPrimary =
       bodyStyles.getPropertyValue('--text-primary').trim() || '#3e2723';
+    const borderColor =
+      bodyStyles.getPropertyValue('--border-color').trim() || '#4a3a2a';
 
     // Apply initial styles - use FIXED positioning relative to viewport
     this.renderer.setStyle(previewElement, 'position', 'fixed');
@@ -622,7 +658,7 @@ export class WikiLinkDirective implements OnInit, AfterViewInit, OnDestroy {
     this.renderer.setStyle(
       previewElement,
       'border',
-      `2px solid ${primaryColor}`
+      `1px solid ${borderColor}`
     );
     this.renderer.setStyle(previewElement, 'border-radius', '8px');
 
@@ -759,6 +795,10 @@ export class WikiLinkDirective implements OnInit, AfterViewInit, OnDestroy {
     // Clear current hover target if all previews are gone
     if (this.previewElements.length === 0) {
       this.currentHoverTarget = null;
+      // Fade out dimmer overlay (keep in DOM for next use)
+      if (this.dimmerElement) {
+        this.renderer.setStyle(this.dimmerElement, 'opacity', '0');
+      }
     }
   }
 
@@ -1206,5 +1246,15 @@ export class WikiLinkDirective implements OnInit, AfterViewInit, OnDestroy {
 
     // Remove all listeners
     this.cleanupListeners();
+
+    // Remove dimmer from DOM (it stays in DOM during normal fade-out)
+    if (this.dimmerElement) {
+      try {
+        this.renderer.removeChild(document.body, this.dimmerElement);
+      } catch {
+        // Already removed
+      }
+      this.dimmerElement = null;
+    }
   }
 }

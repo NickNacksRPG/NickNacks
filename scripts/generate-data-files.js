@@ -50,6 +50,21 @@ function generateId(name) {
 }
 
 /**
+ * Counts all notes (leaf nodes) recursively in a tree of nodes
+ */
+function countNotesInTree(nodes) {
+  let count = 0;
+  for (const node of nodes) {
+    if (node.children) {
+      count += countNotesInTree(node.children);
+    } else {
+      count++;
+    }
+  }
+  return count;
+}
+
+/**
  * Extracts frontmatter from markdown content
  * Handles various YAML frontmatter formats including arrays
  * Returns an object with frontmatter properties or null if no frontmatter
@@ -241,6 +256,7 @@ function buildTreeAndCollectData(dirPath, relativePath = "") {
           path: itemRelativePath,
           children: children,
           expanded: false,
+          noteCount: countNotesInTree(children),
         });
       }
     } else if (isMarkdownFile(item)) {

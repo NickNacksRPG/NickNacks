@@ -25,8 +25,10 @@ This usually only allows you to attend to things in your nearby area, such as in
 Certain physical limitations, such as being unable to keep tabs on something a country away, can make using this ability impossible. You can keep tabs on (1+luck) things at a time.
 ## <span style="color:rgb(103, 254, 120)">2 - Kip Up</span>
 As a free action, end the [[Knocked Down|Knockdown]] condition.
+## <span style="color:rgb(103, 254, 120)">2 - Clean the Scene</span>
+When you defeat an enemy, you immediately [[dash]]. You can also choose to [[carry]] the creature you defeated with you.
 ## <span style="color:rgb(103, 254, 120)">2 - Quick Study  (recharge)</span>
-By spending 1 hour doing research or practicing, you can become proficient in a particular skill for the rest of the day. Certain skills may require facilities or equipment in order to properly practice (such as a library for knowledge skills, or thieves tools for sleight of hand).
+By spending 1 hour doing research or practicing, you can become proficient in a particular skill for the rest of the day. Certain skills may require facilities or equipment in order to properly practice (such as a library for knowledge skills, or a particular [[Tools|kit]] for sleight of hand).
 ## <span style="color:rgb(103, 254, 120)">4 - Black Market Connections</span>
 You can sell any item, no questions asked, so long as you are in a place you could consider a city. While inside of a city, you can also spend a few hours to figure out the kinds of illegal things that people sell there such as things related to forbidden magic, or human trafficking, and where you can purchase said items.
 

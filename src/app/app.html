@@ -1,6 +1,7 @@
-<div class="app-container">
-  <!-- Header Component - HIDDEN -->
-  <!-- <app-header
+<div class="app-container" [class.header-enabled]="features.isEnabled('header')">
+  <!-- Header Component -->
+  @if (features.isEnabled('header')) {
+  <app-header
     [title]="title"
     [leftSidebarOpen]="leftSidebarOpen()"
     [rightSidebarOpen]="rightSidebarOpen()"
@@ -8,7 +9,8 @@
     (toggleLeftSidebar)="toggleLeftSidebar()"
     (toggleRightSidebar)="toggleRightSidebar()"
     (toggleTheme)="toggleTheme()"
-  /> -->
+  />
+  }
 
   <!-- Left Sidebar Component -->
   <app-sidebar-left 
@@ -19,15 +21,18 @@
   />
 
   <!-- Right Sidebar Component -->
+  @if (features.isEnabled('right_sidebar')) {
   <app-sidebar-right
     [isOpen]="rightSidebarOpen()"
     [currentNoteId]="currentNoteId()"
     (toggleSidebar)="toggleRightSidebar()"
   />
+  }
 
   <!-- Main Content Area -->
   <main
     class="app-main"
+    [class.header-enabled]="features.isEnabled('header')"
     [class.left-sidebar-open]="leftSidebarOpen()"
     [class.right-sidebar-open]="rightSidebarOpen()"
   >
@@ -37,14 +42,16 @@
   </main>
 
   <!-- Footer Component -->
+  @if (features.isEnabled('footer')) {
   <app-footer
     [appName]="title"
     [leftSidebarOpen]="leftSidebarOpen()"
     [rightSidebarOpen]="rightSidebarOpen()"
   />
+  }
 
   <!-- Floating toggle buttons when sidebars are closed -->
-  @if (!leftSidebarOpen()) {
+  @if (!leftSidebarOpen() && !features.isEnabled('header')) {
   <button
     class="floating-toggle left-floating-toggle"
     mat-icon-button
@@ -56,7 +63,7 @@
   </button>
   }
   
-  @if (!rightSidebarOpen()) {
+  @if (!rightSidebarOpen() && !features.isEnabled('header') && features.isEnabled('right_sidebar')) {
   <button
     class="floating-toggle right-floating-toggle"
     mat-icon-button

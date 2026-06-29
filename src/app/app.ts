@@ -4,7 +4,7 @@ import { filter, Subscription } from 'rxjs';
 
 // Layout components (using barrel export for cleaner imports)
 import {
-  // HeaderComponent, // Hidden - buttons moved to sidebars
+  HeaderComponent,
   FooterComponent,
   SidebarLeftComponent,
   SidebarRightComponent,
@@ -14,7 +14,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatTooltipModule } from '@angular/material/tooltip';
 
 // Core services
-import { ThemeService } from './core/services';
+import { ThemeService, FeaturesService } from './core/services';
 import { ProjectConfigService } from './core/services/project-config.service';
 
 /**
@@ -37,7 +37,7 @@ import { ProjectConfigService } from './core/services/project-config.service';
   selector: 'app-root',
   imports: [
     RouterOutlet,
-    // HeaderComponent, // Hidden - buttons moved to sidebars
+    HeaderComponent,
     FooterComponent,
     SidebarLeftComponent,
     SidebarRightComponent,
@@ -52,6 +52,7 @@ export class App implements OnInit, OnDestroy {
   private readonly router = inject(Router);
   private readonly themeService = inject(ThemeService);
   private readonly projectConfig = inject(ProjectConfigService);
+  protected readonly features = inject(FeaturesService);
   private routerSubscription?: Subscription;
   private navigationSubscription?: Subscription;
 

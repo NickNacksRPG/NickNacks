@@ -15,6 +15,7 @@
     <h1 class="app-title">{{ title() }}</h1>
 
     <div class="header-actions">
+      @if (features.isEnabled('theme_toggle')) {
       <button
         mat-icon-button
         class="theme-toggle"
@@ -26,6 +27,7 @@
       >
         <mat-icon>{{ isDarkMode() ? "light_mode" : "dark_mode" }}</mat-icon>
       </button>
+      }
 
       <button
         mat-icon-button

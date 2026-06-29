@@ -1,6 +1,6 @@
 Level 6 [[Unarmed]]
 Tags: [[Concentration]], [[Recharge]]
-Action: 
+Action: Free
 
 | Range          | Reach      |
 | -------------- | ---------- |

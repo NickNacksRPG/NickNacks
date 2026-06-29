@@ -12,6 +12,6 @@ You enter a trance like state as you try to intercept the thoughts of a specific
 While interacting with a creature in a dream, you get a +2 bonus to [[Skill Check|skill checks]].
 
 <span style="color:rgb(192, 0, 0)">Note:</span>
-Creatures like elves with the trance racial feature always realize when they're being contacted by a dream spell. They can take a moment to center themselves, enter trance and allow the spell to take hold.
+Creatures like elves with the Trance racial feature always realize when they're being contacted by a dream spell. They can take a moment to center themselves, enter trance and allow the spell to take hold.
 
 

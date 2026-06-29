@@ -1,1 +1,1 @@
-Characters with martial specialization get points in the [[Warfare]] technique tree equal to how many [[Technique Point|technique points]] they have in another magical technique tree.
+Characters with martial specialization get points in the [[Warfare]] technique tree based on their character level. You get a point at level 1 and every odd level after.

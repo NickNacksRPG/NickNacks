@@ -26,6 +26,7 @@ export interface NoteFolder {
   icon?: string;
   iconSvg?: string;
   iconType?: 'svg' | 'emoji';
+  noteCount?: number;
   children: NoteTreeNode[];
 }
 

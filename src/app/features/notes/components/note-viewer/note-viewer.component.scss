@@ -2,8 +2,32 @@
   position: relative;
   height: 100%;
   overflow-y: auto;
-  background-color: var(--content-bg, #ffffff);
-  padding: 38px 2rem 2rem 2rem;
+  padding: 0 2rem 2rem 2rem;
+}
+
+// Breadcrumb navigation trail — natural document flow
+.breadcrumbs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 0;
+  padding: 0.5rem 0 0 0;
+  font-size: 0.82rem;
+  line-height: 1.6;
+  color: var(--text-secondary, #888);
+}
+
+.crumb-segment {
+  color: var(--text-secondary, #888);
+  font-weight: 400;
+}
+
+.crumb-sep {
+  margin: 0 0.3em;
+  color: var(--text-tertiary, #bbb);
+  user-select: none;
+  font-size: 1.1em;
 }
 
 .error-state {
@@ -37,44 +61,59 @@
 
 // Container for note title and content with fade transition
 .note-container {
-  max-width: 700px;
+  position: relative;
+  max-width: 735px;
   margin: 0 auto;
+  padding-top: 4rem;
   opacity: 0;
   transition: opacity 0.2s ease-in-out;
+}
+
+.note-container.breadcrumbs-on {
+  padding-top: 3rem;
 }
 
 // Title styling
 .note-title {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    "Helvetica Neue", Arial, sans-serif;
-  font-size: 2.5em;
+  font-family: 'Playfair Display', Georgia, 'Times New Roman', serif;
+  font-size: 2.2rem;
   font-weight: 700;
-  color: var(--text-primary);
-  margin: 0 0 1rem 0;
-  padding-bottom: 0.5rem;
-  border-bottom: 3px solid var(--border-color, #d7ccc8);
+  color: var(--primary-color);
+  margin: 0 0 0.25rem 0;
+  padding-bottom: 0;
+  border-bottom: none;
+  letter-spacing: 0.5px;
   line-height: 1.2;
 
   .note-icon {
-    font-size: 1.2em;
-    width: 1.2em;
-    height: 1.2em;
     flex-shrink: 0;
     color: var(--text-primary);
+    margin-right: 0.8rem;
   }
 
   .title-text {
     flex: 1;
   }
+
+  // Decorative gradient line under the title (folio style)
+  &::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 1px;
+    margin: 0.5rem 0 0;
+    background: linear-gradient(to right, var(--border-color) 20%, transparent 90%);
+    pointer-events: none;
+  }
 }
 
 // Content styling
 .note-content {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    "Helvetica Neue", Arial, sans-serif;
-  font-size: 16px;
+  font-family: Roboto, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 17px;
   line-height: 1.6;
   color: var(--text-primary, #333);
 }
@@ -268,7 +307,7 @@
 .note-content ::ng-deep th,
 .note-content ::ng-deep td {
   border: 1px solid var(--border-color, #ddd);
-  padding: 0.5em;
+  padding: 0.5em 0.7em;
   text-align: left;
   color: var(--text-primary);
 }
@@ -276,7 +315,7 @@
 .note-content ::ng-deep th {
   background-color: var(--table-header-bg, #f5f5f5);
   font-weight: 600;
-  color: var(--primary-color) !important;
+  color: var(--text-primary);
 }
 
 /* Custom scrollbar */

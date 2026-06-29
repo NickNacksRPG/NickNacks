@@ -6,3 +6,4 @@ export * from './markdown.service';
 export * from './search.service';
 export * from './theme.service';
 export * from './project-config.service';
+export * from './features.service';

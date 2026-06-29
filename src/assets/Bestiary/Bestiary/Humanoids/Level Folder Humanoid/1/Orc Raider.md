@@ -37,6 +37,6 @@ Level 1 medium [[Orc]]
 <span style="color:rgb(103, 254, 120)">Languages</span> - Common, Orcish
 <span style="color:rgb(103, 254, 120)">Equipment </span>- 1 greataxe, 1 crossbow, 1 bola
 <span style="color:rgb(103, 254, 120)">Deific Boons</span> - [[T1 - Huge|huge]]
-<span style="color:rgb(103, 254, 120)">Speed </span>- 45 [[Land Speed]]
+<span style="color:rgb(103, 254, 120)">Speed </span>- 40 [[Land Speed]]
 <span style="color:rgb(103, 254, 120)">Feats</span> - [[Maneuver Versatility]]
 <span style="color:rgb(103, 254, 120)">Skills</span> - +4 [[+Perception]], +4 [[+Survival]], +6 (+2 [[T1 - Huge|huge]]) [[+Athletics]], +8 [[+Intimidation]]

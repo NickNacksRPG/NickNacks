@@ -3,7 +3,7 @@ aliases:
   - call of hades
 ---
 Tags: [[Su]] [[Recharge]], [[Curse]]
-You gain a unique [[Special Attack]], usable 1/day. If you miss or [[Graze]], its daily use is not consumed.
+You gain a unique [[Special Attack]], usable 1/day. If you miss or [[Graze]], its daily use is not consumed. You can ignore the recharge tag by spending [[prayer]]
 
 <span style="color:rgb(103, 254, 120)">Call of Hades</span>
 [[On-hit]] apply a unique curse to a creature. The creature cannot use any means, magical or mundane, to return back to life if it killed while this curse persists. Backup bodies in an alchemy lab, the favor of gods, a [[Necromancer]]'s advanced rejuvenation, it all matters not.

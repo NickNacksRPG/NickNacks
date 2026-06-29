@@ -13,8 +13,8 @@ You must decide to use this ability at the start of your turn, and can perform n
 During this turn you shout incredibly loudly and charge your power, creatures cannot exist within 10 ft of you, and are automatically pushed directly away if they try. You are also [[unstoppable]].
 
 Once the charging is complete, you immediately regain this abilities mana cost and lose the unstoppable and pushback aura. You have a persistent glowing yellow aura around you and the following benefits….
-* You can fly and cannot be made clumsy
+* You can [[fly]] and cannot be made [[clumsy]]
 * You can teleport instead of moving
 * You gain 30 extra speed
-* You gain 30 temp hp
-* Multiattack: Make 3 unarmed attacks
+* You gain 30 [[temp hp]]
+* Multiattack: Make 3 [[Unarmed Attack|unarmed attacks]]

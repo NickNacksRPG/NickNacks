@@ -6,10 +6,21 @@
     <button (click)="retry()">Retry</button>
   </div>
   } @else {
-  <div class="note-container" [style.opacity]="contentVisible() ? 1 : 0">
+  <!-- Breadcrumb trail — above the fade container for persistent placement -->
+  @if (breadcrumbs().length && features.isEnabled('breadcrumbs')) {
+  <nav class="breadcrumbs" aria-label="Breadcrumb">
+    @for (crumb of breadcrumbs(); track $index; let last = $last) {
+      <span class="crumb-segment">{{ crumb.label }}</span>
+      @if (!last) { <span class="crumb-sep">›</span> }
+    }
+  </nav>
+  }
+  <div class="note-container"
+    [class.breadcrumbs-on]="breadcrumbs().length && features.isEnabled('breadcrumbs')"
+    [style.opacity]="contentVisible() ? 1 : 0">
     <h1 class="note-title">
       @if (noteIcon()) {
-      <app-iconify-icon class="note-icon" [icon]="noteIcon()!" [size]="32" />
+      <app-iconify-icon class="note-icon" [icon]="noteIcon()!" [size]="44" />
       }
       <span class="title-text">{{ noteTitle() }}</span>
     </h1>

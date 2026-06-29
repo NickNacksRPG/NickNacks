@@ -11,20 +11,20 @@ The Slayer revels in combat. He is hard to kill, mobile and has an arsenal unlik
 | [[Memory]]               | 1+(1/2 lvl)       |
 ## <span style="color:rgb(103, 254, 120)">1 - Techniques</span>
 You have [[Martial Specialization]].
-You gain 0 technique points, not usable in any martial tree. You won't need them.
+You gain 0 technique points. You won't need them.
 ## <span style="color:rgb(103, 254, 120)">1 - Versatility</span>
 You can ignore the 2h property of any weapon, but the base damage decreases to d8
 ## <span style="color:rgb(103, 254, 120)">1 - Superhuman</span>
-* You add [[STR]] instead of [[DEX]] to attack/dmg for all weapons created by Energy (bigger str means bigger gun)
+* You can add [[STR]] instead of [[DEX]] to attack/dmg for all weapons created by Energy (bigger str means bigger gun)
 * +10 [[Land Speed]]
 * Gain the [[+Athletics]] skill with a +4 bonus
 * +2 [[attack]], increasing to +4 against [[fiends]].
-* You can automatically [[jump]] as high and as far as you can move.
+* You can automatically [[jump]] as high and as far as you can move and can jump as a free action 1/round.
 * You are [[Immunity|immune]] to [[fall damage]].
 ## <span style="color:rgb(103, 254, 120)">1 - Feats</span>
 You gain the [[unarmed combatant]] and [[Point Blank Master]] feats.
 ## <span style="color:rgb(103, 254, 120)">1 - Glory Kill</span> [[healing]] [[overheal]] [[elusive]]
-You can sense weakness in your enemies. Whenever a creature you can see is at or below an hp total equal to (9+lvl), you know. When a creature within 30 feet is at this threshold, you can spend an immediate action to dash with incredible speeds to reach it (in a straight line, even if it is airborne, if you can't fly you fall) and make an [[Unarmed Attack|unarmed strike]] against it. [[On-hit]] it instantly [[Defeated|defeats]] the creature. If the creature isn't a [[Minion]], you regain 1 [[mana]] and you heal (3+[[LvL]]) hp.
+You can sense weakness in your enemies. Whenever a creature you can see is at or below an hp total equal to (10+lvl), you know. When a creature within 30 feet is at this threshold, you can spend an immediate action to dash with incredible speeds to reach it (in a straight line, even if it is airborne, if you can't fly you fall) and make an [[Unarmed Attack|unarmed strike]] against it. [[On-hit]] it instantly [[Defeated|defeats]] the creature. If the creature isn't a [[Minion]], you heal (3+[[LvL]]) hp.
 
 If you so choose, though is completely unnecessary, you can brutally and spectacularly execute whatever creature you just targeted with this ability and they die...Horribly (fort negates). Killing a creature in such a way always results in some amazing feat of strength, agility and a disturbing creativity in the Slayer’s brutality.
 
@@ -57,7 +57,7 @@ This ability functions as Old Friend, but instead of a shotgun you manifest a ri
 <span style="color:rgb(192, 0, 0)">DMG</span> - 2d8 P
 <span style="color:rgb(192, 0, 0)">Properties</span> - 2h
 <span style="color:rgb(192, 0, 0)">Range</span> - [[Long]]
-<span style="color:rgb(192, 0, 0)">Zoom</span> - As a FRA, make a single shot with 300 ft range and +2 attack.
+<span style="color:rgb(192, 0, 0)">Zoom</span> - As a [[FRA]], make a single shot with 300 ft range and +2 attack.
 ## <span style="color:rgb(103, 254, 120)">3 - Heavy Impact</span>
 When you fall at least 20 ft, you release a shockwave in a 10 ft radius around you. If you fell at least 50 ft, the shockwave is a 20 ft radius. The effect this has depends on the target and their HP threshold.
 

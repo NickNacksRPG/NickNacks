@@ -12,7 +12,7 @@ The first Blood Hunters were unique types of gunmen who, much like vampires, wer
 ## <span style="color:rgb(103, 254, 120)">1 - Techniques</span>
 You have [[Martial Specialization]] and [[Magical Specialization]].
 You gain 2 technique points at level 1, then another point every 2 levels after.
-These technique points can be used on the [[marksman]], [[Vampirism]] and [[scoundrel]] tree.
+These technique points can be used on the [[Marksman]], [[Vampirism]] and [[scoundrel]] tree.
 ## <span style="color:rgb(103, 254, 120)">1 - Multiattack</span>
 Make two attacks, one of which must be a [[Gun]] attack.
 ## <span style="color:rgb(103, 254, 120)">1 - Blood Price</span> [[Su]]

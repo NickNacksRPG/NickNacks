@@ -1,12 +1,13 @@
 import { Component, input, output, inject, computed } from '@angular/core';
 import { RouterLink } from '@angular/router';
 import { toSignal } from '@angular/core/rxjs-interop';
-import { MarkdownService, ProjectConfigService } from '../../core/services';
+import { MarkdownService, ProjectConfigService, FeaturesService } from '../../core/services';
 import { Note } from '../../core/interfaces';
 import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
 import { MatTooltipModule } from '@angular/material/tooltip';
 import { IconifyIconComponent } from '../../shared/components/iconify-icon/iconify-icon.component';
+import { WikiLinkDirective } from '../../features/notes/components/wiki-link.directive';
 
 /**
  * Right Sidebar Component
@@ -26,13 +27,14 @@ import { IconifyIconComponent } from '../../shared/components/iconify-icon/iconi
  */
 @Component({
   selector: 'app-sidebar-right',
-  imports: [RouterLink, MatIconModule, MatButtonModule, MatTooltipModule, IconifyIconComponent],
+  imports: [RouterLink, MatIconModule, MatButtonModule, MatTooltipModule, IconifyIconComponent, WikiLinkDirective],
   templateUrl: './sidebar-right.component.html',
   styleUrl: './sidebar-right.component.scss',
 })
 export class SidebarRightComponent {
   private readonly markdownService = inject(MarkdownService);
   private readonly projectConfig = inject(ProjectConfigService);
+  protected readonly features = inject(FeaturesService);
 
   // Project configuration exposed to template
   protected readonly projectSlug = this.projectConfig.getProjectNameSlug();

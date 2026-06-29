@@ -1,4 +1,4 @@
-
+*You fight to the last breath.*
 <span style="color:rgb(103, 254, 120)">Requirements</span> - [[STR]] +1
 
 * The first time per day your [[+HP]] would be reduced to 0, instead reduce it to 1.

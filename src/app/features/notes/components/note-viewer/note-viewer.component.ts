@@ -17,7 +17,8 @@ import {
 import { CommonModule } from '@angular/common';
 import { ActivatedRoute } from '@angular/router';
 import { DomSanitizer, SafeHtml, Meta, Title } from '@angular/platform-browser';
-import { MarkdownService, SearchService, ProjectConfigService } from '../../../../core/services';
+import { MarkdownService, SearchService, ProjectConfigService, FeaturesService } from '../../../../core/services';
+import { Note } from '../../../../core/interfaces';
 import { WikiLinkDirective } from '../wiki-link.directive';
 import { toSignal } from '@angular/core/rxjs-interop';
 import { IconifyIconComponent } from '../../../../shared/components/iconify-icon/iconify-icon.component';
@@ -52,6 +53,7 @@ export class NoteViewerComponent implements OnInit, AfterViewChecked {
   private readonly meta = inject(Meta);
   private readonly titleService = inject(Title);
   private readonly projectConfig = inject(ProjectConfigService);
+  protected readonly features = inject(FeaturesService);
 
   @ViewChild('noteContent', { read: ElementRef }) noteContentElement?: ElementRef;
 
@@ -60,6 +62,7 @@ export class NoteViewerComponent implements OnInit, AfterViewChecked {
   protected readonly contentVisible = signal<boolean>(false);
   protected readonly noteTitle = signal<string>('');
   protected readonly noteIcon = signal<string | undefined>(undefined);
+  protected readonly breadcrumbs = signal<{ label: string; folderPath: string | null }[]>([]);
 
   private currentNoteId: string | null = null;
   private calculatorComponents: ComponentRef<CalculatorComponent>[] = [];
@@ -91,9 +94,13 @@ export class NoteViewerComponent implements OnInit, AfterViewChecked {
       return this.sanitizer.bypassSecurityTrustHtml(content);
     }
 
-    // Apply highlighting to the content
-    const highlighted = this.highlightSearchTerms(content, query);
-    return this.sanitizer.bypassSecurityTrustHtml(highlighted);
+    // Apply highlighting only if feature flag is on
+    if (this.features.isEnabled('search_highlight')) {
+      const highlighted = this.highlightSearchTerms(content, query);
+      return this.sanitizer.bypassSecurityTrustHtml(highlighted);
+    }
+
+    return this.sanitizer.bypassSecurityTrustHtml(content);
   });
 
   ngOnInit(): void {
@@ -136,12 +143,14 @@ export class NoteViewerComponent implements OnInit, AfterViewChecked {
       if (note) {
         this.noteTitle.set(note.title);
         this.noteIcon.set(note.iconSvg || note.icon);
+        this.breadcrumbs.set(this.buildBreadcrumbs(note));
         
         // Update SEO meta tags for the page
         this.updateMetaTags(note.title, canonicalId);
       } else {
         this.noteTitle.set(noteId);
         this.noteIcon.set(undefined);
+        this.breadcrumbs.set([]);
         
         // Update with default meta tags
         this.updateMetaTags(noteId, canonicalId);
@@ -168,6 +177,35 @@ export class NoteViewerComponent implements OnInit, AfterViewChecked {
         },
       });
     }, 200); // Match smooth fade-out duration
+  }
+
+  /**
+   * Builds breadcrumb trail from a note's file path as pure orientation.
+   * Last segment is the current note; all preceding segments are parent folders.
+   */
+  private buildBreadcrumbs(note: Note): { label: string; folderPath: string | null }[] {
+    if (!note.path) return [];
+
+    // e.g. "Bestiary/Bestiary/Aberrations/Level Folder Aberr/0/Space Crab.md"
+    const segments = note.path.split('/');
+    segments.pop(); // Remove filename
+
+    const crumbs: { label: string; folderPath: string | null }[] = [];
+
+    // Root / home link
+    crumbs.push({ label: '🏠', folderPath: '' });
+
+    // Folder segments, accumulating the path
+    let accumulatedPath = '';
+    for (const segment of segments) {
+      accumulatedPath = accumulatedPath ? `${accumulatedPath}/${segment}` : segment;
+      crumbs.push({ label: segment, folderPath: accumulatedPath });
+    }
+
+    // Current note — last segment, no folder target
+    crumbs.push({ label: note.title, folderPath: null });
+
+    return crumbs;
   }
 
   /**

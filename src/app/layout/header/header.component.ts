@@ -1,7 +1,8 @@
-import { Component, input, output } from '@angular/core';
+import { Component, input, output, inject } from '@angular/core';
 import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
 import { MatTooltipModule } from '@angular/material/tooltip';
+import { FeaturesService } from '../../core/services';
 
 /**
  * Header Component
@@ -25,6 +26,7 @@ import { MatTooltipModule } from '@angular/material/tooltip';
   styleUrl: './header.component.scss',
 })
 export class HeaderComponent {
+  protected readonly features = inject(FeaturesService);
   // Inputs using the new signal-based API
   readonly title = input.required<string>();
   readonly leftSidebarOpen = input.required<boolean>();

@@ -8,5 +8,18 @@ Where I think Nick Nacks shines is its customization options for players and GMs
 
 I have plans to make far, far more classes, subclasses, bestiary creatures, feats and more!
 
+## <span style="color:rgb(103, 254, 120)">Helpful Links</span>
+The Meta Discussions section with pages like [[+I'm New to Tabletop Role-Playing]] is a good place to start if you are unfamiliar with the TTRPG hobby as a whole and are considering playing. Also, what makes Nick Nacks unique in [[Pros and Cons of Nick Nacks]].
+
+The [[+Advice for Playing the Game]] section is good for figuring out how TTRPGs work.
+
+The general rules of the game are scattered across the core rules section teaching you how actions work, status effects, [[ability scores]] and all kinds of other useful things.
+
+The [[+Class]] section of the game tells you about all the types of characters you can play. Because the game is still in development, use the [[Class Descriptions and Completion Status|class completion status]] section to figure out how fleshed out each one is.
+
+The [[Technique Rules]] section showcases all of the special moves that are shared across characters, functioning kind of like DnD spell lists. Comes in martial and magic varieties.
+
+
+
 
 
