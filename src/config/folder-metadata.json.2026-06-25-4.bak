@@ -1,0 +1,511 @@
+{
+  "Bestiary": {
+    "color": "#FF4444",
+    "icon": "🐾"
+  },
+  "Bestiary/Bestiary/Beasts": {
+    "icon": "wolf"
+  },
+  "Bestiary/Bestiary/Constructs": {
+    "icon": "robot"
+  },
+  "Bestiary/Bestiary/Dragons": {
+    "color": "#FF5500",
+    "icon": "🐉"
+  },
+  "Bestiary/Bestiary/Elementals": {
+    "color": "#44AADD"
+  },
+  "Bestiary/Bestiary/Fey": {
+    "color": "#88DD44",
+    "icon": "fairy"
+  },
+  "Bestiary/Bestiary/Fiends": {
+    "color": "#CC2244",
+    "icon": "devil-mask"
+  },
+  "Bestiary/Bestiary/Giant": {
+    "color": "#AA7744",
+    "icon": "giant"
+  },
+  "Bestiary/Bestiary/Humanoids": {
+    "color": "#DDAA88",
+    "icon": "person"
+  },
+  "Bestiary/Bestiary/Inevitable": {
+    "color": "#AAAAAA"
+  },
+  "Bestiary/Bestiary/Oozes": {
+    "color": "#88BB55",
+    "icon": "slime"
+  },
+  "Bestiary/Bestiary/Plants": {
+    "color": "#44AA44",
+    "icon": "tree"
+  },
+  "Bestiary/Bestiary/Undead": {
+    "color": "#777777",
+    "icon": "ghost"
+  },
+  "Bestiary/Environmental Hazards": {
+    "color": "#88AACC",
+    "icon": "mountain"
+  },
+  "Bestiary/Environmental Hazards/Water": {
+    "color": "#4488CC",
+    "icon": "water"
+  },
+  "Bestiary/Monster Qualities": {
+    "color": "#CC8899"
+  },
+  "Bestiary/Monster Qualities/Defense Traits": {
+    "color": "#AACC88"
+  },
+  "Bestiary/Monster Qualities/Offense Traits": {
+    "color": "#DD8866"
+  },
+  "Bestiary/Monster Qualities/Other Traits": {
+    "color": "#99AACC"
+  },
+  "Classes": {
+    "icon": "helmet"
+  },
+  "Classes/Alchemist": {
+    "icon": "alchemy"
+  },
+  "Classes/Barbarian": {
+    "icon": "barbarian"
+  },
+  "Classes/Beast Trainer": {
+    "icon": "dog"
+  },
+  "Classes/Bender/Archetypes/Airbender": {
+    "color": "#88CCDD",
+    "icon": "wind"
+  },
+  "Classes/Bender/Archetypes/Earthbender": {
+    "color": "#887744",
+    "icon": "earth"
+  },
+  "Classes/Bender/Archetypes/Firebender": {
+    "color": "#FF6622",
+    "icon": "fire"
+  },
+  "Classes/Bender/Archetypes/Waterbender": {
+    "color": "#4488CC",
+    "icon": "water"
+  },
+  "Classes/Fiend Shifter": {
+    "icon": "devil-mask"
+  },
+  "Classes/Healer": {
+    "icon": "health"
+  },
+  "Classes/Hex Maniac": {
+    "color": "#4488dd",
+    "icon": "magic"
+  },
+  "Classes/Jester": {
+    "color": "#FF66AA",
+    "icon": "jester-hat"
+  },
+  "Classes/Lunatic": {
+    "color": "#6644AA"
+  },
+  "Classes/Magus": {
+    "color": "#4488CC"
+  },
+  "Classes/Martial Artist": {
+    "color": "#DD6633"
+  },
+  "Classes/Martial Artist/Archteypes/Monk": {
+    "color": "#FF8844",
+    "icon": "monk-face"
+  },
+  "Classes/Martial Artist/Archteypes/Wrestler": {
+    "color": "#CC4444"
+  },
+  "Classes/Mechanic": {
+    "color": "#888888",
+    "icon": "mechanic-garage"
+  },
+  "Classes/Mesmerist": {
+    "color": "#CC44AA"
+  },
+  "Classes/Necromancer": {
+    "color": "#664488"
+  },
+  "Classes/Paladin": {
+    "color": "#DDCC44"
+  },
+  "Classes/Psychic": {
+    "color": "#8844CC",
+    "icon": "psychic-waves"
+  },
+  "Classes/Psychic/Archetypes/Fate Spinner": {
+    "color": "#AA66CC"
+  },
+  "Classes/Psychic/Archetypes/Spy": {
+    "color": "#886699",
+    "icon": "spy"
+  },
+  "Classes/Rogue": {
+    "color": "#665544",
+    "icon": "rogue"
+  },
+  "Classes/Shapeshifter": {
+    "color": "#66AA88"
+  },
+  "Classes/Skyman": {
+    "color": "#88AAEE"
+  },
+  "Classes/Slayer": {
+    "color": "#CC4433"
+  },
+  "Classes/Wizard": {
+    "color": "#4488DD",
+    "icon": "hat-wizard"
+  },
+  "Core Rules, How to Play": {
+    "color": "#66BB66",
+    "icon": "dice"
+  },
+  "Core Rules, How to Play/Alternative Win Conditions": {
+    "color": "#CCAA88"
+  },
+  "Core Rules, How to Play/Attacking": {
+    "color": "#DD8866"
+  },
+  "Core Rules, How to Play/Attacking/Combat Maneuvers": {
+    "color": "#CC7744"
+  },
+  "Core Rules, How to Play/Death and Resurrection": {
+    "color": "#886688"
+  },
+  "Core Rules, How to Play/Hitpoints": {
+    "color": "#44BB77",
+    "icon": "health"
+  },
+  "Core Rules, How to Play/More Rules": {
+    "color": "#99AACC"
+  },
+  "Core Rules, How to Play/Saving Throws": {
+    "color": "#6699CC"
+  },
+  "Core Rules, How to Play/Status Effects": {
+    "color": "#CC88AA"
+  },
+  "Core Rules, How to Play/Tags": {
+    "color": "#AABBCC"
+  },
+  "Equipment and Economics": {
+    "color": "#4488CC",
+    "icon": "coin"
+  },
+  "Equipment and Economics/Equipment Types/Alchemical Items": {
+    "color": "#44BB77",
+    "icon": "alchemy"
+  },
+  "Equipment and Economics/Equipment Types/Alchemical Items/Potions": {
+    "color": "#4488DD",
+    "icon": "potion"
+  },
+  "Equipment and Economics/Equipment Types/Alchemical Items/Toxins": {
+    "color": "#77BB44",
+    "icon": "poison"
+  },
+  "Equipment and Economics/Equipment Types/Alchemical Items/Thrown Concoctions": {
+    "color": "#CC8833"
+  },
+  "Equipment and Economics/Equipment Types/Alchemical Items/Other Utility": {
+    "color": "#88AA77"
+  },
+  "Equipment and Economics/Equipment Types/Armor and Shield Rules": {
+    "color": "#8899AA",
+    "icon": "shield"
+  },
+  "Equipment and Economics/Equipment Types/Armor and Shield Rules/Shields": {
+    "color": "#7788AA",
+    "icon": "shield"
+  },
+  "Equipment and Economics/Equipment Types/Downtime": {
+    "color": "#88AA88"
+  },
+  "Equipment and Economics/Equipment Types/Gear Upgrades": {
+    "color": "#AA8844"
+  },
+  "Equipment and Economics/Equipment Types/Gear Upgrades/Baubles": {
+    "color": "#CC88AA"
+  },
+  "Equipment and Economics/Equipment Types/Gear Upgrades/Body and Shields": {
+    "color": "#8899AA",
+    "icon": "shield"
+  },
+  "Equipment and Economics/Equipment Types/Gear Upgrades/Footwear": {
+    "color": "#886644",
+    "icon": "boots"
+  },
+  "Equipment and Economics/Equipment Types/Gear Upgrades/Gloves": {
+    "icon": "gloves"
+  },
+  "Equipment and Economics/Equipment Types/Gear Upgrades/Headwear": {
+    "color": "#CC8844",
+    "icon": "helmet"
+  },
+  "Equipment and Economics/Equipment Types/Gear Upgrades/Magic Armor Properties": {
+    "color": "#6688CC"
+  },
+  "Equipment and Economics/Equipment Types/Gear Upgrades/Magic Weapon Properties": {
+    "color": "#CC6644"
+  },
+  "Equipment and Economics/Equipment Types/Gear Upgrades/Slotless Items": {
+    "color": "#AAAAAA"
+  },
+  "Equipment and Economics/Equipment Types/Gear Upgrades/Spell Focus Items": {
+    "color": "#6644AA",
+    "icon": "magic"
+  },
+  "Equipment and Economics/Equipment Types/Gear Upgrades/Spell Focus Items/Seals": {
+    "color": "#7755BB"
+  },
+  "Equipment and Economics/Equipment Types/Gear Upgrades/Spell Focus Items/Staves": {
+    "color": "#8866AA"
+  },
+  "Equipment and Economics/Equipment Types/Gear Upgrades/Spell Focus Items/Wands": {
+    "color": "#9977CC",
+    "icon": "wand"
+  },
+  "Equipment and Economics/Equipment Types/Gear Upgrades/Unique Item Sets": {
+    "color": "#CC8844"
+  },
+  "Equipment and Economics/Equipment Types/Gear Upgrades/Unique Weapons": {
+    "color": "#CC6644",
+    "icon": "sword"
+  },
+  "Equipment and Economics/Equipment Types/Weapons": {
+    "color": "#CC6644",
+    "icon": "sword"
+  },
+  "Equipment and Economics/Equipment Types/Weapons/Exotic Weapons": {
+    "color": "#CC8844"
+  },
+  "Equipment and Economics/Equipment Types/Weapons/Special Attacks": {
+    "color": "#DD7755"
+  },
+  "Equipment and Economics/Equipment Types/Weapons/Weapon Qualities": {
+    "color": "#BB9966"
+  },
+  "Feats": {
+    "icon": "🏆"
+  },
+  "Feats/Combat Feats": {
+    "icon": "sword"
+  },
+  "Feats/General Feats": {
+    "color": "#88AACC"
+  },
+  "Feats/Magic Feats": {
+    "color": "#8866CC",
+    "icon": "magic"
+  },
+  "Feats/Multiclass": {
+    "color": "#AA88CC"
+  },
+  "Feats/Racial Feats": {
+    "color": "#88BB88"
+  },
+  "Gods": {
+    "icon": "👑"
+  },
+  "Gods/Gods/Demon Lords": {
+    "color": "#CC3344",
+    "icon": "devil-mask"
+  },
+  "Gods/Gods/Earthly Deities": {
+    "color": "#66BB66"
+  },
+  "Gods/Gods/Heavenly Deities": {
+    "color": "#FFDD44",
+    "icon": "angel-wings"
+  },
+  "Gods/Gods/Generic Deific Boons": {
+    "color": "#DDBB88"
+  },
+  "Lore": {
+    "color": "#44BB88",
+    "icon": "book"
+  },
+  "Lore/Factions": {
+    "color": "#66AACC"
+  },
+  "Lore/Noteworthy People": {
+    "color": "#CCAA88",
+    "icon": "person"
+  },
+  "Lore/Planes": {
+    "color": "#8866AA"
+  },
+  "Lore/The Timeline": {
+    "color": "#AA8866"
+  },
+  "Meta Discussions": {
+    "color": "#9988CC",
+    "icon": "chat"
+  },
+  "Minigames": {
+    "icon": "gamepad"
+  },
+  "Minigames/Chase": {
+    "icon": "run"
+  },
+  "Races": {
+    "icon": "users"
+  },
+  "Races/Beastfolk": {
+    "icon": "wolf"
+  },
+  "Random Charts": {
+    "icon": "chart"
+  },
+  "Skills": {
+    "icon": "star"
+  },
+  "Skills/Skills/Knowledge/Alchemy": {
+    "icon": "alchemy"
+  },
+  "Skills/Skills/Knowledge/Arcana": {
+    "icon": "magic"
+  },
+  "Skills/Skills/Knowledge/Nature": {
+    "icon": "tree"
+  },
+  "Skills/Skills/Linguistics": {
+    "color": "#88AACC"
+  },
+  "Skills/Skills/Medicine": {
+    "color": "#44BB88",
+    "icon": "health"
+  },
+  "Skills/Skills/Perception": {
+    "color": "#88CCAA"
+  },
+  "Skills/Skills/Persuasion": {
+    "color": "#CC88AA"
+  },
+  "Techniques": {
+    "color": "#FF7744",
+    "icon": "🥊"
+  },
+  "Techniques/Magical Techniques": {
+    "color": "#6644CC",
+    "icon": "magic"
+  },
+  "Techniques/Magical Techniques/+Cantrips": {
+    "color": "#8888CC"
+  },
+  "Techniques/Magical Techniques/+Cantrips/Combat Cantrips": {
+    "color": "#CC6644"
+  },
+  "Techniques/Magical Techniques/+Cantrips/Utility Cantrips": {
+    "color": "#88AACC"
+  },
+  "Techniques/Magical Techniques/Academy": {
+    "color": "#8888AA"
+  },
+  "Techniques/Magical Techniques/Alchemy": {
+    "icon": "alchemy"
+  },
+  "Techniques/Magical Techniques/Arcane": {
+    "icon": "magic"
+  },
+  "Techniques/Magical Techniques/Brazzeria (T)": {
+    "icon": "fire"
+  },
+  "Techniques/Magical Techniques/Clairvoyance (T)": {
+    "color": "#88AADD"
+  },
+  "Techniques/Magical Techniques/Corruption": {
+    "color": "#664466"
+  },
+  "Techniques/Magical Techniques/Cryomancy": {
+    "color": "#88CCEE",
+    "icon": "snowflake-1"
+  },
+  "Techniques/Magical Techniques/Frogg-Saran (T)": {
+    "color": "#44BB44",
+    "icon": "frog"
+  },
+  "Techniques/Magical Techniques/God Mode": {
+    "color": "#FFCC00"
+  },
+  "Techniques/Magical Techniques/Golden Order": {
+    "color": "#DDAA22"
+  },
+  "Techniques/Magical Techniques/Goomshroom": {
+    "color": "#CC44AA",
+    "icon": "mushroom"
+  },
+  "Techniques/Magical Techniques/Moogen": {
+    "color": "#8844AA",
+    "icon": "moon"
+  },
+  "Techniques/Magical Techniques/Mother Earth": {
+    "color": "#66AA44",
+    "icon": "earth"
+  },
+  "Techniques/Magical Techniques/Nack": {
+    "icon": "mountain"
+  },
+  "Techniques/Magical Techniques/Necromancy": {
+    "color": "#774488"
+  },
+  "Techniques/Magical Techniques/Prismancy": {
+    "color": "#CC88DD"
+  },
+  "Techniques/Magical Techniques/Psionics": {
+    "color": "#8844CC",
+    "icon": "psychic-waves"
+  },
+  "Techniques/Magical Techniques/Pyromancy": {
+    "color": "#FF5500",
+    "icon": "fire"
+  },
+  "Techniques/Magical Techniques/Shira": {
+    "color": "#CC2244",
+    "icon": "devil-mask"
+  },
+  "Techniques/Magical Techniques/Vampirism": {
+    "color": "#883344",
+    "icon": "vampire-dracula"
+  },
+  "Techniques/Martial Techniques": {
+    "color": "#DD6633",
+    "icon": "fist"
+  },
+  "Techniques/Martial Techniques/+Warfare": {
+    "color": "#CC5533"
+  },
+  "Techniques/Martial Techniques/Arc": {
+    "color": "#4488DD"
+  },
+  "Techniques/Martial Techniques/Barbarism": {
+    "color": "#CC4422",
+    "icon": "barbarian"
+  },
+  "Techniques/Martial Techniques/Beastmode": {
+    "color": "#66BB44",
+    "icon": "wolf"
+  },
+  "Techniques/Martial Techniques/Marksman": {
+    "icon": "bow"
+  },
+  "Techniques/Martial Techniques/Protector": {
+    "icon": "shield"
+  },
+  "Techniques/Martial Techniques/Pupper": {
+    "icon": "dog"
+  },
+  "Techniques/Martial Techniques/Unarmed": {
+    "icon": "fist"
+  }
+}
