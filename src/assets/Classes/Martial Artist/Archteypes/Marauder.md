@@ -1,6 +1,3 @@
----
-icon: RaVineWhip
----
 A Marauder runs down and disrupts vulnerable targets using tether abilities, breaking ranks and exposing weaknesses for their team while diving in and out of the battle.
 
 | [[+HP]] (martial)        | 20(+10 per level) |

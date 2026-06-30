@@ -1,6 +1,3 @@
----
-icon: RaWolfHowl
----
 Unleash the power of the wilds. Shapeshifters are incredibly versatile, capable of adapting to any situation on a dime with their shapeshifting ability, though they typically focus on tearing their enemies to shreds with their claws.
 
 | [[+HP]] (martial)        | 20(+10 per level) |
@@ -14,7 +11,7 @@ You have [[Martial Specialization]]
 You gain 1 technique points at level 1, then another point every 2 levels after.
 These technique points can be used on the [[Beastmode]] tree.
 ## <span style="color:rgb(103, 254, 120)">1 - Shapeshift</span> [[Su]] [[Polymorph|poly, true]] or [[Polymorph|poly, chimeric]]
-As a swift action, spend 1 mana gain a series of ANY benefits from the [[polymorph list]]. Each of these qualities has a point value associated with them. You have (3+[[LvL]]) points to choose abilities with. These points are often used through other features and are referred to as [[Polymorph List|adaptation points]].
+As a swift action, spend 1 [[mana]] gain a series of ANY benefits from the [[polymorph list]]. Each of these qualities has a point value associated with them. You have (3+[[LvL]]) points to choose abilities with. These points are often used through other features and are referred to as [[Polymorph List|adaptation points]].
 
 The effects last an hour and are permanent @6.  All benefits are replaced the next time you use it.
 

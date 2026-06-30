@@ -1,6 +1,3 @@
----
-icon: ☮
----
 Merciful monks have transcended the need to deal any damage at all, optimizing their fighting style to turn an enemies force against them and aid allies who are in danger.
 
 ## <span style="color:rgb(103, 254, 120)">1 - First Strike: Pacify</span>

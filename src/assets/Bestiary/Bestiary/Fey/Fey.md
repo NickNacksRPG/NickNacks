@@ -1,4 +1,1 @@
----
-icon: RaFairy
----
 

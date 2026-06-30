@@ -1,5 +1,4 @@
 ---
-icon: TiUsersGroup
 aliases:
   - teamwork feat
   - teamwork feats

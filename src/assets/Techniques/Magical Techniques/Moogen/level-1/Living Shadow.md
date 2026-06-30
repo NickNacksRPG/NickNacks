@@ -7,7 +7,7 @@ Action: Swift
 | Target/[[AoE]] | -        |
 | Duration       | 1 minute |
 | Save           | -        |
-Your shadow detaches and forms a copy of you in your current space. It looks like you, but made of a shadowy mist with your eyes. It is stationary and mimics your attacks/gestures. You can use this shadow as the origin point for your spells and attacks. It can also make [[AoO]]s.
+Your shadow detaches and forms a copy of you in your current space. It looks like you, but made of a shadowy mist with your eyes. It is stationary and mimics your attacks/gestures. You can use this shadow as the origin point for your spells and attacks. It also [[Threaten|threatens]] and can make [[AoO]]s (consuming your available AoOs).
 
 You still must have line of sight to the target of your attacks/spells.
 

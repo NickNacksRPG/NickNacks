@@ -1,5 +1,4 @@
 ---
-icon: LiSword
 aliases:
   - special attacks
 ---

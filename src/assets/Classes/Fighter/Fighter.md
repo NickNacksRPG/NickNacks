@@ -1,6 +1,3 @@
----
-icon: ⚔
----
 Men-at-arms clad in steel that use various fighting styles to achieve the same goal: destroy as many enemies as possible using overwhelming martial prowess.
 
 ![[deadly arsenal.jpg|[Deadly Arsenal](https://hearthstone.wiki.gg/wiki/Deadly_Arsenal#/media/File:Deadly_Arsenal_full.jpg), Hearthstone|512]]
@@ -17,7 +14,7 @@ Men-at-arms clad in steel that use various fighting styles to achieve the same g
 You have [[martial specialization]].
 You gain 1 [[Technique Point|technique point]] at level 1, then another point every 2 levels after. These technique points can be used on any martial tree.
 ## <span style="color:rgb(103, 254, 120)">1 - Superior Attack</span>
-Once per any turn where you're capable of taking the attack action, you can make a simple attack as a free action, or as an additional simple attack if you do take the attack action.
+Once per any turn where you're capable of taking the attack action, you can make a [[simple attack]] as a free action.
 ## <span style="color:rgb(103, 254, 120)">1 - Weapon Training</span>
 You have +2 to [[Attack]] with [[Weapon Attack|weapon attacks]], [[Natural Attack|natural attacks]] and [[Unarmed Attack|unarmed strikes]]. 
 You have [[DR]] 5 vs disarm.

@@ -1,6 +1,3 @@
----
-icon: BoBxRun
----
 Feeling nostalgic about 3e, 3.5e or PF1e? Well here's me doing my best to recreate that experience in a slightly less heavy handed way than BB fighter. The full attacker is the fightiest guy, all about gaining insane amounts of movement speed and then using that speed to gain more actions. Woe to those who dare to stand in your face.
 ## <span style="color:rgb(103, 254, 120)">1 - Who's Next?</span>
 If you defeat an enemy and don't have enough speed to reach a new enemy, you can move until you threaten the next closest enemy, unless your speed is 0.

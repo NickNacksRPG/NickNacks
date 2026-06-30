@@ -1,7 +1,6 @@
 ---
 aliases:
   - courier
-icon: TiMail
 ---
 People in Nack do not have phones or radio, and therefore need to communicate with people somehow. A common method is the [[Sending]] spell, but that is often limited in nature, and requires specific magic knowledge and knowledge about who you contact. 
 

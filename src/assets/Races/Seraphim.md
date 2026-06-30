@@ -1,5 +1,4 @@
 ---
-icon: RaAngelWings
 aliases:
   - Exalted
   - Fallen
@@ -33,7 +32,7 @@ The celestial race. Comes in 2 variants. 1 representing fallen angels, the other
 
 | <span style="color:rgb(103, 254, 120)">Minor Replace</span> |                                                                                                                                                                                                                                                |
 | ----------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Radiance ([[Recharge]])                                     | 1/day when you activate your halo's light, it causes foes within its radius to have [[blurred vision]] for 1 round (reflex negates)                                                                                                            |
+| Exalted: Radiance ([[Recharge]])                            | 1/day when you activate your halo's light, it causes foes within its radius to have [[blurred vision]] for 1 round (reflex negates)                                                                                                            |
 | Passed Away                                                 | By making physical contact, you can tell the name of a corpse, or the name an undead had in life. You can also tell how long it has been dead.                                                                                                 |
 | Glide                                                       | Glide upon feathered wings. Gain [[Glide]]<br>1/day a swift action, you can increase the size and power of these wings for 1 minute, giving you a [[fly]] speed equal to your land speed. You can also take flight as part of the same action. |
 | Skill                                                       | Get a +2 bonus to one of the following: [[+Persuasion]], [[+Medicine]]                                                                                                                                                                         |

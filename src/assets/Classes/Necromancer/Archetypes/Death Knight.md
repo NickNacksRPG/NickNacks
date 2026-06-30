@@ -1,6 +1,3 @@
----
-icon: RaHelmet
----
 For when casting isn't as important to you and you want to get in there and slap some fools with your boners. This variation of the class has a lot more survivability and is geared towards being a raid boss.
 
 | [[+HP]] (mixed)          | 20(+8 per level) |

@@ -1,5 +1,3 @@
-# 🤔 Oddball Spells
-
 Because the technique progression of the Bender class is awkward, I have gone out of my way to take the work out of finding what techniques work for your element outside of the technique trees I recommended. I will also include a handful of spells I feel are thematically appropriate even if they do not have matching tags since there isn't enough content for some tags. You can still cast any of these spells without staff components.
 
 Just as a reminder, some of these techniques you won't have access to until certain levels, since firebenders and waterbenders don't unlock the variants to their blasts until levels 5 and 3 respectively.

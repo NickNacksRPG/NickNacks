@@ -1,6 +1,3 @@
----
-icon: RaGloop
----
 The the gooey fusion race.
 
 | Language    | Depends on origin race                                                                                                                                                                       |
@@ -15,7 +12,7 @@ The the gooey fusion race.
 | <span style="color:rgb(103, 254, 120)">Major Default</span> |                                                                    |
 | ----------------------------------------------------------- | ------------------------------------------------------------------ |
 | Stretch                                                     | During your turn, your [[Reach\|natural reach]] increases by 5 ft. |
-| [[Blindsense]]                                              | [[Tremorsense]], 5 ft                                              |
+| [[+Blindsense]]                                             | [[Tremorsense]], 5 ft                                              |
 
 | <span style="color:rgb(103, 254, 120)">Minor Default</span> |                                                                                                                                                                                                                                                          |
 | ----------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

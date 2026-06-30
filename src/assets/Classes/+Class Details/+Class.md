@@ -1,6 +1,3 @@
----
-icon: LiAnchor
----
 Classes are the largest component of your character that decides what unique abilities you gain.
 
 Classes get a set of numerical bonuses to aid them. Every class has listed [[+HP]], [[Skills]], [[Memory]], and at least one [[+Saving Throw|Save]] bonus. Stats can be flat front-loaded amounts, per-[[LvL]] bonuses, or both.

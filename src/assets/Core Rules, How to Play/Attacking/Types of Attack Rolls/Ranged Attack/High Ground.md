@@ -1,6 +1,3 @@
----
-icon: ⛰
----
 A [[Circumstance]] that you get when you have an elevation edge of at least 10ft over your opponent.
 
 You cannot gain high ground by using the [[Jump]] action.

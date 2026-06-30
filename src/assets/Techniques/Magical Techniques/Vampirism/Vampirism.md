@@ -1,6 +1,3 @@
----
-icon: 🧛
----
 Vampires are creatures that have cheated death through complex arcane rituals. Their price was in blood. In order to exist, they must drink the blood of intelligent creatures. Their transformation also comes with a large number of idiosyncrasies. It is through these unique circumstances that 3 of the original vampires made new magics to aid them in circumventing these new challenges. Each spell cast still has a piece of them.
 
 Vampirism spells deal in unique effects that are traditionally ascribed to vampires. They also user clever ways to manipulate blood.

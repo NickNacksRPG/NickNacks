@@ -1,6 +1,3 @@
----
-icon: hands-holding-diamond
----
 By going to specialized facilities, or by going to churches with gilded altars, a creature can donate mana. When you donate, you [[mana burn]] an equal amount. A creature can safely donate an amount of mana equal to their (max-1). There are usually safeguards against donating your max mana, but less savory individuals don't mind. Mana burning your max mana gives you a T3 affliction: [[mana starvation]]. This means that most common people are only able to donate 1 mana each day. Children typically do not possess enough mana to safely donate. Because mana is the source of most creature's power, creatures with class levels tend not to donate mana or risk being burned out during a late night ambush.
 
 Specialized facilities and gilded altars are incredibly expensive, typically costing 100s of thousands of gold to craft. This makes it so facilities for mana donation tend to be rather sparse, only located in sizable settlements with magical and religious influence.

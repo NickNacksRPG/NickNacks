@@ -1,6 +1,3 @@
----
-icon: RiFirstAidKitFill
----
 Healers are mages that combine natural talent, a breadth of experience, and a compassion for life that results in abilities that lift spirits and mend wounds, both literally and metaphorically. A healer's mere presence commands a high degree of respect, as even a single healer behind the scenes can turn the tides of a battle. For this reason, healers are often involuntarily pulled into conflicts that do not concern them, as every government, army, church, and adventuring group seeks out their abilities, and every enemy of said groups seek to eliminate them.
 
 | [[+HP]] (specialist)     | 20(+6 per level) |

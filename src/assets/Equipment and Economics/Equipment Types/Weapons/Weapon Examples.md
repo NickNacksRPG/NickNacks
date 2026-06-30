@@ -1,9 +1,3 @@
----
-icon: sword
----
-
-# Weapon Examples
-
 ## <span style="color:rgb(103, 254, 120)">Light</span>
 
 <table><thead><tr><th>Name</th><th width="163.4000244140625">Dmg Type</th><th>SQs</th></tr></thead><tbody><tr><td>Dagger</td><td>P</td><td>Thrown, Chink Magnet</td></tr><tr><td>Hook Hand</td><td>S</td><td>CM (Disarm), Attached (hand)</td></tr><tr><td>Rapier</td><td>P</td><td>Dueling, Chink Magnet</td></tr><tr><td>Wolverine</td><td>S or P</td><td>Attached (hand)</td></tr><tr><td>Tomahawk</td><td>S</td><td>Thrown, Special Attack (Stacking Strike)</td></tr><tr><td>Shortsword</td><td>S or P</td><td>Special Attack (Determination)</td></tr><tr><td>Sap</td><td>C</td><td>Special Attack (bewildering Blow), Strings Attached</td></tr><tr><td>Sword Boot</td><td>P</td><td>Conceal, Chink Magnet</td></tr></tbody></table>

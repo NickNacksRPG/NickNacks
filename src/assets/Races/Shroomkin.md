@@ -1,6 +1,3 @@
----
-icon: 🍄
----
 The mushroom grower race.
 
 | Language                             | Sylvan                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |

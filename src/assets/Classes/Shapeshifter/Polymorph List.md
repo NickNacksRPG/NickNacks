@@ -2,7 +2,6 @@
 icon: 🧬
 aliases:
   - adaptation points
-hidden: true
 ---
 These points are often used through other features and are referred to as <span style="color:rgb(103, 254, 120)">adaptation points</span>. All creatures get access to the general list. Creatures like [[Beast Companion|beast companions]] and all 
  [[Shapeshifter]] archetypes also get the animal list. Everything beyond that is restricted to specific archetypes.

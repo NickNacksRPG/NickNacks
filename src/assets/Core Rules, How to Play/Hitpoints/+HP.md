@@ -1,6 +1,3 @@
----
-icon: FasHeart
----
 How much hp a player has is largely determined by their class. Creatures have a base hp value of 20, and then a value that they add each [[LvL]], <span style="color:rgb(192, 0, 0)">including level one</span>. Classes and creatures all fall under one of the following categories based on their play style.
 
 | Class Type | HP/lv | Description                                                                                                                                                                                                                                                          |

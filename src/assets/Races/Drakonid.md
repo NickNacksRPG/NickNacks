@@ -1,6 +1,3 @@
----
-icon: RaDragon
----
 The regal draconic scalies.
 
 | Language    | Draconic                                      |

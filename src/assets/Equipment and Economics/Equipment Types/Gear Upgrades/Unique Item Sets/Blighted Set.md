@@ -10,4 +10,4 @@ Armor - [[Barrows Armor (light)]]
 
 <span style="color:rgb(192, 0, 0)">Set Bonus:</span> Blighted Aura
 
-Whenever you deal [[+HP]] damage or inflict [[Drained|drain]] on a creature with a [[spell]], they become [[sickened]] 1.
+Whenever you deal [[+HP]] damage or inflict [[Drained|drain]] on a creature with a [[spell]], they become [[sickened]] 1 (once per spell per creature).

@@ -1,6 +1,3 @@
----
-icon: image
----
 Property is synonymous with land, and everything on it. Property can include facilities, homes or it can just look pretty. The price of property changes based on a few factors: Size, buildings, appearance, location and the overall state its in can influence its price.
 
 Small bits of land with little intrinsic value generally go pretty cheap. You can buy an acre of unworked "wild land" for <span style="color:rgb(103, 254, 120)">10,000g</span>

@@ -1,5 +1,4 @@
 ---
-icon: RaBirdClaw
 aliases:
   - natural attacks
 ---

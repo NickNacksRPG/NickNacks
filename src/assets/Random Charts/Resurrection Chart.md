@@ -1,6 +1,3 @@
----
-icon: tombstone
----
 When a character is resurrected, roll a d4.
 
 | 1   | Bad     |

@@ -1,5 +1,4 @@
 ---
-icon: RiMagicFill
 aliases:
   - spell attacks
 ---

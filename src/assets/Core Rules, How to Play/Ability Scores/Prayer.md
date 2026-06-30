@@ -1,6 +1,3 @@
----
-icon: FasPersonPraying
----
 You get a number of uses of prayer equal to ([[WIS]]+1).
 
 The default use of prayer is praying. Praying requires 1 minute of uninterrupted concentration.

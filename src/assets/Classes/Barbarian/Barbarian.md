@@ -1,6 +1,3 @@
----
-icon: 💢
----
 Throw caution to the wind and run directly into the middle of the action. The barbarian specializes in drawing aggro and CCing enemies with a high emphasis on breaking poise. Their exceptionally high longevity assures that being focused is the only reliable way to take them down, and that’s exactly what barbarians want.
 
 | [[+HP]] (brute)          | 20(+12 per level) |
@@ -11,7 +8,7 @@ Throw caution to the wind and run directly into the middle of the action. The ba
 | [[Memory]]               | 3+lvl             |
 ## <span style="color:rgb(103, 254, 120)">1 - Techniques</span>
 You have [[Martial Specialization]].
-You gain 1 technique points at level 1, then another point every 2 levels after.\
+You gain 1 technique points at level 1, then another point every 2 levels after.
 These technique points can be used on the [[Unarmed]] or [[Barbarism]] trees.
 ## <span style="color:rgb(103, 254, 120)">1 - Rage</span>
 As an instant action, enter rage. While raging you increase your [[STR]] by +1.
@@ -26,7 +23,7 @@ Your rage not only gives you strength and resilience, but further empowers you a
 * Fail an opposed [[skill check]]
 You gain a bonus equal to your wrath stacks to...
 - The poise damage you deal 
-- Your athletics bonus by your stacks of wrath.
+- Your [[+Athletics]] bonus by your stacks of wrath.
 - The distance you can [[Shove]] or [[Drag]] someone
 
 You can only maintain wrath while not wearing [[Armor]] and only during combat, or other minigames like [[arm wrestling]] contests and [[+Chase|chases]]. You cannot accumulate/maintain wrath when you are not in such a scenario.
@@ -42,7 +39,7 @@ Make an attack and a [[+Combat Maneuver|combat maneuver]].
 ## <span style="color:rgb(103, 254, 120)">1 - Naked Courage</span>
 You have [[Resistance]] to physical damage (ie slash, crush, pierce). You ignore the effects of extreme temperatures and other similar insignificant environmental effects. Only functions when you do not wear armor.
 ## <span style="color:rgb(103, 254, 120)">2 - Rage Powers</span>
-Gain a rage power this level and levels 2, 4, 6, 8 and 10.
+Gain a rage power this level and levels 4, 6, 8 and 10.
 ## <span style="color:rgb(103, 254, 120)">2 - Outnumbered</span>
 Creatures cannot [[Flanking|flank]] you.
 ## <span style="color:rgb(103, 254, 120)">2 - Stalwart</span>

@@ -1,7 +1,6 @@
 ---
 aliases:
   - black market
-icon: FasMask
 ---
 The black market is not a singular place, but rather a series of vaguely connected organizations that span most of the populated world. Mostly organized by criminals, the black market seeks to serve items that are generally not socially acceptable, or even legal, to sell. This could include things like slaves, blood, connections to [[Fiends]] and other such unscrupulous items.
 

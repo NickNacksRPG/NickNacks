@@ -1,7 +1,6 @@
 ---
 aliases:
   - race
-icon: 🏁
 ---
 Races don't give ability scores. Now you can choose your race based on what features you want. Bring out the jacked fairies and the clumsy elves!
 

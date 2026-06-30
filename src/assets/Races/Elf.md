@@ -1,6 +1,3 @@
----
-icon: 🧝
----
 The old race with pointy ears.
 
 | Language | Elven                   |

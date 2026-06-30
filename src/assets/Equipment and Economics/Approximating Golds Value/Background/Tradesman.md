@@ -1,6 +1,3 @@
----
-icon: 🔨
----
 You worked in a job that required a specialized form of training, such as an alchemist, a doctor or a blacksmith. Over the years of your work you have accumulated a few tools of the trade.&#x20;
 
 Select one of the following presets, or make one that's similar.&#x20;

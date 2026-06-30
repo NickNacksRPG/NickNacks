@@ -7,7 +7,7 @@ Action: [[Special Attack]]
 | Target/[[AoE]] | 1 creature |
 | Duration       | -          |
 | Save           | -          |
-You infuse your weapon with the ability to tangle a creatures wings or the magic that holds it afloat in the air. Make a weapon attack that applies grounded for 1 round.
+You your next attack with the ability to tangle a creatures wings or the magic that holds it afloat in the air. It applies [[grounded]] for 1 round [[On-hit]].
 
 <span style="color:rgb(103, 254, 120)">Upcast</span> - For each additional mana spent, increase damage by d8 (4). At 3 mana, this debuff gains the [[curse]] effect.
 

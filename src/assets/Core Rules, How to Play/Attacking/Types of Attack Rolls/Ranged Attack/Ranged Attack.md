@@ -3,7 +3,6 @@ aliases:
   - ranged
   - range
   - ranged attacks
-icon: RaCrossbow
 ---
 A Ranged Attack is an [[Attack Roll]] made with ranged targeting. This means you can make the attack up to the listed range, not limited by the space you [[Threaten]]. These attacks can also be penalized due to [[Partial Cover]]. Most physical Ranged Attacks have three listed ranges: [[Thrown]], [[short]] and [[long]].
 

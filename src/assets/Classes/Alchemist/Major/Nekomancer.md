@@ -1,6 +1,3 @@
----
-icon: RaCat
----
 ## <span style="color:rgb(103, 254, 120)">1 - Major - Enhancer</span> ([[Polymorph|poly, chimeric]])
 Your feline fascination drives your research forward. You can distill the essence of cats to be complimentary with humanoids. You can use alchemy to create "catgirl potions" for 50g with the following effects.
 - [[Nightvision]]

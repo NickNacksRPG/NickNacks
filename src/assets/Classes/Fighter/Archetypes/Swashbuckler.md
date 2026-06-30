@@ -1,6 +1,3 @@
----
-icon: 🤺
----
 Swashbuckler are the best duelists around, with their signature parry and riposte ability giving them an edge over virtually all martial combatants, especially in melee. Their swift action is incredibly valuable, and can be spent in a number of ways that are powerful in their own ways.
 ## <span style="color:rgb(103, 254, 120)">1 - Parry and Riposte</span>
 With a light weapon in your main hand and a [[buckler]] in your offhand, you can [[Buckler|parry]] at any time. If you choose to use an [[Unarmed Attack|unarmed strike]] or [[natural attack]], you need a buckler in your off hand and a completely free main hand. Parry functions in 2 different ways.

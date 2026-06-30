@@ -1,6 +1,3 @@
----
-icon: TiVirus
----
 You body is filled with foreign microscopic organisms that have taken a liking to their new home, and do their best to keep their host alive. You have developed a unique codependency with these creatures which manifests in strange organic growths on your body that give you a host of alien powers.
 
 Symbiote trades consistent healing with burst healing and higher disruption.

@@ -1,7 +1,3 @@
----
-icon: 🐴
----
-## [[Crust]]
 Pack mule is designed to give you the authentic DnD martial experience where you experience just how much of a "team game" it is by being a useless blob of defensive stats. You are almost completely reliant on your team to defeat your enemies. You scale incredibly poorly offensively, but you scale incredibly well defensively.
 
 <span style="color:rgb(192, 0, 0)">Note:</span>

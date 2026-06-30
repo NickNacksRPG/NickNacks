@@ -7,4 +7,4 @@ Action: Immediate
 | Target/[[AoE]] | 1 creature |
 | Duration       | -          |
 | Save           | -          |
-Whenever an ally (other than you) takes damage or succumbs to a negative [[+Status]] effect as a result of an enemy, you can make a [[Simple Attack|simple]] [[melee attack]] against that enemy.
+Whenever an ally (other than you) takes damage or succumbs to a negative [[+Status]] effect as a result of an enemy you [[threaten]], you can make a [[Simple Attack|simple]] [[melee attack]] against that enemy.

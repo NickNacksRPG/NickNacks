@@ -1,9 +1,6 @@
----
-icon: FasBacterium
----
 This archetype _replaces_ all of the following class features from the base shifter class.
 
-Beast companion, nature stride and uncanny dodge.
+<span style="color:rgb(192, 0, 0)">Beast companion, nature stride and uncanny dodge.</span>
 
 It also alters some class features as mentioned.
 ## <span style="color:rgb(103, 254, 120)">1 - Shapeshift</span>

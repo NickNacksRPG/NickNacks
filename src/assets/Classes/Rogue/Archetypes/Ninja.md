@@ -1,6 +1,3 @@
----
-icon: FasUserNinja
----
 Ninjas are a special breed of rogues that heavily focus around using a set of supernatural powers that aid them in espionage and misdirection. Their signature ability, shadow clone, makes them able to exist in 2 places at once, vastly increasing their ability to gather information.
 
 Not historically accurate, but its more fun this way C:

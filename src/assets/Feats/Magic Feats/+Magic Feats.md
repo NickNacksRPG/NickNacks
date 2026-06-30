@@ -1,6 +1,3 @@
----
-icon: LiWand
----
 
 <span style="color:rgb(103, 254, 120)">Magic</span> - Feats that specifically apply to spells.
 

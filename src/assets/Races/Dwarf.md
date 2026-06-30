@@ -1,6 +1,3 @@
----
-icon: ⛏
----
 The short and stocky beard dude race
 
 | Language | Dwarven                   |

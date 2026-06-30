@@ -1,5 +1,4 @@
 ---
-icon: FasHandFist
 aliases:
   - unarmed attacks
   - unarmed strike

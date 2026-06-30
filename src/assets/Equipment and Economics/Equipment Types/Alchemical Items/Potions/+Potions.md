@@ -1,5 +1,4 @@
 ---
-icon: flask-round-potion
 aliases:
   - potions
   - potion

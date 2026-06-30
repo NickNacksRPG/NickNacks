@@ -2,7 +2,6 @@
 aliases:
   - inventory slot
   - inventory slots
-icon: 🎒
 ---
 Separate from [[Carry Weight]], which determines raw lifting ability, inventory represents how much stuff you can carry on your person. These represented by <span style="color:rgb(192, 0, 0)">inventory slots</span>. By default characters have<span style="color:rgb(192, 0, 0)"> 20 </span>of (or more with high [[STR]]).
 

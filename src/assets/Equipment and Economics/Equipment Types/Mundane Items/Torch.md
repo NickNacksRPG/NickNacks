@@ -1,6 +1,3 @@
----
-icon: RaTorch
----
 ## <span style="color:rgb(103, 254, 120)">20g</span>
 
 Torches are sticks wrapped with some type of cloth, chemical or vegetable matter that is flammable. Torches give off [[Light Level|Bright Light]] in a 20 ft radius around them, and [[Light Level|Dim Light]] 20 ft past that.

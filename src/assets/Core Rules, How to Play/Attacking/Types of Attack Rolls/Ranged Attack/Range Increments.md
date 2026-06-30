@@ -1,7 +1,6 @@
 ---
 aliases:
   - range increment
-icon: TiRulerMeasure
 ---
 Most ranged attacks have 2 listed ranges. When you make an attack at a creature within the first listed range (the first range increment), there is no attack penalty. When you make one against a creature in the second listed range (the second range increment), you take a -2 [[Attack]] penalty. This penalty can be negated with [[high ground]]. Attacks beyond this range are impossible. 
 

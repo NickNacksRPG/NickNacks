@@ -2,7 +2,7 @@
 aliases:
   - shield
   - shields
-icon: LiShield
+  - tower shield
 ---
 - Shields give you [[poise]] and additional combat options called [[+Shield Actions|shield actions]]. 
 - Shields also double up as basic 1h weapons with d8 base damage.

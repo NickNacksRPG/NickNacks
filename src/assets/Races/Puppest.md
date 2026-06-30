@@ -1,6 +1,3 @@
----
-icon: 🐕
----
 Legally distinct fiendish furry.
 
 | Language | Infernal                                                                                              |

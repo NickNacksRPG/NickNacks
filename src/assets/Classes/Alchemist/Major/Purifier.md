@@ -1,6 +1,3 @@
----
-icon: FasHandHoldingMedical
----
 ## <span style="color:rgb(103, 254, 120)">1 - Major: Purification</span>
 You fix and heal, but not in the traditional sense. Your area of expertise is in reversing the irreversible. It is not all too uncommon to find individuals who are victims of a forced [[Reincarnate]]  from [[Frogg Saran]] or that are being changed by some kind of alien mutation or profane corruption. You aim to turn back time to where the creature was healthy whole and themselves again...eventually.
 

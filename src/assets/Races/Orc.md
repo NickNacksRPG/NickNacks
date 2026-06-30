@@ -1,6 +1,3 @@
----
-icon: RaBatteredAxe
----
 The big green bully race.
 
 | Language | Orc      |

@@ -1,5 +1,4 @@
 ---
-icon: LiWand
 aliases:
   - cantrip
 ---

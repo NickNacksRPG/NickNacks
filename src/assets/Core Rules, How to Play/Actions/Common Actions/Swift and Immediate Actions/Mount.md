@@ -2,7 +2,6 @@
 aliases:
   - dismount
   - mounted
-icon: 🐴
 ---
 Hop onto a willing creature's back, using their movement instead of your own.
 

@@ -1,5 +1,4 @@
 ---
-icon: RaDaggers
 aliases:
   - melee attacks
   - melee

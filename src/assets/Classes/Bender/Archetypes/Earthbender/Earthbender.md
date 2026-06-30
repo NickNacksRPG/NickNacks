@@ -1,6 +1,3 @@
----
-icon: 🪨
----
 ## <span style="color:rgb(103, 254, 120)">1 - Elemental Blast: Earth</span>
 Your damage is crush. In order to use (Su) class abilities, you must be standing on the ground and some form of earth (rock, sand, dirt, even mud) must be present within 30 ft range.
 ## <span style="color:rgb(103, 254, 120)">1 - Elemental Movement: Earth Glide</span>

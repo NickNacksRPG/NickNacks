@@ -1,6 +1,3 @@
----
-icon: FarCompass
----
 Explorers are the generalist healers with a handful of utility abilities that assist with travel. They promote treating creatures with mercy whenever possible, and in the most extreme examples, can make death impossible. Their aura is powerful enough that existing near them makes you safer.
 ## <span style="color:rgb(103, 254, 120)">1 - Aura of Mercy</span> ([[Su]])
 Gain a 15ft aura in which creatures cannot gain stacks of Doom. Enemies also do not die when defeated in this aura. This aura is suppressed when you are defeated, or activated/deactivated as a free action on your turn.

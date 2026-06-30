@@ -1,6 +1,3 @@
----
-icon: RaAxeSwing
----
 Cleave through waves of enemies eventually gaining the strength to spin through entire armies. Aran is the premier AoE DPS martial. Spin to win!
 ## <span style="color:rgb(103, 254, 120)">1 - Smash Swing</span>
 Gain [[weapon focus]] (slash) as a bonus feat. You can use great cleave at will. When you cleave, it is referred to as <span style="color:rgb(192, 0, 0)">Smash Swing</span>.

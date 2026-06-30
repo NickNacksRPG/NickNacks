@@ -1,6 +1,3 @@
----
-icon: 💀
----
 The bone zone race.
 
 | Language              | Necril                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |

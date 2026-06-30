@@ -1,5 +1,4 @@
 ---
-icon: seal-exclamation
 aliases:
   - bauble
   - baubles

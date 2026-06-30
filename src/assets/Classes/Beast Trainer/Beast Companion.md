@@ -2,7 +2,7 @@
 aliases:
   - beast companions
 ---
-Beast companions are primarily for the beast tamer class, but the rules can be adjusted for use in other classes, as well as the [[Pet|Pet]] feat.
+Beast companions are primarily for the beast trainer class, but the rules can be adjusted for use in other classes, as well as the [[Pet|Pet]] feat.
 
 | Basic Statistics         |               |
 | ------------------------ | ------------- |
@@ -25,7 +25,7 @@ All companions have the following traits...
 | Name                   | Description                                                                                                                                                                                                                                                          |
 | ---------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Traits                 | [[+Blindsense]] ([[Scent]], 5 ft), [[Nightvision]], [[evasion]], [[Resistance]] vs [[Charm]] effects and a single natural attack that deals d10 crush, slash or pierce damage, chosen on character creation.                                                         |
-| Speed                  | Base 30(+5 per dex). Then either choose to gain an equal [[Swim]] speed or a [[climb]] speed. Companions with a swim speed are [[Amphibious]].                                                                                                                       |
+| Speed                  | Base 30. Then either choose to gain an equal [[Swim]] speed or a [[climb]] speed. Companions with a swim speed are [[Amphibious]].                                                                                                                                   |
 | Battle Buddy           | Companions give allies (and themselves) [[Flanking]] as long as they [[threaten]] the same enemy as an ally, regardless of position.                                                                                                                                 |
 | Adaptation Points      | By default, companions have 5 adaptation points, chosen from the<br>[[Polymorph List]]. Then gain 1 every even level. If something mentions a single attack, then it only applies to one specific attack. They can choose any features from the general/animal list. |
 | Lost Companions (Su)   | When your companion dies, you can do a one minute ritual on its body to bring it back from the dead. When the ritual is complete it is restored to max hp. You and your companion are [[Drained]] 10.                                                                |

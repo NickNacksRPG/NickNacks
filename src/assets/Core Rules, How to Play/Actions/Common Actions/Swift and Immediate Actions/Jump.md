@@ -1,7 +1,6 @@
 ---
 aliases:
   - jumping
-icon: RiArrowUpDoubleFill
 ---
  Jump in a straight line. This can only be used in combination with other forms of movement such as walking or charging.
 

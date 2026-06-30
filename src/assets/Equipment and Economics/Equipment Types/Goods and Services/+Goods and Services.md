@@ -1,6 +1,3 @@
----
-icon: hotel
----
 In order to adventure, you need to eat, sleep and relax after a hard day of getting munched on by wolves. These things are going to steadily eat into your wallet. This section is dedicated to quantifying these basic necessities.
 
 That being said, not all restaurants and inns are created equal. Some more expensive ones may have access to special types of services, or provide you with connections to a specific type of clientele for an enormous price hike.

@@ -1,10 +1,7 @@
----
-icon: FasExplosion
----
 Destroyer shifters are the most monstrous of all fiend shifters. They specialize in destruction, feats of strength and striking fear in the hearts of their enemies. Destroyer abilities are inspired by fiendish, animalistic and monstrous creatures with little more than the desire to kill.
 
 ## <span style="color:rgb(103, 254, 120)">1 - Techniques</span>
-Your have [[Martial Specialization]]. 
+You have [[Martial Specialization]]. 
 Your technique trees are [[Barbarism]] and [[Cataclysm]].
 ## <span style="color:rgb(103, 254, 120)">1 - First Seal: Fiendish Frenzy </span>[[Su]]
 When you break the first seal, you increase to large size and increase your [[Land Speed]] by 10. If there isn't enough room for you to grow, you can roll [[+Athletics]] as an instant action to make room. When you transform you can willingly choose to give yourself the [[taunted]] condition against one enemy that you can see. You can also choose to immediately take the [[Focus]] action against them. You get +4 to d20s (attack, skills, saves etc) against enemies that taunt you. You can choose to automatically fail any effects that taunt.

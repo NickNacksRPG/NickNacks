@@ -1,6 +1,3 @@
----
-icon: RaGears
----
 The part robot race.
 
 | Language      | Based on creator                                                                                                                                            |

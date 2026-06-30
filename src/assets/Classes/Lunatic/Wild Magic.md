@@ -1,6 +1,3 @@
----
-icon: FasFrog
----
 When you trigger wild magic, first roll a d4 to determine which chart you roll on. <span style="color:rgb(192, 0, 0)">1 is red</span>, <span style="color:rgb(255, 192, 0)">2 is yellow</span>, <span style="color:rgb(112, 48, 160)">3 is purple</span> and <span style="color:rgb(103, 254, 120)">4 is green</span>.
 
 After that, roll d20s until you get a result on the chart. Hopefully eventually there will be more than 20!

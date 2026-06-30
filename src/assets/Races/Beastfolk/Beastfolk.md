@@ -1,6 +1,3 @@
----
-icon: FasPaw
----
 The furry race.
 
 | Language | Sylvan                                                                                                                                                     |

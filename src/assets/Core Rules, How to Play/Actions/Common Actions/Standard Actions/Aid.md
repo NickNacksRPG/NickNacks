@@ -1,6 +1,3 @@
----
-icon: FasHandHoldingHand
----
 Provide one of the following bonuses to an ally within your reach for 1 round (up to 3 times):
 
 +2 to [[Attack]] 

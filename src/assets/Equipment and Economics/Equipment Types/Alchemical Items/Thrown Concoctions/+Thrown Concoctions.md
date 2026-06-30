@@ -1,5 +1,4 @@
 ---
-icon: explosion
 aliases:
   - thrown concoctions
 ---

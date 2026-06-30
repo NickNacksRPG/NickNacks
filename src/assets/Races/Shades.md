@@ -1,6 +1,3 @@
----
-icon: RaMoonSun
----
 The definitely not Midna race
 
 | Language | Necril   |

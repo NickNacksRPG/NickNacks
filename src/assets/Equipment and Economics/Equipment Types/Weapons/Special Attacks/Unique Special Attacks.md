@@ -18,7 +18,7 @@ aliases:
   - execution
   - overrun
 ---
-This section is dedicated to helping you fill in the "[[special attack]]" weapon quality, or for giving unique weapons special abilities. See the [[Base Special Attacks]] section for the special attacks weapons get by default.
+This section is dedicated to helping you fill in the [[Added Special Attack]] weapon quality, or for giving unique weapons special abilities. See the [[Base Special Attacks]] section for the special attacks weapons get by default.
 ## <span style="color:rgb(103, 254, 120)">All Melee</span>
 
 Special Attack: <span style="color:rgb(103, 254, 120)">Determination</span> - Focus your conviction.  You get a +4 bonus and [[Seeking]] to your next attack with this weapon by the end of your next turn. You can also choose to not attack at all with this special attack, granting your next attack with this weapon a +10 bonus instead.
@@ -38,7 +38,7 @@ Special Attack: <span style="color:rgb(103, 254, 120)">Lifesteal</span> ([[Heali
 
 Special Attack: <span style="color:rgb(103, 254, 120)">Throat Slicer</span> - On hit [[Silenced|silence]] a creature for one round (fort negates).
 
-Special Attack: <span style="color:rgb(103, 254, 120)">All In</span> - On hit instead of rolling for damage, you deal maximum damage. If you graze, you instead miss entirely. When you miss, you take 20 poise damage.
+Special Attack: <span style="color:rgb(103, 254, 120)">All In</span> - On hit instead of rolling for damage, you deal maximum damage. If you graze, you instead miss entirely. When you miss, you take 20 [[poise]] damage.
 
 ## Weapon Specific
 The above special attacks can be generalized to any type of weapon. Even the "slicer" special attacks could be achieved just as effectively if you crushed a throat or foot. In general I try to be lax with what weapons you give your character so mechanics to not interfere with flavor. However, the following weapons will specify a type of weapon you lock into, and are incompatible with each other.

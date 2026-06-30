@@ -1,7 +1,6 @@
 ---
 aliases:
   - Gralth
-icon: SiDragonframe
 ---
 Gralth is the god of dragons. He is over 1000 years old, and having lived even before the beginning of [[1. The Age of Dragons]], he still remembers a time where dragons once roamed Nack freely. He makes his home hundreds of miles underground inside of the planet's mantle underneath a colossal volcano in the [[Land of Fire]]. The land surrounding this volcano is his [[domain]]. It is called the Domain of Dragons, which is a place where most other types of creatures are not allowed to roam. How most people know him is as the progenitor of the [[Drakonid]] race; his attempt at creating a bridge between his kind and humanoids, or via his children that share his name and seek to earn his approval.
 

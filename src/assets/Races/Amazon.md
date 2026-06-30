@@ -1,6 +1,3 @@
----
-icon: 🏋️‍♀️
----
 Snu snu race.
 
 | Language | Giant                                                                                         |

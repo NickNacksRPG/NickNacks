@@ -1,6 +1,3 @@
----
-icon: TiUserQuestion
----
 
 <span style="color:rgb(192, 0, 0)">Note</span>: Read [[main character status]]! It is essential for character creation.
 

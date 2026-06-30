@@ -1,5 +1,4 @@
 ---
-icon: FasHandshakeSimple
 aliases:
   - purrsuasion
 ---

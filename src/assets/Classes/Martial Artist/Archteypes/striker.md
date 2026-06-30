@@ -1,7 +1,4 @@
----
-hidden: true
----
-[[Crust]]
+## [[Crust]]
 # Striker
 
 You dribble around a ball constantly using anything but your arms, using it to accentuate your unique fighting style using it. Using all types of kicks, bumps and headbutts, you slam this ball repeatedly into your foes until they drop.

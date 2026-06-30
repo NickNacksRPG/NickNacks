@@ -1,6 +1,5 @@
 ---
 icon: 🕸
-hidden: true
 ---
 ## [[Crust]]
 

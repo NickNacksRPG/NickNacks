@@ -1,6 +1,3 @@
----
-icon: FasPerson
----
 The default race.
 Humans with the [[Race Mixing]] feat replace traditional half breed races. Other races with the minor mixed blood feature are predominantly the original race, only slightly resembling the other parent. Humans are purposefully designed to be pretty generic.
 
