@@ -1,5 +1,4 @@
 Merciful monks have transcended the need to deal any damage at all, optimizing their fighting style to turn an enemies force against them and aid allies who are in danger.
-
 ## <span style="color:rgb(103, 254, 120)">1 - First Strike: Pacify</span>
 Your first [[Unarmed Attack|unarmed strike]] you land on a creature has a bonus [[On-hit]] effect. This effect can only be applied to a creature 1/day.
 [[Pacified|Pacify]] a creature for 1 round on hit.
@@ -10,7 +9,7 @@ Despite dealing no damage, you attacks still apply, [[On-hit]] effects, unless t
 
 Your unique approach to life gives you a +2 bonus to [[attack]], the [[+Persuasion]] skill and a +4 bonus to persuasion.
 ## <span style="color:rgb(103, 254, 120)">1 - Ki</span> [[Su]]
-Gain a (3+lvl) additional [[Mana Reserves]]. All abilities marked with Ki cost 1 mana.
+Gain a [[LvL]] additional [[Mana]]. All abilities marked with Ki cost 1 mana.
 ## <span style="color:rgb(103, 254, 120)">1 - Disturb the Balance</span>
 You can [[Buckler|parry]] without a buckler. When you successfully parry, you can make a [[bully]] attack against the foe that attacked you, as long as they are within 30 ft of you.
 ## <span style="color:rgb(103, 254, 120)">2 - Ki: Life Link (Su)</span>
