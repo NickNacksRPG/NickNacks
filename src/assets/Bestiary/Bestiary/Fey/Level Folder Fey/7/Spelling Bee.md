@@ -1,6 +1,7 @@
 This creature is relatively humanoid, but with many bee features flies through the air with a swarm of bees. It is very well spoken and gets irritated when you use incorrect grammar or vocabulary.
 
 Level 7 Medium Fey
+Role: [[+Controller]]
 ## <span style="color:rgb(0, 176, 240)">Defense Traits</span>
 
 | <span style="color:rgb(0, 176, 240)">AC</span>    | 21                        |                 |
@@ -48,5 +49,5 @@ If a player offers to be part of the bee's experiments, they can choose to under
 <span style="color:rgb(103, 254, 120)">Senses</span> - [[Scent]] 5 ft
 <span style="color:rgb(103, 254, 120)">Signature Skill</span> - [[Secret-ish (SS)|secret-ish]], [[Read Lips (SS)|read lips]], [[Cliff's Notes (SS)|cliff's notes]]
 <span style="color:rgb(103, 254, 120)">Speed</span> - 25 [[Land Speed]], 40 [[hover]], 40 [[fly]]
-<span style="color:rgb(103, 254, 120)">Feats</span> - [[Signature Skill]], [[Lead by Example]], [[Photographic Memory]], [[Toughness]]
+<span style="color:rgb(103, 254, 120)">Feats</span> - [[Signature Skill]], [[Lead by Example]], [[Photographic Memory]], [[Toughness]], [[Escape Route]]
 <span style="color:rgb(103, 254, 120)">Skills</span> - +9 (+4 scent) [[+Perception]], +11 [[+Persuasion]], +12 [[+Profession]] (dance/sing), +12 [[+Nature]], +12 [[Arcana]], +16 [[+Linguistics]], +11 [[+Acrobatics]]

@@ -1,15 +1,15 @@
 ## <span style="color:rgb(103, 254, 120)">Snake Style</span>
-- When a creature misses you with an attack, you can move 10 ft directly closer to it ([[elusive]]). If this movement puts you within your [[Reach|natural reach]], it [[AoO|Provokes]]. This [[AoO]] must be an [[Unarmed Attack|unarmed strike]]. If the attacker is already within your natural reach, you cannot move.
+- When a creature misses you with an attack, you can move 10 ft directly closer to it ([[elusive]]). If this movement puts the attacker within your [[Reach|natural reach]], it [[AoO|Provokes]]. This [[AoO]] must be an [[Unarmed Attack|unarmed strike]]. If the attacker is already within your natural reach, you cannot move.
 - <span style="color:rgb(103, 254, 120)">Snake Sidewind</span> - When you would be hit or [[Graze|grazed]] by an attack, you can spend an immediate action to [[Buckler|parry]] the attack. This makes it count as a miss for snake style if successful.
 ## <span style="color:rgb(103, 254, 120)">Cerberus Style</span>
 - You cannot be [[Flanking|flanked]]. When you would normally be flanked, gain a flanking bonus against the creatures threatening you.
 - Your movement is [[Elusive]] as long as you do not leave an enemy's [[Threaten|threatened]] zone
 - <span style="color:rgb(103, 254, 120)">Cerberus Snare</span> - When you hit a foe with an unarmed strike, its speed is reduced by 15, it is  [[Anchored]] and [[Grounded]] for 1 round [[On-hit]].
 ## <span style="color:rgb(103, 254, 120)">Demon Style</span>
-- You get [[Powerful Charge]]. You also get a +2 bonus to damage when you [[Core Rules, How to Play/Actions/Common Actions/Full Round Actions/Charge]] attack. 
+- You get [[Powerful Charge]]. You also get a +2 bonus to damage when you [[Charge]] attack. 
 - You can turn up to 180 degrees once during your charge.
 - <span style="color:rgb(103, 254, 120)">Tenderize</span> - Whenever you succeed on a [[drag]] or [[shove]] attempt, deal 10 crush damage if you move them at least 10 ft.
-## <span style="color:rgb(103, 254, 120)">Grabbing Style</span>
+## <span style="color:rgb(103, 254, 120)">Kraken Style</span>
 - Get a +2 bonus to [[Grapple]] attacks. You only have -15 speed while grappling a creature.
 - <span style="color:rgb(103, 254, 120)">Grabbing Everything:</span> When you make a grapple attack, or maintain a grapple, you can make a grapple attack or maintain a grapple on another creature.
 ## <span style="color:rgb(103, 254, 120)">Jabbing Style</span>

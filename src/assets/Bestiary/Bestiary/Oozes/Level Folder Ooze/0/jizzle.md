@@ -1,6 +1,7 @@
 A tiny little white puddle slides along the wall after squeezing through the crack under the door. It reaches hungrily towards the nearest creature.
 
 Level 0 Small Ooze
+Role: [[+Bruiser]]
 ## <span style="color:rgb(0, 176, 240)">Defense Traits</span>
 
 | <span style="color:rgb(0, 176, 240)">AC</span>    | 11                        |     |

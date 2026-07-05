@@ -1,12 +1,13 @@
 Clad in a bone-like exoskeleton armor, this dog sniffs you up and down before moving onto the next capture. It howls and the man next to your transforms into a dragon. The hound pounces on its quarry.
 
 Level 5 Medium Beast
+Role: [[+Bruiser]]/[[+Support]]
 ## <span style="color:rgb(0, 176, 240)">Defense Traits</span>
 
 | <span style="color:rgb(0, 176, 240)">AC</span>    | 19                         |     |
 | ------------------------------------------------- | -------------------------- | --- |
 | <span style="color:rgb(0, 176, 240)">HP</span>    | 60                         |     |
-| <span style="color:rgb(0, 176, 240)">Poise</span> | 29                         |     |
+| <span style="color:rgb(0, 176, 240)">Poise</span> | 34                         |     |
 | <span style="color:rgb(0, 176, 240)">Saves</span> | Fort +6, Refl +10, Will +8 |     |
 [[Evasion]]
 [[Resistance]] - Fire

@@ -20,6 +20,7 @@ They deal 2d6+[[Caster Level|CL]] crush damage with their attacks.
 When summoned outside of combat, tendrils are [[invisible]] until they act. This has the [[subtle]] tag. In order to [[DD|Surprise]] an enemy with tendril attacks, you must use [[+Stealth]] or [[Create Diversion]].
 
 Summoning a tendril when your companion slots are already full thanks to tendrils causes a previous tendril to disappear. Unlike most companion creatures, tendrils do not get a turn of their own and rely on other class features (or [[AoO]]s) to attack.
+See [[+Magical Conduits]] on how you can enhance your tendrils.
 ## <span style="color:rgb(103, 254, 120)">1 - Skill</span>
 Gain [[+Deception]] as a bonus skill with a +4 bonus. Gain [[Signature Skill]] for deception. 
 ## <span style="color:rgb(103, 254, 120)">1 - Command Tendrils: Attack</span>

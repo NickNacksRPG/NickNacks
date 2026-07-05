@@ -1,6 +1,7 @@
 A majestic bird flies overhead. As you appreciate its beauty it flies down with incredible speed and gouges out your friends eyes. It screeches as it continues its onslaught.
 
 Level 2 Medium Beast
+Role: [[+Bruiser]]/[[+Support]]
 ## <span style="color:rgb(0, 176, 240)">Defense Traits</span>
 
 | <span style="color:rgb(0, 176, 240)">AC</span>    | 15         |                           |

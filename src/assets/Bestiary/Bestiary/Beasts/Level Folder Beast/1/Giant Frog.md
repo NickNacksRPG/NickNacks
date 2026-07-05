@@ -1,6 +1,7 @@
 A frog sits on a the waters surface, wary of these large travelers. Suddenly it grows to 10 ft tall and shoots its tongue out at you.
 
 Level 1 Large Beast
+Role: [[+Bruiser]]
 ## <span style="color:rgb(0, 176, 240)">Defense Traits</span>
 
 | <span style="color:rgb(0, 176, 240)">AC</span>    | 16                        |                               |
@@ -21,7 +22,7 @@ Level 1 Large Beast
 1/day - [[Power Overwhelming]], [[Lucky Star]]
 
 <span style="color:rgb(192, 0, 0)">Average Amphibion</span> - A giant frog can [[DD|Surprise]] creatures by using its [[T1 - Frog Shape|frog shape]] ability to pretend to be a tiny frog. Creatures must roll a [[+Perception]] check against the frog's DC to avoid being surprised.
-[[Swallow]] - [[Drained]] 1 and [[Sickened]] 1.
+[[Swallow]] - [[Drained]] 2 and [[Sickened]] 1.
 ## <span style="color:rgb(247, 138, 255)">Weaknesses/Deep Lore</span>
 
 <span style="color:rgb(247, 138, 255)">Munch</span> - When you [[Buckler|parry]] a frog's tongue attack, you can choose to feed it a particular item on your person or within reach. It gets [[Advantage|Disadvantage]] on any saving throw against this item. If the item is a weapon, it takes the weapons base damage.

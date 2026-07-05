@@ -1,12 +1,13 @@
 This mix between bear and mole towers over you. It grunts and rapidly inhales through its nose as it inspects the item you presented, before it darts off to hunt for the items owner.
 
 Level 8 Huge Beast
+Role: [[+Controller]]
 ## <span style="color:rgb(0, 176, 240)">Defense Traits</span>
 
 | <span style="color:rgb(0, 176, 240)">AC</span>    | 23                          |     |
 | ------------------------------------------------- | --------------------------- | --- |
 | <span style="color:rgb(0, 176, 240)">HP</span>    | 84                          |     |
-| <span style="color:rgb(0, 176, 240)">Poise</span> | 33                          |     |
+| <span style="color:rgb(0, 176, 240)">Poise</span> | 41                          |     |
 | <span style="color:rgb(0, 176, 240)">Saves</span> | Fort +13, Refl +10, Will +9 |     |
 ## <span style="color:rgb(192, 0, 0)">Offense Traits (DC 20)</span>
 
@@ -15,8 +16,6 @@ Level 8 Huge Beast
 |                                                      | 2d6+3 (10) | +Venom |
 | <span style="color:rgb(192, 0, 0)">Claw (S)</span>   | +11        |        |
 |                                                      | 2d8+3 (12) |        |
-
-
 <span style="color:rgb(192, 0, 0)">Multiattack</span> - Make 1 tongue and 1 claw attack
 
 <span style="color:rgb(192, 0, 0)">Innate Techniques</span> - [[Preparation]], [[Break Free]]
@@ -40,5 +39,5 @@ Only through repeated exposure to powerfully smelling chemicals (such as perfume
 <span style="color:rgb(103, 254, 120)">Speed</span> - 45
 [[Sightless Blindsense]] - [[Scent]] (120 ft)
 <span style="color:rgb(103, 254, 120)">Deific Boons </span>- [[T1 - Animal Instincts|Animal Instincts]]
-<span style="color:rgb(103, 254, 120)">Feats</span> - [[Skill Focus]], [[Signature Skill]] (survival), [[Combat Reflexes]], [[Sentinel]], [[Fighter's Lament]]
+<span style="color:rgb(103, 254, 120)">Feats</span> - [[Skill Focus]], [[Signature Skill]] (survival), [[Combat Reflexes]], [[Sentinel]], [[Mage Slayer]]
 <span style="color:rgb(103, 254, 120)">Skills</span> - +11 (+8) [[+Perception]], +13 [[+Athletics]], +27 [[+Survival]]

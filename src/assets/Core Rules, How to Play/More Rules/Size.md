@@ -15,4 +15,4 @@ This game is meant to be played on a grid of hexes or squares. Personally, I pre
 
 Creatures threaten all spaces they occupy by default.
 
-You can enter the space of a creature that is a size category larger or smaller than you. If you enter or leave the spaces occupied by a creature, it [[AoO|Provokes]] an AoO as though you were leaving a threatened area. If you get attacked this way, the same creature can't also AoO you for leaving their threatened square in the same turn.
+You can enter the space of a creature that is a size category larger or smaller than you. If you enter or leave the spaces occupied by a creature, it [[AoO|Provokes]] an AoO as though you were leaving a threatened area. If you get attacked this way, the same creature can't also AoO you for leaving their threatened spaces in the same turn.

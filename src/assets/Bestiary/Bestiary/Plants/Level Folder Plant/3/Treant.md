@@ -1,6 +1,7 @@
 A tree springs to life, creaking and bending its branches like arms and legs. Its leaves resemble wispy beards and lengthy heads of hair.
 
 Level 3 Huge Plant 
+Role: [[+Generalist]]
 ## <span style="color:rgb(0, 176, 240)">Defense Traits</span>
 
 | <span style="color:rgb(0, 176, 240)">AC</span>    | 19                        |                 |
@@ -24,7 +25,7 @@ Level 3 Huge Plant
 1/day - [[Toe Smasher]], [[Bush]], [[Brace Yourself]], [[Focus Punch]]
 
 [[Summon Ally]] - Any [[LvL|Level]] 1 [[Beasts]]
-[[Deathrattle]] - The treant falls, targeting a 30 ft line. Creatures in the area take 4d6 (14) crush and poise damage (reflex halves). Creatures poise broken by this are [[Knocked Down]] and [[Held Down]] until they can [[Breakout]] from underneath the tree.
+[[Deathrattle]] - The treant falls, targeting a 30 ft line. Creatures in the area take 4d6 (14) crush damage and are trapped under the tree (reflex halves and negates trapped). Creatures trapped by this are [[Knocked Down]] and [[Held Down]] until they can [[Breakout]] from underneath the tree.
 ## <span style="color:rgb(247, 138, 255)">Weaknesses/Deep Lore</span>
 
 [[Weakness]] - 3 fire

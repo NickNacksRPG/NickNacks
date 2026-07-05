@@ -1,6 +1,7 @@
 A mischievous pan flute playing creature with a humanoid torso and furry hooved legs prances about. Their magic music twists the nature of any magic affecting them with random results.
 
 Level 4 Medium Fey
+Role: [[+Controller]]
 ## <span style="color:rgb(0, 176, 240)">Defense Traits</span>
 
 | <span style="color:rgb(0, 176, 240)">AC</span>    | 18                        |     |

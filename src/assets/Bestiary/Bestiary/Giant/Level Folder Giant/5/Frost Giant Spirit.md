@@ -1,6 +1,7 @@
 *Perhaps filled with a little too much spirit, this ghost wanders frozen wastes chanting a sad song.*
 
 Level 5 Large Giant/Undead
+Role: [[+Marksman]]
 ## <span style="color:rgb(0, 176, 240)">Defense Traits</span>
 
 | <span style="color:rgb(0, 176, 240)">AC</span>    | 18                        |     |
@@ -18,7 +19,7 @@ Level 5 Large Giant/Undead
 |                                                                    | 3d8+3 (16) | +[[Frosty]] (if cold), +[[Sickened]] 1 (if necrotic) |
 <span style="color:rgb(192, 0, 0)">Innate Techniques (CL 8)</span> - [[Blight]], [[Wither]], [[Icy Spears]], [[Call of the Grave]], [[Corpse Explosion]]
 1/day - [[Empathy]], [[Ice Beam]]
-Constant - [[Life Drinker]]
+Constant - [[Sap Life]]
 
 [[Quicken Spell]] - [[Call of the Grave]]
 <span style="color:rgb(192, 0, 0)">Pain</span> [[sonic]] [[fear]] [[recharge]] - Special: A spirit must have taken damage from an enemy to activate this ability.

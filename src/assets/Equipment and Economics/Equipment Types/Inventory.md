@@ -30,6 +30,7 @@ Common pieces of equipment consume the following number of inventory slots...
 | 1 medium creature                                      | ~5                                               |
 | 1 large creature                                       | ~20                                              |
 | 1 huge creature                                        | ~50                                              |
+| 1,000 gold pieces                                      | 1 (presumably in sacks/other containers)         |
 When denoting items on your character sheet, you can do the following to visually help represent filled inventory slots.
 
 | <span style="color:rgb(0, 176, 80)">Slots</span> | <span style="color:rgb(0, 176, 80)">Item</span> |

@@ -3,6 +3,7 @@ The telekineticist is most concerned with how their mental mastery can affect th
 As a standard action you attack a foe within 30 ft by flinging an sharp, pointy or heavy object at them. The attack uses either str or dex as your attacking stat. If the creature is within reach, it can be a melee or ranged attack. If the creature is out of reach, it counts as a ranged attack. It's damage is 2d6+str/dex, increasing by d6 at level 3, and another d6 every odd level. The damage type is determined by the type of object you throw at your enemy.
 
 If the item has some kind of additional effect when thrown, such as if it is an [[Alchemical Items]], the effect only targets the creature, even if it is normally [[AoE]].
+See [[+Magical Conduits]] on how you can enhance your blast.
 ## <span style="color:rgb(103, 254, 120)">1 - Master Hand (Su)</span> ([[concentration]])
 You gain the [[mage hand]] cantrip and can use it for [[+Sleight of Hand]].
 

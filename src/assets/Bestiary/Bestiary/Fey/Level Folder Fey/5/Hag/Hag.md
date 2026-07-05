@@ -1,6 +1,7 @@
 The once innocent looking old lady transforms before your eyes into a wicked monster with plant-like growths and magic fetishes covering its body. Her cackle makes your skin crawl.
 
-Level 5 Large Fey [[Boss]]
+Level 5 Large Fey 
+Tags: [[Boss]]
 ## <span style="color:rgb(0, 176, 240)">Defense Traits</span>
 
 | <span style="color:rgb(0, 176, 240)">AC</span>    | 20                         |                    |

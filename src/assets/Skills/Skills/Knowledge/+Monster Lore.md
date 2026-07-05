@@ -7,7 +7,7 @@ Bestiary stat blocks are broken up into 4 sections: <span style="color:rgb(0, 17
 
 Rolling a monster lore check is something you can do as a free action once per turn. It is assumed that you also vocalize what you learn to your team. The base DC of a monster lore check is (10+creature's lvl).  By succeeding on a monster lore check, you can figure out one of the above categories. Every 5 over the DC you roll, you figure out another category.  If a creature has nothing in a category, you choose another.
 
-Creatures with the [[unique]] tag in their entry increase monster lore DC by 5. Humanoids with class levels function a bit weird. See [[Classes and Monster Lore]] for more details.
+Creatures with the [[Unique]] tag in their entry increase monster lore DC by 5. Humanoids with class levels function a bit weird. See [[Classes and Monster Lore]] for more details.
 
 Just so its all in one place...
 

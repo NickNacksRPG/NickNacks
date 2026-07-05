@@ -1,6 +1,7 @@
 The pinnacle of dwarven engineering designed to deal death made in the image of its creators. It lumbers forward and gyrates its limbs with extreme precision.
 
 Level 6 Large Construct
+Role: [[+Bruiser]]/[[Marksman]]
 ## <span style="color:rgb(0, 176, 240)">Defense Traits</span>
 
 | <span style="color:rgb(0, 176, 240)">AC</span>    | 19                         |                          |
@@ -12,12 +13,13 @@ Level 6 Large Construct
 <span style="color:rgb(0, 176, 240)">Superheated</span> - Creatures have [[Advantage|disadvantage]] on [[drag]] and [[grapple]] attacks against a centurion that has activated one of its Supercharge attacks unless they have [[Resistance]] or [[Immunity]] to fire/heat. 
 ## <span style="color:rgb(192, 0, 0)">Offense Traits (DC 18)</span>
  
-| <span style="color:rgb(192, 0, 0)">Bladed Arm (S)</span>   | +10        |                          |
-| ---------------------------------------------------------- | ---------- | ------------------------ |
-|                                                            | 2d8+4 (13) | +2d6 [[Bleeding\|bleed]] |
-| <span style="color:rgb(192, 0, 0)">Ballista Arm (P)</span> | +6         | 300 ft range             |
-|                                                            | 4d8 (18)   | See below<br>            |
+| <span style="color:rgb(192, 0, 0)">Bladed Arm (S)</span>   | +10        |                                 |
+| ---------------------------------------------------------- | ---------- | ------------------------------- |
+|                                                            | 2d8+4 (13) | +2d6 [[Bleeding\|bleed]]        |
+| <span style="color:rgb(192, 0, 0)">Ballista Arm (P)</span> | +6         | [[+Siege Weapon]], 300 ft range |
+|                                                            | 6d8 (27)   | See below<br>                   |
 <span style="color:rgb(192, 0, 0)">Innate Techniques</span> - [[Cripple]], [[Suck]], [[Endothermic Touch]], [[Revenge]], [[Ups and Downs]]
+1/day - [[Gravity Bow]]
 
 [[Ballista]] <span style="color:rgb(192, 0, 0)">Arm</span> - Functions as the siege weapon, but it reloads automatically, requiring 1 round of downtime between shots. As a [[FRA]], it can reload and fire its ballista (or fire then reload). Centurions come with 4 bolts loaded, requiring 2 turns of manual restocking (or  [[aid]] from multiple allies) to get a new supply.
 <span style="color:rgb(192, 0, 0)">Special Attack: Supercharge</span> [[Recharge]] - Gain +4 to an attack roll. Recharges after using Letting off Steam.

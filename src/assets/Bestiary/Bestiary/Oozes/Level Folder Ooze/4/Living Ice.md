@@ -1,6 +1,7 @@
 A pile of icicles on the ground springs to life, stretching all over the place to pierce you with its sharpened frosty body.
 
 Level 4 Large Ooze
+Role: [[+Infiltrator]]/[[+Bruiser]]
 ## <span style="color:rgb(0, 176, 240)">Defense Traits</span>
 
 | <span style="color:rgb(0, 176, 240)">AC</span>    | 18                        |                  |

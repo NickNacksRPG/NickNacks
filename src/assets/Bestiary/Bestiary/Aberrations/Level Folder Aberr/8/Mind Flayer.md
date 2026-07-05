@@ -1,6 +1,7 @@
 Masters of the psionic arts, these tentacled-lipped mages are vaguely humanoid with wet undulating orifices. They scour the universe for hosts to fuel their endless hunger for knowledge...Literally.
 
 Level 8 Medium Aberration
+Role: [[+Controller]]
 ## <span style="color:rgb(0, 176, 240)">Defense Traits</span>
 
 | <span style="color:rgb(0, 176, 240)">AC</span>    | 23 (medium armor)           |     |
@@ -12,17 +13,22 @@ Level 8 Medium Aberration
 <span style="color:rgb(0, 176, 240)">Break Will</span> [[Su]] [[Charm]] - As an immediate action when hit by an attack, a mind flayer can attempt to [[charm]] the attacking creature for 1 round (will negates).
 ## <span style="color:rgb(192, 0, 0)">Offense Traits (DC 20)</span>
 
-| <span style="color:rgb(192, 0, 0)">Tentacles (C)</span> | +10      | +4 [[Maneuver Versatility\|MV]] |
-| ------------------------------------------------------- | -------- | ------------------------------- |
-|                                                         | d8+2 (6) |                                 |
-<span style="color:rgb(192, 0, 0)">Innate Techniques CL 14</span> - [[Mind Crush]] (U4), [[Detect Thoughts]], [[Telekinetic Maneuver]]
+| <span style="color:rgb(192, 0, 0)">Tentacles (C)</span> | +10      | +4 [[Grapple]], +4 [[Maneuver Versatility\|MV]] |
+| ------------------------------------------------------- | -------- | ----------------------------------------------- |
+|                                                         | d8+2 (6) |                                                 |
+<span style="color:rgb(192, 0, 0)">Innate Techniques CL 14</span> - [[Mind Crush]], [[Detect Thoughts]], [[Telekinetic Maneuver]]
 1/day - [[Telekinetic Thrust]]
 Constant - [[Telekinetic Lift]], [[Tongues]]
 
 <span style="color:rgb(192, 0, 0)">Brain Blast (Su)</span> [[Psychic]] [[Recharge]] - Creatures in a 30 ft cone take 6d6 (21) psychic damage and are [[dazed]] for 1 round (will halves damage and reduces stun to [[Staggered]]). A mind flayer must devour intellect, wait 1 minute or concentrate as a [[FRA]] to gain use of this ability again.
 <span style="color:rgb(192, 0, 0)">Displacer (Su) (Psychic)</span> - When a mind flayer causes a creature to take [[Fall Damage]], it takes an additional 5 psychic damage.
-<span style="color:rgb(192, 0, 0)">Devour Intellect (recharge)</span> - **Special:** Can only be used against the creature that is dazed, grappled or defeated.
+<span style="color:rgb(192, 0, 0)">Devour Intellect (recharge)</span> - **Special:** Can only be used against the creature that is [[dazed]], [[Grapple|grappled]] or [[defeated]].
 Spend a standard action to chomp on a creatures brain. Creature takes 10d8 (45) pierce dmg (fort halves). A mind flayer must digest for at least an hour before it can devour intellect again.
+<span style="color:rgb(192, 0, 0)">Away with you! (Su)</span> - The mind flayer blasts a specific creature nearby, or a group of creatures surrounding it.
+<span style="color:rgb(255, 192, 0)">Single Target</span> - Functions as [[Gust]], but uses telekinesis instead of air and deals 4d8+CL (32) crush damage (fort halves).
+<span style="color:rgb(255, 192, 0)">Group</span> - Functions as [[Rejection]], but deals 4d8+CL (32) crush damage (fort halves).
+<span style="color:rgb(192, 0, 0)">Psychic Noise</span> [[Mind-Affecting]] [[Aura]]- A mind flayers psionic powers causes creatures that get within a 20 ft radius to malfunction in determining distance and direction. Creatures treat everything as though it was 20 ft farther away when [[targeting]]. Once they suffer 1 round of this effect, they become [[Immunity|immune]].
+This makes [[Melee Attack|melee attacks]] nearly impossible.
 ## <span style="color:rgb(247, 138, 255)">Weaknesses/Deep Lore</span>
 
 <span style="color:rgb(247, 138, 255)">Psychic Casting </span>-  A mind flayer requires a higher degree of concentration to use many of its psionic abilities. It cannot use its supernatural abilities or its innate techniques while it is [[frightened]], [[dominated]] or [[confused]].

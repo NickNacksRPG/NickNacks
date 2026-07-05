@@ -1,6 +1,7 @@
 A pleasant creature as far as fiends go. These quadrupeds cling to their master and fulfill their every desire. Today master desires your death, so they rush to tear you to pieces.
 
 Level 2 Medium Fiend <span style="color:rgb(192, 0, 0)">(minion)</span>
+Role: [[+Support]]/[[+Bruiser]]
 ## <span style="color:rgb(0, 176, 240)">Defense Traits</span>
 
 | <span style="color:rgb(0, 176, 240)">AC</span>    | 17                        |                 |

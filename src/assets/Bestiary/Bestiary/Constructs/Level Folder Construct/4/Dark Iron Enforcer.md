@@ -1,6 +1,7 @@
 A mechanical dwarf stomps towards intruders. Lava seems to course through its black metal chassis. It lets off some exhaust before speaking. "Present Identification."
 
 Level 4 Medium Construct
+Role: [[+Bruiser]]
 ## <span style="color:rgb(0, 176, 240)">Defense Traits</span>
 
 | <span style="color:rgb(0, 176, 240)">AC</span>    | 20                        |             |
@@ -19,7 +20,7 @@ Level 4 Medium Construct
 [[Multiattack]] - Make an axe attack and an unarmed attack.
 
 <span style="color:rgb(192, 0, 0)">Innate Techniques</span> - [[Sky Uppercut]]
-1/day - [[Defensive Spin]], [[Toe Smasher]], [[Ups and Downs]]
+1/day - [[Defensive Sweep]], [[Toe Smasher]], [[Ups and Downs]]
 Constant - [[Quake]], [[Technology]]
 
 <span style="color:rgb(192, 0, 0)">Signature Skill</span> - [[Boo (SS)|Boo]], [[Big Shot (SS)|Big Shot]]

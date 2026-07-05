@@ -1,6 +1,7 @@
 A spider descends from the ceiling slowly on a string of silk. As it reaches the brightness of your torchlight, you see a dark elf from the waist up emerging from where the spider's head would be.
 
 Level 5 Large Cryptid/Humanoid
+Role: [[+Artillery]]
 ## <span style="color:rgb(0, 176, 240)">Defense Traits</span>
 
 | <span style="color:rgb(0, 176, 240)">AC</span>    | 19                        |     |
@@ -12,14 +13,14 @@ Level 5 Large Cryptid/Humanoid
 [[Ambrosia]] ([[Healing]]) - Heal 17
 ## <span style="color:rgb(192, 0, 0)">Offense Traits (DC 17)</span>
 
-| <span style="color:rgb(192, 0, 0)">Light Blade (S)</span> | +8             |                |
-| --------------------------------------------------------- | -------------- | -------------- |
-|                                                           | d6+3+2 zap (8) |                |
-| <span style="color:rgb(192, 0, 0)">Bite (P)</span>        |                | 5 ft [[Reach]] |
-|                                                           | d6+3+2 zap (8  | +[[Venom]]     |
+| <span style="color:rgb(192, 0, 0)">Blade (S)</span> | +8             |                |
+| --------------------------------------------------- | -------------- | -------------- |
+|                                                     | d6+3+2 zap (8) |                |
+| <span style="color:rgb(192, 0, 0)">Bite (P)</span>  |                | 5 ft [[Reach]] |
+|                                                     | d6+3+2 zap (8) | +[[Venom]]     |
 [[Multiattack]] - Make a [[Melee Attack|melee]] [[Weapon Attack]] and cast a [[+Cantrips|cantrip]] or activate [[Static Field]].
 
-<span style="color:rgb(192, 0, 0)">Innate Techniques (CL 7 Zap)</span>  - [[Gust]], [[Shocking Grasp]], [[Grasp of the Undying]], [[True Strike]], [[Dimensional Anchor]]
+<span style="color:rgb(192, 0, 0)">Innate Techniques (CL 7, +2 Zap)</span>  - [[Gust]], [[Shocking Grasp]], [[Grasp of the Undying]], [[True Strike]], [[Dimensional Anchor]], [[Center of the Universe]]
 1/day - [[Lightning Bolt]], [[In Orbit]], [[Dispel Magic]]
 Constant - [[Static Field]]
 

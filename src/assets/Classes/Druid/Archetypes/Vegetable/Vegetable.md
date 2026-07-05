@@ -9,6 +9,7 @@ Gain the following benefits...
   <span style="color:rgb(192, 0, 0)">Multiattack: </span>Make 2 simple vine attacks
 - You have [[advantage]] on [[+Stealth]] in areas with suitable vegetation.
 - When in direct sunlight, you gain [[regeneration]] 1.
+See [[+Magical Conduits]] on how you can enhance your vines.
 ## <span style="color:rgb(103, 254, 120)">1 - One With Nature</span> [[Su]] [[Polymorph|poly, true]]
 As a swift action, you can copy any inanimate plant you can see within 30 ft. You cannot move or take any actions while in tree form, but you can speak. You can also have the face of someone you know appear along the surface of the plant in leaves or bark. This transformation lasts indefinitely, but can be ended as a swift action.
 

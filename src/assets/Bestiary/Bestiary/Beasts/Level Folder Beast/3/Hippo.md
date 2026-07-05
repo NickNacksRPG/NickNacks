@@ -1,17 +1,18 @@
 A pair of eyes and nostrils looks at you from inside the lake. It disappears under the water. A moment later an angry herbivore bursts from the lake and charges you down.
 
 Level 3 Large Beast
+Role: [[+Bruiser]]
 ## <span style="color:rgb(0, 176, 240)">Defense Traits</span>
 
 | <span style="color:rgb(0, 176, 240)">AC</span>    | 15         |                                               |
 | ------------------------------------------------- | ---------- | --------------------------------------------- |
 | <span style="color:rgb(0, 176, 240)">HP</span>    | 64         |                                               |
-| <span style="color:rgb(0, 176, 240)">Poise</span> | 26         | [[DR]] 10 vs [[Grapple]]                      |
+| <span style="color:rgb(0, 176, 240)">Poise</span> | 32         | [[DR]] 10 vs [[Grapple]]                      |
 | <span style="color:rgb(0, 176, 240)">Saves</span> | +8, +3, +4 | [[Advantage]] vs [[Avoid AoO (P)\|avoid AoO]] |
 <span style="color:rgb(0, 176, 240)">Chunky</span> - A hippo must take at least 6 damage in order to take damage. This essentially functions as [[DR|DRA]] 5, but it doesn't reduce damage that is 6 or higher.
 ## <span style="color:rgb(192, 0, 0)">Offense Traits (DC 15)</span>
 
-| <span style="color:rgb(192, 0, 0)">Gore (P)</span> | +6         |     |
+| <span style="color:rgb(192, 0, 0)">Bite (C)</span> | +6         |     |
 | -------------------------------------------------- | ---------- | --- |
 |                                                    | 2d8+3 (12) |     |
 [[Multiattack]] - Make 2 attacks. One must be a [[Shove]], [[Grapple]] or [[Topple]].

@@ -7,10 +7,10 @@ Action: [[Special Attack]]
 This move functions differently based on whether you target an ally or an enemy.
 
 <span style="color:rgb(103, 254, 120)">Enemy</span>
-Against a creature you are grappling, this attack automatically works. If not already grappling, roll a [[grapple]] attack with a +4 bonus. If successful, you swallow the creature whole. While devoured, the creature inside is in stasis.
+Against a creature you are grappling or have already [[swallow]]ed, this attack automatically works. If not already grappling, roll a [[grapple]] attack with a +4 bonus. If successful, you swallow the creature whole. While devoured, the creature inside is in stasis.
 
 You gain access to the following special attack.
-<span style="color:rgb(192, 0, 0)">Spit Up</span> - Spit out a devoured creature, hurling them up to 30 feet. The creature takes 6d8+lvl (27+lvl) crush damage and is knocked down. Creatures within 5 ft of the impact location are also [[knocked down]] (reflex negates).
+<span style="color:rgb(192, 0, 0)">Spit Up</span> - Spit out a devoured creature, hurling them up to 30 feet. The creature takes 6d8+lvl (27+lvl) crush damage and is knocked down. Creatures within 5 ft of the impact location are also take this damage and are [[knocked down]] (reflex halves damage and negates knocked down).
 
 If you do not use spit up on the following turn, the target is disgorged with no negative effects at the end of that turn.
 

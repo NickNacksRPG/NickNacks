@@ -1,1 +1,3 @@
-Throw your foes into hazards, spells and off cliffs. Push the target 10ft away from you.
+Throw your foes into hazards, spells and off cliffs.
+
+Push the target 10ft away from you.

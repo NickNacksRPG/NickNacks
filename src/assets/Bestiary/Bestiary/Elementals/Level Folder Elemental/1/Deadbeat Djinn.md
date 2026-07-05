@@ -1,6 +1,7 @@
 You pick up a bottle, disappointed that its empty only for a creature to pop out. This stinky humanoid has no legs, only a twisting tempest that hovers above the ground connected to the bottle.
 
 Level 1 Medium Elemental
+Role: [[+Controller]]
 ## <span style="color:rgb(0, 176, 240)">Defense Traits</span>
 
 | <span style="color:rgb(0, 176, 240)">AC</span>    | 15                        |     |
@@ -10,9 +11,9 @@ Level 1 Medium Elemental
 | <span style="color:rgb(0, 176, 240)">Saves</span> | Fort +3, Refl +1, Will +3 |     |
 ## <span style="color:rgb(192, 0, 0)">Offense Traits (DC 12)</span>
 
-| <span style="color:rgb(192, 0, 0)">Scimitar (S)</span> | +5        | [[One and Done]], [[Thrown]] |
-| ------------------------------------------------------ | --------- | ---------------------------- |
-|                                                        | d10+2 (7) |                              |
+| <span style="color:rgb(192, 0, 0)">DW Scimitar (S)</span> | +3       | [[Thrown]] |
+| --------------------------------------------------------- | -------- | ---------- |
+|                                                           | d6+2 (5) |            |
 <span style="color:rgb(192, 0, 0)">Multiattack</span> - Make 2 [[Thrown]] attacks with scimitars
 
 <span style="color:rgb(192, 0, 0)">Innate Techniques (CL 4)</span> - [[Imagination]], [[Weapon Toss]], [[Silencing Strike]], [[Fraudgg]], [[Time Shudder]], [[Star Fall]], [[Stunt Double]]

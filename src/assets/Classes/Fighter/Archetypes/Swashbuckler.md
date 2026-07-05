@@ -1,4 +1,4 @@
-Swashbuckler are the best duelists around, with their signature parry and riposte ability giving them an edge over virtually all martial combatants, especially in melee. Their swift action is incredibly valuable, and can be spent in a number of ways that are powerful in their own ways.
+Swashbuckler are the best duelists around, with their signature parry and riposte ability giving them an edge over virtually all martial combatants, especially in melee. Their swift action is incredibly valuable, and can be spent in a number of powerful ways. Their extreme accuracy makes them very reliable at dealing damage.
 ## <span style="color:rgb(103, 254, 120)">1 - Parry and Riposte</span>
 With a light weapon in your main hand and a [[buckler]] in your offhand, you can [[Buckler|parry]] at any time. If you choose to use an [[Unarmed Attack|unarmed strike]] or [[natural attack]], you need a buckler in your off hand and a completely free main hand. Parry functions in 2 different ways.
 
@@ -9,9 +9,9 @@ You get [[Advantage]] on any attacks made to parry or riposte when you prepare t
 
 If your foe attacked with a ranged attack, or with a weapon that has the reach property, you can only retaliate if they are within your reach. You can parry without a buckler, but take a -4 penalty to attack when you parry.
 ## <span style="color:rgb(103, 254, 120)">1 - Heavy Mettle</span>
-When wearing light or no armor, and wielding a single light weapon, get the following benefits.
-- +13+[[LvL]] [[AC]]
-- +5 bonus damage with light weapons
+When wearing light or no armor, and wielding a <span style="color:rgb(192, 0, 0)">single</span> light weapon, get the following benefits.
+- Your [[AC]] is 13+[[DEX]]+[[LvL]]
+- +4 to attack with [[Light Weapon|light weapons]]
 ## <span style="color:rgb(103, 254, 120)">1 - Practiced Duelist</span>
 You gain [[+Deception]] as a skill. You get a +4 bonus on deception checks to [[feint]], and an equal bonus on [[+Insight]] checks to resist feint.
 You increase the duration of feint to last until the start of your next turn by spending 1 mana.

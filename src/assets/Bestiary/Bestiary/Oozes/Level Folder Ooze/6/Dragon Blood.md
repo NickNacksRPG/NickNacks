@@ -1,6 +1,7 @@
 The life blood drained from the corpses of many dragon animated. It seeks to drain the life of anything it can engulf.
 
-Level 6 Massive Ooze/Undead [[Boss]]
+Level 6 Massive Ooze/Undead
+Role: [[Boss]]
 ## <span style="color:rgb(0, 176, 240)">Defense Traits</span>
 
 | <span style="color:rgb(0, 176, 240)">AC</span>    | 20                         |     |

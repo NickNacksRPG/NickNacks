@@ -23,6 +23,8 @@ You can ignore the 2h property of any weapon, but the base damage decreases to d
 * You are [[Immunity|immune]] to [[fall damage]].
 ## <span style="color:rgb(103, 254, 120)">1 - Feats</span>
 You gain the [[unarmed combatant]] and [[Point Blank Master]] feats.
+
+See [[+Magical Conduits]] on how you can enhance your fists/guns. You can lock in two styles, one for melee attacks and one for ranged attacks.
 ## <span style="color:rgb(103, 254, 120)">1 - Glory Kill</span> [[healing]] [[overheal]] [[elusive]]
 You can sense weakness in your enemies. Whenever a creature you can see is at or below an hp total equal to (10+lvl), you know. When a creature within 30 feet is at this threshold, you can spend an immediate action to dash with incredible speeds to reach it (in a straight line, even if it is airborne, if you can't fly you fall) and make an [[Unarmed Attack|unarmed strike]] against it. [[On-hit]] it instantly [[Defeated|defeats]] the creature. If the creature isn't a [[Minion]], you heal (3+[[LvL]]) hp.
 

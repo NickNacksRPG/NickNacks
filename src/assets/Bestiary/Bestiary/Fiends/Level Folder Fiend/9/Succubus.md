@@ -1,6 +1,7 @@
 A feminine fiend with curves in all the right places snaps her whip-like tail at friend and foe alike, all thankful for such a thoughtful blessing. 
 
 Level 9 Medium Fiend <span style="color:rgb(192, 0, 0)">(Mastermind)</span>
+Role: [[+Minion Mancer]]/[[+Controller]]
 ## <span style="color:rgb(0, 176, 240)">Defense Traits</span>
 
 | <span style="color:rgb(0, 176, 240)">AC</span>    | 23                          |              |

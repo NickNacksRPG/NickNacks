@@ -1,6 +1,7 @@
 A pestilent creature with creatures jittering around just underneath its scales, this dragon has bad intentions and worse breath. These creatures prefer the semi aquatic slurry of swamps to the air.
 
-Level 7 Large Dragon/Undead [[Boss]]
+Level 7 Large Dragon/Undead
+Role: [[Boss]]
 ## <span style="color:rgb(0, 176, 240)">Defense Traits</span>
 
 | <span style="color:rgb(0, 176, 240)">AC</span>    | 23                         | +2 Bone Cage |

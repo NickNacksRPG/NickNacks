@@ -1,6 +1,7 @@
 A sinister looking bird of roughly humanoid shape sheds spores as it scratches its feathers with its claws. As it picks itself with its beak, it notices you and lets out a unholy sound that sounds like a mix of hundreds screaming.
 
 Level 6 Large Fiend <span style="color:rgb(192, 0, 0)">(Minion)</span>
+Role: [[+Bruiser]]/[[+Artillery]]
 ## <span style="color:rgb(0, 176, 240)">Defense Traits</span>
 
 | <span style="color:rgb(0, 176, 240)">AC</span>    | 21                         |     |
@@ -16,7 +17,6 @@ Level 6 Large Fiend <span style="color:rgb(192, 0, 0)">(Minion)</span>
 |                                                     | 2d8+3 (12) |                                                                                 |
 | <span style="color:rgb(192, 0, 0)">Peck (P)</span>  | +9         | +4 [[Maneuver Versatility\|MV]]                                                 |
 |                                                     | 2d8+3 (12) |                                                                                 |
-
 [[Multiattack]] - Make 2 talon attacks.
 
 <span style="color:rgb(192, 0, 0)">Innate Techniques (CL 7)</span> - [[Finger Gun]], [[Rend Vision]]

@@ -1,6 +1,7 @@
 This colorful bird draws your eye with its impressive plumage. Once it starts to copy the spells of your allies as it shouts the words of power gleefully, you realize its true power.
 
 Level 2 Medium Beast
+Role: [[+Generalist]]
 ## <span style="color:rgb(0, 176, 240)">Defense Traits</span>
 
 | <span style="color:rgb(0, 176, 240)">AC</span>    | 14         |     |

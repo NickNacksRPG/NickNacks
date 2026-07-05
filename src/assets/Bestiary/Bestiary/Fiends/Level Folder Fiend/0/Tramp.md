@@ -1,6 +1,7 @@
 You open a book and read some magic words only for a short fiend to pop out. It makes some suggestive comments and would love to spend more time with you.
 
-Level 0 Small Fiend [[lewd]] (minion)
+Level 0 Small Fiend [[lewd]] <span style="color:rgb(192, 0, 0)">(minion)</span>
+Role: [[+Controller]]
 ## <span style="color:rgb(0, 176, 240)">Defense Traits</span>
 
 | <span style="color:rgb(0, 176, 240)">AC</span>    | 12                        |              |

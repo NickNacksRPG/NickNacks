@@ -1,14 +1,15 @@
 You slap the webs off of your face, only to have an agitated spider staring you in the face. As you scream, it fires a sizzling string shot from its spinneret.
 
 Level 5 Large Beast
+Role: [[+Marksman]]
 ## <span style="color:rgb(0, 176, 240)">Defense Traits</span>
 
 | <span style="color:rgb(0, 176, 240)">AC</span>    | 19                         |     |
 | ------------------------------------------------- | -------------------------- | --- |
 | <span style="color:rgb(0, 176, 240)">HP</span>    | 70                         |     |
-| <span style="color:rgb(0, 176, 240)">Poise</span> | 28                         |     |
+| <span style="color:rgb(0, 176, 240)">Poise</span> | 33                         |     |
 | <span style="color:rgb(0, 176, 240)">Saves</span> | Fort +6, Refl +10, Will +6 |     |
-<span style="color:rgb(0, 176, 240)">Web Walker</span> - A string shot spider cannot be [[Entangled]] by webs. they ignore the [[Difficult Terrain]] of webs.
+<span style="color:rgb(0, 176, 240)">Web Walker</span> - A string shot spider cannot be [[Entangled]] by webs. They ignore the [[Difficult Terrain]] of webs.
 ## <span style="color:rgb(192, 0, 0)">Offense Traits (DC 17)</span>
 
 | <span style="color:rgb(192, 0, 0)">String Shot (Poison) </span> | +8         | 30 ft, +2 [[Bullseye\|BE]], cannot be used in consecutive rounds) |

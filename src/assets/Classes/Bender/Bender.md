@@ -20,12 +20,13 @@ You can replace the damage of any attacks in techniques with your blast damage (
 [[Firebender]] gets the [[fire]] tag and @5 gets the [[zap]] tag. Most fire techniques are in the
 [[Pyromancy]] tree and most zap techniques are in the clairvoyance tree.
 
-Instead of a particular specialization, you ignore the [[Staff Component]] of any spells that match your elemental tag(s).
+Instead of a particular specialization, you ignore the [[Staff Component]] of any spells that match your elemental tag(s). By clicking on the respective tags and viewing the right side bar, you can see all tech of that respective tag (and every other page with that tag unfortunately).
 ## <span style="color:rgb(103, 254, 120)">1 - Favored Element</span> [[Su]]
 At level 1 you choose an element: water, fire, earth, air. Once chosen it cannot be changed. Your elements decides many aspects of your class. In order to use any (Su) class abilities, you must meet requirements based on the element. You get a +4 bonus on saves against effects that share the same tag as your element.
 ## <span style="color:rgb(103, 254, 120)">1 - Elemental Blast (Su)</span>
 As a standard action you attack a foe within 30 ft using either str or dex as your attacking stat. If the creature is out of reach, it counts as a ranged attack. If the creature is within your natural reach, you can either make the blast as a [[Melee Attack|melee]] or [[ranged attack]]. It's damage is 2d6+[[STR]]/[[DEX]], increasing by d6 @3 and every odd level after. The damage type is determined by your favored element.
 Elemental blast inherently has a +2 bonus to [[Attack]] for the bender class.
+See [[+Magical Conduits]] on how you can enhance your elemental blast.
 ## <span style="color:rgb(103, 254, 120)">1 - Elemental Styles (Su)</span>
 These features give your bending more options. If an ability has a mana cost, it is noted next to its name (in parenthesis), or in the description if only a specific part costs mana.
 Gain 1 this level and another one at level 2, 4, 6, 8 and 10.
@@ -34,7 +35,7 @@ Spend 1 mana to launch your element at all creatures in a 30 ft line or in a 10 
 ## <span style="color:rgb(103, 254, 120)">2 - Elemental Counter (Su)</span>
 You can innately cast [[dispel magic]] (CL=lvl+2), but only on effects that share the tag of your blast tag(s). You can use this to stop even non-magical effects, treating the effective CL of such effects as the attacker's [[LvL]].
 ## <span style="color:rgb(103, 254, 120)">4 - Improved Blast</span>
-The damage dice of your elemental blast increases to d8.
+The damage dice of your elemental blast increases to d8. Your blast range increases to 45 ft
 ## <span style="color:rgb(103, 254, 120)">6 - Planar Travel (Su)</span>
 1/day you can use plane shift to transport yourself to your corner of the elemental plane based on your favored element. At any time thereafter you can perform a similar ritual to return to the exact position you came from.
 ## <span style="color:rgb(103, 254, 120)">8 - Greater Blast</span>

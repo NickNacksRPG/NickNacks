@@ -1,6 +1,7 @@
 Humanoid in shape with cloven hooves and the head of a bull, this creature assesses you before mindlessly charging at your red mage.
 
 Level 3 Large Humanoid/Cryptid
+Role: [[+Bruiser]]
 ## <span style="color:rgb(0, 176, 240)">Defense Traits</span>
 
 | <span style="color:rgb(0, 176, 240)">AC</span>    | 18                        |          |

@@ -1,6 +1,7 @@
 A giant frog with a jetpack boosts across the battlefield without a care in the world.
 
 Level 5 Large Construct/Beast
+Role: [[+Infiltrator]]
 ## <span style="color:rgb(0, 176, 240)">Defense Traits</span>
 
 | <span style="color:rgb(0, 176, 240)">AC</span>    | 20                        |                 |
@@ -10,18 +11,19 @@ Level 5 Large Construct/Beast
 | <span style="color:rgb(0, 176, 240)">Saves</span> | Fort +8, Refl +9, Will +4 | +4 vs [[charm]] |
 ## <span style="color:rgb(192, 0, 0)">Offense Traits (DC 17)</span>
  
-| <span style="color:rgb(192, 0, 0)">Tongue (C)</span> | +8         | +2 [[Tumbling Charge\|TC]], +4 [[Drag]]/[[Grapple]], +4 [[Maneuver Versatility\|MV]], +30 ft of [[Reach]] during frogg's turn |
-| ---------------------------------------------------- | ---------- | ----------------------------------------------------------------------------------------------------------------------------- |
-|                                                      | 2d6+3 (10) | +Warpath                                                                                                                      |
-| <span style="color:rgb(192, 0, 0)">Bite (C)</span>   | +8         | +2 [[Tumbling Charge\|TC]]                                                                                                    |
-|                                                      | 2d8+3 (12) | +Warpath                                                                                                                      |
+| <span style="color:rgb(192, 0, 0)">Tongue (C)</span> | +8         | +2 [[Tumbling Charge\|TC]], +4 [[Drag]]/[[Grapple]], +4 [[Maneuver Versatility\|MV]], +2 [[Charge]]<br>+30 ft of [[Reach]] during frogg's turn |
+| ---------------------------------------------------- | ---------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
+|                                                      | 2d6+3 (10) | +Warpath                                                                                                                                       |
+| <span style="color:rgb(192, 0, 0)">Bite (C)</span>   | +8         | +2 [[Tumbling Charge\|TC]], +2 [[Charge]]                                                                                                      |
+|                                                      | 2d8+3 (12) | +Warpath                                                                                                                                       |
 [[Multiattack]] - Make a tongue and bite attack
 
-<span style="color:rgb(192, 0, 0)">Innate Techniques</span> - [[Laser Pointer]], [[Crash]], [[Pounce]], [[Sprint]]
-1/day - [[Plague of Frogs]] (U3), [[Hot Potato]]
+<span style="color:rgb(192, 0, 0)">Innate Techniques (CL 4)</span> - [[Laser Pointer]], [[Crash]], [[Pounce]], [[Sprint]]
+1/day - [[Plague of Frogs]], [[Hot Potato]]
 Constant - [[Unbreakable Advance]], [[Warpath]]
 
-<span style="color:rgb(192, 0, 0)">Turbo Charged</span> [[Elusive]] - Whenever a turbo frogg takes the [[Core Rules, How to Play/Actions/Common Actions/Full Round Actions/Charge]] action, it can continue its movement up and over the creature. It can charge into the air.
+[[Powerful Charge]]
+<span style="color:rgb(192, 0, 0)">Turbo Charged</span> [[Elusive]] - Whenever a turbo frogg takes the [[Charge]] action, it can continue its movement up and over the creature. It can charge into the air.
 <span style="color:rgb(192, 0, 0)">Special Attack: Electro Whip</span> [[Zap]] - Make a tongue attack that deals an additional 2d8 (9) zap damage. The creature is [[Staggered]] [[On-hit]] (fort negates).
 <span style="color:rgb(192, 0, 0)">Crash Landing</span> - As a swift action, a turbo frogg can augment a [[Jump]] give it some extra oomph. When the frogg lands, it deals 20 [[Poise]] damage to creatures within 10 ft. Any poise broken creatures are [[Knocked Down]]. If it uses this ability when charging, it must end the movement of the charge where it lands.
 ## <span style="color:rgb(247, 138, 255)">Weaknesses/Deep Lore</span>

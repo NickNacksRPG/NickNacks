@@ -8,7 +8,6 @@ Functions as follows...
 | ------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Effect | Heal to max hp after 3 turns.<br>[[Stunned\|Stuns]] for 3 rounds as it snaps your bones back into place and clogs your veins before returning to its container. If you take hp damage or are poise broken during these rounds, you vomit it out immediately, providing no benefits. |
 | Quirks | Jizzle physicks are personalized to an extent. It requires a creature's blood, and a 1 hour alchemical procedure for a jizzle physick to acclimate to a new user, otherwise it does not heal.                                                                                       |
-
 <span style="color:rgb(192, 0, 0)">Dev Note: </span>
 It may seem like this cheapens the experience of adventuring a bit. That is because it does. Between [[Mana Burn]] and [[Afflictions]] and other [[Permanent Status]], it isn't like there aren't methods that grind you down as you adventure.
 

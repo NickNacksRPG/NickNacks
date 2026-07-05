@@ -1,6 +1,7 @@
 A strange 4-legged creature with a long face trots around. It resembles a unicorn without a horn. Its powerful legs flex as it picks up the pace.
 
 Level 1 Large Beast
+Role: [[+Bruiser]]
 ## <span style="color:rgb(0, 176, 240)">Defense Traits</span>
 
 | <span style="color:rgb(0, 176, 240)">AC</span>    | 13                        |     |

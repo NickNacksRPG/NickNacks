@@ -1,6 +1,7 @@
 A group of orcs all riled up charge into battle. Individually not a big threat, but coordinated enough to easily mow through individuals with less friends.
 
 Level 1 medium [[Orc]]
+Role: [[Groups]]
 ## <span style="color:rgb(0, 176, 240)">Defense Traits</span>
 
 | <span style="color:rgb(0, 176, 240)">AC</span>    | 15                        |                 |

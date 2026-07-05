@@ -1,12 +1,13 @@
 A rustling in the bushes and a low growl are the last thing you hear before a giant cat pounces from the underbrush, directly onto your neck.
 
 Level 4 Large Beast
+Role: [[+Bruiser]]/[[+Infiltrator]]
 ## <span style="color:rgb(0, 176, 240)">Defense Traits</span>
 
 | <span style="color:rgb(0, 176, 240)">AC</span>    | 18         |                          |
 | ------------------------------------------------- | ---------- | ------------------------ |
 | <span style="color:rgb(0, 176, 240)">HP</span>    | 60         |                          |
-| <span style="color:rgb(0, 176, 240)">Poise</span> | 32         | [[DR]] 10 vs [[Grapple]] |
+| <span style="color:rgb(0, 176, 240)">Poise</span> | 36         | [[DR]] 10 vs [[Grapple]] |
 | <span style="color:rgb(0, 176, 240)">Saves</span> | +7, +9, +5 |                          |
 [[Cat's Grace]]
 ## <span style="color:rgb(192, 0, 0)">Offense Traits (DC 16)</span>
@@ -22,7 +23,7 @@ Level 4 Large Beast
 1/day - [[Jaws of the Beast]]
 Constant - [[Predatory Instincts]]
 
-<span style="color:rgb(192, 0, 0)">Special Attack: Bushwack</span> - While hiding, a big cat can take the jump action and attack a creature, dealing an additional 2d8 (9) dmg. If big cat successfully hides, it can also grapple the creature as an instant action.
+<span style="color:rgb(192, 0, 0)">Special Attack: Bushwack</span> - While they[[hide]], a big cat can take the jump action and attack a creature, dealing an additional 2d8 (9) dmg. If big cat successfully hides, it can also grapple the creature as an instant action.
 [[Rend]] - 2 claws, or a grapple and a claw (2d6)
 <span style="color:rgb(192, 0, 0)">Species</span> - Big cats come in a variety of shapes and sizes.
 <span style="color:rgb(255, 192, 0)">Cheetah</span> - Gain [[powerful charge]]. When it charges or dashes in a straight line, it can move up to 160 feet.

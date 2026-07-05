@@ -1,6 +1,7 @@
 This reclusive blue giant lives almost exclusively in the frozen corners of the world where the ice never melts. It wields a weapon with a peculiar shape to it and moves along snow and ice with startling speed.
 
 Level 4 Large Giant
+Role: [[+Bruiser]]/[[+Marksman]]
 ## <span style="color:rgb(0, 176, 240)">Defense Traits</span>
 
 | <span style="color:rgb(0, 176, 240)">AC</span>    | 20 (heavy armor)           |               |

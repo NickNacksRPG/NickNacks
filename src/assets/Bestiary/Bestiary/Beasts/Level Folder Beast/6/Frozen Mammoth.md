@@ -1,12 +1,13 @@
 A mammoth covered in frost trudges through the tundra. Each step a heavy thud even through the muffled snow. An entire group of them walks by and pays you no mind, so long as you keep your distance.
 
 Level 6 Huge Beast
+Role: [[+Bruiser]]
 ## <span style="color:rgb(0, 176, 240)">Defense Traits</span>
 
 | <span style="color:rgb(0, 176, 240)">AC</span>    | 20                         |     |
 | ------------------------------------------------- | -------------------------- | --- |
 | <span style="color:rgb(0, 176, 240)">HP</span>    | 80                         |     |
-| <span style="color:rgb(0, 176, 240)">Poise</span> | 30                         |     |
+| <span style="color:rgb(0, 176, 240)">Poise</span> | 36                         |     |
 | <span style="color:rgb(0, 176, 240)">Saves</span> | Fort +11, Refl +6, Will +7 |     |
 [[Resistance]] - [[Frost]]
 ## <span style="color:rgb(192, 0, 0)">Offense Traits (DC 18)</span>

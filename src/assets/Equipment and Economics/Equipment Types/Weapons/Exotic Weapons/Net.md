@@ -1,3 +1,4 @@
+2 [[Inventory|inventory slots]]
 ## <span style="color:rgb(103, 254, 120)">Net - CM (Drag) (5 lbs, 100g)</span>
 
 - [[Thrown]] weapon

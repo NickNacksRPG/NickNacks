@@ -1,6 +1,7 @@
 These colorful freshwater fish are efficient carnivores that form schools to consume prey many times larger than them. You find out just how tenacious they can be as they munch on your limbs.
 
-Level 2 Large Beast [[Groups|Group]]
+Level 2 Large Beast
+Role: [[Groups|Group]]
 ## <span style="color:rgb(0, 176, 240)">Defense Traits</span>
 
 | <span style="color:rgb(0, 176, 240)">AC</span>    | 14         |     |

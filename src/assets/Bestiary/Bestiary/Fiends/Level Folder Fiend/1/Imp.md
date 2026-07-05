@@ -1,6 +1,7 @@
 This ornery fiend is quick to change its mood, always looking for guidance from one of its superiors. Once they give the signal, they ready their claws and light themselves ablaze.
 
 Level 1 Small Fiend <span style="color:rgb(192, 0, 0)">(minion)</span>
+Role: [[+Support]]/[[Artillery]]
 ## <span style="color:rgb(0, 176, 240)">Defense Traits</span>
 
 | <span style="color:rgb(0, 176, 240)">AC</span>    | 16                        |                                  |

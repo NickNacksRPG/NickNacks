@@ -1,6 +1,7 @@
 The ultimate being and the culmination of the Ayylmao research. This creature has the combined power (and flesh) of 100 cows! The greatest part? It's self replicating.
 
 Level 4 Large Aberration/Beast
+Role: [[+Minion Mancer]]
 ## <span style="color:rgb(0, 176, 240)">Defense Traits</span>
 
 | <span style="color:rgb(0, 176, 240)">AC</span>    | 18                         |     |

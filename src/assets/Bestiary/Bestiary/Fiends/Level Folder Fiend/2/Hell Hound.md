@@ -1,6 +1,7 @@
 A red and black dog the size of a man crunches some bones in its mouth. When it realizes you are in the room, it howls to alert its master.
 
 Level 2 Medium Fiend/Beast <span style="color:rgb(192, 0, 0)">(monster)</span>
+Role: [[+Bruiser]]
 ## <span style="color:rgb(0, 176, 240)">Defense Traits</span>
 
 | <span style="color:rgb(0, 176, 240)">AC</span>    | 15                        |                       |

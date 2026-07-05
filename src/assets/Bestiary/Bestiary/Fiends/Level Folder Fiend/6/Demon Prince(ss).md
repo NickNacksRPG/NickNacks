@@ -1,6 +1,7 @@
 A well-dressed fiend carries itself with a great sense of importance as it struts across the battlefield. With a bow it introduces itself to you, and then invites its friends to join.
 
 **Level 6 Medium Fiend** <span style="color:rgb(192, 0, 0)">(Mastermind)</span>
+Role: [[+Minion Mancer]]/[[+Artillery]]
 ## <span style="color:rgb(0, 176, 240)">Defense Traits</span>
 
 | <span style="color:rgb(0, 176, 240)">AC</span>    | 19                         |     |
@@ -15,7 +16,6 @@ A well-dressed fiend carries itself with a great sense of importance as it strut
 | <span style="color:rgb(192, 0, 0)">Claws (S)</span> | +8         |
 | --------------------------------------------------- | ---------- |
 |                                                     | 2d8+2 (11) |
-
 <span style="color:rgb(192, 0, 0)">Innate Techniques (CL 10)</span>  - [[Dance With Me!]], [[Venomous Promise]], [[The Hand that Feeds]], [[Spell Blade]]
 1/day - [[Fire and Brimstone]], [[Hellfire]], [[Backfire]], [[Mirror Images]]
 
@@ -31,5 +31,5 @@ Each round at the start of the prince's turn if he is still concentrating on the
 <span style="color:rgb(103, 254, 120)">Ability Scores</span> - [[STR]] +1, [[DEX]] +2, [[LUK]] +0, [[INT]] +2, [[WIS]] +2, [[CHA]] +3
 <span style="color:rgb(103, 254, 120)">Languages</span> - Infernal, Common, Elven, Celestial
 <span style="color:rgb(103, 254, 120)">Deific Boons </span>- [[T1 - Party Animal|party animal]], [[T2 - Mistrust|mistrust]]
-<span style="color:rgb(103, 254, 120)">Feats</span> - [[Skill Focus]], [[Feint Partner]], [[Escape Route]]
+<span style="color:rgb(103, 254, 120)">Feats</span> - [[Skill Focus]], [[Feint Partner]], [[Escape Route]], [[MM Intensify]]
 <span style="color:rgb(103, 254, 120)">Skills</span> - +10 [[+Perception]], +10 ([[Advantage|adv]]) [[+Insight]], +13 ([[Advantage|adv]]) [[+Deception]], +10 [[+Planes]], +10 [[+Local]], +10 [[+Stealth]], +10 [[+Acrobatics]], +10 [[+Linguistics]], +13 [[+Profession]] (dance, sing, harp, guitar)

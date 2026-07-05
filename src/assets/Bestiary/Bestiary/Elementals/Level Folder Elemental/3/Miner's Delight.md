@@ -1,6 +1,7 @@
 A great find turned into dangerous encounter, this animate pile of precious stones is unhappy it is was disturbed. 
 
 Level 3 Medium Elemental
+Role: [[+Generalist]]
 ## <span style="color:rgb(0, 176, 240)">Defense Traits</span>
 
 | <span style="color:rgb(0, 176, 240)">AC</span>    | 19                        |     |

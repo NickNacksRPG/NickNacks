@@ -1,6 +1,7 @@
 A weapon rolls in on treads made to appear as a malicious mechanical [[Santa]]. Its wide array of weapons rev up while lets out laugh as joyful as it is creepy.
 
-Level 7 Huge Construct [[Boss]]
+Level 7 Huge Construct
+Role: [[Boss]]
 ## <span style="color:rgb(0, 176, 240)">Defense Traits</span>
 
 | <span style="color:rgb(0, 176, 240)">AC</span>    | 21                         |     |

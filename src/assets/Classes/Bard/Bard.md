@@ -16,7 +16,7 @@ You get proficiency in the [[+Profession]] (musician) skill and a +4 bonus to al
 You can make these checks and generate music without an instrument by making the required movements, but you take a -4 penalty. Doing so always takes at least one hand to perform.
 
 You can use instruments as the staff component to your spell casting, but you cannot use imaginary instruments.
-## <span style="color:rgb(103, 254, 120)">1 - Greatest Hits</span> [[companion]]
+## <span style="color:rgb(103, 254, 120)">1 - Greatest Hits</span> [[Companion]]
 With a week of downtime, you can create a new song and spread it across the land. The take away of a song can usually boil down to into a single phrase such as "the forest houses a dangerous witch" or "Ragnar the Red has been slain." Most messages tend to catch on quickly, unless they directly oppose common sentiments or are outright lies: The aforementioned examples wouldn’t work well if the witch is friendly or Ragnar is still kicking.
 
 The overall effect of the song is to affect the general sentiment towards specific topics or to diffuse basic information. For example, you could spread heroic tales of your adventure to let people know a deadly beast is dead. A dangerous cult could be lurking in a city and you warn the people to avoid people with a specific symbol on them.
@@ -39,9 +39,9 @@ Performances affect all creatures within 30 ft of you, specifying either allies 
 As a standard action, you can immediately end your performance to perform some kind of powerful action called a finale. Any allies that are within the area of your bardic performance before you perform your finale still gain its benefit for that round.
 
 The types of performances and finales a bard has is based on archetype.
-## <span style="color:rgb(103, 254, 120)">2 - Countercharm</span> [[charm]]
+## <span style="color:rgb(103, 254, 120)">2 - Countercharm</span> [[Charm]]
 When you succeed on a save against a charm effect, the creature who inflicted it is charmed by you for the effects usual duration.
-## <span style="color:rgb(103, 254, 120)">2 - Inspiration</span> [[mana burn]]
+## <span style="color:rgb(103, 254, 120)">2 - Inspiration</span> [[Mana Burn]]
 By burning 1 mana as an immediate action, you can allow a creature within 30 ft to add d6 to a d20 roll (minus a [[Luck Check]]).
 @6 increase to d8
 @11 increase to d10

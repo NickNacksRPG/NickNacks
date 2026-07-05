@@ -3,7 +3,7 @@ Your research is a bit self-centered. You were the only person who was willing t
 
 As a free action, unleash the beast, gaining the following benefits
 - [[+Athletics]] and [[+Acrobatics]] get a +4 bonus
-- The [[unarmed combatant]] feat with a [[Multiattack]] of 2 attacks
+- The [[unarmed combatant]] feat with a [[Multiattack]] of 2 attacks, one of which must be a [[Unarmed Attack|unarmed strike]]/[[+Combat Maneuver|combat maneuver]]
 - Grow to large size
 - Increase [[Land Speed]] by 10
 

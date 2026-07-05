@@ -1,6 +1,7 @@
 The whelp represents an underdeveloped member of a draconic species, before it gets many of the cool features typical of adult dragons. Many are frozen at this stage in development, unable to grow.
 
 Level 1 Small Dragon
+Role: [[+Bruiser]]
 ## <span style="color:rgb(0, 176, 240)">Defense Traits</span>
 
 | <span style="color:rgb(0, 176, 240)">AC</span>    | 17                        |                          |

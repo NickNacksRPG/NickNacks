@@ -1,6 +1,7 @@
 The shrubbagazzor is a creature born of magical manipulation of topiary. These creatures can also be born in response to the mistreatment of the natural world to fight against corruption.
 
 Level 3 Large Dragon
+Role: [[+Minion Mancer]]
 ## <span style="color:rgb(0, 176, 240)">Defense Traits</span>
 
 | <span style="color:rgb(0, 176, 240)">AC</span>    | 19                         |                                |

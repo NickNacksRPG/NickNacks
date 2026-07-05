@@ -1,6 +1,7 @@
 An undead beastfolk with a good nose sniffs around the graveyard. It starts to dig, throwing whatever it finds inside of its sack before it picks up your scent and smiles.
 
 Level 1 Medium Undead/Beast
+Role: [[+Bruiser]]/[[+Controller]]
 ## <span style="color:rgb(0, 176, 240)">Defense Traits</span>
 
 | <span style="color:rgb(0, 176, 240)">AC</span>    | 15                        |     |

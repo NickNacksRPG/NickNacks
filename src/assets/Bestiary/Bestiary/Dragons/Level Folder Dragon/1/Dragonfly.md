@@ -1,6 +1,7 @@
 A shining insect floats through the air around its draconic ally, enchanting its scales with protective wards. It flicks its tongue at you as you fail to harm it and its allies.
 
 Level 1 Tiny Dragon/Fey
+Role: [[+Support]]
 ## <span style="color:rgb(0, 176, 240)">Defense Traits</span>
 
 | <span style="color:rgb(0, 176, 240)">AC</span>    | 15                                      |     |

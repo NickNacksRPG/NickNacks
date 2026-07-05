@@ -18,6 +18,7 @@ The weapon type determines how many additional qualities it can have, its weight
 | Dueling              | Gain +2 to [[feint]] when wielding this weapon                                                                              | 1      |
 | Strings Attached     | When disarmed, your weapon cannot go further than 5 ft from you. You can re-equip the weapon as a swift action [[elusive]]. | 1      |
 | Parrying             | Gives a +2 bonus to [[attack]] when you [[Buckler\|parry]] while wielding this weapon.                                      | 1      |
+| Bracing              | Gain 2 [[poise]]                                                                                                            | 1      |
 ## <span style="color:rgb(103, 254, 120)">Ranged Qualities</span>
 
 | Quality | Description                                                                              | Points  |
@@ -25,14 +26,12 @@ The weapon type determines how many additional qualities it can have, its weight
 | Short   | Can be shot up to 40 ft, or 80 feet with -2                                              | Default |
 | Long    | Can be shot up to 60 ft, or 120 with -2                                                  | 2       |
 | Reload  | Can only be fired once per turn. Requires a standard action to reload. Change dmg to 2d6 | 0       |
-
 ## <span style="color:rgb(103, 254, 120)">ANY Melee</span>
 
 | Quality   | Description                                                                                                                               | Points |
 | --------- | ----------------------------------------------------------------------------------------------------------------------------------------- | ------ |
 | CM (X)    | Does 2 additional [[poise]] damage with a specific [[+Combat Maneuver\|combat maneuver]] when wielded. Also applies to [[bully]] attacks. | 1      |
-| Versatile | Your weapon can deal 2 different physical damage types, also giving it access to more special attacks.                                    | 1      |
-| Bleed     | Applies d6 [[Bleeding\|bleed]] [[On-hit]] for 1 round                                                                                     | 2      |
+| Versatile | Your weapon can deal 2 different physical damage types, also giving it access to more [[Base Special Attacks]].                           | 1      |
 ## <span style="color:rgb(103, 254, 120)">Light</span>
 
 | Quality      | Description                                                                                                                                                                                                                                                                | Points |
@@ -51,11 +50,11 @@ Some weapon qualities, like chink magnet, require you to not dual wield. You can
 | Thrown       | Can be [[Thrown]] 20, or 40 feet with -2.                                                                                                                                       | 1      |
 ## <span style="color:rgb(103, 254, 120)">Two-Handed</span>
 
-| Quality        | Description                                                                                                                           | Points |
-| -------------- | ------------------------------------------------------------------------------------------------------------------------------------- | ------ |
-| Improved Reach | Gain 5 feet of reach with this weapon                                                                                                 | 2      |
-| Finesse        | This 2h weapon counts as a light weapon, allowing you to use [[DEX]] to attack and damage. Its base damage decreases from 2d8 to 2d6. | 1      |
-| Oversized      | Gives a +1 bonus to the weapons damage. Whenever you miss an attack (does not count graze), you become [[clumsy]] 1.                  | 1      |
+| Quality        | Description                                                                                                                                                                                                                                                                 | Points |
+| -------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------ |
+| Improved Reach | Gain 5 feet of reach with this weapon                                                                                                                                                                                                                                       | 2      |
+| Finesse        | This 2h weapon counts as a [[Light Weapon]], allowing you to use [[DEX]] to attack and damage. Its base damage decreases from 2d8 to 2d6.<br><br>This does not allow you to take other light qualities, like [[chink magnet]]. Such properties still require proper knives. | 1      |
+| Oversized      | Gives a +1 bonus to the weapons damage. Whenever you miss an attack (does not count graze), you become [[clumsy]] 1.                                                                                                                                                        | 1      |
 ## <span style="color:rgb(103, 254, 120)">Weird</span>
 
 Some qualities feel out of place on general categories. Use as appropriate.

@@ -1,6 +1,7 @@
 This mushroom has arms with clawed hands and horns that jut from its mushroom cap. It seems to ride a vortex of flame around and its more than happy to share.
 
 Level 9 Plant/Fiend
+Role: [[+Marksman]]
 ## <span style="color:rgb(0, 176, 240)">Defense Traits</span>
 
 | <span style="color:rgb(0, 176, 240)">AC</span>    | 23                          |     |
@@ -17,7 +18,7 @@ Level 9 Plant/Fiend
 | <span style="color:rgb(192, 0, 0)">Plasma Skull (Fire)</span> | +12        |                                   |
 |                                                               | d6+13 (16) | +[[glowing]] and [[bone chilled]] |
 <span style="color:rgb(192, 0, 0)">Innate Techniques (CL 13+3 fire)</span>  - [[Ice Lance]], [[Bouncing Blast]], [[Finger Gun]]
-1/day - [[Self-Destruct]], [[Life Drinker]]
+1/day - [[Self-Destruct]], [[Sap Life]]
 Constant(?) - [[Plasma Blade]]
 
 <span style="color:rgb(192, 0, 0)">Blaze It </span>- All elemental damage the devil shroom deals is automatically converted to fire damage.

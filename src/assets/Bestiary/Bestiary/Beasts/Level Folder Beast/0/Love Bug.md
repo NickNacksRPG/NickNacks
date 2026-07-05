@@ -1,6 +1,7 @@
 A large bug hovers in the air, a pleasant aroma washing over you from its pheromone-laced wings.
 
 Level 0 Small Beast
+Role: [[+Controller]]
 ## <span style="color:rgb(0, 176, 240)">Defense Traits</span>
 
 | <span style="color:rgb(0, 176, 240)">AC</span>    | 13                        |     |

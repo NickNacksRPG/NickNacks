@@ -3,3 +3,5 @@ An effect with the buff tag grants a boon to a creature, or a shared effect. If 
 You can end a buff effect on yourself as an instant action, unless the buff says otherwise.
 
 The effects of a buff are suppressed when a creature is [[defeated]], with the effect resuming once the condition is removed.
+
+You can only have one [[buff]] active at a time, replacing the previous one if you already had one.

@@ -1,6 +1,7 @@
 A black insectoid creature skitters along a wall, a ball of glowing red energy you assume to be its eye faces you. The last thing you remember is it vanishing into a vapor and entering your lungs.
 
 Level 3 Small Aberration
+Role: [[+Infiltrator]]
 ## <span style="color:rgb(0, 176, 240)">Defense Traits</span>
 
 | <span style="color:rgb(0, 176, 240)">AC</span>    | 17                        |     |

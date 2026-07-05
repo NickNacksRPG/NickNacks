@@ -1,6 +1,7 @@
 A muscular two-headed giant laughs maniacally as it waves its arms around wildly, smashing the ground with its club and shooting rays of shadowy energy from the other.
 
-Level 12 Huge Giant [[Boss]], [[Unique]]
+Level 12 Huge Giant
+Role: [[Boss]], [[Unique]]
 ## <span style="color:rgb(0, 176, 240)">Defense Traits</span>
 
 | <span style="color:rgb(0, 176, 240)">AC</span>    | 27                           |                                                 |

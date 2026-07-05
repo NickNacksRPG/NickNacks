@@ -1,6 +1,7 @@
 A walking corpse shambles towards you. Its soulless gaze meets yours and you can feel its hunger.
 
 Level 0 Medium Undead
+Role: [[+Bruiser]]
 ## <span style="color:rgb(0, 176, 240)">Defense Traits</span>
 
 | <span style="color:rgb(0, 176, 240)">AC</span>    | 16                        |     |

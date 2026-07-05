@@ -1,6 +1,7 @@
 A silly little green creature runs around the battlefield picking pockets and slapping shiny swords out of creatures hands, quickly depositing it safely in an oversized bag before mad dashing to safety.
 
 Level 0 small [[Goblin]]
+Role: [[+Infiltrator]]
 ## <span style="color:rgb(0, 176, 240)">Defense Traits</span>
 
 | <span style="color:rgb(0, 176, 240)">AC</span>    | 14 (light armor)          |     |

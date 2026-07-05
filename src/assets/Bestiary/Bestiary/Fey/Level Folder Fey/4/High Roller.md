@@ -1,6 +1,7 @@
 This tiny fairy carries a pack filled with dice. It regularly rolls these dice during the battle, growing more powerful the higher it rolls.
 
 Level 4 Tiny Fey
+Role: [[+Generalist]]
 ## <span style="color:rgb(0, 176, 240)">Defense Traits</span>
 
 | <span style="color:rgb(0, 176, 240)">AC</span>    | 18                        |     |

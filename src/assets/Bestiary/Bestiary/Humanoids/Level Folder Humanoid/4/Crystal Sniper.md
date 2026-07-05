@@ -1,6 +1,7 @@
 By the time you see this elf you are likely already filled with several holes with unusual magical projectiles.
 
 Level 4 medium [[Elf]] 
+Role: [[+Marksman]]
 ## <span style="color:rgb(0, 176, 240)">Defense Traits</span>
 
 | <span style="color:rgb(0, 176, 240)">AC</span>    | 18 (light armor)          |             |

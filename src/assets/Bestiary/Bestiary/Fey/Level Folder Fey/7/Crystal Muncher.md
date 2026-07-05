@@ -1,6 +1,7 @@
 A large purple creature that has gems embedded all around its body munches on some rocks, greedily shoving everything within reach into its mouth.
 
 Level 7 Huge Fey
+Role: [[+Bruiser]]
 ## <span style="color:rgb(0, 176, 240)">Defense Traits</span>
 
 | <span style="color:rgb(0, 176, 240)">AC</span>    | 21                         |                                        |
@@ -17,7 +18,7 @@ Level 7 Huge Fey
 |                                                       | 2d8+3 (12) | +[[Mage Slayer]] |
 <span style="color:rgb(192, 0, 0)">Innate Techniques</span> - [[Body Slam]] (U4), [[Dispelling Strike]], [[Vulnerability]]
 1/day - [[Shine]], [[Focus Punch]], [[Pulverize]], [[Crystalline Explosion]], [[Hammer Fist]]
-Constant - [[Life Drinker]] (U4)
+Constant - [[Sap Life]] (U4)
 
 [[Quicken Spell]] - [[Crystalline Explosion]]
 [[Trample]] - 2d8+3 (12) damage. Instead of inflicting [[Knocked Down|Knockdown]], the crystal muncher can [[Swallow]] any creatures it tramples. Swallowed creatures are [[drained]] 3 immediately and at the end of their turns.

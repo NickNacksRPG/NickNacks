@@ -1,6 +1,7 @@
 This alien scavenger with no eyes skitters along the ground on all fours, raising its forelegs in response to threats. Only when it is pouncing midair does its target realize the enormous mouth on its underside.
 
 Level 0 Tiny Aberration
+Role: [[+Minion Mancer]]
 ## <span style="color:rgb(0, 176, 240)">Defense Traits</span>
 
 | <span style="color:rgb(0, 176, 240)">AC</span>    | 12                        | 16 home field     |

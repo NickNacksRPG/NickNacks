@@ -12,11 +12,11 @@ You gain 2 technique points at level 1, then another 2 point every 2 levels afte
 These technique points can be used on the [[Corruption]] and [[Alchemy]] trees.
 ## <span style="color:rgb(103, 254, 120)">1 - Curse Mastery</span>
 - You get the [[arcana]] skill with a +4 bonus. You can use arcana instead of medicine to [[Identify Affliction or Curse (P)|identify curse]]s.
-- You can prepare any [[Technique Rules|technique]] with the [[curse]] tag, as long as you would normally be able to prepare techniques of that level (ie you can prepare [[Power of the Sun]] if you are level 3).
+- You can prepare any [[Technique Rules|technique]] with the [[curse]] tag, as long as you would normally be able to prepare techniques of that level (ie you can prepare [[Power of the Sun]] if you are level 3). By clicking on the curse tags and viewing the right side bar, you can see all tech of that respective tag (and every other page with that tag unfortunately).
 - You gain [[Resistance]] to curse effects.
 - Whenever you pass a save against a curse effect, you can redirect it back at the creature that it inflicted it upon you, who must save against their own curse. This costs an amount of [[mana]] equal to what was spent on the technique, or (1/2 the creature's [[LvL]]) for non-technique curses.
 ## <span style="color:rgb(103, 254, 120)">1 - Cackle</span> [[Su]]
-With an insult, sinister laugh or something to that effect, you can unnerve your foes. As a swift action, you can increase the [[DC]] or [[Caster Level|CL]] of the next spell you cast with the [[curse]] tag by 1. If your target is a [[minion]], the creature gets no saving throw at all against cackle-enhanced curses.
+With an insult, sinister laugh or something to that effect, you can unnerve your foes. As a swift action, you can increase the [[DC]] or [[Caster Level|CL]] of the next spell you cast with the [[curse]] tag by 2. If your target is a [[minion]], the creature gets no saving throw at all against cackle-enhanced curses.
 ## <span style="color:rgb(103, 254, 120)">1 - Hex</span> [[Sp]]
 You get access to unique curses, called hexes. Using a hex requires a standard action. All hexes have the [[curse]] tag, 30 ft range and cannot target the same creature more than once (ever). You get two right now!
 

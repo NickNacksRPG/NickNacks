@@ -1,6 +1,7 @@
 An armored warrior stands vigilant over a crowd of people in a marketplace. They have a wide assortment of weapons and gaze at you warily as you pass by, sword arm resting on the hilt.
 
 Level 2 Medium [[Human]]
+Role: [[+Bruiser]]/[[+Controller]]
 ## <span style="color:rgb(0, 176, 240)">Defense Traits</span>
 
 | <span style="color:rgb(0, 176, 240)">AC</span>    | 18 (heavy armor)          |               |

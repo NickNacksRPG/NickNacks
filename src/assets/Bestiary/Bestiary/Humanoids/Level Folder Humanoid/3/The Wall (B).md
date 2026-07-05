@@ -1,6 +1,7 @@
 A dwarf clad entirely in a peculiar set of stony armor wields to massive shields you wonder how he can even carry. The more you swing, the more you panic as it seems impossible to harm him.
 
 Level 3 medium [[Dwarf]] [[Unique]]
+Role: [[+Support]]/[[+Controller]]
 ## <span style="color:rgb(0, 176, 240)">Defense Traits</span>
 
 | <span style="color:rgb(0, 176, 240)">AC</span>    | 19                        | +2 vs creatures he attacked                         |

@@ -1,6 +1,7 @@
 A tiny floating eyeball shouts with glee as it chases you around. You try and hide, only for it to pop around the corner. "Found you!" It shouts as it shoots an eye beam at you, transforming you into a toy.
 
-Level 12 Smol Aberration [[Boss]]
+Level 12 Smol Aberration 
+Roll: [[Boss]]/[[+Minion Mancer]]
 ## <span style="color:rgb(0, 176, 240)">Defense Traits</span>
 
 | <span style="color:rgb(0, 176, 240)">AC</span>    | 27                           |     |

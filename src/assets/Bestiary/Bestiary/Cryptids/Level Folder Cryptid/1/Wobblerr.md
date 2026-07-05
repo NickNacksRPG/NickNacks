@@ -1,6 +1,7 @@
 A strange blue creature stares at you. You try and tap it, causing it to wobble, before rebounding and smacking you backwards.
 
 Level 1 Medium Cryptid
+Role: [[+Controller]]
 ## <span style="color:rgb(0, 176, 240)">Defense Traits</span>
 
 | <span style="color:rgb(0, 176, 240)">AC</span>    | 12                       |                               |

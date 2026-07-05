@@ -1,6 +1,7 @@
 A small beastfolk spins an oversized shuriken between its fingers. Once a fight breaks out, it pulls more and more from seemingly nowhere in a flurry of blades.
 
 Level 2 Small [[Beastfolk]]
+Role: [[+Infiltrator]]/[[Marksman]]
 ## <span style="color:rgb(0, 176, 240)">Defense Traits</span>
 
 | <span style="color:rgb(0, 176, 240)">AC</span>    | 16 (light armor)          |     |

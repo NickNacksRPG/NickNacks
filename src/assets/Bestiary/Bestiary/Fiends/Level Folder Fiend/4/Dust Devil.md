@@ -1,6 +1,7 @@
 A tempest of dust makes its way towards you, the shadowy demonic figure within commanding and riding the winds.
 
 Level 4 Medium Fiend <span style="color:rgb(192, 0, 0)">(Monster)</span>
+Role: [[+Bruiser]]
 ## <span style="color:rgb(0, 176, 240)">Defense Traits</span>
 
 | <span style="color:rgb(0, 176, 240)">AC</span>    | 15                        |     |

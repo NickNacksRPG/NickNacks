@@ -2,7 +2,7 @@ Feeling nostalgic about 3e, 3.5e or PF1e? Well here's me doing my best to recrea
 ## <span style="color:rgb(103, 254, 120)">1 - Who's Next?</span>
 If you defeat an enemy and don't have enough speed to reach a new enemy, you can move until you threaten the next closest enemy, unless your speed is 0.
 ## <span style="color:rgb(103, 254, 120)">1 - Full Attack</span>
-Any turn you spend your standard action to make an attack, can make an additional <span style="color:rgb(192, 0, 0)">MELEE </span>superior attack a turn by sacrificing 45 speed once per turn.
+Any turn you spend your standard action to make an attack, can make an additional <span style="color:rgb(192, 0, 0)">MELEE </span>Superior Attack a turn by sacrificing 45 speed once per turn.
 
 <span style="color:rgb(192, 0, 0)">You cannot use techniques or special attacks after full attacking. If you use a special attack or technique during your turn, you cannot full attack.</span>
 ## <span style="color:rgb(103, 254, 120)">1 - Fervor of Battle</span>

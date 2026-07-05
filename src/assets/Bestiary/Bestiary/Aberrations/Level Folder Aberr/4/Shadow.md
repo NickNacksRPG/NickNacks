@@ -1,6 +1,7 @@
-A small creature fused with a flying saucer floats overhead. It gazes upon the farmer's cattle as it pulls out its probes. An electrified pulse of light reflects off of the terrified cow's eyes.
+Looks just like me!
 
 Level 4 Medium Aberration
+Role: [[+Infiltrator]]
 ## <span style="color:rgb(0, 176, 240)">Defense Traits</span>
 
 | <span style="color:rgb(0, 176, 240)">AC</span>    | 18                        |               |
@@ -8,7 +9,7 @@ Level 4 Medium Aberration
 | <span style="color:rgb(0, 176, 240)">HP</span>    | 60                        |               |
 | <span style="color:rgb(0, 176, 240)">Poise</span> | 27                        | [[DR\|DRA]] 2 |
 | <span style="color:rgb(0, 176, 240)">Saves</span> | Fort +7, Refl +8, Will +4 |               |
-<span style="color:rgb(0, 176, 240)">KYS</span> [[Healing]] - Kopy yourself. While a creature a shadow is copying is [[defeated]] and within its [[Reach|natural reach]], you can absorb data to repair damage as a swift action, healing 20 hp.
+<span style="color:rgb(0, 176, 240)">KYS</span> [[Healing]] - Kopy yourself. While a creature a shadow is copying is [[defeated]] and within its [[Reach|natural reach]], it can absorb data to repair damage as a swift action, healing 20 hp.
 ## <span style="color:rgb(192, 0, 0)">Offense Traits (DC 16)</span>
 
 | <span style="color:rgb(192, 0, 0)">Unarmed (C)</span> | +7         | +2 Real Deal |
@@ -16,11 +17,11 @@ Level 4 Medium Aberration
 |                                                       | 2d6+3 (10) |              |
 <span style="color:rgb(192, 0, 0)">Multiattack</span> - Make 2 [[Melee Attack]]s
 
-<span style="color:rgb(192, 0, 0)">Innate Techniques</span> - [[Kidnap]], [[Nice Catch]]
-1/day - [[Toe Smasher]], [[Feign Defeat]]
+<span style="color:rgb(192, 0, 0)">Innate Techniques</span> - [[Kidnap]], [[Nice Catch]] [[Lick]] (U2), [[Frenzied Leap]], [[Burst of Speed]]
+1/day - [[Toe Smasher]], [[Feign Defeat]], [[Bladed Dash]]
 
 <span style="color:rgb(192, 0, 0)">Real Deal</span> - While copying a creature, gain +2 attack against it.
-<span style="color:rgb(192, 0, 0)">I'll Have What She's Having</span> [[Su]] - As a swift action, a shadow can use it's copy ability to create a fully functional handheld object it can see within 30 ft. If the object is magical, it loses its magical properties. If the copied object gets more than 100 ft from the original, it disappears. Using copy in this way does not stun the shadow.
+<span style="color:rgb(192, 0, 0)">I'll Have What She's Having</span> [[Su]] - As a swift action, a shadow can use it's copy ability to create a fully functional handheld object it can see within 30 ft. If the object is magical, it loses its magical properties. If the copied object gets more than 100 ft from the original, it disappears.
 ## <span style="color:rgb(247, 138, 255)">Weaknesses/Deep Lore</span>
 
 <span style="color:rgb(247, 138, 255)"><b>Don't Tread on Me</b> </span>- Shadows are just that, shadows. Anything it copies is merely a projection. As such, it does not like it when objects interact with the shadow of its projection. It avoids people stepping on it, creatures walking over it etc. If the shadow's shadow is targeted directly, or included in an AoE effect, its DRA is ignored.

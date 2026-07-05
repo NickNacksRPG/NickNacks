@@ -1,6 +1,7 @@
 This titan of a construct descends upon you with jet thrusters, delivering a message from its employer before bringing down the axe.
 
-Level 7 Huge Construct [[Boss]]
+Level 7 Huge Construct
+Role: [[Boss]]
 ## <span style="color:rgb(0, 176, 240)">Defense Traits</span>
 
 | <span style="color:rgb(0, 176, 240)">AC</span>    | 23                         |                                              |

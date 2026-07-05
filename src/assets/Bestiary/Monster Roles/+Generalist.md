@@ -1,0 +1,1 @@
+Sometimes monsters don't fall in neat categories, or have strange abilities that don't fall in line with the other categories. This is what the generalist title is for.

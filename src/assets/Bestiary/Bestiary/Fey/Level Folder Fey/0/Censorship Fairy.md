@@ -1,6 +1,7 @@
 You coax a beautiful fey creature out of the water, only for rays of sun to censor their naked body. You curse, only to find your words replaced with a loud sharp noise that makes your ears bleed.
 
 Level 0 Tiny Fey
+Role: [[+Controller]]
 ## <span style="color:rgb(0, 176, 240)">Defense Traits</span>
 
 | <span style="color:rgb(0, 176, 240)">AC</span>    | 12                        |             |

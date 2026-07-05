@@ -1,6 +1,7 @@
 An enormous fiendish woman sits on her throne of bones, holding a man in her bloody claws. She crushes him into a pulp and her demonic minions cheer, then sighs and gestures for you to approach next.
 
 Level 5 Huge Fiend [[Unique]] [[Boss]] <span style="color:rgb(192, 0, 0)">(Anomaly)</span>
+Role: [[Unique]] [[Boss]]
 ## <span style="color:rgb(0, 176, 240)">Defense Traits</span>
 
 | <span style="color:rgb(0, 176, 240)">AC</span>    | 16                         |                                                       |

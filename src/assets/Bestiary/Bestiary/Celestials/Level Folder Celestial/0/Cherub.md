@@ -1,6 +1,7 @@
 Your date with this handsome lad is going terribly, but he suddenly perks up and things go great. You see a shimmer as a little baby with feathered wings gives you a wink, before disappearing.
 
 Level 0 Tiny Celestial
+Role: [[+Infiltrator]]
 ## <span style="color:rgb(0, 176, 240)">Defense Traits</span>
 
 | <span style="color:rgb(0, 176, 240)">AC</span>    | 14                        |                 |
@@ -28,6 +29,6 @@ If the creature is [[DD]] (including if the cherub isn't visible thanks to Wande
 <span style="color:rgb(103, 254, 120)">Ability Scores</span> - [[STR]] +0, [[DEX]] +3, [[LUK]] +3, [[INT]] +0, [[WIS]] +1, [[CHA]] +0
 <span style="color:rgb(103, 254, 120)">Languages</span> - Common, Celestial
 <span style="color:rgb(103, 254, 120)">Speed</span> - 20 [[Land Speed]], 20 [[Fly]]
-<span style="color:rgb(103, 254, 120)">Deific Boons</span> - [[Faith Provides]]
+<span style="color:rgb(103, 254, 120)">Deific Boons</span> - [[T1 - Fueled by Faith|Fueled by Faith]]
 <span style="color:rgb(103, 254, 120)">Feats</span> - [[Butterfly Sting]]
 <span style="color:rgb(103, 254, 120)">Skills</span> - +3 [[+Perception]], +5 [[+Stealth]], +2 [[+Deception]]

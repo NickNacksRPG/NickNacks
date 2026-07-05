@@ -1,6 +1,7 @@
 The terrain comes to life underneath your feet as a log covered with mushrooms peels from the forest floor. Nearby some large mushrooms angle upwards to reveal a pair of glowing eyes amid the fungus.
 
 Level 9 Huge Plant/Giant
+Role: [[+Generalist]]
 ## <span style="color:rgb(0, 176, 240)">Defense Traits</span>
 
 | <span style="color:rgb(0, 176, 240)">AC</span>    | 24                          |     |
@@ -17,7 +18,6 @@ This can also happen if the mushemoth becomes [[Wet]].
 |                                                       | 2d8+4 (13) |                                 |
 | <span style="color:rgb(192, 0, 0)">Vine (C)</span>    | +13        | 25 ft [[reach]] during its turn |
 |                                                       | d6+4 (17)  |                                 |
-
 [[Multiattack]] - 2 Attacks
 
 <span style="color:rgb(192, 0, 0)">Innate Techniques (CL 11)</span>  - [[Living Roots]], [[Stubbed Toe]], [[Decomposition]], [[Life Transfer]], [[Colossal Smash]], [[Awesome Blow]]

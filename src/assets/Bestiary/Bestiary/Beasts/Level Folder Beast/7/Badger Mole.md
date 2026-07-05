@@ -2,12 +2,13 @@
 The walls crash open next to you and an enormous fluffy creature emerges from this new opening to the earth.
 
 Level 7 Huge Beast
+Role: [[+Marksman]]
 ## <span style="color:rgb(0, 176, 240)">Defense Traits</span>
 
 | <span style="color:rgb(0, 176, 240)">AC</span>    | 21                          |     |
 | ------------------------------------------------- | --------------------------- | --- |
 | <span style="color:rgb(0, 176, 240)">HP</span>    | 76                          |     |
-| <span style="color:rgb(0, 176, 240)">Poise</span> | 30                          |     |
+| <span style="color:rgb(0, 176, 240)">Poise</span> | 37                          |     |
 | <span style="color:rgb(0, 176, 240)">Saves</span> | Fort +10, Refl +7, Will +10 |     |
 <span style="color:rgb(0, 176, 240)">Ligma</span> - 
 ## <span style="color:rgb(192, 0, 0)">Offense Traits (DC 19)</span>

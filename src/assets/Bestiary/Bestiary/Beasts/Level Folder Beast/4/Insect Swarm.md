@@ -1,6 +1,7 @@
 A bug lands on your arm and you swat it. Another 2, then 5, then 10. You turn and see a tsunami of insects washing over your campsite.
 
-Level 4 Huge Beast [[Groups|Group]]
+Level 4 Huge Beast
+Role:[[Groups|Group]]
 ## <span style="color:rgb(0, 176, 240)">Defense Traits</span>
 
 | <span style="color:rgb(0, 176, 240)">AC</span>    | 14         |     |
@@ -37,5 +38,5 @@ Single target effects that deal no damage have no effect.
 <span style="color:rgb(103, 254, 120)">Speed </span>- 5 [[Land Speed]], 40 [[Fly]]
 <span style="color:rgb(103, 254, 120)">Signature Skill</span> - [[One Eye Open (SS)|one eye open]], [[Quick Scan (SS)|quick scan]]
 <span style="color:rgb(103, 254, 120)">Feats</span> - [[Signature Skill]]
-<span style="color:rgb(103, 254, 120)">Skills</span> - +5 (+4 scent) [[+Perception]], +9 [[+Athletics]]
+<span style="color:rgb(103, 254, 120)">Skills</span> - +8 (+4 scent) [[+Perception]]
 

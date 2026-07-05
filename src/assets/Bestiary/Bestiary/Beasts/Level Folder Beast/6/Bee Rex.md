@@ -1,12 +1,13 @@
 The ground thumps and you wonder if this region has earthquakes. You hear the sound of a tree snapping and look up to see an enormous mix of dinosaur and insect crush a small tree underfoot.
 
 Level 6 Huge Beast
+Role: [[+Bruiser]]
 ## <span style="color:rgb(0, 176, 240)">Defense Traits</span>
 
 | <span style="color:rgb(0, 176, 240)">AC</span>    | 20                                               |     |
 | ------------------------------------------------- | ------------------------------------------------ | --- |
 | <span style="color:rgb(0, 176, 240)">HP</span>    | 91                                               |     |
-| <span style="color:rgb(0, 176, 240)">Poise</span> | 32                                               |     |
+| <span style="color:rgb(0, 176, 240)">Poise</span> | 38                                               |     |
 | <span style="color:rgb(0, 176, 240)">Saves</span> | Fort +11 [[Evasion\|Stalwart]], Refl +5, Will +7 |     |
 ## <span style="color:rgb(192, 0, 0)">Offense Traits (DC 18)</span>
 

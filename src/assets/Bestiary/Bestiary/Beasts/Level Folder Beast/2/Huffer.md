@@ -1,19 +1,20 @@
 This aggressive boar huffs and puffs as it scrapes its hooves against the ground. Its impressive speed and sharp tusks are quick to show you the error of your ways.
 
 Level 2 Medium Beast
+Role: [[+Bruiser]]
 ## <span style="color:rgb(0, 176, 240)">Defense Traits</span>
 
 | <span style="color:rgb(0, 176, 240)">AC</span>    | 16         |                                               |
 | ------------------------------------------------- | ---------- | --------------------------------------------- |
 | <span style="color:rgb(0, 176, 240)">HP</span>    | 44         |                                               |
-| <span style="color:rgb(0, 176, 240)">Poise</span> | 27         | [[DR\|DRA]] 1                                 |
+| <span style="color:rgb(0, 176, 240)">Poise</span> | 29         | [[DR\|DRA]] 1                                 |
 | <span style="color:rgb(0, 176, 240)">Saves</span> | +7, +3, +3 | [[Advantage]] vs [[Avoid AoO (P)\|avoid AoO]] |
 ## <span style="color:rgb(192, 0, 0)">Offense Traits (DC 14)</span>
 
 | <span style="color:rgb(192, 0, 0)">Gore (P)</span> | +5         |     |
 | -------------------------------------------------- | ---------- | --- |
 |                                                    | 2d8+3 (12) |     |
-[[Multiattack]] - Make 2 attacks, both must be part of a [[Core Rules, How to Play/Actions/Common Actions/Full Round Actions/Charge]] and one must be a [[Shove]] or [[Topple]].
+[[Multiattack]] - Make 2 attacks, both must be part of a [[charge]] and one must be a [[Shove]] or [[Topple]].
 
 <span style="color:rgb(192, 0, 0)">Innate Techniques</span> - [[Bull Rush]], [[Break Free]], [[Sprint]], [[Reckless Charge]]
 

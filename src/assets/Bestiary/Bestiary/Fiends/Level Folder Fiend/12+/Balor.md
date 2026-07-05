@@ -1,6 +1,7 @@
 A sigil of a name in infernal floats in the air. The burning text intensifies as you approach before it unleashes an enormous fiend with a hankering for destruction.
 
-Level 14 Large Fiend <span style="color:rgb(192, 0, 0)">(Mastermind)</span> [[Boss]]
+Level 14 Large Fiend <span style="color:rgb(192, 0, 0)">(Mastermind)</span>
+Role: [[Boss]]
 ## <span style="color:rgb(0, 176, 240)">Defense Traits</span>
 
 | <span style="color:rgb(0, 176, 240)">AC</span>    | 32 (medium armor)            |                                |

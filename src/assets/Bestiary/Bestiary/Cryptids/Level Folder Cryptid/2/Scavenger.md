@@ -1,6 +1,7 @@
 This humanoid creature has pale skin, long claws, sharp teeth and the whites of its eyes are a strange color. If feasts upon the rancid carrion left behind by a predator ages ago.
 
 Level 2 medium Cryptid/humanoid
+Role: [[+Bruiser]]
 ## <span style="color:rgb(0, 176, 240)">Defense Traits</span>
 
 | <span style="color:rgb(0, 176, 240)">AC</span>    | 15                        |     |

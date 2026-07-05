@@ -1,3 +1,4 @@
+
 Merciful monks have transcended the need to deal any damage at all, optimizing their fighting style to turn an enemies force against them and aid allies who are in danger.
 ## <span style="color:rgb(103, 254, 120)">1 - First Strike: Pacify</span>
 Your first [[Unarmed Attack|unarmed strike]] you land on a creature has a bonus [[On-hit]] effect. This effect can only be applied to a creature 1/day.
@@ -24,7 +25,7 @@ If you have the Monkey Fighting Style, you cannot "double redirect" an attack wh
 On hit apply [[Siphoned]] for 1 round (fort negates).
 Alternatively you can disable a creatures limb for 1 round. Targeted wings disable flight, legs decrease speed by 15 and arms render them unusable etc (fort negates).
 ## <span style="color:rgb(103, 254, 120)">6 - Ki: Your Skills Are Inferior (Su)</span>
-As a standard or swift action, taunt an enemy. If they land an attack against you or break your poise, the taunt ends.
+As a standard or swift action, [[Taunted|taunt]] an enemy. If they land an attack against you or break your poise, the taunt ends.
 If successful, you can parry as part of the same action by spending an additional 1 mana.
 ## <span style="color:rgb(103, 254, 120)">8 - Ki: Safeguard (Su)</span> [[elusive]] [[healing]] [[recharge]]
 As a swift action, you can dash up to 30 feet to appear adjacent to an ally. You grant yourself and your ally 10 [[temp hp]].  You restore 10 [[poise]] for you and your ally.
@@ -32,4 +33,4 @@ As a swift action, you can dash up to 30 feet to appear adjacent to an ally. You
 You can parry attacks directed at your safeguarded ally until the start of your next turn, provided they stay within [[reach]].
 This ability cannot be used in successive turns.
 ## <span style="color:rgb(103, 254, 120)">11 - Pressure Points (Su)</span>
-Whenever you land an [[unarmed attack]] against a creature, it takes a stacking -1 penalty to attack.
+Whenever you land an [[unarmed attack]] against a creature, it takes a stacking -1 penalty to attack, up to -4.

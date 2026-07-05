@@ -1,6 +1,7 @@
 This robot never shuts up, constantly throwing insults at anything that it thinks can be offended.
 
 Level 3 Medium Construct
+Role: [[+Support]]
 ## <span style="color:rgb(0, 176, 240)">Defense Traits</span>
 
 | <span style="color:rgb(0, 176, 240)">AC</span>    | 17                        |               |

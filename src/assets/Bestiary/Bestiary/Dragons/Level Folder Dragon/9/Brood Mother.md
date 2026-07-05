@@ -1,6 +1,7 @@
 An enormous female dragon covered in spines and (often) babies. Brood mothers are one of the most popular dragons to hunt since they provide a steady supply of eggs for poachers to sell as pets.
 
 Level 9 Huge Dragon
+Role: [[+Minion Mancer]]
 ## <span style="color:rgb(0, 176, 240)">Defense Traits</span>
 
 | <span style="color:rgb(0, 176, 240)">AC</span>    | 25                           |               |

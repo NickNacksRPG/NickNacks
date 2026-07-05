@@ -7,7 +7,7 @@ Action: Immediate
 | Target/[[AoE]] | 1 ally    |
 | Duration       | 1 minute  |
 | Save           | -         |
-In response to an ally being harmed you can immediately grant them 30 temporary hp, increasing to 50 if they are below half hp.
+In response to an ally being harmed you can immediately grant them 30 [[Temp HP]], increasing to 50 if they are below half hp.
 
 You must continue to actively concentrate on this ability to maintain this temp hp. If you maintain concentration for 1 full round, you can teleport adjacent to this ally as an instant action.
 

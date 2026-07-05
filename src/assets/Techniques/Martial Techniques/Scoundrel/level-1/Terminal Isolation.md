@@ -12,6 +12,6 @@ This technique can only be used against an isolated creature. A creature is cons
 * It does not have an ally within 15 ft.
 * It is not flanking with an ally
 
-Strike at an isolated creature with a [[melee attack]], adding d8 (4) dmg.
+Strike at an isolated creature with a [[melee attack]], adding d6 (3) dmg. This increases to d8 (4) if the target is also [[DD]].
 
-<span style="color:rgb(103, 254, 120)">Upcast</span> - For each additional mana spent, deal an additional d8 (4) damage.
+<span style="color:rgb(103, 254, 120)">Upcast</span> - For each additional mana spent, deal an additional d6 (3) damage.

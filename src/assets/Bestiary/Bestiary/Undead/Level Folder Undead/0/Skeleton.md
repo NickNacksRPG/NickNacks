@@ -1,6 +1,7 @@
 A pile of bones animates and rattles at you menacingly, wielding whatever was on hand to dispatch you.
 
 Level 0 Medium Undead
+Role: [[+Bruiser]]/[[+Infiltrator]]
 ## <span style="color:rgb(0, 176, 240)">Defense Traits</span>
 
 | <span style="color:rgb(0, 176, 240)">AC</span>    | 13 (light armor)          |     |

@@ -1,6 +1,7 @@
 A small creature fused with a flying saucer floats overhead. It gazes upon the farmer's cattle as it pulls out its probes. An electrified pulse of light reflects off of the terrified cow's eyes.
 
 Level 3 Small Aberration
+Role: [[+Generalist]]
 ## <span style="color:rgb(0, 176, 240)">Defense Traits</span>
 
 | <span style="color:rgb(0, 176, 240)">AC</span>    | 15                        |     |
@@ -13,12 +14,12 @@ Level 3 Small Aberration
 
 | <span style="color:rgb(192, 0, 0)">Probe (Zap)</span> | +5       |             |
 | ----------------------------------------------------- | -------- | ----------- |
-|                                                       | 3d6 (10) | +Discomfort |
+|                                                       | 4d6 (14) | +Discomfort |
 
-<span style="color:rgb(192, 0, 0)">Innate Techniques (CL 6)</span> - [[Detect Thoughts]]
-1/day - [[Malleable Memory]]
+<span style="color:rgb(192, 0, 0)">Innate Techniques (CL 6)</span> - [[Detect Thoughts]], [[Terminal Isolation]]
+1/day - [[Malleable Memory]], [[Pet Check]], [[Shadow Puppets]]
 
-<span style="color:rgb(192, 0, 0)">Discomfort</span> - Ayylmao like sticking their probes in unusual places. Creatures are sent reeling and are made [[Clumsy]] 1 [[On-hit]]. Against a [[DD]] or [[Grapple|grappled]] target, this increases to [[clumsy]] 2.
+<span style="color:rgb(192, 0, 0)">Discomfort</span> - Ayylmao like sticking their probes in unusual places. Creatures are sent reeling and are made [[Clumsy]] 1 [[On-hit]]. Against a [[DD]] or [[Grapple|grappled]] target, this increases to [[clumsy]] 3.
 <span style="color:rgb(192, 0, 0)">Tractor Beam (Su)</span> [[concentration]] - Unleash a ray at a creature within 30 ft. It is [[entangled]] (reflex negates). DC 20 [[Breakout]]. While entangled, the creature maintains the exact distance away from the ayylmao, even if it moves. This allows the ayylmao to slam it into the ground, drag it along walls etc. Every turn it moves at least 10 feet deals 4d6 (14) crush damage. If the ayylmao chooses, it can spend its own movement to beam the creature closer, or push it away, but no farther than 30 feet away.
 ## <span style="color:rgb(247, 138, 255)">Weaknesses/Deep Lore</span>
 

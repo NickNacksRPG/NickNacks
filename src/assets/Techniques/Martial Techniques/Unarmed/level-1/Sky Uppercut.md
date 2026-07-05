@@ -2,8 +2,11 @@ Level 1 [[Unarmed]]
 Tags: [[Elusive]], [[Upcast]]
 Tags: [[Special Attack]]
 
-<table><thead><tr><th width="161">Effect</th><th></th></tr></thead><tbody><tr><td>Range</td><td>60 ft</td></tr><tr><td>Target</td><td>1 creature</td></tr></tbody></table>
-
+| Range          | 60 ft      |
+| -------------- | ---------- |
+| Target/[[AoE]] | 1 creature |
+| Duration       | -          |
+| Save           | -          |
 <span style="color:rgb(192, 0, 0)">Note:</span>
 You must be on the ground to use this ability.
 

@@ -1,6 +1,7 @@
 This unusual undead looks like many creatures stitched together were given formal training in cooking. It works with surprising dexterity with all three of its arms at once.
 
-Level 4 Large Undead [[unique]]
+Level 4 Large Undead [[Unique]]
+Role: [[+Support]]/[[+Controller]]
 ## <span style="color:rgb(0, 176, 240)">Defense Traits</span>
 
 | <span style="color:rgb(0, 176, 240)">AC</span>    | 17                        |     |

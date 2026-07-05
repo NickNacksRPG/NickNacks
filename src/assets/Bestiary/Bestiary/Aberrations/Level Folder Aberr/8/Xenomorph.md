@@ -1,6 +1,7 @@
 A creature lurking in the shadows emerges with a horrifying scream. Even after repeated hits, it seems resilient beyond belief and relishes sitting in the middle of chaotic battlefield where  
 
 Level 8 Large Aberration
+Role: [[+Bruiser]]
 ## <span style="color:rgb(0, 176, 240)">Defense Traits</span>
 
 | <span style="color:rgb(0, 176, 240)">AC</span>    | 22                          |          |

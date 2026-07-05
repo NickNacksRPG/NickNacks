@@ -1,6 +1,7 @@
 A top hat rests on the snow. You go to investigate only for a snowman to emerge from the snow underneath and lob a snowball at you.
 
 Level 1 Medium Elemental
+Role: [[+Marksman]]
 ## <span style="color:rgb(0, 176, 240)">Defense Traits</span>
 
 | <span style="color:rgb(0, 176, 240)">AC</span>    | 16                        |     |

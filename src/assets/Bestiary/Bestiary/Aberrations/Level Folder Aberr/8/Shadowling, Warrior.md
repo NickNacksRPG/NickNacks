@@ -1,6 +1,7 @@
 The generals of the [[Shadowling]] armies. They seek to bring down powerful foes so that way they may take control of them. They use them to inhabit the brighter parts of the world so that they may spread their corrupting influence.
 
 Level 8 Large Aberration
+Role: [[+Infiltrator]]
 ## <span style="color:rgb(0, 176, 240)">Defense Traits</span>
 
 | <span style="color:rgb(0, 176, 240)">AC</span>    | 21                          |     |
@@ -14,11 +15,11 @@ Level 8 Large Aberration
 This ability cannot be used in consecutive rounds.
 ## <span style="color:rgb(192, 0, 0)">Offense Traits (DC 20)</span>
 
-<span style="color:rgb(192, 0, 0)">Stromp (P)</span>  +11
-2d8+3 (12) (+2/+4 predatory instincts)
-<span style="color:rgb(192, 0, 0)">Gloombolt (Necrotic)</span>  +11 [[Short]]
-6d6 (21)
-
+| <span style="color:rgb(192, 0, 0)">Stromp (P)</span>           | +11        |                             |
+| -------------------------------------------------------------- | ---------- | --------------------------- |
+|                                                                | 2d8+3 (12) | (+2/+4 predatory instincts) |
+| <span style="color:rgb(192, 0, 0)">Gloombolt (Necrotic)</span> | +11        | [[Long]]                    |
+|                                                                | 6d6 (21)   |                             |
 [[Multiattack]] - Make 2 stomp attacks
 
 <span style="color:rgb(192, 0, 0)">Innate Techniques</span> - [[Wave of Darkness]], [[Nearsighted]] (U4), [[Toe Smasher]], [[Frenzied Leap]], [[Terminal Isolation]] (U2)
@@ -40,6 +41,7 @@ Constant - [[Predatory Instincts]]
 <span style="color:rgb(103, 254, 120)">Languages </span>- Primordial, Common
 [[Darkvision]]
 <span style="color:rgb(103, 254, 120)">Speed</span> - 45
+Deific Boons - [[T1 - From my Cold Dead Head|from my cold dead head]]
 [[Mad Hops]]
-<span style="color:rgb(103, 254, 120)">Feats</span> - [[Skill Focus]], [[Signature Skill]] (stealth), [[Combat Reflexes]], [[Fighter's Lament]], [[Escape Route]]
+<span style="color:rgb(103, 254, 120)">Feats</span> - [[Skill Focus]], [[Signature Skill]] (stealth), [[Combat Reflexes]], [[Escape Route]]
 <span style="color:rgb(103, 254, 120)">Skill</span> - +11 [[+Perception]], +15 (adv) [[+Stealth]], +15 [[+Acrobatics]], +12 [[+Athletics]], +10 [[+Cryptozoology]], +10 [[+Planes]]

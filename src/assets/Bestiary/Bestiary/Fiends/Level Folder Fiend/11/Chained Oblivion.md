@@ -1,6 +1,7 @@
 A sigil of a name in infernal floats in the air. The burning text intensifies as you approach before it unleashes an enormous fiend with a hankering for destruction.
 
 Level 11 Huge Fiend <span style="color:rgb(192, 0, 0)">(Anomaly)</span>
+Role: [[+Bruiser]]
 ## <span style="color:rgb(0, 176, 240)">Defense Traits</span>
 
 | <span style="color:rgb(0, 176, 240)">AC</span>    | 27 (heavy armor)             |                         |

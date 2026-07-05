@@ -1,6 +1,6 @@
 This is gonna hurt...
 
-Level 10 Massive Elemental [[boss]] [[Unique]]
+Level 10 Massive Elemental [[Boss]] [[Unique]]
 ## <span style="color:rgb(0, 176, 240)">Defense Traits</span>
 
 | <span style="color:rgb(0, 176, 240)">AC</span>    | 26                           | +4 Molten Shield |

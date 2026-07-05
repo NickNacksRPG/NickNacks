@@ -20,10 +20,9 @@ While under the effects of a [[Polymorph|poly, baleful]] effect, you can use sha
 See subsection for all abilities. You have access to all the charts, unless it shares the name with an archetype.
 ## <span style="color:rgb(103, 254, 120)">1 - Shifter Claws</span>
 You possess claws on your hands that you can sheathe and unsheathe as an instant action. This [[natural attack]] deals 2d8 slashing damage while your hands are empty, or d10 if they are not. Typically while shapeshifted (using the [[Polymorph|poly, true]] version) you can't wield weapons, shields etc so the damage is always 2d8. Any other natural attacks that you gain through this class shares this damage, but often with a different damage type. These "claws" persist through shapeshift, transforming into another form of attack if the creature doesn't have a similar pair of limbs to adapt to (rhino, squid).
-
-Your claws share the properties of a single weapon in your position, such as magic enchantment, a magic focuses ability to cast spells, or special attacks. You can bond to a new weapon with a 1 minute ritual requiring concentration and contact with the weapon.
+See [[+Magical Conduits]] on how you can enhance your claws.
 ## <span style="color:rgb(103, 254, 120)">1 - Multiattack</span>
-Gain a [[Multiattack]]. Make two attacks, one of which must be with your shifter claws.
+Gain a [[Multiattack]]. Make two attacks, one of which must be with your shifter claws/[[+Combat Maneuver|combat maneuver]].
 ## <span style="color:rgb(103, 254, 120)">1 - Feat</span>
 Gain the [[wild empathy]] feat.
 ## <span style="color:rgb(103, 254, 120)">1 - Druidic</span>

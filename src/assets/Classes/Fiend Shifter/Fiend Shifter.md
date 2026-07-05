@@ -15,10 +15,9 @@ You add fiend to your type, in addition to any others you possess.
 As a free action, deal 1 [[true damage]] to yourself to break the first seal. This gives you bonuses based off your archetype. This lasts for 1 minute, or until you exit combat (or something similarly strenuous), whichever is longer.
 ## <span style="color:rgb(103, 254, 120)">1 - Shifter Claws</span>
 You possess claws on your hands that you can use to make [[Natural Attack|natural attacks]]. They deal 2d8 slashing damage if your hands are empty, or d10 if they are not. Any other natural attacks that you gain through this class share this damage, but often with a different damage type. These attacks can be used interchangeably with claws.
-
-Your claws share the properties of a single weapon in your possession, such as magic enchantment, a magic focus' ability to cast spells, or special attacks. You can bond to a new weapon with a 1 minute ritual requiring concentration and contact with the weapon.
+See [[+Magical Conduits]] on how you can enhance your claws.
 ## <span style="color:rgb(103, 254, 120)">1 - Multiattack</span>
-2 claw attacks.
+Gain a [[Multiattack]]. Make two attacks, one of which must be with your shifter claws/[[+Combat Maneuver|combat maneuver]].
 ## <span style="color:rgb(103, 254, 120)">1 - Fiendish Growth</span>
 Gain a fiendish growth from your chosen archetype, or the universal list. Get another one at level 2, 4, 6, 8 and 10.
 ## <span style="color:rgb(103, 254, 120)">1 - One of Us</span> [[Su]] [[Polymorph|poly, true]]

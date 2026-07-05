@@ -36,5 +36,6 @@ Over time I will add more things here. This is what I have in mind. I will also 
 - Mana (see [[Mana Donation]])
 - Other crafting details TBD, but these are the basics
 <span style="color:rgb(192, 0, 0)">Retraining</span>
-- Change one of your [[Feat Functionality|feats]]
-- 
+- Change one of your [[Feat Functionality|feats]], technique points or class features (like [[rogue talents]])
+- Time varies depending the feature. Feats could take 2 weeks while [[Fighting Styles]] or your [[+Magical Conduits]] style could take 2 months
+- Usually requires another creature with the new feature that you are looking for, or at least a creature with a higher level than you in the same class. Their payment could come in the form of money, quests or other goods/services depending on the time it takes to train you.

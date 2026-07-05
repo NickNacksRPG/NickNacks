@@ -1,6 +1,7 @@
 A step above a hazard, this mobile mine rushes towards you with the singular purpose of ruining your day.
 
 Level 0 Tiny Construct
+Role: [[+Bruiser]]
 ## <span style="color:rgb(0, 176, 240)">Defense Traits</span>
 
 | <span style="color:rgb(0, 176, 240)">AC</span>    | 12                        |     |
@@ -8,7 +9,7 @@ Level 0 Tiny Construct
 | <span style="color:rgb(0, 176, 240)">HP</span>    | 10                        |     |
 | <span style="color:rgb(0, 176, 240)">Poise</span> | 15                        |     |
 | <span style="color:rgb(0, 176, 240)">Saves</span> | Fort +0, Refl +4, Will +0 |     |
-## <span style="color:rgb(192, 0, 0)">Offense Traits (DC 15)</span>
+## <span style="color:rgb(192, 0, 0)">Offense Traits (DC 12)</span>
 
 [[Deathrattle]] - [[Jump]] at an enemy (15 ft for a typical boom bot). If the boom bot can land inside of a creatures space, it explodes, dealing 3d6 (10) fire damage to them (reflex halves).
 

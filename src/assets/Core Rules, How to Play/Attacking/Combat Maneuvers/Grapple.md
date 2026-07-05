@@ -10,4 +10,4 @@ If you are moved out of reach from the target, have your poise reduced to zero, 
 
 - Multiple creatures can grapple one creature. The bonus to attack against a target that is entangled from a grapple increases by 2 per additional creature. 
 - You must use at least one prehensile limb to initiate and maintain a grapple on a creature, unless your weapon has the CM Grapple property.
-- Creatures ignore the attack penalty from partial and total concealment against creatures that they are being grappled by or are grappling.
+- Creatures ignore the attack penalty from partial and [[Total Concealment]] against creatures that they are being grappled by or are grappling.

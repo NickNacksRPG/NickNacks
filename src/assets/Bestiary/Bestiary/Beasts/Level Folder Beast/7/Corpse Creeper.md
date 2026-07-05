@@ -1,12 +1,13 @@
 A crack in the wall of the cave splits open and a worm far too large to ever reasonably ever fit inside slides out. Several tongue-like tendrils wriggle around on its face until they snap to in the direction of your party. 
 
 Level 7 Huge Beast
+Role: [[+Bruiser]]
 ## <span style="color:rgb(0, 176, 240)">Defense Traits</span>
 
 | <span style="color:rgb(0, 176, 240)">AC</span>    | 23                         |               |
 | ------------------------------------------------- | -------------------------- | ------------- |
 | <span style="color:rgb(0, 176, 240)">HP</span>    | 90                         |               |
-| <span style="color:rgb(0, 176, 240)">Poise</span> | 32                         | [[DR\|DRA]] 1 |
+| <span style="color:rgb(0, 176, 240)">Poise</span> | 39                         | [[DR\|DRA]] 1 |
 | <span style="color:rgb(0, 176, 240)">Saves</span> | Fort +10, Refl +9, Will +8 |               |
 <span style="color:rgb(0, 176, 240)">Reactive Armor</span> - A creeper can use its Nice Catch technique with its body armor. It can only hold onto one such weapon at a time. It must let go of a weapon (free action) before it can use this technique again.
 ## <span style="color:rgb(192, 0, 0)">Offense Traits (DC 19)</span>
@@ -33,7 +34,7 @@ Constant - [[Power Lifter]], [[Rapid Recovery]]
 <span style="color:rgb(103, 254, 120)">Ability Scores</span> - [[STR]] +3, [[DEX]] +0, [[LUK]] +0, [[INT]] -3, [[WIS]] +1, [[CHA]] +0
 [[Compression]]
 <span style="color:rgb(103, 254, 120)">Speed</span> - [[Climb]] 40
-<span style="color:rgb(103, 254, 120)">Blindsense</span> - [[Scent]] (15 ft)
+<span style="color:rgb(103, 254, 120)">Senses</span> - [[+Blindsense]] ([[Scent]] 15 ft), [[Darkvision]]
 <span style="color:rgb(103, 254, 120)">Tracking</span> - Against a creature primarily made of bones, a creeper can [[Tracking (P)|track]] untrained, and automatically gets a result of 30 to do so, requiring no roll.
 <span style="color:rgb(103, 254, 120)">Deific Boons </span>- [[T1 - Animal Instincts|Animal Instincts]]
 <span style="color:rgb(103, 254, 120)">Feats</span> - [[Maneuver Master]], [[Maneuver Versatility]], [[Back to the Wall]], [[Combat Step]]

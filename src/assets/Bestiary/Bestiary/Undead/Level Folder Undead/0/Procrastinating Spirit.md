@@ -1,6 +1,7 @@
 The ghost of a creature hangs its head as it whispers to itself, its words self-defeating. Grabbing its attention only seems to set it off.
 
 Level 0 Medium Undead
+Role: [[+Bruiser]]
 ## <span style="color:rgb(0, 176, 240)">Defense Traits</span>
 
 | <span style="color:rgb(0, 176, 240)">AC</span>    | 13                        |     |

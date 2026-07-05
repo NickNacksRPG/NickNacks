@@ -1,6 +1,7 @@
 A bird with gold and blue feathers dashes around the battlefield back and forth, evading attacks with ease. After a flurry of blows, he stops to give a salute while saying "Show me your moves!"
 
 Level 9 Medium [[Beastfolk]]
+Role: [[+Bruiser]]/[[+Controller]]
 ## <span style="color:rgb(0, 176, 240)">Defense Traits</span>
 
 | <span style="color:rgb(0, 176, 240)">AC</span>    | 24                          |                                  |

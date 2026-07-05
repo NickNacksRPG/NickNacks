@@ -1,6 +1,7 @@
 A soft spoken young woman swims around a lake, offering you a spot amongst those having fun inside. The glamer removed once you hop in, you see a pile of corpses reaching to grab you.
 
-Level 1 Medium Undead/Fey [[Boss]]
+Level 1 Medium Undead/Fey
+Role: [[+Minion Mancer]]/[[Boss]]
 ## <span style="color:rgb(0, 176, 240)">Defense Traits</span>
 
 | <span style="color:rgb(0, 176, 240)">AC</span>    | 16                        |     |

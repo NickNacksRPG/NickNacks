@@ -1,6 +1,7 @@
 A humanoid shaped fiend with horns, wings and intricate armor carries itself with a degree of confidence. As it looms over you, you feel all hope fade.
 
 Level 8 Large Fiend <span style="color:rgb(192, 0, 0)">(Anomaly)</span>
+Role: [[+Bruiser]]
 ## <span style="color:rgb(0, 176, 240)">Defense Traits</span>
 
 | <span style="color:rgb(0, 176, 240)">AC</span>    | 23                         |         |

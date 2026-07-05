@@ -1,0 +1,3 @@
+The monster types might not always give the best picture as to what the monster is supposed to be used for. If you include many of the same creature and nothing else then the combat is going to be very simple. A more balanced set of creatures ensures that players will have to stay on their toes in order to combat their enemies. This section describes the general roles that exist in the bestiary, with each entry having at least one of these labels at the top of the entry.
+
+These aren't designed to pigeonhole specific creatures into specific roles, but rather give a basic idea of what the creature is good at at a glance. You can also use the backlogs on the right column on each page to look through creatures of a specific role.

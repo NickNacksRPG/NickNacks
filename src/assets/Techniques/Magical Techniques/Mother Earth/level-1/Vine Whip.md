@@ -10,3 +10,5 @@ Action: -
 Two long and supple green vines grow from your body. You can use these vines to hold and manipulate objects within 15 ft, but not wield equipment, such as weapons, shields or staves. 
 
 These function as [[whip]]s, but they are considered [[Natural Attack|natural attacks]] and deal d6 crush damage.
+
+See [[+Magical Conduits]] on how you can enhance your vines.

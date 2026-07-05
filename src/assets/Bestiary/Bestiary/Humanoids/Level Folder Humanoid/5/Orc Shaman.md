@@ -1,6 +1,7 @@
 The way this ape-like assassin wields their weapons showcases a level of discipline and practice unlike their subordinates, that is, assuming you ever see them at all.
 
 Level 5 Medium [[Orc]]
+Role: [[+Artillery]]/[[+Support]]
 ## <span style="color:rgb(0, 176, 240)">Defense Traits</span>
 
 | <span style="color:rgb(0, 176, 240)">AC</span>    | 20 (medium armor)          |          |

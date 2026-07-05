@@ -1,6 +1,7 @@
 A flower springs to life and starts rapidly spitting thorns at you and your allies coated in a dangerous looking liquid.
 
-Level 3 Small Plant 
+Level 3 Small Plant
+Role: [[+Marksman]]
 ## <span style="color:rgb(0, 176, 240)">Defense Traits</span>
 
 | <span style="color:rgb(0, 176, 240)">AC</span>    | 17                        |     |

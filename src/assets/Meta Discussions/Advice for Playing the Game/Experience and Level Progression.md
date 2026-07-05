@@ -1,0 +1,5 @@
+In other games like Dungeons and Dragons, you receive exp for killing monsters like a traditional video game RPG. that is not the case in Nick Nacks. I have not included any experience values for any creatures or exp milestones for when you level up. This is a purposeful design choice since I'm not particularly fond of exp systems.
+
+Instead, I prefer level ups to arrive after significant milestones. Things like major enemies defeated, long standing goals achieved or relevant character or story progression are the obstacles that should gate level ups. This this often leaves whether or not you level up into the hands of the GM. 
+
+It's also dependent on the pace of the campaign. If you want a full 1 to 12 progression, but you want a relatively short campaign with around the same number of sessions, you might want to just level up every session. Maybe the campaign structure that you had in mind is very obtuse, or doesn't have clear milestones. In such cases you might want to add one, "such as every 3 sessions you level up." or something to that effect. 

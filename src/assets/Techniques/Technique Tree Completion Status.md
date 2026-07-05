@@ -34,10 +34,9 @@ Here's a graph to showcase the data, mostly for me for organizational purposes, 
 | [[Protector]]        | <span style="color:rgb(103, 254, 120)">7</span>  | <span style="color:rgb(192, 0, 0)">4</span>     | <span style="color:rgb(103, 254, 120)">4</span> | <span style="color:rgb(192, 0, 0)">2</span>     | <span style="color:rgb(103, 254, 120)">2</span> | <span style="color:rgb(103, 254, 120)">2</span> |
 | [[Pupper]]           | <span style="color:rgb(103, 254, 120)">6?</span> | <span style="color:rgb(192, 0, 0)">4</span>     | <span style="color:rgb(103, 254, 120)">6</span> | <span style="color:rgb(192, 0, 0)">2</span>     | <span style="color:rgb(192, 0, 0)">1</span>     | <span style="color:rgb(103, 254, 120)">1</span> |
 | [[Scoundrel]]        | <span style="color:rgb(103, 254, 120)">8</span>  | <span style="color:rgb(192, 0, 0)">3</span>     | <span style="color:rgb(103, 254, 120)">4</span> | <span style="color:rgb(103, 254, 120)">3</span> | <span style="color:rgb(192, 0, 0)">1</span>     | <span style="color:rgb(103, 254, 120)">1</span> |
-| [[Unarmed]]          | <span style="color:rgb(103, 254, 120)">7</span>  | <span style="color:rgb(103, 254, 120)">5</span> | <span style="color:rgb(103, 254, 120)">4</span> | <span style="color:rgb(103, 254, 120)">3</span> | <span style="color:rgb(103, 254, 120)">2</span> | <span style="color:rgb(103, 254, 120)">2</span> |
+| [[Unarmed]]          | <span style="color:rgb(103, 254, 120)">9</span>  | <span style="color:rgb(103, 254, 120)">7</span> | <span style="color:rgb(103, 254, 120)">5</span> | <span style="color:rgb(103, 254, 120)">4</span> | <span style="color:rgb(103, 254, 120)">2</span> | <span style="color:rgb(103, 254, 120)">2</span> |
 Dev notes - 
-
-[[Alchemy]] - Most of the alchemy techniques are weird. Should make a few general ones.
-[[Arcane]] - Should have more attack rolls
+[[Alchemy]] - Most of the alchemy techniques are weird. TOO weird. Should make a few general ones.
+[[Arcane]] - Should have more attack roll related gameplay
 
 

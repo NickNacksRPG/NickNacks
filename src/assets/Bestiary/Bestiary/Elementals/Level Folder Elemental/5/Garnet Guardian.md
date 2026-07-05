@@ -1,6 +1,7 @@
 A group of glowing rocks assembles into the vague shape of a humanoid with a heavy mace and shield. 
 
 Level 5 Large Elemental
+Role: [[+Bruiser]]
 ## <span style="color:rgb(0, 176, 240)">Defense Traits</span>
 
 | <span style="color:rgb(0, 176, 240)">AC</span>    | 21                         |                       |

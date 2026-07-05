@@ -1,6 +1,7 @@
 A pointed hat and thick white hair leading into a beard and mustache grace the head of this short creature. One of its allies tosses it across the battlefield and reveals the hat isn't for show.
 
 Level 1 Small Fey
+Role: [[+Controller]]
 ## <span style="color:rgb(0, 176, 240)">Defense Traits</span>
 
 | <span style="color:rgb(0, 176, 240)">AC</span>    | 16                        |     |

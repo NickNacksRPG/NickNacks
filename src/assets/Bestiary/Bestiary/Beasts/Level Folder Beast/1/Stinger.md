@@ -1,6 +1,7 @@
 A massive insect with an even more massive stingers flies charges at you, the drone of its massive wings disorienting and frustrating you as the rest of the colony pump you with venom.
 
 Level 1 Small Beast
+Role: [[+Bruiser]]
 ## <span style="color:rgb(0, 176, 240)">Defense Traits</span>
 
 | <span style="color:rgb(0, 176, 240)">AC</span>    | 17                        | +2 Drone |

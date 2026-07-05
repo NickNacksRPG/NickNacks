@@ -1,6 +1,7 @@
 An energized crystal claws itself out of the ground and readies its imposing arms for combat. It has purple veins running across its surface that seem to glow and fade as it fights.
 
 Level 5 Large Elemental
+Role: [[+Bruiser]]
 ## <span style="color:rgb(0, 176, 240)">Defense Traits</span>
 
 | <span style="color:rgb(0, 176, 240)">AC</span>    | 21                         |     |

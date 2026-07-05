@@ -1,6 +1,7 @@
 A duo of cheesy ladies rest on a slice of floating pizza. They work in tandem, encouraging and enhancing each other.
 
 Level 6 Medium Elemental
+Role: [[+Marksman]]
 ## <span style="color:rgb(0, 176, 240)">Defense Traits</span>
 
 | <span style="color:rgb(0, 176, 240)">AC</span>    | 20                        |     |
@@ -11,7 +12,7 @@ Level 6 Medium Elemental
 [[Resistance]] - Fire
 [[Amorphous]] - +13
 <span style="color:rgb(0, 176, 240)">Never Alone</span> - Cannot be [[Flanking|flanked]]
-<span style="color:rgb(0, 176, 240)">Soggy</span> [[recharge]] - As an instant action, a cheezette can absorb a [[water]] effect, as though it was [[Dispel|dispelled]]. It can do this once an hour.
+<span style="color:rgb(0, 176, 240)">Soggy</span> [[recharge]] - As an instant action, a cheezette can automatically absorb a [[water]] effect, as though it was [[Dispel|dispelled]]. It can do this once an hour.
 ## <span style="color:rgb(192, 0, 0)">Offense Traits (DC 18)</span>
 
 | <span style="color:rgb(192, 0, 0)">Dangerously Cheesy (Fire)</span> | +8         |         |

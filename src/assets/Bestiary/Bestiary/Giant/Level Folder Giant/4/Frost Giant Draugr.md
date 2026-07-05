@@ -1,6 +1,7 @@
 Once full of spirit, this giant warrior now only feels hate and despair. It lurches towards you, its eyes filled with hunger.
 
 Level 4 Large Giant/Undead
+Role: [[+Bruiser]]
 ## <span style="color:rgb(0, 176, 240)">Defense Traits</span>
 
 | <span style="color:rgb(0, 176, 240)">AC</span>    | 20 (heavy armor)           |               |

@@ -1,6 +1,7 @@
 A crazy demon laughs as it rides into battle on a unicycle, exploding out of a building every so often, blazing a trail wherever it goes.
 
 Level 5 Medium Fiend <span style="color:rgb(192, 0, 0)">(Anomaly)</span>
+Role: [[+Artillery]]
 ## <span style="color:rgb(0, 176, 240)">Defense Traits</span>
 
 | <span style="color:rgb(0, 176, 240)">AC</span>    | 17                        |                              |

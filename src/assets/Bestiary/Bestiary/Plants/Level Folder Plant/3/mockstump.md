@@ -1,6 +1,7 @@
 This jovial stump hops around with its mouth wide open, laughing all the way. It especially loves to crush the spirits of those around them that fail with a timely "hoo hoo."
 
 Level 3 Small Plant 
+Role: [[+Controller]]
 ## <span style="color:rgb(0, 176, 240)">Defense Traits</span>
 
 | <span style="color:rgb(0, 176, 240)">AC</span>    | 19                        |     |
@@ -14,8 +15,6 @@ Level 3 Small Plant
 | <span style="color:rgb(192, 0, 0)">Bonk (C)</span> | +7        |     |
 | -------------------------------------------------- | --------- | --- |
 |                                                    | d10+2 (7) |     |
-[[Multiattack]] - 2 thorn attacks
-
 <span style="color:rgb(192, 0, 0)">Innate Techniques</span>  - [[Tree Shape]], [[Mushroom Dance]], [[Pants]]
 1/day - [[Nourish]], [[WonkaS]], [[Headbutt]], [[Sanctuary]]
 

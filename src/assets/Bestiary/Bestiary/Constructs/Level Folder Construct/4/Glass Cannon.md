@@ -1,6 +1,7 @@
 A cannon made out of only the flimsiest of materials makes for an excellent one-dimensional all-out offensive weapon.
 
 Level 4 Medium Construct
+Role: [[+Marksman]]
 ## <span style="color:rgb(0, 176, 240)">Defense Traits</span>
 
 | <span style="color:rgb(0, 176, 240)">AC</span>    | 14                        |     |

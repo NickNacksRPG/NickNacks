@@ -13,3 +13,5 @@ Gain access to the following special attack, usable any number of times per comb
 <span style="color:rgb(103, 254, 120)">Fan of Knives </span>- Throw up to 3 knives at up to 3 creatures within 10 feet of each other. Ignore attack penalties from attacking creatures in the second [[Range Increments|range increment]].
 
 You also always have a thief's tool [[Tools|kit]] in your back pocket, in the form of a single lockpick.
+
+Your bonus knives cannot be looted, and disappear shortly after being separated from you.

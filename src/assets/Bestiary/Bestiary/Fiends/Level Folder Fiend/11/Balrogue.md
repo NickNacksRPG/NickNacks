@@ -1,6 +1,7 @@
 You call for your squire only to realize he is nowhere to be seen. One by one your allies seem to disappear until you are the only one that remains. The last thing you remember is a fiery whip wrapping around you as you are dragged into the shadows.
 
 Level 11 Medium Fiend <span style="color:rgb(192, 0, 0)">(Mastermind)</span>
+Role: [[+Infiltrator]]
 ## <span style="color:rgb(0, 176, 240)">Defense Traits</span>
 
 | <span style="color:rgb(0, 176, 240)">AC</span>    | 25                           |     |

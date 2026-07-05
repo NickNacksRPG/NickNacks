@@ -1,6 +1,7 @@
 An ghostly figure fades through the wall and starts snatching up objects around the room and throwing them into its bag. It's abdomen opens wide like a mouth and lets out a cackle before it escapes with its plunder.
 
 Level 3 Medium Undead
+Role: [[+Infiltrator]]
 ## <span style="color:rgb(0, 176, 240)">Defense Traits</span>
 
 | <span style="color:rgb(0, 176, 240)">AC</span>    | 16                        |     |

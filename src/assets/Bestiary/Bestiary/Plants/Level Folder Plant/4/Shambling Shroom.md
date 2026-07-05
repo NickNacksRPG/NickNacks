@@ -1,6 +1,7 @@
 A hunchback with fungus growing all over its back limps around, leaving toxic debris in the air wherever it goes. It its hand it holds a handful of sinister looking mushrooms.
 
 **Level 4 Large Plant/Undead** 
+Role: [[+Controller]]
 ## <span style="color:rgb(0, 176, 240)">Defense Traits</span>
 
 | <span style="color:rgb(0, 176, 240)">AC</span>    | 20                                                |         |

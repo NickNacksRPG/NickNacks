@@ -9,7 +9,7 @@ Action: -
 | Save           | -   |
 You can cause phantom shields to appear in between your allies and incoming attacks.
 
-You can use shield actions on any allies within 60 ft of you. 
+While you wield a shield, you can use shield actions on any allies within 60 ft of you. 
 
 You gain a new shield action.
 <span style="color:rgb(103, 254, 120)">Shield Heroism (immediate)</span> - Reduce the damage of an incoming effect by your [[LvL]].

@@ -1,6 +1,7 @@
 If one zombie was a problem before, dozens of them all rushing you down spells certain doom.
 
-Level 4 Massive Undead [[Groups|group]]
+Level 4 Massive Undead
+Role: [[Groups|group]]
 ## <span style="color:rgb(0, 176, 240)">Defense Traits</span>
 
 | <span style="color:rgb(0, 176, 240)">AC</span>    | 14                        |     |

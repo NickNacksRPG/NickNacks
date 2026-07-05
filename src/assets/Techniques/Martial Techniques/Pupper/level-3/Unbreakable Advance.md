@@ -8,7 +8,7 @@ Action: -
 | Duration       | -   |
 | Save           | -   |
 You are protected as long as you are on the move. You gain the following benefits while in combat.
-* You take no penalty to AC from taking the [[Core Rules, How to Play/Actions/Common Actions/Full Round Actions/Charge]] action.
+* You take no penalty to AC from taking the [[Charge]] action.
 * You ignore [[difficult terrain]].
 * During your turn you are [[Immunity|immune]] to damage and [[Poise]] damage, unless it is from a damage over time effect, like [[Bleeding|bleed]].
 

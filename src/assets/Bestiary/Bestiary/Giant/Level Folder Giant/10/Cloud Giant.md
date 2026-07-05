@@ -1,6 +1,7 @@
 A cloud flies by at rapid speeds and knocks you to your feet.
 
 Level 10 Huge Giant
+Role: [[+Generalist]]
 ## <span style="color:rgb(0, 176, 240)">Defense Traits</span>
 
 | <span style="color:rgb(0, 176, 240)">AC</span>    | 25 (med armor)               |     |

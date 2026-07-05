@@ -1,6 +1,7 @@
 This long serpentine dragon looks like it's made of wood, with a raging fire boiling underneath the gaps in its scales. It's face is decorated with a flaming beard, mustache and eyebrows with bony horns.
 
-Level 12 Huge Dragon/Plant [[Boss]]
+Level 12 Huge Dragon/Plant 
+Role: [[Boss]]
 ## <span style="color:rgb(0, 176, 240)">Defense Traits</span>
 
 | <span style="color:rgb(0, 176, 240)">AC</span>    | 29                           |               |

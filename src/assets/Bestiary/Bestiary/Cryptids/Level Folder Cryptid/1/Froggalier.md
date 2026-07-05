@@ -1,6 +1,7 @@
 This frog snail hybrid slithers towards you. It screams "CHARGE" but you laugh at its speed. The power of the snail comes as a surprise to you as it slams into you.
 
 Level 1 Small Cryptid/Beast
+Role: [[+Bruiser]]
 ## <span style="color:rgb(0, 176, 240)">Defense Traits</span>
 
 | <span style="color:rgb(0, 176, 240)">AC</span>    | 14                        |     |
@@ -13,17 +14,17 @@ Level 1 Small Cryptid/Beast
 <span style="color:rgb(0, 176, 240)">Shelly</span> - A froggalier takes no penalty to [[AC]] when [[Core Rules, How to Play/Actions/Common Actions/Full Round Actions/Charge|charging]], and can charge through [[difficult terrain]].
 ## <span style="color:rgb(192, 0, 0)">Offense Traits (DC 13)</span>
 
-| <span style="color:rgb(192, 0, 0)">Ram (C)</span> | +4         |     |
-| ------------------------------------------------- | ---------- | --- |
-|                                                   | 2d8+3 (12) |     |
-
+| <span style="color:rgb(192, 0, 0)">Ram (C)</span> | +4         | +2 [[charge]] |
+| ------------------------------------------------- | ---------- | ------------- |
+|                                                   | 2d8+3 (12) |               |
 [[Multiattack]] - Ram and cast [[Metronome]]
 
 <span style="color:rgb(192, 0, 0)">Innate Techniques</span> - [[Metronome]], [[Mage Hand]]
 1/day - [[Power Overwhelming]], [[Tentacles for Arms]], [[Plague of Frogs]]
 
+[[Powerful Charge]]
 <span style="color:rgb(192, 0, 0)">Special Attack: Charge Forth</span> [[elusive]] - Special: Can only be made as part of a [[charge]]
-Get +2 attack. You can move past the creature you attack. You can also turn during this charge.
+You can move past the creature you attack. You can also turn during this charge.
 
 Allies that charge before your next turn get this benefit as well.
 ## <span style="color:rgb(247, 138, 255)">Weaknesses/Deep Lore</span>

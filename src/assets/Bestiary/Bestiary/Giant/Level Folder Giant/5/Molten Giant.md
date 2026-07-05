@@ -1,6 +1,7 @@
 The metal this giant wears glows red hot. The weapon glows even hotter. When you draw your weapons it only seems to put fuel on the fire that is their hair.
 
 Level 5 Large Giant/Elemental
+Role: [[+Bruiser]]
 ## <span style="color:rgb(0, 176, 240)">Defense Traits</span>
 
 | <span style="color:rgb(0, 176, 240)">AC</span>    | 21 ([[Armor\|heavy armor]]) |               |

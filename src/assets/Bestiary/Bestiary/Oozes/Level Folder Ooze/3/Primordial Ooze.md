@@ -1,6 +1,7 @@
 A shimmering pile of colorful nebulous liquid contains the ingredients of countless creatures within it. It does its best to protect its creations.
 
-Level 3 Large Ooze [[boss]]
+Level 3 Large Ooze
+Role: [[+Minion Mancer]]/[[Boss]]
 ## <span style="color:rgb(0, 176, 240)">Defense Traits</span>
 
 | <span style="color:rgb(0, 176, 240)">AC</span>    | 15                        |                  |

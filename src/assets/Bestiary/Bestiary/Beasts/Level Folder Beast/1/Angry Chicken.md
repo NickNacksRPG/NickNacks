@@ -1,6 +1,7 @@
 This unassuming beast meanders about with its kin. Only when you bother it does it reveal its menacing aura and incredible power.
 
 Level 1 Tiny Beast
+Role: [[+Bruiser]]
 ## <span style="color:rgb(0, 176, 240)">Defense Traits</span>
 
 | <span style="color:rgb(0, 176, 240)">AC</span>    | 13                                     |          |

@@ -1,6 +1,7 @@
 A humanoid robot stands a few heads taller than a man with oversized arms. You see it stop the thief that rushes out of the town square by launching one of its arms as a projectile and pinning them.
 
 Level 2 Large Construct
+Role: [[+Bruiser]]
 ## <span style="color:rgb(0, 176, 240)">Defense Traits</span>
 
 | <span style="color:rgb(0, 176, 240)">AC</span>    | 16                        |                          |
@@ -22,7 +23,6 @@ Level 2 Large Construct
 <span style="color:rgb(192, 0, 0)">Special Attack: Rocket Punch</span> - Make a thrown weapon attack using unarmed damage. [[On-hit]] make a [[drag]] attack. If the drag is successful, the creature is pulled adjacent.
 <span style="color:rgb(192, 0, 0)">Special Attack: Power Fist</span> - [[On-hit]] [[Staggered|stagger]] your target for one round (fort negates). If after this attack is resolved the target is [[defeated]], it flies 1,000 ft into the air and gently lands on the ground one minute later. With a low roof, the creature is launched less high, but for just as long.
 <span style="color:rgb(192, 0, 0)">Overdrive</span> [[zap]] [[Recharge]] - As a swift action, an automaton can enter overdrive, giving it the benefits of [[Static Field]] for 1 turn. On the following turn it must recharge, and reduces its speed to 15. If it ever uses the discharge option of static field, overdrive cannot be used again until rest.
-
 ## <span style="color:rgb(247, 138, 255)">Weaknesses/Deep Lore</span>
 
 <span style="color:rgb(247, 138, 255)">Memo</span> - When a duedette is [[Defeated]], a bird erupts from their body that flies off to deliver a message to its superior of its demise. Can be easily intercepted with most forms of ranged attacks within 3 rounds. Past that it usually flies to high and too far for most creatures to catch it.

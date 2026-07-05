@@ -1,3 +1,3 @@
-Gain weakness to Electric and Cold [[Damage]]. When a wet creature takes Electric or Cold damage, the condition ends.
+Gain [[weakness]] 5 to Electric and Cold [[Damage]] and [[Resistance]] to fire damage. When a wet creature takes Electric, fire or Cold damage, the condition ends. Being wet removes and negates [[ablaze]].
 
 Being wet is something that can come up often in the environment. Only by being drenched in heavy rain, submerged in water or something similar can one be considered wet to the point where this has a mechanical effect.

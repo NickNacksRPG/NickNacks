@@ -1,6 +1,7 @@
 You hear a loud crashing sound coming from the church only to find two hulking fiends wrestling. When they slam into one another, they release a powerful shockwave that hurts your ears.
 
 Level 5 Large Fiend <span style="color:rgb(192, 0, 0)">(Monster)</span>
+Role: [[+Bruiser]]
 ## <span style="color:rgb(0, 176, 240)">Defense Traits</span>
 
 | <span style="color:rgb(0, 176, 240)">AC</span>    | 17                         |     |

@@ -18,7 +18,7 @@ You start off with a specific type of mech, determined by archetype. The variety
 
 When you are [[Defeated]], this mech becomes unusable and requires repairing. This requires a (30-Engineering roll) minutes (minimum 1) and appropriate tools. If you ever lose this mech, you can recreate it in (30-engineering roll) days (minimum 1) and 200g of materials like metals and leather seats.
 
-Unless otherwise noted, all class features only function while mounted on/in mech.
+See [[+Magical Conduits]] on how you can enhance your mech. Instead of the traditional method of forming a conduit, you instead integrate the weapons directly into the mech. When you do so, you directly upgrade your existing weapons/armor using the loot as a material.
 ## <span style="color:rgb(103, 254, 120)">1 - Supercharge</span>
 Mechs have many powerful abilities that require you to gather power as a [[Free Action]], allowing you to use one of the <span style="color:rgb(192, 0, 0)">Supercharge</span> abilities on your next turn. This always has some kind of distinct audio and visual quality, such as revving engines, glowing chassis, or steam erupting from the mech's nooks. You automatically fail [[+Stealth]] checks when Supercharging, and creatures get +20 [[+Perception]] to notice you when Supercharging.
  

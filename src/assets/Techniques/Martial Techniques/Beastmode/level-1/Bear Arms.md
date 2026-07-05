@@ -15,3 +15,6 @@ You can make [[grapple]] and [[disarm]] attacks as [[AoO]]s with your bear arms,
 
 You gain a <span style="color:rgb(192, 0, 0)">multi-attack</span> option:
 <span style="color:rgb(103, 254, 120)">Bear Rights</span> - Make 2 attacks with your bear claws.
+
+
+See [[+Magical Conduits]] on how you can enhance your claws.

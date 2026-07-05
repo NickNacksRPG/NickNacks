@@ -29,7 +29,7 @@ Constant - [[Artillery]]
 [[Summon Ally]] - [DONKEH](horse.md). It has -1 [[INT]] and knows common.
 ## <span style="color:rgb(247, 138, 255)">Weaknesses/Deep Lore</span>
 
-<span style="color:rgb(247, 138, 255)">Bath Time</span> - An ogre that becomes [[wet]] loses its stench ability.
+<span style="color:rgb(247, 138, 255)">Bath Time</span> - An ogre that becomes [[wet]] 
 ## <span style="color:rgb(103, 254, 120)">Other Traits</span>
 
 <span style="color:rgb(103, 254, 120)">Ability Scores</span> - [[STR]] +3, [[DEX]] -1, [[LUK]] +0, [[INT]] +0, [[WIS]] +0, [[CHA]] +4

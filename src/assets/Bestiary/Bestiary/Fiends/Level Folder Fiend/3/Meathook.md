@@ -1,6 +1,7 @@
 This fiery fiend has chains that clatter as it swings itself across the battlefield. It laughs and squeals with joy as it slaps you and your allies around and digs its spiked jaw into your face.
 
 Level 3 Medium Fiend <span style="color:rgb(192, 0, 0)">(minion)</span>
+Role: [[+Bruiser]]/[[+Controller]]
 ## <span style="color:rgb(0, 176, 240)">Defense Traits</span>
 
 | <span style="color:rgb(0, 176, 240)">AC</span>    | 17                        |     |
@@ -26,7 +27,8 @@ Level 3 Medium Fiend <span style="color:rgb(192, 0, 0)">(minion)</span>
 
 If the creature separates themselves, they immediately take bleed damage again. The bleed cannot be healed while the creature remains embedded. Embedded creatures are automatically [[crit]] by Concealed Carry.
 <span style="color:rgb(192, 0, 0)">Special Attack: Concealed Carry</span> - The meathook has the ability to fire grapeshot projectiles from its mouth. Functions as a [[Gun|blunderbuss]] attack (2d6+3, 15 ft cone). Because of the subtle nature of the attack, creatures are [[DD]] unless they succeed on a DC 16 [[+Perception]] check.
-<span style="color:rgb(192, 0, 0)">Infernal Chains</span> - A meathook can increase the range of her chains to 30 ft during her turn. When she does so, they become [[Ranged Attack|ranged attacks]]. [[On-hit]] (or a successful [[poise]] break) she can drag herself to a creature [[elusive]].
+<span style="color:rgb(192, 0, 0)">Infernal Chains</span> - A meathook can increase the range of her chains to 30 ft during her turn. When she does so, they become [[Ranged Attack|ranged attacks]]. [[On-hit]] (or a successful [[poise]] break) she can pull herself to a creature [[elusive]].
+<span style="color:rgb(192, 0, 0)">Love Chains</span> - A meathook [[drag]]s 30 ft.
 ## <span style="color:rgb(247, 138, 255)">Weaknesses/Deep Lore</span>
 
 <span style="color:rgb(247, 138, 255)">Washed Up</span> - When [[wet]] or [[frosty]], a meathooks chain attacks deal no fire damage (including with its constrict). At the end of a meathooks turn, they lose the wet or frosty condition.

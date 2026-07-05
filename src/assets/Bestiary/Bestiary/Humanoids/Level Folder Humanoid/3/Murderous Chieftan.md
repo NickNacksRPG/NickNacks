@@ -1,6 +1,7 @@
 This orc has numerous battle scars and a dangerous aura that can be felt with their gaze. They don't command their allies to fight on sight, but you can tell one wrong move can change that.
 
-Level 3 medium [[Orc]] [[Boss]]
+Level 3 medium [[Orc]] 
+Role: [[+Bruiser]]/[[Boss]]
 ## <span style="color:rgb(0, 176, 240)">Defense Traits</span>
 
 | <span style="color:rgb(0, 176, 240)">AC</span>    | 14                        |                 |

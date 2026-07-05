@@ -1,6 +1,7 @@
 A hardened warrior with a trained battle stance makes up for their lack of armor with ferocity and reckless abandon. Swing first and ask questions later.
 
 Level 1 medium [[Orc]]
+Role: [[+Bruiser]]
 ## <span style="color:rgb(0, 176, 240)">Defense Traits</span>
 
 | <span style="color:rgb(0, 176, 240)">AC</span>    | 14                        |                                         |

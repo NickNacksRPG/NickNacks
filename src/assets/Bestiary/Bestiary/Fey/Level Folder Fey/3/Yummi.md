@@ -1,6 +1,7 @@
 A magical cat floats around in the air riding on a sizable tome. It taunts you as it empowers the creature it is tethered to.
 
 Level 3 Fey/Beast
+Role: [[+Support]]
 ## <span style="color:rgb(0, 176, 240)">Defense Traits</span>
 
 | <span style="color:rgb(0, 176, 240)">AC</span>    | 13                        |     |
