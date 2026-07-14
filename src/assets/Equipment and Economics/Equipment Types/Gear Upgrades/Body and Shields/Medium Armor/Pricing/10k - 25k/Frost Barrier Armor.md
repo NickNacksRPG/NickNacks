@@ -7,4 +7,6 @@ Is [[Armor|medium armor]]
 
 After 1 minute of not taking damage, the wearer of the armor is affected by the [[Frost Armor]] spell, but it lasts until you take [[+HP]] damage. When the barrier breaks, the creature that broke it becomes [[Frosty]].
 
-Additionally, any time you take damage from a foe within your [[Reach|natural reach]], you can choose spend 2 mana to freeze yourself and your enemy as an immediate action, inflicting the [[entombed]] condition (reflex negates). The ice negates the next instance of damage the creature takes and the entombed condition ends.
+Additionally, any time you take damage from a foe within your [[Reach|natural reach]], you can choose spend 2 mana to freeze yourself and your enemy as an immediate action, inflicting the [[entombed]] condition (reflex negates). The ice grants [[resistance]] to the next instance of damage the creature takes and the entombed condition ends.
+
+You can end the entombed condition created by this effect as a free action.

@@ -16,7 +16,7 @@ Whenever you provoke an [[AoO]], get a +2 bonus to [[attack]] until the end of y
 During your turn, if you land an unarmed attack or poise break two creatures that are within reach, you slam them together, [[Dazed|dazing]] them for 1 round (fort negates). If you are already grappling a creature, you only need to land an attack or poise break 1 other creature within reach. If you are grappling two creatures, this happens automatically.
 Pass or fail, once a creature is affected by this ability, it is immune for 1 hour.
 ## <span style="color:rgb(103, 254, 120)">2 - Meat Shield</span>
-When [[Grapple|grappling]] a creature, you can cause the grappled creature to be the target of an [[attack roll]] instead of you as an immediate action.
+When [[Grapple|grappling]] a creature, you can cause the grappled creature to be the target of an [[attack roll]] instead of you as an immediate action (including the grappled creature itself).
 ## <span style="color:rgb(103, 254, 120)">4 - Toss Foes</span>
 You know the barbarism technique [[Foe Toss]] and automatically memorize it without consuming memory.
 ## <span style="color:rgb(103, 254, 120)">4 - Bossing Around</span>

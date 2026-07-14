@@ -9,4 +9,4 @@ Action: Standard
 | Save           | -          |
 You transform into a cute [[Anime]] girl/boy. You have exceptionally large eyes, wacky hair and abnormal colors. Your voice also changes accordingly.
 
-You can speak and understand manganese while transformed.
+You can speak and understand the anime racial language, manganese, while transformed.

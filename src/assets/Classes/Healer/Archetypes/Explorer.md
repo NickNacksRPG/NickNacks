@@ -12,7 +12,7 @@ When you use Channel Energy, enemies in range that were aggressors/not acting in
 
 If there are no enemies left, initiative ends, and this ability can be extended for up to 10 minutes as long as you try resolving the conflict peacefully.
 ## <span style="color:rgb(103, 254, 120)">2 - Cure (Su)</span> [[healing]]
-When you use healing touch, creatures get a new save against any lingering effects that would normally give additional saves (such as poison and some fear effects). Does not apply to permanent status like curses or drain.
+When you use healing touch, creatures get a new save against any lingering effects that would normally give additional saves (such as [[ablaze]]). Does not apply to [[permanent status]].
 ## <span style="color:rgb(103, 254, 120)">2 - Endure Elements (Su)</span>
 Creatures that touch your aura of mercy receive a blessing for 1 hour. This blessing allows them to exist inside of otherwise hazardous environments without harm. Blessed creatures ignore environmental effects like toxic volcanic gas, thin air at extreme heights, extremes in temperature, the vacuum of space or the pressure/lack of air in underwater environments.
 

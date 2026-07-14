@@ -12,7 +12,7 @@ Your unique approach to life gives you a +2 bonus to [[attack]], the [[+Persuasi
 ## <span style="color:rgb(103, 254, 120)">1 - Ki</span> [[Su]]
 Gain a [[LvL]] additional [[Mana]]. All abilities marked with Ki cost 1 mana.
 ## <span style="color:rgb(103, 254, 120)">1 - Disturb the Balance</span>
-You can [[Buckler|parry]] without a buckler. When you successfully parry, you can make a [[bully]] attack against the foe that attacked you, as long as they are within 30 ft of you.
+You can [[parry]] as a swift action. When you successfully parry, you also inflict [[Knocked Down|Knockdown]].
 ## <span style="color:rgb(103, 254, 120)">2 - Ki: Life Link (Su)</span>
 This ability has a different effect depending on if you target an enemy or an ally. You can only tether one creature at a time.
 <span style="color:rgb(103, 254, 120)">Enemy</span> - A visible tether appears between you and a target within 30 ft, bonding you together for 3 rounds (will negates). As long as this creature is within 60 ft of you, any damage that it deals to creatures that aren't you is halved and the creature takes half the damage. If the creature gets more than 60 ft away from you, the effect ends.

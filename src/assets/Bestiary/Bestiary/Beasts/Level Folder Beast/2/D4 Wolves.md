@@ -23,10 +23,10 @@ Single target effects that deal no damage have no effect.
 <span style="color:rgb(247, 138, 255)">AoE Vulnerability</span> - Takes 50% more dmg from any [[AoE]] effect.
 ## <span style="color:rgb(103, 254, 120)">Other Traits</span>
 
-<span style="color:rgb(103, 254, 120)">Ability Scores</span> - [[STR]] +0, [[DEX]] +2, [[LUK]] +0, [[INT]] -3, [[WIS]] +1, [[CHA]] +0
+<span style="color:rgb(103, 254, 120)">Ability Scores</span> - [[STR]] +2, [[DEX]] +2, [[LUK]] +0, [[INT]] -3, [[WIS]] +1, [[CHA]] +0
 <span style="color:rgb(103, 254, 120)">Deific Boons</span> - [[T1 - Animal Instincts|Animal Instincts]]
-<span style="color:rgb(103, 254, 120)">Senses</span> - [[Scent]] 10 ft or blood scent (vs bleeding creatures, 100 ft)
-<span style="color:rgb(103, 254, 120)">Speed </span>- 5 [[Land Speed]], 40 [[Swim]]
+<span style="color:rgb(103, 254, 120)">Senses</span> - [[Nightvision]], [[+Blindsense]] ([[Scent]] 10 ft)
+<span style="color:rgb(103, 254, 120)">Speed </span>- 40 [[Land Speed]]
 <span style="color:rgb(103, 254, 120)">Signature Skill</span> - [[One Eye Open (SS)|one eye open]], [[Quick Scan (SS)|quick scan]]
 <span style="color:rgb(103, 254, 120)">Feats</span> - [[Signature Skill]]
 <span style="color:rgb(103, 254, 120)">Skills</span> - +5 (+4 scent) [[+Perception]], +9 [[+Athletics]]

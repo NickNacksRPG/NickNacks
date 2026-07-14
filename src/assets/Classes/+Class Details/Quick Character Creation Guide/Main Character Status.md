@@ -9,11 +9,23 @@ While not entirely unrealistic, it doesn't make for very satisfying gameplay to 
 
 If you want the player characters to be invincible compared to monsters of a similar level, I say skip the pretense. Player characters are of a different breed and are hardened by their previous adventures, granting the following benefits…
 
-<span style="color:rgb(103, 254, 120)">HP </span>- Your hp is increased by 10.
-<span style="color:rgb(103, 254, 120)">Defeat </span>- You do not have a chance to instantly die when you fall unconscious, instead you receive a stacking debuff called doom (see [[Defeat]]). You also accumulate [[Afflictions]].
+<span style="color:rgb(103, 254, 120)">Defeat </span>- You do not have a chance to instantly die when you fall unconscious. You receive a stacking debuff called doom (see [[Defeat]]). You also accumulate [[Afflictions]].
+<span style="color:rgb(103, 254, 120)">HP </span>- Your hp is increased depending on your party size.
 
+| # of Main Characters | Bonus HP            |
+| -------------------- | ------------------- |
+| 1                    | 4x (see note below) |
+| 2                    | 2x                  |
+| 3                    | +15                 |
+| 4                    | +10                 |
+| 5+                   | +0                  |
 With this change, a measure of how worn down you are can be more easily tied to how much hp you have. There are obviously other factors, but you can't ever keep adventuring without hp. Mana is the general resource system tied to using special abilities, and it naturally recharges when not used.
 
 In general healing that keeps you at full HP all the time is intended to be more scarce, and usually come at the cost of reducing your max mana until you rest.
 
 In general, only PCs will have this buff. But BBEGs, legendary creatures and other major bosses intended for use at the end of major story beats could also receive a similar version of this buff. Then you can get the juicy "phase transition" threshold to give your big boss encounters more punch.
+
+<span style="color:rgb(192, 0, 0)">Note - </span>
+Nick Nacks is designed with 4 players as the standard party size. The reason why getting more or less people changes how much bonus HP you get helps to buffer some of the weaknesses presented by getting outnumbered, namely some unlucky turns where you get [[Crit]] repeatedly. 
+
+1 player games in particular are going to be tough to pull off because of this, with most combats requiring very few enemies or risk powerful chains a [[+Combat Maneuver|combat maneuvers]] that can prevent them from acting.

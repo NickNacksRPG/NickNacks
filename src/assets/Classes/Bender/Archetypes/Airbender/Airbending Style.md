@@ -37,7 +37,7 @@ You are immune to the effects of your own whirlwind.
 ## <span style="color:rgb(103, 254, 120)">10 - Asphyxiate (5) (concentration)</span> [[Recharge]]
 Pull the air directly out of the lungs of a creature within 30 ft. The creature is [[staggered]] for 1 minute. Each round at the end of their turn for the next minute they gain a stack of doom (fort negates). At 3 stacks they gain the defeated condition for 10 minutes and you can choose to end the effect.
 ## <span style="color:rgb(103, 254, 120)">10 - Winds of Vengeance (5) (recharge)</span> [[Buff]]
-As a standard action you can encase yourself in powerful winds, forming a powerful barrier for 1 minute. Any attacks made against you that miss are rerolled against the creature that made them.
+As a standard action you can encase yourself in powerful winds, forming a powerful barrier for 1 minute. Any attacks made against you that miss (and also don't [[graze]]) are rerolled against the creature that made them.
 ## <span style="color:rgb(103, 254, 120)">10 - Hurricane Force (5) (recharge) (concentration) (persistent)</span>
 Unleash a powerful wave of wind capable of eroding mountains, uprooting trees and sending creatures flying. In a 60 ft cone in front of you, or a 120 ft line, each 30 ft tall (pushing or pulling), unleash a current that automatically deals your blast damage to any creature in its area or any creature that walks into the area. Creatures that take blast damage are launched outside of the areas aoe in the direction you chose (fort negates). Creatures not knocked away by the effect still treat the area is difficult terrain. This area persists for one minute.
 

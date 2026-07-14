@@ -1,6 +1,7 @@
 ## <span style="color:rgb(103, 254, 120)">Snake Style</span>
-- When a creature misses you with an attack, you can move 10 ft directly closer to it ([[elusive]]). If this movement puts the attacker within your [[Reach|natural reach]], it [[AoO|Provokes]]. This [[AoO]] must be an [[Unarmed Attack|unarmed strike]]. If the attacker is already within your natural reach, you cannot move.
-- <span style="color:rgb(103, 254, 120)">Snake Sidewind</span> - When you would be hit or [[Graze|grazed]] by an attack, you can spend an immediate action to [[Buckler|parry]] the attack. This makes it count as a miss for snake style if successful.
+- When a creature misses you with an attack, you can move 10 ft directly closer to it ([[elusive]]). If this movement puts the attacker within your [[Reach|natural reach]], it [[AoO|Provokes]]. This [[AoO]] must be an [[Unarmed Attack|unarmed strike]]. If the attacker is already within your natural reach, you cannot move. If the attack hits, but is then negated (such as a [[+Shield Actions|shield action]] or parry), it counts as missing.
+- <span style="color:rgb(103, 254, 120)">Snake Sidewind</span> - When you would be hit or [[Graze|grazed]] by an attack, you can spend an immediate action to [[Buckler|parry]] the attack.
+- You can parry as a swift action
 ## <span style="color:rgb(103, 254, 120)">Cerberus Style</span>
 - You cannot be [[Flanking|flanked]]. When you would normally be flanked, gain a flanking bonus against the creatures threatening you.
 - Your movement is [[Elusive]] as long as you do not leave an enemy's [[Threaten|threatened]] zone

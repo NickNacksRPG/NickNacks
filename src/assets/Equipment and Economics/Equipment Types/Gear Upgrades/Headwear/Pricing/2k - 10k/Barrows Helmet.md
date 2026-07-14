@@ -5,7 +5,7 @@ Counts as [[Armor|heavy armor]].
 *A dark metallic helmet that changes its appearance if you possess a Barrows [[+Unique Item Sets|set bonus]].*
 
 - Gives a +1 bonus to [[Fortitude]] saves.
-- Gives +2 [[Poise]]
+- Gives +4 [[Poise]]
 
 
 Part of the following [[+Unique Item Sets]]

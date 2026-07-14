@@ -6,6 +6,6 @@ It feels practically weightless while you swing it through air, despite its othe
 The wielder also gains this special attack...
 
 <span style="color:rgb(103, 254, 120)">Windfury</span> -
-Attack twice in rapid succession, applying DR only once.
+Attack twice in rapid succession, applying [[DR]] only once.
 
 The hammer is a 1h crush weapon with the [[Strings Attached]] and [[One and Done]] quality.

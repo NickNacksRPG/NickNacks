@@ -25,7 +25,7 @@ Role: [[+Bruiser]]
 
 <span style="color:rgb(103, 254, 120)">Ability Scores</span> - [[STR]] +2, [[DEX]] +2, [[LUK]] +0, [[INT]] -3, [[WIS]] +1, [[CHA]] +0
 <span style="color:rgb(103, 254, 120)">Speed</span> - 40 [[Land Speed]]
-<span style="color:rgb(103, 254, 120)">Senses</span> - [[Nightvision]], [[Scent]] (10 ft)
+<span style="color:rgb(103, 254, 120)">Senses</span> - [[Nightvision]], [[+Blindsense]] ([[Scent]] 10 ft)
 <span style="color:rgb(103, 254, 120)">Deific Boons</span> - [[T1 - Animal Instincts|Animal Instincts]]
 <span style="color:rgb(103, 254, 120)">Feats</span> - [[Escape Route]]
-<span style="color:rgb(103, 254, 120)">Skills</span> - +4 (+4) [[+Perception]], +4(+2) [[+Survival]], +7 [[+Stealth]], 
+<span style="color:rgb(103, 254, 120)">Skills</span> - +4 (+4) [[+Perception]], +4(+2 tracking) [[+Survival]], +7 [[+Stealth]], 

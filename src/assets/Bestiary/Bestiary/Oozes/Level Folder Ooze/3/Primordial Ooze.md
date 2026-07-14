@@ -16,9 +16,9 @@ Role: [[+Minion Mancer]]/[[Boss]]
 Once it takes damage from 7 unique elemental types, it loses this quality until it rests.
 ## <span style="color:rgb(192, 0, 0)">Offense Traits (DC 16)</span>
  
-| <span style="color:rgb(192, 0, 0)">Pseudopod (C)</span>              | +6         | +4 [[Maneuver Versatility\|MV]] |
-| -------------------------------------------------------------------- | ---------- | ------------------------------- |
-|                                                                      | 2d8+3 (12) |                                 |
+| <span style="color:rgb(192, 0, 0)">Pseudopod (C)</span> | +6         | +4 [[Maneuver Versatility\|MV]] |
+| ------------------------------------------------------- | ---------- | ------------------------------- |
+|                                                         | 2d6+3 (10) |                                 |
 [[Multiattack]] - Make 2 [[Melee Attack|melee attacks]]
 
 <span style="color:rgb(192, 0, 0)">Innate Techniques</span> - [[Avenging Wrath]], [[Sanctuary]], [[Noble Sacrifice]]
@@ -41,6 +41,7 @@ Zap          - Construct
 <span style="color:rgb(255, 192, 0)">Holy</span>         - Celestial
 Sonic       - Fey
 
+The [[Elemental Assessor]] spell will always deal damage of a type that has not been targeted yet.
 ## <span style="color:rgb(103, 254, 120)"><span style="color:rgb(0, 176, 80)">Other Traits</span></span>
 
 <span style="color:rgb(103, 254, 120)">Ability Scores</span> - [[STR]] +3, [[DEX]] +2, [[LUK]] +0, [[INT]] -, [[WIS]] +0, [[CHA]] +0

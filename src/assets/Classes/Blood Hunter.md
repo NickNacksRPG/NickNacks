@@ -20,7 +20,9 @@ You can reload your gun as an instant action by taking 1 [[true damage]].
 ## <span style="color:rgb(103, 254, 120)">1 - Vengeful (Su)</span> [[healing]] [[overheal]]
 Whenever you take at least 3 damage, the next time you deal damage back to an enemy, you heal 3 hp.
 ## <span style="color:rgb(103, 254, 120)">1 - Exploit Weakness</span>
-You can [[Buckler|parry]] with a gun. Your parry attacks have a +2 bonus. In addition to parry's usual effects, when you successfully parry, you also deal the guns damage and the enemy's turn immediately ends.
+You can [[Buckler|parry]] with a gun as a swift action. In addition to parry's usual effects, when you successfully parry, you can also pick one of the following bonus effects...
+- Deal the guns damage 
+- End the enemy's turn
 ## <span style="color:rgb(103, 254, 120)">1 - Life Force (Su)</span>
 By spending a swift action, you can examine a creature, living or not, and tell how much [[+HP]] remaining it has.
 ## <span style="color:rgb(103, 254, 120)">1 - Skill</span>

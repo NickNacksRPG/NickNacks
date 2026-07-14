@@ -5,7 +5,7 @@ With a light weapon in your main hand and a [[buckler]] in your offhand, you can
 <span style="color:rgb(103, 254, 120)">Prepare to Parry</span> - You can choose to forgo any number of attacks during your turn. Until the start of your next turn you can parry as an instant action a number of times equal to the number of attacks you decided to forego. If you successfully negate an attack, you can riposte and make a melee attack against the creature as an instant action.
 You get [[Advantage]] on any attacks made to parry or riposte when you prepare to parry.
 
-<span style="color:rgb(103, 254, 120)">Reactive Parry</span> - You can attempt to parry an attack without preparing by spending 1 mana. If you successfully negate an attack, you can riposte make a melee attack against the creature as an immediate action.
+<span style="color:rgb(103, 254, 120)">Reactive Parry</span> - You can attempt to parry an attack as an an instant action without preparing by spending 1 mana. If you successfully negate an attack, you can riposte make a melee attack against the creature as an immediate action.
 
 If your foe attacked with a ranged attack, or with a weapon that has the reach property, you can only retaliate if they are within your reach. You can parry without a buckler, but take a -4 penalty to attack when you parry.
 ## <span style="color:rgb(103, 254, 120)">1 - Heavy Mettle</span>

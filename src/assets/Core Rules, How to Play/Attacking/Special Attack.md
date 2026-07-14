@@ -3,7 +3,7 @@ aliases:
   - special attacks
 ---
 Special attacks allow for more versatility in play style. Weapons, class abilities, [[Technique Rules|techniques]] and
-feats can grant these special attacks. Special attacks have a global cooldown of 1 round, meaning they can usually only be performed once per turn.
+feats can grant these special attacks. <span style="color:rgb(192, 0, 0)">Special attacks have a global cooldown of 1 round, meaning they can usually only be performed once per turn.</span>
 
 Special attacks universally have the [[martial]] tag. 
 
