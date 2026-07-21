@@ -1,22 +1,21 @@
 Unchained shifters are all about inflicting as much pain upon themselves and others as possible. They take their favorite parts of other creatures and add it to themselves.
 ## <span style="color:rgb(103, 254, 120)">1 - Techniques</span>
 You have [[Martial Specialization]]. 
-Your technique trees are [[Barbarism]] and [[Techniques/Martial Techniques/Pupper/Pupper]].
+Your technique trees are [[Barbarism]] and [[Pupper]].
 ## <span style="color:rgb(103, 254, 120)">1 - First Seal: Shackled</span> [[Su]]
 When you break the first seal, 4 spiked chains burst from your back that you can make attacks with (deals crush damage). They function as additional opposable limbs that can be used to hold objects, climb walls, grapple creatures etc. The chains have an additional 5 feet of reach during your turn.
 ## <span style="color:rgb(103, 254, 120)">6 - Second Seal: Share my Pain (Su)</span>
 When you break the second seal, your chains now have an additional 10 ft of reach during your turn. You can innately cast [[Shackles of Pain]] as a swift action, taking up one of your shackles while the effect persists. Instead of its usual range, it has a range of reach. It also has an altered effect. It does not reduce any of the damage you take, but instead causes chained creatures to take half the damage you take as true damage.
-## <span style="color:rgb(103, 254, 120)">11 - Final Seal: Generosity (Su)</span> [[fear]
+## <span style="color:rgb(103, 254, 120)">11 - Final Seal: Generosity (Su)</span>
 When you break the final seal, your chains now have an additional 15 ft of reach during your turn. Your share my pain feature can target up to 4 creatures within reach at once.
 
 ***
 ### Fiendish Growths
 Numbers indicate level requirements (9 total)
 ## <span style="color:rgb(103, 254, 120)">1 - Infernal Shackle (Su)</span>
-By spending 1 mana when you land an attack against a creature with your chains or claws, you can shackle them. One of your chains pops out of your body and stays put at the point they were at when you attacked them. At the end of their next turn, they are pulled back to that position and your chain returns to you. The chain immediately breaks if the creature gets more than 60 feet away, or if someone uses athletics to break it as a standard action.
+By spending 1 mana when you land an attack against a creature with your chains or claws, you can shackle them. One of your chains pops out of your body and stays put at the point they were at when you attacked them. At the end of their next turn, they are pulled back to that position and your chain returns to you. The chain immediately breaks if the creature gets more than 60 feet away, or if someone uses [[breakout]] to break it as a standard action.
 
 In any case, escaped chains reappear attached to you.
-
 ## <span style="color:rgb(103, 254, 120)">1 - Bits and Pieces</span>
 After a battle, you can peruse the bodies of your defeated foes for pieces of them you like, such as their eyes, teeth, feathers, scales etc. You can surgically remove them with your claws and add them to yourself after 1 minute, either replacing that part of your body or you somehow make room. Increase your max hp by 1 each piece.
 The parts need to be fresh, so waiting for more than 5 minutes ruins their potency. Unchained shifters are a bit picky and will only add pieces of creatures of their level or higher (though they won't retroactively remove pieces as they level up).

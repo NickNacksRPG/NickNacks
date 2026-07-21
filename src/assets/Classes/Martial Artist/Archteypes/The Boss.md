@@ -3,7 +3,7 @@ icon: 👑
 ---
 Being the boss is all about getting into the middle of the fight, taking and dealing blows in equal measure and using their enemies as their weapons.
 ## <span style="color:rgb(103, 254, 120)">1 - One-Two Punch</span>
-Every second [[Unarmed Attack|unarmed strike]] you make a turn gets [[Advantage]].
+Every second [[Unarmed Attack|unarmed strike]]/[[+Combat Maneuver|combat maneuver]] you make a turn gets [[Advantage]].
 ## <span style="color:rgb(103, 254, 120)">1 - Getting Serious</span>
 While below half hp, gain [[Fast Healing|FH]] 1 and access to haymaker.
 
@@ -16,11 +16,11 @@ Whenever you provoke an [[AoO]], get a +2 bonus to [[attack]] until the end of y
 During your turn, if you land an unarmed attack or poise break two creatures that are within reach, you slam them together, [[Dazed|dazing]] them for 1 round (fort negates). If you are already grappling a creature, you only need to land an attack or poise break 1 other creature within reach. If you are grappling two creatures, this happens automatically.
 Pass or fail, once a creature is affected by this ability, it is immune for 1 hour.
 ## <span style="color:rgb(103, 254, 120)">2 - Meat Shield</span>
-When [[Grapple|grappling]] a creature, you can cause the grappled creature to be the target of an [[attack roll]] instead of you as an immediate action (including the grappled creature itself).
+When [[Grapple|grappling]] a creature, you can cause the grappled creature to be the target of an [[attack roll]] instead of you as an immediate action (including the grappled creature itself). This also [[Proc|procs]] any "on-miss" effects.
 ## <span style="color:rgb(103, 254, 120)">4 - Toss Foes</span>
-You know the barbarism technique [[Foe Toss]] and automatically memorize it without consuming memory.
-## <span style="color:rgb(103, 254, 120)">4 - Bossing Around</span>
-You know the magical technique [[Command]] and automatically memorize it without consuming memory. You can use it without a staff.
+You know the [[Barbarism]] technique [[Foe Toss]] and automatically memorize it without consuming memory.
+## <span style="color:rgb(103, 254, 120)">4 - Bossing Around</span> [[Sp]]
+You know the [[Shira]] technique [[Command]] and automatically memorize it without consuming memory. You can use it without a staff.
 ## <span style="color:rgb(103, 254, 120)">6 - Fisticuffs (Su)</span>
 Years of fighting hand to hand has given you insight into the things that make creatures tick merely by exchanging blows. Whenever you land or are hit by an unarmed strike, you can spend 1 mana as an instant action to glean information through contact. 
 You cannot choose what you glean, rather it gives you insight into buried feelings, lifelong goals, insecurities and things of that sort. Whatever is most relevant to the creature is what you learn. 

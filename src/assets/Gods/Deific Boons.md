@@ -4,7 +4,7 @@ aliases:
 ---
 The gods of have a vested interest in the goings on in the world of mortals, and what better way to get mortals to do your bidding then to give them your favor when they act in your interest? This system is designed to provide active incentives for characters to enact the will of the deities in the world: the more that you please a god with your actions, follow their tenets and donate to their causes, the more favor they grant to you.
 
-The amount of favor that the gods provide to you is broken up into tiers. The tier a favor that you're at is determined by the amount of God Benediction Points (GBP) you earn through various tasks. In general, you cannot earn the favor of a god by accident. In all but the most extreme cases, such as defeating the mortal enemy of a god, you must first learn about a deity to start gaining their favor. As such you cannot start accruing GBP until you have positive [[WIS]], or speaking with priests, cultists or froggs to learn more about what the gods desire.
+The amount of favor that the gods provide to you is broken up into tiers. The tier a favor that you're at is determined by the amount of God Benediction Points (GBP) you earn through various tasks. Speaking with priests, cultists or froggs can help you learn more about what the gods desire.
 
 Some classes, and characters with positive wisdom start off with GBP, and gain it passively as they level up by doing things like [[Mana Donation]] at local religious institutions, attending services, making offerings to their god or converting others.
 Every 10 GBP you gain an additional boon.
@@ -31,6 +31,6 @@ Not all gods are created equal. The older and more powerful a god is, the more b
 When you gain GBP through leveling up passively, you can decide to distribute these points however you wish between gods you worship. You can accrue boons from any number of gods.
 
 <span style="color:rgb(103, 254, 120)">However</span>...Some gods are completely incompatible. Namely Frogg Saran. No god would willingly associate themselves with any who abide by his way of life. Most deities are incompatible with
-[[Demon Lords]] as they have conflicting ethos. Other such examples can exist, such as the eternal struggle for relevance between [[Brazzeria]] and [[Artemis]].
+[[Demon Lords]] as they have conflicting ethos. Other such examples can exist, such as the struggle for relevance between [[Brazzeria]] and [[Artemis]].
 
 If the ideals, practices and goals of the gods you worship do not conflict in major ways, then you can accrue GBP from multiple gods without incurring their wrath.

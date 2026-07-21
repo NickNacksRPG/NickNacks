@@ -10,7 +10,7 @@ Despite dealing no damage, you attacks still apply, [[On-hit]] effects, unless t
 
 Your unique approach to life gives you a +2 bonus to [[attack]], the [[+Persuasion]] skill and a +4 bonus to persuasion.
 ## <span style="color:rgb(103, 254, 120)">1 - Ki</span> [[Su]]
-Gain a [[LvL]] additional [[Mana]]. All abilities marked with Ki cost 1 mana.
+Gain [[LvL]] additional [[Mana]]. All abilities marked with Ki cost 1 mana.
 ## <span style="color:rgb(103, 254, 120)">1 - Disturb the Balance</span>
 You can [[parry]] as a swift action. When you successfully parry, you also inflict [[Knocked Down|Knockdown]].
 ## <span style="color:rgb(103, 254, 120)">2 - Ki: Life Link (Su)</span>
@@ -20,7 +20,7 @@ This ability has a different effect depending on if you target an enemy or an al
 ## <span style="color:rgb(103, 254, 120)">4 - Redirect Force</span>
 When an attack misses or grazes you and there is another creatures threatening you, you can redirect the attack to any other creature that threatens you as an immediate action, automatically hitting.
 
-If you have the Monkey Fighting Style, you cannot "double redirect" an attack when riding an opponent and using Redirect force. That would be double damage and completely obnoxious.
+If you have the <span style="color:rgb(255, 192, 0)">Monkey Style</span>, you cannot "double redirect" an attack when riding an opponent and using Redirect force. That would be double damage and completely obnoxious.
 ## <span style="color:rgb(103, 254, 120)">6 - Special Attack: Ki Block</span>
 On hit apply [[Siphoned]] for 1 round (fort negates).
 Alternatively you can disable a creatures limb for 1 round. Targeted wings disable flight, legs decrease speed by 15 and arms render them unusable etc (fort negates).

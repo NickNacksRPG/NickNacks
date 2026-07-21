@@ -10,16 +10,16 @@ Role: [[+Support]]/[[Artillery]]
 | <span style="color:rgb(0, 176, 240)">Poise</span> | 21                        |                                  |
 | <span style="color:rgb(0, 176, 240)">Saves</span> | Fort +1, Refl +5, Will +1 | +4 [[+Toxins\|Toxin]], [[venom]] |
 [[Resistance]] - Fire, Poison
-<span style="color:rgb(192, 0, 0)">Tactical Retreat</span> - An imp can [[Disengage]] as a swift action.
+<span style="color:rgb(0, 176, 240)">Tactical Retreat</span> - An imp can [[Disengage]] as a swift action.
 ## <span style="color:rgb(192, 0, 0)">Offense Traits (DC 13+2)</span>
 
 | <span style="color:rgb(192, 0, 0)">Claw (S)</span> | +3        | +2 while [[ablaze]] |
 | -------------------------------------------------- | --------- | ------------------- |
 |                                                    | 2d6+2 (9) |                     |
-[[Multiattack]] - Make a [[shove]] attack against an ally with a +20 bonus. Make a claw attack or cast [[Blazing Palm]] (if ablaze).
+[[Multiattack]] - Make a [[shove]] attack against an ally. Make a claw attack or cast [[Blazing Palm]] (if ablaze).
 
 <span style="color:rgb(192, 0, 0)">Blaze It</span> [[fire]] - While ablaze, an imp gets a +2 bonus to attack rolls and the DCs of its offense traits. They can also innately cast [[Blazing Palm]]. They can ignite themselves or douse the fire on themselves as a swift action. 
-<span style="color:rgb(192, 0, 0)">Ride and/or Die</span> - An imp can [[mount]] a willing ally, they can perform this action as the same time as Blaze It. While mounted, the ally also automatically "benefits" from its Blaze It feature and gets a +10 bonus to its speed. An imp can also mount an enemy by [[poise]] breaking them. If the imp is ablaze, so to becomes its new mount.
+<span style="color:rgb(192, 0, 0)">Ride and/or Die</span> - An imp can [[mount]] a willing ally and Blaze It with the same swift action. While mounted, the ally also automatically "benefits" from its Blaze It feature and gets a +10 bonus to its speed. An imp can also mount an enemy by [[poise]] breaking them. If the imp is ablaze, so to becomes its new mount.
 <span style="color:rgb(192, 0, 0)">¿Quires?</span> [[poison]] [[recharge]] - While under the effects of Blaze It, an imp can expel a large quantity of toxic gas at a creature adjacent to it, dealing 3d6 (10) poison damage and applying [[sickened]] 1 (fort halves damage and negates sicken).
 [[Camouflage]]
 ## <span style="color:rgb(247, 138, 255)">Weaknesses/Deep Lore</span>

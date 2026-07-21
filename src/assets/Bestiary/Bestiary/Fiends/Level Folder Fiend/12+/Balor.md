@@ -6,7 +6,7 @@ Role: [[Boss]]
 
 | <span style="color:rgb(0, 176, 240)">AC</span>    | 32 (medium armor)            |                                |
 | ------------------------------------------------- | ---------------------------- | ------------------------------ |
-| <span style="color:rgb(0, 176, 240)">HP</span>    | 200                          |                                |
+| <span style="color:rgb(0, 176, 240)">HP</span>    | 224                          |                                |
 | <span style="color:rgb(0, 176, 240)">Poise</span> | 40                           | [[DR\|DRA]] 5, DR 10 vs Disarm |
 | <span style="color:rgb(0, 176, 240)">Saves</span> | Fort +18, Refl +16, Will +18 | +4 [[Fear]]                    |
 [[Immunity]] - Fire 

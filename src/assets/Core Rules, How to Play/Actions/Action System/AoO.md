@@ -7,7 +7,7 @@ Short for "Attack of Opportunity"
 
 An AoO is an [[Instant Action]] [[Attack Roll]] triggered in response to certain actions of others. All creatures can do this once per round by default. When a creature "Provokes," they are engaging in an action that allows others to AoO them.
 
-An AoO always happens <span style="color:rgb(192, 0, 0)">before</span> the triggering action.
+An AoO, like all instant and immediate actions, always happens <span style="color:rgb(192, 0, 0)">before</span> the triggering action.
 
 Movement can only provoke once from a given creature per turn.
 
