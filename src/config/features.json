@@ -28,7 +28,9 @@
       "coming_soon"
     ],
     "Content": [
-      "wiki_links"
+      "wiki_links",
+      "preview_dimmer",
+      "vignette_effect"
     ]
   },
   "$descriptions": {
@@ -51,7 +53,8 @@
     "tree_colors": "Color inheritance on folder and note labels in the sidebar tree.",
     "tree_icons": "Emoji/SVG icons on folders and notes. When off, no icons show (not even default folder open/close).",
     "collapse_all": "Collapse all folders button in the sidebar header.",
-    "show_tree_search_hierarchy": "When searching the folder tree, show parent folder hierarchy around matching items. When off, only direct matches appear without their parent tree."
+    "show_tree_search_hierarchy": "When searching the folder tree, show parent folder hierarchy around matching items. When off, only direct matches appear without their parent tree.",
+    "vignette_effect": "Full-page radial gradient overlay (vignette) that darkens the edges of the page. Turn off if your monitor shows banding."
   },
   "header": false,
   "footer": false,
@@ -72,5 +75,6 @@
   "tree_colors": true,
   "tree_icons": true,
   "collapse_all": true,
-  "show_tree_search_hierarchy": false
+  "show_tree_search_hierarchy": false,
+  "vignette_effect": true
 }

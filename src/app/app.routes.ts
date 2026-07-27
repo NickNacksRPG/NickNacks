@@ -9,9 +9,10 @@ import { Routes } from '@angular/router';
 
 // Used for static route patterns only (config slug is baked at build time)
 import projectConfig from '../../project.config.json';
-const projectName = projectConfig.projectName;
-const projectSlug = projectConfig.projectNameSlug;
-const landingPage = projectConfig.landingPage || 'Index';
+const pc = projectConfig as any;
+const projectName = pc.projectName;
+const projectSlug = pc.projectNameSlug;
+const landingPage = pc.landingPage || 'Index';
 
 export const routes: Routes = [
   {
