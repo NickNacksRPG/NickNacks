@@ -1,3 +1,6 @@
+---
+icon: ⚔️
+---
 Men-at-arms clad in steel that use various fighting styles to achieve the same goal: destroy as many enemies as possible using overwhelming martial prowess.
 
 ![[deadly arsenal.jpg|[Deadly Arsenal](https://hearthstone.wiki.gg/wiki/Deadly_Arsenal#/media/File:Deadly_Arsenal_full.jpg), Hearthstone|512]]

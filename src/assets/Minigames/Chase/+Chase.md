@@ -1,4 +1,5 @@
 ---
+icon: run
 aliases:
   - chases
 ---

@@ -1,4 +1,5 @@
 ---
+icon: resize
 aliases:
   - Size
 ---
@@ -13,6 +14,6 @@ This game is meant to be played on a grid of hexes or squares. Personally, I pre
 | Huge    | ~7 spaces  | 15 ft  | Enormous monsters like dragons fit here. Huge creatures are usually around 15 ft tall and weigh around 3k lbs.                 | Gain [[Resistance]] to [[poise]] damage from [[minion]] creatures. Minion creatures cannot poise break huge creatures.                                         |
 | Massive | 10+ spaces | 20 ft+ | Massive creatures are terrifying monstrosities like kaiju and dinosaurs. Massive creatures are over 20 ft tall and weigh tons. | Same resistance as huge <br>AND<br>Gain resistance to poise damage from creatures with 3 or less [[STR]]. Such creatures cannot poise break massive creatures. |
 
-Creatures threaten all spaces they occupy by default.
+Creatures [[threaten]] all spaces they occupy. Small/Medium creatures threaten 5 ft, large 10 ft, huge 15 ft, and massive 20 ft. Tiny creatures only threaten their own space. These are all default and are subject to change with [[Improved Reach]] weapons and techniques like [[Long Arms]].
 
 You can enter the space of a creature that is a size category larger or smaller than you. If you enter or leave the spaces occupied by a creature, it [[AoO|Provokes]] an AoO as though you were leaving a threatened area. If you get attacked this way, the same creature can't also AoO you for leaving their threatened spaces in the same turn.

@@ -26,7 +26,7 @@ Constant - [[Unbreakable Advance]]
 <span style="color:rgb(192, 0, 0)">Combo Starter</span> - When a falcaptain successfully [[Grapple|grapples]] a creature, he can choose to immediately throw them [[airborne]] 15 ft into the air. They maintain the condition until the end of the falcaptains next turn and become [[clumsy]] 1. This remains the case no matter what happens to the falcaptain in the meantime.
 
 A creature can take the [[aid]] action to automatically grab their ally out of the air if they can reach (typically only for large creatures), removing these penalties.
-<span style="color:rgb(192, 0, 0)">Special Attack: Falcon Punch</span> [[Fire]] - Deal an additional 2d6 (7) fire damage and launch target 30 ft directly away from the falcaptain on hit. The target is also set [[ablaze]] on hit.
+<span style="color:rgb(192, 0, 0)">Special Attack: Falcon Punch</span> [[Fire]] - Deal an additional 2d6 (7) fire damage and launch target 30 ft directly away from the falcaptain [[On-hit]]. The target is also set [[ablaze]] on hit.
 <span style="color:rgb(192, 0, 0)">Special Attack: Knee of Justice</span> [[Zap]] - Special: This attack can only be used against an airborne target.
 Deal an additional 4d6 (14) zap damage and launch target 30 ft directly away from the falcaptain on hit.
 <span style="color:rgb(192, 0, 0)">Special Attack: Stomp</span> - Special: This attack can only be used against an airborne target or a [[Knocked Down]] target.

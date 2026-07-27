@@ -54,4 +54,4 @@ With a [[+Planes]] check, you can slow or halt this process as a standard action
 <span style="color:rgb(103, 254, 120)">Skills</span> - +15 [[+Perception]], +15 ([[Advantage|adv]]) [[+Intimidation]], +13 [[+History]], +13 [[+Planes]]
 +17 (+2 [[T1 - Huge|huge]], +4 [[Demolitionist]]) [[+Athletics]]
 
-![[{4273741D-2A3C-400E-90CF-ACC0943279F7}.png|Imprisoned Antaen by Rafael Zanchetin, for [Hearthstone](<https://hearthstone.wiki.gg/wiki/Imprisoned_Antaen_(Ci%27Cigi)>)]]
+![[hearthstone antean.png|Imprisoned Antaen by Rafael Zanchetin, for [Hearthstone](<https://hearthstone.wiki.gg/wiki/Imprisoned_Antaen_(Ci%27Cigi)>)]]

@@ -1,1 +1,4 @@
+---
+icon: running-ninja
+---
 Double your speed this round. Has no effect if your speed is zero.

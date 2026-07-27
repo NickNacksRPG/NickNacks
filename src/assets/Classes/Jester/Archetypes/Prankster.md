@@ -1,3 +1,6 @@
+---
+icon: prank-glasses
+---
 Pranksters are the most ridiculous type of jesters. They are capable of doing things people typically might expect from cartoons. Taking your eyes off of them for just a second is a sure fire way to let them get away. They use incredible feats of acrobatics and sleight of hand in order to troll their enemies.
 ## <span style="color:rgb(103, 254, 120)">1 - Pranked!</span>
 As a swift action, you can perform a prank. What this entails varies based on what kind of prank you choose.

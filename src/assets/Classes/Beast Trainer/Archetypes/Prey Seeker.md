@@ -1,3 +1,6 @@
+---
+icon: wolf-head
+---
 Prey seekers use beast companions to harass their opponents, keeping them at a distance so you can hit them from afar. Your companion can rush back to your aid when needed.
 ## <span style="color:rgb(103, 254, 120)">1 - Protector</span>
 Your movement is [[Elusive]] against creatures your beast companion threaten.

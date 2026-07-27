@@ -1,3 +1,6 @@
+---
+icon: suspicious
+---
 Don't like magic? There's a totem for that. Now you can play the paranoid anti mage.
 ## <span style="color:rgb(103, 254, 120)">1 - Totem Feature - Arc Training</span>
 You get [[arcana]] proficiency and can use it while raging.

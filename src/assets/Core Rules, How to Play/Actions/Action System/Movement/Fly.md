@@ -1,4 +1,5 @@
 ---
+icon: feather-wing
 aliases:
   - flight
   - flying

@@ -1,3 +1,6 @@
+---
+icon: hand-of-god
+---
 Used in understanding/identifying gods and their followers. Church hierarchies, religious practices, symbols and scripture are all covered by this skill.
 
 Identifies [[Undead]] with [[+monster lore]].

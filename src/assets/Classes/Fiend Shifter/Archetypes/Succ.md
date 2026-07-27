@@ -1,3 +1,6 @@
+---
+icon: 💋
+---
 Succ shifters are the schemers of the fiend shifters. They know when you've been naughty.\
 Succ shifters have altered base stats.
 

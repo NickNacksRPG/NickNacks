@@ -1,3 +1,6 @@
+---
+icon: flat-paw-print
+---
 The furry race.
 
 | Language | Sylvan                                                                                                                                                     |

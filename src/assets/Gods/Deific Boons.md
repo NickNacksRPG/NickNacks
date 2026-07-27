@@ -1,4 +1,5 @@
 ---
+icon: winged-emblem
 aliases:
   - GBP
 ---

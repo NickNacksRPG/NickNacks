@@ -22,7 +22,7 @@ Role: [[+Bruiser]]
 |                                                                 | 2d8+3 (12) |                                                                     |
 | <span style="color:rgb(192, 0, 0)">Bola (C)</span>              | +4         | [[Thrown]]                                                          |
 |                                                                 | d6+3 (6)   |                                                                     |
-[[Multiattack]] - Make a [[Melee Attack]] and a [[+Combat Maneuver|combat maneuver]] attack
+[[Multiattack]] - Make 2 attacks, one of which must be a [[+Combat Maneuver|combat maneuver]] 
 
 <span style="color:rgb(192, 0, 0)">Innate Techniques</span> - [[Boasting Taunt]], [[Sonic Boom]], [[Thunder Stomp]]
 1/day - [[Put Me In!]], [[Head On]]

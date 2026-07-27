@@ -1,3 +1,6 @@
+---
+icon: holy-water
+---
 ## <span style="color:rgb(103, 254, 120)">100g</span>
 
 Holy water is an item that is regularly created by churches and sold to commoners as a form of protection against the profane. Many fiends and undead have an aversion to this substance, and can often cure diseases inflicted by them and prevent some of their supernatural abilities.

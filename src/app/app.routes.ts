@@ -1,23 +1,27 @@
 import { Routes } from '@angular/router';
-import projectConfig from '../../project.config.json';
 
 /**
  * Application routes configuration
  *
  * Uses lazy loading for better performance and code splitting.
  * Each route loads its component only when accessed.
- * 
- * Routes are configured using the centralized project configuration
- * to ensure consistency across the application.
  */
-const projectSlug = projectConfig.projectNameSlug;
+
+// Used for static route patterns only (config slug is baked at build time)
+import projectConfig from '../../project.config.json';
 const projectName = projectConfig.projectName;
+const projectSlug = projectConfig.projectNameSlug;
+const landingPage = projectConfig.landingPage || 'Index';
 
 export const routes: Routes = [
   {
+    // Root path: landing page is handled by the inline script in index.html
+    // before Angular bootstraps. SSR renders an empty component here so
+    // there's no flash of the wrong content before the redirect fires.
     path: '',
-    redirectTo: `${projectSlug}/Index`,
-    pathMatch: 'full',
+    loadComponent: () =>
+      import('./pages/empty/empty.component').then((m) => m.EmptyComponent),
+    title: projectName,
   },
   {
     path: 'home',
@@ -35,6 +39,6 @@ export const routes: Routes = [
   },
   {
     path: '**',
-    redirectTo: `${projectSlug}/Index`,
+    redirectTo: `${projectSlug}/${landingPage}`,
   },
 ];

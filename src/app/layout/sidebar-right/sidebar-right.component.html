@@ -15,120 +15,57 @@
     }
   </div>
 
+  <!-- Branch with previews (appWikiLink directive) -->
   @if (features.isEnabled('sidebar_link_previews')) {
   <div class="sidebar-content" appWikiLink>
-  @if (currentNoteId()) {
-    <!-- Outgoing Links Section -->
-    @if (features.isEnabled('referenced_pages')) {
-    <div class="info-section" [class.fade-in]="true">
-      <h3>Referenced Pages</h3>
-      @if (outgoingLinks().length > 0) {
-      <p class="section-description">Pages referenced by this page:</p>
-      <ul class="links-list">
-        @for (note of outgoingLinks(); track note.id) {
-        <li>
-          <a
-            [routerLink]="['/' + projectSlug, note.id]"
-            class="note-link wiki-link"
-            routerLinkActive="active-link"
-            [attr.data-note-id]="note.id"
-          >
-            @if (note.iconSvg || note.icon) {
-            <app-iconify-icon class="note-icon" [icon]="note.iconSvg || note.icon" [size]="16" />
-            }
-            <span class="note-title">{{ note.title }}</span>
-          </a>
-        </li>
-        }
-      </ul>
-      } @else {
-      <p class="empty-state">No outgoing links</p>
-      }
-    </div>
-    }
-
-    <!-- Incoming Links (Backlinks) Section -->
-    @if (features.isEnabled('referencing_pages')) {
-    <div class="info-section" [class.fade-in]="referenceGraphReady()">
-      <h3>Referencing Pages</h3>
-      @if (referenceGraphReady()) { @if (incomingLinks().length > 0) {
-      <p class="section-description">Pages that reference this page:</p>
-      <ul class="links-list">
-        @for (note of incomingLinks(); track note.id) {
-        <li>
-          <a
-            [routerLink]="['/' + projectSlug, note.id]"
-            class="note-link wiki-link"
-            routerLinkActive="active-link"
-            [attr.data-note-id]="note.id"
-          >
-            @if (note.iconSvg || note.icon) {
-            <app-iconify-icon class="note-icon" [icon]="note.iconSvg || note.icon" [size]="16" />
-            }
-            <span class="note-title">{{ note.title }}</span>
-          </a>
-        </li>
-        }
-      </ul>
-      } @else {
-      <p class="empty-state">No backlinks</p>
-      } }
-    </div>
-    }
-
-    <!-- Coming Soon Section -->
-    @if (features.isEnabled('coming_soon') && unresolvedLinks().length > 0) {
-    <div class="info-section coming-soon-section" [class.fade-in]="true">
-      <h3>Coming Soon</h3>
-      <p class="section-description">Pages referenced but not yet created:</p>
-      <ul class="links-list">
-        @for (linkId of unresolvedLinks(); track linkId) {
-        <li>
-          <a
-            [routerLink]="['/' + projectSlug, linkId]"
-            class="note-link coming-soon-link wiki-link"
-            [attr.data-note-id]="linkId"
-          >
-            <app-iconify-icon class="note-icon" [icon]="'file-document-outline'" [size]="16" />
-            <span class="note-title">{{ linkId }}</span>
-          </a>
-        </li>
-        }
-      </ul>
-    </div>
-    }
-    } @else {
-    <div class="info-content fade-in">
-      <p class="empty-state">Select a note to view its links</p>
-    </div>
-    }
+    <ng-container *ngTemplateOutlet="sidebarLinksContent" />
   </div>
   } @else {
+  <!-- Branch without previews -->
   <div class="sidebar-content">
+    <ng-container *ngTemplateOutlet="sidebarLinksContent" />
+  </div>
+  }
+
+  <ng-template #sidebarLinksContent>
   @if (currentNoteId()) {
     <!-- Outgoing Links Section -->
     @if (features.isEnabled('referenced_pages')) {
     <div class="info-section" [class.fade-in]="true">
       <h3>Referenced Pages</h3>
-      @if (outgoingLinks().length > 0) {
+      @if (outgoingLinkGroups().length > 0) {
       <p class="section-description">Pages referenced by this page:</p>
-      <ul class="links-list">
-        @for (note of outgoingLinks(); track note.id) {
-        <li>
-          <a
-            [routerLink]="['/' + projectSlug, note.id]"
-            class="note-link wiki-link"
-            routerLinkActive="active-link"
-            [attr.data-note-id]="note.id"
-          >
-            @if (note.iconSvg || note.icon) {
-            <app-iconify-icon class="note-icon" [icon]="note.iconSvg || note.icon" [size]="16" />
+      <div class="links-list">
+        @for (group of outgoingLinkGroups(); track group.folderPath) {
+        <!-- Folder group header -->
+        <div class="link-folder-header"
+          [style.color]="features.isEnabled('tree_colors') && group.color ? group.color : null">
+          @if (features.isEnabled('tree_icons')) {
+            @if (group.iconSvg || group.icon) {
+            <app-iconify-icon [icon]="group.iconSvg || group.icon" [size]="16" class="folder-icon" />
+            } @else {
+            <mat-icon class="folder-icon" style="font-size:16px;width:16px;height:16px">folder</mat-icon>
             }
-            <span class="note-title">{{ note.title }}</span>
-          </a>
-        </li>
+          }
+          <span class="folder-name">{{ group.folderName }}</span>
+        </div>
+        <!-- Notes in this folder -->
+        @for (note of group.notes; track note.id) {
+        <a
+          [routerLink]="['/' + projectSlug, note.id]"
+          class="note-link wiki-link"
+          routerLinkActive="active-link"
+          [style.color]="features.isEnabled('tree_colors') && note.color ? note.color : null"
+          [attr.data-note-id]="note.id"
+        >
+          @if (note.iconSvg || note.icon) {
+          <app-iconify-icon class="note-icon" [icon]="note.iconSvg || note.icon" [size]="16" />
+          }
+          <span class="note-title">{{ note.title }}</span>
+        </a>
         }
-      </ul>
+        }
+      </div>
       } @else {
       <p class="empty-state">No outgoing links</p>
       }
@@ -139,25 +76,38 @@
     @if (features.isEnabled('referencing_pages')) {
     <div class="info-section" [class.fade-in]="referenceGraphReady()">
       <h3>Referencing Pages</h3>
-      @if (referenceGraphReady()) { @if (incomingLinks().length > 0) {
+      @if (referenceGraphReady()) { @if (incomingLinkGroups().length > 0) {
       <p class="section-description">Pages that reference this page:</p>
-      <ul class="links-list">
-        @for (note of incomingLinks(); track note.id) {
-        <li>
-          <a
-            [routerLink]="['/' + projectSlug, note.id]"
-            class="note-link wiki-link"
-            routerLinkActive="active-link"
-            [attr.data-note-id]="note.id"
-          >
-            @if (note.iconSvg || note.icon) {
-            <app-iconify-icon class="note-icon" [icon]="note.iconSvg || note.icon" [size]="16" />
+      <div class="links-list">
+        @for (group of incomingLinkGroups(); track group.folderPath) {
+        <!-- Folder group header -->
+        <div class="link-folder-header"
+          [style.color]="features.isEnabled('tree_colors') && group.color ? group.color : null">
+          @if (features.isEnabled('tree_icons')) {
+            @if (group.iconSvg || group.icon) {
+            <app-iconify-icon [icon]="group.iconSvg || group.icon" [size]="16" class="folder-icon" />
+            } @else {
+            <mat-icon class="folder-icon" style="font-size:16px;width:16px;height:16px">folder</mat-icon>
             }
-            <span class="note-title">{{ note.title }}</span>
-          </a>
-        </li>
+          }
+          <span class="folder-name">{{ group.folderName }}</span>
+        </div>
+        @for (note of group.notes; track note.id) {
+        <a
+          [routerLink]="['/' + projectSlug, note.id]"
+          class="note-link wiki-link"
+          routerLinkActive="active-link"
+          [style.color]="features.isEnabled('tree_colors') && note.color ? note.color : null"
+          [attr.data-note-id]="note.id"
+        >
+          @if (note.iconSvg || note.icon) {
+          <app-iconify-icon class="note-icon" [icon]="note.iconSvg || note.icon" [size]="16" />
+          }
+          <span class="note-title">{{ note.title }}</span>
+        </a>
         }
-      </ul>
+        }
+      </div>
       } @else {
       <p class="empty-state">No backlinks</p>
       } }
@@ -190,6 +140,5 @@
       <p class="empty-state">Select a note to view its links</p>
     </div>
     }
-  </div>
-  }
+  </ng-template>
 </aside>

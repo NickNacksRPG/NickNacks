@@ -1,5 +1,5 @@
 Level 1 [[Scoundrel]]
-Tags: [[Recharge]]
+Tags: [[Recharge]], [[Elusive]]
 Action: Free
 
 | Range          | -                |
@@ -7,5 +7,5 @@ Action: Free
 | Target/[[AoE]] | 1 wielded weapon |
 | Duration       | -                |
 | Save           | -                |
-Apply a [[+Toxins|Toxin]] to your weapon.
+Take the [[Apply Toxin]] action.
 Usable 1/turn.

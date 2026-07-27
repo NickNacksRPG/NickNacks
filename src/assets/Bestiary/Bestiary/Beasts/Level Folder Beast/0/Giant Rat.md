@@ -26,8 +26,7 @@ Role: [[+Bruiser]]
 <span style="color:rgb(255, 192, 0)">Cure</span> - Application of a proper antiseptic costing 50g from a creature trained in [[+Medicine]]. Then general rest for 3 days. After which, the affliction disappears. 
 ## <span style="color:rgb(247, 138, 255)">Weaknesses/Deep Lore</span>
 
-<span style="color:rgb(247, 138, 255)">Juicy</span> - You can extract the juices from a love bug with a DC 12 [[Alchemy]] or [[+Survival]] check. Used on its own it can inflict the charmed condition for 1 minute on the first creature it sees after ingesting. With a DC 20 alchemy check, it can be turned into a [[Love Potion]].
-<span style="color:rgb(247, 138, 255)">Charmed I'm Sure</span> - Love bugs have [[Advantage|Disadvantage]] on charm effects.
+
 ## <span style="color:rgb(103, 254, 120)">Other Traits</span>
 
 <span style="color:rgb(103, 254, 120)">Ability Scores</span> - [[STR]] +1, [[DEX]] +2, [[LUK]] +0, [[INT]] -3, [[WIS]] +1, [[CHA]] +0

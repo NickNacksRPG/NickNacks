@@ -1,1 +1,4 @@
-Retrieve and drink a potion. Provokes [[AoO]]s.
+---
+icon: health-potion
+---
+Retrieve and drink a [[+Potions|potion]]. Provokes [[AoO]]s.

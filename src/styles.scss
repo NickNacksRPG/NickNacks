@@ -159,7 +159,8 @@ html[data-theme="light"] body::before {
 }
 
 // Keep the content area feeling like a scroll — add a subtle warm vignette
-body::after {
+// Controlled by the 'vignette_effect' feature flag in features.json
+:root.vignette-enabled body::after {
   content: '';
   position: fixed;
   top: 0;
@@ -168,10 +169,14 @@ body::after {
   height: 100%;
   pointer-events: none;
   z-index: 9998;
-  background: radial-gradient(ellipse at center, transparent 55%, rgba(0,0,0,0.4) 100%);
+  background: radial-gradient(ellipse at center, transparent 40%, rgba(0,0,0,0.03) 55%, rgba(0,0,0,0.12) 70%, rgba(0,0,0,0.3) 85%, rgba(0,0,0,0.45) 100%);
 }
 
-html[data-theme="light"] body::after {
+:root:not(.vignette-enabled) body::after {
+  display: none;
+}
+
+html[data-theme="light"]:root.vignette-enabled body::after {
   background: radial-gradient(ellipse at center, transparent 55%, rgba(60,40,20,0.12) 100%);
 }
 

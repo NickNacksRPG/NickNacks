@@ -1,4 +1,5 @@
 ---
+icon: alarm-clock
 aliases:
   - pacing
   - campaign pacing

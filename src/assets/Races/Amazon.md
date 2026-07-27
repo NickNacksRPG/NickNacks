@@ -1,3 +1,6 @@
+---
+icon: weight-lifting-up
+---
 Snu snu race.
 
 | Language | Giant                                                                                         |

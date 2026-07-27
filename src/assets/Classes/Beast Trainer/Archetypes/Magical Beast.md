@@ -1,3 +1,6 @@
+---
+icon: magic-hat
+---
 Magical Beasts use their casting to enhance their beast companions. They are able to combo their spells with their beast.
 ## <span style="color:rgb(192, 0, 0)">This archetype replaces Tandem Strike</span>
 

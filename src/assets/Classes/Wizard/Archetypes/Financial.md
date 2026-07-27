@@ -1,3 +1,6 @@
+---
+icon: 💰
+---
 Financial wizards look to win battles far before they are ever fought using an enormous amount of preparation
 ## <span style="color:rgb(103, 254, 120)">1 - Silver Spoon</span>
 You have a contact in the financial wizard's guild. This could be a teacher, banker or parent with connections or that works for it.

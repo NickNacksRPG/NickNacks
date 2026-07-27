@@ -39,5 +39,5 @@ Constant - [[Lightning Rod]], [[Feather Fall]], [[Heavens' Vengeance]], [[Stick 
 <span style="color:rgb(103, 254, 120)">Feats</span> - [[Bullseye]]
 <span style="color:rgb(103, 254, 120)">Skills</span> - +4 [[+Perception]], +6 [[+Acrobatics]], +6 [[+Stealth]]
 
-![[Pasted image 20260710112543.png|Cloucat, [Clovermon](https://poclo.net/)]]
+![[cloudussy.png|Cloucat, [Clovermon](https://poclo.net/)]]
 

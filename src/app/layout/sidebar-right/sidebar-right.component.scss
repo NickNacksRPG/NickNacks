@@ -171,54 +171,73 @@
     }
 
     .links-list {
-      list-style: none;
-      padding: 0;
+      display: flex;
+      flex-direction: column;
       margin: 4px 0 0 18px;
 
-      li {
-        padding: 2px 0;
-        border-bottom: none;
+      // Folder group header — matching left sidebar folder style
+      .link-folder-header {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        padding: 3px 6px;
+        margin-top: 6px;
+        font-size: 0.85rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        opacity: 1;
 
-        &:last-child { }
+        .folder-icon {
+          font-size: 14px;
+          width: 14px;
+          height: 14px;
+          flex-shrink: 0;
+        }
 
-        .note-link {
-          display: flex;
-          align-items: center;
-          gap: 6px;
-          color: var(--text-secondary);
-          text-decoration: none;
-          padding: 4px 8px;
-          border-radius: 4px;
-          transition: background-color 0.15s ease, color 0.15s ease;
-          font-size: 0.78rem;
-          position: relative;
+        .folder-name {
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+        }
+      }
 
-          .note-icon {
-            font-size: 0.85rem;
-            flex-shrink: 0;
-            color: var(--text-secondary);
-            transition: color 0.2s ease;
-          }
+      .note-link {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        color: var(--text-secondary);
+        text-decoration: none;
+        padding: 4px 8px 4px 24px;
+        border-radius: 4px;
+        transition: background-color 0.15s ease, color 0.15s ease;
+        font-size: 0.78rem;
+        position: relative;
 
-          .note-title {
-            flex: 1;
-            min-width: 0;
-            overflow: hidden;
-            text-overflow: ellipsis;
-            white-space: nowrap;
-          }
+        .note-icon {
+          font-size: 0.85rem;
+          flex-shrink: 0;
+          transition: color 0.2s ease;
+        }
 
-          &:hover {
-            background-color: var(--hover-bg);
-            color: var(--primary-color);
-          }
+        .note-title {
+          flex: 1;
+          min-width: 0;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+        }
 
-          &.active-link {
-            background-color: var(--active-bg);
-            box-shadow: inset 3px 0 0 var(--primary-color);
-            color: var(--primary-color);
-            font-weight: 500;
-          }
+        &:hover {
+          background-color: var(--hover-bg);
+          color: var(--primary-color);
+        }
+
+        &.active-link {
+          background-color: var(--active-bg);
+          box-shadow: inset 3px 0 0 var(--primary-color);
+          color: var(--primary-color);
+          font-weight: 500;
         }
       }
     }
@@ -235,7 +254,7 @@
         background: linear-gradient(to right, var(--text-secondary), transparent);
       }
 
-      .links-list li .note-link {
+      .links-list .note-link {
         color: var(--text-secondary);
         font-style: italic;
 

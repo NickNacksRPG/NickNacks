@@ -3,12 +3,14 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
 <title>Folder Settings</title>
 <style>
   * { box-sizing: border-box; margin: 0; padding: 0; }
   body {
-    font-family: system-ui, -apple-system, sans-serif;
-    background: #1a1a1a;
+    font-family: 'Roboto', system-ui, -apple-system, sans-serif;
+    background: #1f1a15;
     color: #d0c8b8;
     display: flex;
     justify-content: center;
@@ -60,6 +62,93 @@
   .status.success { display: block; border-color: #3a6b3a; color: #8bc88b; }
   .status.error { display: block; border-color: #6b3a3a; color: #c88b8b; }
   .status.info { display: block; border-color: #3a506b; color: #8bb8c8; }
+  .status.loading { display: block; border-color: #5a4a20; }
+
+  /* ── Loading animation ── */
+  .loading-spinner {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .loading-spinner .loading-icon {
+    width: 28px;
+    height: 28px;
+    flex-shrink: 0;
+    position: relative;
+  }
+  .loading-spinner .loading-icon .page {
+    position: absolute;
+    width: 16px;
+    height: 20px;
+    background: #3a3835;
+    border: 1px solid #a67c00;
+    border-radius: 2px;
+    left: 6px;
+    bottom: 4px;
+    animation: page-float 2s ease-in-out infinite;
+  }
+  .loading-spinner .loading-icon .page::after {
+    content: '';
+    position: absolute;
+    right: 3px;
+    top: 3px;
+    width: 4px;
+    height: 2px;
+    background: #a67c00;
+    opacity: 0.4;
+    box-shadow: 0 4px 0 #a67c00, 0 8px 0 #a67c00;
+  }
+  .loading-spinner .loading-icon .folder-open {
+    position: absolute;
+    bottom: 2px;
+    left: 0;
+    width: 22px;
+    color: #a67c00;
+  }
+  .loading-spinner .loading-icon .folder-open svg {
+    display: block;
+    fill: #a67c00;
+    opacity: 0.6;
+  }
+  .loading-spinner .loading-icon .sparkle {
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: #a67c00;
+    opacity: 0;
+  }
+  .loading-spinner .loading-icon .sparkle:nth-child(3) {
+    top: 0;
+    right: 2px;
+    animation: sparkle-pop 1.8s ease-in-out 0.3s infinite;
+  }
+  .loading-spinner .loading-icon .sparkle:nth-child(4) {
+    top: 4px;
+    left: 0;
+    animation: sparkle-pop 1.8s ease-in-out 0.9s infinite;
+  }
+  .loading-spinner .loading-icon .sparkle:nth-child(5) {
+    bottom: 10px;
+    right: 0;
+    animation: sparkle-pop 1.8s ease-in-out 1.5s infinite;
+  }
+  @keyframes page-float {
+    0%, 100% { transform: translateY(0) rotate(0deg); }
+    25% { transform: translateY(-3px) rotate(-2deg); }
+    75% { transform: translateY(-2px) rotate(2deg); }
+  }
+  @keyframes sparkle-pop {
+    0%, 100% { opacity: 0; transform: scale(0); }
+    50% { opacity: 1; transform: scale(1); }
+  }
+  .loading-spinner .loading-text {
+    animation: pulse-text 1.6s ease-in-out infinite;
+  }
+  @keyframes pulse-text {
+    0%, 100% { opacity: 0.7; }
+    50% { opacity: 1; }
+  }
 
   .card {
     background: #222;
@@ -544,7 +633,15 @@
     display: inline-flex; align-items: center; justify-content: center;
   }
   .folder-icon img { width: 20px; height: 20px; display: inline-flex; vertical-align: middle; }
-  .folder-icon .emoji { font-size: 18.4px; line-height: 1; }
+  .folder-icon .material-folder {
+    width: 20px; height: 20px;
+    display: inline-flex; align-items: center; justify-content: center;
+  }
+  .folder-icon .material-folder svg {
+    width: 18px; height: 18px;
+    fill: currentColor;
+    opacity: 0.65;
+  }
 
   .folder-name { flex: 1; font-weight: 500; }
 
@@ -587,6 +684,9 @@
     width: 220px;
     min-width: 220px;
     flex-shrink: 0;
+    background: rgba(255,255,255,0.07);
+    border-right: 1px solid rgba(255,255,255,0.1);
+    padding-left: 4px;
   }
 
   .tree-children {
@@ -735,21 +835,52 @@
 
   .footer { margin-top: 32px; font-size: 0.75rem; color: #5a5040; text-align: center; }
   .footer code { background: #222; padding: 1px 5px; border-radius: 3px; }
+
+  /* ── Ambient floating shapes ── */
+  .ambient-shapes {
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    overflow: hidden;
+    z-index: -1;
+  }
+  .ambient-shapes .drift {
+    position: absolute;
+    opacity: 0;
+    animation: drift-across var(--speed, 20s) linear var(--delay, 0s) infinite;
+    font-size: var(--size, 16px);
+    color: var(--glow, #a67c00);
+    left: var(--start, -5%);
+    top: var(--top, 50%);
+    text-shadow: 0 0 4px currentColor;
+    filter: blur(0.3px);
+  }
+  @keyframes drift-across {
+    0% { transform: translateX(0) translateY(0) rotate(0deg); opacity: 0; }
+    3% { opacity: var(--peak, 0.2); }
+    10% { opacity: var(--peak, 0.2); }
+    20% { opacity: calc(var(--peak, 0.2) * 0.6); }
+    85% { opacity: calc(var(--peak, 0.2) * 0.3); }
+    97% { opacity: 0; }
+    100% { transform: translateX(calc(100vw + 20%)) translateY(var(--bob, 0)) rotate(calc(var(--spin, 1) * 360deg)); opacity: 0; }
+  }
 </style>
 </head>
 <body>
 <div class="container">
+  <div class="ambient-shapes" id="ambientShapes"></div>
   <h1>⚙️ Project Settings</h1>
-  <p class="subtitle">Pick your project's <code>src/</code> directory to configure folders and features.</p>
+  <p class="subtitle">Pick the root of your project directory to configure folders, features, and general settings.</p>
 
-  <button class="btn" id="openBtn">📂 Choose src/ folder</button>
+  <button class="btn" id="openBtn">📂 Choose project root</button>
 
   <div id="status" class="status"></div>
 
   <!-- Tab bar -->
   <div id="tabBar" class="tab-bar" style="display:none">
-    <button class="tab active" data-tab="folders">📁 Folder Settings</button>
+    <button class="tab active" data-tab="folders">🌳 Tree settings</button>
     <button class="tab" data-tab="features">⚙️ Feature Flags</button>
+    <button class="tab" data-tab="general">🌐 General</button>
   </div>
 
   <!-- Unsaved changes banner -->
@@ -767,7 +898,7 @@
     </div>
 
     <div class="card">
-      <div class="card-title">Pick a color from below, then click the ■ on any folder to apply it</div>
+      <div class="card-title">Pick a color from below, then click the ■ on any folder or note to apply it</div>
 
       <div class="settings-layout">
         <div class="picker-sidebar">
@@ -818,7 +949,7 @@
             <span style="margin-left:auto; font-size:0.75rem; color:#6aa; align-self:center" id="treeCount"></span>
           </div>
 
-          <input id="folderSearch" type="text" placeholder="🔍 Filter folders…" style="width:100%; padding:6px 10px; margin-bottom:8px; border-radius:5px; border:1px solid #444; background:#1a1a1a; color:#d0c8b8; font-size:0.8rem; font-family:inherit; outline:none">
+          <input id="folderSearch" type="text" placeholder="🔍 Filter tree…" style="width:100%; padding:6px 10px; margin-bottom:8px; border-radius:5px; border:1px solid #444; background:#1a1a1a; color:#d0c8b8; font-size:0.8rem; font-family:inherit; outline:none">
 
           <div id="folderTree" class="tree"></div>
 
@@ -840,7 +971,7 @@
           <div class="icon-search-wrap">
             <input class="icon-search-input" id="iconSearchInput" type="text" placeholder="Search icons..." oninput="debouncedSearch(this.value)">
           </div>
-          <div class="icon-picker-hint">Click an icon to select it, then click the 🖼️ on any folder to apply it.</div>
+          <div class="icon-picker-hint">Click an icon to select it, then click the 🖼️ on any folder or note to apply it.</div>
           <div id="iconEmpty" class="icon-empty" style="display:none">No icons match your search.</div>
           <div class="icon-grid" id="iconGrid"></div>
 
@@ -869,8 +1000,39 @@
     </div>
   </div><!-- /tab-features -->
 
+  <!-- General Settings tab -->
+  <div id="tab-general" class="tab-content" style="display:none">
+    <div class="card">
+      <div class="card-title">Site Settings</div>
+      <div style="font-size:0.75rem; color:#6a6050; margin-bottom:16px">Configure general site behaviour.</div>
+
+      <div style="margin-bottom:16px">
+        <div style="font-size:0.82rem; font-weight:500; margin-bottom:4px">Landing Page</div>
+        <div style="font-size:0.72rem; color:#6a6050; margin-bottom:8px; line-height:1.4">
+          The note shown at the site root URL. Click one below to select it.
+        </div>
+        <div id="landingPageSelected" style="font-size:0.85rem; color:#a67c00; margin-bottom:8px; padding:6px 10px; background:#1a1a1a; border:1px solid #333; border-radius:5px; display:flex; align-items:center; gap:8px">
+          <span style="font-size:0.65rem; color:#6a6050; flex-shrink:0">SELECTED:</span>
+          <span id="landingPageSelectedLabel">Index</span>
+        </div>
+        <input id="landingPageSearch" type="text" spellcheck="false" placeholder="🔍 Search notes…"
+          style="width:100%; padding:7px 10px; margin-bottom:8px; border-radius:5px; border:1px solid #444; background:#1a1a1a; color:#d0c8b8; font-size:0.82rem; font-family:inherit; outline:none">
+        <div id="notesList" style="max-height:320px; overflow-y:auto; scrollbar-width:thin; scrollbar-color:#3a3835 transparent; background:#1a1a1a; border:1px solid #333; border-radius:5px; padding:4px"></div>
+      </div>
+
+      <div style="display:flex; justify-content:space-between; margin-top:14px; padding-top:14px; border-top:1px solid #333">
+        <div style="display:flex; gap:8px">
+          <button class="btn" id="generalSaveBtn" disabled>💾 Save</button>
+          <button class="btn secondary" id="generalPreviewBtn">👁️ Preview</button>
+        </div>
+        <button class="btn danger" id="generalResetBtn" disabled>↩ Reset</button>
+      </div>
+      <div id="generalCardStatus" class="card-status"></div>
+    </div>
+  </div><!-- /tab-general -->
+
   <div class="footer">
-    Requires Chrome/Edge. Navigate to your project's <code>src/</code> directory.
+    Requires Chrome/Edge. Pick the root directory of your project.
   </div>
 </div>
 
@@ -890,18 +1052,48 @@
 // ══════════════════════════════════════════════════
 // State
 // ══════════════════════════════════════════════════
+let rootHandle = null;
 let srcHandle = null;
 let origConfig = {};
 let workingConfig = {};
 let origFeatures = {};
 let workingFeatures = {};
+let origProjectConfig = {};
+let workingProjectConfig = {};
 let scannedTree = {};
 let iconResolved = new Map();
 let iconsDirHandle = null;
+let assetsHandle = null;     // handle for assets/ directory (for frontmatter edits)
 let featuresChanged = false;
 let activeColor = null;   // currently selected color in palette
 let activeIcon = null;     // currently selected icon name
 let allSvgIcons = [];      // [{stem, handle}] for all SVGs in icons dir
+let selectedLandingPage = 'Index';
+let allKnownNotes = [];    // cached note paths for the general tab list
+let noteFrontmatterIcons = {};  // icons from .md frontmatter (not saved to folder-metadata)
+
+// ── Spawn ambient floating shapes ──
+(function spawnAmbientShapes() {
+  const chars = ['✦','❖','◇','❧','✧','⋆','✶','✦','⟡','⭒','☆','•','❀','✿','❁','♢','♤','♡','♧','⚘','❋','✤','≋','~','∘','○','◎','⊹','⁂'];
+  const colors = ['#a67c00','#c4982a','#6a9fb5','#b58a6a','#7ab87a','#b07ab8','#d4956a','#8a9f3a','#6ab89f','#c87a6a','#7a8ab8','#b8a07a','#d4866a','#7ab88a'];
+  const container = document.getElementById('ambientShapes');
+  if (!container) return;
+  for (let i = 0; i < 45; i++) {
+    const el = document.createElement('span');
+    el.className = 'drift';
+    el.textContent = chars[Math.floor(Math.random() * chars.length)];
+    el.style.setProperty('--size', (8 + Math.random() * 20) + 'px');
+    el.style.setProperty('--speed', (14 + Math.random() * 28) + 's');
+    el.style.setProperty('--delay', (Math.random() * 30) + 's');
+    el.style.setProperty('--top', (Math.random() * 100) + '%');
+    el.style.setProperty('--start', (-2 - Math.random() * 8) + '%');
+    el.style.setProperty('--glow', colors[Math.floor(Math.random() * colors.length)]);
+    el.style.setProperty('--peak', (0.08 + Math.random() * 0.22).toFixed(3));
+    el.style.setProperty('--bob', (-30 + Math.random() * 60) + 'px');
+    el.style.setProperty('--spin', (0.5 + Math.random() * 2).toFixed(1));
+    container.appendChild(el);
+  }
+})();
 
 function computeChanges() {
   let colorChanges = 0, iconChanges = 0;
@@ -921,7 +1113,12 @@ function computeChanges() {
     if (key.startsWith('$')) continue;
     if (workingFeatures[key] !== origFeatures[key]) flagChanges++;
   }
-  return { colorChanges, iconChanges, flagChanges, total: colorChanges + iconChanges + flagChanges };
+  let generalChanges = 0;
+  for (const key of Object.keys(workingProjectConfig)) {
+    if (key.startsWith('$')) continue;
+    if (workingProjectConfig[key] !== origProjectConfig[key]) generalChanges++;
+  }
+  return { colorChanges, iconChanges, flagChanges, generalChanges, total: colorChanges + iconChanges + flagChanges + generalChanges };
 }
 
 function updateUnsavedBanner() {
@@ -935,6 +1132,7 @@ function updateUnsavedBanner() {
     if (c.colorChanges > 0) parts.push(c.colorChanges + ' color');
     if (c.iconChanges > 0) parts.push(c.iconChanges + ' icon');
     if (c.flagChanges > 0) parts.push(c.flagChanges + ' flag');
+    if (c.generalChanges > 0) parts.push(c.generalChanges + ' general');
     countEl.textContent = parts.join(', ') + ' unsaved';
     banner.style.display = 'flex';
   }
@@ -977,7 +1175,20 @@ const pickerG = document.getElementById('pickerG');
 const pickerB = document.getElementById('pickerB');
 
 function setStatus(msg, type = 'info') {
-  status.innerHTML = msg;
+  if (type === 'loading') {
+    status.innerHTML = `<span class="loading-spinner">
+      <span class="loading-icon">
+        <span class="page"></span>
+        <span class="folder-open"><svg viewBox="0 0 24 24"><path d="M10 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2h-8l-2-2z"/></svg></span>
+        <span class="sparkle"></span>
+        <span class="sparkle"></span>
+        <span class="sparkle"></span>
+      </span>
+      <span class="loading-text">${msg}</span>
+    </span>`;
+  } else {
+    status.innerHTML = msg;
+  }
   status.className = 'status ' + type;
 }
 
@@ -1006,8 +1217,8 @@ function renderFeatures() {
     ['Layout',        ['header', 'footer', 'theme_toggle', 'breadcrumbs', 'right_sidebar']],
     ['Searching',     ['search_bar', 'search_full_content', 'search_highlight', 'show_tree_search_hierarchy']],
     ['Sidebar Tree',  ['disclosure_chevrons', 'folder_count_badges', 'tree_colors', 'tree_icons', 'collapse_all']],
-    ['Right Sidebar', ['sidebar_link_previews', 'preview_dimmer', 'referenced_pages', 'referencing_pages', 'coming_soon']],
-    ['Content',       ['wiki_links']],
+    ['Right Sidebar', ['sidebar_link_previews', 'referenced_pages', 'referencing_pages', 'coming_soon']],
+    ['Content',       ['wiki_links', 'preview_dimmer', 'vignette_effect']],
   ];
 
   function makeRow(key, val, desc) {
@@ -1078,6 +1289,15 @@ async function loadFeatures(dirHandle) {
     }
   }
 }
+
+async function loadProjectConfig(dirHandle) {
+  try {
+    const fileHandle = await dirHandle.getFileHandle('project.config.json');
+    return JSON.parse(await (await fileHandle.getFile()).text());
+  } catch {
+    return { landingPage: 'Index' };
+  }
+}
 // ══════════════════════════════════════════════════
 // Config helpers
 // ══════════════════════════════════════════════════
@@ -1093,6 +1313,14 @@ function getFolderState(path) {
     if (parentState === 'configured' || parentState === 'inherited') return 'inherited';
   }
   return 'new';
+}
+
+// ── Folder SVG helper (Material-style "folder" icon) ──
+function createFolderSvg() {
+  const wrap = document.createElement('span');
+  wrap.className = 'material-folder';
+  wrap.innerHTML = '<svg viewBox="0 0 24 24"><path d="M10 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2h-8l-2-2z"/></svg>';
+  return wrap;
 }
 
 function getConfigForPath(path) {
@@ -1158,6 +1386,8 @@ function findColor(path) {
 function findIcon(path) {
   const cfg = getConfigForPath(path);
   if (cfg && typeof cfg === 'object' && cfg.icon) return cfg.icon;
+  // Check frontmatter icon for notes (not saved to folder-metadata)
+  if (noteFrontmatterIcons[path]) return noteFrontmatterIcons[path];
   return null;
 }
 
@@ -1249,9 +1479,11 @@ function setActiveColor(color) {
     }
   }
   if (!iconAdded) {
-    // Fallback: show a folder icon using unicode
-    previewIconWrap.textContent = '📁';
-    previewIconWrap.style.fontSize = '18.4px';
+    // Fallback: show a folder icon using SVG
+    previewIconWrap.innerHTML = '';
+    previewIconWrap.appendChild(createFolderSvg());
+    previewIconWrap.querySelector('svg').style.width = '18px';
+    previewIconWrap.querySelector('svg').style.height = '18px';
   }
   previewLabel.style.color = color;
   previewBar.style.display = 'flex';
@@ -1278,6 +1510,76 @@ async function readFolderMetadata(dirHandle) {
       return {};
     }
   }
+}
+
+// ── Sync note icons from folder-metadata back into .md frontmatter ──
+async function syncNoteIconsToFrontmatter(changedPaths) {
+  if (!assetsHandle) return;
+  for (const notePath of changedPaths) {
+    const cfg = workingConfig[notePath];
+    const icon = cfg && typeof cfg === 'object' && cfg.icon ? cfg.icon : null;
+    // Only process paths that exist as .md files (not pure folders)
+    try {
+      const fileHandle = await resolveNoteFileHandle(notePath);
+      if (!fileHandle) continue;
+      const file = await fileHandle.getFile();
+      const content = await file.text();
+      const newContent = updateFrontmatterIcon(content, icon);
+      if (newContent !== content) {
+        const w = await fileHandle.createWritable();
+        await w.write(newContent);
+        await w.close();
+      }
+    } catch {}
+  }
+}
+
+// Resolve a note path (e.g. "Bestiary/Aberrations/Grandma") to a FileSystemFileHandle
+async function resolveNoteFileHandle(notePath) {
+  const parts = notePath.split('/');
+  let dirHandle = assetsHandle;
+  for (let i = 0; i < parts.length - 1; i++) {
+    try { dirHandle = await dirHandle.getDirectoryHandle(parts[i]); }
+    catch { return null; }
+  }
+  try { return await dirHandle.getFileHandle(parts[parts.length - 1] + '.md'); }
+  catch { return null; }
+}
+
+// Surgically update or insert the `icon:` field in YAML frontmatter
+function updateFrontmatterIcon(content, newIcon) {
+  // Match the full frontmatter block (with optional trailing whitespace)
+  const fmRegex = /^(---\s*\n)([\s\S]*?)(\n---\s*\n?)/;
+  const match = content.match(fmRegex);
+  
+  if (match) {
+    // Frontmatter exists — extract body, check for icon line
+    const body = match[2];
+    const iconLineRegex = /^icon\s*:\s*.*$/m;
+    if (newIcon) {
+      if (iconLineRegex.test(body)) {
+        // Replace existing icon line
+        const newBody = body.replace(iconLineRegex, 'icon: ' + newIcon);
+        return match[1] + newBody + match[3] + content.slice(match[0].length);
+      } else {
+        // Insert icon line at the start of frontmatter body
+        const newBody = 'icon: ' + newIcon + '\n' + body;
+        return match[1] + newBody + match[3] + content.slice(match[0].length);
+      }
+    } else {
+      // Removing icon — delete the line if present
+      if (iconLineRegex.test(body)) {
+        const newBody = body.replace(iconLineRegex, '').replace(/\n{2,}/g, '\n').replace(/^\n+/, '');
+        const result = match[1] + newBody + match[3] + content.slice(match[0].length);
+        return result;
+      }
+      return content; // no change
+    }
+  } else if (newIcon) {
+    // No frontmatter — insert a new one
+    return '---\nicon: ' + newIcon + '\n---\n' + content;
+  }
+  return content; // no change
 }
 
 async function backupAndSave() {
@@ -1308,16 +1610,38 @@ async function backupAndSave() {
   } catch { /* no existing */ }
 
   const output = {};
+  // Figure out which note paths had icon changes (frontmatter-only, not saved to folder-metadata.json)
+  const changedNotePaths = [];
+  const noteSet = new Set(allKnownNotes);
   for (const [path, cfg] of Object.entries(workingConfig)) {
     if (path.startsWith('$')) continue;
-    if (typeof cfg === 'object' && (cfg.color || cfg.icon)) output[path] = cfg;
-    else if (typeof cfg === 'string') output[path] = cfg;
+    const orig = origConfig[path];
+    const wIcon = cfg && typeof cfg === 'object' ? cfg.icon : undefined;
+    const oIcon = orig && typeof orig === 'object' ? orig.icon : undefined;
+    if (wIcon !== oIcon && noteSet.has(path)) changedNotePaths.push(path);
+    // Save to folder-metadata: only folder configs + note colors (NOT note icons — those go to frontmatter)
+    if (cfg && typeof cfg === 'object') {
+      if (noteSet.has(path)) {
+        // Note entry: save only color, not icon
+        if (cfg.color) output[path] = { color: cfg.color };
+      } else {
+        // Folder entry: save color and/or icon
+        if (cfg.color || cfg.icon) output[path] = cfg;
+      }
+    } else if (typeof cfg === 'string') {
+      output[path] = cfg;
+    }
   }
 
   const fileHandle = await configDir.getFileHandle('folder-metadata.json', { create: true });
   const w = await fileHandle.createWritable();
   await w.write(JSON.stringify(output, null, 2));
   await w.close();
+
+  // Sync changed note icons into .md frontmatter
+  if (changedNotePaths.length > 0) {
+    await syncNoteIconsToFrontmatter(changedNotePaths);
+  }
 
   origConfig = JSON.parse(JSON.stringify(workingConfig));
   updateUnsavedBanner();
@@ -9211,6 +9535,8 @@ async function scanAssetsRecursive(dirHandle) {
   for await (const entry of dirHandle.values()) {
     if (entry.kind === 'directory' && !entry.name.startsWith('.') && entry.name !== 'IMAGES') {
       tree[entry.name] = await scanAssetsRecursive(entry);
+    } else if (entry.kind === 'file' && entry.name.endsWith('.md')) {
+      tree[entry.name.slice(0, -3)] = null;  // null = note leaf
     }
   }
   return tree;
@@ -9221,7 +9547,7 @@ function flattenTree(tree, prefix = '') {
   for (const [name, children] of Object.entries(tree)) {
     const path = prefix ? prefix + '/' + name : name;
     paths.push(path);
-    paths.push(...flattenTree(children, path));
+    if (children !== null) paths.push(...flattenTree(children, path));
   }
   return paths;
 }
@@ -9235,8 +9561,10 @@ function countStats(tree, prefix = '') {
     if (state === 'configured') configured++;
     else if (state === 'inherited') inherited++;
     else unconfigured++;
-    const sub = countStats(children, path);
-    configured += sub.configured; inherited += sub.inherited; unconfigured += sub.unconfigured; total += sub.total;
+    if (children !== null) {
+      const sub = countStats(children, path);
+      configured += sub.configured; inherited += sub.inherited; unconfigured += sub.unconfigured; total += sub.total;
+    }
   }
   return { configured, inherited, unconfigured, total };
 }
@@ -9326,8 +9654,9 @@ function updateRowIconBtn(row, path) {
       }
     }
   }
-  iconBtn.textContent = '📁';
-  iconBtn.style.fontSize = '16px';
+  const isNote = row.dataset.type === 'note';
+  iconBtn.textContent = isNote ? '📄' : '📁';
+  iconBtn.style.fontSize = isNote ? '15px' : '16px';
 }
 
 function updateRowIcon(row, path) {
@@ -9351,8 +9680,12 @@ function updateRowIcon(row, path) {
     }
   }
   if (!done) {
-    const fallback = document.createElement('span'); fallback.className = 'emoji'; fallback.textContent = '📁';
-    iconWrap.appendChild(fallback);
+    const isNote = row.dataset.type === 'note';
+    if (isNote) {
+      // Notes without custom icons show NO icon in the tree (matches the real site)
+    } else {
+      iconWrap.appendChild(createFolderSvg());
+    }
   }
 }
 
@@ -9372,8 +9705,10 @@ function renderTreeNode(name, children, path) {
 
   const row = document.createElement('div');
   row.className = 'folder-item';
+  row.dataset.type = children === null ? 'note' : 'folder';
 
-  const hasChildren = Object.keys(children).length > 0;
+  const isNote = children === null;
+  const hasChildren = !isNote && Object.keys(children).length > 0;
   const folderColor = findColor(path);
   const depth = path.split('/').length - 1;
   row.style.setProperty('--depth', depth);
@@ -9427,11 +9762,11 @@ function renderTreeNode(name, children, path) {
   applyBtn.addEventListener('mouseleave', () => { applyBtn.style.transform = ''; });
   controls.appendChild(applyBtn);
 
-  // Icon apply button — shows current folder icon
+  // Icon apply button — shows current folder/note icon
   const iconBtn = document.createElement('button');
   iconBtn.className = 'icon-btn';
   iconBtn.title = activeIcon ? `Apply "${activeIcon}"` : 'Select an icon from the right panel first';
-  // Show the folder's current icon inside the button
+  // Show the entry's current icon inside the button
   const iconRaw = findIcon(path);
   let iconSet = false;
   if (iconRaw) {
@@ -9449,8 +9784,8 @@ function renderTreeNode(name, children, path) {
     }
   }
   if (!iconSet) {
-    iconBtn.textContent = '📁';
-    iconBtn.style.fontSize = '16px';
+    iconBtn.textContent = isNote ? '📄' : '📁';
+    iconBtn.style.fontSize = isNote ? '15px' : '16px';
   }
   iconBtn.addEventListener('click', (e) => {
     e.stopPropagation();
@@ -9469,10 +9804,12 @@ function renderTreeNode(name, children, path) {
   const treeContent = document.createElement('div');
   treeContent.className = 'tree-hierarchy';
 
-  // Chevron
+  // Chevron (folders only — notes don't expand)
   const chevron = document.createElement('span');
   chevron.className = 'chevron';
   if (hasChildren) chevron.textContent = '▶';
+  else if (!isNote) chevron.textContent = '▶'; // empty folder still shows chevron
+  // Notes: chevron stays empty — no triangle at all
   treeContent.appendChild(chevron);
 
   // Icon
@@ -9495,12 +9832,15 @@ function renderTreeNode(name, children, path) {
     }
   }
   if (!iconResolved_) {
-    const fallback = document.createElement('span'); fallback.className = 'emoji'; fallback.textContent = '📁';
-    iconWrap.appendChild(fallback);
+    if (isNote) {
+      // Notes without custom icons show NO icon in the tree (matches the real site)
+    } else {
+      iconWrap.appendChild(createFolderSvg());
+    }
   }
   treeContent.appendChild(iconWrap);
 
-  // Folder name
+  // Name
   const nameSpan = document.createElement('span');
   nameSpan.className = 'folder-name';
   nameSpan.textContent = name;
@@ -9516,7 +9856,7 @@ function renderTreeNode(name, children, path) {
 
   row.appendChild(treeContent);
 
-  // Click row to expand
+  // Click row to expand (folders only)
   if (hasChildren) {
     row.addEventListener('click', (e) => {
       e.stopPropagation();
@@ -9531,7 +9871,7 @@ function renderTreeNode(name, children, path) {
 
   node.appendChild(row);
 
-  // Children
+  // Children (folders only)
   if (hasChildren) {
     const childrenContainer = document.createElement('div');
     childrenContainer.className = 'tree-children';
@@ -9580,18 +9920,26 @@ async function openProject() {
     setStatus('Error: ' + e.message, 'error'); return;
   }
 
-  if (handle.name !== 'src') {
+  try {
+    setStatus('Loading your project…', 'loading');
+  rootHandle = handle;
+  // Hide the initial prompt and button once a valid directory is selected
+  document.querySelector('.subtitle').style.display = 'none';
+  document.getElementById('openBtn').style.display = 'none';
+
+  // Derive src/ handle from the project root
+  try { srcHandle = await rootHandle.getDirectoryHandle('src'); }
+  catch {
     results.style.display = 'none';
-    setStatus('❌ Selected folder is <strong>' + handle.name + '</strong>. Navigate to your project\'s <code>src/</code> directory.', 'error');
+    setStatus('❌ No <code>src/</code> directory found in the selected folder. Make sure you selected the project root.', 'error');
     return;
   }
 
-  try {
-    setStatus('📂 Loading…', 'info');
-  srcHandle = handle;
-  // Hide the initial prompt and button once a valid src/ is selected
-  document.querySelector('.subtitle').style.display = 'none';
-  document.getElementById('openBtn').style.display = 'none';
+  // Load project.config.json from root
+  origProjectConfig = await loadProjectConfig(rootHandle);
+  workingProjectConfig = JSON.parse(JSON.stringify(origProjectConfig));
+  selectedLandingPage = origProjectConfig.landingPage || 'Index';
+  renderNotesList('');
 
   origConfig = await readFolderMetadata(srcHandle);
   for (const k of Object.keys(origConfig)) { if (k.startsWith('$')) delete origConfig[k]; }
@@ -9631,7 +9979,6 @@ async function openProject() {
   workingFeatures = JSON.parse(JSON.stringify(origFeatures));
   renderFeatures();
 
-  let assetsHandle;
   try { assetsHandle = await srcHandle.getDirectoryHandle('assets'); }
   catch {
     results.style.display = 'none';
@@ -9639,6 +9986,47 @@ async function openProject() {
     return;
   }
   scannedTree = await scanAssetsRecursive(assetsHandle);
+
+  // Scan all note .md files for the landing page picker AND for frontmatter icons
+  allKnownNotes = [];
+  noteFrontmatterIcons = {};
+  async function scanNotes(dir, prefix) {
+    for await (const entry of dir.values()) {
+      if (entry.kind === 'file' && entry.name.endsWith('.md')) {
+        const name = entry.name.slice(0, -3);
+        const notePath = prefix ? prefix + '/' + name : name;
+        allKnownNotes.push(notePath);
+        // Read frontmatter for existing icon
+        try {
+          const file = await entry.getFile();
+          const text = await file.text();
+          const fmMatch = text.match(/^---\n([\s\S]*?)\n---/);
+          if (fmMatch) {
+            const fmLines = fmMatch[1].split('\n');
+            for (const line of fmLines) {
+              const m = line.match(/^\s*icon\s*:\s*(.+)$/);
+              if (m) {
+                noteFrontmatterIcons[notePath] = m[1].trim();
+              }
+            }
+          }
+        } catch {}
+      } else if (entry.kind === 'directory' && !entry.name.startsWith('.') && entry.name !== 'IMAGES') {
+        await scanNotes(entry, prefix ? prefix + '/' + entry.name : entry.name);
+      }
+    }
+  }
+  await scanNotes(assetsHandle, '');
+  allKnownNotes.sort((a, b) => a.localeCompare(b));
+  renderNotesList('');
+
+  // Resolve frontmatter icons for display (NOT saved to folder-metadata)
+  let newIconNames = new Set();
+  for (const icon of Object.values(noteFrontmatterIcons)) {
+    if (icon.length <= 2) iconResolved.set(icon, { type: 'emoji', value: icon });
+    else newIconNames.add(icon);
+  }
+  if (iconsDirHandle && newIconNames.size > 0) await resolveIconsFromDisk([...newIconNames]);
 
   renderTree();
   syncPaletteFromTree();
@@ -9661,8 +10049,11 @@ async function saveConfig() {
   try {
     const backupName = await backupAndSave();
     await saveFeaturesFile();
+    await saveProjectConfig();
     updateUnsavedBanner();
     saveBtn.disabled = true;
+    featuresSaveBtn.disabled = true;
+    document.getElementById('generalSaveBtn').disabled = true;
     setCardStatus('folderCardStatus', '✅ Saved! Backup: ' + backupName + '. Commit and push.', 'success');
   } catch (e) {
     setCardStatus('folderCardStatus', '❌ Save failed: ' + e.message, 'error');
@@ -9672,10 +10063,18 @@ async function saveConfig() {
 async function previewConfig() {
   if (!srcHandle) return;
   const output = {};
+  const noteSet = new Set(allKnownNotes);
   for (const [path, cfg] of Object.entries(workingConfig)) {
     if (path.startsWith('$')) continue;
-    if (typeof cfg === 'object' && (cfg.color || cfg.icon)) output[path] = cfg;
-    else if (typeof cfg === 'string') output[path] = cfg;
+    if (cfg && typeof cfg === 'object') {
+      if (noteSet.has(path)) {
+        if (cfg.color) output[path] = { color: cfg.color };
+      } else {
+        if (cfg.color || cfg.icon) output[path] = cfg;
+      }
+    } else if (typeof cfg === 'string') {
+      output[path] = cfg;
+    }
   }
   showModal('folder-metadata.json', JSON.stringify(output, null, 2));
 }
@@ -9703,6 +10102,12 @@ async function resetConfig() {
   // Reset features
   workingFeatures = JSON.parse(JSON.stringify(origFeatures));
   renderFeatures();
+  // Reset general
+  workingProjectConfig = JSON.parse(JSON.stringify(origProjectConfig));
+  selectedLandingPage = workingProjectConfig.landingPage || 'Index';
+  renderNotesList(document.getElementById('landingPageSearch')?.value || '');
+  document.getElementById('generalSaveBtn').disabled = true;
+  document.getElementById('generalResetBtn').disabled = true;
   setCardStatus('folderCardStatus', '↩ Reset to last saved state.', 'info');
 }
 
@@ -9745,6 +10150,93 @@ function featuresReset() {
 }
 
 // ══════════════════════════════════════════════════
+// General: Save / Preview / Reset / Browse
+// ══════════════════════════════════════════════════
+async function saveProjectConfig() {
+  if (!rootHandle) return;
+  try {
+    // Merge working changes into orig, preserving $ keys
+    const output = {};
+    for (const [key, val] of Object.entries(workingProjectConfig)) {
+      output[key] = val;
+    }
+    const fileHandle = await rootHandle.getFileHandle('project.config.json', { create: true });
+    const w = await fileHandle.createWritable();
+    await w.write(JSON.stringify(output, null, 2));
+    await w.close();
+    origProjectConfig = JSON.parse(JSON.stringify(workingProjectConfig));
+  } catch (e) {
+    throw new Error('Failed to save project.config.json: ' + e.message);
+  }
+}
+
+function generalPreview() {
+  if (!rootHandle) return;
+  const output = {};
+  for (const [key, val] of Object.entries(workingProjectConfig)) {
+    output[key] = val;
+  }
+  showModal('project.config.json', JSON.stringify(output, null, 2));
+}
+
+function generalReset() {
+  if (!rootHandle) return;
+  if (!confirm('Discard unsaved general settings changes?')) return;
+  workingProjectConfig = JSON.parse(JSON.stringify(origProjectConfig));
+  selectedLandingPage = workingProjectConfig.landingPage || 'Index';
+  renderNotesList(document.getElementById('landingPageSearch').value);
+  updateUnsavedBanner();
+  document.getElementById('generalSaveBtn').disabled = true;
+  document.getElementById('generalResetBtn').disabled = true;
+  setCardStatus('generalCardStatus', '↩ General settings reset.', 'info');
+}
+
+function renderNotesList(filter) {
+  const listEl = document.getElementById('notesList');
+  const q = (filter || '').toLowerCase();
+  listEl.innerHTML = '';
+
+  document.getElementById('landingPageSelectedLabel').textContent = selectedLandingPage;
+
+  const filtered = q ? allKnownNotes.filter(n => n.toLowerCase().includes(q)) : allKnownNotes;
+
+  if (filtered.length === 0) {
+    listEl.innerHTML = '<div style="padding:12px;color:#6a6050;font-size:0.82rem;text-align:center">No matching notes.</div>';
+    return;
+  }
+
+  for (const note of filtered) {
+    const item = document.createElement('div');
+    const noteSlug = note.split('/').pop();
+    const isSelected = noteSlug === selectedLandingPage;
+    item.style.cssText = 'padding:5px 10px; cursor:pointer; border-radius:4px; font-size:0.82rem; transition:background 0.1s; display:flex; align-items:center; gap:8px';
+    const dot = document.createElement('span');
+    dot.textContent = isSelected ? '●' : '○';
+    dot.style.cssText = 'color:' + (isSelected ? '#a67c00' : '#4a4438') + '; font-size:0.65rem; flex-shrink:0';
+    const label = document.createElement('span');
+    label.textContent = note;
+    item.appendChild(dot);
+    item.appendChild(label);
+    item.addEventListener('mouseenter', () => { if (!isSelected) item.style.background = '#2a2a2a'; });
+    item.addEventListener('mouseleave', () => { item.style.background = ''; });
+    item.addEventListener('click', () => {
+      const noteSlug = note.split('/').pop();
+      selectedLandingPage = noteSlug;
+      workingProjectConfig.landingPage = noteSlug;
+      renderNotesList(document.getElementById('landingPageSearch').value);
+      updateUnsavedBanner();
+      document.getElementById('generalSaveBtn').disabled = false;
+      document.getElementById('generalResetBtn').disabled = false;
+    });
+    listEl.appendChild(item);
+  }
+}
+
+function filterNotesList() {
+  renderNotesList(document.getElementById('landingPageSearch').value);
+}
+
+// ══════════════════════════════════════════════════
 // Events
 // ══════════════════════════════════════════════════
 openBtn.addEventListener('click', openProject);
@@ -9754,6 +10246,25 @@ resetBtn.addEventListener('click', resetConfig);
 featuresSaveBtn.addEventListener('click', featuresSave);
 featuresPreviewBtn.addEventListener('click', featuresPreview);
 featuresResetBtn.addEventListener('click', featuresReset);
+document.getElementById('generalSaveBtn').addEventListener('click', async () => {
+  if (!rootHandle) return;
+  try {
+    document.getElementById('generalCardStatus').className = 'card-status info';
+    document.getElementById('generalCardStatus').textContent = '💾 Saving…';
+    await saveProjectConfig();
+    updateUnsavedBanner();
+    document.getElementById('generalSaveBtn').disabled = true;
+    document.getElementById('generalResetBtn').disabled = true;
+    document.getElementById('generalCardStatus').className = 'card-status success';
+    document.getElementById('generalCardStatus').textContent = '✅ Saved! Commit and push.';
+  } catch (e) {
+    document.getElementById('generalCardStatus').className = 'card-status error';
+    document.getElementById('generalCardStatus').textContent = '❌ ' + e.message;
+  }
+});
+document.getElementById('generalPreviewBtn').addEventListener('click', generalPreview);
+document.getElementById('generalResetBtn').addEventListener('click', generalReset);
+document.getElementById('landingPageSearch').addEventListener('input', filterNotesList);
 document.getElementById('expandAllBtn').addEventListener('click', () => {
   document.querySelectorAll('.tree-children').forEach(el => el.classList.add('open'));
   document.querySelectorAll('.chevron').forEach(el => { if (el.textContent === '▶') el.classList.add('expanded'); });

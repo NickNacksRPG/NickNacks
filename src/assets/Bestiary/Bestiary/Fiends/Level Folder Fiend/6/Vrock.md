@@ -44,4 +44,4 @@ As a standard action, a vrock an affect all creatures within its [[Reach|natural
 <span style="color:rgb(103, 254, 120)">Feats</span> - [[Maneuver Versatility]], [[Sniper]], [[Maneuver Master]]
 <span style="color:rgb(103, 254, 120)">Skills</span> - +10 [[+Perception]], +11 [[+Acrobatics]], +11 [[+Stealth]] +9 [[+Cryptozoology]], +9 [[+Athletics]]
 
-![[Pasted image 20251011225922.png|366]]
+![[pf2e vrock.png|366]]

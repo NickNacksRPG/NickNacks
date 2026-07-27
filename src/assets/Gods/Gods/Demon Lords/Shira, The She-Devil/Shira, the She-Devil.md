@@ -1,5 +1,5 @@
 ---
-icon: fox.svg
+icon: fox
 ---
 Shira is the demon lord most known for making deals with mortals, and with subterfuge. A master of disguise, Shira always finds a way to hide amongst the crowd in parties held by those in the highest echelons of society. She will somehow simultaneously be the most beautiful and second most beautiful lady attending the party at once. More if she so desires.
 

@@ -1,3 +1,6 @@
+---
+icon: theater-curtains
+---
 An actor is not merely a performer. These jesters use their voice and appearance to cause confusion in all but the most perceptive bunch. Throw your voice and rapidly change who you are on a dime to make people think they are interacting with many people. Actors can pull all kinds of ridiculous stunts to get them into and out of trouble.
 ## <span style="color:rgb(103, 254, 120)">1 - Everyone, Everywhere, All at Once</span> ([[Su]])
 Your proficiency in disguise is unmatched. You can make a disguise as a swift action. Not only that, but you can be two people at once! This typically only functions with a singular person. You can change appearances and positions such that as long as both of your disguised personas are not visible at once, you can effectively inhabit both of them. In such scenarios you typically cause people to keep turning around to face whoever is speaking.

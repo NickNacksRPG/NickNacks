@@ -1,5 +1,5 @@
 ---
-icon: scroll
+icon: scroll-quill
 aliases:
   - summoning sickness
 ---

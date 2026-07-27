@@ -1,4 +1,5 @@
 ---
+icon: crossbow
 aliases:
   - ranged
   - range

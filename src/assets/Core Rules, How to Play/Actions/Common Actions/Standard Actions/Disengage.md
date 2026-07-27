@@ -1,1 +1,4 @@
+---
+icon: 🏳️
+---
 Your movement is [[Elusive]] this turn.

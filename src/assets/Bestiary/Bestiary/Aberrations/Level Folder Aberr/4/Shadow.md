@@ -40,4 +40,4 @@ When copying a creature, treat its [[+Disguise]] roll as 26.
 <span style="color:rgb(103, 254, 120)">Feats</span> - [[Unarmed Combatant]], [[Bonded Mind]], [[Feint Partner]]
 <span style="color:rgb(103, 254, 120)">Skill </span>- +6 [[+Perception]], +6 [[+Deception]], +8 [[+Stealth]]
 
-![[image.avif|Shide, from the anime, [Summertime Render](https://myanimelist.net/anime/47194/Summertime_Render)|321]]
+![[shide.avif|Shide, from the anime, [Summertime Render](https://myanimelist.net/anime/47194/Summertime_Render)|321]]

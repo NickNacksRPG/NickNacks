@@ -1,3 +1,6 @@
+---
+icon: broken-heart
+---
 Certain monster abilities, as well as the defeated condition, give permanent debuffs to characters. These debuffs represent physical/mental wear and tear beyond the catch-all of hp. The longer you are away from home, the more debuffs you are likely going to accrue.
 
 Debuffs universally MUST have some finite method of curing them. Many of them can be cured just by taking a day off: Spend a night at the local bar or brothel, spend time with family, visit a theme park etc. Others require something more specific. Debuffs come in tiers, the higher the tier, the greater the debuff.

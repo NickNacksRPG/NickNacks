@@ -1,3 +1,6 @@
+---
+icon: spy
+---
 The spy is primarily concerned with information gathering and can do so in many ingenious ways. Their signature ability is the most powerful and versatile scrying effect in the entire game, allowing them to witness people and locations from the safety of their home.
 ## <span style="color:rgb(103, 254, 120)">1 - MM: Glass Reflection</span> [[Scrying]]
 This ability and its progression are pretty complicated. See [[Glass Reflection]] subsection for details.

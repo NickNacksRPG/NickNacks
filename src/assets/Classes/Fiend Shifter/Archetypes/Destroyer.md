@@ -1,3 +1,6 @@
+---
+icon: mouth-watering
+---
 Destroyer shifters are the most monstrous of all fiend shifters. They specialize in destruction, feats of strength and striking fear in the hearts of their enemies. Destroyer abilities are inspired by fiendish, animalistic and monstrous creatures with little more than the desire to kill.
 
 ## <span style="color:rgb(103, 254, 120)">1 - Techniques</span>

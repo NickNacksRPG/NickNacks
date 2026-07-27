@@ -1,3 +1,6 @@
+---
+icon: 🪴
+---
 The plant people
 
 | Language | Sylvan |

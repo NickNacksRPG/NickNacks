@@ -1,3 +1,6 @@
+---
+icon: frog
+---
 Ever since his rebranding from the god of death back in the old days, Frogg has grown a lot more popular.
 
 Frogg Saran is chaos incarnate. He is known to give blessings and curses in equal measure. 

@@ -1,3 +1,6 @@
+---
+icon: oni
+---
 Youkai shifters have a powerful being sealed inside of them. As their relationship deepens, so too does their power. Youkai abilities are inspired by Japanese folklore.
 ## <span style="color:rgb(103, 254, 120)">1 - Imprisonment</span>
 By [[Concentration|concentrating]], you can enter your own mind, allowing you to communicate directly with your youkai spirit in its prison. Youkai spirits tend to be powerful [[fiends]] unwillingly sealed inside of creatures to harness their power and keep it away.

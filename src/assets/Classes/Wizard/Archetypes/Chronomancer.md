@@ -1,3 +1,6 @@
+---
+icon: sands-of-time
+---
 Chronomancers manipulate time and space.
 ## <span style="color:rgb(103, 254, 120)">1 - Cutting Edge of Time</span>
 You must select [[God Mode]] as your technique tree used with Cutting Edge.

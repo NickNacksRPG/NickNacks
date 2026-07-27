@@ -13031,15 +13031,20 @@
           "title": "+Minigames",
           "path": "Minigames/+Minigames.md",
           "fileName": "+Minigames.md",
-          "color": "#9d26aa"
+          "icon": "riotgames",
+          "color": "#9d26aa",
+          "iconSvg": "icons/riotgames.svg",
+          "iconType": "svg"
         },
         {
           "id": "Arm Wrestling",
           "title": "Arm Wrestling",
           "path": "Minigames/Arm Wrestling.md",
           "fileName": "Arm Wrestling.md",
-          "icon": "LiBicepsFlexed",
-          "color": "#9d26aa"
+          "icon": "epicgames",
+          "color": "#aa2626",
+          "iconSvg": "icons/epicgames.svg",
+          "iconType": "svg"
         },
         {
           "id": "D420",
@@ -13065,8 +13070,8 @@
       "expanded": false,
       "noteCount": 8,
       "color": "#9d26aa",
-      "icon": "gamepad",
-      "iconSvg": "icons/gamepad.svg",
+      "icon": "Games",
+      "iconSvg": "icons/Games.svg",
       "iconType": "svg"
     },
     {

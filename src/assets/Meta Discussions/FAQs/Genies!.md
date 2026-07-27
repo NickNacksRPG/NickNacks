@@ -1,3 +1,6 @@
+---
+icon: 🧞‍♂️
+---
 Here I put a bunch of soft measurements for how wishes are treated in various forms of media. 
 For distribution, red means its widely distributed ruining a bit of the mystique behind the wish. Green properly restricts access to wishes.
 For limitations, red means that there are numerous limitations, making the wish feel a lot less wish-y with how little it can do. Green means little to no limitation.

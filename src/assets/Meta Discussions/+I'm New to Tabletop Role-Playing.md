@@ -1,3 +1,6 @@
+---
+icon: baby-face
+---
 Welcome! This section will assume you know basically nothing.
 ## <span style="color:rgb(103, 254, 120)">What is a Tabletop Role-Playing Game (TTRPG)</span>
 Anybody can play pretend (role-play), but without any structure, things tend to fall apart. TTRPGs seek to create a foundation for you to make stories with your friends (game). They are designed to be played with pen, paper and dice (hence tabletop), but such things can also be substituted for dice rolling programs, word documents for character sheets and sharing your screen over discord for battle maps.

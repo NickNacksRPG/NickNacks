@@ -70,6 +70,8 @@ function replacePlaceholders(content, config, isDev) {
   result = result.replace(/\{\{PROJECT_KEYWORDS\}\}/g, config.keywords);
   result = result.replace(/\{\{PROJECT_FULL_TITLE\}\}/g, `${config.projectName} - ${config.tagline}`);
   result = result.replace(/\{\{PROJECT_BASE_PATH\}\}/g, projectBasePath);
+  const landingSlug = config.landingPage ? config.landingPage.split('/').pop() : 'Index';
+  result = result.replace(/\{\{LANDING_PAGE\}\}/g, landingSlug);
   
   return result;
 }

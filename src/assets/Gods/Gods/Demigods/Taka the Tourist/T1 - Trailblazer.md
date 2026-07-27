@@ -1,4 +1,5 @@
 ---
+icon: trail
 aliases:
   - Trailblazer
 ---

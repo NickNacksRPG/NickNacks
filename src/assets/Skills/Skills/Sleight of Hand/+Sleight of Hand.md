@@ -1,4 +1,5 @@
 ---
+icon: padlock-open
 aliases:
   - SoH
 ---

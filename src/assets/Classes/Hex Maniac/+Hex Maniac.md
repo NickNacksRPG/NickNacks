@@ -1,3 +1,6 @@
+---
+icon: nested-hexagons
+---
 Hex maniacs are are mages that primarily utilize [[curse]] effects and [[alchemy]] in order to differentiate themselves from other mages. They can turn parts of creatures into useful and unusual potions or poisons, and they can inflict all kinds of colorful permanent debuffs on creatures.
 
 | [[+HP]] (specialist)     | 20(+6 per level) |

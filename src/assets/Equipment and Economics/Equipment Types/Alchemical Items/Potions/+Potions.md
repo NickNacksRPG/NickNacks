@@ -1,4 +1,5 @@
 ---
+icon: health-potion
 aliases:
   - potions
   - potion

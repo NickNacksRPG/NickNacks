@@ -1,3 +1,6 @@
+---
+icon: crowned-skull
+---
 The bone zone race.
 
 | Language              | Necril                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |

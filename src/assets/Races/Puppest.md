@@ -1,3 +1,6 @@
+---
+icon: sitting-dog
+---
 Legally distinct fiendish furry.
 
 | Language | Infernal                                                                                              |

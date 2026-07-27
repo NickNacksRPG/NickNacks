@@ -1,1 +1,1 @@
-This effect bypasses AC, poise and saving throws to (almost) automatically deal damage.
+This effect bypasses AC, poise and saving throws to automatically deal damage, unless the effect is outright negated (via something like [[dispel]] for instance).

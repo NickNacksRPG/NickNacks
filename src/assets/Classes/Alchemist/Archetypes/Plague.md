@@ -1,3 +1,6 @@
+---
+icon: biohazard
+---
 Plague alchemists use their mastery over toxic substances to melt their enemies. They have incredible damage potential in drawn out fights without healers.
 ## <span style="color:rgb(103, 254, 120)">1 - Toxic to the Touch </span> ([[Su]]) ([[Poison]])
 Whenever a creature fails a saving throw against one of your spells that deals damage, or [[On-hit]], it applies a stack of <span style="color:rgb(192, 0, 0)">Toxic</span>. For the next minute, they take poison damage equal to the stacks of toxic they have at the start of each of their turns. Toxic damage also applies an additional toxic stack each round, but it does not extend its duration.

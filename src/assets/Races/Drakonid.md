@@ -1,3 +1,6 @@
+---
+icon: dragon
+---
 The regal draconic scalies.
 
 | Language    | Draconic                                      |

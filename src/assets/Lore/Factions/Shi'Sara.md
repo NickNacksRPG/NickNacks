@@ -1,3 +1,6 @@
+---
+icon: hunter-eyes
+---
 The Shi'Sara dark elves lived primarily in frozen caverns in the far northern regions of [[The Land of Frost]] and [[The Land of Storms]]. Like most dark elves, they came to prominence during the end of [[1. The Age of Dragons|The Age of Dragons]], and dominated the world during [[2. The Age of Underground|The Age of Underground]]. During [[4. The Age of Darkness|The Age of Darkness]], they emerged from their prison in [[The Shadow Realm]] in order to wreak havoc once again. The Shi'Sara typically have light gray almost purple skin, with those closer to the royal family having a blueish tinge to it. Most have silver or white hair.
 
 The Shi'Zen are led by a royal family of matriarchs by the same name. The Shi'Zen royal family are known for inventing [[Fleshwarping]], a type of [[Alchemy]] that permanently changes creatures into monsters. As such, the Shi'Sara rarely kill, making sure to capture creatures that can later be molded into more useful and obedient beasts for battle. Because of the blessings they received from [[The Spider Queen]] ages ago, the royal family matriarchs are a mix between the torso of an elf and the body/legs of spider. This popular type of hybrid is known as a Drider.

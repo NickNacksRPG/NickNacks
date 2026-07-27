@@ -1,3 +1,6 @@
+---
+icon: gooey-daemon
+---
 This archetype _replaces_ all of the following class features from the base shifter class.
 
 <span style="color:rgb(192, 0, 0)">Beast companion, nature stride and uncanny dodge.</span>

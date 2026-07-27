@@ -1,3 +1,6 @@
+---
+icon: hand-sparkles
+---
 The telekineticist is most concerned with how their mental mastery can affect the physical world. They can manifest these psychic powers through telekinetic projections, both visible and invisible, to move things with their mind.
 ## <span style="color:rgb(103, 254, 120)">1 - Telekinetic Blast</span> ([[Su]])
 As a standard action you attack a foe within 30 ft by flinging an sharp, pointy or heavy object at them. The attack uses either str or dex as your attacking stat. If the creature is within reach, it can be a melee or ranged attack. If the creature is out of reach, it counts as a ranged attack. It's damage is 2d6+str/dex, increasing by d6 at level 3, and another d6 every odd level. The damage type is determined by the type of object you throw at your enemy.

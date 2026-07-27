@@ -1,4 +1,5 @@
 ---
+icon: backpack
 aliases:
   - inventory slot
   - inventory slots

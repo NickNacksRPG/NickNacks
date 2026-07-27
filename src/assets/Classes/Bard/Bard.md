@@ -1,3 +1,6 @@
+---
+icon: musical-notes
+---
 Carry your party, your town, or perhaps even the whole world with inspiring tunes. Bards excel when in the middle of their team jamming away to buff their allies and bother their enemies. They also excel at manipulating others, some through clever wordplay or song, and others through magic.
 
 | [[+HP]] (mixed)          | 20(+8 per level) |

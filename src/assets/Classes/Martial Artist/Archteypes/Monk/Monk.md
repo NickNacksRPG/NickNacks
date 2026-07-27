@@ -1,3 +1,6 @@
+---
+icon: bxs-yin-yang
+---
 A monk is an unarmed fighter that chooses to not only hone their body into a perfect weapon, but also their spirit. Be it through the exploration of the self or the deprivation of worldly pleasures, these warriors unlock spiritual powers that work in tandem with their highly mobile, up close and personal fighting style. The monk has a fuzzy core identity, but makes up for it with significant versatility.
 ## <span style="color:rgb(103, 254, 120)">1 - First Strike: Dazing Fist</span>
 Your first unarmed attack you land on a creature has a bonus [[On-hit]] effect. This effect can only be applied to a creature 1/day.

@@ -17,7 +17,7 @@ Role: [[+Artillery]]
 |                                                    | d8+3 (7) |     |
 <span style="color:rgb(192, 0, 0)">Innate Techniques</span> - [[Reckless Charge]]
 
-<span style="color:rgb(192, 0, 0)">Torture Ends</span> [[Su]], [[Fire]] - Make a [[charge]] attack against a creature. After the charge is resolved, explode violently, dealing 2d6 (7) fire damage and setting the creature ablaze (reflex halves damage and negates ablaze). Cannot be used if cannot charge.
+<span style="color:rgb(192, 0, 0)">Torture Ends</span> [[Su]], [[Fire]] - Make a [[charge]] attack against a creature. After the charge is resolved, explode violently, dealing 2d6 (7) fire damage and setting the creature [[ablaze]] (reflex halves damage and negates ablaze). Cannot be used if cannot charge.
 ## <span style="color:rgb(247, 138, 255)">Weaknesses/Deep Lore</span>
 
 [[Weakness]] - Holy 3, Water

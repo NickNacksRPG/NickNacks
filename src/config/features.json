@@ -72,5 +72,5 @@
   "tree_colors": true,
   "tree_icons": true,
   "collapse_all": true,
-  "show_tree_search_hierarchy": true
+  "show_tree_search_hierarchy": false
 }

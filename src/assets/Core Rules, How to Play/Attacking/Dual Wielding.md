@@ -1,4 +1,5 @@
 ---
+icon: dervish-swords
 aliases:
   - dual wield
   - dual wields

@@ -1,3 +1,6 @@
+---
+icon: pay-money
+---
 An expert thief, a blur of shadows around the battlefield taking everything their opponents have and stepping back before they realize what happened.
 Your very shadow steps out to reach into people's pockets when they aren't looking.
 ## <span style="color:rgb(103, 254, 120)">1 - Shadow</span> [[Su]]

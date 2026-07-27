@@ -10,7 +10,7 @@ Action: Standard
 Your body undergoes a rapid transformation to be completely made of metal.
 You gain the following benefits…
 * You do not possess biology, and therefore cannot be [[Venom|envenomed]], [[Bleeding|bleed]], suffocated etc. Any non-permanent instance of these effects immediately ends on cast. Permanent instances are suppressed for the duration.
-* [[Resistance]] to all physical damage unless it originates from a weapon of adamantine or greater toughness
+* [[Resistance]] to all physical damage unless it originates from a weapon of adamantine or greater toughness (see [[Breaking Objects]])
 * Resistance to all [[poise]] damage
 
 And the following drawbacks…

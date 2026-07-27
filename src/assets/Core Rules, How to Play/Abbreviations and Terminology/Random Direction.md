@@ -5,6 +5,6 @@ Nick Nacks is expected to take place on a grid, either with hexes or squares. As
 Since most of the time horizontal movement is all that matters, directions pushing up or down should not be considered unless you're feeling wild.
 
 Here are some diagrams to help visualize.
-![[{D74BC3E6-7CAA-44FD-862C-0CFD92A854B9}.png|Hexes|455]]
+![[spaces shroom.png|Hexes|455]]
 
-![[{DF9BAAF4-7668-4FFE-ADBC-02C9D2E9D634}.png|Squares]]
+![[spaces square shroom.png|Squares]]

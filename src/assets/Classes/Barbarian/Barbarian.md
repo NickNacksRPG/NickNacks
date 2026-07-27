@@ -1,3 +1,6 @@
+---
+icon: enrage
+---
 Throw caution to the wind and run directly into the middle of the action. The barbarian specializes in drawing aggro and CCing enemies with a high emphasis on breaking poise. Their exceptionally high longevity assures that being focused is the only reliable way to take them down, and that’s exactly what barbarians want.
 
 | [[+HP]] (brute)          | 20(+12 per level) |

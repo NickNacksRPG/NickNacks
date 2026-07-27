@@ -36,4 +36,4 @@ Constant - [[Heavens' Vengeance]]
 <span style="color:rgb(103, 254, 120)">Feats</span> - [[MM Bouncing Spell]], [[MM Sniping]], [[Callous Casting]], [[Ghostbuster]]
 <span style="color:rgb(103, 254, 120)">Skills</span> - +10 [[+Perception]], +13 [[+Athletics]], +13 [[Arcana]], +13 [[+Planes]], +13 [[+Religion]], +13 [[+Linguistics]]
 
-![[{3CF5222C-5E05-4E7D-8D8F-A09660B28792}.png|Despicable Dreadlord, by Konstantin Turovec for [Hearthstone](https://hearthstone.wiki.gg/wiki/Despicable_Dreadlord)]]
+![[hearthstone dreadlord.png|Despicable Dreadlord, by Konstantin Turovec for [Hearthstone](https://hearthstone.wiki.gg/wiki/Despicable_Dreadlord)]]

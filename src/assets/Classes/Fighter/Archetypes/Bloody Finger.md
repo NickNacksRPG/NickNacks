@@ -1,3 +1,6 @@
+---
+icon: bloody-sword
+---
 Suddenly end fights with the power explode creatures into bloody chunks long after you cut them with your blade. Gank people from across the realm who dare intrude upon your territory.
 
 ![[Bloody Finger.png|By [Kero](https://danbooru.donmai.us/posts/5699012)|412]]

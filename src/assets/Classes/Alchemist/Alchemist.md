@@ -1,5 +1,5 @@
 ---
-icon: RaPotion
+icon: dripping-tube
 ---
 Alchemist is a hybrid class with the potential to branch in many directions depending on the desired play style. Using the power of SCIENCE you can create friends, enhance your friends, yourself or you can manipulate the world around you in a variety of creative ways.
 

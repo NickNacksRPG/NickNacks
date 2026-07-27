@@ -10,8 +10,8 @@ Role: [[+Bruiser]]/[[Boss]]
 | <span style="color:rgb(0, 176, 240)">Poise</span> | 30                        |                 |
 | <span style="color:rgb(0, 176, 240)">Saves</span> | Fort +8, Refl +6, Will +4 | +4 [[Fear]]     |
 [[Ferocity]]
-<span style="color:rgb(0, 176, 240)">Naked Courage </span>- When not wearing armor, an orc chieftain gets [[Resistance]] fear, pierce, slash and crush damage.
-## <span style="color:rgb(192, 0, 0)">Offense Traits (DC 15)</span>
+<span style="color:rgb(0, 176, 240)">Naked Courage </span>- When not wearing armor, an orc chieftain gets [[Resistance]] fear, [[poise]], pierce, slash and crush damage.
+## <span style="color:rgb(192, 0, 0)">Offense Traits (DC 16)</span>
 
 | <span style="color:rgb(192, 0, 0)">Greataxe (S)</span>          | +6         | +4 [[Maneuver Versatility\|MV]], +2 Combat Maneuvers, +2 [[Topple]], +2 Vengeful |
 | --------------------------------------------------------------- | ---------- | -------------------------------------------------------------------------------- |

@@ -1,3 +1,6 @@
+---
+icon: potion-ball
+---
 Come in several different categories based on their typical use case.
 
 The format includes the items name, the DC to craft it and its cost to purchase.

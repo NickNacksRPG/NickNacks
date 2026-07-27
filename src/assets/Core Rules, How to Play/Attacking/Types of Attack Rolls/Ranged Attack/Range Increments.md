@@ -1,4 +1,5 @@
 ---
+icon: 📐
 aliases:
   - range increment
 ---

@@ -71,6 +71,35 @@
         history.replaceState(null, '', decodeURIComponent(redirect));
       }
     })();
+
+    // Landing page redirect: if we're at the bare root URL, go to the
+    // configured landing page. This runs before Angular bootstraps so
+    // the router sees the correct URL immediately.
+    // Wolf is injected by the template processor from project.config.json.
+    (function() {
+      var landingPage = 'Wolf';
+      console.log('[landing:inline] Wolf resolved to:', landingPage);
+      if (landingPage) {
+        var currentPath = window.location.pathname.replace(/\/+/g, '/').replace(/\/$/, '');
+        var slug = 'Nick-Nacks';
+        var basePath = '/'.replace(/\/$/, '') || '';
+        console.log('[landing:inline] slug:', slug, 'currentPath:', currentPath, 'basePath:', basePath);
+        // Check if we're at root (no specific content path)
+        // We need to check both the bare root AND the GitHub Pages repo subpath
+        var isRoot = currentPath === '' || currentPath === '/' || currentPath === '/index.html' ||
+                     currentPath === '/' + slug || currentPath === basePath ||
+                     currentPath === basePath + '/' || currentPath.endsWith('/' + slug) ||
+                     (basePath && currentPath === basePath.split('?')[0]);
+        console.log('[landing:inline] isRoot:', isRoot);
+        if (isRoot) {
+          var newUrl = basePath + '/' + slug + '/' + landingPage;
+          console.log('[landing:inline] redirecting to:', newUrl);
+          history.replaceState(null, '', newUrl);
+        }
+      } else {
+        console.log('[landing:inline] skipping — landingPage is:', landingPage);
+      }
+    })();
   </script>
   
   <!-- Structured Data (Schema.org) -->

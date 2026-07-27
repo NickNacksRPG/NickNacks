@@ -1,3 +1,6 @@
+---
+icon: card-pick
+---
 Roll your D20s!
 
 | #   | Name                | Effect                                                                                                                                                          |

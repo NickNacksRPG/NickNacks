@@ -1,4 +1,5 @@
 ---
+icon: checkered-flag
 aliases:
   - race
 ---

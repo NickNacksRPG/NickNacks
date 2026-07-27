@@ -594,8 +594,19 @@ function applyFolderColors(nodes, folderColors, parentPath, inheritedColor, inhe
       applyFolderColors(node.children, folderColors, folderPath, node.color, undefined);
     } else {
       // This is a note — it only inherits color from its parent folder
-      // (icon is NEVER inherited, only frontmatter icons or nothing)
+      // (icon is NEVER inherited, only frontmatter icons)
       if (inheritedColor) node.color = inheritedColor;
+      
+      // Check for an explicit color override in folder-metadata.json
+      const notePath = parentPath ? `${parentPath}/${node.id}` : node.id;
+      const noteConfig = folderColors[notePath];
+      if (noteConfig) {
+        if (typeof noteConfig === 'string') {
+          node.color = noteConfig;
+        } else if (typeof noteConfig === 'object' && noteConfig.color) {
+          node.color = noteConfig.color;
+        }
+      }
     }
   }
 }

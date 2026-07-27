@@ -46,7 +46,7 @@
     "icon": "🪴"
   },
   "Bestiary/Bestiary/Undead": {
-    "icon": "ghost"
+    "icon": "💀"
   },
   "Bestiary/Environmental Hazards": {
     "icon": "🌊"
@@ -122,7 +122,7 @@
     "icon": "🥋"
   },
   "Classes/Martial Artist/Archteypes/Monk": {
-    "icon": "☯️"
+    "icon": "bxs-yin-yang"
   },
   "Classes/Martial Artist/Archteypes/Wrestler": {
     "icon": "luchador"
@@ -149,7 +149,7 @@
     "icon": "spy"
   },
   "Classes/Rogue": {
-    "icon": "bx-mask"
+    "icon": "domino-mask"
   },
   "Classes/Shapeshifter": {
     "icon": "wolf-howl"
@@ -215,7 +215,8 @@
     "icon": "sparky-bomb"
   },
   "Equipment and Economics/Equipment Types/Alchemical Items/Other Utility": {
-    "color": "#fbff00"
+    "color": "#fbff00",
+    "icon": "toolbox"
   },
   "Equipment and Economics/Equipment Types/Armor and Shield Rules": {
     "color": "#fbff00",
@@ -294,7 +295,7 @@
   },
   "Equipment and Economics/Equipment Types/Goods and Services": {
     "color": "#fbff00",
-    "icon": "🪨"
+    "icon": "envelope"
   },
   "Equipment and Economics/Equipment Types/Mundane Items": {
     "color": "#fbff00",
@@ -305,7 +306,8 @@
     "icon": "crossed-swords"
   },
   "Equipment and Economics/Equipment Types/Weapons/Exotic Weapons": {
-    "color": "#fbff00"
+    "color": "#fbff00",
+    "icon": "gun"
   },
   "Equipment and Economics/Equipment Types/Weapons/Special Attacks": {
     "color": "#fbff00",
@@ -460,7 +462,7 @@
   },
   "Skills/Skills/Knowledge/Cryptozoology": {
     "color": "#c500ff",
-    "icon": "floating-tentacles"
+    "icon": "spaghetti-monster-flying"
   },
   "Skills/Skills/Knowledge/Engineering": {
     "color": "#c500ff",
@@ -582,7 +584,7 @@
   },
   "Techniques/Magical Techniques/Moogen": {
     "color": "#00b0f0",
-    "icon": "👁️"
+    "icon": "abstract-024"
   },
   "Techniques/Magical Techniques/Mother Earth": {
     "color": "#00b0f0",
@@ -590,7 +592,7 @@
   },
   "Techniques/Magical Techniques/Nack": {
     "color": "#00b0f0",
-    "icon": "party-popper"
+    "icon": "🎉"
   },
   "Techniques/Magical Techniques/Necromancy": {
     "color": "#00b0f0",
@@ -658,7 +660,7 @@
   },
   "Techniques/Martial Techniques/Unarmed": {
     "color": "#00b0f0",
-    "icon": "fist"
+    "icon": "hand-fist"
   },
   "Techniques/Technique Rules": {
     "color": "#00b0f0"
@@ -766,7 +768,7 @@
     "icon": "abstract-024"
   },
   "Gods/Gods/Demon Lords/Shira, The She-Devil": {
-    "icon": "fox-tail"
+    "icon": "fox"
   },
   "Gods/Gods/Earthly Deities/Earth Mother": {
     "icon": "🍃"
@@ -775,7 +777,7 @@
     "icon": "🐸"
   },
   "Gods/Gods/Earthly Deities/Hades": {
-    "icon": "ghost"
+    "icon": "hades-symbol"
   },
   "Gods/Gods/Heavenly Deities/Brazzeria": {
     "icon": "🌔"
@@ -785,5 +787,20 @@
   },
   "Meta Discussions/FAQs": {
     "icon": "❓"
+  },
+  "Classes/Healer/Archetypes/mom": {
+    "icon": "hearts-fill"
+  },
+  "Equipment and Economics/Approximating Golds Value/Background": {
+    "icon": "background"
+  },
+  "Gods/Gods/Heavenly Deities/Splendor": {
+    "icon": "🎨"
+  },
+  "Random Charts/Afflictions and Scars": {
+    "icon": "broken-heart"
+  },
+  "Techniques/Magical Techniques/Moogen/level-1": {
+    "icon": "abstract-024"
   }
 }

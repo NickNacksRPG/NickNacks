@@ -1,3 +1,6 @@
+---
+icon: bright-explosion
+---
 Destruction wizards look to win battles by unleashing enormous amounts of damage, usually to large groups of foes.
 ## <span style="color:rgb(103, 254, 120)">1 - With 2 Hands!</span>
 While wielding a [[Staff Component]] in each hand, you increase your [[Caster Level|CL]] by an additional 1 for spells that deal damage. This increases to 2 for spells of your school specialization.

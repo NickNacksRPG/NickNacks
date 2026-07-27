@@ -1,3 +1,6 @@
+---
+icon: 🔥
+---
 ## <span style="color:rgb(103, 254, 120)">1 - Elemental Blast: Fire</span>
 Your damage is fire.
 ## <span style="color:rgb(103, 254, 120)">1 - Elemental Movement: Boost</span>

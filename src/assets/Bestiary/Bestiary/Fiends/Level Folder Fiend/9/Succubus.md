@@ -50,4 +50,4 @@ These stacks disappear once every succubus is [[defeated]].
 <span style="color:rgb(103, 254, 120)">Feats</span> - [[Spell Ambush]], [[Feint Partner]], [[Gang Up]], [[Skill Focus]], [[Perfect Positioning]], [[Take the Hit]]
 <span style="color:rgb(103, 254, 120)">Skills</span> - +13 [[+Perception]], +17 [[+Insight]], +20 ([[Advantage|adv]]) [[+Disguise]], +20 [[+Persuasion]], +20 ([[Advantage|adv]]) [[+Deception]], +14 [[+Local]], +14 [[+Planes]], +14 [[+History]], +14 [[Arcana]]
 
-![[Pasted image 20251011002428.png|Art by me!|511]]
+![[Succ U.png|Art by me!|511]]

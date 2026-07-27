@@ -1,3 +1,6 @@
+---
+icon: eye-target
+---
 Choose a creature you can see. For 1 round you gain the following benefits...
 - Your movement is [[elusive]] to them
 - You can take an immediate action as an instant action 1/turn in response to their actions.

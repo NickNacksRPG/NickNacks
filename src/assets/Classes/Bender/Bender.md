@@ -1,3 +1,6 @@
+---
+icon: 🌦️
+---
 Gain mastery over a specific element, using it as an extension of your own body. Benders use their favored element in order to augment their attacks and movement. They also get unique quirks based off of the qualities of the elements that they bend.
 
 | [[+HP]] (mixed)          | 20(+8 per level) |

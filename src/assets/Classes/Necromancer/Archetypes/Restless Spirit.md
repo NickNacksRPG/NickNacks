@@ -1,3 +1,6 @@
+---
+icon: ghost
+---
 A restless spirit is a bruiser that is designed to get in there an whack some fools. Filled with supernatural abilities that allow you to cheat death.
 
 | [[+HP]] (mixed)          | 20(+8 per level) |

@@ -1,3 +1,6 @@
+---
+icon: ➕
+---
 For more experienced TTRPG players, you might already have a good idea of what you like in a system, so this section will (hopefully) be an easy way to figure out if you will like Nick Nacks.
 ## <span style="color:rgb(103, 254, 120)">Pros</span>
 - <span style="color:rgb(103, 254, 120)">Customization</span> - A robust system designed to be played over and over again with characters that feel different every time. Customization with creative character ideas is the number one thing I set out to accomplish in Nick Nacks.

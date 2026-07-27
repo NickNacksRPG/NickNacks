@@ -25,7 +25,7 @@ Role: [[+Support]]
 1/day - [[Boasting Taunt]], [[Noble Sacrifice]], [[Avenging Wrath]]
 ## <span style="color:rgb(247, 138, 255)">Weaknesses/Deep Lore</span>
 
-<span style="color:rgb(247, 138, 255)">Money Talks</span> -  They are in it for the money, and are more than willing to leave people alone if they are given 100 gold per Bandit Bouncer.
+<span style="color:rgb(247, 138, 255)">Money Talks</span> - They are in it for the money, and are more than willing to leave people alone if they are given 100 gold per Bandit Bouncer.
 ## <span style="color:rgb(103, 254, 120)">Other Traits</span>
 
 <span style="color:rgb(103, 254, 120)">Ability Scores</span> - [[STR]] +3, [[DEX]] +1, [[LUK]] +0, [[INT]] 0, [[WIS]] +0, [[CHA]] +1

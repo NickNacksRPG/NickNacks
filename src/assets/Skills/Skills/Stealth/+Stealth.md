@@ -1,3 +1,6 @@
+---
+icon: hood
+---
 Moving around while remaining unseen. If someone is looking for you in your immediate vicinity and you don't want to be seen, you roll stealth. Uses [[DEX]].
 
 <span style="color:rgb(192, 0, 0)">Special: Stealth and size</span>

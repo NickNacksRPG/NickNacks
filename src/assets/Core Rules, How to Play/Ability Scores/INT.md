@@ -12,6 +12,7 @@ Your knowledge, magical expertise, and logic capacity.
 - You add your INT to you [[Caster Level]]
 ***
 - Negative int subtracts from these values. In particular, you lose max mana equal to your negative int.
+- Mindless creatures (those with a - for their INT score) have -3 CL.
 
 <span style="color:rgb(103, 254, 120)">Intelligence and Sentience</span>
 A creature is considered sentient if it has at least -2 intelligence. These creatures typically do not speak, but can understand at least 1 language.

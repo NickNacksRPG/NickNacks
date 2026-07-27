@@ -1,3 +1,6 @@
+---
+icon: cyborg-face
+---
 The part robot race.
 
 | Language      | Based on creator                                                                                                                                            |

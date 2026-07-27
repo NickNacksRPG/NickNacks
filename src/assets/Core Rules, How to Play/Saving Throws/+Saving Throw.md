@@ -1,4 +1,5 @@
 ---
+icon: save
 aliases:
   - Save
   - Saves

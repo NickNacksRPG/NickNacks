@@ -1,4 +1,5 @@
 ---
+icon: team-upgrade
 aliases:
   - teamwork feat
   - teamwork feats

@@ -1,3 +1,6 @@
+---
+icon: hands-holding-child
+---
 Settlements receive classifications based on population. More populous settlements tend to condense more wealth, have more facilities and are more cosmopolitan. Certain types of services can be expected in larger settlements, but are unheard of in smaller ones.
 
 The settlements of Nack are generally less populous than those in our world, with even the biggest of cities having only hundreds of thousands of people.

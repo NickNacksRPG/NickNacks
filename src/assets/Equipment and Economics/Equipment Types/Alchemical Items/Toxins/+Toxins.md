@@ -1,4 +1,5 @@
 ---
+icon: poison-bottle
 aliases:
   - Toxin
   - toxins

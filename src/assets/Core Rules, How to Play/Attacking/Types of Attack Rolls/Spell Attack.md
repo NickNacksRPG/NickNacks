@@ -1,4 +1,5 @@
 ---
+icon: bolt-spell-cast
 aliases:
   - spell attacks
 ---

@@ -1,3 +1,6 @@
+---
+icon: trail
+---
 Land speed refers to the generic speed most creatures use to walk around.
 
 Default land speed is 30 ft. 

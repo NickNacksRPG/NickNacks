@@ -21,6 +21,7 @@ export interface ProjectConfig {
   author: string;
   tagline: string;
   keywords: string;
+  landingPage: string;
 }
 
 @Injectable({
@@ -104,6 +105,13 @@ export class ProjectConfigService {
    */
   getPageTitle(pageTitle: string): string {
     return `${pageTitle} - ${this.config.projectName}`;
+  }
+
+  /**
+   * Gets the landing page (default note loaded on root URL)
+   */
+  getLandingPage(): string {
+    return this.config.landingPage;
   }
 
   /**

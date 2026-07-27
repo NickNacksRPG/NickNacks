@@ -819,6 +819,14 @@ export class MarkdownService {
   }
 
   /**
+   * Gets the notes tree (array of root-level NoteTreeNode).
+   * Used by sidebar-right to look up folder colors/icons.
+   */
+  public getNotesTree(): NoteTreeNode[] {
+    return this.notesTreeSubject.getValue();
+  }
+
+  /**
    * Gets the notes map (for use by SearchService)
    */
   public getNotesMap(): Map<string, Note> {

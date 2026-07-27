@@ -56,4 +56,4 @@ Whenever a they are subject to a single target effect that inflicts a [[+Status]
 - [[MM Elemental Shift]], 
 <span style="color:rgb(103, 254, 120)">Skills</span> - +12 (adv) [[+Perception]], +18 [[+Athletics]], +17 [[Arcana]], +17 [[+Planes]], +17 [[+Cryptozoology]], +17 [[+Religion]]
 
-![[Pasted image 20251011012428.png|Cho'Gall, Twilight Chieftan, by Alex Horley Orlandelli for [Hearthstone](https://hearthstone.wiki.gg/wiki/Cho%27gall,_Twilight_Chieftain)]]
+![[cho gall.png|Cho'Gall, Twilight Chieftan, by Alex Horley Orlandelli for [Hearthstone](https://hearthstone.wiki.gg/wiki/Cho%27gall,_Twilight_Chieftain)]]

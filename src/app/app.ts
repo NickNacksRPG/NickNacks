@@ -116,6 +116,11 @@ export class App implements OnInit, OnDestroy {
     // Set initial note ID
     const noteId = this.extractNoteIdFromRoute();
     this.currentNoteId.set(noteId);
+
+    // Control vignette overlay via feature flag
+    if (typeof document !== 'undefined') {
+      document.documentElement.classList.toggle('vignette-enabled', this.features.isEnabled('vignette_effect'));
+    }
   }
 
   ngOnDestroy(): void {

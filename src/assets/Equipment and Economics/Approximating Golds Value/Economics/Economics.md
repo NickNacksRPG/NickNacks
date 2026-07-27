@@ -1,3 +1,6 @@
+---
+icon: GraphLineUp
+---
 This section is dedicated to determining income, typically through the use of a skill, like profession, perform or alchemy.
 
 All income is based around a formula which calculates a yearly salary (y) based on your skill bonus (x).

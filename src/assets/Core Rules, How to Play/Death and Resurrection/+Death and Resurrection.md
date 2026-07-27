@@ -1,5 +1,5 @@
 ---
-icon: ⚰
+icon: ⚰️
 ---
 Let's be honest, the purpose of resurrection in TTRPGs is primarily for the benefit of the players. If a GM makes frequent use of the resurrection spells for entities that the players went to great lengths to kill, it heavily undermines their effort and feels terrible, even if plausible. If all it takes is a bunch of money and a cleric, then rich high level players live in a world without death as a consequence for anybody, and that just aint cool in a game about storytelling.
 

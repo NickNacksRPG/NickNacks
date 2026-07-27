@@ -1,3 +1,6 @@
+---
+icon: gooey-daemon
+---
 The the gooey fusion race.
 
 | Language    | Depends on origin race                                                                                                                                                                       |

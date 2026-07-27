@@ -1,3 +1,6 @@
+---
+icon: knight-helmet
+---
 Your armor is a second skin to you. Your armor is also your first skin. The iron knuckle has 2 "phases" to their battles. The first is a walking tank with multiple layers of armor, durable and stubborn until you get to the squishy _single layer_ of plate armor underneath. The second is a nimble warrior that gets a boost of adrenaline, feeling light as a feather just after their outer shell is cracked open.
 
 Iron knuckles are practically invincible to being attacked head on while layered up, and must be ganged up on. Mages will find a much easier time breaking the outer layer.

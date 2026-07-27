@@ -1,4 +1,5 @@
 ---
+icon: fairy-wand
 aliases:
   - cantrip
 ---

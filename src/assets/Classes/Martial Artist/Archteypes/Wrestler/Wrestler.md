@@ -1,3 +1,6 @@
+---
+icon: luchador
+---
 Wrestlers specialize in grappling their foes and doing with them as they please: pinning them to the ground, tossing them into the air and bending them into pretzels.
 ## <span style="color:rgb(103, 254, 120)">1 - Grapplemancer</span>
 Gain the [[Maneuver Versatility]] and [[Tangled]] feats. The tangled feat's bonuses last until the start of your turn whenever you succeed on a grapple, regardless of if you maintain the grapple.

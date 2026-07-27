@@ -1,3 +1,6 @@
+---
+icon: curled-tentacle
+---
 [[Shira, the She-Devil]]'s chosen, able to mimic her ability to summon spectral tendrils. The animancer uses these tendrils in order to deal any damage, using their spells in order to debilitate enemies. The deeper into progression the more powerful and versatile the tendrils become. In addition, the animancer can create a cult following of sorts that increases their influence. 
 
 | [[+HP]] (specialist)     | 20(+6 per level) |

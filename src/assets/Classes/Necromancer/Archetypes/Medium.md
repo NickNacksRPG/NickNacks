@@ -1,3 +1,6 @@
+---
+icon: bxs-ghost
+---
 Mediums go all in on casting. They also have several unique abilities that give them insight into the dead.
 
 | [[+HP]] (specialist)     | 20(+6 per level) |

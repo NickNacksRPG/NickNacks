@@ -1,4 +1,5 @@
 ---
+icon: falling
 aliases:
   - slippery surface
 ---

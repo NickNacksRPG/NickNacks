@@ -1,3 +1,6 @@
+---
+icon: 🦕
+---
 The ancient secrets of dinomancy are laid before you. Gain a set of unique and powerful abilities that your companion can swap between based on the unique traits of dinosaurs. Increase to massive size to tower over your foes.
 ## <span style="color:rgb(103, 254, 120)">1 - Dinosize</span> [[Su]]
 Your [[Beast Companion]] must be a dinosaur of some kind.

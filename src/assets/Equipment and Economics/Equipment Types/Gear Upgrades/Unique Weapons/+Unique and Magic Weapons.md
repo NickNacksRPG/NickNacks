@@ -1,3 +1,6 @@
+---
+icon: magic-axe
+---
 A category for things you make attacks with. Includes staves, swords and bows alike.
 
 I'm not opposed to changing some of the details of many of these weapons, like changing their qualities if you're a grapple focused build to give it CM (grapple) instead of one of its default properties.

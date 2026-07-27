@@ -1,4 +1,5 @@
 ---
+icon: daggers
 aliases:
   - melee attacks
   - melee

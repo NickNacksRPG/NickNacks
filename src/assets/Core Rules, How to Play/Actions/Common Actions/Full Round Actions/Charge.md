@@ -1,4 +1,5 @@
 ---
+icon: charging-bull
 aliases:
   - charging
   - charges
@@ -7,4 +8,4 @@ Move at twice your speed in a straight line, halting when your foe is adjacent, 
 
 Charging is reckless, so creatures get a +2 bonus to [[attack]] against you until the start of your next turn. If your charge gets interrupted for whatever reason, you must make your attack(s) from your halted position. You cannot charge a creature that is already adjacent to you.
 
-Charge consumes all your movement, making it incompatible with any abilities that "consume"  or limit movement for some other type of benefit.
+Charge consumes all your movement, making it incompatible with any abilities that "consume" or limit movement for some other type of benefit (like the [[Barroom Brawler]] Chug feature).

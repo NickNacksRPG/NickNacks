@@ -1,3 +1,6 @@
+---
+icon: beer-stein
+---
 To some, drinking isn't just a something they do at parties, its a lifestyle. Barroom Brawlers have developed an unusual fighting style that combines the unnatural movements while drunk with the pain numbing effects of alcohol to be as annoying as possible to take down.
 ## <span style="color:rgb(103, 254, 120)">1 - Drinking Buddy</span>
 In a neutral scenario (aka one where you aren't actively being attacked), you can goad someone into a [[Drinking Contest]] with you (will negates). If you've already challenged someone, it won't work again.
@@ -12,7 +15,7 @@ Take a swig to grant yourself (3+½ lvl) [[temp hp]]. You can take up to 3 drink
 
 Any turn you chug, you only have access to one of your hands while the other is used to shotgun your drink from the keg.
 
-Chug cannot be uses in subsequent turns. Basically, if you chugged last turn, you cannot chug this turn.
+Chug cannot be uses in subsequent turns. Basically, if you chugged last turn, you cannot chug this turn. You cannot chug any turn you [[Dash]], nor can you dash any turn you chug.
 ## <span style="color:rgb(103, 254, 120)">1 -  Alcohol Processing (recharge)</span>
 At any point the after using chug, you can do one of the following actions. Recharges when you Chug.
 
@@ -46,7 +49,7 @@ You take half damage from fortitude saves. When you pass a fort save, it deals n
 ## <span style="color:rgb(103, 254, 120)">4 - Improvise, Adapt, Overcome</span>
 When you use an [[Improvised Weapons|improvised weapon]], you can give yourself +2 [[attack]], but the item breaks and becomes unusable after.
 ## <span style="color:rgb(103, 254, 120)">4 - Barrel Roll (recharge)</span> [[elusive]]
-Jump onto your keg and roll around on it as a standard action. Every time you move adjacent to an enemy this turn, push it 10 feet away from you and gain an additional 10 speed. You cannot affect the same creature multiple times with barrel roll.
+Jump onto your keg and roll around on it as a standard action. Every time you move adjacent to an enemy this turn, push it 10 feet directly away from you and gain an additional 10 speed. You cannot affect the same creature multiple times with barrel roll.
 ## <span style="color:rgb(103, 254, 120)">6 - Happy Hour (recharge)</span>
 1/day when you Chug, allies within reach gain the same temp hp you do.
 ## <span style="color:rgb(103, 254, 120)">8 - Woozy Fist (elusive) (recharge)</span>

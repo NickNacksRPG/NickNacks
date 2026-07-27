@@ -1,3 +1,6 @@
+---
+icon: 🐴
+---
 ## <span style="color:rgb(103, 254, 120)">1 - Band of Beasts</span> [[recharge]]
 Most druids have a way with animals, but you are truly their maestro. When you succeed on a wild empathy check against a beast, you can communicate a complex set of instructions that are unusual, even uncomfortable, but not physically impossible for the creature. This can include things like a cat or dog walking on 2 legs for a short period, a rat making an unusually large amount of noise squeaking or a fish jumping out of water to do a barrel roll.&#x20;
 

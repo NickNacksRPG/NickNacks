@@ -54,4 +54,4 @@ Constant - [[Taste Fear]]
 <span style="color:rgb(103, 254, 120)">Feats</span> - [[Callous Casting]], [[Signature Skill]], [[Skill Focus]], [[Dual-Wielding Versatility]], [[Maneuver Versatility]], [[Fearsome Finisher]], [[Bonded Weapon]]
 <span style="color:rgb(103, 254, 120)">Skills</span> - +18 [[+Perception]], +18 [[+Insight]], +20 ([[Advantage|adv]], +4 FF) [[+Intimidation]], +20 (adv, +2 [[T1 - Huge|huge]]) [[+Athletics]], +17 [[+Planes]]
 
-![[Pasted image 20251011230357.png|Pathfinder 2nd Edition Balor Demon|670]]
+![[pf2e balor.png|Pathfinder 2nd Edition Balor Demon|670]]
