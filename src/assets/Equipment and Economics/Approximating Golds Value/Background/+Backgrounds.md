@@ -1,5 +1,5 @@
 ---
-icon: background
+icon: passport
 aliases:
   - background
   - backgrounds

@@ -1,5 +1,5 @@
 Level 1 [[Goomshroom]]
-Tags: [[Concentration]]
+Tags: [[Concentration]], [[Upcast]]
 Action: Standard
 
 | Range          | 30 ft                                           |
@@ -13,3 +13,6 @@ Choose one:
 <span style="color:rgb(103, 254, 120)">Greasy</span> - Creatures are [[knocked down]] (reflex/[[+Acrobatics]] negates). Treat the grease as a [[Slippery Surfaces|slippery surface]].
 
 <span style="color:rgb(103, 254, 120)">Gooey</span> - Creatures are [[entangled]] (fort negates). Athletics as a swift action to remove the goo. Treat the goo as a [[Sticky Surfaces|sticky surface]].
+
+<span style="color:rgb(103, 254, 120)">Upcast</span> - At [[Caster Level|CL]] 8...
+The AoE increases to 15 ft.

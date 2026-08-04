@@ -32,3 +32,5 @@ Role: [[+Bruiser]]
 <span style="color:rgb(103, 254, 120)">Deific Boons</span> - [[T1 - Animal Instincts|Animal Instincts]]
 <span style="color:rgb(103, 254, 120)">Feats</span> - [[Toughness]]
 <span style="color:rgb(103, 254, 120)">Skills</span> - +4 [[+Perception]], +5 [[+Athletics]]
+
+![[20260328_153604.jpg|The Horse Oldshcool Runescape Wiki Page]]

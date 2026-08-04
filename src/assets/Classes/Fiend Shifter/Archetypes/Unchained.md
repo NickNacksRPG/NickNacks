@@ -1,6 +1,3 @@
----
-icon: ⛓️
----
 Unchained shifters are all about inflicting as much pain upon themselves and others as possible. They take their favorite parts of other creatures and add it to themselves.
 ## <span style="color:rgb(103, 254, 120)">1 - Techniques</span>
 You have [[Martial Specialization]]. 

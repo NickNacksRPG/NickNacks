@@ -22,7 +22,7 @@ Role: [[+Bruiser]]
 
 <span style="color:rgb(192, 0, 0)">Innate Techniques</span>  - [[Magic Missile]]
 1/day - [[Magic Dart]], [[Avenging Wrath]], [[Backstab]]
-Constant - [[Persevere]]
+Prepared - [[Persevere]]
 
 [[Breath Weapon]] ([[Recharge]]) - 3d6 (10) elemental (reflex halves). Can target a 30 ft line or a 15 ft cone.
 Must deal damage with a bite attack to recharge this ability.

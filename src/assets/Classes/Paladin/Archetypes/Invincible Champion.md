@@ -1,6 +1,3 @@
----
-icon: face-grin-tongue-squint
----
 Invincible champions always heal and never die. Invincible champions are pure tanks with superb ability to draw aggro.
 
 <span style="color:rgb(192, 0, 0)">Invincible champions get lay on hands at level 1, and it replaces the base feature.</span>

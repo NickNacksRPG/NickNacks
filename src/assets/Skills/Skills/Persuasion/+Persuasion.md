@@ -1,5 +1,4 @@
 ---
-icon: handshake-simple
 aliases:
   - purrsuasion
 ---

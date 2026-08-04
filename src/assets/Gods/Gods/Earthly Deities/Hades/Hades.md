@@ -1,5 +1,5 @@
 ---
-icon: hades-symbol
+icon: 👻
 ---
 Hades is the god of the dead, and the dutiful arbiter of the underworld. Hades and those who work under him attend to the souls of the dead, carefully cataloguing and maintaining records of any souls that pass through the underworld and river Styx. Hades is an entity that takes his job very seriously, and has strict rules that apply to any inhabitants.
 

@@ -1,5 +1,4 @@
 ---
-icon: mounted-knight
 aliases:
   - dismount
   - mounted

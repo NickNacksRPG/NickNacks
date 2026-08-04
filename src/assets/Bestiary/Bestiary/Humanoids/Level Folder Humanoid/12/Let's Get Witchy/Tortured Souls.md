@@ -43,3 +43,11 @@ Deal an extra 2d6 (7) crush damage and immediately send the target to the ground
 <span style="color:rgb(103, 254, 120)">Skills</span> - +11 ([[Advantage|adv]]) [[+Perception]], +16 ([[Advantage|adv]]) [[+Acrobatics]]
 
 ![[clone clam.png|Calamitas Clone by IbanPlays]]
+
+
+
+
+| More Lore    |                                                                                                                                                                   |
+| ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Ancient Evil | Calamitas, later dubbed The Brimstone Witch, is a Dark elf that was born during a time of great hardship. [[0. The Age of Titans\|The Age of Titans]] was a time  |
+|              |                                                                                                                                                                   |

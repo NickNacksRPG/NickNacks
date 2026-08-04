@@ -1,5 +1,4 @@
 ---
-icon: ufo
 aliases:
   - hovering
 ---

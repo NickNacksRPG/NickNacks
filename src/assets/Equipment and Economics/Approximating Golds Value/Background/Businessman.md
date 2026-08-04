@@ -1,6 +1,3 @@
----
-icon: receive-money
----
 You are one of owners of a large business, or the primary owner of a small business. Choose a specific profession, craft or performance skill that you are proficient in, or that could be reasonably related.
 
 You have access to a location that you can perform all of the necessary tasks of your trade. You make 10% more money when you work here.

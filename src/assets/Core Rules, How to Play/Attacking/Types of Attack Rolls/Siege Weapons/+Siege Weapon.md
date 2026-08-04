@@ -1,5 +1,4 @@
 ---
-icon: tank
 aliases:
   - siege weapons
 ---

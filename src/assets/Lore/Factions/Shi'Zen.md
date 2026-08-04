@@ -1,6 +1,3 @@
----
-icon: psychic-waves
----
 The Shi'Zen dark elves lived primarily in [[The Land of Fire]]. Like most dark elves, they came to prominence during the end of [[1. The Age of Dragons|The Age of Dragons]], and dominated the world during [[2. The Age of Underground|The Age of Underground]]. During [[4. The Age of Darkness|The Age of Darkness]], they emerged from their prison in [[The Shadow Realm]] in order to wreak havoc once again. The Shi'Zen lived in volcanic caverns and almost always have obsidian skin with silver hair.
 
 The Shi'Zen are led by a royal family of matriarchs by the same name. The Shi'Zen royal family are known for creating some of the most powerful [[Psychic (C)]] mages in history. From a young age, many young girls are trained in the art of telekinesis, telepathy and such with impossible expectations placed on them. Many are driven insane, or become completely catatonic as a result of the repeated sessions of mental abuse they receive. The ability so speak telepathically to one-another is something of a litmus test for status in their society. Those that can rarely use their voice for anything at all. It is this psychic segregation that they use in order to better stratify society and keep themselves in power.

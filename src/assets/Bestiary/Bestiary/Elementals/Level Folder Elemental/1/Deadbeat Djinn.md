@@ -1,4 +1,4 @@
-You pick up a bottle, disappointed that its empty only for a creature to pop out. This stinky humanoid has no legs, only a twisting tempest that hovers above the ground connected to the bottle.
+You pick up a bottle to check inside, only for a creature to pop out. This stinky humanoid has no legs, only a twisting tempest that hovers above the ground connected to the bottle.
 
 Level 1 Medium Elemental
 Role: [[+Controller]]
@@ -11,14 +11,14 @@ Role: [[+Controller]]
 | <span style="color:rgb(0, 176, 240)">Saves</span> | Fort +3, Refl +1, Will +3 |     |
 ## <span style="color:rgb(192, 0, 0)">Offense Traits (DC 12)</span>
 
-| <span style="color:rgb(192, 0, 0)">DW Scimitar (S)</span> | +3       | [[Thrown]] |
-| --------------------------------------------------------- | -------- | ---------- |
-|                                                           | d6+2 (5) |            |
+| [[Dual Wielding]] <span style="color:rgb(192, 0, 0)">Scimitar (S)</span> | +3       | [[Thrown]] |
+| ------------------------------------------------------------------------ | -------- | ---------- |
+|                                                                          | d6+2 (5) |            |
 <span style="color:rgb(192, 0, 0)">Multiattack</span> - Make 2 [[Thrown]] attacks with scimitars
 
 <span style="color:rgb(192, 0, 0)">Innate Techniques (CL 4)</span> - [[Imagination]], [[Weapon Toss]], [[Silencing Strike]], [[Fraudgg]], [[Time Shudder]], [[Star Fall]], [[Stunt Double]]
 
-<span style="color:rgb(192, 0, 0)">Stench Aura</span> [[+Toxins|Toxin]] - A deadbeat djinn has a natural musk. Creatures within 5 ft of the djinn are made [[sickened]] 2 until they leave this aura. Creatures with [[scent]] have this penalty while within 20 ft.
+<span style="color:rgb(192, 0, 0)">Stench</span> [[Aura]] [[+Toxins|Toxin]] - A deadbeat djinn has a natural musk. Creatures within 5 ft of the djinn are made [[sickened]] 2 until they leave this aura. Creatures with [[scent]] have this penalty while within 20 ft.
 ## <span style="color:rgb(247, 138, 255)">Weaknesses/Deep Lore</span>
 
 <span style="color:rgb(247, 138, 255)">Lucky Contestant</span> [[Curse]] - A deadbeat djinn lives in bottles of discarded alcoholic beverages, revealing itself and its horrid stench only when someone attempts to drink from this unusual looking empty vessel. If someone is unlucky enough to encounter this creature, it is now cursed to live with this creature for 1 week. It will inject itself into social situations with its outdated and offensive opinions, it will ruin the mood at gatherings and it will steal all of your alcoholic beverages.
@@ -36,6 +36,7 @@ Trivia on dead commoners, the number of breaths you've taken during your life, t
 
 <span style="color:rgb(103, 254, 120)">Ability Scores</span> - [[STR|STR]] +2, [[DEX]] +0, [[LUK]] -1, [[INT]] +3, [[WIS]] +0, [[CHA]] +0
 <span style="color:rgb(103, 254, 120)">Languages</span> - All
+<span style="color:rgb(103, 254, 120)">Equipment</span> - 2x Light weapons ()
 <span style="color:rgb(103, 254, 120)">Speed</span> - 30 [[hover]]
 <span style="color:rgb(103, 254, 120)">Feats</span> - [[Ricochet Toss]], [[Bonded Weapon]]
 <span style="color:rgb(103, 254, 120)">Skills</span> - +3 [[+Perception]], +6 all [[+Knowledge]]

@@ -22,7 +22,7 @@ Role: [[+Generalist]]
 
 <span style="color:rgb(192, 0, 0)">Innate Techniques (CL 11)</span> - [[Shocking Grasp]], [[Spirit Animal]], [[Storm Stomp]], [[Amplify]], [[Storm Step]], [[Fore!]], [[Foe Toss]], [[Colossal Smash]], [[Temperamental Tempest]]
 1/day - [[Lightning Bolt]], [[Snowscape]], [[Wind Wall]], [[Thunderlord's Decree]], [[Misty Escape]]
-Constant - [[Lightning Rod]]
+Prepared - [[Lightning Rod]]
 
 [[Quicken Spell]] - [[Temperamental Tempest]]
 [[Swallow]] - [[Drained|Drain]] 5

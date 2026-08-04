@@ -21,7 +21,7 @@ Role: [[+Support]]/[[+Controller]]
 <span style="color:rgb(192, 0, 0)">Innate Techniques</span> - [[Boasting Taunt]], [[Shield Slam]], [[Elemental Barrier]], [[Colossal Smash]], [[Boost!]]
 1/day - [[Bouncing Bulwark]]
 
-<span style="color:rgb(192, 0, 0)">Freight Train</span> - Whenever the wall makes a shove attack during a [[Core Rules, How to Play/Actions/Common Actions/Full Round Actions/Charge]], he can carry the creature along with him for the full distance of the charge, depositing them adjacent at the end of his charge.
+<span style="color:rgb(192, 0, 0)">Freight Train</span> - Whenever the wall makes a shove attack during a [[Charge]], he can carry the creature along with him for the full distance of the charge, depositing them adjacent at the end of his charge.
 ## <span style="color:rgb(247, 138, 255)">Weaknesses/Deep Lore</span>
 
 <span style="color:rgb(247, 138, 255)">Jam</span> - The wall has his own theme song that he cant help but dance to when he hears it. By rolling a DC 20 [[+Profession]] check to sing or play an instrument as a standard action, a creature can reduce the speed the wall to 0 on his next turn.

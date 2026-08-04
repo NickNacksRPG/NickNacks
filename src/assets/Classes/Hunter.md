@@ -1,6 +1,3 @@
----
-icon: bx-crosshair
----
 ## [[Crust]]
 Hunters are marksman trained to hunt down a specific type of creature with impunity. They specialize in using weapons that are otherwise inconvenient for most creatures to use as their main weapon, such as crossbows and firearms.
 

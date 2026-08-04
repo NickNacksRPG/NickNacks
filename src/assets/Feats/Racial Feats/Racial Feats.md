@@ -1,5 +1,2 @@
----
-icon: person
----
 
 <span style="color:rgb(103, 254, 120)">Racial</span> - These feats expand on racial features or play more into the unique aspects of a race that would be unfitting for a race feature.

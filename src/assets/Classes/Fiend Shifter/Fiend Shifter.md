@@ -1,6 +1,3 @@
----
-icon: devil-mask
----
 A Fiend Shifter is someone who has stolen the secrets to the powers of [[Fiends]], slowly letting this power overtake them. They only grow into a more terrifying monster capable of combating even the most terrifying the fiendish realms have to offer with the very same power they wield.
 
 | [[+HP]] (martial)        | 20(+10 per level) |

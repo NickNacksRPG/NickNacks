@@ -1,5 +1,4 @@
 ---
-icon: jump-across
 aliases:
   - jumping
 ---

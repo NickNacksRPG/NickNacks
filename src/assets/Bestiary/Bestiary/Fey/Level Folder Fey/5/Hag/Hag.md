@@ -16,7 +16,7 @@ Tags: [[Boss]]
 |                                                     | 2d6+2 (8) |     |
 <span style="color:rgb(192, 0, 0)">Innate Techniques (CL 10)</span> - [[Mage Hand]], [[Detect Pregnancy]], [[Ventriloquism]], [[Imagination]], [[Dispel Magic]], [[Violent Accident]], [[Poison the Well]], [[Grasp of the Undying]], [[Acid Splash]], [[Icicle]]
 1/day - [[Persistent Pranksters]], [[Pollinate]] (U3), [[Gutwrench]], [[Animate Dead]], [[Corpse Explosion]], [[Drain Soul]]
-Constant - [[Spectral Hand]]
+Prepared - [[Spectral Hand]]
 
 [[Quicken Spell]] - Any [[+Cantrips|cantrip]]
 <span style="color:rgb(192, 0, 0)">Summon Ally (recharge)</span> [[companion]] - Summon 2 [[fey]] that are level 2 or lower. They share the hag's [[+Teamwork Feats|teamwork feats]].

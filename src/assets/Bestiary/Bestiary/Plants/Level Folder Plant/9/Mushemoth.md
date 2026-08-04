@@ -22,7 +22,7 @@ This can also happen if the mushemoth becomes [[Wet]].
 
 <span style="color:rgb(192, 0, 0)">Innate Techniques (CL 11)</span>  - [[Living Roots]], [[Stubbed Toe]], [[Decomposition]], [[Life Transfer]], [[Colossal Smash]], [[Awesome Blow]]
 1/day - [[String Shot]], [[Vile Vigor]], [[Roundhouse]]
-Constant - [[Vine Whip]]
+Prepared - [[Vine Whip]]
 
 [[Artillery Mage]] - 15 ft
 [[Quicken Spell]] - [[Living Roots]], [[Stubbed Toe]], [[Decomposition]]

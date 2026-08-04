@@ -21,7 +21,7 @@ Falcaptain's movement while [[strafing]] is [[elusive]].
 
 <span style="color:rgb(192, 0, 0)">Innate Techniques</span> - [[Fired Up]], [[Burst of Speed]]
 1/day - [[Rend Vision]], [[Peacocking]]
-Constant - [[Unbreakable Advance]]
+Prepared - [[Unbreakable Advance]]
 
 <span style="color:rgb(192, 0, 0)">Combo Starter</span> - When a falcaptain successfully [[Grapple|grapples]] a creature, he can choose to immediately throw them [[airborne]] 15 ft into the air. They maintain the condition until the end of the falcaptains next turn and become [[clumsy]] 1. This remains the case no matter what happens to the falcaptain in the meantime.
 

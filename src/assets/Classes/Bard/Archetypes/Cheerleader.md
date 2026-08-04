@@ -1,6 +1,3 @@
----
-icon: 🎉
----
 Cheerleader bards excel at bringing their allies up when times are the toughest with encouraging words and healing effects.
 ## <span style="color:rgb(103, 254, 120)">1 - Performance: Raise Morale</span>
 The cheerleader only ever gets a singular performance, and allies can choose to gain any one benefit from the performance, deciding at the start of their turn. Below are level requirements for providing a particular benefit.

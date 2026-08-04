@@ -1,5 +1,4 @@
 ---
-icon: 🐶
 aliases:
   - beast companions
 ---

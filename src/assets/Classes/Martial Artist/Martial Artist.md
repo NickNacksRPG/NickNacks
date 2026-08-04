@@ -1,6 +1,3 @@
----
-icon: 🥋
----
 Many warriors fight with weapons or spells, but some choose to make their own body the ultimate weapon. Through grit, asceticism or flashy techniques, a martial artist's combat prowess shines without the aid of arms or armor.
 
 | [[+HP]] (martial)        | 20(+10 per level) |

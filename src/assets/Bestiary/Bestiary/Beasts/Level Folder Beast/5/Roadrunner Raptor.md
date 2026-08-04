@@ -16,9 +16,8 @@ Role: [[+Infiltrator]]
 |                                                    | 2d8+3 (12) | +Warpath           |
 [[Multiattack]] - Make 2 [[Melee Attack|melee attacks]]
 
-<span style="color:rgb(192, 0, 0)">Innate Techniques</span> - [[Bull Rush]], [[Reckless Charge]], [[Pack Attack]], [[Rend Vision]]
-1/day - [[Targeted]], [[Feast]]
-Constant - [[Warpath]]
+<span style="color:rgb(192, 0, 0)">Innate Techniques</span> - [[Bull Rush]], [[Reckless Charge]], [[Pack Attack]], [[Rend Vision]], [[Warpath]]
+1/day - [[Targeted]], [[Feast]] 
 
 <span style="color:rgb(192, 0, 0)">Eat My Dust</span> [[Air]] - Any space of dry land a roadrunner moves through during a [[Charge]] or [[Dash]] kicks up dirt and other miscellaneous particles for 1 round. This provides [[Partial Concealment]]. Any non-roadrunner creature that moves through this cloud is [[Sickened]] 1 (fort negates).
 ## <span style="color:rgb(247, 138, 255)">Weaknesses/Deep Lore</span>

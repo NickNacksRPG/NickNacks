@@ -5,17 +5,17 @@ Most of the content in [[+The Timeline]] was designed as the past to the current
 The ages are listed in sequential order, with each coming after the next. The oldest ages are largely only known thanks to ancient beings that have lived since then, such as [[Dragons]], [[Giants]] or the rare [[Elf]].
 
 
-[[The Age of Titans]] - 400 years
-The start of this age was marked by the defeat of the Titans, the progenitors to all modern day [[Giants]].
+[[0. The Age of Titans]] - 400 years
+This age was marked by the defeat of the Titans, the progenitors to all modern day [[Giants]]. This  was a near-extinction event for most humanoids. Because of how long-lasting and brutal the rule of the Titans was, much of this time period is lost to time. 
 
 [[1. The Age of Dragons]] - 400 years
-The start of this age was marked by the defeat of a colossal dragon that drained the mana from the world around it, causing all kinds of negative side effects. This era marked a time where mostly [[Dragons]] dominated the world.
+This age was marked by the rulership and subsequent defeat of a colossal dragon that drained the mana from the world around it, causing all kinds of negative side effects. This era marked a time where mostly [[Dragons]] dominated the world.
 
 [[2. The Age of Underground]] - 200 years
-The start of this age was marked by the successful banishment of many societies of humanoids that lived underground to [[The Shadow Realm]]. Sometimes colloquially known as "The Age of Man" because of how humanoids superseded dragons as the dominant species in Nack.
+The age was marked by the rulership and then the successful banishment of many societies of humanoids that lived underground to [[The Shadow Realm]]. Sometimes colloquially known as "The Age of Man" because of how humanoids superseded dragons as the dominant species in Nack.
 
 [[3. The Age of Magic]] - 70 years
-The start of this age was marked by an organization of anti-mages known as [[Arc (L)]] somewhat successfully destroying foundational aspects of magic.
+The start of this age was marked by an organization of anti-mages known as [[Arc (L)]] somewhat successfully destroying foundational aspects of magic for several decades. This caused magic to partially not work most days of the week, and not work at all the final day of each week.
 
 [[4. The Age of Darkness]] - 70 years (present era)
 The start of this age was marked by the resealing of the Shadow Realm and the destruction of an all consuming darkness that threatened to consume the sun. The cold southern landmass of [[Simbasa]] has since been fighting against the [[shadowling, warrior]]s that still cling to the [[Mortal Realm]].

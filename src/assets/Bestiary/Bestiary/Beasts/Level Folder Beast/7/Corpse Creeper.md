@@ -21,7 +21,7 @@ Role: [[+Bruiser]]
 
 <span style="color:rgb(192, 0, 0)">Innate Techniques</span> - [[Feast]], [[Nice Catch]]
 1/day - [[Fracture]], [[Caustic Blood]]
-Constant - [[Power Lifter]], [[Rapid Recovery]]
+Prepared - [[Power Lifter]], [[Rapid Recovery]]
 
 <span style="color:rgb(192, 0, 0)">Favored Enemy</span> - A creeper's favorite stack is a set of tasty bones. It gets a +4 bonus to attack with its bite against any creature primarily made of bones, such as a [[skeleton]] or a [[Boner]].
 <span style="color:rgb(192, 0, 0)">Bone Crusher</span> - When a creeper maintains a grapple and harms a creature, they burrow their tendrils into the creatures body and crush their bones. This inflicts [[Drained|drain]] 2 and causes them to internally [[Bleeding|bleed]], dealing 2d6 damage each turn. Creatures get [[Advantage|Disadvantage]] on checks to stop this bleeding.

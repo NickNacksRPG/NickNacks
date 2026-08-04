@@ -20,7 +20,6 @@ Role: [[+Artillery]]/[[+Support]]
 | [[Spell Attack]]                                   | +7       | +2 [[MM Sniping]] |
 <span style="color:rgb(192, 0, 0)">Innate Techniques</span> - [[Flame Cleanse Me]], [[Blazing Palm]]
 1/day - [[Fire Blast]], [[Corpse Transposition]], [[Corpse Explosion]]
-Constant - [[Fan of Knives]]
 
 <span style="color:rgb(192, 0, 0)">Bloodlust</span> [[Su]] [[Buff]] [[Concentration]] - Inspire ferocity in an ally within 30 ft. They gain a new [[multiattack]] option. The shaman must use both staves it wields to concentrate on this effect, and cannot make staff attacks while doing so.
 <span style="color:rgb(255, 192, 0)">Multiattack </span>- Make 3 [[Simple Attack|simple]] attacks

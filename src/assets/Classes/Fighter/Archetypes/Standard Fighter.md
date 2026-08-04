@@ -1,6 +1,3 @@
----
-icon: knight-banner
----
 Rally your allies around a point and fight together. Your standard is an annoying attack that you can to enhance allies on the battlefield. All of your class features are centered around rallying around and the manipulation of this standard.
 ## <span style="color:rgb(103, 254, 120)">1 - Martial Standard</span> [[Su]] [[Force]]
 As a swift action, summon a flag from the sky and have it slam down onto an unoccupied space within 30 ft of you. Enemies within 5 ft of it take (1+[[LvL]]) [[Force]] damage. You can choose to automatically pick up your flag by moving into its space, recharging this ability. A creature can knock over your flag by rolling athletics as a swift action (DC 10+your athletics bonus), causing it to disappear and recharging this ability. The flag automatically disappears after 1 minute.

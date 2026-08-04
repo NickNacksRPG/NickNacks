@@ -1,5 +1,4 @@
 ---
-icon: shield-bounces
 aliases:
   - shield action
   - shield actions

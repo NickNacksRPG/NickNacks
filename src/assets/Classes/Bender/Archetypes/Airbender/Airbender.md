@@ -1,6 +1,3 @@
----
-icon: whirlwind
----
 ## <span style="color:rgb(103, 254, 120)">1 - Elemental Blast: Air</span>
 Your damage is crush. In order to use Su class abilities, some form of open air must be present within 30 ft range. This is usually only a problem in space or while submerged in liquid.
 ## <span style="color:rgb(103, 254, 120)">1 - Elemental Movement: Hover</span>

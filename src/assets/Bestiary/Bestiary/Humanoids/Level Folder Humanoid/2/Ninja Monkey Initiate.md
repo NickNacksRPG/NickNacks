@@ -21,7 +21,7 @@ Role: [[+Infiltrator]]/[[Marksman]]
 
 <span style="color:rgb(192, 0, 0)">Innate Techniques</span> - [[Blur]], [[Terminal Isolation]], [[Pin Down]]
 1/day - [[Backstab]]
-Constant - [[Fan of Knives]]
+Prepared - [[Fan of Knives]]
 
 <span style="color:rgb(192, 0, 0)">Special Attacks:</span> [[Unique Special Attacks|throat slicer]]
 ## <span style="color:rgb(247, 138, 255)">Weaknesses/Deep Lore</span>

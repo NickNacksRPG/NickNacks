@@ -1,6 +1,7 @@
 This large green humanoid has curious ears that poke out of the top of its head almost like antennae. You have the displeasure of smelling its breath as it speaks to you, singing your eyebrows.
 
 Level 3 Large Giant
+Role: [[+Controller]]
 ## <span style="color:rgb(0, 176, 240)">Defense Traits</span>
 
 | <span style="color:rgb(0, 176, 240)">AC</span>    | 16                        |     |
@@ -21,9 +22,9 @@ Level 3 Large Giant
 
 <span style="color:rgb(192, 0, 0)">Innate Techniques</span> - [[Foe Toss]], [[Gut Check]], [[Body Slam]]
 1/day - [[Spartan Kick]]
-Constant - [[Artillery]]
+Prepared - [[Artillery]]
 
-<span style="color:rgb(192, 0, 0)">Better Out than In</span> [[poison]] [[recharge]] - As a free action (1/combat) an ogre can create a cloud of toxic gas in a 10ft radius around them. Creatures inside are staggered and take 3 poison damage and are sickened 1 each round inside until they leave. This effect persists for 1 round after they leave (fort negates). Ogres are [[Immunity|immune]] to this ability.
+<span style="color:rgb(192, 0, 0)">Better Out than In</span> [[poison]] [[recharge]] - As a free action (1/combat) an ogre can create a cloud of toxic gas in a 10ft radius around them. Creatures inside are [[staggered]], take 3 poison damage and are [[sickened]] 1 each round inside until they leave. This effect persists for 1 round after they leave (fort negates). Ogres are [[Immunity|immune]] to this ability.
 <span style="color:rgb(192, 0, 0)">Special Attack: Slam</span> - [[Shove]] a creature in any direction with a +4 bonus. If it impacts a solid surface, it takes unarmed damage. It is [[dazed]] for one round (fort negates).
 <span style="color:rgb(192, 0, 0)">Giant Slam</span> - Many giants deal 10 [[poise]] damage [[on-hit]] to any creature smaller than them when they make melee attacks. If this breaks poise, the creature is either shoved or [[knocked down]], giants choice.
 [[Summon Ally]] - [DONKEH](horse.md). It has -1 [[INT]] and knows common.

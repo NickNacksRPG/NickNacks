@@ -1,5 +1,4 @@
 ---
-icon: broadsword
 aliases:
   - weapon attacks
 ---

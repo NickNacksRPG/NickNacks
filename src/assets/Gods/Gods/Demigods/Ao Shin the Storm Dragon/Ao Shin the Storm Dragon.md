@@ -1,6 +1,3 @@
----
-icon: lightning-storm
----
 Ao Shin is an ancient dragon, having lived his youth in [[1. The Age of Dragons]]. Unlike most other dragons of his age, Ao Shin has rather lofty goals, varying from age to age, but usually involving getting revenge on those that have wronged him. In [[4. The Age of Darkness]], this means elves, particularly those from [[The Land of Storms]] for abandoning him. He enjoys destroying the structures of mortals, but tends to only do so indirectly through his followers, though his followers can sometimes tempt him or anger him enough to let loose a tornado across the countryside.
 
 He is generally antagonistic towards other dragons, and hates [[Star Dragon]]s and wish granting creatures with all of his heart. From what historians are able to gather, it seems that Ao Shin was meant to receive some type of blessing from the ancient dragons of his time, but another dragon wished upon a star and ascended to become the first star dragon in his stead.

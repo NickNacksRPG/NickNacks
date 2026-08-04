@@ -35,13 +35,13 @@ As a free action once per turn, she can spit out 2 flaming eggs at any position 
 In order to use this breath weapon, the brood mother must first take a deep breath on a previous turn (free action). She cannot take a deep breath on the same turn she uses her breath weapon.
 <span style="color:rgb(192, 0, 0)">Tail Swipe</span> - As a swift action while grounded, a dragon can make a quick turnaround and swipe at foes it threatens with its tail. Creatures take (10+[[LvL]]) [[poise]] damage (reflex halves). Poise broken creatures are [[knocked down]].
 <span style="color:rgb(192, 0, 0)">Wing Buffet</span> - As an immediate action when taking flight or landing, a dragon can flap its wings rapidly to whip up a whirlwind. Creatures within 20 ft are [[knocked down]] (fort negates). A creature can choose to forgo its save, automatically getting knocked down, to make an AoO if the dragon is within reach.
+<span style="color:rgb(192, 0, 0)">Protect</span> - A creature that steals or threatens one of her real eggs/children taunts the brood mother until her spawn are relinquished. While taunted in this way, she is persistently under the effect of an [[Inferno Sphere]] that her whelps/eggs are immune to.
 
+She gets [[advantage]] on all attacks against them, and the creature has [[Advantage|disadvantage]] on any saving throws made against the brood mother's abilities.
 ## <span style="color:rgb(247, 138, 255)">Weaknesses/Deep Lore</span>
 
 <span style="color:rgb(247, 138, 255)">Nesting</span> - Brood mothers are rarely seen with their actual children nearby. Due to their propensity to generate frequent of offspring (by dragon standards anyway), they are often hunted to have their eggs sold off to rich foodies and exotic pet owners. As such, they nest deep within volcanic caverns, usually requiring swimming through lava to reach in the first place. Markets for such eggs pay 1,000g for each one.
-<span style="color:rgb(247, 138, 255)">Protect </span>- A creature that steals or threatens one of her real eggs/children taunts the brood mother until her spawn are relinquished. While taunted in this way, she is persistently under the effect of an [[Inferno Sphere]] that her whelps/eggs are immune to.
 
-She gets [[advantage]] on all attacks against them, and the creature has [[Advantage|disadvantage]] on any saving throws made against the brood mother's abilities.
 ## <span style="color:rgb(103, 254, 120)">Other Traits</span>
 
 <span style="color:rgb(103, 254, 120)">Ability Scores</span> - [[STR]] +3, [[DEX]] +0, [[LUK]] +0, [[INT]] +0, [[WIS]] +1, [[CHA]] +3

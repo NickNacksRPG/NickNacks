@@ -22,7 +22,7 @@ Make a bite attack and a stinger attack, but not against the same creature.
 <span style="color:rgb(192, 0, 0)">Innate Techniques</span>  - [[Head On]]
 1/day - [[Carnage]]
 
-<span style="color:rgb(192, 0, 0)">King of the Jungle</span> [[Poison]] - As a FRA the Bee Rex can unleash a mighty roar. Creatures within 60 ft are [[frightened]] for 2 rounds (will reduces to [[shaken]] 1). Creatures [[Threaten|threatened]] by the t-rex also take 6d6 (21) sonic damage.
+<span style="color:rgb(192, 0, 0)">King of the Jungle</span> [[Poison]] - As a [[FRA]] the Bee Rex can unleash a mighty roar. Creatures within 60 ft are [[frightened]] for 2 rounds (will reduces to [[shaken]] 1). Creatures [[Threaten|threatened]] by the t-rex also take 6d6 (21) sonic damage.
 <span style="color:rgb(192, 0, 0)">Swallow</span> [[Poison]] - 3d6 (10) poison
 [[Venom|Venomous]] - Stinger only
 ## <span style="color:rgb(247, 138, 255)">Weaknesses/Deep Lore</span>

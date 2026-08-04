@@ -12,16 +12,16 @@ Role: [[+Marksman]]
 
 ## <span style="color:rgb(192, 0, 0)">Offense Traits (DC 16)</span>
 
-| <span style="color:rgb(192, 0, 0)">Crystal Bow (Force)</span> | +9       | 100 range (-20 if deactivating [[Artillery]]) |
-| ------------------------------------------------------------- | -------- | --------------------------------------------- |
-|                                                               | d8+3 (7) |                                               |
-| <span style="color:rgb(192, 0, 0)">Daggers (P)</span>         | +7       |                                               |
-|                                                               | d6+3 (6) |                                               |
+| <span style="color:rgb(192, 0, 0)">Crystal Bow (Force)</span>           | +9       | 100 range (-20 if deactivating [[Artillery]]) |
+| ----------------------------------------------------------------------- | -------- | --------------------------------------------- |
+|                                                                         | d8+3 (7) |                                               |
+| [[Dual Wielding]] <span style="color:rgb(192, 0, 0)">Daggers (P)</span> | +7       |                                               |
+|                                                                         | d6+3 (6) |                                               |
 [[Multiattack]] - Make 2 attacks
 
 <span style="color:rgb(192, 0, 0)">Innate Techniques</span> - [[Break Free]], [[Pin Down]], [[Headshot]], [[Long Shot]], [[Curved Shot]]
 1/day - [[Lights Out]], [[Flying Arrow]] (U2)
-Constant - [[Chameleon]], [[Artillery]], [[Eagle Eye]]
+Prepared - [[Chameleon]], [[Artillery]], [[Eagle Eye]]
 
 
 

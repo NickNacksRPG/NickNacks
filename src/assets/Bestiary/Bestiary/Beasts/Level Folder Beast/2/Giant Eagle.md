@@ -23,7 +23,7 @@ Role: [[+Bruiser]]/[[+Support]]
 
 <span style="color:rgb(192, 0, 0)">Innate Techniques</span> - [[Break Free]]
 1/day - [[Rend Vision]]
-Constant - [[Courage]]
+Prepared - [[Courage]]
 
 <span style="color:rgb(192, 0, 0)">Distant Predator</span> - An eagle can use [[+Stealth]] without [[Partial Cover]] or [[Concealment]] as long as it is at least 200 ft above its opponent.
 

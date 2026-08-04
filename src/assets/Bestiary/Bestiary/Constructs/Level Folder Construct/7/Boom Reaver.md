@@ -19,9 +19,8 @@ Role: [[Boss]]
 |                                                      | 2d8+3 (12) |                                                              |
 [[Multiattack]] - Make 2 [[Melee Attack|melee attacks]]
 
-<span style="color:rgb(192, 0, 0)">Innate Techniques</span> - [[Sonic Boom]] (U4), [[Earth Shatter]] (U4)
+<span style="color:rgb(192, 0, 0)">Innate Techniques</span> - [[Sonic Boom]] (U4), [[Earth Shatter]] (U4), [[Shockwave]]
 1/day - [[Crater]] (U4), [[Fore!]] (U4)
-Constant - [[Shockwave]]
 
 <span style="color:rgb(192, 0, 0)">Magnets</span> - As a swift action, the Boom Reaver can return its axe to its hand as long as it is within 60 ft. If it is possessed by another creature (reflex negates).
 <span style="color:rgb(192, 0, 0)">Special Attack: Giga Impact</span> [[Sonic]] - Make a [[Core Rules, How to Play/Actions/Common Actions/Full Round Actions/Charge]] attack that deals an additional 4d8 (18) sonic damage. The creature takes poise damage equal to the total damage of the attack. If they are poise broken, they are pushed back 20 ft. Before being knocked back, the Boom Reaver can use the second attack in its multiattack.

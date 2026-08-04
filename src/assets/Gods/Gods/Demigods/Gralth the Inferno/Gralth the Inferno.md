@@ -1,5 +1,4 @@
 ---
-icon: spiked-dragon-head
 aliases:
   - Gralth
 ---

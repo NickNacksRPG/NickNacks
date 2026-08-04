@@ -19,7 +19,7 @@ Role: [[+Marksman]]
 |                                                                 | 2d8+3 (12) | +[[Venom]]                                                        |
 <span style="color:rgb(192, 0, 0)">Innate Techniques</span>  - [[Dive]], [[Pack Attack]] 
 1/day - [[Tumble]], [[Feast]], [[Unseen Predator]], [[Sludge Bomb]]
-Constant - [[Rapid Recovery]]
+Prepared - [[Rapid Recovery]]
 
 <span style="color:rgb(192, 0, 0)">Sticky Situation</span> [[Poison]] - A string shot spider is capable of using its spinneret as a projectile weapon. The strings are coated in powerful digestive enzymes that evaporate quickly. When they land a string shot, the creature is [[clumsy]] 2 as the web sticks to them and the surrounding terrain. At the start of each turn they are clumsy from this, they take an additional 2d6 (7) poison damage. A creature can [[Breakout]] as a swift action, removing the clumsy and caustic webs.
 Clumsy cannot removed unless webbing is removed.

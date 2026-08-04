@@ -1,6 +1,6 @@
 A magical cat floats around in the air riding on a sizable tome. It taunts you as it empowers the creature it is tethered to.
 
-Level 3 Fey/Beast
+Level 3 Tiny Fey/Beast
 Role: [[+Support]]
 ## <span style="color:rgb(0, 176, 240)">Defense Traits</span>
 
@@ -9,7 +9,7 @@ Role: [[+Support]]
 | <span style="color:rgb(0, 176, 240)">HP</span>    | 28                        |     |
 | <span style="color:rgb(0, 176, 240)">Poise</span> | 16                        |     |
 | <span style="color:rgb(0, 176, 240)">Saves</span> | Fort -2, Refl +3, Will +6 |     |
-<span style="color:rgb(0, 176, 240)">Parasite</span> [[Su]] - As a swift action, a detached yummi can attach to a creature within 10 feet, gently floating around them at a fixed distance. It acts in tandem with the creature in initiative, using its actions interchangeably with theirs. It cannot be subject to any effects and is [[Untargetable]], even to [[AoE]] effects, while attached. If the attached creature is [[defeated]], yummi is [[stunned]] for 1 round and detaches. A yummi can detach as a standard action, popping out in an adjacent space. 
+<span style="color:rgb(0, 176, 240)">Parasite</span> [[Su]] - As a swift action, a detached yummi can attach to a creature within 10 feet, gently floating around them at a fixed distance in its space. It acts in tandem with the creature in initiative, using its actions interchangeably with theirs. It cannot be subject to any effects and is [[Untargetable]], even to [[AoE]] effects, while attached. If the attached creature is [[defeated]], yummi is [[stunned]] for 1 round and detaches. A yummi can detach as a standard action, popping out in an adjacent space. 
 
 While attached, a yummi cannot be detected if the creature it is attached to cant be detected, such as if it is [[Invisible]] or is using [[Hide in Plain Sight]].
 ## <span style="color:rgb(192, 0, 0)">Offense Traits (DC 15)</span>

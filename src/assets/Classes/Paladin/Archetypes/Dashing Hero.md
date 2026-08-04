@@ -1,6 +1,3 @@
----
-icon: mounted-knight
----
 The ultimate knight in shining armor. Dash into battle with blinding speed to pluck your allies from danger while riding on your noble steed. Your enemies will regret ignoring you to attack innocent bystanders.
 
 ## <span style="color:rgb(103, 254, 120)">1 - Technique</span>

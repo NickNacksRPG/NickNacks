@@ -19,9 +19,8 @@ Role: [[+Bruiser]]/[[+Support]]
 [[Multiattack]] - Whenever a dragonslayer hound takes fire damage, it gains access to this multiattack on its next turn.
 Make 3 bite attacks.
 
-<span style="color:rgb(192, 0, 0)">Innate Techniques</span> - [[Boiling Blood]], [[Pack Attack]], [[Jaws of the Beast]]
+<span style="color:rgb(192, 0, 0)">Innate Techniques</span> - [[Boiling Blood]], [[Pack Attack]], [[Jaws of the Beast]], [[Enhanced Jump]]
 1/day - [[Blazing Beam]], [[Feast]] (U3), [[Down to Earth]] (U3)
-Constant - [[Enhanced Jump]]
 
 <span style="color:rgb(192, 0, 0)">Fire Fang</span> [[Fire]] - [[On-hit]] with a bite attack, the foe is set [[Ablaze]] (reflex negates).
 <span style="color:rgb(192, 0, 0)">Dragonslayer</span> - A dragonslayer hound has very specialized combat training. It gets a +4 bonus to [[attack]] against [[Dragons]], including dragon adjacent creatures or creatures with a draconic affinity.

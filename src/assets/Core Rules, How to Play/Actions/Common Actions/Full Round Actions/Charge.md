@@ -1,5 +1,4 @@
 ---
-icon: charging-bull
 aliases:
   - charging
   - charges

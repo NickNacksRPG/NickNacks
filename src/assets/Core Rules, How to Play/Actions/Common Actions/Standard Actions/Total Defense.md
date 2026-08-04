@@ -1,4 +1,1 @@
----
-icon: bell-shield
----
 Get [[DR|DRA]] 2 until the start of your next turn. Remove all [[clumsy]] stacks and reset your [[poise]] to maximum. You can't make an [[AoO|AoO]] while using Total Defense.

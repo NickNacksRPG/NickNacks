@@ -20,9 +20,9 @@ Role: [[+Artillery]]
 |                                                     | d6+3+2 zap (8) | +[[Venom]]     |
 [[Multiattack]] - Make a [[Melee Attack|melee]] [[Weapon Attack]] and cast a [[+Cantrips|cantrip]] or activate [[Static Field]].
 
-<span style="color:rgb(192, 0, 0)">Innate Techniques (CL 7, +2 Zap)</span>  - [[Gust]], [[Shocking Grasp]], [[Grasp of the Undying]], [[True Strike]], [[Dimensional Anchor]], [[Center of the Universe]]
+<span style="color:rgb(192, 0, 0)">Innate Techniques (CL 7, +2 Zap)</span>  - [[Gust]], [[Shocking Grasp]], [[Grasp of the Undying]], [[True Strike]], [[Dimensional Anchor]], [[Center of the Universe]], [[Static Field]]
 1/day - [[Lightning Bolt]], [[In Orbit]], [[Dispel Magic]]
-Constant - [[Static Field]]
+
 
 Sticky Situation - 
 ## <span style="color:rgb(247, 138, 255)">Weaknesses/Deep Lore</span>
@@ -33,6 +33,7 @@ Sticky Situation -
 <span style="color:rgb(103, 254, 120)">Ability Scores</span> - [[STR]] +0, [[DEX]] +3, [[LUK]] +0, [[INT]] +2, [[WIS]] +2, [[CHA]] +0
 <span style="color:rgb(103, 254, 120)">Languages</span> - Elven, Common, Infernal, Sign Language, Morse Code
 [[Darkvision]]
+<span style="color:rgb(103, 254, 120)">Equipment </span>- [[Elemental Staff]] (zap), Light Blade
 <span style="color:rgb(103, 254, 120)">Silk Jump</span> - By placing a web on a surface, a drider can avoid [[Fall Damage]] when they [[Jump]]. They can also suspend themselves in midair, and climb back up this thread to return to their original starting point. This thread can be cut with any slash or pierce damage.
 <span style="color:rgb(103, 254, 120)">Speed</span> - 40, 40 [[climb]]. Can climb along any surface. 
 <span style="color:rgb(103, 254, 120)">Deific Boons </span>- [[T1 - From my Cold Dead Head|From my cold dead head]], 

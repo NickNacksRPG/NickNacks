@@ -1,4 +1,1 @@
----
-icon: watch
----
 You can decide to wait to act in initiative, acting whenever you like at the end of another creature's turn, permanently changing your position in initiative.

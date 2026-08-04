@@ -20,7 +20,7 @@ Any [[Attack Roll]] originating from outside this area has [[Advantage|disadvant
 
 <span style="color:rgb(192, 0, 0)">Innate Techniques (CL 14)</span> - [[Holy Nova]], [[Epitaph of Finality]], [[Wind Wall]]
 1/day - [[Cure Wounds]], [[Barrier]], [[Shine]]
-Constant - [[Telekinetic Lift]]
+Prepared - [[Telekinetic Lift]]
 
 <span style="color:rgb(192, 0, 0)">Purge (Su)</span> [[Holy]] [[Recharge]] - As a free action, the ancient monolith can charge this ability, causing its symbols and gems to glow. 1/day on the following turn, it can use purge. Cannot be charged out of combat.  
 Make an 60 ft line attack that is 15 ft wide that deals 5d8+CL (36) holy damage (reflex halves). All creatures damaged are [[siphoned]].

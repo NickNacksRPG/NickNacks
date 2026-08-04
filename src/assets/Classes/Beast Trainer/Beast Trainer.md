@@ -1,6 +1,3 @@
----
-icon: dinosaur-rex
----
 You form a close bond with a beast companion and mold your fighting style around fighting in tandem with it. You gain special abilities that allow you to establish a closer bond with them. Fighting individually you are fairly weak, but together you can unleash powerful combo attacks.
 
 ![[ankylotortoise.png|Art by me!|679]]

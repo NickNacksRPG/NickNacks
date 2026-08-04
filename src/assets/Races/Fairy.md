@@ -1,6 +1,3 @@
----
-icon: 🧚
----
 The smol bullyable race.
 
 | Language | Sylvan                                                                                                           |

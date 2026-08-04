@@ -12,7 +12,7 @@ Role: [[+Support]]
 [[+Shield Actions]]
 ## <span style="color:rgb(192, 0, 0)">Offense Traits (DC 13)</span>
 
-| <span style="color:rgb(192, 0, 0)">Bonk Stick (C)</span> | +6        |              |
+| <span style="color:rgb(192, 0, 0)">Bonk Stick (C)</span> | +6        | +2 [[Shove]] |
 | -------------------------------------------------------- | --------- | ------------ |
 |                                                          | d10+3 (8) |              |
 | <span style="color:rgb(192, 0, 0)">Javelin (P)</span>    | +4        | [[Thrown]]   |
@@ -31,6 +31,6 @@ Role: [[+Support]]
 <span style="color:rgb(103, 254, 120)">Ability Scores</span> - [[STR]] +3, [[DEX]] +1, [[LUK]] +0, [[INT]] 0, [[WIS]] +0, [[CHA]] +1
 <span style="color:rgb(103, 254, 120)">Languages</span> - Common
 <span style="color:rgb(103, 254, 120)">Equipment</span> - One Hander (One and Done), Heavy Shield, Medium armor, 2x javelin (1h thrown)
-<span style="color:rgb(103, 254, 120)">Speed</span> - 30
+<span style="color:rgb(103, 254, 120)">Speed</span> - 30 [[Land Speed]]
 <span style="color:rgb(103, 254, 120)">Feats</span> - [[Shield Focus]], [[Toughness]], [[Feint Partner]]
 <span style="color:rgb(103, 254, 120)">Skills</span> - +3 [[+Perception]], +4 [[+Acrobatics]], +6 [[+Intimidation]], +6 [[+Athletics]], +4 [[+Deception]]

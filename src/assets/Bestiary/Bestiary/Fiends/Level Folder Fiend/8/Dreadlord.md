@@ -16,9 +16,8 @@ Role: [[+Bruiser]]
 | <span style="color:rgb(192, 0, 0)">Claw (S)</span> | +11   |
 | -------------------------------------------------- | ----- |
 |                                                    | 2d6+3 |
-<span style="color:rgb(192, 0, 0)">Innate Techniques (CL 12+1 force)</span> - [[Dispel Magic]], [[Drain Soul]]
-1/day - [[Great Gavel]], [[Storm Step]], [[Rushing Winds]]
-Constant - [[Heavens' Vengeance]] 
+<span style="color:rgb(192, 0, 0)">Innate Techniques (CL 12+1 force)</span> - [[Dispel Magic]], [[Drain Soul]], [[Heavens' Vengeance]] 
+1/day - [[Great Gavel]], [[Storm Step]], [[Rushing Winds]], [[Lightning Bolt]]
 
 <span style="color:rgb(192, 0, 0)">Aura of Dread </span>[[Aura]] - Creatures within the [[Reach|natural reach]] of a dreadlord (other than dreadlords) take a -2 penalty to [[+Saving Throw|saving throws]].
 <span style="color:rgb(192, 0, 0)">Force Punch</span> [[Sp]] [[Force]] - As a standard action, a dreadlord can make a [[Melee Attack|melee]] [[Spell Attack]]. It deals 5d8+13 (35) force damage. A creature is pushed a distance away from the dreadlord equal to the damage dealt by the attack (rounded down to nearest 5).

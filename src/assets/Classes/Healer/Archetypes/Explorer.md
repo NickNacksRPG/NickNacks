@@ -1,15 +1,14 @@
----
-icon: trail
----
-Explorers are the generalist healers with a handful of utility abilities that assist with travel. They promote treating creatures with mercy whenever possible, and in the most extreme examples, can make death impossible. Their aura is powerful enough that existing near them makes you safer.
-## <span style="color:rgb(103, 254, 120)">1 - Aura of Mercy</span> ([[Su]])
+Explorers are the generalist healers with a handful of utility abilities that assist with travel. They promote treating creatures with mercy whenever possible, and in the most extreme examples, can make death impossible. Their aura creates a safe haven that also makes things go your way. Their signature ability, holy arrow, lets them heal multiple creatures at once while also dealing damage.
+## <span style="color:rgb(103, 254, 120)">1 - Holy Arrow</span> [[Healing]] [[Sp]] [[Holy]] [[Recharge]]
+As a standard action, conjure a magic bow and make a ranged attack with 20ft range. The target takes holy damage equal to Healing Touch. If this attack passes through allies, apply healing touch to them. Holy arrow also heals yourself. This must be used through a staff or a bow.
+
+You cannot use this ability in consecutive rounds.
+## <span style="color:rgb(103, 254, 120)">1 - Aura of Mercy</span> [[Su]]
 Gain a 15ft aura in which creatures cannot gain stacks of Doom. Enemies also do not die when defeated in this aura. This aura is suppressed when you are defeated, or activated/deactivated as a free action on your turn.
 
 This aura has a distinct, personalized visual component that interferes with stealth.
 ## <span style="color:rgb(103, 254, 120)">1 - Lucky Break</span>
-You add your [[LUK|Luck]] as a bonus to to the [[+HP]] you regain all [[healing]] effects you use on yourself or allies, except for effects that heal over time, like [[regeneration]] or [[golden shower]].
-
-You can add luck to a roll an ally makes as an immediate action if they are within your aura of mercy. You still cannot add luck twice (ie you both add luck to the roll).
+You can add LUK to any d20 roll an ally makes as an immediate action if they are within your Aura of Mercy. This feature does not allow you to add luck to a roll twice (ie you both add luck to the roll).
 ## <span style="color:rgb(103, 254, 120)">1 - Compassion (Su)</span> [[mind-affecting]]
 When you use Channel Energy, enemies in range that were aggressors/not acting in self-defense are pacified for 5 rounds (will negates). They get a new save at the end of their turns if you or your allies take aggressive actions versus their allies, and it ends immediately if you or your allies take aggressive actions towards them.
 
@@ -29,21 +28,18 @@ It takes one minute to cast. Any creature can take the portal back simply by wal
 
 This effect does not require line of sight.
 ## <span style="color:rgb(103, 254, 120)">4 - Dispel (Su)</span> [[recharge]]
-As a standard action, touch a creature within [[reach]]. On an ally, one harmful [[spell]] or [[Su]]pernatural effect immediately ends, unless it is [[Permanent Status]]. This has the (healing) tag.
+By spending 2 mana as a standard action, touch a creature within [[reach]]. On an ally, one harmful [[spell]] or [[Su|supernatural]] effect immediately ends, unless it is [[Permanent Status]]. This has the (healing) tag.
 On an enemy, this functions as [[Dispel Magic]]. For cursed items, this allows the safe removal of the item, but requires a [[caster level]] check.
 
 This has a 10 minute unique cooldown.
-## <span style="color:rgb(103, 254, 120)">6 - Blessing of Restoration (Su) (healing)</span> 
-You recover from all stacks of [[Drained|drain]] every time you rest, regardless of conditions.
-
-As a standard action, you can touch a creature to absorb ([[LvL]]) stacks of drain from them and you become drained an equal amount. A creature can only be affected by this once each week.
+## <span style="color:rgb(103, 254, 120)">6 - Feedback</span>
+When you land an attack with Holy Arrow ([[On-hit]]) against an enemy, the amount it heals allies increases by 5.
 ## <span style="color:rgb(103, 254, 120)">8 - Elemental Protection (Su)</span>
 Gain [[Resistance]] to a non-physical damage type. Allies in your aura also gain this.
 
 You can change what you're resistant to by spending 10 minutes adjusting your magic.
-## <span style="color:rgb(103, 254, 120)">10 - Angel Ray (Su)</span>
-Your Holy Arrow has its range increased by 10 ft.
 ## <span style="color:rgb(103, 254, 120)">10 - Expanded Mercy</span>
 Your Aura of Mercy has its radius increase to 25 ft.
+Your Holy Arrow has its range increased by 10 ft.
 ## <span style="color:rgb(103, 254, 120)">11 - Benediction (Su)</span>
-Creatures you heal with channel energy benefit from your Dispel ability (ignoring the cooldown), and can make a [[simple attack]] as an instant action.
+Creatures you heal with Channel Energy benefit from your Dispel ability (ignoring the cooldown), and can make a [[simple attack]] as an instant action.

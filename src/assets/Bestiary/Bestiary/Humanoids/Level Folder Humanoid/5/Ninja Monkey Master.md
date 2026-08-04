@@ -19,7 +19,7 @@ Role: [[+Infiltrator]]/[[+Marksman]]
 |                                                       | d6+3 (6) |                               |
 <span style="color:rgb(192, 0, 0)">Innate Techniques</span> - [[Blur]], [[Terminal Isolation]] (U3), [[Pin Down]], [[Backstab]]
 1/day - [[Garrote]], [[Rain of Arrows]]
-Constant - [[Fan of Knives]]
+Prepared - [[Fan of Knives]]
 
 <span style="color:rgb(192, 0, 0)">Special Attack: Sever</span> [[Curse]] - Usable with the dragon scimitar, this gets a +2 bonus to [[Attack]]. [[On-hit]] sever a creature's connection to the divine. They cannot use any abilities gained through [[Deific Boons]], nor can they activate any ability that requires [[Prayer]]. This effect lasts until the creature visits a place of worship or some kind of shrine dedicated to their deity.
 Similar abilities based on divine power, like a [[Paladin]] smite, are unaffected.

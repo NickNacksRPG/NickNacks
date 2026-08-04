@@ -1,6 +1,3 @@
----
-icon: 🎨
----
 ## [[Crust]]
 
 Splendor is the god of artistic expression. They are often called "the muse of the world." Their goal is to promote the arts in all forms: painting, music, dance, acting and more.

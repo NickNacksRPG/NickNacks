@@ -37,5 +37,6 @@ After passing the save, the creature can choose to ignore the master on their ow
 <span style="color:rgb(103, 254, 120)">Ability Scores</span> - [[STR|STR]] +3, [[DEX]] +0, [[LUK]] +0, [[INT]] -, [[WIS]] +1, [[CHA]] +0
 <span style="color:rgb(103, 254, 120)">Senses</span> - [[Sightless Blindsense]] ([[Echolocation]], [[Scent]] 60 ft)
 <span style="color:rgb(103, 254, 120)">Speed</span> - 40 [[Land Speed]]
+[[Hide in Plain Sight]] - Blessings can walk into a pool of blood they can fit inside, waiting for prey to approach or master to command.
 <span style="color:rgb(103, 254, 120)">Feats</span> - [[Maneuver Versatility]], [[Tangled]]
 <span style="color:rgb(103, 254, 120)">Skills</span> - +5 (+4 [[+Blindsense]]) [[+Perception]], +7 [[+Athletics]]

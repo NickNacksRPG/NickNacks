@@ -1,5 +1,4 @@
 ---
-icon: north-star-shuriken
 aliases:
   - throw
 ---

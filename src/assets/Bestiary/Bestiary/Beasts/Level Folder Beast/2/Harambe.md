@@ -4,12 +4,11 @@ Level 2 Large Beast
 Role: [[+Bruiser]]
 ## <span style="color:rgb(0, 176, 240)">Defense Traits</span>
 
-| <span style="color:rgb(0, 176, 240)">AC</span>    | 17         |                           |
-| ------------------------------------------------- | ---------- | ------------------------- |
-| <span style="color:rgb(0, 176, 240)">HP</span>    | 40         |                           |
-| <span style="color:rgb(0, 176, 240)">Poise</span> | 27         |                           |
-| <span style="color:rgb(0, 176, 240)">Saves</span> | +3, +7, +3 | [[Advantage]] vs [[fear]] |
-
+| <span style="color:rgb(0, 176, 240)">AC</span>    | 17         |     |
+| ------------------------------------------------- | ---------- | --- |
+| <span style="color:rgb(0, 176, 240)">HP</span>    | 40         |     |
+| <span style="color:rgb(0, 176, 240)">Poise</span> | 27         |     |
+| <span style="color:rgb(0, 176, 240)">Saves</span> | +7, +3, +3 |     |
 ## <span style="color:rgb(192, 0, 0)">Offense Traits (DC 13)</span>
 
 | <span style="color:rgb(192, 0, 0)">Unarmed (C)</span>      | +5         | +4 [[Gang Up\|GU]]  |
@@ -19,7 +18,7 @@ Role: [[+Bruiser]]
 |                                                            | 2d8+3 (12) | [[Thrown]]          |
 [[Multiattack]] - Make 2 attacks, one of which must be a [[topple]], [[dirty trick]] or [[grapple]]
 
-<span style="color:rgb(192, 0, 0)">Innate Techniques</span> - [[Boasting Taunt]], [[Improvise]], [[Reckless Charge]]
+<span style="color:rgb(192, 0, 0)">Innate Techniques</span> - [[Boasting Taunt]], [[Reckless Charge]]
 1/day - [[Foe Toss]]
 
 <span style="color:rgb(192, 0, 0)">Ape Together Strong</span> - Harambe are exceptionally good at assisting each other. They can [[aid]] an allied harambe as a swift action. They always grant +2 to skill bonuses. 

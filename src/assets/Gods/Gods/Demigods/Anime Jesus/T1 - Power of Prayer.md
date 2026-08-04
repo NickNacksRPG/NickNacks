@@ -3,7 +3,7 @@ aliases:
   - Power of Prayer
 ---
 Tags: [[Su]]
-You can clasp your hands together and chant words of prayer out loud as a standard action in order to render your presence invisible to any [[Fiends]], [[Undead]] or [[Aberrations]]. To them your speech is completely silent and you do not exist. They will even instinctually go out of their way to avoid bumping into you or including you in any [[AoE]] effect. You can continue to chant each round to maintain this effect indefinitely, but not after a creature has already noticed you.
+You can clasp your hands together and chant words of prayer out loud as a standard action in order to render your presence invisible to any [[Fiends]], [[Undead]] or [[Aberrations]]. To them your speech is completely silent and you do not exist. They will even instinctually go out of their way to avoid bumping into you or including you in any [[AoE]] effect. You can continue to chant each round to maintain this effect indefinitely, <span style="color:rgb(192, 0, 0)">but not after a creature has already noticed you</span>.
 
 Allies can join you in your chanting in order to also gain this benefit.
 

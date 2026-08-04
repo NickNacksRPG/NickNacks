@@ -1,6 +1,3 @@
----
-icon: puppet
----
 ## <span style="color:rgb(192, 0, 0)">This archetype replaces Psychic Implants/Painful Stare</span>
 
 ## <span style="color:rgb(103, 254, 120)">2 - Puppeteer</span> [[companion]] [[concentration]]

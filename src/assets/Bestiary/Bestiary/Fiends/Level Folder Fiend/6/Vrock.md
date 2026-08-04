@@ -21,7 +21,7 @@ Role: [[+Bruiser]]/[[+Artillery]]
 
 <span style="color:rgb(192, 0, 0)">Innate Techniques (CL 7)</span> - [[Finger Gun]], [[Rend Vision]]
 1/day - [[Most Annoying Sound]], [[Garrote]]
-Constant - [[Lightning Rod]]
+Prepared - [[Lightning Rod]]
 
 <span style="color:rgb(192, 0, 0)">Static Charge</span> [[Zap]] - Vrocks can dance as a standard action in order to build up 1 stack of static electricity. When multiple rocks are in the same combat, they all share the same static counter. This visibly manifests itself as crackling electricity that jumps from vrock to vrock, as though they were adept [[Firebender]]s. 
 At any point a vrock can spend 1 point of this static to cast [[Lightning Bolt]]. By spending an additional point of static they increase the [[DC]] and [[Caster Level|CL]] by 4. By spending more static charges, they can keep increasing these numbers infinitely.

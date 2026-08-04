@@ -19,9 +19,8 @@ Role: [[+Bruiser]]/[[+Infiltrator]]
 |                                                    | 2d6+3 (10) | +Predatory instincts                                |
 [[Multiattack]] - Make attacks. One must be [[Grapple]].
 
-<span style="color:rgb(192, 0, 0)">Innate Techniques</span> - [[Roar]], [[Pack Attack]]
+<span style="color:rgb(192, 0, 0)">Innate Techniques</span> - [[Roar]], [[Pack Attack]], [[Predatory Instincts]]
 1/day - [[Jaws of the Beast]]
-Constant - [[Predatory Instincts]]
 
 <span style="color:rgb(192, 0, 0)">Special Attack: Bushwack</span> - While they[[hide]], a big cat can take the jump action and attack a creature, dealing an additional 2d8 (9) dmg. If big cat successfully hides, it can also grapple the creature as an instant action.
 [[Rend]] - 2 claws, or a grapple and a claw (2d6)

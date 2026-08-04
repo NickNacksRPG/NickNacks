@@ -14,9 +14,9 @@ Level 10 Massive Elemental [[Boss]] [[Unique]]
 <span style="color:rgb(0, 176, 240)">Massive</span> - Jad's movement is [[Elusive]] against creatures that are medium or smaller
 ## <span style="color:rgb(192, 0, 0)">Offense Traits (DC 24)</span>
 
-| <span style="color:rgb(192, 0, 0)">Bite (P)</span> | +18                                                               |                     |
-| -------------------------------------------------- | ----------------------------------------------------------------- | ------------------- |
-|                                                    | 2d20+6 (no average <span style="color:rgb(192, 0, 0)">(:<</span>) | +Overwhelming Force |
+| <span style="color:rgb(192, 0, 0)">Bite (P)</span> | +18                    |                     |
+| -------------------------------------------------- | ---------------------- | ------------------- |
+|                                                    | 2d20+6 (no average >:) | +Overwhelming Force |
 <span style="color:rgb(192, 0, 0)">Here Comes Jad!</span> - Jad falls from the ceiling of the battlefield and crashes into the center of the arena. All creatures inside are instantly set to 1 [[poise]].
 <span style="color:rgb(192, 0, 0)">Overwhelming Force</span> - [[On-hit]] Jad's bite deals an equal amount of poise damage. If this poise breaks, the creature is tossed 60 feet directly away from him.
 <span style="color:rgb(192, 0, 0)">Fire Storm</span> [[fire]] [[persistent]] - Jad causes many pillars of flame to appear around the battlefield, functioning as the [[Pillar of Flame]] technique with the following changes: It appears underneath each enemy in combat, regardless of distance. They do not require concentration and they persist until Jad is defeated. They deal 2d20 damage (reflex halves).

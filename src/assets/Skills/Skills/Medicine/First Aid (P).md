@@ -1,5 +1,4 @@
 ---
-icon: bx-plus-medical
 aliases:
   - first aid
 ---

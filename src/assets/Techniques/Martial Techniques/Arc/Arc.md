@@ -1,4 +1,1 @@
----
-icon: mute
----
 The techniques designed to combat and negate magic, including both [[sp]]ells and [[Su]]pernatural abilities.

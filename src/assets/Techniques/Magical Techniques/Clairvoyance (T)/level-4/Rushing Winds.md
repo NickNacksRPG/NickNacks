@@ -1,6 +1,6 @@
 Level 4 [[Clairvoyance (T)]]
 Tags: [[Air]], [[Elusive]]
-Action: FRA
+Action: [[FRA]]
 
 | Range          | -                    |
 | -------------- | -------------------- |

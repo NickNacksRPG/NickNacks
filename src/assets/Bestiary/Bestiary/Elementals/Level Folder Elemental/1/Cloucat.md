@@ -18,8 +18,8 @@ Role: [[+Marksman]]
 | -------------------------------------------------------- | ---------- | -------------------------- |
 |                                                          | 2d6+3 (10) |                            |
 <span style="color:rgb(192, 0, 0)">Innate Techniques (CL 0)</span> - [[Shocking Grasp]], [[Pocket Sand]], [[Feather Fall]]
-1/day - [[Achoo!]]
-Constant - [[Lightning Rod]], [[Feather Fall]], [[Heavens' Vengeance]], [[Stick Together]]
+1/day - [[Achoo!]], [[Heavens' Vengeance]],
+Constant - [[Lightning Rod]], [[Stick Together]]
 
 <span style="color:rgb(192, 0, 0)">Tempest</span> [[Air]] [[Recharge]] - The cloucat can unleash a powerful gale in a 30 ft line. Creatures take its airbending damage and are knocked back 10 ft (fort halves damage and negates pushback). Can only be used 1/minute.
 <span style="color:rgb(192, 0, 0)">Rain on your Parade</span> [[Water]] [[Concentration]] - Cloucat can start raining as a swift action, lasting a few minutes. After it does so, it shrinks to tiny size and cannot do it again until it gathers moisture, actively or passively. Creatures it flies over when it does this become [[Wet]].
@@ -27,7 +27,7 @@ Constant - [[Lightning Rod]], [[Feather Fall]], [[Heavens' Vengeance]], [[Stick 
 ## <span style="color:rgb(247, 138, 255)">Weaknesses/Deep Lore</span>
 
 <span style="color:rgb(247, 138, 255)">Dry Spell</span> - When a cloucat takes fire damage, its Rain on Your Parade ability stops and it shrinks to tiny size. It becomes [[fatigued]] until it gathers moisture.
-<span style="color:rgb(247, 138, 255)">Light as Air</span> - Whenever a cloucat is subject to forced movement, it moves 10 more ft than intended in the same direction.
+<span style="color:rgb(247, 138, 255)">Light as Air</span> - Whenever a cloucat is subject to [[forced movement]], it moves 10 more ft than intended in the same direction.
 ## <span style="color:rgb(103, 254, 120)">Other Traits</span>
 
 <span style="color:rgb(103, 254, 120)">Ability Scores</span> - [[STR|STR]] -1, [[DEX]] +3, [[LUK]] +3, [[INT]] -1, [[WIS]] +1, [[CHA]] +0

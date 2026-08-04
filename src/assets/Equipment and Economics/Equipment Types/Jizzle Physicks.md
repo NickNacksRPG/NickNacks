@@ -1,6 +1,3 @@
----
-icon: gooey-daemon
----
 [[Inventory]] Slots: 1
 
 A core part of a life of adventure is taking damage, and your friendly neighborhood alchemists have you covered. As part of your starting gear (or a fee of <span style="color:rgb(103, 254, 120)">50g</span> if you lose yours) you gain access to a flask of wondrous physick with a regenerating ooze creature inside of it called a jizzle. When called upon, your jizzle will do its best to repair your body.

@@ -1,6 +1,3 @@
----
-icon: 🕸️
----
 The Spider Queen is an entity that is worshipped almost exclusively by dark elves and other intelligent spider creatures. The original Spider Queen blessed a particularly brave [[Elf]] that delved into her lair. The original now passed, the title of Spider Queen is passed down through the dark elf [[Shi'Sara]] royal family. 
 
 The Spider Queens have always encouraged competition. Even at a young age, children are encouraged to race their siblings when very young, and surpass their siblings in martial or magical prowess as they age. The only thing that matters to the subjects of the Queen is to make the most money, draw in the most followers, have the most powerful armies and make the most ground-breaking discoveries. Being talented is one way to achieve these goals, but eliminating the competition entirely isn't something that is discouraged.

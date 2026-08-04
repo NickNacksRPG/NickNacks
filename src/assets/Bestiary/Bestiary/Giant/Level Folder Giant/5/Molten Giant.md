@@ -20,9 +20,8 @@ Role: [[+Bruiser]]
 |                                                                | 2d6+4+2d6 (18) | +3d6 (10) Lava                   |
 [[Multiattack]] - Make 2 [[Melee Attack|melee attacks]]
 
-<span style="color:rgb(192, 0, 0)">Innate Techniques</span> - [[Awesome Blow]], [[Foe Toss]]
+<span style="color:rgb(192, 0, 0)">Innate Techniques</span> - [[Awesome Blow]], [[Foe Toss]], [[Shockwave]]
 1/day - [[Colossal Smash]], [[Earth Shatter]]
-Constant - [[Shockwave]]
 
 <span style="color:rgb(192, 0, 0)">Heat of Battle</span> - At the start of a molten giants turn, it generates 2 Heat. Whenever a molten giant takes fire damage, it gains heat stacks equal to how much fire damage it took (after resistance). As a swift action, a molten giant can superheat its weapon, adding its heat stacks as additional fire damage [[on-hit]], after which the heat dissipates until used again.
 <span style="color:rgb(192, 0, 0)">Molten Rock</span> [[fire]] - By spending 2 heat as a standard action and with 2 hands free, a molten giant can dig its fingers into a stone surface and melt it enough to give it something to throw, or it can super heat a nearby rock of adequate size. The rock is a thrown weapon that deals 2d6+4 (11) crush and 2d6 (7) fire damage.

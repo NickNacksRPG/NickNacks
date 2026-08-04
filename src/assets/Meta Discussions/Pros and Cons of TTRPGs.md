@@ -1,6 +1,3 @@
----
-icon: ➖
----
 For people unfamiliar who are considering playing Nick Nacks, here are some of the pros and cons of the hobby as a whole.
 ## <span style="color:rgb(103, 254, 120)">Pros</span>
 * <span style="color:rgb(103, 254, 120)">Never the Same Thing Twice</span> - If you want to talk about replayability, TTRPGs are unmatched. Every story will have moments you never forget, either because of silly moments where you roll bad, or because of epic battles where you almost died.

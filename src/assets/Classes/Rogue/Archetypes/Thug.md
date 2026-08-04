@@ -1,6 +1,3 @@
----
-icon: spiked-bat
----
 ## <span style="color:rgb(103, 254, 120)">1 - Terrorize</span>
 As a free action once per round, use [[+Intimidation]] to [[Demoralize]].
 If you use your Cunning Action to Demoralize, it affects all enemies within 30ft.

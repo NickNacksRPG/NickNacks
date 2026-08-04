@@ -1,5 +1,4 @@
 ---
-icon: hand-fist
 aliases:
   - unarmed attacks
   - unarmed strike

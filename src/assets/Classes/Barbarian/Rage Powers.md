@@ -1,6 +1,3 @@
----
-icon: 💢
----
 Despite the name, rage powers, unless explicitly stated, do not require you to be raging to use.
 ## <span style="color:rgb(103, 254, 120)">Skill-Based Raging</span>
 Choose a skill. You gain a +2 bonus to that skill and can use it while raging.

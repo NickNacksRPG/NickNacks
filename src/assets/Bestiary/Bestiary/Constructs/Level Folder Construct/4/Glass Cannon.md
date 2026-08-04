@@ -18,7 +18,7 @@ Role: [[+Marksman]]
 [[Multiattack]] - While its divine shield is active, make 2 cannon attacks.
 
 <span style="color:rgb(192, 0, 0)">Innate Techniques</span> - [[Gravity Bow]], [[Called Shot]]
-<span style="color:rgb(192, 0, 0)">Constant </span>- [[Artillery]]
+Prepared- [[Artillery]]
 ## <span style="color:rgb(247, 138, 255)">Weaknesses/Deep Lore</span>
 
 <span style="color:rgb(247, 138, 255)">Meltdown</span> - When subject to a [[Fire]] effect, a glass cannon is instantly destroyed, even if it had its forcefield up.

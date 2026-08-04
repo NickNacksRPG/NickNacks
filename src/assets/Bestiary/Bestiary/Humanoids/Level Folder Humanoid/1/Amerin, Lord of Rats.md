@@ -19,7 +19,7 @@ Role: [[+Minion Mancer]]/[[Boss]]
 |                                                              | 2d8+4 (13) |                                 |
 <span style="color:rgb(192, 0, 0)">Innate Techniques (CL 4)</span> - [[Lab Rat]], [[Gust]], [[Rift Bolt]], [[Pet Check]]
 1/day - [[Pollinate]], [[Toxic Waste]]
-Constant - [[Muk Punch]]
+Prepared - [[Muk Punch]]
 
 <span style="color:rgb(192, 0, 0)">The Big Cheese</span> [[Companion]] - Amerin considers all creatures with "rat" in their name as companions, granting them the companion boost to attack and all of his [[+Teamwork Feats]]. He can use special boss actions with rats.
 <span style="color:rgb(192, 0, 0)">Plague City</span> - Against any creature infected with a rat's plague, Amerin has [[advantage]] on attack

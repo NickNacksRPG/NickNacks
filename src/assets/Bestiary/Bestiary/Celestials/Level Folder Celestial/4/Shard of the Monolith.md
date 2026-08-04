@@ -17,7 +17,7 @@ Role: [[+Generalist]]
 |                                                          | 2d8+2 (11) |     |
 <span style="color:rgb(192, 0, 0)">Innate Techniques (CL 7, +1 Holy)</span> - [[Light it Up]], [[Pillar of Flame]], [[Storm Stomp]]
 1/day - [[Inheritor's Smite]], [[Dispelling Strike]], [[Wind Wall]]
-Constant - [[Sacred Flames]]
+Prepared- [[Sacred Flames]]
 
 <span style="color:rgb(192, 0, 0)">Breeze From Home</span> [[Healing]] [[Air]] [[Recharge]] - Make an 20 ft line attack that deals 2d6+8 (15) holy damage and [[Knocked Down|knocking down]] (reflex halves and negates knock down). Allies within the area are instead healed and have their speed increased by 10 for 1 round.
 <span style="color:rgb(192, 0, 0)">Blaze of Glory (Su) (Healing) (Air) (Recharge)</span> - When defeated, a shard will burst, affecting creatures within 20 ft as though using its Breeze From Home ability.

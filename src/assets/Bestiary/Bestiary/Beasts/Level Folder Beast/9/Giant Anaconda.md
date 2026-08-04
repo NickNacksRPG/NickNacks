@@ -18,9 +18,8 @@ Role: [[+Bruiser]]
 |                                                    | 2d8+3 (12) | +Predatory Instincts, +18 [[Bonk]]              |
 <span style="color:rgb(192, 0, 0)">Multiattack</span> - Make 2 attacks, one of which must be a [[Grapple]]
 
-<span style="color:rgb(192, 0, 0)">Innate Techniques</span> - [[Devour]]
+<span style="color:rgb(192, 0, 0)">Innate Techniques</span> - [[Devour]], [[Predatory Instincts]]
 1/day - [[Burst of Speed]] 
-Prepared - [[Predatory Instincts]]
 
 <span style="color:rgb(192, 0, 0)">Special Attack:</span> [[Base Special Attacks|lunge]] (at will)
 <span style="color:rgb(192, 0, 0)">Girthquake</span> [[earth]] - As a swift action, a giant anaconda can slam its body against the ground. Any creature within 10 ft of its body takes 20 [[poise]] damage (fort negates).

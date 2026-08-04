@@ -13,6 +13,6 @@ This costs 30 ft of movement, and makes it so your enemy is unable to effectivel
 
 This has no effect against creatures that are larger than you.
 
-Entering/leaving a space occupied by a creature no longer [[AoO|Provokes]] for you, regardless of the enemy's size.
+Entering/leaving a space occupied by a creature no longer [[AoO|Provokes]] from the creature you move through, regardless of the enemy's size.
 
 This technique does not give you any modes of movement. You must still be able to [[fly]] to use this against a flying creature, for instance.

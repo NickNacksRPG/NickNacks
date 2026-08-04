@@ -1,5 +1,4 @@
 ---
-icon: spiked-halo
 aliases:
   - Exalted
   - Fallen

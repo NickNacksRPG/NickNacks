@@ -1,6 +1,3 @@
----
-icon: underground-cave
----
 The subterranean elves with weirdo societies.
 
 | Language           | Elven                                                                           |

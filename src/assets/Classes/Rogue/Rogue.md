@@ -1,6 +1,3 @@
----
-icon: domino-mask
----
 Masters of stealth, infiltration and execution. The rogue is "that guy" someone knows who's the man for the job. The rogue is the guy who knows people higher up in town as much as those in the underbelly of society. Out-skill and outsmart your foes with the power of planning, tactics and playing dirty.
 
 | [[+HP]] (mixed)          | 20(+8 per level) |

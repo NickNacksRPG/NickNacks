@@ -1,5 +1,4 @@
 ---
-icon: bomb-explosion
 aliases:
   - crits
 ---

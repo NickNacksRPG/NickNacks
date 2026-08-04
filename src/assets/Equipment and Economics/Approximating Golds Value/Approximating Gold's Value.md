@@ -1,6 +1,3 @@
----
-icon: gold-bar
----
 As a general rule, I have loosely tied the value of gold to the USD. Average laborers like farmers can be expected to make ~10-20k gold every year, with the amount increasing with more sophisticated trades such as smiths or merchants.
 
 Gold pieces are small coins and are virtually weightless due to the minting process performed by the financial wizards. Another benefit of this minting is it causes gold pieces to naturally stack into specific values (5, 10, 20, 100, 1000).

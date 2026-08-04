@@ -1,5 +1,4 @@
 ---
-icon: saber-slash
 aliases:
   - special attacks
 ---

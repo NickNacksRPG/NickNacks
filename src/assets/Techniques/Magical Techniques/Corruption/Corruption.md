@@ -1,6 +1,3 @@
----
-icon: evil-book
----
 Demons, fey, undead and all manners of evil mages manufacture malefic methods of harming their enemies and the world around them. The corruption tree focuses on making everybody else miserable. [[Curse]]s are their favorite method of delivering this suffering.
 
 

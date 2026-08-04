@@ -26,10 +26,10 @@ If the beetles are defeated in time, the bog creeper still reforms, but it is [[
 |                                                    | 2d8+3 (12) |     |
 [[Multiattack]] - Make 2 [[Melee Attack|melee attacks]]
 
-<span style="color:rgb(192, 0, 0)">Innate Techniques</span>  - [[Blight]] (U4), [[Bone Cage]], [[Unholy Frenzy]], [[Corpse Transposition]]
-1/day - [[Corpse Explosion]], [[Gloom Bolt]] (U6), [[Warcry]], [[Pulverize]]
+<span style="color:rgb(192, 0, 0)">Innate Techniques</span>  - [[Blight]], [[Bone Cage]], [[Unholy Frenzy]], [[Corpse Transposition]]
+1/day - [[Corpse Explosion]], [[Gloom Bolt]] [[Warcry]], [[Pulverize]]
 
-<span style="color:rgb(192, 0, 0)">Breath Weapon</span> [[Recharge]] [[poison]] - Unleash a wave of putrid and caustic liquid. 60 ft cone, 10d6 (35) poison damage and applying [[sickened]] 1 (reflex halves dmg and negates sickened). In its wake, it leaves behind hazardous waste that deals 2d6 (7) poison damage to any creatures that end their turn in the area.
+[[Breath Weapon]] ([[Recharge]]) ([[poison]]) - Unleash a wave of putrid and caustic liquid. 60 ft cone, 10d6 (35) poison damage and applying [[sickened]] 1 (reflex halves dmg and negates sickened). In its wake, it leaves behind hazardous waste that deals 2d6 (7) poison damage to any creatures that end their turn in the area ([[Persistent]]).
 
 Recharges after using reformation/carrion consumption.
 <span style="color:rgb(192, 0, 0)">Bad Breath</span> [[poison]] - For 1 round after using its breath weapon, or carrion consumption, a bog creeper emits a horrific stench. Creatures it bites during this time become sickened 2. Any creature within 10 ft of the bog creeper during this time is made sickened 1 (fort negates). Creatures with the [[scent]] ability have [[Advantage|disadvantage]] on this save.

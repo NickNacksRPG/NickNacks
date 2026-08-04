@@ -19,7 +19,7 @@ Role: [[+Marksman]]
 |                                                            | 2d6+3 (10) | +Slushed                      |
 <span style="color:rgb(192, 0, 0)">Innate Techniques (CL 0)</span> - [[Curved Shot]], [[Snow Fort]]
 1/day - [[Blanket of Snow]]
-Constant - [[Artillery]]
+Prepared - [[Artillery]]
 
 <span style="color:rgb(192, 0, 0)">Slushed</span> [[frost]] - Snowballs [[Staggered|stagger]] creatures [[On-hit]].
 <span style="color:rgb(192, 0, 0)">Bouncy </span>- A snowman can [[shove]] as a swift action

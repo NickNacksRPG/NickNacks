@@ -1,6 +1,3 @@
----
-icon: circular-saw
----
 The Parry Fiend trades many of the abilities granted by the original slayer class to pivot the class from an unrelenting aggressor to a more defensive play style. Instead of killing everything that moves, a sentinel focuses more on disruption and setting up combos. The class primarily revolves around parrying enemy attacks.
 
 <span style="color:rgb(192, 0, 0)">This archetype replaces features in the base class rather than adding them.<br>Removes: Glory Kill, Dash, Shredder, Feats, Blood Punch</span>

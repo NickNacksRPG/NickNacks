@@ -1,20 +1,22 @@
+## [[Crust]]
 A shimmering pile of colorful nebulous liquid contains the ingredients of countless creatures within it. It does its best to protect its creations.
+<span style="color:rgb(192, 0, 0)">Note</span> - Because of the creature's peculiar defensive play pattern, knowledgeable creatures.
 
 Level 3 Large Ooze
 Role: [[+Minion Mancer]]/[[Boss]]
 ## <span style="color:rgb(0, 176, 240)">Defense Traits</span>
 
-| <span style="color:rgb(0, 176, 240)">AC</span>    | 15                        |                  |
-| ------------------------------------------------- | ------------------------- | ---------------- |
-| <span style="color:rgb(0, 176, 240)">HP</span>    | 100                       |                  |
-| <span style="color:rgb(0, 176, 240)">Poise</span> | 26                        | *[[DR]] 5 Solid* |
-| <span style="color:rgb(0, 176, 240)">Saves</span> | Fort +6, Refl +9, Will +4 | +4 [[Water]]     |
+| <span style="color:rgb(0, 176, 240)">AC</span>    | 15                        |     |
+| ------------------------------------------------- | ------------------------- | --- |
+| <span style="color:rgb(0, 176, 240)">HP</span>    | 100                       |     |
+| <span style="color:rgb(0, 176, 240)">Poise</span> | 26                        |     |
+| <span style="color:rgb(0, 176, 240)">Saves</span> | Fort +6, Refl +7, Will +4 |     |
 <span style="color:rgb(0, 176, 240)">Amorphous</span> - +15
 [[Immunity|Immune]] - [[Blinded]], [[Blurred Vision]]
-<span style="color:rgb(0, 176, 240)">Color Change</span> - A primordial ooze is immune to all damage. After being affected by a unique type of elemental damage (see _New Life_), it instead becomes resistant to damage for 1 round. When it loses this damage immunity, it takes half damage from the ability used.
+<span style="color:rgb(0, 176, 240)">Color Change</span> - A primordial ooze is immune to all [[+HP]] damage. After being affected by a unique type of elemental damage (see _New Life_), it instead becomes resistant to damage for 1 round. When it loses this damage immunity, it takes half damage from the ability used.
 
 Once it takes damage from 7 unique elemental types, it loses this quality until it rests.
-## <span style="color:rgb(192, 0, 0)">Offense Traits (DC 16)</span>
+## <span style="color:rgb(192, 0, 0)">Offense Traits (DC 17)</span>
  
 | <span style="color:rgb(192, 0, 0)">Pseudopod (C)</span> | +6         | +4 [[Maneuver Versatility\|MV]] |
 | ------------------------------------------------------- | ---------- | ------------------------------- |

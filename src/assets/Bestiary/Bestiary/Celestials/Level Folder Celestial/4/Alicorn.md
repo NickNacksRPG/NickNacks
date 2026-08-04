@@ -21,7 +21,7 @@ Role: [[+Support]]/[[+Controller]]
 |                                                          | 3d8+3 (16) | +[[Clumsy]] 1 [[On-hit]] |
 <span style="color:rgb(192, 0, 0)">Innate Techniques</span> - [[Storm Stomp]], [[Blue Attack]], [[Rejection]], [[Gust]]
 1/day - [[Path of Glory]], [[Solar Flare]], [[Radiant Burst]], [[Cure Wounds]], [[Temperamental Tempest]]
-Constant - [[Rainbow Road]]
+Prepared - [[Rainbow Road]]
 
 [[Powerful Charge]]
 <span style="color:rgb(192, 0, 0)">Cornered </span>- Against creatures that are [[Flanking]], or when taking the [[Disengage]] action, the alicorn can make a stomp attack as a swift action. 

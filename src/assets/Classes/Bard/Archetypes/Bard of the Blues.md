@@ -1,6 +1,3 @@
----
-icon: 💙
----
 Blues bards specialize in music to bring their enemies down rather than bringing their allies up. They play songs that intimidate, fascinate and confound their enemies. Their finales are all about finishing the combat once and for all.
 
 <span style="color:rgb(192, 0, 0)">Removes inspiration.</span>
@@ -16,9 +13,9 @@ Action: <span style="color:rgb(103, 254, 120)">Swift</span>
 Enemies take a -2 penalty to attack and saves against [[fear]] effects.
 ## <span style="color:rgb(103, 254, 120)">1 - Performance: The Blues</span>
 Action: <span style="color:rgb(103, 254, 120)">Swift</span>
-Enemies treat the area of the performance as difficult terrain. This performance is unaffected by *High Note*.
+Enemies treat the area of the performance as difficult terrain. During High Note, creatures that move through the area are [[knocked down]] (reflex negates).
 ## <span style="color:rgb(103, 254, 120)">1 - Finale: Perfect Execution</span>
-Make an attack with a +10 bonus. You can perform a special attack or technique that involves an attack (including a [[spell attack]]) with this finale.
+Gain a +10 bonus to attack this turn. You can perform a [[special attack]] or technique that involves attacking (including a [[spell attack]]) with this finale.
 ## <span style="color:rgb(103, 254, 120)">2 - Cutting Words</span> [[mana burn]] [[recharge]]
 Roast your enemies, causing them to falter when it matters most. As an immediate action, you can force a creature within 30 ft to subtract a d6 to a d20 roll (minus luck checks). At level 6 this increases to d8. At level 10 this improves to d10.
 

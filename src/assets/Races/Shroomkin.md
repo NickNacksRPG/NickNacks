@@ -1,6 +1,3 @@
----
-icon: super-mushroom
----
 The mushroom grower race.
 
 | Language                             | Sylvan                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |

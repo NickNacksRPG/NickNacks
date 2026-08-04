@@ -3,3 +3,5 @@ This effect riles up a creature and makes them horny in some way shape or form. 
 All lewd effects are also [[Mind-Affecting]]
 
 Common in [[Brazzeria (T)]] spells.
+
+I also threw this onto some bestiary creatures that are particularly horny.

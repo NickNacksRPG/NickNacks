@@ -1,6 +1,3 @@
----
-icon: card-jack-clubs
----
 ## [[Crust]]
 Jack of All Trades is someone that has done a little bit of everything. They work their music into their tasks to improv unique solutions to things. 
 ## <span style="color:rgb(103, 254, 120)">1 - Jack of All Trades</span>

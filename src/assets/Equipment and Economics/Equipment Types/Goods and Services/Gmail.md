@@ -1,5 +1,4 @@
 ---
-icon: envelope
 aliases:
   - courier
 ---

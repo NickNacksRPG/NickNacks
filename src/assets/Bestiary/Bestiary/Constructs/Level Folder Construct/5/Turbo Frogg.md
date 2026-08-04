@@ -18,9 +18,9 @@ Role: [[+Infiltrator]]
 |                                                      | 2d8+3 (12) | +Warpath                                                                                                                                       |
 [[Multiattack]] - Make a tongue and bite attack
 
-<span style="color:rgb(192, 0, 0)">Innate Techniques (CL 4)</span> - [[Laser Pointer]], [[Crash]], [[Pounce]], [[Sprint]]
+<span style="color:rgb(192, 0, 0)">Innate Techniques (CL 4)</span> - [[Laser Pointer]], [[Crash]], [[Pounce]], [[Sprint]], [[Warpath]]
 1/day - [[Plague of Frogs]], [[Hot Potato]]
-Constant - [[Unbreakable Advance]], [[Warpath]]
+Prepared - [[Unbreakable Advance]]
 
 [[Powerful Charge]]
 <span style="color:rgb(192, 0, 0)">Turbo Charged</span> [[Elusive]] - Whenever a turbo frogg takes the [[Charge]] action, it can continue its movement up and over the creature. It can charge into the air.

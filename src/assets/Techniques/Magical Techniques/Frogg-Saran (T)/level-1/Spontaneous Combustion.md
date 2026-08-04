@@ -10,6 +10,6 @@ Action: Swift
 Randomly set a creature [[ablaze]]. All enemies within 30 and yourself are suitable targets. You are always lit ablaze on a 1.
 
 <span style="color:rgb(103, 254, 120)">Pro Tip:</span>
-Consider using a dice larger than the number of creatures for uneven numbers and then re rolling unsuitable results.
+Consider using a dice larger than the number of creatures for uneven numbers and then re-rolling unsuitable results.
 
 

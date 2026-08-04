@@ -1,6 +1,3 @@
----
-icon: rear-aura
----
 Inquisitors crush wills as hard as they crush skulls. By marking people for judgement, you can send them deep into the depths of despair.
 ## <span style="color:rgb(103, 254, 120)">1 - Skill</span>
 Gain [[+Intimidation]] as a bonus skill with a +4 bonus.

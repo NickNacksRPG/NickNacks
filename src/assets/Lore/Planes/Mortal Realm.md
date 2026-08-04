@@ -1,5 +1,4 @@
 ---
-icon: galaxy
 aliases:
   - The Mortal Realm
 ---

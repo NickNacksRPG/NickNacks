@@ -17,9 +17,8 @@ Role: [[+Marksman]]
 |                                                               | d6+3 (6)   |                                   |
 | <span style="color:rgb(192, 0, 0)">Plasma Skull (Fire)</span> | +12        |                                   |
 |                                                               | d6+13 (16) | +[[glowing]] and [[bone chilled]] |
-<span style="color:rgb(192, 0, 0)">Innate Techniques (CL 13+3 fire)</span>  - [[Ice Lance]], [[Bouncing Blast]], [[Finger Gun]]
+<span style="color:rgb(192, 0, 0)">Innate Techniques (CL 13+3 fire)</span>  - [[Ice Lance]], [[Bouncing Blast]], [[Finger Gun]], [[Plasma Blade]]
 1/day - [[Self-Destruct]], [[Sap Life]]
-Constant(?) - [[Plasma Blade]]
 
 <span style="color:rgb(192, 0, 0)">Blaze It </span>- All elemental damage the devil shroom deals is automatically converted to fire damage.
 <span style="color:rgb(192, 0, 0)">Trailblazer </span>- All spaces a devil shroom moves through with its hover speed are set on fire. Creatures moving through such spaces are set [[Ablaze]] (reflex negates).
@@ -30,6 +29,7 @@ Constant(?) - [[Plasma Blade]]
 <span style="color:rgb(247, 138, 255)">Brakes</span> - When [[Wet]], the devil shroom cannot use its hover speed.
 <span style="color:rgb(247, 138, 255)">Sealed Soul</span> - A devil shroom gains the Soul Cage [[Medium]] ability but it can be used as an instant action at no cost. It manifests itself as a the flaming skull it uses to make attacks with its Plasma Blade. If that technique is ever [[Dispel|dispelled]], or the devil shroom ceases [[Concentration]], the soul is freed and the devil shroom must capture a new soul to use its Plasma Blade. 
 The soul may choose to linger briefly to thank its rescuers and curse its warden.
+<span style="color:rgb(247, 138, 255)">Plasma Moderation</span> - A devil shroom can only make a single attack with its plasma blade each turn.
 ## <span style="color:rgb(103, 254, 120)">Other Traits</span>
 
 <span style="color:rgb(103, 254, 120)">Ability Scores</span> - [[STR]] +0, [[DEX]] +3, [[LUK]] +1, [[INT]] +3, [[WIS]] +1, [[CHA]] -1

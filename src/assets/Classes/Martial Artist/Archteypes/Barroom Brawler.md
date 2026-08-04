@@ -1,6 +1,3 @@
----
-icon: beer-stein
----
 To some, drinking isn't just a something they do at parties, its a lifestyle. Barroom Brawlers have developed an unusual fighting style that combines the unnatural movements while drunk with the pain numbing effects of alcohol to be as annoying as possible to take down.
 ## <span style="color:rgb(103, 254, 120)">1 - Drinking Buddy</span>
 In a neutral scenario (aka one where you aren't actively being attacked), you can goad someone into a [[Drinking Contest]] with you (will negates). If you've already challenged someone, it won't work again.

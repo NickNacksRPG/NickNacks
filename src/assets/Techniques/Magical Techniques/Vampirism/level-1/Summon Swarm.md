@@ -9,6 +9,6 @@ Action: Standard
 | Save           | -          |
 Summon a swarm of bloodthirsty flying beasts to immediately fly over and harry a creature. The creature takes 2d8+CL (9+CL) pierce damage (reflex halves). While you concentrate, the swarm persists, giving the creature [[Blurred Vision]].
 
-If the swarm takes any damage or is the target of a direct attack, it disperses.
+The swarm is treated as though it was a creature, but cannot take any action and automatically follows the target ([[Elusive]]). If the swarm takes any damage or is the target of a direct attack, it disperses.
 
 

@@ -33,7 +33,7 @@ Choosing a charge is 1/day and the movement is usable 1/turn.
 
 <span style="color:rgb(103, 254, 120)">Ability Scores</span> - [[STR]] +4, [[DEX]] -1, [[LUK]] +0, [[INT]] -1, [[WIS]] +0, [[CHA]] +0
 <span style="color:rgb(103, 254, 120)">Languages</span> - Common, giant, primordial
-<span style="color:rgb(103, 254, 120)">Speed </span>- 25 
+<span style="color:rgb(103, 254, 120)">Speed </span>- 25 [[Land Speed]], 45 when moving across ice or snow
 <span style="color:rgb(103, 254, 120)">Feats</span> - [[Maneuver Versatility]], [[Sentinel]]
 <span style="color:rgb(103, 254, 120)">Skills</span> - +6 [[+Perception]], +10 [[+Athletics]], +5 [[+Stealth]]
 

@@ -1,6 +1,3 @@
----
-icon: sonic-shout
----
 The Skyman is a class defined by the signature ability to speak the tongue of dragons and manifest incredibly powerful effects from their words. There's also a healthy amount of jank. It is based on a Bethesda game after all.
 
 | [[+HP]] (mixed)          | 20(+8 per level) |

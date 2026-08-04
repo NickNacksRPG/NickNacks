@@ -1,6 +1,3 @@
----
-icon: centaur
----
 The half and half quadrupeds.
 
 | Language    | Sylvan                                                                                                                                                                                                           |

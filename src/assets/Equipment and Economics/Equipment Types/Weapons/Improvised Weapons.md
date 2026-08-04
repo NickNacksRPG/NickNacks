@@ -1,5 +1,4 @@
 ---
-icon: wooden-chair
 aliases:
   - improvised weapon
 ---

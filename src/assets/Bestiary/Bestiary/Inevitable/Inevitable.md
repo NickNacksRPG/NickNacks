@@ -1,5 +1,2 @@
----
-icon: reaper-scythe
----
 
 

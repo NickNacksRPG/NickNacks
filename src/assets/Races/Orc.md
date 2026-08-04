@@ -1,6 +1,3 @@
----
-icon: orc-head
----
 The big green bully race.
 
 | Language | Orc      |

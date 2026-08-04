@@ -1,6 +1,3 @@
----
-icon: 🍺
----
 DC 10 check that increases by 1 for each drink. You add your strength to this roll.
 
 On 3 fails you lose.

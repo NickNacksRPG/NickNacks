@@ -22,7 +22,6 @@ Role: [[+Bruiser]]/[[+Marksman]]
 
 <span style="color:rgb(192, 0, 0)">Innate Techniques</span> - [[Cripple]], [[Spartan Kick]], [[Fore!]], [[Put Me In!]], [[Dive]], [[Bull Rush]]
 1/day - [[Flying Arrow]], [[Frost Armor]]
-Constant - [[Ice Skating]] (self)
 
 <span style="color:rgb(192, 0, 0)">Hockey</span> - Frost giants always carry around a piece of solid ice that can be used as a puck for a game of hockey, or as a deadly weapon when needed.
 - Frost giants can create these pucks as a standard action. Pucks cannot exist within 300 ft of another, as per the rules of the game ([[Su]]).
@@ -41,7 +40,7 @@ Giants are pretty big, so their rinks are over 400 ft wide from goal to goal. A 
 
 <span style="color:rgb(103, 254, 120)">Ability Scores</span> - [[STR]] +4, [[DEX]] +1, [[LUK]] +0, [[INT]] +0, [[WIS]] +0, [[CHA]] +1
 <span style="color:rgb(103, 254, 120)">Languages</span> - Common, giant, primordial
-<span style="color:rgb(103, 254, 120)">Speed </span>- 35, 45 [[ice skating]] 
+<span style="color:rgb(103, 254, 120)">Speed </span>- 35 [[Land Speed]], 45 when moving across ice or snow
 <span style="color:rgb(103, 254, 120)">Feats</span> - [[Ricochet Toss]], [[Point Blank Master]], [[Maneuver Versatility]], [[Sentinel]], [[Escape Route]], [[Gang Up]]
 <span style="color:rgb(103, 254, 120)">Skills</span> - +6 [[+Perception]], +10 [[+Athletics]], +6 [[+Nature]], +8 [[+Profession]] (hockey)
 

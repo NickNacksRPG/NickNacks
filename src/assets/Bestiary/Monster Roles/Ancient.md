@@ -1,0 +1,1 @@
+These creatures are very old with great historical significance. You can use [[+History]] to identify the creature's abilities via [[+Monster Lore]].

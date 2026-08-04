@@ -1,5 +1,4 @@
 ---
-icon: Shield
 aliases:
   - shield
   - shields

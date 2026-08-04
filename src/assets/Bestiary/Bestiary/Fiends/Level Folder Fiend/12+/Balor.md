@@ -21,9 +21,8 @@ Role: [[Boss]]
 |                                                               | d6+5 (8)          | +Taste Fear                                                  |
 [[Multiattack]] - The balor makes 2 attacks. It [[Dual Wielding|dual wields]] its flame [[Whip]] and serrated sword.
 
-<span style="color:rgb(192, 0, 0)">Innate Techniques (CL 15)</span> - [[Bladed Decimation]], [[Telekinetic Thrust]], [[Backfire]]
-1/day - [[Calamity]], [[Wall of Fire]], [[Fire Blast]], [[Warcry]], [[Extreme Speed]], [[Armed Robbery]], 
-Constant - [[Taste Fear]]
+<span style="color:rgb(192, 0, 0)">Innate Techniques (CL 15)</span> - [[Bladed Decimation]], [[Telekinetic Thrust]], [[Backfire]], [[Taste Fear]]
+1/day - [[Calamity]], [[Wall of Fire]], [[Fire Blast]], [[Warcry]], [[Extreme Speed]], [[Armed Robbery]]
 
 [[Quicken Spell]] - [[Telekinetic Thrust]]
 <span style="color:rgb(192, 0, 0)">Destruction Unbound (Su)</span> [[Recharge]] - 1/day when a balor falls below half hp, a chain reaction is triggered inside of it, with an obvious glow to any who can see it. At the start of its next turn, it unleashes a devastating blast that deals 30 [[true damage]] to every creature (other than the balor) within 30 ft, and knocking them back 30 ft (reflex haves damage and negates the knockback).

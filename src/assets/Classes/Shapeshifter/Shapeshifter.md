@@ -1,6 +1,3 @@
----
-icon: wolf-howl
----
 Unleash the power of the wilds. Shapeshifters are incredibly versatile, capable of adapting to any situation on a dime with their shapeshifting ability, though they typically focus on tearing their enemies to shreds with their claws.
 
 | [[+HP]] (martial)        | 20(+10 per level) |

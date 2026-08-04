@@ -1,5 +1,5 @@
 ---
-icon: psychic-waves
+icon: 🤯
 ---
 The psionics tree is something that has been developed piecemeal over long periods of time, culminating into its current form under the guidance of an entity by the name of [[Santa]].
 

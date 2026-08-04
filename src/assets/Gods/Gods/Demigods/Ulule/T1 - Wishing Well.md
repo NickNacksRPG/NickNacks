@@ -1,5 +1,4 @@
 ---
-icon: well
 aliases:
   - wishing well
 ---

@@ -1,5 +1,5 @@
 ---
-icon: abstract-024
+icon: Abstract024
 ---
 Moogen is the demon lord most often associated with death, darkness and murder. The forces of the Cataclysm will come busting down your door. Moogen's forces will watch you for days, waiting for when your death will have the most impact in inspiring fear and chaos in your family, town or society as a whole. The more impact the death has, the flashier it is and the longer it stains the memory of mortals, the better.
 

@@ -1,6 +1,3 @@
----
-icon: 🥇
----
 ## [[Crust]]
 You know the greatest secrets of them all. The kind of secrets that the masters refuse to teach in other schools of martial arts. You have mastered the power of suggestion to such an extent that you appear to manipulate psychic energy, stave off debilitating disease and defeat your opponents without even touching them. In reality, your confidence is just so overpowering that people cannot help but kneel.
 ## <span style="color:rgb(103, 254, 120)">1 - Master of Deception</span>

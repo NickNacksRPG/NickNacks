@@ -20,7 +20,7 @@ Role: The Ultimate [[+Controller]]/[[Boss]]
 |                                                 | Vulnerability Hex |     |
 <span style="color:rgb(192, 0, 0)">Innate Techniques (CL 20)</span> - [[Pillar of Flame]], [[Frost Armor]]
 1/day - [[Purge]], [[Wall of Fire]], [[Corpse Possession]], [[Corpse Explosion]], [[Tabula Rasa]], [[Glimpse of Truth]]
-Constant - [[Unbreakable Advance]], [[Spectral Hand]]
+Prepared - [[Unbreakable Advance]], [[Spectral Hand]]
 
 <span style="color:rgb(192, 0, 0)">Bullet Hell</span> - Calamitas can use an infinite number of [[concentration]] effects active at once, as long as they also have the [[persistent]] tag. If she ever loses concentration, only 1 effect ends instead of all of them.
 <span style="color:rgb(192, 0, 0)">Punish </span>- Calamitas can make [[AoO]]s against creatures within 30 ft, but only when an allied ability allows her to make an AoO.
@@ -51,3 +51,8 @@ Her second major summon is [[sugma]]
 <span style="color:rgb(103, 254, 120)">Skills</span> - +19 [[+Perception]], +17 [[+Insight]], +22 [[Arcana]], +20 [[+History]], +18 [[+Planes]]
 
 ![[Scal.png|Supreme Witch Calamitas by [Sliznechock](https://joyreactor.com/user/Sliznechock)]]
+
+| <span style="color:rgb(192, 0, 0)">Touch</span> | +16               |     |
+| ----------------------------------------------- | ----------------- | --- |
+|                                                 | Vulnerability Hex |     |
+

@@ -12,3 +12,5 @@ Action: Swift
 Immediately move adjacent to them and roll a [[grapple]] attack with a +20 bonus. Excess [[poise]] damage is halved, then converted into crush damage.
 
 So long as the direction they move includes the direction you chose (ie "north" and the target moves northwest 10 ft), your prepared grab triggers. 
+
+Cannot trigger off of [[Forced Movement]].

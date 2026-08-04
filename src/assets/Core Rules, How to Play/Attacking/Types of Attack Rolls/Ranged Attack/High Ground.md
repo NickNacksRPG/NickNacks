@@ -1,6 +1,3 @@
----
-icon: siege-tower
----
 A [[Circumstance]] that you get when you have an elevation edge of at least 10 ft over your opponent.
 
 You cannot gain high ground by using the [[Jump]] action.

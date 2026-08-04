@@ -1,7 +1,7 @@
 A pleasant creature as far as fiends go. These quadrupeds cling to their master and fulfill their every desire. Today master desires your death, so they rush to tear you to pieces.
 
 Level 2 Medium Fiend <span style="color:rgb(192, 0, 0)">(minion)</span>
-Role: [[+Support]]/[[+Bruiser]]
+Role: [[+Generalist]]
 ## <span style="color:rgb(0, 176, 240)">Defense Traits</span>
 
 | <span style="color:rgb(0, 176, 240)">AC</span>    | 17                        |                 |
@@ -24,7 +24,7 @@ Role: [[+Support]]/[[+Bruiser]]
 <span style="color:rgb(192, 0, 0)">Master</span> - A pamper grows attached to creatures, preferring fiends or fiendish creatures, particularly the charismatic ones. They can give themselves the [[companion]] tag, receiving all the benefits. They get a +8 bonus to [[+Perception]] and [[+Survival]] checks to locate or track their master.
 
 If enough time passes without seeing their master, or they find their master dead, they start a quest to find a new master.
-<span style="color:rgb(192, 0, 0)">Protect</span> [[elusive]] - When master takes damage, spend an immediate action to dash to their side at lightning speed. Move 50 ft closer to master and make an AoO against the attacking creature along the way.
+<span style="color:rgb(192, 0, 0)">Protect</span> [[elusive]] - When master takes damage, spend an immediate action to dash to their side at lightning speed. Move 50 ft closer to master.  If already within reach, make an AoO against the attacking creature.
 <span style="color:rgb(192, 0, 0)">Special Attack: Pounce </span>- By taking a [[jump]] action before attacking, roll a [[grapple]] attack with [[advantage]]. If the pamper succeeds, the creature is also [[knocked down]] as long as they are grappled.
 ## <span style="color:rgb(247, 138, 255)">Weaknesses/Deep Lore</span>
 

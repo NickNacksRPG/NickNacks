@@ -15,7 +15,6 @@ Role: [[+Infiltrator]]
 | <span style="color:rgb(192, 0, 0)">Knife (P)</span> | +3       | [[Chink Magnet]], +6 [[Disarm]] |
 | --------------------------------------------------- | -------- | ------------------------------- |
 |                                                     | d6+3 (6) |                                 |
-
 <span style="color:rgb(192, 0, 0)">Innate Techniques</span> - [[Break Free]]
 
 <span style="color:rgb(192, 0, 0)">Claimed</span> - A loot goblin can use [[disarm]] to take anything on a creatures person that is readily accessible, such as potions, weapons, [[Gear Upgrades]] etc. When a loot goblin disarms a creature, it can grab hold of the item and immediately stow it away in its loot pouch.

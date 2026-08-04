@@ -1,6 +1,3 @@
----
-icon: goblin
----
 The green shortstacks with big ears
 
 | Language | Goblin   |

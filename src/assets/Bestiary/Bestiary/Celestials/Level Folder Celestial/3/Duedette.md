@@ -20,9 +20,8 @@ Role: [[+Bruiser]]/[[+Controller]]
 |                                                      | Inflicts [[Blinded]] [[On-hit]], or [[Blurred Vision]] on a [[Graze]] |                                 |
 <span style="color:rgb(192, 0, 0)">Multiattack</span> - Make 2 attacks with single light weapon and one shine attack
 
-<span style="color:rgb(192, 0, 0)">Innate Techniques (CL 4)</span> - [[Radiant Burst]], [[Disc of Light]] (U2), [[Snap Back]]
+<span style="color:rgb(192, 0, 0)">Innate Techniques (CL 4)</span> - [[Radiant Burst]], [[Disc of Light]] (U2), [[Snap Back]], [[Dancing Light]]
 1/day - [[Inheritor's Smite]], [[Burst of Speed]], [[On the Clock]], [[Flame of Destiny]]
-Constant - [[Dancing Light]] (self)
 
 <span style="color:rgb(192, 0, 0)">Shine</span> - Duedettes have an unconventional [[Natural Attack]] that they can make as long as they have an empty hand. It is either made as a [[Ranged Attack]] with a range of 30 ft or a [[Melee Attack]] against a foe within their [[Reach|natural reach]]. It inflicts [[Blinded]] [[On-hit]], or [[Blurred Vision]] on a [[Graze]]. Each condition only lasts 1 round.
 <span style="color:rgb(192, 0, 0)">Repayment </span>- When a creature harms the duedette, they can spend an immediate action to make a <span style="color:rgb(255, 192, 0)">Shine</span> attack against the creature.

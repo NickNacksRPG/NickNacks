@@ -1,6 +1,3 @@
----
-icon: whirlwind
----
 Wind Swordsman are focused on being annoying and slippery with an incredibly powerful signature attack: Steel Tempest. Their abilities are centered around mobility to get into a better position to use this attack.
 ## <span style="color:rgb(103, 254, 120)">1 - Steel Tempest</span> [[Su]] [[Air]]
 Once per round when you land a [[melee attack]] against a creature, gain a stack of <span style="color:rgb(0, 176, 240)">gathering storm</span>. With two stacks of gathering storm, you can use the following special attack. This special attack can be used any number of times in a combat.

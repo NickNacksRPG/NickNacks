@@ -20,7 +20,7 @@ Role: [[+Generalist]]
 
 <span style="color:rgb(192, 0, 0)">Innate Techniques</span> - [[Forbidden]], [[Kidnap]]
 1/day - [[Jaws of the Beast]] (U4)
-Constant - [[Long Stride]]
+Prepared - [[Long Stride]]
 
 <span style="color:rgb(192, 0, 0)">Rolling</span> - A creature dragged within the congodile's [[Reach|natural reach]] is also [[Knocked Down]].
 <span style="color:rgb(192, 0, 0)">Peanut Gallery</span> [[Recharge]] - As a free action once each turn, one of the riding frogs can use their respective technique. Once used, it cannot be used again for 1 minute.

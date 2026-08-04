@@ -1,3 +1,0 @@
----
-icon: bleeding-wound
----

@@ -1,5 +1,4 @@
 ---
-icon: toolbox
 aliases:
   - tool
   - kit

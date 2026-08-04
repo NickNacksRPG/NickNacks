@@ -18,7 +18,7 @@ Role: [[+Controller]]
 |                                                         | d8+2 (6) |                                                 |
 <span style="color:rgb(192, 0, 0)">Innate Techniques CL 14</span> - [[Mind Crush]], [[Detect Thoughts]], [[Telekinetic Maneuver]]
 1/day - [[Telekinetic Thrust]]
-Constant - [[Telekinetic Lift]], [[Tongues]]
+Prepared - [[Telekinetic Lift]], [[Tongues]]
 
 <span style="color:rgb(192, 0, 0)">Brain Blast (Su)</span> [[Psychic]] [[Recharge]] - Creatures in a 30 ft cone take 6d6 (21) psychic damage and are [[dazed]] for 1 round (will halves damage and reduces stun to [[Staggered]]). A mind flayer must devour intellect, wait 1 minute or concentrate as a [[FRA]] to gain use of this ability again.
 <span style="color:rgb(192, 0, 0)">Displacer (Su) (Psychic)</span> - When a mind flayer causes a creature to take [[Fall Damage]], it takes an additional 5 psychic damage.

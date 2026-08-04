@@ -1,6 +1,3 @@
----
-icon: eclipse
----
 The definitely not Midna race
 
 | Language | Necril   |

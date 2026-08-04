@@ -1,6 +1,3 @@
----
-icon: 🌠
----
 # <span style="color:rgb(103, 254, 120)">What is Nick Nacks?</span>
 ![[NICK NACKS showcase n logo.png]]
 Nick Nacks is my d20 fantasy tabletop role-playing game (TTRPG). My biggest sources of inspiration are Pathfinder 1e and Divinity Original Sin 2. My primary goal is to make a living breathing game that changes all the time, and as such, I am not particularly interested in selling physical media like books. I regularly post patch notes on my [Discord](https://discord.gg/qZ7pcSWQCg).
@@ -11,7 +8,8 @@ Where I think Nick Nacks shines is its customization options for players and GMs
 
 I have plans to make far, far more classes, subclasses, bestiary creatures, feats and more!
 ## <span style="color:rgb(103, 254, 120)">Helpful Links</span>
-## ❗[[The Game, All in One Place]] so you can better get a summary of gameplay without having to hop between pages (incomplete).
+## ❗➡[[The Game, All in One Place]]⬅❗
+So you can better get a summary of gameplay without having to hop between pages (incomplete).
 
 The Meta Discussions section with pages like [[+I'm New to Tabletop Role-Playing]] is a good place to start if you are unfamiliar with the TTRPG hobby as a whole and are considering playing. Also, what makes Nick Nacks unique in [[Pros and Cons of Nick Nacks]].
 

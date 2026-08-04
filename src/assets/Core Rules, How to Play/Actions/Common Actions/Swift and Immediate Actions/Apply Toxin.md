@@ -1,6 +1,3 @@
----
-icon: poison-bottle
----
 Retrieve and apply a [[+Toxins|Toxin]] to a held weapon. Provokes [[AoO]]s.
 
 <span style="color:rgb(192, 0, 0)">Note - </span>

@@ -1,6 +1,3 @@
----
-icon: 🍷
----
 You have a connection to a particularly wealthy individual who enables your particularly lavish lifestyle. Your friend is well renowned for their hedonistic tendencies to such an extent that merely being associated with them is enough to carry you through life.
 
 You have what essentially amounts to a credit card: A tab that you can use in any establishment that sells superfluous niceties such as drinks, excessively expensive lodging, or to arrange house parties. The seal on your card carries so much weight that you can use it to enter exclusive clubs for the wealthy, or as a pass to get into parties when you aren't on the guest list.

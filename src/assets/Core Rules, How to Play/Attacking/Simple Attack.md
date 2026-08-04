@@ -1,5 +1,4 @@
 ---
-icon: sword-brandish
 aliases:
   - simple
   - simple attacks

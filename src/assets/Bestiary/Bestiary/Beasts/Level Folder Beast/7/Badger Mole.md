@@ -13,10 +13,11 @@ Role: [[+Marksman]]
 <span style="color:rgb(0, 176, 240)">Ligma</span> - 
 ## <span style="color:rgb(192, 0, 0)">Offense Traits (DC 19)</span>
 
-<span style="color:rgb(192, 0, 0)">Claw (S)</span>  +10
-2d6+3 (10)
-<span style="color:rgb(192, 0, 0)">Earthbending (C)</span>  +10
-5d10+3 (30)
+| <span style="color:rgb(192, 0, 0)">Claw (S)</span>         | +10          |       |
+| ---------------------------------------------------------- | ------------ | ----- |
+|                                                            | 2d6+3 (10)   |       |
+| <span style="color:rgb(192, 0, 0)">Earthbending (C)</span> | +12          | 30 ft |
+|                                                            | 5d810+3 (30) |       |
 
 <span style="color:rgb(192, 0, 0)">Innate Techniques</span> - [[Thunder Stomp]], 
 1/day - [[Crater]], 

@@ -1,6 +1,3 @@
----
-icon: holy-grail
----
 Your unquestioning faith in your deity gives you unbridled strength and resilience in the face of danger. Your deity also gives you the authority to enforce their will through various supernatural powers, so long as you maintain a clean slate.
 Paladin excels with allies, saving them from certain death and guiding their strikes with divine intervention. Paladin is a martial class that trades raw damage for many supportive qualities.
 

@@ -18,9 +18,8 @@ Role: [[+Bruiser]]
 |                                                          | 2d8+3 (12) |                                               |
 [[Multiattack]] - Make 2 claw attacks.
 
-<span style="color:rgb(192, 0, 0)">Innate Techniques</span> - [[Sonic Boom]], [[Thunder Stomp]], [[Training Arc]], [[Awesome Blow]]
+<span style="color:rgb(192, 0, 0)">Innate Techniques</span> - [[Sonic Boom]], [[Thunder Stomp]], [[Training Arc]], [[Awesome Blow]], [[Shockwave]]
 1/day - [[Fracture]]
-Constant - [[Shockwave]]
 
 [[Rend]] - 2 claws, 2d6 (7) sonic. 
 <span style="color:rgb(192, 0, 0)">Plow Through</span> - Creatures shoved by a Hell Knight are pushed 30 feet instead of 20. If they impact a solid surface, they take 2d6+5 (12) crush damage. Shoving a creature into another creature does this damage to both. These numbers already include the Hell Knight's [[Linebacker]] feat.

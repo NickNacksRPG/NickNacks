@@ -19,7 +19,7 @@ Level 10 Medium Aberration
 |                                                              | 2d8+3 (11) |                 |
 <span style="color:rgb(192, 0, 0)">Innate Techniques (CL 13)</span> - [[Wandering Stars]], [[Cosmic Cage]], [[Hellscape]], [[Dead Silent]], [[Violent Accident]]
 1/day - [[Drain Soul]] (U5), [[Rotting Alliance]], [[Ice Beam]], [[Wall of Force]], [[Moonblast]], [[Dark Matter]] (U5)
-Constant - [[Scholars Shield]]
+Prepared - [[Scholars Shield]]
 
 <span style="color:rgb(192, 0, 0)">Cookiefication</span> [[Su]] [[curse]] - With a touch, turn a creature into a sweet treat version of themselves (fort negates). Creatures with bite attacks gain a +4 bonus to attack against cookie creatures. A grandma can make a bite attack as an instant action against a creature that gets cookiefied.
 [[Summon Ally]] ([[companion]]) - 2 [[Wrinklers]]

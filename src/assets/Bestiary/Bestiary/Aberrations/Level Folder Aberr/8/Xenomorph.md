@@ -20,9 +20,8 @@ Role: [[+Bruiser]]
 |                                                              | 2d8+3 (12) |                                                                    |
 [[Multiattack]] - Make 3 [[Melee Attack|melee attacks]]
 
-<span style="color:rgb(192, 0, 0)">Innate Techniques</span> - [[Jaws of the Beast]], [[Ferocious Howl]] (U4)
+<span style="color:rgb(192, 0, 0)">Innate Techniques</span> - [[Jaws of the Beast]], [[Ferocious Howl]] (U4), [[Thick of the Fight]]
 1/day - [[Warcry]]
-Constant - [[Thick of the Fight]]
 
 <span style="color:rgb(192, 0, 0)">Caustic Blood</span> [[Poison]] [[Recharge]] - When a xenomorph loses more than 10 hp from an attack, or it takes [[Bleeding|bleed]] damage, its blood reacts explosively to open air. The xenomorph can choose a creature within 30 ft take 6d6 (21) poison damage (reflex halves). Can only happen 1/round.
 <span style="color:rgb(192, 0, 0)">Bite^2</span> - If a xenomorph starts its turn [[Grapple|grappling]] a creature, it can use its second mouth to blast a hole in the creature as a maintain option. The creature takes 8d6 (28) pierce damage and is [[drained]] 6 (fort halves pierce damage).

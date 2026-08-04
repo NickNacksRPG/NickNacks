@@ -1,6 +1,6 @@
 Level 2 [[Arc]]
 Tags: [[Prepared]], [[Su]]
-Action: Standard
+Action: -
 
 | Range          | -   |
 | -------------- | --- |

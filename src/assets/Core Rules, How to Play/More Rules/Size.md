@@ -1,5 +1,4 @@
 ---
-icon: resize
 aliases:
   - Size
 ---

@@ -1,6 +1,3 @@
----
-icon: brick-wall
----
 You have to feel it to believe it. Mimes are exceptionally good at making the precise hand and body movements to convince others that what their gestures imply exist really do. So much so that they won't believe it when they actually do!
 ## <span style="color:rgb(103, 254, 120)">1 - Pantomime</span> ([[Su]]) ([[Concentration]]) ([[Mana Burn]])
 You can create objects out of thin air. Said objects must relatively simple and fit within a 10x10x10 ft cube. You can mime a flat wall, but you can't make a rat maze. You can mime a long rope, but you cannot mime a pulley system. Miming requires a standard action.

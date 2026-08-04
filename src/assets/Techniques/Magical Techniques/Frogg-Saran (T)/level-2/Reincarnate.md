@@ -2,11 +2,11 @@ Level 2 [[Frogg Saran (T)]]
 Tags: [[Recharge]]
 Action: Standard
 
-| Range          | Reach                                   |
-| -------------- | --------------------------------------- |
-| Target/[[AoE]] | 1 willing or defeated *living* creature |
-| Duration       | -                                       |
-| Save           | -                                       |
+| Range          | Reach                                                                                  |
+| -------------- | -------------------------------------------------------------------------------------- |
+| Target/[[AoE]] | 1 willing or defeated <span style="color:rgb(192, 0, 0)"><i>living</i></span> creature |
+| Duration       | -                                                                                      |
+| Save           | -                                                                                      |
 You transform a [[+Races|race]] into another random race. They are (usually) reborn as a completely different race. They replace all of their previous racial traits with the racial traits of the new race, making the same choices they had during character creation for things such as alternate racial features.
 
 Use the following chart determine what race the spell transforms the creature into. Campaigns where more races are present, feel free to add more options to the chart. If the race is incompatible with your campaign, then reroll until you find an appropriate race.

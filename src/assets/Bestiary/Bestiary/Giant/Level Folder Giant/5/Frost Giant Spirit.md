@@ -17,9 +17,9 @@ Role: [[+Marksman]]
 | <span style="color:rgb(192, 0, 0)">Touch (cold or necrotic)</span> | +8         |                                                      |
 | ------------------------------------------------------------------ | ---------- | ---------------------------------------------------- |
 |                                                                    | 3d8+3 (16) | +[[Frosty]] (if cold), +[[Sickened]] 1 (if necrotic) |
-<span style="color:rgb(192, 0, 0)">Innate Techniques (CL 8)</span> - [[Blight]], [[Wither]], [[Icy Spears]], [[Call of the Grave]], [[Corpse Explosion]]
+<span style="color:rgb(192, 0, 0)">Innate Techniques (CL 8)</span> - [[Blight]], [[Wither]], [[Icy Spears]], [[Call of the Grave]], [[Corpse Explosion]], [[Sap Life]]
 1/day - [[Empathy]], [[Ice Beam]]
-Constant - [[Sap Life]]
+
 
 [[Quicken Spell]] - [[Call of the Grave]]
 <span style="color:rgb(192, 0, 0)">Pain</span> [[sonic]] [[fear]] [[recharge]] - Special: A spirit must have taken damage from an enemy to activate this ability.

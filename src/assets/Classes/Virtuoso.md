@@ -1,6 +1,3 @@
----
-icon: 4️⃣
----
 Death should never be quick. It should be an opera. The virtuoso is a creature of cadence and cruelty. All of their abilities are as flashy as they are deadly. They primarily focus on dealing damage from range using a special type of firearm. Anybody familiar with a virtuoso fears the power behind the fourth shot of this gun.
 
 | [[+HP]] (mixed)          | 20(+8 per level) |

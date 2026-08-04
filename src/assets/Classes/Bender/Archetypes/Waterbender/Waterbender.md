@@ -1,6 +1,3 @@
----
-icon: 🌊
----
 ## <span style="color:rgb(103, 254, 120)">1 - Elemental Blast: Water</span>
 Your damage is crush. In order to use Su class abilities, a gallon of water (even ice) must be present within 30 ft range. Using less turns blast and other Su attacks into a FRA. Many waterbenders carry vessels like pouches for use away from oceans, rivers or glaciers.
 ## <span style="color:rgb(103, 254, 120)">1 - Elemental Movement: Water Walking</span>

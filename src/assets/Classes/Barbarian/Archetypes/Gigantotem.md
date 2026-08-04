@@ -1,6 +1,3 @@
----
-icon: giant
----
 Become large and in charge.
 ## <span style="color:rgb(103, 254, 120)">1 - Totem Feature - Embiggen</span> [[Su]]
 When raging, your size increases to large. At level 6 you can choose to instead become huge. At level 10 you can choose to become massive.

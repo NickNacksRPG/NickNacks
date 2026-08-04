@@ -11,7 +11,7 @@ Role: [[+Bruiser]]
 | <span style="color:rgb(0, 176, 240)">Saves</span> | Fort +8, Refl +5, Will +4 |     |
 [[Immunity|Immune]] - [[Drained]], [[Venom|envenomed]]
 [[Resistance]] - [[Poison]]
-<span style="color:rgb(0, 176, 240)">Rigor Mortis</span> [[Recharge]] [[Healing]] - When a scavenger is killed, they do not truly die. They are exceptionally good at playing dead locking their limbs and slowing their bodily functions to almost inactive. A creature trained in [[+Medicine]] can identify when such a creature is not truly dead passively if their bonus is at least +6, or automatically if they attend to the "corpse" for whatever reason (looting, moving it etc).
+<span style="color:rgb(0, 176, 240)">Rigor Mortis</span> [[Recharge]] [[Healing]] - When a scavenger is killed, they do not truly die. They are exceptionally good at playing dead, locking their limbs and slowing their bodily functions to almost inactive. A creature trained in [[+Medicine]] can identify when such a creature is not truly dead passively if their bonus is at least +6, or automatically if they attend to the "corpse" for whatever reason (looting, moving it etc).
 
 If the scavenger is not killed within the next minute, it rises back up and heals 10 hp. It must use its Spoiled Appetite ability to recharge this ability.
 <span style="color:rgb(0, 176, 240)">Spoiled Appetite</span> [[Healing]] - A scavenger relishes the opportunity to consume rotting viscera and bone. A creature must have been dead for at least 24 hours, or be [[Undead]] to be worthwhile to consume to a scavenger, though the longer the better.
@@ -31,8 +31,8 @@ As a swift action against an adjacent corpse, a scavenger can consume such meat 
 
 <span style="color:rgb(192, 0, 0)">Frenzy</span> [[Recharge]] -  Consuming a delicious meal energizes a scavenger like nothing else. As a swift action, a scavenger can enter frenzy for 1 round, giving them [[Resistance]] to all damage and an additional 30 speed. Recharges when they use their spoiled appetite ability.
 
-They also get access to the following special attack.
-<span style="color:rgb(255, 192, 0)">Eviscerate</span> - Cause the target to bleed d6 [[On-hit]]
+They also get access to the following [[Special Attack]].
+<span style="color:rgb(255, 192, 0)">Eviscerate</span> - Cause the target to bleed 2d6 [[On-hit]]
 <span style="color:rgb(192, 0, 0)">Favored Enemy</span> - Scavengers get a +4 bonus to [[attack]] against [[Undead]]
 ## <span style="color:rgb(247, 138, 255)">Weaknesses/Deep Lore</span>
 

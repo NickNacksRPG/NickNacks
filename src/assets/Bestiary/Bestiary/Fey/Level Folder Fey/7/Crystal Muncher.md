@@ -16,9 +16,8 @@ Role: [[+Bruiser]]
 | <span style="color:rgb(192, 0, 0)">Unarmed (C)</span> | +13        |                  |
 | ----------------------------------------------------- | ---------- | ---------------- |
 |                                                       | 2d8+3 (12) | +[[Mage Slayer]] |
-<span style="color:rgb(192, 0, 0)">Innate Techniques</span> - [[Body Slam]] (U4), [[Dispelling Strike]], [[Vulnerability]]
+<span style="color:rgb(192, 0, 0)">Innate Techniques</span> - [[Body Slam]] (U4), [[Dispelling Strike]], [[Vulnerability]], [[Sap Life]] (U4)
 1/day - [[Shine]], [[Focus Punch]], [[Pulverize]], [[Crystalline Explosion]], [[Hammer Fist]]
-Constant - [[Sap Life]] (U4)
 
 [[Quicken Spell]] - [[Crystalline Explosion]]
 [[Trample]] - 2d8+3 (12) damage. Instead of inflicting [[Knocked Down|Knockdown]], the crystal muncher can [[Swallow]] any creatures it tramples. Swallowed creatures are [[drained]] 3 immediately and at the end of their turns.

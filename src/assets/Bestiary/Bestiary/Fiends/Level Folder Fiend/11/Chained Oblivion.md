@@ -18,9 +18,8 @@ Role: [[+Bruiser]]
 
 [[Multiattack]] - Make 2 claw attacks.
 
-<span style="color:rgb(192, 0, 0)">Innate Techniques</span> - [[Disintegration]], [[Pulverize]], [[Unga Bunga]], [[Awesome Blow]]
+<span style="color:rgb(192, 0, 0)">Innate Techniques</span> - [[Disintegration]], [[Pulverize]], [[Unga Bunga]], [[Awesome Blow]], [[Long Arms]]
 1/day - [[Elemental Shield]], [[Roar of the Cataclysm]], [[Shackles of Pain]], [[Vile Vigor]], [[Asphyxiate]]
-Constant - [[Long Arms]]
 
 <span style="color:rgb(192, 0, 0)">Awaken</span> [[Fire]] [[Necrotic]] - When the Chained Oblivion are awakened, they explode violently. All creatures within 60 ft take 5d6 (17) fire damage and 5d6 (17) necrotic damage (reflex halves). 
 <span style="color:rgb(192, 0, 0)">Drain Life</span> - The chained oblivion's claw attacks drain a creatures life. [[On-hit]] the creature is [[Drained]] 2. 

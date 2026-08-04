@@ -18,9 +18,8 @@ Role: [[+Infiltrator]]
 |                                                               | ?          |                  |
 | <span style="color:rgb(192, 0, 0)">Bite (P)</span>            | +6         | +4 MI, +8 disarm |
 |                                                               | 2d6+3 (10) |                  |
-<span style="color:rgb(192, 0, 0)">Innate Techniques (CL 3 +2 if stolen focus)</span> - [[Denied]], [[Hidden Power]], [[Dispel Magic]]
+<span style="color:rgb(192, 0, 0)">Innate Techniques (CL 3 +2 if stolen focus)</span> - [[Denied]], [[Hidden Power]], [[Dispel Magic]], [[Blur]], [[Heart Seeker]] 
 1/day - [[Backstab]]
-Constant - [[Blur]], [[Heart Seeker]] 
 
 <span style="color:rgb(192, 0, 0)">Signature Skill</span> - [[Is....this your sword (SS)|Is...this your sword]]
 <span style="color:rgb(192, 0, 0)">Rain On Your Parade</span> ([[Water]]) - A spirit snatcher can cause water to fall upon creatures within 20 ft of it, making them [[Wet]]. 

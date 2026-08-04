@@ -1,5 +1,4 @@
 ---
-icon: gem-necklace
 aliases:
   - bauble
   - baubles

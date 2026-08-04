@@ -22,9 +22,8 @@ This ability cannot be used in consecutive rounds.
 |                                                                | 6d6 (21)   |                             |
 [[Multiattack]] - Make 2 stomp attacks
 
-<span style="color:rgb(192, 0, 0)">Innate Techniques</span> - [[Wave of Darkness]], [[Nearsighted]] (U4), [[Toe Smasher]], [[Frenzied Leap]], [[Terminal Isolation]] (U2)
+<span style="color:rgb(192, 0, 0)">Innate Techniques</span> - [[Wave of Darkness]], [[Nearsighted]] (U4), [[Toe Smasher]], [[Frenzied Leap]], [[Terminal Isolation]] (U2), [[Predatory Instincts]]
 1/day - [[Unseen Predator]]
-Constant - [[Predatory Instincts]]
 
 <span style="color:rgb(192, 0, 0)">Possession</span> [[Su]] [[Recharge]] - A shadowling can transform into a vapor and advance rapidly towards a creature within 30 ft of them, inhabiting their body. The extent to which varies based on the targets level. Shadowlings cannot possess creatures that are a higher level than them. Ing always instinctually understand what they can possess and how to activate their hosts abilities. Against a [[defeated]] creature, possession always functions as though the creature was a [[minion]] (as long as the creature is not a higher [[LvL]]).
  - <span style="color:rgb(255, 192, 0)">Same or Lower Level</span> - The shadowling takes control of the creatures actions (will negates). During the possessed creatures turn, instead the shadowing acts. All damage taken by the host also damages the shadowing possessing the creature (up to a maximum of the hosts current hp). At the end of each turn the ing possesses, they get a new save to end the effect. The shadowling can choose to end this effect as a free action. When it fails or ends, willing or not, they appear within 10 ft of the creature they targeted.

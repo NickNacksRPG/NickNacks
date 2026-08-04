@@ -17,7 +17,7 @@ Role: [[+Minion Mancer]]
 |                                                    | d6+1 (4) | +[[Charm]] |
 <span style="color:rgb(192, 0, 0)">Innate Techniques (CL 7)</span> - [[Charming Gaze]], [[Feign Defeat]], [[Stage Fright]]
 1/day - [[Command]], [[Tongue Twister]], [[Power Overwhelming]]
-Constant - [[Tongues]]
+Prepared - [[Tongues]]
 
 <span style="color:rgb(192, 0, 0)">Power Bottom</span> - During sexual acts, a twinkubus can use the technique [[Order 66]], but (will negates). If the twinkubus summoned the creature, he can spend a swift action to activate order 66 instead of a standard action.
 <span style="color:rgb(192, 0, 0)">Flirty Feint</span> - While in combat, a twinkubus can feint a creature as a swift action and impose 1 of the following penalties.

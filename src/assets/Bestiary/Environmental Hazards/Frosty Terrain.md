@@ -1,6 +1,3 @@
----
-icon: snowman
----
 Adventures bring creatures to all kinds of places, including those in the far northern reaches of the world. This should help you deal with things like snow and ice peppering or covering your battles.
 
 <span style="color:rgb(192, 0, 0)">Snow</span> 

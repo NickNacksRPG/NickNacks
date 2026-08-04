@@ -21,7 +21,7 @@ Role: [[+Bruiser]]
 
 <span style="color:rgb(192, 0, 0)">Innate Techniques</span> - [[Sky Uppercut]]
 1/day - [[Defensive Sweep]], [[Toe Smasher]], [[Ups and Downs]]
-Constant - [[Quake]], [[Technology]]
+Prepared - [[Quake]], [[Technology]]
 
 <span style="color:rgb(192, 0, 0)">Signature Skill</span> - [[Boo (SS)|Boo]], [[Big Shot (SS)|Big Shot]]
 <span style="color:rgb(192, 0, 0)">Stoke Flames (fire)</span> ([[Recharge]])- As a standard action, an enforcer can unleash a gout of flames upon creatures in a 20 ft cone in front of it. All creatures take 4d6 (14) fire damage. Any creature that wears medium or heavy armor has it softened and melted, gaining [[Weakness]] 5 crush for 1 round (reflex halves dmg and negates weakness).

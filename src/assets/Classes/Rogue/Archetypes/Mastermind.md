@@ -1,6 +1,3 @@
----
-icon: 🧠
----
 ## <span style="color:rgb(103, 254, 120)">1 - Mastermind</span> [[recharge]]
 You are ready for anything, and you can plan perfectly for any situation. You gain a Potential Pool. You can sacrifice money, inventory space and carry weight, gambit slots, spend time, visit places, and place yourself in beneficial situations to add to this pool. The possibilities are nearly limitless. It is intentionally nebulous, and what you do with your money and time is undetermined until you use your Mastermind ability.
 

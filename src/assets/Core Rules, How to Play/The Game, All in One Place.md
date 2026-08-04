@@ -1,6 +1,3 @@
----
-icon: 1️⃣
----
 This page is my attempt to condense most of the major rules in the game. Many sections will not include all of the information on their respective topics, but will instead give you an idea on how each one functions, with a link to the page for further reading.
 
 Nick Nacks uses a d20 as the dice used for most action resolution.
