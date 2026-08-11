@@ -17,7 +17,7 @@ While attached, a yummi cannot be detected if the creature it is attached to can
 <span style="color:rgb(192, 0, 0)">Innate Techniques</span>  - [[Magic Missile]]
 ## <span style="color:rgb(247, 138, 255)">Weaknesses/Deep Lore</span>
 
-<span style="color:rgb(247, 138, 255)">Just a Myth</span> - When a yummi is defeated, it gets sucked into its magic book permanently. With a DC 25 [[arcana]] check it can be summoned again with a 1 minute ritual at 1 hp. If the book is destroyed, the yummi is killed. A caster can cast any spells the yummi can innately cast using this book when it is not summoned.
+<span style="color:rgb(247, 138, 255)">Just a Myth</span> - When a yummi is defeated, it gets sucked into its magic book permanently. With a DC 25 [[arcana]] check it can be summoned again with a 1 minute ritual at 1 hp. If the book is destroyed, the yummi is killed. A caster can cast any spells the yummi can innately cast using this book when it is not summoned, as though it was a [[Tome of Knowledge (T1)]].
 <span style="color:rgb(247, 138, 255)">Helpless Baby</span> - A yummi is always considered a [[Minion]]. 
 ## <span style="color:rgb(103, 254, 120)">Other Traits</span>
 
@@ -31,6 +31,6 @@ While attached, a yummi cannot be detected if the creature it is attached to can
 [[Nightvision]]
 <span style="color:rgb(103, 254, 120)">Speed</span> - 20, 30 [[Hover]] (on book)
 <span style="color:rgb(103, 254, 120)">Deific Boons </span>- [[T1 - Animal Instincts|Animal Instincts]]
-<span style="color:rgb(103, 254, 120)">Feats</span> - [[Skill Focus]], [[Signature Skill]] (perception)
+<span style="color:rgb(103, 254, 120)">Feats</span> - [[Skill Focus]], [[Signature Skill]] (perception), [[Cooperative Casting]]
 <span style="color:rgb(103, 254, 120)">Skills</span> - +8 (adv) [[+Perception]], +12 [[Arcana]], +8 [[+Nature]], +10 [[+History]], +8 [[+Planes]], +6 [[+Persuasion]], +8 [[+Linguistics]]
 

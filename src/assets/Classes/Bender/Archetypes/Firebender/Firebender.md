@@ -10,7 +10,7 @@ You can physically manipulate fire within 30 ft. Unlike water and earth, fire ca
 Initiating and maintaining concentration on firebending requires a standard action each turn.
 ## <span style="color:rgb(103, 254, 120)">3 - Elemental Intuition: Charge</span>
 You can spend 1 [[mana]] and decrease your speed by 30 to add your [[LvL|Level]] to damage on the next [[Su]] ability from the bender class that deals fire damage.
-At level 5 you can also apply this to spells with the [[zap]] tag from the [[Clairvoyance (T)]] tree.
+At level 5 you can also apply this to class abilities with the [[zap]] tag as well.
 This has a distinct audio and visual effect that imposes -10 penalty to [[+stealth]].
 ## <span style="color:rgb(103, 254, 120)">5 - Elemental Intuition: Firebending Adept</span>
 Your blast or elemental wave damage can deal fire or zap damage interchangeably. You gain resistance to zap damage. You can manipulate the flow of electricity similar to how you can manipulate fire.

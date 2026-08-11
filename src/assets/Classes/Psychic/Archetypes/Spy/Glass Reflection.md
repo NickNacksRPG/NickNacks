@@ -1,6 +1,3 @@
----
-icon: RaMirror
----
 This ability comes online at level 1, and improves at levels 2, 4, 6, 8 and 10.
 
 ## <span style="color:rgb(103, 254, 120)">Level 1</span>
@@ -8,22 +5,22 @@ By performing a 1 hour ritual using a reflective surface, such as a mirror or a 
 
 Passing a save against Glass Reflection (GR) gives the target an eerie feeling that they're being watched. Failing means they are unaware.
 
-Possessing a personal possession of the creature (a book, weapon, article of clothing) gives them a -2 penalty to their save. Possessing a piece of the creature, such as a hair or some of their blood, gives them a -4 penalty. These penalties do not stack.
+Possessing a personal possession of the creature (a book, weapon, article of clothing) increases the DC by 2. Possessing a piece of the creature, such as a hair or some of their blood, increases the DC by 4. These penalties do not stack.
 
 The range of this ability is finite. Generally speaking it should only function on creatures within city limits. This generally means it has a range of a few miles. You can spy on a creature for 10 minutes before the senor disappears. You can speak [[Telepathy|telepathically]] to creatures visible in your GR.
 
-You cannot target an unwilling creature with GR more than 1/day. A creature who has passed a save against your GR before always gets a perception check to see signs of magical spying with a DC (20+lvl) perception check when you initiate it. Without ways of interacting with magic they can do little to stop you, but they know you're there.
+You cannot target an unwilling creature with GR more than 1/day. A creature who has passed a save against your GR before always gets a perception check to see signs of magical spying with a DC (20+lvl) [[+Perception]] check when you initiate it. Without ways of interacting with magic they can do little to stop you, but they know you're there.
 
-By contacting a creature ahead of time (such as via [sending](https://app.gitbook.com/s/2kNIiIcUKxqLFlLgDKSI/magical-techniques/larella/level-1/sending)), you can automatically scry on a willing target without accepting mana burn.
+Every use after the first use of Glass Reflection each day inflicts [[Mana Burn]].
 
-The first use of Glass Reflection each day does not mana burn.
+By contacting a creature ahead of time (such as via [[Sending]]), you can automatically scry on a willing target without accepting mana burn.
 
-Any effects that prevent or otherwise interact with \[scrying] effects also interact with GR.
+Any effects that prevent or otherwise interact with [[scrying]] effects also interact with GR.
 ## <span style="color:rgb(103, 254, 120)">Level 2</span>
 * You don't need to have personally met the target of your spying, but you do still need to know their name
 * The range of this effect increases to state. If you're within the same state, it works. This generally means a few dozen miles.
 * You get a +4 bonus to perception while scrying a creature
-* You gain nightvision during GR
+* You gain [[Nightvision]] during GR
 ## <span style="color:rgb(103, 254, 120)">Level 4</span>
 * You no longer need to know the name of the creature you spy on, but you do need some kind of vague idea of who they are. Something like "the guild leader of the Fox Force" or "the orc general" suffices.
 * The range of this ability increases to country. This generally means hundreds of miles

@@ -7,9 +7,10 @@ Gain mastery over a specific element, using it as an extension of your own body.
 | [[+Saving Throw\|Saves]] | Refl             |
 | [[Memory]]               | 3+lvl            |
 ## <span style="color:rgb(103, 254, 120)">1 - Elemental Techniques</span>
-Benders ignore the standard technique point progression when it comes to abilities that match a tag of their favored element. They automatically know all techniques (still capped by the technique level maximum) that match the tag of elemental blasts they can use. In addition, I added a list of other techniques I thought thematically appropriate.
+Benders ignore the standard technique point progression when it comes to abilities that match a tag of their favored element. They automatically know all techniques (still capped by the technique level maximum) that match the tag of elemental blasts they can use. You can visit the tag's page with the links below to find techniques with that tag.
 
-You can replace the damage of any attacks in techniques with your blast damage (not compatible with [[upcast]] damage). You can use your blast to deliver the effects of techniques and special attacks, though they still must match the type of attack (ranged attack, melee attack etc). You ignore the [[staff component]] of any spell you gain through this feature. Techniques/special attacks that require [[Simple Attack|simple attacks]] or have the [[persistent]] tag cannot use your blast damage.
+You can replace the damage of any [[Attack Roll|attack rolls]] in techniques with your blast damage (not compatible with [[upcast]] damage). You can use your blast to deliver the effects of techniques and 
+[[Special Attack|special attacks]], though they still must match the type of attack (ranged attack, melee attack etc). You ignore the [[staff component]] of any spell you gain through this feature. Techniques/special attacks that require [[Simple Attack|simple attacks]] or have the [[persistent]] tag cannot use your blast damage.
 
 [[Waterbender]] initially gets the [[water]] tag and @3 gets the [[frost]] tag. Most water techniques are in the [[Goomshroom]] tree and most frost techniques are in the [[Cryomancy]] tree.
 
@@ -18,15 +19,16 @@ You can replace the damage of any attacks in techniques with your blast damage (
 [[Airbender]] gets the [[air]] tag. Most air techniques are in the [[Clairvoyance (T)]] tree. Airbenders also get access to all the techniques in the [[Unarmed]] tree, with standard technique scaling.
 
 [[Firebender]] gets the [[fire]] tag and @5 gets the [[zap]] tag. Most fire techniques are in the
-[[Pyromancy]] tree and most zap techniques are in the clairvoyance tree.
+[[Pyromancy]] and [[Prismancy]] trees and most zap techniques are in the clairvoyance tree.
 
-Instead of a particular specialization, you ignore the [[Staff Component]] of any spells that match your elemental tag(s). By clicking on the respective tags and viewing the right side bar, you can see all tech of that respective tag (and every other page with that tag unfortunately).
+Instead of a particular specialization, you ignore the [[Staff Component]] of any spells that match your elemental tag(s). Again, by clicking on the respective tags and viewing the right side bar, you can see all tech of that respective tag under "techniques."
 ## <span style="color:rgb(103, 254, 120)">1 - Favored Element</span> [[Su]]
-At level 1 you choose an element: water, fire, earth, air. Once chosen it cannot be changed. Your elements decides many aspects of your class. In order to use any (Su) class abilities, you must meet requirements based on the element. You get a +4 bonus on saves against effects that share the same tag as your element.
+At level 1 you choose an element: water, fire, earth, air. Once chosen it cannot be changed. Your element decides many aspects of your class. In order to use any (Su) class abilities, you must meet requirements based on the element (ie there are rocks around to earthbend). 
+You get a +4 bonus on saves against effects that share the same tag as your element.
 ## <span style="color:rgb(103, 254, 120)">1 - Elemental Blast (Su)</span>
 As a standard action you attack a foe within 30 ft using either str or dex as your attacking stat. If the creature is out of reach, it counts as a ranged attack. If the creature is within your natural reach, you can either make the blast as a [[Melee Attack|melee]] or [[ranged attack]]. It's damage is 2d6+[[STR]]/[[DEX]], increasing by d6 @3 and every odd level after. The damage type is determined by your favored element.
-Elemental blast inherently has a +2 bonus to [[Attack]] for the bender class.
-See [[+Magical Conduits]] on how you can enhance your elemental blast.
+- Elemental blast inherently has a +2 bonus to [[Attack]] for the bender class.
+- See [[+Magical Conduits]] on how you can enhance your elemental blast.
 ## <span style="color:rgb(103, 254, 120)">1 - Elemental Styles (Su)</span>
 These features give your bending more options. If an ability has a mana cost, it is noted next to its name (in parenthesis), or in the description if only a specific part costs mana.
 Gain 1 this level and another one at level 2, 4, 6, 8 and 10.

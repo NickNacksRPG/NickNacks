@@ -1,6 +1,3 @@
----
-icon: wand-sparkles
----
 Some magic items have a scaling component to them called <span style="color:rgb(103, 254, 120)">Manathirst</span>, growing more powerful when in the hands of someone who is more powerful.
 
 Manathirst features are unlocked when you have 12 and 22 max mana, typically kicking in at level 5 and 10.

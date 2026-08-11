@@ -18,11 +18,12 @@ You can start concentrating on this ability as a free action. If you concentrate
 Increase your [[jump]] distance by 10 feet.
 You can give an ally a jump action as an immediate action by spending 1 mana. they also receive this boost.
 ## <span style="color:rgb(103, 254, 120)">1 - Dig</span>
-Your [[Burrow]] speed increases to 30 the first turn you start burrowing. By spending 1 mana, you can make an explosive entry, giving your next [[melee attack]] gets a +2 bonus if you burrowed that turn.
+Your [[Burrow]] speed increases to 30 the first turn you start burrowing. You can also make an explosive entry, giving your next [[melee attack]] a +2 bonus if you burrowed that turn.
 You can also [[Hide]] as part of burrowing.
 ## <span style="color:rgb(103, 254, 120)">1 - Mud Buddy</span> [[companion]]
-You permanently have a [[Mud Buddy]]. It does not have the [[Mana Burn]] tag. 
+You start each day with a [[Mud Buddy]]. It does not have the [[Mana Burn]] tag. 
 It can use your elemental blast, but only against an adjacent target that is [[Clumsy]], [[Knocked Down]] or [[Entangled]] by an [[Earth]] effect.
+If mud buddy is defeated, you must mana burn 1 to resummon him.
 ## <span style="color:rgb(103, 254, 120)">4 - Fissure (2) (concentration)</span>
 Cause a 30 ft long, 10 ft wide, 30 ft deep chasm to appear in a spot on the ground, the starting point needs to be within your [[Reach|natural reach]]. Creatures inside the AoE fall inside and take appropriate [[fall damage]] (reflex negates). A creature can opt to [[Catch Fall (P)|catch fall]] instead of their reflex save. A creature that's successfully saves can choose which side of the chasm they end up on.
 
@@ -30,14 +31,14 @@ At any point thereafter, you can close the fissure as a standard action, crushin
 
 After 1 minute the fissure closes automatically.
 ## <span style="color:rgb(103, 254, 120)">4 - Quicksand (2) (concentration)</span>
-Cause a 20 ft radius of earth within 30 ft to turn soft and unstable. Only the center needs to be within 30 ft. Creatures inside the AoE sink inside, [[Entangled|entangling]] them (reflex negates). Regardless, the area is still difficult terrain. Creatures that enter the quicksand are entangled (reflex negates). 
+Cause a 20 ft radius of earth within 30 ft to turn soft and unstable. Only the center needs to be within 30 ft. Creatures inside the AoE sink inside, [[Entangled|entangling]] them (reflex negates). Regardless, the area is still [[difficult terrain]]. Creatures that enter the quicksand are entangled (reflex negates). 
 [[Breakout]] to escape as a swift action, or automatically as a standard action. If a creature is entangled by this effect at the end of their turn, they take your blast damage.
 
 You cannot be entangled by your own quicksand.
 The quicksand reverts to its previous form after 1 minute.
 ## <span style="color:rgb(103, 254, 120)">4 - Imbalanced</span>
 Whenever you use your elemental wave feature, creatures are made [[clumsy]] 2 on a failed save.
-When you land your elemental blast, creatures are clumsy 2. You cannot benefit from this if you use a [[Technique Rules|technique]] to augment your elemental blast.
+When you land your elemental blast, creatures are clumsy 2. You cannot benefit from this if you use a [[Technique Rules|technique]] or [[special attack]] to augment your elemental blast.
 ## <span style="color:rgb(103, 254, 120)">4 - Earth Armor</span>
 Cover yourself in a layer of protective earth. You reduce your speed by 15 but gain [[DR|DRA]] 3. You can dismiss this armor as a swift action.
 ## <span style="color:rgb(103, 254, 120)">4 - Down to Earth</span>

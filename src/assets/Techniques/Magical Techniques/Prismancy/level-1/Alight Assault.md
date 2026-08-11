@@ -7,4 +7,4 @@ Action: Standard
 | Target/[[AoE]] | 1 creature |
 | Duration       | -          |
 | Save           | -          |
-Fire twin rays of brilliant energy. Make 2 [[Ranged Attack|ranged]] [[Spell Attack|spell attacks]] that each deal d6+CL (3+CL) fire damage. If the target is [[glowing]], the attacks have [[seeking]] and are made with [[advantage]].
+Fire a ray of brilliant energy. Make a [[Ranged Attack|ranged]] [[Spell Attack|spell attacks]] that deals d8+CL (4+CL) fire damage. If the target is [[glowing]], the light bounces off of them back at you, allowing you to make an additional attack. After the second attack is resolved, the glowing ends.

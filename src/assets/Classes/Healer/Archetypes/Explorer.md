@@ -10,7 +10,7 @@ This aura has a distinct, personalized visual component that interferes with ste
 ## <span style="color:rgb(103, 254, 120)">1 - Lucky Break</span>
 You can add LUK to any d20 roll an ally makes as an immediate action if they are within your Aura of Mercy. This feature does not allow you to add luck to a roll twice (ie you both add luck to the roll).
 ## <span style="color:rgb(103, 254, 120)">1 - Compassion (Su)</span> [[mind-affecting]]
-When you use Channel Energy, enemies in range that were aggressors/not acting in self-defense are pacified for 5 rounds (will negates). They get a new save at the end of their turns if you or your allies take aggressive actions versus their allies, and it ends immediately if you or your allies take aggressive actions towards them.
+When you use Channel Energy, enemies in range that were aggressors/not acting in self-defense are [[pacified]] for 5 rounds (will negates). They get a new save at the end of their turns if you or your allies take aggressive actions versus their allies, and it ends immediately if you or your allies take aggressive actions towards them.
 
 If there are no enemies left, initiative ends, and this ability can be extended for up to 10 minutes as long as you try resolving the conflict peacefully.
 ## <span style="color:rgb(103, 254, 120)">2 - Cure (Su)</span> [[healing]]

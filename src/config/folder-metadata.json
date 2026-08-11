@@ -802,5 +802,11 @@
   },
   "Techniques/Magical Techniques/Moogen/level-1": {
     "icon": "abstract-024"
+  },
+  "Bestiary/Bestiary/Cryptids/Level Folder Cryptid": {
+    "icon": "minotaur"
+  },
+  "Techniques/Z Tech with no home": {
+    "icon": "minotaur"
   }
 }

@@ -10,7 +10,7 @@ Action: Standard
 <span style="color:rgb(192, 0, 0)">Note:</span>
 The spell cannot target creatures that are BONELESS. A successful monster lore check against a creature reveals if it has bones.
 
-The spell's effect varies depending on what you target.
+Grasp a creature by its skeleton and bend it to your will. The spell's effect varies depending on what you target.
 
 <span style="color:rgb(103, 254, 120)">Living Creature</span> - The creature takes 2d8+CL (9+CL) necrotic damage and is [[staggered]] for one round (fort haves damage and negates stagger).
 

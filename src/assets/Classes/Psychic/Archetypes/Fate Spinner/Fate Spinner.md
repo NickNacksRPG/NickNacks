@@ -1,6 +1,6 @@
 Many people wish they could see the future, but the fate spinners are the only ones who truly understand the nature of this burden. Fate spinners are frequently humbled by their power to see into the future and the struggle to change it. You gain unique boons with drawbacks associated with them, and a deck of cards to twist fate with on a whim.
-## <span style="color:rgb(103, 254, 120)">1 - MM: Fortunetelling</span> [[Su]]
-Draw a card from your deck as a swift action. See [[card results]] for more details.
+## <span style="color:rgb(103, 254, 120)">1 - Fortunetelling</span> [[Su]]
+Spend 1 mana to draw a card from your deck as a swift action. See [[card results]] for more details.
 ## <span style="color:rgb(103, 254, 120)">1 - Cursed</span>
 Fatespinners, oracles and the like tend to draw the ire from the gods for meddling with the future. They each suffer from a unique curse that provides them with unique challenges and benefits. See the curses section for more details.
 ## <span style="color:rgb(103, 254, 120)">1 - Oracle's Premonition (Su)</span> [[recharge]]
@@ -39,7 +39,6 @@ Because you can no longer add luck to rolls with this affliction, you also canno
 Choose one card result from the fortunetelling ability to remove from the pool. You replace it with a level 1 [[Spell]] you can memorize with a few restrictions...
 - The spell cannot already be listed.
 - The spell cannot target an enemy or be [[AoE]] and include enemies
-- The spell cannot be [[Upcast]]
 - The spell cannot deal [[+HP]] damage
 - The action to use the spell must be a standard, swift or free action
 - You must specify a particular use of the spell. This use can be slightly outside of the parameters of the spell. Such as "use [[Sending]] to send a status update to my mother in emojis" or "affect an ally with the [[Tentacles for Arms]] spell"

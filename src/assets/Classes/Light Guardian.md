@@ -1,7 +1,7 @@
 ---
 icon: 🌞
 ---
-The Light Guardians are an organization of people that make sure mages don't tear the world asunder. They also do their best to keep the planes separate from each other, in particular the demon realm. Their incredibly powerful signature ability, light binding, suppresses magic in all of its forms, leveling the playing field.
+The Light Guardians are an organization of people that make sure mages don't tear the world asunder. They also do their best to keep the planes separate from each other, in particular [[The Demon Realm]]. Their incredibly powerful signature ability, light binding, suppresses magic in all of its forms, leveling the playing field.
 
 | [[+HP]] (martial)        | 20(+10 per level) |
 | ------------------------ | ----------------- |

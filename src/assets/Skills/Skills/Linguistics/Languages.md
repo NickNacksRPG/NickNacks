@@ -4,24 +4,28 @@ aliases:
 ---
 # <span style="color:rgb(103, 254, 120)">Common Languages</span>
 
-| Common     | Pretty much every intelligent creature speaks this.<br> |
+| Language   | Description                                             |
 | ---------- | ------------------------------------------------------- |
+| Common     | Pretty much every intelligent creature speaks this.<br> |
 | Infernal   | Language of fiends                                      |
 | Celestial  | Language of celestials                                  |
 | Sylvan     | Language of fey                                         |
 | Primordial | The language of elementals and ancient beings           |
 | Aquan      | The language of sea creatures. Functions underwater     |
 # <span style="color:rgb(103, 254, 120)">Racial languages</span>
-Racial languages are typically named after the race that created them. Names that aren't self evident are put in (parenthesis)
-
-| Goblin | Manganese (anime) | Draconic |
-| ------ | ----------------- | -------- |
-| Giant  | Orc               |          |
-| Elven  | Giant             |          |
+Racial languages are typically named after the race that created them. Names that aren't self evident are put in (parenthesis).
+- Goblin
+- Giant
+- Elven
+- Manganese (anime)
+- Orc
+- Giant
+- Draconic
 # <span style="color:rgb(103, 254, 120)">Uncommon languages</span>
 
-| Morse Code    | A binary code of two sounds mixed to create letters in an alphabet. Communication in Morse code is very slow and impractical, but still serves a useful function for subtle communication.<br> |
+| Language      | Description                                                                                                                                                                                    |
 | ------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Morse Code    | A binary code of two sounds mixed to create letters in an alphabet. Communication in Morse code is very slow and impractical, but still serves a useful function for subtle communication.<br> |
 | Sign Language | An entirely visual language that consists of hand gestures that translates directly to common.<br>                                                                                             |
 | Necril        | Language of undead<br>                                                                                                                                                                         |
 # <span style="color:rgb(103, 254, 120)"><span style="color:rgb(103, 254, 120)">Secret languages</span></span>

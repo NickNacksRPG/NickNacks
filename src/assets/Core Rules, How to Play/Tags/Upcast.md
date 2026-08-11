@@ -5,7 +5,7 @@ Spells have universal thresholds where, if your [[Caster Level]] (CL) is high en
 Example...
 
 ## *Ligma Beam*
-Level 1 [[Nack]]
+Level 1 [[Techniques/Magical Techniques/Nack/Nack]]
 Tags: [[Upcast]]
 Action: Standard
 

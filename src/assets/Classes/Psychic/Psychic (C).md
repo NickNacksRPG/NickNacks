@@ -13,11 +13,11 @@ These technique points can be used on the [[Psionics]] or Ligma tree.
 ## <span style="color:rgb(103, 254, 120)">1 - Psychic Casting</span>
 You don't need verbal components to cast spells, but to cast at all you need a still mind. You cannot cast spells while [[frightened]], [[dominated]] or [[confused]].
 ## <span style="color:rgb(103, 254, 120)">1 - Mental Might</span>
-Gain additional [[Mana Reserves]] equal to (3+[[LvL]]). All abilities marked MM cost 1 mana.
-## <span style="color:rgb(103, 254, 120)">1 - MM: Center Mind</span>
-Remove all [[shaken]] stacks from yourself as a swift action.
+Gain additional [[Mana]] equal to ([[LvL]]).
+## <span style="color:rgb(103, 254, 120)">1 - Center Mind</span>
+Spend 1 mana to remove all [[shaken]] stacks from yourself as a swift action.
 
-You can [[Advantage|Reroll]] a save against any [[Mind-Affecting]] effect as an immediate action.
+You can [[Advantage|Reroll]] a save against any [[Mind-Affecting]] effect as an immediate action by spending one mana.
 ## <span style="color:rgb(103, 254, 120)">2 - Telepathy</span> [[Su]]
 Gain the [[telepathy]] monster quality. You can initiate telepathic conversation with any creature that fails a save against your abilities, even if you cant see them.
 ## <span style="color:rgb(103, 254, 120)">2 - Telepathic Bond (Su)</span>
