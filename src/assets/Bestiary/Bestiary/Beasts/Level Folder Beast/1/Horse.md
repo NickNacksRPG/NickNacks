@@ -7,7 +7,7 @@ Role: [[+Bruiser]]
 | <span style="color:rgb(0, 176, 240)">AC</span>    | 13                        |     |
 | ------------------------------------------------- | ------------------------- | --- |
 | <span style="color:rgb(0, 176, 240)">HP</span>    | 36                        |     |
-| <span style="color:rgb(0, 176, 240)">Poise</span> | 21                        |     |
+| <span style="color:rgb(0, 176, 240)">Poise</span> | 26                        |     |
 | <span style="color:rgb(0, 176, 240)">Saves</span> | Fort +5, Refl +1, Will +2 |     |
 ## <span style="color:rgb(192, 0, 0)">Offense Traits (DC 13)</span>
 

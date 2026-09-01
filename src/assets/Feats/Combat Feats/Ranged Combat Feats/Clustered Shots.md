@@ -1,3 +1,6 @@
+---
+aliases:
+---
 *You learn to strike at a foes weak spot after making an opening.* 
 <span style="color:rgb(103, 254, 120)">Requirements</span> -
 

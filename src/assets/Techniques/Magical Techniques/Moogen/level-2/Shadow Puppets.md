@@ -15,5 +15,5 @@ At any point (including immediately when you cast the spell) you can cause the s
 
 If a creature successfully identifies the spell during a show and either they are the target or they warn the creature that is, they get [[advantage]] on their saving throw. If the creature is unaware of the danger the shadow puppets hold and they are the target of the spell later, they have disadvantage on their saving throw. Both of these situations can only happen if the caster chooses to delay the negative effects of the spell.
 
-<span style="color:rgb(192, 0, 0)">Tl;dr</span> - You can cast the spell as a standard to play with shadows or attack. If you decided to play with the shadows for a bit, you must still spend a standard action to use the attack. Playing with the shadows can just be for flavor, or it can be a risky method to enhance its power against those not trained in arcana.
+<span style="color:rgb(192, 0, 0)">Tl;dr</span> - You can cast the spell as a standard action to play with shadows or attack. If you decided to play with the shadows for a bit, you must still spend a standard action to use the attack. Playing with the shadows can just be for flavor, or it can be a risky method to enhance its power against those not trained in arcana.
 

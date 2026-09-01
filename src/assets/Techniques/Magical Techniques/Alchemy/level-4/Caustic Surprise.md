@@ -1,5 +1,5 @@
 Level 4 [[Alchemy (T)]]
-Tags: [[Poison]], [[Contingent]]
+Tags: [[Poison]], [[Contingent]], [[Recharge]]
 Action: Standard
 
 | Range          | -                                      |

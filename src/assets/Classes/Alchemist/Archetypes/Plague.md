@@ -20,6 +20,6 @@ When done out of combat, this ability has the [[Subtle]] tag. If you choose to l
 ## <span style="color:rgb(103, 254, 120)">2 - Ambush</span>
 When you successfully [[Hide]] from a creature and attack them or cast a spell on them, you can make an additional [[simple attack]] against them as a swift action.
 ## <span style="color:rgb(103, 254, 120)">4 - Vengeful Expunge</span>
-When you are defeated, you can expunge as an immediate action.
+When you are defeated, you can Expunge as an immediate action.
 ## <span style="color:rgb(103, 254, 120)">6 - Innate Technique</span>
-You gain [[Corrupting Mist]] as an innate technique, usable 1/minute. At level 10, you can upcast it.
+You gain [[Corrupting Mist]] as an innate technique, usable 1/minute. 

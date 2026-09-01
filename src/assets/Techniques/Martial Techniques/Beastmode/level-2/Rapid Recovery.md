@@ -15,4 +15,4 @@ You recover 2 stacks of drained every days instead of 1, as though receiving [[L
 
 When you are [[defeated]], you automatically regain 1 hit point after 10 minutes.
 
-As a swift action, you can heal 10 hp, regrow a limb instantly and make yourself drained 5.
+As a swift action, you can heal 10 hp or regrow a limb instantly, making yourself drained 5.

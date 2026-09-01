@@ -1,11 +1,11 @@
-Unchained shifters are all about inflicting as much pain upon themselves and others as possible. They take their favorite parts of other creatures and add it to themselves.
+Unchained shifters are all about inflicting as much pain upon themselves and others as possible. They take their favorite parts of other creatures and add it to themselves. Based on the sadistic and masochistic tendencies of fiends present in [[The Shadow Realm]].
 ## <span style="color:rgb(103, 254, 120)">1 - Techniques</span>
 You have [[Martial Specialization]]. 
 Your technique trees are [[Barbarism]] and [[Pupper]].
 ## <span style="color:rgb(103, 254, 120)">1 - First Seal: Shackled</span> [[Su]]
 When you break the first seal, 4 spiked chains burst from your back that you can make attacks with (deals crush damage). They function as additional opposable limbs that can be used to hold objects, climb walls, grapple creatures etc. The chains have an additional 5 feet of reach during your turn.
 ## <span style="color:rgb(103, 254, 120)">6 - Second Seal: Share my Pain (Su)</span>
-When you break the second seal, your chains now have an additional 10 ft of reach during your turn. You can innately cast [[Shackles of Pain]] as a swift action, taking up one of your shackles while the effect persists. Instead of its usual range, it has a range of reach. It also has an altered effect. It does not reduce any of the damage you take, but instead causes chained creatures to take half the damage you take as true damage.
+When you break the second seal, your chains now have an additional 10 ft of reach during your turn. You can innately cast [[Shackles of Pain]] as a swift action, taking up one of your shackles while the effect persists. It has an altered effect: It does not reduce any of the damage you take, but instead causes chained creatures to take half the damage you take as true damage.
 ## <span style="color:rgb(103, 254, 120)">11 - Final Seal: Generosity (Su)</span>
 When you break the final seal, your chains now have an additional 15 ft of reach during your turn. Your share my pain feature can target up to 4 creatures within reach at once.
 

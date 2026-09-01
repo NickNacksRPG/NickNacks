@@ -2,6 +2,6 @@ After successfully [[Grapple|grappling]] a creature, the creature can choose to 
 
 A creature cannot use its swallow quality while [[sickened]] 2 or higher. Becoming sickened 2 causes it to vomit any swallowed creatures.
 
-The prey escapes automatically when the swallowing creature is defeated.
+The prey is entangled, in complete darkness, and cannot see into the outside world, but otherwise can act normally. It escapes escapes automatically when the swallowing creature is defeated.
 
 A creature can also reasonably swallow a creature it [[Defeated|defeats]] with a bite or tongue attack.

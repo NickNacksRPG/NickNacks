@@ -8,8 +8,8 @@ Psychics take literally the advice "you can do anything you put your mind to" by
 | [[Memory]]               | 2+(2\*lvl)       |
 ## <span style="color:rgb(103, 254, 120)">1 - Techniques</span>
 You have [[Magical Specialization]].
-You gain 2 technique points at level 1, then another point every 2 levels after.
-These technique points can be used on the [[Psionics]] or Ligma tree.
+You gain 2 technique points at level 1, then another 2 points every 2 levels after.
+These technique points can be used on the [[Psionics]], [[Arcane]] and one other tree, chosen at character creation.
 ## <span style="color:rgb(103, 254, 120)">1 - Psychic Casting</span>
 You don't need verbal components to cast spells, but to cast at all you need a still mind. You cannot cast spells while [[frightened]], [[dominated]] or [[confused]].
 ## <span style="color:rgb(103, 254, 120)">1 - Mental Might</span>

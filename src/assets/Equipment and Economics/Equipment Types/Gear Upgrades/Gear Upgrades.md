@@ -3,7 +3,7 @@ Some magic items have a scaling component to them called <span style="color:rgb(
 Manathirst features are unlocked when you have 12 and 22 max mana, typically kicking in at level 5 and 10.
 
 Magic Items come in two main categories: wielded items and worn items.
-<span style="color:rgb(103, 254, 120)">Wielded Items:</span> Weapons, staves and shields. These can be mixed and matched to your hearts content, as long as you have the hands to hold them.
+<span style="color:rgb(103, 254, 120)">Wielded Items:</span> Weapons, staves and shields. These can be mixed and matched to your hearts content, as long as you have the hands to hold them. Typically you can only wield things with two limbs. [[Prehensile Limb]]s let you hold things, but only let you wield them if noted otherwise.
 <span style="color:rgb(103, 254, 120)">Worn Items:</span> These items have dedicated slots. You can only have one worn item in each slot (minus baubles). See chart below for more details.
 
 

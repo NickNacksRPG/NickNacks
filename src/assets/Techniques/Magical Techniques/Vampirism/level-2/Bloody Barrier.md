@@ -7,4 +7,4 @@ Action: Swift
 | Target/[[AoE]] | Self     |
 | Duration       | 3 rounds |
 | Save           | -        |
-Take any amount of [[True Damage]]. Convert this value into [[Temp HP]].
+Take up to (3*[[Caster Level|CL]]) [[True Damage]]. Convert this value into [[Temp HP]].

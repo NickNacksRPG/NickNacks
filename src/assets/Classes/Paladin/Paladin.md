@@ -31,7 +31,7 @@ If you do not try to resolve things peacefully first, you instigate fights, or y
 ## <span style="color:rgb(103, 254, 120)">1 - Divine Arsenal (Su)</span>
 You gained the [[Bonded Weapon]] feat. You can generate an infinite number of copies of this weapon as long as the original is on your person. You pull these extra weapons out of your sleeve and pockets or materialize them out of thin air as a free action at any time. When you throw these copied weapons, drop them or embed them in your enemies, they persist for 1 minute before they disappear.
 
-By spending 1 mana when you defeat a foe with a bonded weapon, you can leave it in the creature's body to make it [[Grounded]] and prevent it from benefiting from [[healing]] effects. [[Breakout]] as a swift action to remove.
+By spending 1 mana when you [[defeat]] a foe with a bonded weapon, you can leave it in the creature's body to make it [[Grounded]] and prevent it from benefiting from [[healing]] effects. [[Breakout]] as a swift action to remove.
 ## <span style="color:rgb(103, 254, 120)">1 - Radiance (Su) </span>[[light]]
 You radiate an aura of light out to 10 ft, or 20 ft if you wear [[Armor|heavy armor]]. Allies within this light (including yourself) get a +2 bonus against effects with the [[fear]] tag and [[Resistance]] to holy damage.
 
@@ -48,9 +48,9 @@ Choose one of the following options. Gain another level 6 and 10.
 [[Evasion]] (Reflex), [[Evasion|iron will]] (Will), [[Evasion|stalwart]] (Fortitude)
 ## <span style="color:rgb(103, 254, 120)">2 - Chivalrous Boons</span>
 Gain one at this level and another at level 4, 6, 8 and 10.
-Chivalrous boons represent your command and authority grant to you by your deity. They generally assist in out of combat endeavors by apprehending criminals, detecting falsehoods and protecting the innocent.
+Chivalrous boons represent the command and authority granted to you by your deity. They generally assist in out of combat endeavors by apprehending criminals, detecting falsehoods and protecting the innocent.
 
-If you act dishonorably, directly harm innocents or abuse your authority, you acquire the <span style="color:rgb(103, 254, 120)">Shame</span> affliction (details above).
-## <span style="color:rgb(103, 254, 120)">4 - Lay on Hands</span> ([[healing]])
+If you act dishonorably, directly harm innocents or abuse your authority, you acquire the <span style="color:rgb(103, 254, 120)">Shame</span> affliction (details listed in Chivalry above).
+## <span style="color:rgb(103, 254, 120)">4 - Lay on Hands</span> [[Healing]]
 As a standard action, spend one mana to touch a creature within reach to heal (5+lvl) hp.
 You can instead [[Mana Burn]] 1 to use this ability as a swift action.

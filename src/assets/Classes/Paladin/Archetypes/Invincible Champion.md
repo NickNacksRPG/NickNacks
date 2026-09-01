@@ -24,6 +24,8 @@ By spending 2 mana, you can target a single creature with this ability as a swif
 This ability counts as a [[Taunted|taunt]] to fulfill your multiattack condition.
 ## <span style="color:rgb(103, 254, 120)">2 - Swagger</span>
 Your movement is [[Elusive]] while you have a divine shield.
+## <span style="color:rgb(103, 254, 120)">4 - Honorable Duel (Su)</span>
+As a swift action while you are [[Threaten|threatening]] a creature that is taunted by you, you can cause a shockwave with a shout, pushing all non-taunted creatures away from you until you are no longer in their [[Reach|natural reach]].
 
 ## <span style="color:rgb(103, 254, 120)">11 - Divine Intervention (Su)</span>
 Whenever you use Lay on Hands to heal yourself, gain a Divine Shield.

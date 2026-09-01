@@ -45,7 +45,7 @@ Creatures cannot [[Flanking|flank]] you.
 ## <span style="color:rgb(103, 254, 120)">2 - Stalwart</span>
 You take half damage from fortitude saves. When you pass a fort save, it deals no damage and has no additional effect.
 ## <span style="color:rgb(103, 254, 120)">4 - Tantrum</span>
-Every time you take hp or poise damage from an enemy, take note of it. The 4th instance of damage you take provokes an [[AoO]] from the creature that dealt it. If you do not threaten the creature, attack a random creature within reach. If no creature is within reach, you can make a [[thrown]] attack if you have a free hand or wield a thrown weapon. If you can do none of these things, increase your speed by 30 next turn.
+Every time you take hp or poise damage from an enemy, take note of it. The 4th instance of damage you take provokes an [[AoO]] from the creature that dealt it. If you do not [[threaten]] the creature, attack a random creature within reach. If no creature is within reach, you can make a [[thrown]] attack if you have a free hand or wield a thrown weapon. If you can do none of these things, increase your speed by 30 next turn.
 
 This counter resets when you roll initiative.
 ## <span style="color:rgb(103, 254, 120)">11 - Always Angry</span>

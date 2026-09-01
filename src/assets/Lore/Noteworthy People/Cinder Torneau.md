@@ -1,0 +1,7 @@
+Cinder is a powerful [[Barbarian]] that was in a lab between [[Nerumei]] and [[Lance Crownguard]]. She was born during the turn of the age into [[3. The Age of Magic|The Age of Magic]], and quickly developed into a powerful warrior that fought alongside her father. Her participation eventually culminated when she defeated [[Darius]], the event that marked the start of a new age.
+
+During the Age of Magic, she continued to fight for all that is good and holy. Eventually she made a home for people like her called [[The Cinder Squad]]: It was a place where like-minded individuals could live, learn from one another, and find allies to pair with to take on greater foes. This guild replaces [[The Goons]] as a dominant force in Emferal. As the charismatic leader of a prominent organization, she also oversaw the long term redevelopment of Emferal after its destruction. The Cinder Squad served as a beacon of hope for a new future to the once great city.
+
+At the turn of the next age, some of the worlds greatest heroes were gathered in order to plunge into [[The Shadow Realm]]. Among them was Cinder, who proved her worth once again in battle against [[Drakthar, the World Ender]], the Darkness creature that consumed the sun and numerous other monsters none had ever seen.
+
+Years later, during a battle with an alchemist that was terrorizing a handful of remote towns, she was transformed from her [[Puppest]] form into a human. The experience was so harrowing for her that she decided to retire and leave the Cinder squad to one of her sons, Ains.

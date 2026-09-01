@@ -1,5 +1,5 @@
 Level 1 [[Geomancy]]
-Tags: [[Earth]], [[Concentration]]
+Tags: [[Earth]], [[Concentration]], [[Upcast]]
 Action: Standard
 
 | Range          | 30 ft                                           |
@@ -13,4 +13,7 @@ The oil continues to sprinkle the area, causing any creature that steps into the
 
 If a creature covered in oil takes [[fire]] damage, they are lit [[ablaze]]. 
 
-If an [[AoE]] effect with the fire tag includes the area of this spell, the spell ends and all creatures in the area are instantly set ablaze. The area is then considered an [[Wild Fire|inferno]]. Other effects can also cause this to happen, such as an ablaze creature moving into the area, or a simple [[torch]].
+If an [[AoE]] effect with the fire tag includes the area of this spell, the spell ends and all creatures in the area are instantly set ablaze. The area is then considered an [[Wild Fire|inferno]]. Other effects can also cause this to happen, such as an ablaze creature moving into the area, or a simple [[Torch]].
+
+<span style="color:rgb(103, 254, 120)">Upcast</span> - At [[Caster Level|CL]] 8...
+The AoE of the spell increases to a 20 ft radius.

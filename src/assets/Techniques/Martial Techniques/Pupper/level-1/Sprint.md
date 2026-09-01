@@ -7,4 +7,4 @@ Action: [[FRA]]
 | Target/[[AoE]] | -   |
 | Duration       | -   |
 | Save           | -   |
-Get down on all fours and take the [[Core Rules, How to Play/Actions/Common Actions/Full Round Actions/Charge]] action with 4x speed instead of x2. Ignore [[difficult terrain]].
+Get down on all fours and take the [[Charge]] action with 4x speed instead of x2. Take no penalty to [[AC]] and ignore [[difficult terrain]].

@@ -1,8 +1,8 @@
 ## <span style="color:rgb(103, 254, 120)">4,000g</span> 
 
-Tags: [[Su]], [[Scrying]], [[Recharge]]
+Tags: [[Su]], [[Scrying]]
 
-*This hand-held plushie seems incredibly lifelike.
+*This hand-held plushie seems incredibly lifelike.*
 
 These plushies closely resemble a creature. It can only be made using the hair of the original. For hairless creatures, something equivalent like scales, feathers etc works. Once the plushie is complete, the person it is a copy of must be present for the final part of the item's creation where they welcome the mini into the world.
 

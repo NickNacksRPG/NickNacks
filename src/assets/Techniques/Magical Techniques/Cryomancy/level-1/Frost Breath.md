@@ -4,7 +4,7 @@ Action: Standard
 
 | Range          | -          |
 | -------------- | ---------- |
-| Target/[[AoE]] | 10 ft cone |
+| Target/[[AoE]] | 15 ft cone |
 | Duration       | -          |
 | Save           | Fort       |
 You exhale and fill the area with ice cold air. Creatures inside take 2d8+CL (9+CL) frost dmg and are made [[frosty]] (fort halves dmg and negates frosty).

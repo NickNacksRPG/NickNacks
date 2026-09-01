@@ -22,6 +22,7 @@ What happens to your companions when you are defeated?
 - If you are not currently sharing your [[+Teamwork Feats|teamwork feat]] gained through CHA with anybody, or you hate them and like your [[Snow Man]] better, you can grant it to a companion that you summon as a free action as part of creating them.
 - If a feature generates a specific type of companion, like a [[Beast Companion]] or [[Mud Buddy]], then you cannot have another companion of the same type unless otherwise specified.
 - If a companion is generated temporarily (such as through a technique or a Su ability), then it has a "leash" range of 120 ft. In addition, you need line of sight to your companion. The first turn it exists beyond this range it slowly starts to fade away. At the end of the second it disappears.
-
+- Companion creatures cannot have companion creatures of their own. 
+	- How this should work is pretty self explanatory (no [[fan club]]>[[master summoner]]>[[ogre]]>[[horse|donkeh]] etc), but some creatures like, like [[Succubus]], can give creatures the companion tag on the fly. Decide whether it is more appropriate to remove a whipped creature's companions, or not allow them to become a succubus' companion.
 ## <span style="color:rgb(103, 254, 120)">Acquiring companions outside of class</span>
 As stated previously, companions are most frequently obtained by summoning them via spells or as core class features. That does not mean this is necessary however. If for story reasons you encounter characters willing to follow you, and they are [[Minion|minions]] relative to you, you can take them under your wing and give them companion status. If they later gain levels such that they are no longer a minion, they no longer qualify for being a companion.

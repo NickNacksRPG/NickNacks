@@ -1,5 +1,6 @@
-## <span style="color:rgb(103, 254, 120)">800g (DC 20)</span>
+## <span style="color:rgb(103, 254, 120)">700g (DC 20)</span>
 
+Tags: [[Buff]]
 Rabbit's feet are a key component in creating agility potions. Other creatures known for swiftness are sometimes used as well.
 
-Gives a +10 bonus to speed and a +4 bonus to acrobatics checks for 1 minute, after which, the creature is fatigued. This effect is a [[buff]].
+Gives a +10 bonus to speed and a +4 bonus to [[+Acrobatics]] checks for 1 minute, after which, the creature is [[fatigued]].

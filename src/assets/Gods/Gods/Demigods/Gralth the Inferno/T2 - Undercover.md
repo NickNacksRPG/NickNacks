@@ -10,7 +10,7 @@ This boon gives you the ability to transform into a specific draconic form, chos
 
 - You gain a [[fly]] speed equal to your [[land speed]] 
 - You gain the dragon's Overland Flight feature.
-- Your size is (up to) large in draconic form. 
+- Your [[size]] is (up to) large in draconic form. 
 - While in draconic form, you can use a [[breath weapon]], dealing 2d8+(2*[[LvL]]) damage of a specific elemental type (chosen when you gain this boon) in either a 30 ft cone or a 60 ft line. This breath weapon has the [[recharge]] tag, and the tag of the elemental damage type you chose.
 
 You can then choose between one of the following draconic subtypes, chosen when you gain this ability.

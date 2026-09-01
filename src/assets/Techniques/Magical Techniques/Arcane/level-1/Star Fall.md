@@ -1,5 +1,5 @@
 Level 1 [[Arcane]]
-Tags: [[Force]]
+Tags: [[Force]], [[Outplay]]
 Action: Standard
 
 | Range          | -                                |
@@ -9,6 +9,4 @@ Action: Standard
 | Save           | -                                |
 The skies darken above you and tiny motes of light pepper the heavens.
 
-You can call down stars on your foes. You automatically deal ([[Caster Level|CL]]) force damage to all enemies within 15 ft of you. Each time you hit an enemy with this spell, the damage increases by 3 for the next 2 rounds. Additional casts extend the duration of the increased damage, allowing it to ramp up in damage infinitely.
-
-Damage resets when you roll initiative.
+You can call down stars on your foes. You automatically deal ([[Caster Level|CL]]) force damage to all enemies within 15 ft of you. Enemies damaged gain [[Weakness]] 3 to force damage for 2 rounds. This weakness stacks with itself and is refreshed every time the creature takes force damage.

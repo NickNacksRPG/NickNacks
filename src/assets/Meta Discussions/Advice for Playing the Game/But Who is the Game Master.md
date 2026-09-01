@@ -10,6 +10,7 @@ Chances are if you're playing this game, you love RPG games, anime, fantasy or a
 
 <span style="color:rgb(103, 254, 120)">Start saving now.</span>
 This is not financial advice. No but seriously. I'm still assuming a bit here, but I'm guessing you use something like twitter or YouTube for entertainment. Maybe you're even the artsy type and you browse Deviant Art or Pinterest. Though those places have become AI cesspools...Anyway, you're going to want to fill your worlds with people, places and things! Find pictures and videos that inspire you. Being inspired by something is your creative brain salivating at the idea of making it your own. Whether you find pictures of old ruins you want your players to explore, an awesome monster you want them to fight, or NPCs to fill your towns with, you need these things to make the world feel great. Maybe you can even commission someone if you're feeling generous and need something specific. I learned how to draw just to make pictures of my characters!
+![[Shroomlette 2021.png]]
 
 <span style="color:rgb(103, 254, 120)">See how others have done it.</span>
 Just recently I decided I wanted to include a maze in my game. I have done mazes before, but they were pretty small and included a map. This made it so players could just see where they have been from me getting rid of the fog of war and made it feel like a process of elimination. But what do you do when things are more complicated? What if the maze is too big for a map? What if the maze changes?

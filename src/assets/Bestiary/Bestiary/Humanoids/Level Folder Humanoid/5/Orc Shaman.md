@@ -32,7 +32,7 @@ Role: [[+Artillery]]/[[+Support]]
 <span style="color:rgb(103, 254, 120)">Languages</span> - Common, Orc, Necril
 <span style="color:rgb(103, 254, 120)">Equipment </span>- Light Armor, 2x light staves
 <span style="color:rgb(103, 254, 120)">Senses</span> - [[Nightvision]]
-<span style="color:rgb(103, 254, 120)">Speed </span>- 40 [[Land Speed]]
+<span style="color:rgb(103, 254, 120)">Speed </span>- 30 [[Land Speed]]
 <span style="color:rgb(103, 254, 120)">Deific Boons </span>- TBD
 <span style="color:rgb(103, 254, 120)">Feats</span> - [[Speak for the Dead]], [[MM Sniping]], [[Ambrosia]]
 <span style="color:rgb(103, 254, 120)">Skills</span> - +10 [[+Perception]], +10 [[+Insight]], +8 [[+Religion]], +8 [[+History]], +8 [[+Cryptozoology]], +8 [[Arcana]], +8 [[Alchemy]]

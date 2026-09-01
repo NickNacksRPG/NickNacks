@@ -1,0 +1,1 @@
+This creature relies heavily on [[Spell|spells]] to function in combat, and cannot use its spells without a [[Staff Component|spell focus]], even if they are [[Innate Technique|innate techniques]]. Such creatures are usually given spell focus items from the spell focus section of [[Gear Upgrades]].

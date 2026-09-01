@@ -1,6 +1,7 @@
 # [[Crust]]
 
 Level 10 Medium Aberration
+Role: [[+Controller]]
 ## <span style="color:rgb(0, 176, 240)">Defense Traits</span>
 
 | <span style="color:rgb(0, 176, 240)">AC</span>    | 22                          |     |

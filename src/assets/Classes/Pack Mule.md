@@ -1,9 +1,9 @@
-Pack mule is designed to give you the authentic DnD martial experience where you experience just how much of a "team game" it is by being a useless blob of defensive stats. You are almost completely reliant on your team to defeat your enemies. You scale incredibly poorly offensively, but you scale incredibly well defensively.
+Pack mule is designed to give you the authentic DnD martial tank experience where you experience just how much of a "team game" it is by being a useless blob of defensive stats. You are almost completely reliant on your team to defeat your enemies. You scale incredibly poorly offensively, but you scale incredibly well defensively.
 
 <span style="color:rgb(192, 0, 0)">Note:</span>
-This class was intentionally designed obtusely in order to try and recreate the feeling of playing an unoptimized martial character in 5e/PF1e. Nick Nacks was intentionally designed from the ground up to make this kind of thing hard to happen by accident. So many techniques have baseline effectiveness that I had to use very heavy-handed methods to achieve the desired result.
+This class was intentionally designed obtusely in order to try and recreate the feeling of playing an unoptimized martial tank character in 5e/PF1e. Nick Nacks was intentionally designed from the ground up to make this kind of thing hard to happen by accident. So many techniques have baseline effectiveness that I had to use very heavy-handed methods to achieve the desired result.
 
-You will need to find out creative ways to be useful outside of what you're used to. Good Luck!
+You will need to find out creative ways to be useful outside of what you're used to. I don't recommend playing this class unless you enjoy puzzle solving ways to be useful each turn. Good Luck!
 
 ![[pathfinder bingo.png|A silly meme related to why I made this class.[ I even made a video about this.](https://www.youtube.com/watch?v=XdnotZ5zN6w)|600]]
 
@@ -28,7 +28,7 @@ These effects are also applied to [[Companion|companions]].
 ## <span style="color:rgb(103, 254, 120)">1 - Battered and Bruised</span>
 This class also fundamentally changes how many aspects of your character scales defensively.
 - You have [[Regeneration]] equal to your [[LvL]]. When you are defeated, this is disabled for 10 minutes, or until you lose the condition.
-- You gain [[Resistance]] to being [[Drained]] (cutting any drain inflicted upon you in half)
+- You cut any [[Drained|drain]] inflicted upon you in half
 - You get a +10 bonus to [[Luck Check|luck checks]] to determine the type of [[affliction]] you acquire when you are [[defeated]].
 - You have [[Recovery]]
 ## <span style="color:rgb(103, 254, 120)">1 - Maximum Lift</span>
@@ -41,7 +41,7 @@ This class also fundamentally changes how many aspects of your character scales 
 - You can take the [[Aid]] action as a swift action.
 - You gain a [[+Teamwork Feats|teamwork feat]].
 
-## <span style="color:rgb(0, 176, 80)">2 - Talents</span>
+# <span style="color:rgb(0, 176, 80)">2 - Talents</span>
 Gain one at this level and levels 4, 6, 8 and 10. Numbers next to abilities are level requirements.
 
 ## <span style="color:rgb(103, 254, 120)">2 - Secret Compartment</span>
@@ -66,3 +66,8 @@ Once per game session you can roll any [[Skill Check]]. It ignores any bonuses y
 Other bonuses such as [[Invoking Deities]], a [[Bard]]'s inspiration or [[LUK]] can still be added after the fact.
 ## <span style="color:rgb(103, 254, 120)">2 - Magic Initiate</span>
 You gain [[Magical Specialization]].
+## <span style="color:rgb(103, 254, 120)">2 - Porter</span>
+Your allies can take the [[Swap Item]] action as a free action while they are within your [[Reach|natural reach]], but only to swap to items in your inventory.
+## <span style="color:rgb(103, 254, 120)">2 - Impervious</span>
+Gain [[Evasion|Stalwart]], [[Evasion]] or [[Evasion|Iron Will]].
+You can select this talent multiple times to gain each boon.

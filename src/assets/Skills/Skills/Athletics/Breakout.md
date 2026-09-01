@@ -2,4 +2,4 @@ There are a large number of scenarios where a character is pinned down by someth
 
 In such scenario you can use breakout to escape such conditions. The action used for breakout varies based on the extremity of the effect.
 
-The DC to breakout of an effect that another creature created via a spell or ability is their [[DC]]
+The athletics DC to breakout of an effect that another creature created via a spell or ability is their [[DC]].

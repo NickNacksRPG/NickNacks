@@ -1,4 +1,5 @@
 A restless spirit is a bruiser that is designed to get in there an whack some fools. Filled with supernatural abilities that allow you to cheat death.
+<span style="color:rgb(192, 0, 0)">Removes the</span>  [[Magical Specialization]] <span style="color:rgb(192, 0, 0)">gained from the base class</span>
 
 | [[+HP]] (mixed)          | 20(+8 per level) |
 | ------------------------ | ---------------- |
@@ -29,7 +30,7 @@ You can use the [[Base Special Attacks|cleave]] [[Special Attack]] any number of
 The first time you land a melee attack each round, gain a stack. When you have 2 stacks, your next [[weapon attack]] gets the following bonuses. You can choose not to unleash this attacks power when you attack to save it for a more suitable moment.
 - Get a +10 bonus to [[attack]]. 
 - The attack echoes to nearby enemies. Targets all enemies within 10 ft of the original target. If the attack already hits multiple targets (like with cleave), then it cannot strike the same target twice.
-## <span style="color:rgb(103, 254, 120)">2 - Wraith Walk (Su)</span> [[teleportation]]
+## <span style="color:rgb(103, 254, 120)">2 - Wraith Walk (Su)</span> [[Teleportation]]
 You can let your spirit temporarily leave your body by spending 1 mana as a standard action. When you do, you immediately [[dash]] and become an [[Invincible]] [[Incorporeal]] spirit, similar to death defied. Your body remains in the position you used this ability from.
 
 At the end of your turn, your body teleports to the position of your spirit.
@@ -46,7 +47,7 @@ Your [[Weapon Attack|weapon attacks]], [[Natural Attack|natural attacks]] and [[
 Examples:
 2h weapon          @1=2d8, @6=4d8, @11=6d8
 Light Weapon    @1=d6, @6=2d6, @11=3d6
-## <span style="color:rgb(103, 254, 120)">8 - Improved Wraith Walk</span>
-You can use wraith walk as a swift action, and can maintain wraith form for up to 3 turns. Using it as a swift action increases its mana cost increases to 2. When you move directly through a creature, it becomes [[Sickened]] 2 (fort negates).
+## <span style="color:rgb(103, 254, 120)">8 - Improved Wraith Walk</span> [[Persistent]]
+You can use wraith walk as a swift action, and can maintain wraith form for up to 3 turns. Using it as a swift action increases its mana cost increases to 2. When you move through a creature's space, it becomes [[Sickened]] 2 (fort negates).
 ## 11 - 
 Youuuuu

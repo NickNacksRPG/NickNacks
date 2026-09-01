@@ -9,7 +9,7 @@
 ## <span style="color:rgb(103, 254, 120)">1 - Techniques</span>
 You have [[magical specialization]].
 You gain 1 technique point at level 1, then another point every 2 levels after. These can be used on any magical technique.
-In addition, you automatically memorize every [[Shira]] technique without spending memory.
+In addition, you automatically memorize every [[Shira]] technique without spending memory, limited by your level (see [[Technique Progression]]).
 
 Uniquely, whenever you cast any spell that deals [[+HP]] damage, even as an [[innate technique]] gained from another source, <span style="color:rgb(192, 0, 0)">it does not deal any hp damage</span>. This bypasses the usual rule of negating [[+Status|status effects]] when they deal 0 damage, allowing spells like [[Fire Blast]] or [[Rainbow Beam]] to be taken for utility, even if you miss out on the damage they deal.
 ## <span style="color:rgb(103, 254, 120)">1 - Animancy</span> [[Su]] [[Companion]]

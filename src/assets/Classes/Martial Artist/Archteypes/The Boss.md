@@ -8,7 +8,7 @@ Every second [[Unarmed Attack|unarmed strike]]/[[+Combat Maneuver|combat maneuve
 While below half hp, gain [[Fast Healing|FH]] 1 and access to haymaker.
 
 <span style="color:rgb(103, 254, 120)">Special Attack: Haymaker</span> [[Su]] [[force]] [[healing]] [[recharge]]
-Gain (10+2*[[LvL]]) as [[temp hp]] until the start of next turn. Deal the same value in force damage in a 30-foot cone (reflex halves). You can also make a unarmed attack against a creature to have the cone erupt from them, also damaging them with the cone. [[On-hit]] the creature takes a -2 penalty to their save against haymaker.
+Gain (10+2*[[LvL]]) as [[temp hp]] until the start of next turn. Deal the same value in force damage in a 30-foot cone (reflex halves). You can also make a unarmed attack against a creature to have the cone erupt from any space you can attack the creature, also damaging them with the cone. [[On-hit]] the creature takes a -2 penalty to their save against haymaker.
 Can only be used 1/minute.
 ## <span style="color:rgb(103, 254, 120)">1 - Send It</span>
 Whenever you provoke an [[AoO]], get a +2 bonus to [[attack]] until the end of your turn.

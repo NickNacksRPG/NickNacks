@@ -3,4 +3,4 @@
 
 You are [[Immunity|immune]] to the effects of your own [[AoE]] spell, provided it does not have a listed duration.
 
-This does now allow you to evade damage from AoE spells that hurt you, like [[Self-Destruct]] or [[Hellfire]].
+This does now allow you to evade damage from AoE spells that specifically mention they hurt you, like [[Self-Destruct]] or [[Hellfire]].

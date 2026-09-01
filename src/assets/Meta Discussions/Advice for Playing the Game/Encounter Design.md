@@ -1,5 +1,4 @@
 This section is going to be about some considerations the [[GM]] should make when deciding what to include in encounters.
-
 ## <span style="color:rgb(103, 254, 120)">The Basics</span> 
 In Nick Nacks, the baseline for power is very high. What does this mean? This means that something as simple as wielding a weapon, gives a creature a great deal of power. There are no proficiencies for equipment in NN, giving weapons no drawbacks. Many creatures will be able to attack multiple times from the very start of the game instead of needing to wait for features like 5e's "extra attack" or Pathfinder 1e's "base attack bonus."
 
@@ -10,6 +9,7 @@ In general, because there are only 12 levels intended for progression, the stats
 I would generally consider the power of a creature split into two distinct categories: <span style="color:rgb(192, 0, 0)">Stats</span> and <span style="color:rgb(192, 0, 0)">Features</span>. 
 - <span style="color:rgb(192, 0, 0)">Stats</span> are basic things like hp, [[AC]], damage, saving throw bonuses etc. Stats are good for establishing a baseline to effectiveness. More stats means more consistency.
 - <span style="color:rgb(192, 0, 0)">Features</span> are what a creature actually spends their turns doing. This usually means [[Technique Rules|techniques]], class abilities or other abilities that let you heal, move, apply [[CC]] etc. Features are much better at defining what it is a creature does and gives them that "oomph" to have impactful turns.
+
 Both stats and features are important to make sure a creature lands where you want it to on the power scale. If you simply made a [[Bandit Goon]] level 12, they would very reliably be able to [[crit]] and [[Kidnap]] level 1 characters, but that would be the limit of their power. If you gave the level 0 bandit goon [[Calamity]], they could instantly defeat an entire party of level 1 characters in one turn.
 
 Therefore, it's important to try and make sure you don't skew creatures in one particular direction. Most stats are tied to [[LvL]], so that one is pretty simple. [[Technique Progression]] can help you decide what types of techniques a creature should have access to at given levels.
@@ -23,6 +23,6 @@ This makes figuring out what a perfectly "balanced" encounter incredibly difficu
 <span style="color:rgb(0, 176, 80)">With all this in mind, here are a few basic principles.</span>
 - Many features in NN have a great deal of baseline effectiveness, making even simple things like technique access or basic weaponry a huge boon, particularly for low-level creatures.
 - More enemies is always going to be more dangerous than less enemies (action economy).
-- A few levels can make some difference, but not enough to carry against greater numbers. Throwing a [[Hell Hound]] against a level 1 party is no big deal. 
+- A few levels can make some difference, but not enough to carry against greater numbers. Throwing a single [[Hell Hound]] against a level 1 party as an encounter is no big deal. 
 - A lot of levels can make a huge difference. Throwing a [[Demon Prince(ss)]] against a level 1 party is practically a guaranteed wipe. 
-- It can also be worth considering what your party is actually good at. A [[Swashbuckler]] excels at fighting other martials in melee, but may struggle against a sneaky assassin that denies their parry, or a blast mage that ignores it completely.
+- It can also be worth considering what your party is actually good at. A [[Swashbuckler]] excels at fighting other martials in melee, but may struggle against a sneaky assassin that denies their parry, or a blast mage that ignores it completely. See [[++Monster Roles]] for a general idea of what bestiary creatures are at a glance.

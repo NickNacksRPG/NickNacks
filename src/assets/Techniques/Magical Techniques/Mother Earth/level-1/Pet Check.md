@@ -11,4 +11,4 @@ You reach over to a creature and pat its head. If it resembles an animal, even s
 
 If it is a defeated creature that matches this description, it gets the [[time out]] condition for 1 hour.
 
-Tamed animals (such as [[Beast Companion|beast companions]]) can be brought back from pet heaven with a counter pet as a swift action.
+Tamed animals (such as [[Beast Companion|beast companions]]) and [[Humanoids]] (like [[Beastfolk]]) can be brought back from pet heaven by their owners/allies with a counter pet as a swift action.

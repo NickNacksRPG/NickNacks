@@ -1,5 +1,5 @@
 Level 2 [[Frogg Saran (T)]]
-Tags: [[Teleportation]]
+Tags: [[Teleportation]], [[Upcast]]
 Action: Standard
 
 | Range          | 30 ft      |
@@ -13,4 +13,5 @@ If you target an ally, you can reduce the cast time of this effect to a swift ac
 
 If a creature is [[Dual Wielding]], they get to make both attacks before the distorted creature teleports away, with the potential to [[Proc]] distortion twice.
 
-<span style="color:rgb(103, 254, 120)">Upcast</span> - Every 4 [[Caster Level|CL]]s, the distance of the teleportation is increased by 5 ft.
+<span style="color:rgb(103, 254, 120)">Upcast</span> - If your [[Caster Level|CL]] is at least 8...
+The distance of the teleportation is increased by 5 ft.

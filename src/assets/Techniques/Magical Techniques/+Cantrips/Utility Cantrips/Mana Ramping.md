@@ -7,7 +7,7 @@ Action: 1 minute
 | Target/[[AoE]] | 1 willing creature or multiple mana crystals |
 | Duration       | -                                            |
 | Save           | -                                            |
-You touch your staff to the target creature and drain the mana from them. They mana burn equal to their maximum mana-1. A mana crystal appears in the creature's possession with mana equal to the amount they mana burned -1. This makes it useless on most commoners.
+You touch your staff to the target creature and drain the mana from them. They mana burn equal to (their maximum mana)-1. A mana crystal appears in the creature's possession with mana equal to (the amount they mana burned)-1. This makes it useless on most commoners.
 
 Mages typically use this to collect from themselves for the convenience of not needing to go through other adventuring guilds, craftsmen or churches to get the mana they need for their own projects.
 
