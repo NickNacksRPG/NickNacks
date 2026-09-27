@@ -65,7 +65,7 @@
     "icon": "➡️"
   },
   "Classes/+Class Details/Progression Outside of Class": {
-    "icon": "ghost"
+    "icon": "antenna-bars-5"
   },
   "Classes/Alchemist": {
     "icon": "dripping-tube"
@@ -122,7 +122,7 @@
     "icon": "🥋"
   },
   "Classes/Martial Artist/Archteypes/Monk": {
-    "icon": "bxs-yin-yang"
+    "icon": "yin-yang"
   },
   "Classes/Martial Artist/Archteypes/Wrestler": {
     "icon": "luchador"
@@ -847,5 +847,221 @@
   },
   "Lore/Factions/Shi'Sulm": {
     "icon": "insect-jaws"
+  },
+  "Lore/Factions/Warped Fiend": {
+    "icon": "bleeding-heart"
+  },
+  "Lore/Noteworthy People/Cinder Torneau": {
+    "icon": "sitting-dog"
+  },
+  "Bestiary/Environmental Hazards/Null Stone": {
+    "icon": "crystal-growth"
+  },
+  "Bestiary/Magical Encounters/Wishing Well": {
+    "icon": "well"
+  },
+  "Bestiary/Magical Encounters": {
+    "icon": "magic-hat"
+  },
+  "Bestiary/Magical Encounters/+Magical Encounters": {
+    "icon": "magic-hat"
+  },
+  "Bestiary/Bestiary": {
+    "icon": "🦄"
+  },
+  "Bestiary/Monster Roles/Boss": {
+    "icon": "boss-key"
+  },
+  "Bestiary/Monster Roles/Groups": {
+    "icon": "ants"
+  },
+  "Classes/+Class Details/Progression Outside of Class/Progression Outside of Class": {
+    "icon": "antenna-bars-5"
+  },
+  "Classes/Alchemist/Archetypes/Bomberman": {
+    "icon": "unlit-bomb"
+  },
+  "Classes/Alchemist/Archetypes/Plague": {
+    "icon": "plague-doctor-profile"
+  },
+  "Classes/Alchemist/Archetypes/Potion Man": {
+    "icon": "health-potion"
+  },
+  "Classes/Alchemist/Major/Alchemist Majors": {
+    "icon": "newspaper-line"
+  },
+  "Classes/Alchemist/Major/Mutant": {
+    "icon": "muscle-up"
+  },
+  "Classes/Alchemist/Major/Nekomancer": {
+    "icon": "cat"
+  },
+  "Classes/Alchemist/Major/Purifier": {
+    "icon": "crystal-shine"
+  },
+  "Classes/Animancer": {
+    "icon": "curled-tentacle"
+  },
+  "Classes/Barbarian/Barbarian": {
+    "icon": "enrage"
+  },
+  "Classes/Barbarian/Rage Powers": {
+    "icon": "💢"
+  },
+  "Classes/Barbarian/Archetypes/Avalancher": {
+    "icon": "falling-rocks"
+  },
+  "Classes/Barbarian/Archetypes/Beast Totem": {
+    "icon": "flat-paw-print"
+  },
+  "Classes/Barbarian/Archetypes/Gigantotem": {
+    "icon": "giant"
+  },
+  "Classes/Barbarian/Archetypes/Superstitious Totem": {
+    "icon": "suspicious"
+  },
+  "Classes/Bard/Bard": {
+    "icon": "musical-notes"
+  },
+  "Classes/Bard/Archetypes/Blues": {
+    "icon": "💙"
+  },
+  "Classes/Bard/Archetypes/Charmer": {
+    "icon": "🩷"
+  },
+  "Classes/Bard/Archetypes/Cheerleader": {
+    "icon": "party-popper"
+  },
+  "Classes/Bard/Archetypes/Jack of All Trades": {
+    "icon": "card-jack-clubs"
+  },
+  "Classes/Beast Trainer/Beast Companion": {
+    "icon": "🐶"
+  },
+  "Classes/Beast Trainer/Beast Trainer": {
+    "icon": "dinosaur-rex"
+  },
+  "Classes/Beast Trainer/Archetypes/Dinomancer": {
+    "icon": "🦕"
+  },
+  "Classes/Beast Trainer/Archetypes/Magical Beast": {
+    "icon": "magic-hat"
+  },
+  "Classes/Beast Trainer/Archetypes/Prey Seeker": {
+    "icon": "wolf-head"
+  },
+  "Classes/Bender/Bender": {
+    "icon": "🌦️"
+  },
+  "Classes/Bender/Archetypes/Airbender/Airbender": {
+    "icon": "whirlwind"
+  },
+  "Classes/Bender/Archetypes/Earthbender/Earthbender": {
+    "icon": "🪨"
+  },
+  "Classes/Bender/Archetypes/Firebender/Firebender": {
+    "icon": "🔥"
+  },
+  "Classes/Bender/Archetypes/Waterbender/Waterbender": {
+    "icon": "🌊"
+  },
+  "Classes/Druid/Archetypes/Beast Whisperer": {
+    "icon": "🐴"
+  },
+  "Classes/Fiend Shifter/Fiend Shifter": {
+    "icon": "devil-mask"
+  },
+  "Classes/Fiend Shifter/Archetypes/Destroyer": {
+    "icon": "cracked-glass"
+  },
+  "Classes/Fiend Shifter/Archetypes/Succ": {
+    "icon": "💋"
+  },
+  "Classes/Fiend Shifter/Archetypes/Unchained": {
+    "icon": "⛓️"
+  },
+  "Classes/Fiend Shifter/Archetypes/Youkai": {
+    "icon": "oni"
+  },
+  "Classes/Fighter/Fighter": {
+    "icon": "⚔️"
+  },
+  "Classes/Fighter/Archetypes/Aran": {
+    "icon": "axe-swing"
+  },
+  "Classes/Fighter/Archetypes/Bloody Finger": {
+    "icon": "bloody-sword"
+  },
+  "Classes/Fighter/Archetypes/Full Attacker": {
+    "icon": "run"
+  },
+  "Classes/Fighter/Archetypes/Iron Knuckle": {
+    "icon": "black-knight-helm"
+  },
+  "Classes/Fighter/Archetypes/Kazekenshin": {
+    "icon": "whirlwind"
+  },
+  "Classes/Fighter/Archetypes/Standard Fighter": {
+    "icon": "knight-banner"
+  },
+  "Classes/Fighter/Archetypes/Swashbuckler": {
+    "icon": "fencer"
+  },
+  "Classes/Healer/Healer": {
+    "icon": "healing"
+  },
+  "Classes/Healer/Archetypes/Divine Protector": {
+    "icon": "bxs-shield-plus"
+  },
+  "Classes/Healer/Archetypes/Mom": {
+    "icon": "hearts-fill"
+  },
+  "Classes/Healer/Archetypes/Symbiote": {
+    "icon": "virus-line"
+  },
+  "Classes/Healer/Archetypes/Explorer": {
+    "icon": "🧭"
+  },
+  "Classes/Hex Maniac/Cauldron Concoctions": {
+    "icon": "cauldron"
+  },
+  "Classes/Hex Maniac/+Hex Maniac": {
+    "icon": "nested-hexagons"
+  },
+  "Classes/Hex Maniac/Hexes": {
+    "icon": "evil-book"
+  },
+  "Classes/Jester/Jester": {
+    "icon": "jester-hat"
+  },
+  "Classes/Jester/Archetypes/Actor": {
+    "icon": "theater-curtains"
+  },
+  "Classes/Jester/Archetypes/Mime": {
+    "icon": "brick-wall"
+  },
+  "Classes/Jester/Archetypes/Prankster": {
+    "icon": "prank-glasses"
+  },
+  "Classes/Maligner": {
+    "icon": "drama-masks"
+  },
+  "Classes/Martial Artist/Martial Artist": {
+    "icon": "🥋"
+  },
+  "Classes/Martial Artist/Archteypes/Barroom Brawler": {
+    "icon": "🍻"
+  },
+  "Classes/Martial Artist/Archteypes/Marauder": {
+    "icon": "whip"
+  },
+  "Classes/Martial Artist/Archteypes/Merciful Monk": {
+    "icon": "☮️"
+  },
+  "Classes/Martial Artist/Archteypes/Monk/Monk": {
+    "icon": "yin-yang"
+  },
+  "Classes/Mechanic/Mechanic": {
+    "icon": "🔧"
   }
 }
