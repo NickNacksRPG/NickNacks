@@ -8,3 +8,5 @@ Action: [[Special Attack]]
 | Duration       | -                              |
 | Save           | -                              |
 Make a [[topple]] attack with a +4 bonus. Apply the result to against all creatures touching the ground within 20 ft. All creatures [[knocked down]] from this effect also take an additional 2d6 (7) crush damage.
+
+Colossal smash ignores all forms of [[Partial Cover|cover]], including [[Total Cover]]. All solid objects in contact with the ground of flimsy toughness (see [[Breaking Objects]]) 

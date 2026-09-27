@@ -7,7 +7,7 @@ Action: Standard
 | Target/[[AoE]] | 1 beast(ish) creature |
 | Duration       | Varies                |
 | Save           | -                     |
-You reach over to a creature and pat its head. If it resembles an animal, even superficially, it is [[dazed]] [[On-hit]] for 1 turn.
+You reach over to a creature and pat its head. If it resembles an animal, even superficially, it is [[dazed]] [[On-hit]] for 1 turn. In combat, you can only daze a creature once each minute.
 
 If it is a defeated creature that matches this description, it gets the [[time out]] condition for 1 hour.
 

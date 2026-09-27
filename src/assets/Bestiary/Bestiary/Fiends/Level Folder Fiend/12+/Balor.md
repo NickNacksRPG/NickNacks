@@ -19,7 +19,7 @@ Role: [[Boss]]
 |                                                               | d6+5 (8) +10 fire | +Taste Fear                                                  |
 | <span style="color:rgb(192, 0, 0)">Serrated Sword (S)</span>  | +19               | [[Bleeding\|bleed]] ([[Drained\|drain]] 10)                  |
 |                                                               | d6+5 (8)          | +Taste Fear                                                  |
-[[Multiattack]] - The balor makes 2 attacks. It [[Dual Wielding|dual wields]] its flame [[Whip]] and serrated sword.
+[[Multiattack]] - The balor makes 2 attacks. It [[Twin Strike|dual wields]] its flame [[Whip]] and serrated sword.
 
 <span style="color:rgb(192, 0, 0)">Innate Techniques (CL 15)</span> - [[Bladed Decimation]], [[Telekinetic Thrust]], [[Backfire]], [[Taste Fear]]
 1/day - [[Calamity]], [[Wall of Fire]], [[Fire Blast]], [[Warcry]], [[Extreme Speed]], [[Armed Robbery]]

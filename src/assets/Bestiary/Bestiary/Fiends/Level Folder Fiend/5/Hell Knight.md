@@ -16,7 +16,7 @@ Role: [[+Bruiser]]
 | <span style="color:rgb(192, 0, 0)">Claws (S)</span>      | +8         | +8 [[Shove]], +4 [[Maneuver Versatility\|MV]] |
 | -------------------------------------------------------- | ---------- | --------------------------------------------- |
 |                                                          | 2d8+3 (12) |                                               |
-[[Multiattack]] - Make 2 claw attacks.
+[[Multiattack]] - Make 2 [[Melee Attack|melee]] attacks.
 
 <span style="color:rgb(192, 0, 0)">Innate Techniques</span> - [[Sonic Boom]], [[Thunder Stomp]], [[Training Arc]], [[Awesome Blow]], [[Shockwave]]
 1/day - [[Fracture]]

@@ -1,0 +1,3 @@
+Cursed items come in two variants: generic curses that can be applied to existing items that have some kind of drawback, such as a limited number of used before disintegrating, and completely unique items that are inseparable from their usual function. The [[Identify Item]] function of the [[arcana]] skill can help identify the function, and with a higher roll, the drawbacks of a cursed item.
+
+Many cursed items cannot be removed, or otherwise have annoying conditions for removing their drawbacks. Once someone suffers from the effects of the curse, the [[Identify Affliction or Curse (P)|identify curse]] function of [[+Medicine]] can be used to determine how to alleviate it (using the same DC to identify the cursed item). 

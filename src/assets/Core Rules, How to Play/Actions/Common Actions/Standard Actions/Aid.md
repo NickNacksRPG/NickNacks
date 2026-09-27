@@ -1,4 +1,4 @@
-Provide one of the following bonuses to an ally within your reach for 1 round (up to 3 times):
+Provide one of the following bonuses to an ally (that isn't yourself) within your reach for 1 round (up to 3 times):
 
 +2 to [[Attack]] 
 +2 to [[+Saving Throw|Saves]]

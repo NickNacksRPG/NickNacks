@@ -1,5 +1,5 @@
 Points: 1
-When not [[Dual Wielding]], get +2 [[Attack]] and the damage dice of the weapon increases to d10.
+When not [[Twin Strike]], get +2 [[Attack]] and the damage dice of the weapon increases to d10.
 These benefits only apply when the weapon is used to make [[Melee Attack|melee attacks]].
 
 <span style="color:rgb(192, 0, 0)">Note:</span>

@@ -3,5 +3,5 @@
 - A large chunk of wood or metal with handles on one side to affix to your arm. Can be used to make [[+Shield Actions|shield actions]].
 - Comes with the [[CM]] (shove) quality
 - Gives 5 [[poise]]
-- Also comes in a tower shield variant, giving additional shield actions and 10 poise. (40 lbs, 100g)
+- Also comes in a [[+Shield|tower shield]] variant, giving additional shield actions and 10 poise instead of 5. (40 lbs, 100g)
 - More details under [[+Shield|shields]] page

@@ -7,4 +7,4 @@ Action: Swift
 | Target/[[AoE]] | -   |
 | Duration       | -   |
 | Save           | -   |
-Move to somewhere you have line of sight to.
+Move to somewhere you have line of sight and [[Line of Effect]] to.

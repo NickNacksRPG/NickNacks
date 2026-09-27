@@ -1,0 +1,1 @@
+These are events that are splashable in a wide variety of settings with the intention to cause chaos and provide 

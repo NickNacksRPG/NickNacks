@@ -15,7 +15,7 @@ Role: [[+Marksman]]
 | <span style="color:rgb(192, 0, 0)">Crystal Bow (Force)</span>           | +9       | 100 range (-20 if deactivating [[Artillery]]) |
 | ----------------------------------------------------------------------- | -------- | --------------------------------------------- |
 |                                                                         | d8+3 (7) |                                               |
-| [[Dual Wielding]] <span style="color:rgb(192, 0, 0)">Daggers (P)</span> | +7       |                                               |
+| [[Twin Strike]] <span style="color:rgb(192, 0, 0)">Daggers (P)</span> | +7       |                                               |
 |                                                                         | d6+3 (6) |                                               |
 [[Multiattack]] - Make 2 attacks
 

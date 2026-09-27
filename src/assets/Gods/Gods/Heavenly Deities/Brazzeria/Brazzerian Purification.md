@@ -18,6 +18,6 @@ Other things can add to the bonus that aren't listed here as appropriate.
 
 ## <span style="color:rgb(103, 254, 120)">Born Fiendish</span>
 
-In very rare instances, creatures can be born fiends, such as when they are the child of a demon lord. Such fiends ignore most of the aforementioned rules: They can automatically succeed on the ritual if they are willing, and it always fails if they are not.
+In very rare instances, creatures can be born fiends, such as when they are the children of [[Demon Lords]]. Such fiends ignore most of the aforementioned rules: They can automatically succeed on the ritual if they are willing, and it always fails if they are not.
 
 Their changes tend to be less dramatic, allowing them to maintain most aspects of their fiendish form and powers, making them very rare catches for Brazzerians.

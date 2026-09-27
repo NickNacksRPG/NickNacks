@@ -48,9 +48,9 @@ Gain one at this level and levels 4, 6, 8 and 10. Numbers next to abilities are 
 You get [[+Sleight of Hand]] as a bonus skill with a +4 bonus.
 You can choose a single item no larger that 1 inventory slot to get an additional +8 bonus when you roll sleight of hand to [[Conceal Weapon (P)|conceal item]]. It requires a standard action to retrieve something from your Secret Compartment.
 ## <span style="color:rgb(103, 254, 120)">2 - Extra Pockets</span>
-- +1,000 carry weight
+- +100 carry weight
 - +10 inventory slots 
-- +2 to [[STR]]-based [[Ability Check|ability checks]]
+- +2 to [[+Athletics]] and [[STR]]-based [[Ability Check|ability checks]]
 You can select this talent multiple times.
 ## <span style="color:rgb(103, 254, 120)">2 - Planning Ahead</span>
 Gain the [[Brilliant Planner]] feat.

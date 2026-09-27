@@ -9,11 +9,11 @@ Gain a 15ft aura in which creatures cannot gain stacks of Doom. Enemies also do 
 This aura has a distinct, personalized visual component that interferes with stealth.
 ## <span style="color:rgb(103, 254, 120)">1 - Lucky Break</span>
 You can add LUK to any d20 roll an ally makes as an immediate action if they are within your Aura of Mercy. This feature does not allow you to add luck to a roll twice (ie you both add luck to the roll).
-## <span style="color:rgb(103, 254, 120)">1 - Compassion (Su)</span> [[mind-affecting]]
+## <span style="color:rgb(103, 254, 120)">1 - Compassion (Su)</span> [[Mind-Affecting]]
 When you use Channel Energy, enemies in range that were aggressors/not acting in self-defense are [[pacified]] for 5 rounds (will negates). They get a new save at the end of their turns if you or your allies take aggressive actions versus their allies, and it ends immediately if you or your allies take aggressive actions towards them.
 
 If there are no enemies left, initiative ends, and this ability can be extended for up to 10 minutes as long as you try resolving the conflict peacefully.
-## <span style="color:rgb(103, 254, 120)">2 - Cure (Su)</span> [[healing]]
+## <span style="color:rgb(103, 254, 120)">2 - Cure (Su)</span> [[Healing]]
 When you use healing touch, creatures get a new save against any lingering effects that would normally give additional saves (such as [[ablaze]]). Does not apply to [[permanent status]].
 ## <span style="color:rgb(103, 254, 120)">2 - Endure Elements (Su)</span>
 Creatures that touch your aura of mercy receive a blessing for 1 hour. This blessing allows them to exist inside of otherwise hazardous environments without harm. Blessed creatures ignore environmental effects like toxic volcanic gas, thin air at extreme heights, extremes in temperature, the vacuum of space or the pressure/lack of air in underwater environments.

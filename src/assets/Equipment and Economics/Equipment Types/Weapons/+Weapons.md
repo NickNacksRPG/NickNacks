@@ -38,7 +38,7 @@ The weapon type determines how many additional qualities it can have, its weight
 | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------ |
 | Thrown       | Can be [[Thrown]]                                                                                                                                                                                                                                                          | 1      |
 | Conceal      | +4 to [[Conceal Weapon (P)\|conceal item]]. Drawing a weapon with the conceal property to use with sleight of hand does not require a swift action                                                                                                                         | 1      |
-| Chink Magnet | When not [[Dual Wielding]], your attacks against [[DD]] targets automatically [[crit]].<br>This benefit only applies when the weapon is used to make [[Melee Attack\|melee attacks]]                                                                                       | 1      |
+| Chink Magnet | When not [[Twin Strike]], your attacks against [[DD]] targets automatically [[crit]].<br>This benefit only applies when the weapon is used to make [[Melee Attack\|melee attacks]]                                                                                       | 1      |
 | Ammunition   | Can be drawn as a free action an unlimited number of times per turn.  Sold/carried in units of 50.<br>Also grants the thrown property.<br>You do not need to wield an ammunition weapon, and it can be thrown directly from the inventory as long as you have a free hand. | 2      |
 <span style="color:rgb(192, 0, 0)">Note:</span>
 Some weapon qualities, like chink magnet, require you to not dual wield. You can still wield 2 weapons, but you only get the bonus during turns you only attack with one.
@@ -46,7 +46,7 @@ Some weapon qualities, like chink magnet, require you to not dual wield. You can
 
 | Quality      | Description                                                                                                                                                                     | Points |
 | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------ |
-| One and Done | When not [[Dual Wielding]], get +2 [[Attack]] and the damage dice increases to d10<br>These benefits only apply when the weapon is used to make [[Melee Attack\|melee attacks]] | 1      |
+| One and Done | When not [[Twin Strike]], get +2 [[Attack]] and the damage dice increases to d10<br>These benefits only apply when the weapon is used to make [[Melee Attack\|melee attacks]] | 1      |
 | Thrown       | Can be [[Thrown]]                                                                                                                                                               | 1      |
 ## <span style="color:rgb(103, 254, 120)">Two-Handed</span>
 

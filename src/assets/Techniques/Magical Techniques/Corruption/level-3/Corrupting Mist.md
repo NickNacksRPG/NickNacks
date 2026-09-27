@@ -1,5 +1,5 @@
 Level 3 [[Corruption]]
-Tags: [[Poison]], [[Persistent]], [[Concentration]], [[Upcast]]
+Tags: [[Poison]], [[Persistent]], [[Concentration]], [[Upcast]], [[Air]]
 Action: Standard
 
 | Range          | 60 ft                                           |

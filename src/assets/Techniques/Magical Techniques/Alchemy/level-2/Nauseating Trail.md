@@ -1,5 +1,5 @@
 Level 2 [[Alchemy (T)]]
-Tags: [[Poison]], [[Persistent]], [[Concentration]]
+Tags: [[Poison]], [[Persistent]], [[Concentration]], [[Air]]
 Action: Standard
 
 | Range          | -                |

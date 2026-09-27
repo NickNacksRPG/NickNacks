@@ -1,5 +1,5 @@
-Plague alchemists use their mastery over toxic substances to melt their enemies. They have incredible damage potential in drawn out fights without healers.
-## <span style="color:rgb(103, 254, 120)">1 - Toxic to the Touch </span> ([[Su]]) ([[Poison]])
+Plague alchemists use their mastery over toxic substances to melt their enemies. They have incredible damage potential in drawn out fights without healers. What better laboratory than the blood-soaked battlefield?
+## <span style="color:rgb(103, 254, 120)">1 - Toxic to the Touch </span> [[Su]] [[Poison]]
 Whenever a creature fails a saving throw against one of your spells that deals damage, or [[On-hit]], it applies a stack of <span style="color:rgb(192, 0, 0)">Toxic</span>. For the next minute, they take poison damage equal to the stacks of toxic they have at the start of each of their turns. Toxic damage also applies an additional toxic stack each round, but it does not extend its duration.
 
 Toxic damage cannot kill creatures, it only [[Defeated|defeats]] them if it drops them to 0. The toxic stacks persist while defeated, but do not accumulate further.
@@ -12,11 +12,11 @@ You gain [[Poison Jab]] as an innate technique.
 
 Whenever a creature fails a save against one of your toxins, they also gain a stack of <span style="color:rgb(192, 0, 0)">toxic</span>.
 ## <span style="color:rgb(103, 254, 120)">1 - Expunge (Su)</span>
-As a standard action, remove all toxic stacks from all creatures within 60 ft of you. Creatures take 3 true damage for each stack of toxic they possesses.
+As a standard action, remove all toxic stacks from all creatures within 60 ft of you. Creatures take 3 [[true damage]] for each stack of toxic they possesses.
 
 You can choose to either make it deadly or nonlethal. Nonlethal expunges can only defeat creatures, not kill them.
 
-When done out of combat, this ability has the [[Subtle]] tag. If you choose to lethally expunge outside of combat and it defeats a creature, they die [[Fortitude]] negates. 
+When done out of combat, this ability has the [[Subtle]] tag. If you choose to lethally expunge outside of combat and it defeats a creature, they die (fort negates). 
 ## <span style="color:rgb(103, 254, 120)">2 - Ambush</span>
 When you successfully [[Hide]] from a creature and attack them or cast a spell on them, you can make an additional [[simple attack]] against them as a swift action.
 ## <span style="color:rgb(103, 254, 120)">4 - Vengeful Expunge</span>

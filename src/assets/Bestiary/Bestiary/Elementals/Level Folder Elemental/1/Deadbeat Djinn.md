@@ -11,7 +11,7 @@ Role: [[+Controller]]
 | <span style="color:rgb(0, 176, 240)">Saves</span> | Fort +3, Refl +1, Will +3 |     |
 ## <span style="color:rgb(192, 0, 0)">Offense Traits (DC 12)</span>
 
-| [[Dual Wielding]] <span style="color:rgb(192, 0, 0)">Scimitar (S)</span> | +3       | [[Thrown]] |
+| [[Twin Strike]] <span style="color:rgb(192, 0, 0)">Scimitar (S)</span> | +3       | [[Thrown]] |
 | ------------------------------------------------------------------------ | -------- | ---------- |
 |                                                                          | d6+2 (5) |            |
 <span style="color:rgb(192, 0, 0)">Multiattack</span> - Make 2 [[Thrown]] attacks with scimitars

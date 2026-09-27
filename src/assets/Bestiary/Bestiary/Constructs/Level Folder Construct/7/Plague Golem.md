@@ -7,31 +7,33 @@ Role: [[+Controller]]
 | <span style="color:rgb(0, 176, 240)">AC</span>    | 26 ([[Armor\|heavy armor]]) |               |
 | ------------------------------------------------- | --------------------------- | ------------- |
 | <span style="color:rgb(0, 176, 240)">HP</span>    | 76                          |               |
-| <span style="color:rgb(0, 176, 240)">Poise</span> | 49                          | [[DR\|DRA]] 1 |
+| <span style="color:rgb(0, 176, 240)">Poise</span> | 50                          | [[DR\|DRA]] 1 |
 | <span style="color:rgb(0, 176, 240)">Saves</span> | Fort +12, Refl +7, Will +7  |               |
 [[Immunity]] - Poison, [[+Toxins]] and [[Venom]]
-[[+Shield Actions]] - Plague golems wield [[+Shield|tower shield]]s
+[[+Shield Actions]] - Plague golems wield [[+Shield|tower shield]]s and can use these actions on creatures within 60 ft thanks to their Shield Hero technique.
 ## <span style="color:rgb(192, 0, 0)">Offense Traits (DC 19)</span>
  
-| <span style="color:rgb(192, 0, 0)">Muck (poison)</span> | +10        |     |
-| ------------------------------------------------------- | ---------- | --- |
-|                                                         | 2d8+9 (18) |     |
-<span style="color:rgb(192, 0, 0)">Innate Techniques (CL 9)</span> - [[Toxic Waste]]
-1/day - [[Caustic Blood]]
-Prepared - [[Unbreakable Advance]], [[Muck Punch]], [[Caustic Surprise]]
+| <span style="color:rgb(192, 0, 0)">Muck Punch (poison)</span> | +10        |     |
+| ------------------------------------------------------------- | ---------- | --- |
+|                                                               | 2d8+9 (18) |     |
+<span style="color:rgb(192, 0, 0)">Innate Techniques (CL 9)</span> - [[Toxic Waste]], [[Shield Brother]]
+1/day - [[Caustic Blood]], [[It's Time to Duel!]], [[Brace Yourself]]
+Prepared - [[Unbreakable Advance]], [[Muck Punch]], [[Caustic Surprise]], [[Shield Hero]]
 
 <span style="color:rgb(192, 0, 0)">You're Toxic</span> [[+Toxins|Toxin]] [[Persistent]] [[Air]] - Every space the plague golem moves through during its turn, and every adjacent space at the end of its turn is filled with a heavy transparent [[toxic gas]]. The gas is not thick enough to automatically inflict [[sickened]] 1 so (fort negates). At the start of its turn, any gas it left behind last turn dissipates.
+They can willingly activate or deactivate this ability 1/turn as a free action.
 ## <span style="color:rgb(247, 138, 255)">Weaknesses/Deep Lore</span>
 
-<span style="color:rgb(247, 138, 255)">Date Night</span> - By applying a very strong pleasant scent to a plague golem, such as a perfume or cologne, its You're Toxic ability is disabled until it washes the scent off. 
+<span style="color:rgb(247, 138, 255)">Date Night</span> - By applying a very strong pleasant scent to a plague golem, such as a perfume or cologne, its You're Toxic ability is disabled until it washes the scent off.
+<span style="color:rgb(247, 138, 255)">ID Confirmed </span>- Plague golems can remember up to 10 different things with their [[Photographic Memory]] feat. They usually use this memory to identify who they follow orders from, and what allies to avoid during combat. This can be done through visual confirmation of the creature directly, or some kind of physical ID with a noteworthy insignia.
 ## <span style="color:rgb(103, 254, 120)"><span style="color:rgb(0, 176, 80)">Other Traits</span></span>
 
 <span style="color:rgb(103, 254, 120)">Ability Scores</span> - [[STR]] +3, [[DEX]] +0, [[LUK]] +0, [[INT]] +2, [[WIS]] +0, [[CHA]] +0
 <span style="color:rgb(103, 254, 120)">Languages</span> - Common, draconic, primordial, goblin
 <span style="color:rgb(103, 254, 120)">Equipment</span> - Heavy armor, Tower Shield
 <span style="color:rgb(103, 254, 120)">Speed</span> - 30 [[Land Speed]]
-<span style="color:rgb(103, 254, 120)">Feats</span> - [[Dual-Wielding Versatility]], [[Bonded Weapon]], [[Weapon Focus]] (slash and crush)
-<span style="color:rgb(103, 254, 120)">Skills</span> - +9 [[+Perception]], +12 [[+Athletics]], +14 [[Alchemy]]
+<span style="color:rgb(103, 254, 120)">Feats</span> - [[Freedom of Movement]], [[Mage Slayer]], [[Photographic Memory]], [[Shield Focus]]
+<span style="color:rgb(103, 254, 120)">Skills</span> - +9 [[+Perception]], +12 [[+Athletics]], +13 [[Alchemy]], +11 [[Arcana]]
 
 ![[@MonsterOfSukeP3.jpg|By [SukeP](https://x.com/MonsterOfSukeP)]]
 

@@ -1,5 +1,5 @@
 Level 2 [[Barbarism]]
-Tags: [[Upcast]]
+Tags: [[Upcast]], [[Elusive]]
 Action: [[Special Attack]]
 
 | Range          | Reach      |

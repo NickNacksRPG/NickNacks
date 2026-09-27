@@ -808,5 +808,44 @@
   },
   "Techniques/Z Tech with no home": {
     "icon": "minotaur"
+  },
+  "Bestiary/Environmental Hazards/Altitude": {
+    "icon": "mountains"
+  },
+  "Bestiary/Environmental Hazards/Fog": {
+    "icon": "fog"
+  },
+  "Bestiary/Environmental Hazards/Frosty Terrain": {
+    "icon": "snowman"
+  },
+  "Bestiary/Environmental Hazards/Gravity": {
+    "icon": "planet-line"
+  },
+  "Bestiary/Environmental Hazards/Slippery Surfaces": {
+    "icon": "falling"
+  },
+  "Bestiary/Environmental Hazards/Smoke": {
+    "icon": "🌫️"
+  },
+  "Bestiary/Environmental Hazards/Toxic Gas": {
+    "icon": "poison-gas"
+  },
+  "Bestiary/Environmental Hazards/Wild Fire": {
+    "icon": "🔥"
+  },
+  "Lore/Factions/+Factions": {
+    "icon": "griffin-symbol"
+  },
+  "Lore/Factions/Arc (L)": {
+    "icon": "bleeding-wound"
+  },
+  "Lore/Factions/Shi'Sara": {
+    "icon": "hunter-eyes"
+  },
+  "Lore/Factions/Shi'Zen": {
+    "icon": "psychic-waves"
+  },
+  "Lore/Factions/Shi'Sulm": {
+    "icon": "insect-jaws"
   }
 }
