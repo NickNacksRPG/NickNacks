@@ -134,7 +134,7 @@
     "icon": "bleeding-eye"
   },
   "Classes/Necromancer": {
-    "icon": "skull"
+    "icon": "💀"
   },
   "Classes/Paladin": {
     "icon": "holy-grail"
@@ -149,7 +149,7 @@
     "icon": "spy"
   },
   "Classes/Rogue": {
-    "icon": "domino-mask"
+    "icon": "bx-mask"
   },
   "Classes/Shapeshifter": {
     "icon": "wolf-howl"
@@ -181,7 +181,7 @@
   },
   "Core Rules, How to Play/Hitpoints": {
     "color": "#00b0f0",
-    "icon": "heart-plus"
+    "icon": "centaur-heart"
   },
   "Core Rules, How to Play/More Rules": {
     "color": "#00b0f0"
@@ -212,7 +212,7 @@
   },
   "Equipment and Economics/Equipment Types/Alchemical Items/Thrown Concoctions": {
     "color": "#fbff00",
-    "icon": "sparky-bomb"
+    "icon": "fizzing-flask"
   },
   "Equipment and Economics/Equipment Types/Alchemical Items/Other Utility": {
     "color": "#fbff00",
@@ -271,7 +271,7 @@
   },
   "Equipment and Economics/Equipment Types/Gear Upgrades/Spell Focus Items/Seals": {
     "color": "#fbff00",
-    "icon": "magic-palm"
+    "icon": "totem-head"
   },
   "Equipment and Economics/Equipment Types/Gear Upgrades/Spell Focus Items/Staves": {
     "color": "#fbff00",
@@ -279,7 +279,7 @@
   },
   "Equipment and Economics/Equipment Types/Gear Upgrades/Spell Focus Items/Wands": {
     "color": "#fbff00",
-    "icon": "wand"
+    "icon": "wand-sparkles"
   },
   "Equipment and Economics/Equipment Types/Gear Upgrades/Unique Item Sets": {
     "color": "#fbff00",
@@ -338,7 +338,7 @@
   },
   "Feats/Racial Feats": {
     "color": "#67FE78",
-    "icon": "person"
+    "icon": "checkered-flag"
   },
   "Feats/Teamwork Feats": {
     "color": "#67FE78",
@@ -385,7 +385,7 @@
   },
   "Lore/The Timeline": {
     "color": "#2e3cff",
-    "icon": "📆"
+    "icon": "🗓️"
   },
   "Meta Discussions": {
     "color": "#80fff3",
@@ -490,7 +490,7 @@
   },
   "Skills/Skills/Linguistics": {
     "color": "#c500ff",
-    "icon": "㊙️"
+    "icon": "㊗️"
   },
   "Skills/Skills/Medicine": {
     "color": "#c500ff",
@@ -510,7 +510,7 @@
   },
   "Skills/Skills/Sleight of Hand": {
     "color": "#c500ff",
-    "icon": "padlock-open"
+    "icon": "bxs-lock-open"
   },
   "Skills/Skills/Stealth": {
     "color": "#c500ff",
@@ -628,7 +628,7 @@
   },
   "Techniques/Martial Techniques/Arc": {
     "color": "#00b0f0",
-    "icon": "mute"
+    "icon": "bleeding-wound"
   },
   "Techniques/Martial Techniques/Barbarism": {
     "color": "#00b0f0",
@@ -747,7 +747,7 @@
     "icon": "😶‍🌫️"
   },
   "Gods/Gods/Demigods/Gralth the Inferno": {
-    "icon": "spiked-dragon-head"
+    "icon": "dragonframe"
   },
   "Gods/Gods/Demigods/Shroomlette": {
     "icon": "🍄"
@@ -800,13 +800,7 @@
   "Random Charts/Afflictions and Scars": {
     "icon": "broken-heart"
   },
-  "Techniques/Magical Techniques/Moogen/level-1": {
-    "icon": "abstract-024"
-  },
   "Bestiary/Bestiary/Cryptids/Level Folder Cryptid": {
-    "icon": "minotaur"
-  },
-  "Techniques/Z Tech with no home": {
     "icon": "minotaur"
   },
   "Bestiary/Environmental Hazards/Altitude": {
@@ -1063,5 +1057,836 @@
   },
   "Classes/Mechanic/Mechanic": {
     "icon": "🔧"
+  },
+  "Classes/Mechanic/Archetypes/Pilot": {
+    "icon": "tank"
+  },
+  "Classes/Mesmerist/Mesmerist": {
+    "icon": "bleeding-eye"
+  },
+  "Classes/Mesmerist/Archetypes/Puppet Master": {
+    "icon": "puppet"
+  },
+  "Classes/Pack Mule": {
+    "icon": "donkey"
+  },
+  "Classes/Necromancer/Archetypes/Restless Spirit": {
+    "icon": "ghost"
+  },
+  "Classes/Mechanic/Archetypes/Suitor": {
+    "icon": "samus-helmet"
+  },
+  "Classes/Necromancer/Archetypes/Death Knight": {
+    "icon": "brutal-helm"
+  },
+  "Classes/Necromancer/Archetypes/Medium": {
+    "icon": "👻"
+  },
+  "Classes/Paladin/Paladin": {
+    "icon": "holy-grail"
+  },
+  "Classes/Paladin/Archetypes/Dashing Hero": {
+    "icon": "mounted-knight"
+  },
+  "Classes/Paladin/Archetypes/Inquisitor": {
+    "icon": "embrassed-energy"
+  },
+  "Classes/Paladin/Archetypes/Invincible Champion": {
+    "icon": "face-grin-tongue-squint"
+  },
+  "Classes/Psychic/Psychic (C)": {
+    "icon": "psychic-waves"
+  },
+  "Classes/Psychic/Archetypes/Disco": {
+    "icon": "glass-celebration"
+  },
+  "Classes/Psychic/Archetypes/Fate Spinner/Fate Spinner": {
+    "icon": "card-joker"
+  },
+  "Classes/Psychic/Archetypes/Fate Spinner/Curses": {
+    "icon": "cursed-star"
+  },
+  "Classes/Psychic/Archetypes/Spy/Spy": {
+    "icon": "spy"
+  },
+  "Classes/Psychic/Archetypes/Telekineticist": {
+    "icon": "hand-sparkles"
+  },
+  "Classes/Rogue/Archetypes/Bandit": {
+    "icon": "💰"
+  },
+  "Classes/Rogue/Archetypes/Basic Bitch Rogue": {
+    "icon": "bread-slice"
+  },
+  "Classes/Rogue/Archetypes/Mastermind": {
+    "icon": "🧠"
+  },
+  "Classes/Rogue/Archetypes/Ninja": {
+    "icon": "user-ninja"
+  },
+  "Classes/Rogue/Archetypes/Thug": {
+    "icon": "spiked-bat"
+  },
+  "Classes/Rogue/Rogue": {
+    "icon": "bx-mask"
+  },
+  "Classes/Shapeshifter/Shapeshifter": {
+    "icon": "wolf-howl"
+  },
+  "Classes/Shapeshifter/Archetypes/Goober": {
+    "icon": "gooey-daemon"
+  },
+  "Classes/Shapeshifter/Archetypes/Spiderman": {
+    "icon": "🕸️"
+  },
+  "Classes/Skyman/+Skyman": {
+    "icon": "sonic-shout"
+  },
+  "Classes/Slayer/Archetypes/Parry Fiend": {
+    "icon": "circular-saw"
+  },
+  "Classes/Summoner": {
+    "icon": "scroll-quill"
+  },
+  "Classes/Summoner/Summoner": {
+    "icon": "scroll-quill"
+  },
+  "Classes/Summoner/Archetypes/Eidolon": {
+    "icon": "pokeball"
+  },
+  "Classes/Summoner/Archetypes/Eidolon/Eidolon Binder": {
+    "icon": "pokeball"
+  },
+  "Classes/Summoner/Archetypes/Master Summoner": {
+    "icon": "dark-squad"
+  },
+  "Classes/Summoner/Archetypes/Eidolon/Eidolon": {
+    "icon": "user-question"
+  },
+  "Classes/Virtuoso": {
+    "icon": "number-4"
+  },
+  "Classes/Wizard/Wizard": {
+    "icon": "pointy-hat"
+  },
+  "Classes/Wizard/Archetypes/Chronomancer": {
+    "icon": "alarm-clock"
+  },
+  "Classes/Wizard/Archetypes/Financial": {
+    "icon": "💰"
+  },
+  "Classes/Wizard/Archetypes/Destruction": {
+    "icon": "bomb-explosion"
+  },
+  "Core Rules, How to Play/Abbreviations and Terminology/CC": {
+    "icon": "💫"
+  },
+  "Core Rules, How to Play/Abbreviations and Terminology/DR": {
+    "icon": "bx-shield-alt-2"
+  },
+  "Core Rules, How to Play/Abbreviations and Terminology/Minion": {
+    "icon": "hands-holding-child"
+  },
+  "Core Rules, How to Play/Abbreviations and Terminology/On-hit": {
+    "icon": "on-target"
+  },
+  "Core Rules, How to Play/Abbreviations and Terminology/Random Direction": {
+    "icon": "misdirection"
+  },
+  "Core Rules, How to Play/Abbreviations and Terminology/Poise": {
+    "icon": "fall"
+  },
+  "Core Rules, How to Play/Abbreviations and Terminology/Permanent Status": {
+    "icon": "mood-sad-dizzy"
+  },
+  "Core Rules, How to Play/Abbreviations and Terminology/Tether": {
+    "icon": "jump-rope"
+  },
+  "Core Rules, How to Play/Ability Scores/Extraordinary Strength": {
+    "icon": "muscle-up"
+  },
+  "Core Rules, How to Play/Ability Scores/Serendipity": {
+    "icon": "🍀"
+  },
+  "Core Rules, How to Play/Ability Scores/Prayer": {
+    "icon": "hands-praying"
+  },
+  "Core Rules, How to Play/Actions/Action System/Movement/Burrow": {
+    "icon": "shovel"
+  },
+  "Core Rules, How to Play/Actions/Action System/Movement/Climb": {
+    "icon": "mountain-climbing"
+  },
+  "Core Rules, How to Play/Actions/Action System/Movement/Fly": {
+    "icon": "feather-wing"
+  },
+  "Core Rules, How to Play/Actions/Action System/Movement/Glide": {
+    "icon": "hummingbird"
+  },
+  "Core Rules, How to Play/Actions/Action System/Movement/Hover": {
+    "icon": "ufo"
+  },
+  "Core Rules, How to Play/Actions/Action System/Movement/Land Speed": {
+    "icon": "trail"
+  },
+  "Core Rules, How to Play/Actions/Common Actions/Free Actions/Delay": {
+    "icon": "clock"
+  },
+  "Core Rules, How to Play/Actions/Common Actions/Free Actions/Swap Item": {
+    "icon": "switch-weapon"
+  },
+  "Core Rules, How to Play/Actions/Common Actions/Full Round Actions/Charge": {
+    "icon": "charging-bull"
+  },
+  "Core Rules, How to Play/Actions/Common Actions/Standard Actions/Administer Potion": {
+    "icon": "potion"
+  },
+  "Core Rules, How to Play/Actions/Common Actions/Standard Actions/Aid": {
+    "icon": "handshake-angle"
+  },
+  "Core Rules, How to Play/Actions/Common Actions/Standard Actions/Carry": {
+    "icon": "cargo-crane"
+  },
+  "Core Rules, How to Play/Actions/Common Actions/Standard Actions/Dash": {
+    "icon": "running-ninja"
+  },
+  "Core Rules, How to Play/Actions/Common Actions/Standard Actions/Disengage": {
+    "icon": "🏳️"
+  },
+  "Core Rules, How to Play/Actions/Common Actions/Standard Actions/Focus": {
+    "icon": "focus-2"
+  },
+  "Core Rules, How to Play/Actions/Common Actions/Swift and Immediate Actions/Get Down!": {
+    "icon": "shield-bash"
+  },
+  "Core Rules, How to Play/Actions/Common Actions/Swift and Immediate Actions/Jump": {
+    "icon": "jump-across"
+  },
+  "Core Rules, How to Play/Actions/Common Actions/Swift and Immediate Actions/Apply Toxin": {
+    "icon": "poison-bottle"
+  },
+  "Core Rules, How to Play/Actions/Common Actions/Swift and Immediate Actions/Mount": {
+    "icon": "mounted-knight"
+  },
+  "Core Rules, How to Play/Actions/Common Actions/Standard Actions/Total Defense": {
+    "icon": "player-dodge"
+  },
+  "Core Rules, How to Play/Actions/Common Actions/Swift and Immediate Actions/Use Potion": {
+    "icon": "round-potion"
+  },
+  "Core Rules, How to Play/Attacking/Crit": {
+    "icon": "bomb-explosion"
+  },
+  "Core Rules, How to Play/Attacking/Graze": {
+    "icon": "high-grass"
+  },
+  "Core Rules, How to Play/Attacking/Simple Attack": {
+    "icon": "sword-brandish"
+  },
+  "Core Rules, How to Play/Attacking/Special Attack": {
+    "icon": "saber-slash"
+  },
+  "Core Rules, How to Play/Attacking/Twin Strike": {
+    "icon": "dervish-swords"
+  },
+  "Core Rules, How to Play/Attacking/Types of Attack Rolls/Melee Attack": {
+    "icon": "daggers"
+  },
+  "Core Rules, How to Play/Attacking/Types of Attack Rolls/Natural Attack": {
+    "icon": "bird-claw"
+  },
+  "Core Rules, How to Play/Attacking/Types of Attack Rolls/Ranged Attack/High Ground": {
+    "icon": "tower-flag"
+  },
+  "Core Rules, How to Play/Attacking/Types of Attack Rolls/Ranged Attack/Long": {
+    "icon": "pocket-bow"
+  },
+  "Core Rules, How to Play/Attacking/Types of Attack Rolls/Ranged Attack/Range Increments": {
+    "icon": "ruler-measure"
+  },
+  "Core Rules, How to Play/Attacking/Types of Attack Rolls/Ranged Attack/Ranged Attack": {
+    "icon": "crossbow"
+  },
+  "Core Rules, How to Play/Attacking/Types of Attack Rolls/Ranged Attack/Short": {
+    "icon": "crossed-pistols"
+  },
+  "Core Rules, How to Play/Attacking/Types of Attack Rolls/Ranged Attack/Thrown": {
+    "icon": "north-star-shuriken"
+  },
+  "Core Rules, How to Play/Attacking/Types of Attack Rolls/Unarmed Attack": {
+    "icon": "hand-fist"
+  },
+  "Core Rules, How to Play/Attacking/Types of Attack Rolls/Spell Attack": {
+    "icon": "bolt-spell-cast"
+  },
+  "Core Rules, How to Play/Attacking/Types of Attack Rolls/Weapon Attack": {
+    "icon": "broadsword"
+  },
+  "Core Rules, How to Play/Attacking/Types of Attack Rolls/Siege Weapons/+Siege Weapon": {
+    "icon": "tank"
+  },
+  "Core Rules, How to Play/Hitpoints/+HP": {
+    "icon": "centaur-heart"
+  },
+  "Core Rules, How to Play/Hitpoints/Temp HP": {
+    "icon": "heart-plus"
+  },
+  "Core Rules, How to Play/More Rules/Fall Damage": {
+    "icon": "falling"
+  },
+  "Core Rules, How to Play/More Rules/Size": {
+    "icon": "resize"
+  },
+  "Core Rules, How to Play/Saving Throws/+Saving Throw": {
+    "icon": "save"
+  },
+  "Core Rules, How to Play/Status Effects/Defeated": {
+    "icon": "dead-head"
+  },
+  "Core Rules, How to Play/Status Effects/Drained": {
+    "icon": "blood"
+  },
+  "Core Rules, How to Play/Status Effects/Mana Burn": {
+    "icon": "fire-gem"
+  },
+  "Core Rules, How to Play/Tags/Companion": {
+    "icon": "hands-holding-child"
+  },
+  "Core Rules, How to Play/The Game, All in One Place": {
+    "icon": "‼️"
+  },
+  "Equipment and Economics/Approximating Golds Value/Approximating Gold's Value": {
+    "icon": "gold-bar"
+  },
+  "Equipment and Economics/Approximating Golds Value/Background/+Backgrounds": {
+    "icon": "background"
+  },
+  "Equipment and Economics/Approximating Golds Value/Background/Benefactor": {
+    "icon": "🥂"
+  },
+  "Equipment and Economics/Approximating Golds Value/Background/Tradesman": {
+    "icon": "blacksmith"
+  },
+  "Equipment and Economics/Approximating Golds Value/Background/Noble": {
+    "icon": "👑"
+  },
+  "Equipment and Economics/Approximating Golds Value/Background/Family Man": {
+    "icon": "bx-home-heart"
+  },
+  "Equipment and Economics/Approximating Golds Value/Background/Businessman": {
+    "icon": "receive-money"
+  },
+  "Equipment and Economics/Approximating Golds Value/Background/Wanderer": {
+    "icon": "person-hiking"
+  },
+  "Equipment and Economics/Approximating Golds Value/Downtime/+Downtime": {
+    "icon": "alarm-clock"
+  },
+  "Equipment and Economics/Approximating Golds Value/Economics/Economics": {
+    "icon": "GraphLineUp"
+  },
+  "Equipment and Economics/Approximating Golds Value/Economics/Mana Donation": {
+    "icon": "hands-holding"
+  },
+  "Equipment and Economics/Approximating Golds Value/Economics/Populations": {
+    "icon": "human-pyramid"
+  },
+  "Equipment and Economics/Equipment Types/Alchemical Items/Alchemical Items": {
+    "icon": "potion-ball"
+  },
+  "Equipment and Economics/Equipment Types/Alchemical Items/Potions/+Potions": {
+    "icon": "health-potion"
+  },
+  "Equipment and Economics/Equipment Types/Alchemical Items/Thrown Concoctions/+Thrown Concoctions": {
+    "icon": "fizzing-flask"
+  },
+  "Equipment and Economics/Equipment Types/Alchemical Items/Toxins/+Toxins": {
+    "icon": "poison-bottle"
+  },
+  "Equipment and Economics/Equipment Types/Armor and Shield Rules/Armor": {
+    "icon": "cape-armor"
+  },
+  "Equipment and Economics/Equipment Types/Armor and Shield Rules/Shields/+Shield": {
+    "icon": "Shield"
+  },
+  "Equipment and Economics/Equipment Types/Armor and Shield Rules/Shields/+Shield Actions": {
+    "icon": "shield-bounces"
+  },
+  "Equipment and Economics/Equipment Types/Cursed Items": {
+    "icon": "evil-book"
+  },
+  "Equipment and Economics/Equipment Types/Cursed Items/+Cursed Items": {
+    "icon": "evil-book"
+  },
+  "Equipment and Economics/Equipment Types/Gear Upgrades/Gear Upgrades": {
+    "icon": "upgrade"
+  },
+  "Equipment and Economics/Equipment Types/Gear Upgrades/Materials": {
+    "icon": "metal-bar"
+  },
+  "Equipment and Economics/Equipment Types/Gear Upgrades/Materials/+Materials": {
+    "icon": "metal-bar"
+  },
+  "Equipment and Economics/Equipment Types/Gear Upgrades/Pricing Gear Upgrades": {
+    "icon": "💸"
+  },
+  "Equipment and Economics/Equipment Types/Gear Upgrades/Manathirst": {
+    "icon": "crystal-eye"
+  },
+  "Equipment and Economics/Equipment Types/Gear Upgrades/Baubles/+Baubles": {
+    "icon": "gem-necklace"
+  },
+  "Equipment and Economics/Equipment Types/Gear Upgrades/Magic Armor Properties/+Magic Armor Properties": {
+    "icon": "shield-reflect"
+  },
+  "Equipment and Economics/Equipment Types/Gear Upgrades/Magic Weapon Properties/+Magic Weapon Properties": {
+    "icon": "lightning-sword"
+  },
+  "Equipment and Economics/Equipment Types/Gear Upgrades/Magic Weapon Properties/+Magical Conduits": {
+    "icon": "‼️"
+  },
+  "Equipment and Economics/Equipment Types/Gear Upgrades/Spell Focus Items/Seals/Seals": {
+    "icon": "totem-head"
+  },
+  "Equipment and Economics/Equipment Types/Gear Upgrades/Spell Focus Items/Staves/Staves": {
+    "icon": "wizard-staff"
+  },
+  "Equipment and Economics/Equipment Types/Gear Upgrades/Spell Focus Items/Wands/Wands": {
+    "icon": "wand-sparkles"
+  },
+  "Equipment and Economics/Equipment Types/Gear Upgrades/Unique Item Sets/+Unique Item Sets": {
+    "icon": "puzzle"
+  },
+  "Equipment and Economics/Equipment Types/Gear Upgrades/Unique Weapons/+Unique and Magic Weapons": {
+    "icon": "magic-axe"
+  },
+  "Equipment and Economics/Equipment Types/Gear Upgrades/Wieldables/Wieldables": {
+    "icon": "hand"
+  },
+  "Equipment and Economics/Equipment Types/Goods and Services/Gmail": {
+    "icon": "envelope"
+  },
+  "Equipment and Economics/Equipment Types/Goods and Services/+Goods and Services": {
+    "icon": "envelope"
+  },
+  "Equipment and Economics/Equipment Types/Goods and Services/Teleportation Circles": {
+    "icon": "player-teleport"
+  },
+  "Equipment and Economics/Equipment Types/Inventory": {
+    "icon": "backpack"
+  },
+  "Equipment and Economics/Equipment Types/Jizzle Physicks": {
+    "icon": "gooey-daemon"
+  },
+  "Equipment and Economics/Equipment Types/Mundane Items/Holy Water": {
+    "icon": "holy-water"
+  },
+  "Equipment and Economics/Equipment Types/Mundane Items/+Mundane Items": {
+    "icon": "torch"
+  },
+  "Equipment and Economics/Equipment Types/Mundane Items/Torch": {
+    "icon": "torch"
+  },
+  "Equipment and Economics/Equipment Types/Mundane Items/Tools": {
+    "icon": "toolbox"
+  },
+  "Equipment and Economics/Equipment Types/Mundane Items/Property": {
+    "icon": "house-chimney-user"
+  },
+  "Equipment and Economics/Equipment Types/The Black Market": {
+    "icon": "bx-mask"
+  },
+  "Equipment and Economics/Equipment Types/Weapons/+Weapons": {
+    "icon": "crossed-swords"
+  },
+  "Equipment and Economics/Equipment Types/Weapons/Exotic Weapons/Net": {
+    "icon": "fishing-net"
+  },
+  "Equipment and Economics/Equipment Types/Weapons/Exotic Weapons/Whip": {
+    "icon": "whip"
+  },
+  "Equipment and Economics/Equipment Types/Weapons/Exotic Weapons/Boomerang": {
+    "icon": "boomerang"
+  },
+  "Equipment and Economics/Equipment Types/Weapons/Exotic Weapons/Harpoon": {
+    "icon": "harpoon-chain"
+  },
+  "Equipment and Economics/Equipment Types/Weapons/Exotic Weapons/Bola": {
+    "icon": "bolas"
+  },
+  "Equipment and Economics/Equipment Types/Weapons/Exotic Weapons/Lance": {
+    "icon": "mounted-knight"
+  },
+  "Equipment and Economics/Equipment Types/Weapons/Exotic Weapons/Parrying Dagger": {
+    "icon": "broad-dagger"
+  },
+  "Equipment and Economics/Equipment Types/Weapons/Exotic Weapons/Shield (W)": {
+    "icon": "spiked-shield"
+  },
+  "Equipment and Economics/Equipment Types/Weapons/Exotic Weapons/Staff": {
+    "icon": "wizard-staff"
+  },
+  "Equipment and Economics/Equipment Types/Weapons/Improvised Weapons": {
+    "icon": "wooden-chair"
+  },
+  "Feats/Combat Feats/+Combat Feats": {
+    "icon": "broadsword"
+  },
+  "Feats/Feat Functionality": {
+    "icon": "footprint"
+  },
+  "Feats/General Feats/+General Feats": {
+    "icon": "toolbox"
+  },
+  "Feats/Magic Feats/+Magic Feats": {
+    "icon": "crescent-staff"
+  },
+  "Feats/Multiclass/+Multiclass": {
+    "icon": "yin-yang"
+  },
+  "Feats/Racial Feats/Racial Feats": {
+    "icon": "checkered-flag"
+  },
+  "Feats/Teamwork Feats/+Teamwork Feats": {
+    "icon": "team-upgrade"
+  },
+  "Gods/Gods/Demigods/Anime Jesus/Anime Jesus": {
+    "icon": "aura"
+  },
+  "Gods/Gods/Demigods/Ao Shin the Storm Dragon/Ao Shin the Storm Dragon": {
+    "icon": "lightning-storm"
+  },
+  "Gods/Gods/Demigods/Artemis/Artemis": {
+    "icon": "🌘"
+  },
+  "Gods/Gods/Demigods/Clairvoyance (G)/Clairvoyance (G)": {
+    "icon": "😶‍🌫️"
+  },
+  "Gods/Gods/Demigods/Gralth the Inferno/Gralth the Inferno": {
+    "icon": "dragonframe"
+  },
+  "Gods/Gods/Demigods/Taka the Tourist/T1 - Trailblazer": {
+    "icon": "trail"
+  },
+  "Gods/Gods/Demigods/The Spider Queen/The Spider Queen": {
+    "icon": "🕸️"
+  },
+  "Gods/Gods/Demigods/Ulule/Ulule": {
+    "icon": "well"
+  },
+  "Gods/Gods/Demon Lords/Demon Lords": {
+    "icon": "tarot-15-the-devil"
+  },
+  "Gods/Gods/Demon Lords/Moogen, The Murderer/The Eye of Moogen": {
+    "icon": "abstract-024"
+  },
+  "Gods/Gods/Demon Lords/Moogen, The Murderer/Moogen, The Murderer": {
+    "icon": "abstract-024"
+  },
+  "Gods/Gods/Demon Lords/Shira, The She-Devil/Shira, the She-Devil": {
+    "icon": "fox"
+  },
+  "Gods/Gods/Earthly Deities/Hades/Hades": {
+    "icon": "hades-symbol"
+  },
+  "Gods/Gods/Heavenly Deities/Brazzeria/Brazzeria": {
+    "icon": "🌔"
+  },
+  "Gods/Gods/Heavenly Deities/Celeste/Celeste": {
+    "icon": "book-aura"
+  },
+  "Gods/Gods/Heavenly Deities/Splendor/Splendor": {
+    "icon": "🎨"
+  },
+  "Lore/Other Lore/Fleshwarping": {
+    "icon": "chained-heart"
+  },
+  "Lore/Planes/-Planes": {
+    "icon": "magic-portal"
+  },
+  "Lore/Planes/Mortal Realm": {
+    "icon": "atlas"
+  },
+  "Lore/The Timeline/0. The Age of Titans": {
+    "icon": "giant"
+  },
+  "Lore/The Timeline/1. The Age of Dragons": {
+    "icon": "🐲"
+  },
+  "Lore/The Timeline/2. The Age of Underground": {
+    "icon": "underground-cave"
+  },
+  "Lore/The Timeline/4. The Age of Darkness": {
+    "icon": "⚫"
+  },
+  "Lore/The Timeline/3. The Age of Magic": {
+    "icon": "crowned-explosion"
+  },
+  "Lore/The Timeline/+The Timeline": {
+    "icon": "🗓️"
+  },
+  "Meta Discussions/+I'm New to Tabletop Role-Playing": {
+    "icon": "baby-face"
+  },
+  "Meta Discussions/Advice for Playing the Game": {
+    "icon": "speech-bubble"
+  },
+  "Meta Discussions/Advice for Playing the Game/+Advice for Playing the Game": {
+    "icon": "speech-bubble"
+  },
+  "Minigames/Arm Wrestling": {
+    "icon": "💪"
+  },
+  "Minigames/Chase/+Chase": {
+    "icon": "run"
+  },
+  "Minigames/D420": {
+    "icon": "dice-d20"
+  },
+  "Minigames/Drinking Contest": {
+    "icon": "🍺"
+  },
+  "Minigames/+Minigames": {
+    "icon": "gamepad"
+  },
+  "Races/+Races": {
+    "icon": "checkered-flag"
+  },
+  "Races/Amazon": {
+    "icon": "giant"
+  },
+  "Races/Beastfolk/Beastfolk": {
+    "icon": "flat-paw-print"
+  },
+  "Races/Boner": {
+    "icon": "crowned-skull"
+  },
+  "Races/Centaur": {
+    "icon": "centaur"
+  },
+  "Races/Cyborg": {
+    "icon": "cyborg-face"
+  },
+  "Races/Dark Elf": {
+    "icon": "underground-cave"
+  },
+  "Races/Drakonid": {
+    "icon": "dragon"
+  },
+  "Races/Dwarf": {
+    "icon": "dwarf-face"
+  },
+  "Races/Elf": {
+    "icon": "woman-elf-face"
+  },
+  "Races/Fairy": {
+    "icon": "🧚"
+  },
+  "Races/Goblin": {
+    "icon": "goblin"
+  },
+  "Races/Human": {
+    "icon": "person-16"
+  },
+  "Races/Orc": {
+    "icon": "orc-head"
+  },
+  "Races/Plantalones": {
+    "icon": "🪴"
+  },
+  "Races/Polymerization": {
+    "icon": "gooey-daemon"
+  },
+  "Races/Puppest": {
+    "icon": "sitting-dog"
+  },
+  "Races/Seraphim": {
+    "icon": "angel-wings"
+  },
+  "Races/Shades": {
+    "icon": "eclipse"
+  },
+  "Races/Shroomkin": {
+    "icon": "mushroom-house"
+  },
+  "Random Charts/Afflictions and Scars/Afflictions": {
+    "icon": "broken-heart"
+  },
+  "Skills/Skills/Acrobatics/+Acrobatics": {
+    "icon": "acrobatic"
+  },
+  "Skills/Skills/Acrobatics/Improved Jump (P)": {
+    "icon": "jump-across"
+  },
+  "Skills/Skills/Acrobatics/Avoid AoO (P)": {
+    "icon": "player-dodge"
+  },
+  "Skills/Skills/Acrobatics/Balance": {
+    "icon": "body-balance"
+  },
+  "Skills/Skills/Athletics/+Athletics": {
+    "icon": "weight-lifting-up"
+  },
+  "Skills/Skills/Athletics/Breakout": {
+    "icon": "breaking-chain"
+  },
+  "Skills/Skills/Athletics/Brute Force": {
+    "icon": "cracked-disc"
+  },
+  "Skills/Skills/Deception/+Deception": {
+    "icon": "duality-mask"
+  },
+  "Skills/Skills/Insight/+Insight": {
+    "icon": "think"
+  },
+  "Skills/Skills/Disguise/+Disguise": {
+    "icon": "drama-masks"
+  },
+  "Skills/Skills/Intimidation/+Intimidation": {
+    "icon": "screaming"
+  },
+  "Skills/Skills/Intimidation/Demoralize": {
+    "icon": "shouting"
+  },
+  "Skills/Skills/Knowledge/Alchemy/Alchemy": {
+    "icon": "dripping-tube"
+  },
+  "Skills/Skills/Knowledge/Arcana/Arcana": {
+    "icon": "party-hat"
+  },
+  "Skills/Skills/Knowledge/Cryptozoology/+Cryptozoology": {
+    "icon": "spaghetti-monster-flying"
+  },
+  "Skills/Skills/Knowledge/Engineering/Engineering": {
+    "icon": "fort-awesome"
+  },
+  "Skills/Skills/Knowledge/History/+History": {
+    "icon": "fossil"
+  },
+  "Skills/Skills/Knowledge/Local/+Local": {
+    "icon": "human-pyramid"
+  },
+  "Skills/Skills/Knowledge/Nature/+Nature": {
+    "icon": "🌳"
+  },
+  "Skills/Skills/Knowledge/Planes/+Planes": {
+    "icon": "magic-portal"
+  },
+  "Skills/Skills/Knowledge/Religion/+Religion": {
+    "icon": "hand-of-god"
+  },
+  "Skills/Skills/Linguistics/+Linguistics": {
+    "icon": "㊗️"
+  },
+  "Skills/Skills/Medicine/+Medicine": {
+    "icon": "suitcase-medical"
+  },
+  "Skills/Skills/Medicine/First Aid (P)": {
+    "icon": "bx-plus-medical"
+  },
+  "Skills/Skills/Medicine/Stave Death": {
+    "icon": "bandage"
+  },
+  "Skills/Skills/Persuasion/+Persuasion": {
+    "icon": "handshake-simple"
+  },
+  "Skills/Skills/Profession/+Profession": {
+    "icon": "farmer"
+  },
+  "Skills/Skills/Sleight of Hand/+Sleight of Hand": {
+    "icon": "bxs-lock-open"
+  },
+  "Skills/Skills/Stealth/+Stealth": {
+    "icon": "hood"
+  },
+  "Techniques/Magical Techniques/+Cantrips/+Cantrips": {
+    "icon": "fairy-wand"
+  },
+  "Techniques/Magical Techniques/Academy/Academy": {
+    "icon": "spell-book"
+  },
+  "Techniques/Magical Techniques/Alchemy/Alchemy (T)": {
+    "icon": "fizzing-flask"
+  },
+  "Techniques/Magical Techniques/Arcane/Arcane": {
+    "icon": "star-swirl"
+  },
+  "Techniques/Magical Techniques/Brazzeria (T)/Brazzeria (T)": {
+    "icon": "angel-outfit"
+  },
+  "Techniques/Magical Techniques/Clairvoyance (T)/Clairvoyance (T)": {
+    "icon": "lightning-storm"
+  },
+  "Techniques/Magical Techniques/Corruption/Corruption": {
+    "icon": "evil-book"
+  },
+  "Techniques/Magical Techniques/Cryomancy/Cryomancy": {
+    "icon": "snowman"
+  },
+  "Techniques/Magical Techniques/Frogg-Saran (T)/Frogg Saran (T)": {
+    "icon": "frog"
+  },
+  "Techniques/Magical Techniques/Geomancy": {
+    "icon": "rock"
+  },
+  "Techniques/Magical Techniques/Geomancy/Geomancy": {
+    "icon": "rock"
+  },
+  "Techniques/Magical Techniques/God Mode/God Mode": {
+    "icon": "sands-of-time"
+  },
+  "Techniques/Magical Techniques/Golden Order/Golden Order": {
+    "icon": "aura"
+  },
+  "Techniques/Magical Techniques/Goomshroom/Goomshroom": {
+    "icon": "mushroom"
+  },
+  "Techniques/Magical Techniques/Moogen/Moogen": {
+    "icon": "abstract-024"
+  },
+  "Techniques/Magical Techniques/Mother Earth/Mother Earth": {
+    "icon": "leaf"
+  },
+  "Techniques/Magical Techniques/Necromancy/Necromancy": {
+    "icon": "💀"
+  },
+  "Techniques/Magical Techniques/Psionics/Psionics": {
+    "icon": "psychic-waves"
+  },
+  "Techniques/Magical Techniques/Pyromancy/Pyromancy": {
+    "icon": "flame_big"
+  },
+  "Techniques/Magical Techniques/Shira/Shira": {
+    "icon": "fox"
+  },
+  "Techniques/Magical Techniques/Vampirism/Vampirism": {
+    "icon": "vampire-dracula"
+  },
+  "Techniques/Martial Techniques/+Warfare/Warfare": {
+    "icon": "crossed-swords"
+  },
+  "Techniques/Martial Techniques/Beastmode/Beastmode": {
+    "icon": "flat-paw-print"
+  },
+  "Techniques/Martial Techniques/Cataclysm/Cataclysm": {
+    "icon": "volcano"
+  },
+  "Techniques/Martial Techniques/Marksman/Marksman": {
+    "icon": "pocket-bow"
+  },
+  "Techniques/Martial Techniques/Protector/Protector": {
+    "icon": "Shield"
+  },
+  "Techniques/Martial Techniques/Pupper/Pupper": {
+    "icon": "dog"
+  },
+  "Techniques/Martial Techniques/Scoundrel/Scoundrel": {
+    "icon": "hood"
+  },
+  "Techniques/Martial Techniques/Unarmed/Unarmed": {
+    "icon": "hand-fist"
+  },
+  "Techniques/Martial Techniques/Arc/Arc": {
+    "icon": "bleeding-wound"
   }
 }
